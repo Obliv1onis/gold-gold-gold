@@ -1,0 +1,637 @@
+<!-- PROTOTYPE - NOT FOR PRODUCTION -->
+<!-- Question: Does the reel animation + sound feel satisfying enough to keep opening without real stakes? -->
+<!-- Date: 2026-05-18 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS2 Case Simulator — Prototype</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: #1b2838;
+    color: #c6d4df;
+    font-family: 'Motiva Sans', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+/* ── Header ── */
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.case-name {
+    font-size: 11px;
+    color: #8f98a0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+}
+.case-title {
+    font-size: 22px;
+    color: #c6d4df;
+    letter-spacing: 1px;
+}
+.key-info {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #6f8899;
+}
+.key-info span {
+    color: #c6d4df;
+    font-weight: bold;
+}
+
+/* ── Reel wrapper ── */
+.reel-wrapper {
+    position: relative;
+    width: 860px;
+    overflow: hidden;
+    background: #0e1923;
+    border-top: 2px solid #3a4f5e;
+    border-bottom: 2px solid #3a4f5e;
+}
+
+/* Gradient fade on edges */
+.reel-wrapper::before,
+.reel-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 220px;
+    z-index: 5;
+    pointer-events: none;
+}
+.reel-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, #0e1923 0%, transparent 100%);
+}
+.reel-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, #0e1923 0%, transparent 100%);
+}
+
+/* Centre indicator arrow (top) */
+.arrow-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 14px solid #f5c542;
+    z-index: 10;
+}
+/* Centre indicator arrow (bottom) */
+.arrow-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #f5c542;
+    z-index: 10;
+}
+
+/* Yellow side lines */
+.center-marker {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 170px;
+    height: 100%;
+    border-left: 2px solid #f5c542;
+    border-right: 2px solid #f5c542;
+    z-index: 6;
+    pointer-events: none;
+}
+
+/* The reel strip */
+.reel {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    will-change: transform;
+}
+
+/* Item card */
+.item-card {
+    flex-shrink: 0;
+    width: 164px;
+    height: 130px;
+    margin: 0 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom: 3px solid transparent;
+    overflow: hidden;
+}
+
+.item-card .skin-bg {
+    position: absolute;
+    inset: 0;
+    opacity: 0.12;
+}
+
+.item-card .weapon-label {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8f98a0;
+    z-index: 1;
+    text-align: center;
+}
+.item-card .skin-label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #dce3e8;
+    z-index: 1;
+    text-align: center;
+    line-height: 1.3;
+    margin-top: 2px;
+    padding: 0 6px;
+}
+
+/* Rarity colour themes */
+.r-consumer  { border-bottom-color: #b0c3d9; }
+.r-consumer  .skin-bg { background: #b0c3d9; }
+
+.r-industrial{ border-bottom-color: #5e98d9; }
+.r-industrial .skin-bg { background: #5e98d9; }
+
+.r-milspec   { border-bottom-color: #4b69ff; }
+.r-milspec   .skin-bg { background: #4b69ff; }
+
+.r-restricted{ border-bottom-color: #8847ff; }
+.r-restricted .skin-bg { background: #8847ff; }
+
+.r-classified{ border-bottom-color: #d32ce6; }
+.r-classified .skin-bg { background: #d32ce6; }
+
+.r-covert    { border-bottom-color: #eb4b4b; }
+.r-covert    .skin-bg { background: #eb4b4b; }
+
+.r-contraband{ border-bottom-color: #e4ae39; }
+.r-contraband .skin-bg { background: #e4ae39; }
+
+/* ── Buttons ── */
+.controls {
+    margin-top: 28px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.btn-open {
+    padding: 13px 48px;
+    background: linear-gradient(to bottom, #67c23a, #4e9a2a);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    clip-path: polygon(8px 0%,calc(100% - 8px) 0%,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0% calc(100% - 8px),0% 8px);
+    transition: filter 0.1s;
+}
+.btn-open:hover:not(:disabled) { filter: brightness(1.15); }
+.btn-open:active:not(:disabled) { filter: brightness(0.9); }
+.btn-open:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.btn-refill {
+    padding: 10px 22px;
+    background: transparent;
+    border: 1px solid #4a7090;
+    color: #6f9cb8;
+    font-size: 12px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: border-color 0.1s, color 0.1s;
+}
+.btn-refill:hover { border-color: #7ab0d0; color: #9fc8e0; }
+
+/* ── Reveal overlay ── */
+.reveal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 14, 20, 0.88);
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.reveal-overlay.show { display: flex; }
+
+.reveal-box {
+    padding: 48px 80px 40px;
+    border: 2px solid #555;
+    background: #16202d;
+    text-align: center;
+    animation: revealPop 0.25s ease-out;
+    position: relative;
+}
+@keyframes revealPop {
+    from { transform: scale(0.88); opacity: 0; }
+    to   { transform: scale(1);    opacity: 1; }
+}
+
+.reveal-received {
+    font-size: 10px;
+    color: #8f98a0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+.reveal-weapon {
+    font-size: 14px;
+    color: #8f98a0;
+    margin-bottom: 4px;
+}
+.reveal-skin {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.reveal-rarity {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+.btn-close-reveal {
+    padding: 10px 36px;
+    background: transparent;
+    border: 1px solid #4a7090;
+    color: #6f9cb8;
+    font-size: 13px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.1s;
+}
+.btn-close-reveal:hover { background: #1e3040; border-color: #7ab0d0; color: #9fc8e0; }
+
+/* Last pulled display */
+.last-pull {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #4f6070;
+    min-height: 18px;
+    text-align: center;
+}
+.last-pull span { font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="case-name">CS2 Case Simulator — Prototype</div>
+    <div class="case-title">Recoil Case</div>
+    <div class="key-info">Keys: <span id="keyCount">50</span></div>
+</div>
+
+<div class="reel-wrapper" id="reelWrapper">
+    <div class="arrow-top"></div>
+    <div class="arrow-bottom"></div>
+    <div class="center-marker"></div>
+    <div class="reel" id="reel"></div>
+</div>
+
+<div class="controls">
+    <button class="btn-open" id="btnOpen" onclick="openCase()">Open Case</button>
+    <button class="btn-refill" onclick="refillKeys()">+ Refill Keys</button>
+</div>
+
+<div class="last-pull" id="lastPull"></div>
+
+<!-- Reveal overlay -->
+<div class="reveal-overlay" id="revealOverlay">
+    <div class="reveal-box" id="revealBox">
+        <div class="reveal-received">You received</div>
+        <div class="reveal-weapon" id="rvWeapon"></div>
+        <div class="reveal-skin"   id="rvSkin"></div>
+        <div class="reveal-rarity" id="rvRarity"></div>
+        <button class="btn-close-reveal" onclick="closeReveal()">Close</button>
+    </div>
+</div>
+
+<script>
+// ─── Data ───────────────────────────────────────────────────────────────────
+
+const ITEMS = {
+    consumer:   [
+        { w:'XM1014',       s:'Oxide Blaze'      },
+        { w:'MP5-SD',       s:'Condition Zero'   },
+        { w:'Nova',         s:'Antique'          },
+        { w:'P2000',        s:'Urban Hazard'     },
+        { w:'CZ75-Auto',    s:'Army Mesh'        },
+    ],
+    industrial: [
+        { w:'FAMAS',        s:'Colony'           },
+        { w:'Tec-9',        s:'Isaac'            },
+        { w:'P90',          s:'Sand Spray'       },
+    ],
+    milspec:    [
+        { w:'P250',         s:'Re.built'         },
+        { w:'M249',         s:'Deep Relief'      },
+        { w:'Galil AR',     s:'Kami'             },
+        { w:'Five-SeveN',   s:'Boost Protocol'   },
+        { w:'P90',          s:'Vent Rush'        },
+        { w:'Tec-9',        s:'Decimator'        },
+        { w:'Negev',        s:'Dazzle'           },
+    ],
+    restricted: [
+        { w:'FAMAS',        s:'Mecha Industries' },
+        { w:'USP-S',        s:'Ticket to Hell'   },
+        { w:'SSG 08',       s:'Parallax'         },
+        { w:'R8 Revolver',  s:'Crazy Train'      },
+        { w:'Dual Berettas',s:'Hydro Strike'     },
+    ],
+    classified: [
+        { w:'M4A1-S',       s:'Night Terror'     },
+        { w:'AWP',          s:'Chromatic Aberration'},
+        { w:'MAC-10',       s:'Allure'           },
+        { w:'MP9',          s:'Featherweight'    },
+    ],
+    covert:     [
+        { w:'AK-47',        s:'The Empress'      },
+        { w:'Glock-18',     s:'Vogue'            },
+    ],
+    contraband: [
+        { w:'★ Karambit',       s:'Doppler'      },
+        { w:'★ M9 Bayonet',     s:'Marble Fade'  },
+        { w:'★ Butterfly Knife',s:'Fade'         },
+        { w:'★ Talon Knife',    s:'Tiger Tooth'  },
+    ],
+};
+
+// Approximate CS2 odds (%)
+const WEIGHTS = {
+    consumer: 79.92, industrial: 15.98, milspec: 3.2,
+    restricted: 0.64, classified: 0.13, covert: 0.026, contraband: 0.026,
+};
+
+const COLORS = {
+    consumer:'#b0c3d9', industrial:'#5e98d9', milspec:'#4b69ff',
+    restricted:'#8847ff', classified:'#d32ce6', covert:'#eb4b4b', contraband:'#e4ae39',
+};
+const LABELS = {
+    consumer:'Consumer Grade', industrial:'Industrial Grade', milspec:'Mil-Spec Grade',
+    restricted:'Restricted', classified:'Classified', covert:'Covert', contraband:'Rare Special Item ★',
+};
+
+// ─── State ───────────────────────────────────────────────────────────────────
+
+let keys    = 50;
+let spinning = false;
+let audioCtx = null;
+
+// ─── Audio ───────────────────────────────────────────────────────────────────
+
+function ctx() {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    return audioCtx;
+}
+
+function tick(vol = 0.25) {
+    const ac = ctx();
+    const osc = ac.createOscillator();
+    const g   = ac.createGain();
+    osc.connect(g); g.connect(ac.destination);
+    osc.type = 'square';
+    osc.frequency.value = 700 + Math.random() * 300;
+    g.gain.setValueAtTime(vol, ac.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + 0.035);
+    osc.start(); osc.stop(ac.currentTime + 0.04);
+}
+
+function revealSound(rarity) {
+    const ac  = ctx();
+    const now = ac.currentTime;
+    // Map rarity to a pleasant chord frequency
+    const base = { consumer:330, industrial:370, milspec:415,
+                   restricted:494, classified:587, covert:659, contraband:880 }[rarity] || 440;
+
+    [[base, 0.45, 1.6], [base*1.5, 0.2, 1.0], [base*2, 0.1, 0.7]].forEach(([freq, amp, dur]) => {
+        const osc = ac.createOscillator();
+        const g   = ac.createGain();
+        osc.connect(g); g.connect(ac.destination);
+        osc.type = 'sine';
+        osc.frequency.value = freq;
+        g.gain.setValueAtTime(amp, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + dur);
+        osc.start(now); osc.stop(now + dur + 0.05);
+    });
+
+    // Low thump for covert / contraband
+    if (['covert','contraband','classified'].includes(rarity)) {
+        const osc = ac.createOscillator();
+        const g   = ac.createGain();
+        osc.connect(g); g.connect(ac.destination);
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(120, now);
+        osc.frequency.exponentialRampToValueAtTime(40, now + 0.3);
+        g.gain.setValueAtTime(0.5, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.start(now); osc.stop(now + 0.4);
+    }
+}
+
+// ─── Item helpers ─────────────────────────────────────────────────────────────
+
+function roll() {
+    const total = Object.values(WEIGHTS).reduce((a,b) => a+b, 0);
+    let r = Math.random() * total;
+    for (const [k, w] of Object.entries(WEIGHTS)) { r -= w; if (r <= 0) return k; }
+    return 'consumer';
+}
+
+function randomItem(rarity) {
+    const pool = ITEMS[rarity];
+    const item = pool[Math.floor(Math.random() * pool.length)];
+    return { weapon: item.w, skin: item.s, rarity };
+}
+
+function rollItem() { return randomItem(roll()); }
+
+// ─── Card builder ────────────────────────────────────────────────────────────
+
+function makeCard(item) {
+    const div = document.createElement('div');
+    div.className = `item-card r-${item.rarity}`;
+    div.innerHTML = `
+        <div class="skin-bg"></div>
+        <div class="weapon-label">${item.weapon}</div>
+        <div class="skin-label">${item.skin}</div>`;
+    return div;
+}
+
+// ─── Reel initialiser ────────────────────────────────────────────────────────
+
+const ITEM_W = 170; // px (164 + 6 margin)
+const VISIBLE = Math.ceil(860 / ITEM_W) + 2; // how many cards fill the viewport
+
+function fillReel(winnerPos) {
+    const reel = document.getElementById('reel');
+    reel.innerHTML = '';
+    const total = winnerPos + VISIBLE + 4;
+    for (let i = 0; i < total; i++) {
+        // winner placed at winnerPos, everything else is random
+        reel.appendChild(makeCard(i === winnerPos ? rollItem._winner : rollItem()));
+    }
+}
+
+function initIdleReel() {
+    const reel = document.getElementById('reel');
+    reel.innerHTML = '';
+    for (let i = 0; i < VISIBLE + 2; i++) reel.appendChild(makeCard(rollItem()));
+}
+
+initIdleReel();
+
+// ─── Easing ──────────────────────────────────────────────────────────────────
+
+// CS2's reel uses a strong ease-out — blazing fast, then long tail of deceleration
+function easeOutQuint(t) { return 1 - Math.pow(1 - t, 5); }
+
+// ─── Open logic ──────────────────────────────────────────────────────────────
+
+function openCase() {
+    if (spinning || keys <= 0) return;
+    spinning = true;
+    keys--;
+    document.getElementById('keyCount').textContent = keys;
+    document.getElementById('btnOpen').disabled = true;
+
+    // Pick winner
+    const winner = rollItem();
+
+    // The winner lands at this position index in the reel strip
+    // Use a fixed position far enough that the spin looks substantial
+    const WINNER_POS = 42;
+
+    // Inject winner at that slot
+    rollItem._winner = winner;
+    fillReel(WINNER_POS);
+
+    const reel     = document.getElementById('reel');
+    const wrapper  = document.getElementById('reelWrapper');
+    const vpCenter = wrapper.offsetWidth / 2;
+
+    // Slight random stop offset (±30px) so it doesn't always perfectly centre
+    const stopOffset = (Math.random() - 0.5) * 40;
+    const winnerCenter = WINNER_POS * ITEM_W + ITEM_W / 2;
+    const targetX = -(winnerCenter - vpCenter + stopOffset);
+
+    // Reset position without animation
+    reel.style.transition = 'none';
+    reel.style.transform  = `translateX(0px)`;
+
+    // Allow reflow, then start animating
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+        const DURATION = 7800; // ms — close to CS2's ~7–8 s
+        const start    = performance.now();
+        let lastCrossed = 0;
+
+        function frame(now) {
+            const t  = Math.min((now - start) / DURATION, 1);
+            const et = easeOutQuint(t);
+            const x  = targetX * et;
+
+            reel.style.transform = `translateX(${x}px)`;
+
+            // Tick sound: fire when crossing each item boundary
+            const crossed = Math.floor(Math.abs(x) / ITEM_W);
+            if (crossed > lastCrossed) {
+                // Volume drops as we slow down (mirrors CS2 feel)
+                const vol = Math.max(0.04, 0.32 * (1 - et));
+                tick(vol);
+                lastCrossed = crossed;
+            }
+
+            if (t < 1) {
+                requestAnimationFrame(frame);
+            } else {
+                // Short pause before reveal (CS2 does ~0.4 s)
+                setTimeout(() => showReveal(winner), 420);
+            }
+        }
+
+        requestAnimationFrame(frame);
+    }));
+}
+
+// ─── Reveal ──────────────────────────────────────────────────────────────────
+
+function showReveal(item) {
+    revealSound(item.rarity);
+    const color = COLORS[item.rarity];
+
+    document.getElementById('rvWeapon').textContent  = item.weapon;
+    document.getElementById('rvSkin').textContent    = item.skin;
+    document.getElementById('rvSkin').style.color    = color;
+    document.getElementById('rvRarity').textContent  = LABELS[item.rarity];
+    document.getElementById('rvRarity').style.color  = color;
+
+    const box = document.getElementById('revealBox');
+    box.style.borderColor = color;
+    box.style.boxShadow   = `0 0 40px ${color}55, inset 0 0 20px ${color}18`;
+
+    document.getElementById('revealOverlay').classList.add('show');
+}
+
+function closeReveal() {
+    const overlay = document.getElementById('revealOverlay');
+    overlay.classList.remove('show');
+
+    // Read last item from DOM before resetting
+    const skin   = document.getElementById('rvSkin').textContent;
+    const weapon = document.getElementById('rvWeapon').textContent;
+    const rarity = document.getElementById('rvRarity').textContent;
+    const color  = document.getElementById('rvSkin').style.color;
+
+    document.getElementById('lastPull').innerHTML =
+        `Last pull: <span style="color:${color}">${weapon} | ${skin}</span> — ${rarity}`;
+
+    spinning = false;
+    initIdleReel();
+
+    const btn = document.getElementById('btnOpen');
+    if (keys <= 0) {
+        btn.textContent = 'No Keys';
+        btn.disabled = true;
+    } else {
+        btn.textContent = 'Open Case';
+        btn.disabled = false;
+    }
+}
+
+function refillKeys() {
+    keys = 50;
+    document.getElementById('keyCount').textContent = keys;
+    const btn = document.getElementById('btnOpen');
+    if (!spinning) { btn.textContent = 'Open Case'; btn.disabled = false; }
+}
+</script>
+</body>
+</html>

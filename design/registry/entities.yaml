@@ -37,7 +37,7 @@
 #   Each entry: name, status, source, referenced_by[], attributes{}, added, revised
 
 version: 1
-last_updated: ""
+last_updated: "2026-05-20"
 
 # ─── ENTITIES ────────────────────────────────────────────────────────────────
 # Named game-world objects: enemies, NPCs, characters, factions, bosses.
@@ -106,7 +106,59 @@ items: []
 #   output_range[min, max], added
 # Optional: expression (the actual formula), notes
 
-formulas: []
+formulas:
+  - name: per_item_probability
+    status: active
+    source: design/gdd/drop-rate-engine.md
+    referenced_by:
+      - design/gdd/case-data-store.md      # introduced as data schema illustration
+      - design/gdd/drop-rate-engine.md     # implementation specification
+      # inventory.md and case-browser-ui.md may reference for display purposes
+    variables:
+      - rarity_weight_tier
+      - item_count_tier
+    output_range: [0.013, 79.92]
+    expression: "rarity_weight[tier] / item_count[tier]"
+    notes: "Output is a percentage (not 0–1). Minimum is 0.26/20 = 0.013%. Maximum
+      is 79.92/1 = 79.92%. Case Data Store owns the weights; Drop Rate Engine owns
+      this formula's implementation."
+    added: 2026-05-19
+    revised: ""
+
+  - name: ease_out_quint
+    status: active
+    source: design/gdd/reel-animation-engine.md
+    referenced_by:
+      - design/gdd/reel-animation-engine.md
+      # No other system currently uses this easing function
+    variables:
+      - t
+    output_range: [0, 1]
+    expression: "1 - (1 - t)^5"
+    notes: "t is linear animation progress in [0,1]. Output feeds into the Frame
+      Position Formula. Prototype-validated easing — do not change without
+      re-testing animation feel."
+    added: 2026-05-19
+    revised: ""
+
+  - name: net_proceeds
+    status: active
+    source: design/gdd/skin-inventory.md
+    referenced_by:
+      - design/gdd/skin-inventory.md
+      - design/gdd/reveal-ui.md
+      - design/gdd/inventory-ui.md
+      # market-browser-ui.md will reference for direct skin sell flow (Vertical Slice)
+    variables:
+      - market_price
+      - sell_fee_rate
+    output_range: [0.01, unbounded]
+    expression: "market_price * (1 - sell_fee_rate)"
+    notes: "Result is rounded to 2 decimal places (Math.round(result * 100) / 100)
+      before being passed to VirtualEconomy.earn(). Minimum output is $0.01
+      (mirrors market_price floor). sell_fee_rate = 0.15 in MVP."
+    added: 2026-05-20
+    revised: "2026-05-20"
 
 # Example:
 #
@@ -139,9 +191,129 @@ formulas: []
 #
 # Required fields: name, status, source, referenced_by, value, unit, added
 
-constants: []
+constants:
+  - name: tick_pitch_low
+    status: active
+    source: design/gdd/audio-system.md
+    referenced_by:
+      - design/gdd/audio-system.md
+      - design/gdd/reel-animation-engine.md
+    value: 220
+    unit: Hz
+    added: 2026-05-19
+    revised: "2026-05-20"
 
-# Example:
+  - name: tick_pitch_high
+    status: active
+    source: design/gdd/audio-system.md
+    referenced_by:
+      - design/gdd/audio-system.md
+      - design/gdd/reel-animation-engine.md
+    value: 880
+    unit: Hz
+    added: 2026-05-19
+    revised: "2026-05-20"
+
+  - name: chord_decay_ms
+    status: active
+    source: design/gdd/audio-system.md
+    referenced_by:
+      - design/gdd/audio-system.md
+      - design/gdd/case-opening-orchestrator.md
+    value: 800
+    unit: ms
+    added: 2026-05-19
+    revised: "2026-05-20"
+
+  - name: key_balance_default
+    status: deprecated
+    source: design/gdd/persistence.md
+    referenced_by:
+      - design/gdd/persistence.md
+    value: 50
+    unit: keys
+    added: 2026-05-19
+    revised: "2026-05-19"
+    # Deprecated: economy pivot 2026-05-19 — key economy replaced by virtual money economy.
+    # Superseded by starting_balance ($2000 USD) owned by design/gdd/virtual-economy.md.
+    # Persistence GDD key name updated: "keyBalance" → "balance" (retrofit 2026-05-20).
+    # vault_keyBalance localStorage key is legacy — any saved data is ignored on first load.
+
+  - name: starting_balance
+    status: active
+    source: design/gdd/virtual-economy.md
+    referenced_by:
+      - design/gdd/virtual-economy.md
+      - design/gdd/hud-app-shell.md
+      - design/gdd/persistence.md
+    value: 2000.00
+    unit: USD
+    added: 2026-05-19
+    revised: "2026-05-20"
+
+  - name: key_cost_usd
+    status: active
+    source: design/gdd/virtual-economy.md
+    referenced_by:
+      - design/gdd/virtual-economy.md
+      - design/gdd/case-opening-orchestrator.md
+      - design/gdd/hud-app-shell.md
+      - design/gdd/case-inventory.md
+      - design/gdd/case-browser-ui.md
+    value: 2.49
+    unit: USD
+    added: 2026-05-19
+    revised: "2026-05-20"
+
+  - name: balance_floor
+    status: active
+    source: design/gdd/virtual-economy.md
+    referenced_by:
+      - design/gdd/virtual-economy.md
+    value: 0.00
+    unit: USD
+    added: 2026-05-19
+    revised: ""
+
+  - name: reel_card_width
+    status: active
+    source: design/gdd/reel-animation-engine.md
+    referenced_by:
+      - design/gdd/reel-animation-engine.md
+      - design/gdd/reel-ui.md
+      - design/gdd/skin-image-loader.md
+    value: 250
+    unit: px
+    added: 2026-05-19
+    revised: "2026-05-20"
+
+  - name: reel_spin_duration
+    status: active
+    source: design/gdd/reel-animation-engine.md
+    referenced_by:
+      - design/gdd/reel-animation-engine.md
+      - design/gdd/case-opening-orchestrator.md
+    value: 7800
+    unit: ms
+    added: 2026-05-19
+    revised: "2026-05-20"
+
+  - name: sell_fee_rate
+    status: active
+    source: design/gdd/skin-inventory.md
+    referenced_by:
+      - design/gdd/skin-inventory.md
+      - design/gdd/reveal-ui.md
+      - design/gdd/inventory-ui.md
+      # market-browser-ui.md will reference — direct skin sells apply same fee (Vertical Slice)
+    value: 0.15
+    unit: fraction
+    added: 2026-05-20
+    revised: "2026-05-20"
+    # Mirrors CS2 Steam Market fee (13% Valve + 2% game cut). Fidelity constant —
+    # do not change for balance reasons. Update only if real CS2 market fee changes.
+
+# Example (original template — remove when entries exist above):
 #
 # constants:
 #   - name: gold_carry_limit

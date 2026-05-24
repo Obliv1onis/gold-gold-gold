@@ -1,0 +1,22 @@
+{
+  "name": "cs2-case-sim",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Vault — CS2 Case Opening Simulator",
+  "type": "module",
+  "scripts": {
+    "dev":        "vite",
+    "build":      "vite build",
+    "preview":    "vite preview",
+    "test":       "vitest run",
+    "test:watch": "vitest",
+    "test:ui":    "vitest --ui",
+    "coverage":   "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vitest": "^2.0.0",
+    "jsdom": "^25.0.0",
+    "@vitest/coverage-v8": "^2.0.0"
+  }
+}

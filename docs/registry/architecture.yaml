@@ -30,7 +30,8 @@
 #   Superseded entries:     Grep pattern="status: superseded"
 
 version: 1
-last_updated: ""
+last_updated: "2026-05-21"
+adr_coverage: "ADR-0001 through ADR-0009 — all required architecture decisions registered"
 
 # ─── STATE OWNERSHIP ─────────────────────────────────────────────────────────
 # Who is the authoritative owner of each piece of shared game state.
@@ -43,7 +44,50 @@ last_updated: ""
 # interface: how other systems access this state (read-only property, method call,
 #   signal, shared resource, etc.) — this is the contract other ADRs depend on.
 
-state_ownership: []
+state_ownership:
+  - state: audio_context
+    status: active
+    owner_system: audio-system
+    adr: docs/architecture/adr-0004-audio-implementation.md
+    interface: "AudioSystem.resume(): Promise<void> — callers trigger context activation; AudioSystem owns the _ctx instance"
+    write_access: audio-system-only
+    referenced_by:
+      - docs/architecture/adr-0004-audio-implementation.md
+    added: 2026-05-21
+    revised: ""
+
+  - state: persisted_game_state
+    status: active
+    owner_system: persistence
+    adr: docs/architecture/adr-0005-persistence-strategy.md
+    interface: "Persistence.save(key, value) / Persistence.load(key, defaultValue) — all localStorage access goes through this module; keys: balance, case_inventory, skin_inventory, price_[itemId]"
+    write_access: persistence-only
+    referenced_by:
+      - docs/architecture/adr-0005-persistence-strategy.md
+    added: 2026-05-21
+    revised: ""
+
+  - state: animation_loop
+    status: active
+    owner_system: reel-animation-engine
+    adr: docs/architecture/adr-0006-animation-loop-and-reel-data-transport.md
+    interface: "ReelAnimationEngine.spin(caseId, item, vpWidth, callbacks) — RAE owns the RAF loop; callers register onFrame/onTick/onComplete callbacks at spin() time"
+    write_access: reel-animation-engine-only
+    referenced_by:
+      - docs/architecture/adr-0006-animation-loop-and-reel-data-transport.md
+    added: 2026-05-21
+    revised: ""
+
+  - state: skin_image_cache
+    status: active
+    owner_system: skin-image-loader
+    adr: docs/architecture/adr-0007-skin-image-loading-and-placeholder-strategy.md
+    interface: "SkinImageLoader.preloadCase(caseId): Promise / SkinImageLoader.getImage(url, rarity): HTMLImageElement — module-level singleton Map cache; all image access goes through this module"
+    write_access: skin-image-loader-only
+    referenced_by:
+      - docs/architecture/adr-0007-skin-image-loading-and-placeholder-strategy.md
+    added: 2026-05-21
+    revised: ""
 
 # Example:
 #
@@ -71,7 +115,40 @@ state_ownership: []
 #
 # pattern options: signal | direct_call | event_bus | shared_resource | rpc | none
 
-interfaces: []
+interfaces:
+  - contract: state_event_bus
+    status: active
+    pattern: event_bus
+    producer: "Core/Feature layer modules (VirtualEconomy, CaseInventory, SkinInventory, PriceAPILayer, ReelUI)"
+    consumers:
+      - HUD/AppShell
+      - InventoryUI
+      - CaseBrowserUI
+      - MarketBrowserUI
+    adr: docs/architecture/adr-0003-dom-event-architecture.md
+    target: document
+    mechanism: "document.dispatchEvent(new CustomEvent(Events.NAME, { detail: { ... } }))"
+    constants_file: src/foundation/events.js
+    events:
+      - name: balance-changed
+        constant: Events.BALANCE_CHANGED
+        detail: "{ balance: number }"
+      - name: case-inventory-changed
+        constant: Events.CASE_INVENTORY_CHANGED
+        detail: "{ caseId: string, count: number }"
+      - name: skin-inventory-changed
+        constant: Events.SKIN_INVENTORY_CHANGED
+        detail: "{ inventory: SkinEntry[] }"
+      - name: price-updated
+        constant: Events.PRICE_UPDATED
+        detail: "{ itemId: string, price: number, source: string }"
+      - name: reel-ready
+        constant: Events.REEL_READY
+        detail: "{}"
+    referenced_by:
+      - docs/architecture/adr-0003-dom-event-architecture.md
+    added: 2026-05-21
+    revised: ""
 
 # Example:
 #
@@ -131,7 +208,105 @@ performance_budgets: []
 # Register an API decision when the choice is non-obvious and other ADRs might
 # make a different choice for the same purpose without knowing this was decided.
 
-api_decisions: []
+api_decisions:
+  - purpose: module_system
+    status: active
+    api: Vite 6.x
+    not: Rollup (app use case), Webpack 5 (config overhead), native ES modules without build step
+    adr: docs/architecture/adr-0001-web-stack-and-module-system.md
+    reason: "HMR dev server, npm support, Vitest companion shares vite.config.js, dev CORS proxy for Price API"
+    referenced_by:
+      - docs/architecture/adr-0001-web-stack-and-module-system.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: module_syntax
+    status: active
+    api: ES modules (import/export) throughout all source files
+    not: CommonJS (require/module.exports), AMD, UMD
+    adr: docs/architecture/adr-0001-web-stack-and-module-system.md
+    reason: "Native browser module format; Vite-optimised; required for tree-shaking in production build"
+    referenced_by:
+      - docs/architecture/adr-0001-web-stack-and-module-system.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: module_export_pattern
+    status: active
+    api: "named PascalCase module-object export: export const ModuleName = { method1, method2 }"
+    not: "individual function exports (export function X), default exports (export default), CommonJS module.exports"
+    adr: docs/architecture/adr-0002-module-file-structure.md
+    reason: "Preserves ModuleName.method() calling convention from all 17 GDDs; groups public API visibly; named import is refactor-safe"
+    referenced_by:
+      - docs/architecture/adr-0002-module-file-structure.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: file_naming_convention
+    status: active
+    api: "kebab-case.js matching GDD slug (e.g. case-data-store.js, drop-rate-engine.js)"
+    not: "PascalCase.js, camelCase.js, snake_case.js"
+    adr: docs/architecture/adr-0002-module-file-structure.md
+    reason: "GDD slugs are already kebab-case; zero translation step between design doc name and source file path"
+    referenced_by:
+      - docs/architecture/adr-0002-module-file-structure.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: event_target
+    status: active
+    api: "document — all application CustomEvents dispatched on document"
+    not: "window (reserved for browser-level events: resize, popstate, beforeunload)"
+    adr: docs/architecture/adr-0003-dom-event-architecture.md
+    reason: "Consistent target eliminates listener-on-wrong-target failure mode; document is semantically correct for app-internal state events; resolves W-5 advisory"
+    referenced_by:
+      - docs/architecture/adr-0003-dom-event-architecture.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: audio_implementation
+    status: active
+    api: "Raw Web Audio API — AudioContext, OscillatorNode, GainNode; no library"
+    not: "Howler.js (file-playback only, no synthesis), Tone.js (overkill for 3 sounds)"
+    adr: docs/architecture/adr-0004-audio-implementation.md
+    reason: "Audio System GDD requires runtime synthesis; Howler.js cannot synthesize; zero dependency advantage"
+    referenced_by:
+      - docs/architecture/adr-0004-audio-implementation.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: persistence_backend
+    status: active
+    api: "localStorage wrapped by src/foundation/persistence.js — all reads/writes via Persistence.save/load"
+    not: "IndexedDB (async overkill, data fits comfortably in 5MB localStorage), sessionStorage (does not survive tab close), direct localStorage calls in Core modules"
+    adr: docs/architecture/adr-0005-persistence-strategy.md
+    reason: "GDD specifies localStorage; synchronous API matches Core module mutation cycle; thin wrapper enforces vault_ prefix and graceful degradation centrally"
+    referenced_by:
+      - docs/architecture/adr-0005-persistence-strategy.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: price_api_source
+    status: active
+    api: "CSFloat Market API (https://csfloat.com/api/v1/) — direct browser fetch in production if CORS verified; Netlify Function proxy wrapping Steam Market API as fallback"
+    not: "Steam Community Market API via direct browser fetch (CORS-blocked), Skinport API (prices reflect Skinport market not Steam Market — inconsistent with GDD fallback prices)"
+    adr: docs/architecture/adr-0008-price-api-and-cors-solution.md
+    reason: "CSFloat allows browser CORS (verify before VS sprint); Steam prices preferred but require serverless proxy; Skinport prices diverge from GDD fallback values"
+    referenced_by:
+      - docs/architecture/adr-0008-price-api-and-cors-solution.md
+    added: 2026-05-21
+    revised: ""
+
+  - purpose: test_framework
+    status: active
+    api: "Vitest 2.x with jsdom environment; shared mock file at tests/__mocks__/browser-apis.js for AudioContext, requestAnimationFrame, Canvas"
+    not: "Jest (ES module config overhead, separate config from Vite), Playwright (overkill for unit/logic tests)"
+    adr: docs/architecture/adr-0009-test-framework-and-ci.md
+    reason: "Vitest shares vite.config.js with Vite (ADR-0001); jsdom provides document/localStorage/CustomEvent for Foundation+Core tests; zero duplicate config"
+    referenced_by:
+      - docs/architecture/adr-0009-test-framework-and-ci.md
+    added: 2026-05-21
+    revised: ""
 
 # Example:
 #
@@ -157,7 +332,76 @@ api_decisions: []
 # Register a pattern when an ADR explicitly bans it AND other ADRs might
 # unknowingly use it (i.e., it's a tempting but wrong approach for this project).
 
-forbidden_patterns: []
+forbidden_patterns:
+  - pattern: native_modules_bypass_vite
+    status: active
+    description: "Do not load modules via bare <script type='module'> tags without going through the Vite pipeline. All JS must be imported through src/main.js or a Vite entry point."
+    why: "Bypassing Vite breaks HMR, npm package resolution, path aliasing, and Vitest test coverage. Discovered modules outside the pipeline will silently fail in production builds."
+    adr: docs/architecture/adr-0001-web-stack-and-module-system.md
+    added: 2026-05-21
+
+  - pattern: barrel_index_files
+    status: active
+    description: "Do not create index.js barrel files in any src/ subdirectory. All imports must reference the module file directly (e.g. '../core/virtual-economy.js', not '../core/')."
+    why: "Barrel files mask what a module actually exports, prevent Vite from tree-shaking unused exports, and create ambiguity about the actual public API surface."
+    adr: docs/architecture/adr-0002-module-file-structure.md
+    added: 2026-05-21
+
+  - pattern: upward_layer_imports
+    status: active
+    description: "A module may only import from the same layer or a lower layer. Forbidden: src/core/ importing from src/feature/ or src/presentation/; src/foundation/ importing from src/core/ or above."
+    why: "Upward imports create circular dependencies and break the 5-layer dependency rule. The layer structure only enforces architectural constraints if imports flow strictly downward."
+    adr: docs/architecture/adr-0002-module-file-structure.md
+    added: 2026-05-21
+
+  - pattern: inline_event_name_strings
+    status: active
+    description: "Do not use inline string literals for CustomEvent names anywhere in src/. All event names must reference the Events.* constants from src/foundation/events.js."
+    why: "String typos (e.g. 'balance_changed' vs 'balance-changed') fail silently at runtime with no error. Constants are auto-completed by IDEs and cause a ReferenceError on typo."
+    adr: docs/architecture/adr-0003-dom-event-architecture.md
+    added: 2026-05-21
+
+  - pattern: window_dispatch_for_app_events
+    status: active
+    description: "Do not use window.dispatchEvent() for application-internal events. Use document.dispatchEvent() with CustomEvent. window is reserved for browser-level events."
+    why: "window.dispatchEvent mixes app-internal events with browser-level events (resize, popstate). Standardizing on document eliminates listener-on-wrong-target failures. Resolves W-5 cross-GDD advisory."
+    adr: docs/architecture/adr-0003-dom-event-architecture.md
+    added: 2026-05-21
+
+  - pattern: audio_calls_outside_audio_system
+    status: active
+    description: "Do not create AudioContext, OscillatorNode, or GainNode instances anywhere except src/foundation/audio-system.js. All audio playback must go through AudioSystem.playTick(), AudioSystem.playReveal(), or AudioSystem.playUI()."
+    why: "Multiple AudioContext instances cause resource exhaustion. Inline audio calls in Orchestrator or Presentation modules violate Architecture Principle 3 (Sound Is First Class) and make audio untestable in isolation."
+    adr: docs/architecture/adr-0004-audio-implementation.md
+    added: 2026-05-21
+
+  - pattern: direct_localstorage_access
+    status: active
+    description: "Do not call localStorage.getItem(), localStorage.setItem(), localStorage.removeItem(), or localStorage.clear() anywhere except src/foundation/persistence.js. All persistence reads and writes must go through Persistence.save(), Persistence.load(), Persistence.delete(), or Persistence.clearAll()."
+    why: "Direct calls scatter the vault_ prefix convention and duplicate try/catch graceful-degradation logic. A single module is testable in isolation; scattered calls are not. Enforces the atomic mutation contract (mutate → save → dispatch)."
+    adr: docs/architecture/adr-0005-persistence-strategy.md
+    added: 2026-05-21
+
+  - pattern: raf_loop_outside_reel_animation_engine
+    status: active
+    description: "Do not call requestAnimationFrame() anywhere except src/feature/reel-animation-engine.js. No other module may start, stop, or own an animation loop."
+    why: "Multiple concurrent RAF loops cause ordering ambiguity between frame renders. The RAE is the sole animation loop owner — all per-frame work is dispatched through the onFrame/onTick callbacks it manages. Two RAFs running simultaneously would make render order browser-dependent."
+    adr: docs/architecture/adr-0006-animation-loop-and-reel-data-transport.md
+    added: 2026-05-21
+
+  - pattern: direct_image_construction_outside_loader
+    status: active
+    description: "Do not use 'new Image()' or create <img> elements for skin/case art anywhere except src/foundation/skin-image-loader.js. All skin image access must go through SkinImageLoader.getImage() or SkinImageLoader.preloadCase()."
+    why: "Direct Image() calls bypass the shared cache, causing duplicate network requests and losing the placeholder fallback contract. Modules outside the loader cannot know if an image is already cached, in-flight, or failed — only the loader knows."
+    adr: docs/architecture/adr-0007-skin-image-loading-and-placeholder-strategy.md
+    added: 2026-05-21
+
+  - pattern: direct_price_api_fetch_outside_price_layer
+    status: active
+    description: "Do not call fetch() against price API endpoints from anywhere except src/feature/price-api-layer.js. All price lookups must go through PriceAPILayer.getPrice(itemId). The VITE_PRICE_API_BASE environment variable must not be read outside this module."
+    why: "Direct fetch calls bypass the 5-minute TTL cache and the fallback-to-CaseDataStore logic. Multiple modules fetching independently will hammer rate limits and return inconsistent price states. PriceAPILayer is the sole module that knows whether to return live, stale, or fallback prices."
+    adr: docs/architecture/adr-0008-price-api-and-cors-solution.md
+    added: 2026-05-21
 
 # Example:
 #
