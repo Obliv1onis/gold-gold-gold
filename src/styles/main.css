@@ -374,6 +374,23 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   min-height: 1.2em;
 }
 
+/* ─── StatTrak™ ──────────────────────────────────────────────────────────── */
+.stat-trak-prefix {
+  color: #CF6A32;
+  font-weight: 700;
+}
+
+.stat-trak-kills {
+  color: #CF6A32;
+  font-family: monospace;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.market-row--st {
+  border-left: 3px solid rgba(207, 106, 50, 0.55);
+}
+
 /* ─── Wear tier badges ───────────────────────────────────────────────────── */
 .wear-badge {
   display: inline-block;

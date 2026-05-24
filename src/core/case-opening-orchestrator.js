@@ -9,6 +9,9 @@ import { FloatService }                 from '../foundation/float-service.js';
 /** How long the Open button stays locked after the reveal chord starts (ms). */
 export const CHORD_DECAY_MS = 800;
 
+const STAT_TRAK_CHANCE     = 0.10; // 10 % of drops are StatTrak™
+const STAT_TRAK_MULTIPLIER = 1.50; // StatTrak™ price premium
+
 let _isAnimating = false;
 
 /**
@@ -72,7 +75,9 @@ export const CaseOpeningOrchestrator = {
       const wearTier    = FloatService.getWearTier(floatVal);
       const basePrice   = rolled.market_price ?? 0;
       const adjPrice    = _round(basePrice * FloatService.getPriceMultiplier(floatVal));
-      selectedItem = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: adjPrice };
+      const isStatTrak  = Math.random() < STAT_TRAK_CHANCE;
+      const finalPrice  = isStatTrak ? _round(adjPrice * STAT_TRAK_MULTIPLIER) : adjPrice;
+      selectedItem = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: finalPrice, stat_trak: isStatTrak };
     } catch (err) {
       if (err instanceof RollError) {
         onBlocked('roll_error');

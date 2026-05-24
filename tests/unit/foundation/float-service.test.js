@@ -111,6 +111,46 @@ describe('FloatService — formatFloat', () => {
   });
 });
 
+// ─── generateFloatForTier ─────────────────────────────────────────────────────
+
+describe('FloatService — generateFloatForTier', () => {
+  it('test_float_service_generateFloatForTier_fn_result_in_fn_range', () => {
+    const f = FloatService.generateFloatForTier('fn');
+    expect(f).toBeGreaterThanOrEqual(0.00);
+    expect(f).toBeLessThan(0.07);
+  });
+  it('test_float_service_generateFloatForTier_mw_result_in_mw_range', () => {
+    const f = FloatService.generateFloatForTier('mw');
+    expect(f).toBeGreaterThanOrEqual(0.07);
+    expect(f).toBeLessThan(0.15);
+  });
+  it('test_float_service_generateFloatForTier_ft_result_in_ft_range', () => {
+    const f = FloatService.generateFloatForTier('ft');
+    expect(f).toBeGreaterThanOrEqual(0.15);
+    expect(f).toBeLessThan(0.38);
+  });
+  it('test_float_service_generateFloatForTier_ww_result_in_ww_range', () => {
+    const f = FloatService.generateFloatForTier('ww');
+    expect(f).toBeGreaterThanOrEqual(0.38);
+    expect(f).toBeLessThan(0.45);
+  });
+  it('test_float_service_generateFloatForTier_bs_result_in_bs_range', () => {
+    const f = FloatService.generateFloatForTier('bs');
+    expect(f).toBeGreaterThanOrEqual(0.45);
+    expect(f).toBeLessThanOrEqual(1.00);
+  });
+  it('test_float_service_generateFloatForTier_is_deterministic_for_same_rng', () => {
+    const rng = () => 0.5;
+    expect(FloatService.generateFloatForTier('ft', rng))
+      .toBe(FloatService.generateFloatForTier('ft', rng));
+  });
+  it('test_float_service_generateFloatForTier_unknown_tier_falls_back_to_generateFloat', () => {
+    const f = FloatService.generateFloatForTier('invalid');
+    expect(f).toBeGreaterThanOrEqual(0);
+    expect(f).toBeLessThan(1);
+  });
+});
+
 // ─── generateFloat ────────────────────────────────────────────────────────────
 
 describe('FloatService — generateFloat', () => {

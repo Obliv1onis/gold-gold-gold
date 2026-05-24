@@ -85,9 +85,10 @@ export const InventoryUI = {
   },
 
   _makeCard(entry) {
-    const item       = entry.item;
-    const salePrice  = item.market_price ?? 0;
-    const net        = Math.round(salePrice * 0.85 * 100) / 100;
+    const item        = entry.item;
+    const isStatTrak  = !!item.stat_trak;
+    const salePrice   = item.market_price ?? 0;
+    const net         = Math.round(salePrice * 0.85 * 100) / 100;
     const displayName = _formatItemName(item.weapon, item.skin);
 
     const card = document.createElement('div');
@@ -98,8 +99,16 @@ export const InventoryUI = {
     img.alt       = displayName;
 
     const name = document.createElement('div');
-    name.className   = 'card-name';
-    name.textContent = displayName;
+    name.className = 'card-name';
+    if (isStatTrak) {
+      const stSpan = document.createElement('span');
+      stSpan.className   = 'stat-trak-prefix';
+      stSpan.textContent = 'StatTrak™ ';
+      name.appendChild(stSpan);
+      name.appendChild(document.createTextNode(displayName));
+    } else {
+      name.textContent = displayName;
+    }
 
     // Float row: wear badge + float value (only for items that have a float)
     const floatRow = document.createElement('div');
@@ -160,6 +169,12 @@ export const InventoryUI = {
     card.appendChild(img);
     card.appendChild(name);
     card.appendChild(floatRow);
+    if (isStatTrak) {
+      const killsEl = document.createElement('div');
+      killsEl.className   = 'stat-trak-kills';
+      killsEl.textContent = '☆ 0 Kills';
+      card.appendChild(killsEl);
+    }
     card.appendChild(price);
     card.appendChild(sellBtn);
     card.appendChild(confirm);

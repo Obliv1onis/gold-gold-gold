@@ -4,10 +4,16 @@ import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { VirtualEconomy }  from '../core/virtual-economy.js';
 import { SkinInventory }   from '../core/skin-inventory.js';
 
-const RARITY_TIERS    = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
-const WEAR_TIERS      = ['fn', 'mw', 'ft', 'ww', 'bs'];
-const RECOMMEND_SKINS = 4;   // × 5 wear tiers = 20 rows
-const SEARCH_SKINS    = 12;  // × 5 wear tiers = 60 rows
+const RARITY_TIERS      = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
+const WEAR_TIERS        = ['fn', 'mw', 'ft', 'ww', 'bs'];
+const STAT_TRAK_MULTIPLIER = 1.50;
+// 10 variants per skin: 5 normal + 5 StatTrak™
+const LISTING_VARIANTS  = [
+  ...WEAR_TIERS.map(tier => ({ tier, statTrak: false })),
+  ...WEAR_TIERS.map(tier => ({ tier, statTrak: true  })),
+];
+const RECOMMEND_SKINS = 2;   // × 10 variants = 20 rows
+const SEARCH_SKINS    = 6;   // × 10 variants = 60 rows
 
 let _container   = null;
 let _allItems    = null;   // built lazily on first show()
@@ -79,13 +85,13 @@ export const MarketUI = {
     }
   },
 
-  /** Picks `n` random unique skins and returns all 5 wear tiers for each. */
+  /** Picks `n` random skins and returns all 10 variants (5 normal + 5 StatTrak™) for each. */
   _pickBalanced(n = RECOMMEND_SKINS) {
     if (!_allItems?.length) return [];
     return [..._allItems]
       .sort(() => Math.random() - 0.5)
       .slice(0, n)
-      .flatMap(it => WEAR_TIERS.map(tier => _makeListing(it, tier)));
+      .flatMap(it => LISTING_VARIANTS.map(v => _makeListing(it, v.tier, v.statTrak)));
   },
 
   _onSearch(query) {
@@ -103,7 +109,7 @@ export const MarketUI = {
       })
       .slice(0, SEARCH_SKINS);
 
-    const results = matchedSkins.flatMap(it => WEAR_TIERS.map(tier => _makeListing(it, tier)));
+    const results = matchedSkins.flatMap(it => LISTING_VARIANTS.map(v => _makeListing(it, v.tier, v.statTrak)));
 
     _labelEl.textContent = matchedSkins.length
       ? `Results for "${query}" (${matchedSkins.length} skin${matchedSkins.length !== 1 ? 's' : ''})`
@@ -127,12 +133,12 @@ export const MarketUI = {
   },
 
   _makeRow(listing) {
-    const { item, floatVal, wearTier, adjPrice } = listing;
+    const { item, floatVal, wearTier, adjPrice, statTrak } = listing;
     const displayName = _formatItemName(item.weapon, item.skin);
     const wearLabel   = FloatService.getWearLabel(wearTier);
 
     const row = document.createElement('div');
-    row.className = `market-row rarity-${item.rarity ?? 'unknown'}`;
+    row.className = `market-row rarity-${item.rarity ?? 'unknown'}${statTrak ? ' market-row--st' : ''}`;
 
     // ── Image ────────────────────────────────────────────────────────────────
     const img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
@@ -144,8 +150,16 @@ export const MarketUI = {
     info.className = 'market-row-info';
 
     const nameEl = document.createElement('div');
-    nameEl.className   = 'market-row-name';
-    nameEl.textContent = displayName;
+    nameEl.className = 'market-row-name';
+    if (statTrak) {
+      const stSpan = document.createElement('span');
+      stSpan.className   = 'stat-trak-prefix';
+      stSpan.textContent = 'StatTrak™ ';
+      nameEl.appendChild(stSpan);
+      nameEl.appendChild(document.createTextNode(displayName));
+    } else {
+      nameEl.textContent = displayName;
+    }
 
     const metaEl = document.createElement('div');
     metaEl.className   = 'market-row-meta';
@@ -195,7 +209,7 @@ export const MarketUI = {
   },
 
   _handleBuy(listing, buyBtn, row) {
-    const { item, adjPrice } = listing;
+    const { item, adjPrice, statTrak } = listing;
 
     if (!VirtualEconomy.canAfford(adjPrice)) {
       row.classList.add('market-row--no-funds');
@@ -210,15 +224,16 @@ export const MarketUI = {
     const receivedFloat = FloatService.generateFloat();
     const receivedTier  = FloatService.getWearTier(receivedFloat);
     const basePrice     = item.market_price ?? 0;
-    const receivedPrice = Math.round(basePrice * FloatService.getPriceMultiplier(receivedFloat) * 100) / 100;
-    SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: receivedPrice });
+    const receivedAdj   = Math.round(basePrice * FloatService.getPriceMultiplier(receivedFloat) * 100) / 100;
+    const receivedPrice = statTrak ? Math.round(receivedAdj * STAT_TRAK_MULTIPLIER * 100) / 100 : receivedAdj;
+    SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: receivedPrice, stat_trak: statTrak });
 
     buyBtn.textContent = 'Bought!';
     buyBtn.classList.add('btn-market-buy--done');
 
     setTimeout(() => {
-      // Refresh this row with a new float so the listing stays live
-      const fresh  = _makeListing(item);
+      // Refresh this row with a new float, preserving the StatTrak™ status
+      const fresh  = _makeListing(item, listing.wearTier, statTrak);
       const newRow = this._makeRow(fresh);
       row.replaceWith(newRow);
     }, 1200);
@@ -227,14 +242,15 @@ export const MarketUI = {
 
 // ── Module helpers ─────────────────────────────────────────────────────────────
 
-function _makeListing(item, forceTier = null) {
+function _makeListing(item, forceTier = null, statTrak = false) {
   const floatVal  = forceTier
     ? FloatService.generateFloatForTier(forceTier)
     : FloatService.generateFloat();
   const wearTier  = FloatService.getWearTier(floatVal);
   const basePrice = item.market_price ?? 0;
-  const adjPrice  = Math.round(basePrice * FloatService.getPriceMultiplier(floatVal) * 100) / 100;
-  return { item, floatVal, wearTier, adjPrice };
+  const adj       = Math.round(basePrice * FloatService.getPriceMultiplier(floatVal) * 100) / 100;
+  const adjPrice  = statTrak ? Math.round(adj * STAT_TRAK_MULTIPLIER * 100) / 100 : adj;
+  return { item, floatVal, wearTier, adjPrice, statTrak };
 }
 
 function _makeFloatScale(floatVal) {

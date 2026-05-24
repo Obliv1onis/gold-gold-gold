@@ -43,6 +43,7 @@ export const RevealUI = {
     _visible = true;
 
     const item        = entry.item;
+    const isStatTrak  = !!item.stat_trak;
     const netProceeds = _netProceeds(item.market_price);
     const displayName = _formatItemName(item.weapon, item.skin);
     const img         = SkinImageLoader.getImage(item.image_url ?? null, item.rarity);
@@ -73,8 +74,16 @@ export const RevealUI = {
     }
 
     const nameEl = document.createElement('div');
-    nameEl.className   = 'reveal-item-name';
-    nameEl.textContent = displayName;
+    nameEl.className = 'reveal-item-name';
+    if (isStatTrak) {
+      const stSpan = document.createElement('span');
+      stSpan.className   = 'stat-trak-prefix';
+      stSpan.textContent = 'StatTrak™ ';
+      nameEl.appendChild(stSpan);
+      nameEl.appendChild(document.createTextNode(displayName));
+    } else {
+      nameEl.textContent = displayName;
+    }
 
     const actions = document.createElement('div');
     actions.className = 'reveal-actions';
@@ -98,6 +107,12 @@ export const RevealUI = {
     card.appendChild(rarityLabel);
     card.appendChild(floatRow);
     card.appendChild(nameEl);
+    if (isStatTrak) {
+      const killsEl = document.createElement('div');
+      killsEl.className   = 'stat-trak-kills';
+      killsEl.textContent = '☆ 0 Kills';
+      card.appendChild(killsEl);
+    }
     card.appendChild(actions);
     card.appendChild(feedback);
     _overlay.appendChild(card);
