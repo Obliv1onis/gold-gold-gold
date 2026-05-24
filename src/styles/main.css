@@ -492,11 +492,14 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 }
 
 .inventory-card .float-row {
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .inventory-card .float-value {
-  max-width: 120px;
+  overflow: visible;
+  text-overflow: unset;
+  white-space: nowrap;
 }
 
 .inventory-card .card-price {

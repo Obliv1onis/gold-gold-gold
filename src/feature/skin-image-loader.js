@@ -111,6 +111,28 @@ export const SkinImageLoader = {
   },
 
   /**
+   * Returns an HTMLImageElement that loads `imageUrl` lazily without requiring
+   * a prior `preloadCase` call. Falls back to a rarity placeholder on error.
+   * Use this wherever images haven't been batch-preloaded (e.g. market rows).
+   *
+   * @param {string|null} imageUrl
+   * @param {string}      rarity
+   * @returns {HTMLImageElement}
+   * @example
+   * marketRow.appendChild(SkinImageLoader.getLazyImage(item.image_url, 'covert'));
+   */
+  getLazyImage(imageUrl, rarity) {
+    if (!imageUrl) return this.getPlaceholder(rarity);
+    if (_loadedUrls.has(imageUrl)) return _makeImg(imageUrl);
+    if (_failedUrls.has(imageUrl)) return this.getPlaceholder(rarity);
+    const img = new Image();
+    img.onload  = () => _loadedUrls.add(imageUrl);
+    img.onerror = () => { _failedUrls.add(imageUrl); img.src = _getPlaceholderSrc(rarity); };
+    img.src = imageUrl;
+    return img;
+  },
+
+  /**
    * Returns a fresh rarity-colored placeholder HTMLImageElement.
    * The canvas data URI is generated once per rarity and cached; only the
    * wrapping <img> element is new on each call.

@@ -87,6 +87,21 @@ export const FloatService = {
   },
 
   /**
+   * Generates a random float guaranteed to fall within a specific wear tier's range.
+   * Used by the market to ensure all 5 tiers are represented in recommendations.
+   * No bias applied — uniform within the tier.
+   * @param {'fn'|'mw'|'ft'|'ww'|'bs'} tier
+   * @param {function} [rng=Math.random]
+   * @returns {number}
+   */
+  generateFloatForTier(tier, rng = Math.random) {
+    const seg = WEAR_SEGMENTS.find(s => s.tier === tier);
+    if (!seg) return this.generateFloat(rng);
+    const max = Math.min(seg.max, 1.0); // cap bs's 1.01 sentinel at 1.00
+    return seg.min + rng() * (max - seg.min);
+  },
+
+  /**
    * Formats a float for display with exactly 17 decimal places.
    * @param {number} f
    * @returns {string}  e.g. '0.12345678901234567'

@@ -57,7 +57,7 @@ export const MarketUI = {
     if (!_container) return;
     if (!_allItems) this._buildPool();
     if (_recommended.length === 0) {
-      _recommended = this._pick(RECOMMEND_COUNT);
+      _recommended = this._pickBalanced();
       this._render(_recommended);
       _labelEl.textContent = 'Recommended';
     }
@@ -84,6 +84,22 @@ export const MarketUI = {
       .sort(() => Math.random() - 0.5)
       .slice(0, n)
       .map(it => _makeListing(it));
+  },
+
+  /** Picks 4 random skins per wear tier (20 total) so all 5 tiers always appear. */
+  _pickBalanced() {
+    if (!_allItems?.length) return [];
+    const tiers   = ['fn', 'mw', 'ft', 'ww', 'bs'];
+    const perTier = Math.floor(RECOMMEND_COUNT / tiers.length); // 4
+    const pool    = [..._allItems].sort(() => Math.random() - 0.5);
+    const result  = [];
+    tiers.forEach((tier, ti) => {
+      for (let i = 0; i < perTier; i++) {
+        const item = pool[(ti * perTier + i) % pool.length];
+        result.push(_makeListing(item, tier));
+      }
+    });
+    return result;
   },
 
   _onSearch(query) {
@@ -132,7 +148,7 @@ export const MarketUI = {
     row.className = `market-row rarity-${item.rarity ?? 'unknown'}`;
 
     // ── Image ────────────────────────────────────────────────────────────────
-    const img = SkinImageLoader.getImage(item.image_url ?? null, item.rarity);
+    const img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
     img.className = 'market-row-img';
     img.alt       = displayName;
 
@@ -192,7 +208,7 @@ export const MarketUI = {
   },
 
   _handleBuy(listing, buyBtn, row) {
-    const { item, floatVal, wearTier, adjPrice } = listing;
+    const { item, adjPrice } = listing;
 
     if (!VirtualEconomy.canAfford(adjPrice)) {
       row.classList.add('market-row--no-funds');
@@ -202,7 +218,13 @@ export const MarketUI = {
 
     buyBtn.disabled = true;
     VirtualEconomy.spend(adjPrice);
-    SkinInventory.addItem({ ...item, float: floatVal, wear_tier: wearTier, market_price: adjPrice });
+
+    // Issue a fresh float for the item the player actually receives
+    const receivedFloat = FloatService.generateFloat();
+    const receivedTier  = FloatService.getWearTier(receivedFloat);
+    const basePrice     = item.market_price ?? 0;
+    const receivedPrice = Math.round(basePrice * FloatService.getPriceMultiplier(receivedFloat) * 100) / 100;
+    SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: receivedPrice });
 
     buyBtn.textContent = 'Bought!';
     buyBtn.classList.add('btn-market-buy--done');
@@ -218,8 +240,10 @@ export const MarketUI = {
 
 // ── Module helpers ─────────────────────────────────────────────────────────────
 
-function _makeListing(item) {
-  const floatVal  = FloatService.generateFloat();
+function _makeListing(item, forceTier = null) {
+  const floatVal  = forceTier
+    ? FloatService.generateFloatForTier(forceTier)
+    : FloatService.generateFloat();
   const wearTier  = FloatService.getWearTier(floatVal);
   const basePrice = item.market_price ?? 0;
   const adjPrice  = Math.round(basePrice * FloatService.getPriceMultiplier(floatVal) * 100) / 100;
