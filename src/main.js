@@ -7,6 +7,7 @@ import { ReelUI }                  from './presentation/reel-ui.js';
 import { RevealUI }                from './presentation/reveal-ui.js';
 import { InventoryUI }             from './presentation/inventory-ui.js';
 import { MarketUI }                from './presentation/market-ui.js';
+import { TradeUpUI }               from './presentation/trade-up-ui.js';
 
 async function main() {
   const appEl = document.getElementById('app');
@@ -19,12 +20,14 @@ async function main() {
   document.addEventListener('click', () => AudioSystem.resume(), { once: true });
 
   // 3. Build layout; wire Open button → Orchestrator
-  const { caseBrowserContainer, reelContainer, overlayContainer, marketContainer, inventoryContainer } =
+  const { caseBrowserContainer, reelContainer, overlayContainer, marketContainer, tradeUpContainer, inventoryContainer } =
     HudAppShell.init(appEl, {
       onShowInventory: () => InventoryUI.show(),
       onHideInventory: () => InventoryUI.hide(),
       onShowMarket:    () => MarketUI.show(),
       onHideMarket:    () => MarketUI.hide(),
+      onShowTradeUp:   () => TradeUpUI.show(),
+      onHideTradeUp:   () => TradeUpUI.hide(),
       onOpenClick: (caseId, casePrice) => {
         CaseOpeningOrchestrator.open(caseId, casePrice, ReelUI.viewportWidth, {
           onFrame:   (offset, strip) => ReelUI.render(offset, strip),
@@ -46,6 +49,7 @@ async function main() {
   // 5. Reveal overlay, market, and inventory
   RevealUI.init(overlayContainer, () => HudAppShell.onRevealDismissed());
   MarketUI.init(marketContainer);
+  TradeUpUI.init(tradeUpContainer);
   InventoryUI.init(inventoryContainer);
 }
 

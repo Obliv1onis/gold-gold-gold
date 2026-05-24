@@ -77,7 +77,7 @@ export const CaseOpeningOrchestrator = {
       const adjPrice    = _round(basePrice * FloatService.getPriceMultiplier(floatVal));
       const isStatTrak  = !_isGlove(rolled.weapon) && Math.random() < STAT_TRAK_CHANCE;
       const finalPrice  = isStatTrak ? _round(adjPrice * STAT_TRAK_MULTIPLIER) : adjPrice;
-      selectedItem = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: finalPrice, stat_trak: isStatTrak };
+      selectedItem = { ...rolled, case_id: caseId, float: floatVal, wear_tier: wearTier, market_price: finalPrice, stat_trak: isStatTrak };
     } catch (err) {
       if (err instanceof RollError) {
         onBlocked('roll_error');

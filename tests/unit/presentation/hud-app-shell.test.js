@@ -153,6 +153,24 @@ describe('HudAppShell — view transitions', () => {
     expect(_appEl.querySelector('.market-container')).toBeTruthy();
   });
 
+  it('test_hud_init_has_tradeup_tab', () => {
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    expect(_appEl.querySelector('.nav-tab[data-view="tradeup"]')).toBeTruthy();
+  });
+
+  it('test_hud_init_tradeup_container_exists', () => {
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    expect(_appEl.querySelector('.tradeup-container')).toBeTruthy();
+  });
+
+  it('test_hud_tradeup_tab_click_activates_tradeup_view', () => {
+    const onShow = vi.fn();
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn(), onShowTradeUp: onShow });
+    _appEl.querySelector('.nav-tab[data-view="tradeup"]').click();
+    expect(_appEl.querySelector('#tradeup-view').classList.contains('active')).toBe(true);
+    expect(onShow).toHaveBeenCalled();
+  });
+
   it('test_hud_show_browser_returns_to_browser_view', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
     HudAppShell.showCaseOpening(TEST_CASE_ID, TEST_CASE_PRICE);

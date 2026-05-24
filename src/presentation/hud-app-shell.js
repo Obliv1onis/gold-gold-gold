@@ -17,6 +17,8 @@ let _onShowInventory = null;
 let _onHideInventory = null;
 let _onShowMarket    = null;
 let _onHideMarket    = null;
+let _onShowTradeUp   = null;
+let _onHideTradeUp   = null;
 
 // DOM refs
 let _balanceEl   = null;
@@ -54,12 +56,14 @@ export const HudAppShell = {
    * }} opts
    * @returns {{ caseBrowserContainer, reelContainer, overlayContainer, inventoryContainer }}
    */
-  init(rootEl, { onOpenClick, onShowInventory, onHideInventory, onShowMarket, onHideMarket }) {
+  init(rootEl, { onOpenClick, onShowInventory, onHideInventory, onShowMarket, onHideMarket, onShowTradeUp, onHideTradeUp }) {
     _appEl           = rootEl;
     _onShowInventory = onShowInventory ?? null;
     _onHideInventory = onHideInventory ?? null;
     _onShowMarket    = onShowMarket    ?? null;
     _onHideMarket    = onHideMarket    ?? null;
+    _onShowTradeUp   = onShowTradeUp   ?? null;
+    _onHideTradeUp   = onHideTradeUp   ?? null;
 
     rootEl.innerHTML = `
       <header class="hud-bar">
@@ -81,6 +85,7 @@ export const HudAppShell = {
       <nav class="nav-tabs">
         <span class="nav-tab active" data-view="cases">Cases</span>
         <span class="nav-tab"       data-view="market">Market</span>
+        <span class="nav-tab"       data-view="tradeup">Trade Up</span>
         <span class="nav-tab"       data-view="inventory">Inventory</span>
       </nav>
 
@@ -93,6 +98,9 @@ export const HudAppShell = {
         </div>
         <div class="view" id="market-view">
           <div class="market-container"></div>
+        </div>
+        <div class="view" id="tradeup-view">
+          <div class="tradeup-container"></div>
         </div>
         <div class="view" id="inventory-view">
           <div class="inventory-container"></div>
@@ -147,6 +155,7 @@ export const HudAppShell = {
       reelContainer:        rootEl.querySelector('.reel-container'),
       overlayContainer:     rootEl,
       marketContainer:      rootEl.querySelector('.market-container'),
+      tradeUpContainer:     rootEl.querySelector('.tradeup-container'),
       inventoryContainer:   rootEl.querySelector('.inventory-container'),
     };
   },
@@ -219,6 +228,12 @@ export const HudAppShell = {
       this._applyView();
       _onShowMarket?.();
 
+    } else if (view === 'tradeup') {
+      this._leaveCurrentView();
+      _currentView = 'tradeup';
+      this._applyView();
+      _onShowTradeUp?.();
+
     } else { // 'cases'
       this._leaveCurrentView();
       // Return to the reel if a case is selected, otherwise go to browser
@@ -236,6 +251,7 @@ export const HudAppShell = {
   _leaveCurrentView() {
     if (_currentView === 'inventory') _onHideInventory?.();
     if (_currentView === 'market')    _onHideMarket?.();
+    if (_currentView === 'tradeup')   _onHideTradeUp?.();
   },
 
   /** Syncs all view classes, nav tab states, and opening-mode controls. */
@@ -244,14 +260,16 @@ export const HudAppShell = {
     _appEl.querySelector('#browser-view').classList.toggle('active',   v === 'browser');
     _appEl.querySelector('#reel-view').classList.toggle('active',      v === 'reel');
     _appEl.querySelector('#market-view').classList.toggle('active',    v === 'market');
+    _appEl.querySelector('#tradeup-view').classList.toggle('active',   v === 'tradeup');
     _appEl.querySelector('#inventory-view').classList.toggle('active', v === 'inventory');
 
     const inCases = v === 'browser' || v === 'reel';
     _appEl.querySelectorAll('.nav-tab').forEach(t => {
       const tv = t.dataset.view;
       t.classList.toggle('active',
-        tv === 'cases'     ? inCases      :
+        tv === 'cases'     ? inCases           :
         tv === 'market'    ? v === 'market'    :
+        tv === 'tradeup'   ? v === 'tradeup'   :
         tv === 'inventory' ? v === 'inventory' : false
       );
     });

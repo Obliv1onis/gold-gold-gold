@@ -70,6 +70,22 @@ export const SkinInventory = {
     return true;
   },
 
+  /**
+   * Removes multiple items without awarding funds (trade-up consumption).
+   * Fires SKIN_INVENTORY_CHANGED once for the entire batch.
+   * @param {string[]} instanceIds
+   * @returns {number}  count of items actually removed
+   */
+  consumeItems(instanceIds) {
+    let removed = 0;
+    for (const id of instanceIds) {
+      const idx = _inventory.findIndex(e => e.instanceId === id);
+      if (idx !== -1) { _inventory.splice(idx, 1); removed++; }
+    }
+    if (removed > 0) { _persist(); _emit(); }
+    return removed;
+  },
+
   clearInventory() {
     _inventory = [];
     _persist();

@@ -239,6 +239,13 @@ describe('CaseOpeningOrchestrator — onComplete sequence', () => {
     expect(typeof calledItem.stat_trak).toBe('boolean');
   });
 
+  it('test_coo_add_item_called_with_case_id', () => {
+    CaseOpeningOrchestrator.open(CASE_ID, CASE_PRICE, VIEWPORT, CALLBACKS());
+    _spinCallbacks.onComplete();
+    const [calledItem] = SkinInventory.addItem.mock.calls[0];
+    expect(calledItem.case_id).toBe(CASE_ID);
+  });
+
   it('test_coo_is_animating_true_immediately_after_on_complete', () => {
     CaseOpeningOrchestrator.open(CASE_ID, CASE_PRICE, VIEWPORT, CALLBACKS());
     _spinCallbacks.onComplete();

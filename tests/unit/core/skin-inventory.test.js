@@ -247,3 +247,34 @@ describe('SkinInventory — SELL_FEE_RATE', () => {
     expect(SELL_FEE_RATE).toBe(0.15);
   });
 });
+
+// ─── consumeItems ─────────────────────────────────────────────────────────────
+
+describe('SkinInventory — consumeItems', () => {
+  it('test_si_consumeItems_removes_all_specified_items', () => {
+    const e1 = SkinInventory.addItem(ITEM());
+    const e2 = SkinInventory.addItem(ITEM());
+    SkinInventory.consumeItems([e1.instanceId, e2.instanceId]);
+    expect(SkinInventory.getItems()).toHaveLength(0);
+  });
+
+  it('test_si_consumeItems_does_not_call_earn', () => {
+    const e = SkinInventory.addItem(ITEM());
+    vi.clearAllMocks();
+    SkinInventory.consumeItems([e.instanceId]);
+    expect(VirtualEconomy.earn).not.toHaveBeenCalled();
+  });
+
+  it('test_si_consumeItems_returns_count_of_removed_items', () => {
+    const e1 = SkinInventory.addItem(ITEM());
+    SkinInventory.addItem(ITEM());
+    const removed = SkinInventory.consumeItems([e1.instanceId, 'nonexistent-id']);
+    expect(removed).toBe(1);
+  });
+
+  it('test_si_consumeItems_silently_skips_nonexistent_ids', () => {
+    SkinInventory.addItem(ITEM());
+    expect(() => SkinInventory.consumeItems(['fake-id'])).not.toThrow();
+    expect(SkinInventory.getItems()).toHaveLength(1);
+  });
+});
