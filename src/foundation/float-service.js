@@ -10,7 +10,14 @@
  *
  * Price multiplier follows a piecewise-linear curve: FN items command a
  * premium; BS items sell at a discount relative to the case's base market price.
+ *
+ * Float bias: raw RNG output is raised to FLOAT_BIAS_EXPONENT (> 1) to skew
+ * the distribution toward lower (better) floats.  k=1.5 raises FN chance from
+ * 7% → ~16.5% and reduces BS chance from 55% → ~42%.
  */
+
+// Tuning knob — increase for more FN drops, decrease toward 1.0 for uniform.
+const FLOAT_BIAS_EXPONENT = 1.5;
 
 const WEAR_SEGMENTS = [
   { tier: 'fn', min: 0.00, max: 0.07, label: 'FN' },
@@ -37,7 +44,7 @@ export const FloatService = {
    * @returns {number}
    */
   generateFloat(rng = Math.random) {
-    return rng();
+    return rng() ** FLOAT_BIAS_EXPONENT;
   },
 
   /**

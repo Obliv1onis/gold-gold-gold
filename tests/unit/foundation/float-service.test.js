@@ -114,16 +114,26 @@ describe('FloatService — formatFloat', () => {
 // ─── generateFloat ────────────────────────────────────────────────────────────
 
 describe('FloatService — generateFloat', () => {
-  it('test_float_service_generateFloat_uses_injected_rng', () => {
-    expect(FloatService.generateFloat(() => 0.5)).toBe(0.5);
+  it('test_float_service_generateFloat_uses_injected_rng_and_applies_bias', () => {
+    // Bias exponent > 1 means output < input for any value in (0, 1)
+    const result = FloatService.generateFloat(() => 0.5);
+    expect(result).toBeGreaterThan(0);
+    expect(result).toBeLessThan(0.5);
   });
   it('test_float_service_generateFloat_default_in_0_to_1_range', () => {
     const f = FloatService.generateFloat();
     expect(f).toBeGreaterThanOrEqual(0);
     expect(f).toBeLessThan(1);
   });
-  it('test_float_service_generateFloat_returns_rng_value_directly', () => {
-    const value = 0.123456789;
-    expect(FloatService.generateFloat(() => value)).toBe(value);
+  it('test_float_service_generateFloat_is_deterministic_for_same_rng', () => {
+    const rng = () => 0.42;
+    expect(FloatService.generateFloat(rng)).toBe(FloatService.generateFloat(rng));
+  });
+  it('test_float_service_generateFloat_bias_skews_toward_lower_floats', () => {
+    // For u in (0,1), u^k < u when k > 1 — better (lower) floats become more likely
+    const samples = Array.from({ length: 50 }, (_, i) => FloatService.generateFloat(() => (i + 1) / 51));
+    const mean = samples.reduce((s, v) => s + v, 0) / samples.length;
+    // Biased mean should be noticeably below the uniform mean of 0.5
+    expect(mean).toBeLessThan(0.45);
   });
 });
