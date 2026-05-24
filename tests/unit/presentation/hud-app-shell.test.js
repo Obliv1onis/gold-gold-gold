@@ -143,6 +143,16 @@ describe('HudAppShell — view transitions', () => {
     expect(casesTab.classList.contains('active')).toBe(true);
   });
 
+  it('test_hud_init_has_market_tab', () => {
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    expect(_appEl.querySelector('.nav-tab[data-view="market"]')).toBeTruthy();
+  });
+
+  it('test_hud_init_market_container_exists', () => {
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    expect(_appEl.querySelector('.market-container')).toBeTruthy();
+  });
+
   it('test_hud_show_browser_returns_to_browser_view', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
     HudAppShell.showCaseOpening(TEST_CASE_ID, TEST_CASE_PRICE);
