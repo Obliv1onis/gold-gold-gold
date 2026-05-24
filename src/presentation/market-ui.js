@@ -5,8 +5,9 @@ import { VirtualEconomy }  from '../core/virtual-economy.js';
 import { SkinInventory }   from '../core/skin-inventory.js';
 
 const RARITY_TIERS    = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
-const RECOMMEND_COUNT = 20;
-const SEARCH_LIMIT    = 60;
+const WEAR_TIERS      = ['fn', 'mw', 'ft', 'ww', 'bs'];
+const RECOMMEND_SKINS = 4;   // × 5 wear tiers = 20 rows
+const SEARCH_SKINS    = 12;  // × 5 wear tiers = 60 rows
 
 let _container   = null;
 let _allItems    = null;   // built lazily on first show()
@@ -78,28 +79,13 @@ export const MarketUI = {
     }
   },
 
-  _pick(n) {
+  /** Picks `n` random unique skins and returns all 5 wear tiers for each. */
+  _pickBalanced(n = RECOMMEND_SKINS) {
     if (!_allItems?.length) return [];
     return [..._allItems]
       .sort(() => Math.random() - 0.5)
       .slice(0, n)
-      .map(it => _makeListing(it));
-  },
-
-  /** Picks 4 random skins per wear tier (20 total) so all 5 tiers always appear. */
-  _pickBalanced() {
-    if (!_allItems?.length) return [];
-    const tiers   = ['fn', 'mw', 'ft', 'ww', 'bs'];
-    const perTier = Math.floor(RECOMMEND_COUNT / tiers.length); // 4
-    const pool    = [..._allItems].sort(() => Math.random() - 0.5);
-    const result  = [];
-    tiers.forEach((tier, ti) => {
-      for (let i = 0; i < perTier; i++) {
-        const item = pool[(ti * perTier + i) % pool.length];
-        result.push(_makeListing(item, tier));
-      }
-    });
-    return result;
+      .flatMap(it => WEAR_TIERS.map(tier => _makeListing(it, tier)));
   },
 
   _onSearch(query) {
@@ -109,17 +95,18 @@ export const MarketUI = {
       return;
     }
     const q = query.toLowerCase();
-    const results = (_allItems ?? [])
+    const matchedSkins = (_allItems ?? [])
       .filter(it => {
         const name     = `${it.weapon} ${it.skin}`.toLowerCase();
         const caseName = (it.case_name ?? '').toLowerCase();
         return name.includes(q) || caseName.includes(q);
       })
-      .slice(0, SEARCH_LIMIT)
-      .map(it => _makeListing(it));
+      .slice(0, SEARCH_SKINS);
 
-    _labelEl.textContent = results.length
-      ? `Results for "${query}" (${results.length})`
+    const results = matchedSkins.flatMap(it => WEAR_TIERS.map(tier => _makeListing(it, tier)));
+
+    _labelEl.textContent = matchedSkins.length
+      ? `Results for "${query}" (${matchedSkins.length} skin${matchedSkins.length !== 1 ? 's' : ''})`
       : `No results for "${query}"`;
     this._render(results);
   },
