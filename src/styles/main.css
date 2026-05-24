@@ -337,6 +337,15 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-weight: 600;
 }
 
+.reveal-card .float-row {
+  justify-content: center;
+}
+
+.reveal-card .float-value {
+  font-size: 0.65rem;
+  color: #999;
+}
+
 .reveal-actions {
   display: flex;
   gap: 12px;
@@ -363,6 +372,39 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   color: #4caf50;
   text-align: center;
   min-height: 1.2em;
+}
+
+/* ─── Wear tier badges ───────────────────────────────────────────────────── */
+.wear-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.wear-fn { background: #1b5e20; color: #fff; }
+.wear-mw { background: #66bb6a; color: #0d2e0d; }
+.wear-ft { background: #f9a825; color: #1a1a1a; }
+.wear-ww { background: #c62828; color: #fff; }
+.wear-bs { background: #7b0000; color: #ddd; }
+
+.float-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+
+.float-value {
+  font-size: 0.6rem;
+  color: #666;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 /* ─── Inventory UI ───────────────────────────────────────────────────────── */
@@ -419,6 +461,14 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-size: 0.75rem;
   text-align: center;
   color: #ccc;
+}
+
+.inventory-card .float-row {
+  justify-content: center;
+}
+
+.inventory-card .float-value {
+  max-width: 120px;
 }
 
 .inventory-card .card-price {

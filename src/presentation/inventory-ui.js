@@ -1,5 +1,6 @@
 import { SkinInventory }   from '../core/skin-inventory.js';
 import { SkinImageLoader } from '../feature/skin-image-loader.js';
+import { FloatService }    from '../foundation/float-service.js';
 import { Events }          from '../foundation/events.js';
 
 let _container = null;
@@ -100,6 +101,21 @@ export const InventoryUI = {
     name.className   = 'card-name';
     name.textContent = displayName;
 
+    // Float row: wear badge + float value (only for items that have a float)
+    const floatRow = document.createElement('div');
+    floatRow.className = 'float-row';
+    if (item.float != null) {
+      const wearTier = item.wear_tier ?? FloatService.getWearTier(item.float);
+      const wearBadge = document.createElement('span');
+      wearBadge.className = `wear-badge wear-${wearTier}`;
+      wearBadge.textContent = FloatService.getWearLabel(wearTier);
+      const floatVal = document.createElement('span');
+      floatVal.className = 'float-value';
+      floatVal.textContent = FloatService.formatFloat(item.float);
+      floatRow.appendChild(wearBadge);
+      floatRow.appendChild(floatVal);
+    }
+
     const price = document.createElement('div');
     price.className   = 'card-price';
     price.textContent = `$${salePrice.toFixed(2)}`;
@@ -143,6 +159,7 @@ export const InventoryUI = {
 
     card.appendChild(img);
     card.appendChild(name);
+    card.appendChild(floatRow);
     card.appendChild(price);
     card.appendChild(sellBtn);
     card.appendChild(confirm);
