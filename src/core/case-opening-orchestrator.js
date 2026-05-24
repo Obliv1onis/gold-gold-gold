@@ -75,7 +75,7 @@ export const CaseOpeningOrchestrator = {
       const wearTier    = FloatService.getWearTier(floatVal);
       const basePrice   = rolled.market_price ?? 0;
       const adjPrice    = _round(basePrice * FloatService.getPriceMultiplier(floatVal));
-      const isStatTrak  = Math.random() < STAT_TRAK_CHANCE;
+      const isStatTrak  = !_isGlove(rolled.weapon) && Math.random() < STAT_TRAK_CHANCE;
       const finalPrice  = isStatTrak ? _round(adjPrice * STAT_TRAK_MULTIPLIER) : adjPrice;
       selectedItem = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: finalPrice, stat_trak: isStatTrak };
     } catch (err) {
@@ -123,3 +123,7 @@ export const CaseOpeningOrchestrator = {
 };
 
 function _round(v) { return Math.round(v * 100) / 100; }
+
+function _isGlove(weapon) {
+  return typeof weapon === 'string' && (weapon.includes('Gloves') || weapon.includes('Wraps'));
+}

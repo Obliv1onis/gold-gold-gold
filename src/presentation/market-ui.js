@@ -85,13 +85,13 @@ export const MarketUI = {
     }
   },
 
-  /** Picks `n` random skins and returns all 10 variants (5 normal + 5 StatTrak™) for each. */
+  /** Picks `n` random skins and returns all wear variants for each (gloves skip StatTrak™). */
   _pickBalanced(n = RECOMMEND_SKINS) {
     if (!_allItems?.length) return [];
     return [..._allItems]
       .sort(() => Math.random() - 0.5)
       .slice(0, n)
-      .flatMap(it => LISTING_VARIANTS.map(v => _makeListing(it, v.tier, v.statTrak)));
+      .flatMap(it => _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak)));
   },
 
   _onSearch(query) {
@@ -109,7 +109,7 @@ export const MarketUI = {
       })
       .slice(0, SEARCH_SKINS);
 
-    const results = matchedSkins.flatMap(it => LISTING_VARIANTS.map(v => _makeListing(it, v.tier, v.statTrak)));
+    const results = matchedSkins.flatMap(it => _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak)));
 
     _labelEl.textContent = matchedSkins.length
       ? `Results for "${query}" (${matchedSkins.length} skin${matchedSkins.length !== 1 ? 's' : ''})`
@@ -273,6 +273,15 @@ function _formatItemName(weapon, skin) {
     return `★ ${weapon} | ${bare}`;
   }
   return `${weapon} | ${skin}`;
+}
+
+function _isGlove(weapon) {
+  return typeof weapon === 'string' && (weapon.includes('Gloves') || weapon.includes('Wraps'));
+}
+
+/** Returns the applicable listing variants for an item (gloves have no StatTrak™). */
+function _variantsFor(item) {
+  return _isGlove(item.weapon) ? WEAR_TIERS.map(tier => ({ tier, statTrak: false })) : LISTING_VARIANTS;
 }
 
 function _formatRarity(rarity) {
