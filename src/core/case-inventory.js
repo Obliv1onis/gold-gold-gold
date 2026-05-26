@@ -1,7 +1,8 @@
-import { Persistence } from '../foundation/persistence.js';
-import { Events } from '../foundation/events.js';
-import { CaseDataStore } from '../foundation/case-data-store.js';
-import { VirtualEconomy } from './virtual-economy.js';
+import { Persistence }      from '../foundation/persistence.js';
+import { Events }           from '../foundation/events.js';
+import { CaseDataStore }    from '../foundation/case-data-store.js';
+import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
+import { VirtualEconomy }   from './virtual-economy.js';
 
 export class InventoryError extends Error {
   constructor(msg) { super(msg); this.name = 'InventoryError'; }
@@ -38,7 +39,7 @@ export const CaseInventory = {
 
   addCase(caseId, quantity = 1) {
     if (quantity <= 0) return;
-    if (!CaseDataStore.getCase(caseId)) return;
+    if (!CaseDataStore.getCase(caseId) && !CapsuleDataStore.getCapsule(caseId)) return;
     _inventory[caseId] = (_inventory[caseId] ?? 0) + quantity;
     _persist();
     _emit(caseId, _inventory[caseId]);

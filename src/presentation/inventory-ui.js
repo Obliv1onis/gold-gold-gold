@@ -27,7 +27,6 @@ export const InventoryUI = {
       <div class="inventory-view">
         <div class="inventory-header">
           <span class="item-count">0 items</span>
-          <span class="portfolio-value">Portfolio value: $0.00</span>
         </div>
         <div class="inventory-grid"></div>
         <div class="inventory-empty">No skins yet. Open some cases!</div>
@@ -57,17 +56,13 @@ export const InventoryUI = {
     if (!_container) return;
     const items = SkinInventory.getItems();
 
-    const countEl    = _container.querySelector('.item-count');
-    const valueEl    = _container.querySelector('.portfolio-value');
-    const gridEl     = _container.querySelector('.inventory-grid');
-    const emptyEl    = _container.querySelector('.inventory-empty');
+    const countEl = _container.querySelector('.item-count');
+    const gridEl  = _container.querySelector('.inventory-grid');
+    const emptyEl = _container.querySelector('.inventory-empty');
 
     if (!gridEl) return;
 
-    // Header
-    const totalValue = items.reduce((sum, e) => sum + (e.item.market_price ?? 0), 0);
     if (countEl) countEl.textContent = `${items.length} item${items.length !== 1 ? 's' : ''}`;
-    if (valueEl) valueEl.textContent = `Portfolio value: $${totalValue.toFixed(2)}`;
 
     // Grid vs empty state
     if (items.length === 0) {
@@ -86,15 +81,22 @@ export const InventoryUI = {
 
   _makeCard(entry) {
     const item        = entry.item;
+    const isSticker   = !item.weapon && !!item.name;
     const isStatTrak  = !!item.stat_trak;
     const salePrice   = item.market_price ?? 0;
     const net         = Math.round(salePrice * 0.85 * 100) / 100;
-    const displayName = _formatItemName(item.weapon, item.skin);
+    const displayName = isSticker ? item.name : _formatItemName(item.weapon, item.skin);
 
     const card = document.createElement('div');
     card.className = `inventory-card rarity-${item.rarity ?? 'unknown'}`;
 
-    const img     = SkinImageLoader.getImage(item.image_url ?? null, item.rarity);
+    let img;
+    if (isSticker) {
+      img = document.createElement('img');
+      img.src = item.image_url ?? '';
+    } else {
+      img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
+    }
     img.className = 'card-image';
     img.alt       = displayName;
 
@@ -110,10 +112,10 @@ export const InventoryUI = {
       name.textContent = displayName;
     }
 
-    // Float row: wear badge + float value (only for items that have a float)
+    // Float row: wear badge + float value (skins only — stickers have no float)
     const floatRow = document.createElement('div');
     floatRow.className = 'float-row';
-    if (item.float != null) {
+    if (!isSticker && item.float != null) {
       const wearTier = item.wear_tier ?? FloatService.getWearTier(item.float);
       const wearBadge = document.createElement('span');
       wearBadge.className = `wear-badge wear-${wearTier}`;

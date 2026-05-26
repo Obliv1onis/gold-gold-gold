@@ -14,10 +14,10 @@ const STOP_OFFSET_RANGE = 30; // px — random variance on final landing positio
 
 function easeOutQuint(t) { return 1 - Math.pow(1 - t, 5); }
 
-const TIERS            = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
-const BACKGROUND_TIERS = ['mil_spec', 'restricted', 'classified', 'covert'];
+const TIERS            = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
+const BACKGROUND_TIERS = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert'];
 
-// Background cards never show rare_special — weights re-normalised over the 4 weapon tiers
+// Background cards never show rare_special — weights re-normalised over non-rare tiers
 // so that a gold passing by the crosshair cannot create false hope.
 function _pickBackgroundTier(weights) {
   const total = BACKGROUND_TIERS.reduce((sum, t) => sum + (weights[t] ?? 0), 0);
@@ -53,12 +53,13 @@ export const ReelAnimationEngine = {
 
   getState() { return _state; },
 
-  spin(caseId, selectedItem, viewportWidth, callbacks) {
+  spin(caseId, selectedItem, viewportWidth, callbacks, prebuiltStrip = null) {
     if (_state === 'spinning') throw new ReelError('Animation already in progress');
 
-    if (!CaseDataStore.getCase(caseId)) throw new ReelError(`Cannot build strip for case ${caseId}: no items`);
+    if (!prebuiltStrip && !CaseDataStore.getCase(caseId))
+      throw new ReelError(`Cannot build strip for case ${caseId}: no items`);
 
-    const strip      = _buildStrip(caseId, selectedItem);
+    const strip      = prebuiltStrip ?? _buildStrip(caseId, selectedItem);
     const stopOffset = (Math.random() * STOP_OFFSET_RANGE * 2) - STOP_OFFSET_RANGE;
     const targetOffset = (SELECTED_INDEX * CARD_WIDTH)
                         - (viewportWidth / 2 - CARD_WIDTH / 2)
