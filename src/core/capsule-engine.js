@@ -25,7 +25,7 @@ export const CapsuleEngine = {
       name:             sticker.name,
       market_hash_name: sticker.market_hash_name,
       image_url:        sticker.image_url ?? null,
-      market_price:     null,
+      market_price:     sticker.market_price ?? null,
     };
   },
 };
