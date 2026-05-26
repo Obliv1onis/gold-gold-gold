@@ -1,35 +1,37 @@
 import { SkinInventory }  from '../core/skin-inventory.js';
-import { TradeUpEngine, CONTRACT_SIZE } from '../core/trade-up-engine.js';
+import { TradeUpEngine, CONTRACT_SIZE, CONTRACT_SIZE_COVERT } from '../core/trade-up-engine.js';
 import { SkinImageLoader }from '../feature/skin-image-loader.js';
 import { FloatService }   from '../foundation/float-service.js';
 import { CaseDataStore }  from '../foundation/case-data-store.js';
 import { Events }         from '../foundation/events.js';
 
-const ELIGIBLE_RARITIES = new Set(['mil_spec', 'restricted', 'classified']);
+const ELIGIBLE_RARITIES = new Set(['mil_spec', 'restricted', 'classified', 'covert']);
 
 // ─── Module state ─────────────────────────────────────────────────────────────
 
 let _container  = null;
-let _slots      = new Array(CONTRACT_SIZE).fill(null); // {instanceId, item} | null
-let _slotsEl    = null;
-let _countEl    = null;
-let _avgFloatEl = null;
-let _tradeBtn   = null;
-let _invGridEl  = null;
-let _invEmptyEl = null;
-let _resultEl   = null;
-let _contractEl = null;
+let _slots      = new Array(CONTRACT_SIZE).fill(null); // always 10 slots; only first N used
+let _slotsEl      = null;
+let _countEl      = null;
+let _avgFloatEl   = null;
+let _tradeBtn     = null;
+let _errorEl      = null;
+let _hintEl       = null;
+let _invGridEl    = null;
+let _invEmptyEl   = null;
+let _resultEl     = null;
+let _contractEl   = null;
 let _invSectionEl = null;
 
 /**
  * Trade-Up Contract page.
- * Allows the player to exchange 10 skins of the same rarity for one random
- * skin of the next rarity tier. StatTrak™ skins may only be combined with
- * other StatTrak™ skins.
+ *
+ * Allows the player to exchange same-rarity skins for one random skin of the
+ * next rarity tier. Covert (red) skins produce a Rare Special Item (knife or
+ * glove) using only 5 inputs instead of the usual 10.
  *
  * @example
  * TradeUpUI.init(document.querySelector('.tradeup-container'));
- * // Navigation:
  * TradeUpUI.show(); TradeUpUI.hide();
  */
 export const TradeUpUI = {
@@ -49,8 +51,9 @@ export const TradeUpUI = {
             </div>
             <button class="btn-tradeup" disabled>Trade Up →</button>
           </div>
+          <div class="tradeup-error" hidden></div>
           <div class="tradeup-slots-grid"></div>
-          <div class="tradeup-hint">Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified)</div>
+          <div class="tradeup-hint">Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item</div>
         </div>
 
         <div class="tradeup-inventory" id="tradeup-inventory">
@@ -68,6 +71,8 @@ export const TradeUpUI = {
     _countEl      = container.querySelector('.tradeup-count');
     _avgFloatEl   = container.querySelector('.tradeup-avg-float');
     _tradeBtn     = container.querySelector('.btn-tradeup');
+    _errorEl      = container.querySelector('.tradeup-error');
+    _hintEl       = container.querySelector('.tradeup-hint');
     _invGridEl    = container.querySelector('.tradeup-inv-grid');
     _invEmptyEl   = container.querySelector('.tradeup-inv-empty');
     _resultEl     = container.querySelector('.tradeup-result');
@@ -79,11 +84,9 @@ export const TradeUpUI = {
     document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => {
       // Remove any slots whose item was sold/consumed outside this UI
       const ids = new Set(SkinInventory.getItems().map(e => e.instanceId));
-      let changed = false;
       for (let i = 0; i < _slots.length; i++) {
         if (_slots[i] && !ids.has(_slots[i].instanceId)) {
           _slots[i] = null;
-          changed = true;
         }
       }
       this._refreshSlots();
@@ -107,6 +110,9 @@ export const TradeUpUI = {
     const first = _slots.find(Boolean);
     return first ? !!first.item.stat_trak : null;
   },
+  _effectiveSize()  {
+    return this._lockedRarity() === 'covert' ? CONTRACT_SIZE_COVERT : CONTRACT_SIZE;
+  },
   _filledCount()    { return _slots.filter(Boolean).length; },
   _slottedIds()     { return new Set(_slots.filter(Boolean).map(s => s.instanceId)); },
 
@@ -125,12 +131,12 @@ export const TradeUpUI = {
   },
 
   _addToSlot(entry) {
-    if (this._filledCount() >= CONTRACT_SIZE) return;
+    if (this._filledCount() >= this._effectiveSize()) return;
     if (this._slottedIds().has(entry.instanceId)) return;
     if (!this._isCompatible(entry)) return;
 
     const idx = _slots.findIndex(s => s === null);
-    if (idx === -1) return;
+    if (idx === -1 || idx >= this._effectiveSize()) return;
     _slots[idx] = { instanceId: entry.instanceId, item: entry.item };
 
     this._refreshSlots();
@@ -148,7 +154,9 @@ export const TradeUpUI = {
     _slotsEl.innerHTML = '';
     const frag = document.createDocumentFragment();
 
-    for (let i = 0; i < CONTRACT_SIZE; i++) {
+    const size = this._effectiveSize();
+
+    for (let i = 0; i < size; i++) {
       const slot = _slots[i];
       const el   = document.createElement('div');
 
@@ -208,7 +216,7 @@ export const TradeUpUI = {
 
     // Update status bar
     const count = this._filledCount();
-    if (_countEl) _countEl.textContent = `${count} / ${CONTRACT_SIZE}`;
+    if (_countEl) _countEl.textContent = `${count} / ${size}`;
 
     if (_avgFloatEl) {
       const filled = _slots.filter(Boolean);
@@ -220,7 +228,19 @@ export const TradeUpUI = {
       }
     }
 
-    if (_tradeBtn) _tradeBtn.disabled = count < CONTRACT_SIZE;
+    if (_tradeBtn) _tradeBtn.disabled = count < size;
+
+    // Update hint text based on locked rarity
+    if (_hintEl) {
+      const lr = this._lockedRarity();
+      if (lr === 'covert') {
+        _hintEl.textContent = `5 Covert skins → Rare Special Item (Knife / Glove)`;
+      } else if (lr) {
+        _hintEl.textContent = `10 ${_formatRarity(lr)} skins → ${_formatRarity(NEXT_RARITY_LABEL[lr])}`;
+      } else {
+        _hintEl.textContent = 'Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item';
+      }
+    }
   },
 
   _refreshInventory() {
@@ -234,7 +254,7 @@ export const TradeUpUI = {
 
     const eligible = [...compatible, ...incompatible];
 
-    const full = this._filledCount() >= CONTRACT_SIZE;
+    const full = this._filledCount() >= this._effectiveSize();
 
     if (eligible.length === 0 && allItems.length === 0) {
       _invGridEl.hidden  = true;
@@ -307,30 +327,50 @@ export const TradeUpUI = {
   },
 
   _executeTradeUp() {
-    if (this._filledCount() < CONTRACT_SIZE) return;
+    if (this._filledCount() < this._effectiveSize()) return;
     _tradeBtn.disabled = true;
 
-    const items = _slots.filter(Boolean).map(s => s.item);
+    const items       = _slots.filter(Boolean).map(s => s.item);
     const instanceIds = _slots.filter(Boolean).map(s => s.instanceId);
 
+    this._clearError();
     let resultItem;
     try {
       resultItem = TradeUpEngine.execute(items);
     } catch (err) {
-      console.error('[TradeUpUI] execute failed:', err.message);
+      this._showError(err.message);
       _tradeBtn.disabled = false;
       return;
     }
 
     // Add result to inventory first so the event fires with the new item present
     const resultEntry = SkinInventory.addItem(resultItem);
-    // Then consume the 10 inputs
+    // Then consume the inputs
     SkinInventory.consumeItems(instanceIds);
 
     // Reset slots
     _slots.fill(null);
 
     this._showResult(resultEntry);
+  },
+
+  _showError(msg) {
+    if (!_errorEl) return;
+    const labels = {
+      need_ten:         'Need exactly 10 skins.',
+      need_five:        'Need exactly 5 Covert skins.',
+      ineligible_rarity:'Rare Special (knife/glove) skins cannot be traded up.',
+      mixed_rarity:     'All skins must be the same rarity.',
+      missing_case_id:  'Some skins are missing case data — try re-opening those cases.',
+      mixed_stat_trak:  'Cannot mix StatTrak™ and standard skins.',
+      empty_pool:       'No higher-tier skins found for these cases.',
+    };
+    _errorEl.textContent = labels[msg] ?? `Trade-up failed: ${msg}`;
+    _errorEl.removeAttribute('hidden');
+  },
+
+  _clearError() {
+    if (_errorEl) _errorEl.setAttribute('hidden', '');
   },
 
   _showResult(entry) {
@@ -340,7 +380,8 @@ export const TradeUpUI = {
     _resultEl.removeAttribute('hidden');
 
     const item     = entry.item;
-    const wearTier = item.wear_tier ?? FloatService.getWearTier(item.float ?? 0);
+    const hasFloat = item.float != null;
+    const wearTier = hasFloat ? (item.wear_tier ?? FloatService.getWearTier(item.float)) : null;
     const name     = _formatName(item.weapon, item.skin);
     const caseName = item.case_name ?? CaseDataStore.getCase(item.case_id)?.name ?? '';
 
@@ -360,16 +401,23 @@ export const TradeUpUI = {
     rarityEl.className = 'tradeup-result-rarity';
     rarityEl.textContent = _formatRarity(item.rarity);
 
-    const floatRow = document.createElement('div');
-    floatRow.className = 'float-row';
-    const wbadge = document.createElement('span');
-    wbadge.className = `wear-badge wear-${wearTier}`;
-    wbadge.textContent = FloatService.getWearLabel(wearTier);
-    const floatVal = document.createElement('span');
-    floatVal.className = 'float-value';
-    floatVal.textContent = item.float != null ? FloatService.formatFloat(item.float) : '—';
-    floatRow.appendChild(wbadge);
-    floatRow.appendChild(floatVal);
+    card.appendChild(heading);
+    card.appendChild(img);
+    card.appendChild(rarityEl);
+
+    if (hasFloat) {
+      const floatRow = document.createElement('div');
+      floatRow.className = 'float-row';
+      const wbadge = document.createElement('span');
+      wbadge.className = `wear-badge wear-${wearTier}`;
+      wbadge.textContent = FloatService.getWearLabel(wearTier);
+      const floatVal = document.createElement('span');
+      floatVal.className = 'float-value';
+      floatVal.textContent = FloatService.formatFloat(item.float);
+      floatRow.appendChild(wbadge);
+      floatRow.appendChild(floatVal);
+      card.appendChild(floatRow);
+    }
 
     const nameEl = document.createElement('div');
     nameEl.className = 'tradeup-result-name';
@@ -380,23 +428,13 @@ export const TradeUpUI = {
       nameEl.appendChild(st);
     }
     nameEl.appendChild(document.createTextNode(name));
+    card.appendChild(nameEl);
 
     if (item.stat_trak) {
       const kills = document.createElement('div');
       kills.className = 'stat-trak-kills';
       kills.textContent = '☆ 0 Kills';
-      card.appendChild(heading);
-      card.appendChild(img);
-      card.appendChild(rarityEl);
-      card.appendChild(floatRow);
-      card.appendChild(nameEl);
       card.appendChild(kills);
-    } else {
-      card.appendChild(heading);
-      card.appendChild(img);
-      card.appendChild(rarityEl);
-      card.appendChild(floatRow);
-      card.appendChild(nameEl);
     }
 
     if (caseName) {
@@ -405,11 +443,6 @@ export const TradeUpUI = {
       caseEl.textContent = caseName;
       card.appendChild(caseEl);
     }
-
-    const priceEl = document.createElement('div');
-    priceEl.className = 'tradeup-result-price';
-    priceEl.textContent = `$${(item.market_price ?? 0).toFixed(2)}`;
-    card.appendChild(priceEl);
 
     const acceptBtn = document.createElement('button');
     acceptBtn.className = 'btn-tradeup-accept';
@@ -425,12 +458,19 @@ export const TradeUpUI = {
     _resultEl.setAttribute('hidden', '');
     _contractEl?.removeAttribute('hidden');
     _invSectionEl?.removeAttribute('hidden');
+    this._clearError();
     this._refreshSlots();
     this._refreshInventory();
   },
 };
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
+
+const NEXT_RARITY_LABEL = {
+  mil_spec:   'restricted',
+  restricted: 'classified',
+  classified: 'covert',
+};
 
 function _formatName(weapon, skin) {
   if (skin && skin.startsWith('★')) {
@@ -443,5 +483,12 @@ function _formatName(weapon, skin) {
 
 function _formatRarity(rarity) {
   if (!rarity) return '';
-  return rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  const labels = {
+    mil_spec:     'Mil-Spec',
+    restricted:   'Restricted',
+    classified:   'Classified',
+    covert:       'Covert',
+    rare_special: 'Rare Special',
+  };
+  return labels[rarity] ?? rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }

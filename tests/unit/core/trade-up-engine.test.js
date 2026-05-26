@@ -7,7 +7,7 @@ vi.mock('../../../src/foundation/case-data-store.js', () => ({
   },
 }));
 
-import { TradeUpEngine, CONTRACT_SIZE } from '../../../src/core/trade-up-engine.js';
+import { TradeUpEngine, CONTRACT_SIZE, CONTRACT_SIZE_COVERT } from '../../../src/core/trade-up-engine.js';
 import { CaseDataStore }               from '../../../src/foundation/case-data-store.js';
 
 // ─── Fixtures ─────────────────────────────────────────────────────────────────
@@ -64,8 +64,18 @@ describe('TradeUpEngine — validate', () => {
     expect(TradeUpEngine.validate([...makeTen(), makeItem()])).toEqual({ ok: false, reason: 'need_ten' });
   });
 
-  it('test_tue_validate_fails_for_covert_rarity', () => {
-    expect(TradeUpEngine.validate(makeTen({ rarity: 'covert' }))).toEqual({ ok: false, reason: 'ineligible_rarity' });
+  it('test_tue_validate_ok_for_five_covert', () => {
+    const items = Array.from({ length: CONTRACT_SIZE_COVERT }, () => makeItem({ rarity: 'covert' }));
+    expect(TradeUpEngine.validate(items)).toEqual({ ok: true });
+  });
+
+  it('test_tue_validate_fails_covert_with_ten_items', () => {
+    expect(TradeUpEngine.validate(makeTen({ rarity: 'covert' }))).toEqual({ ok: false, reason: 'need_five' });
+  });
+
+  it('test_tue_validate_fails_covert_with_fewer_than_five', () => {
+    const items = Array.from({ length: 3 }, () => makeItem({ rarity: 'covert' }));
+    expect(TradeUpEngine.validate(items)).toEqual({ ok: false, reason: 'need_five' });
   });
 
   it('test_tue_validate_fails_for_rare_special_rarity', () => {

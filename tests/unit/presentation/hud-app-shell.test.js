@@ -98,9 +98,10 @@ describe('HudAppShell — DOM structure', () => {
     expect(_appEl.querySelector('.case-browser-container')).toBeTruthy();
   });
 
-  it('test_hud_init_browser_view_is_active_by_default', () => {
+  it('test_hud_init_home_view_is_active_by_default', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
-    expect(_appEl.querySelector('#browser-view').classList.contains('active')).toBe(true);
+    expect(_appEl.querySelector('#home-view').classList.contains('active')).toBe(true);
+    expect(_appEl.querySelector('#browser-view').classList.contains('active')).toBe(false);
     expect(_appEl.querySelector('#reel-view').classList.contains('active')).toBe(false);
   });
 
@@ -136,11 +137,11 @@ describe('HudAppShell — view transitions', () => {
     expect(_appEl.querySelector('#browser-view').classList.contains('active')).toBe(false);
   });
 
-  it('test_hud_show_case_opening_cases_tab_remains_active', () => {
+  it('test_hud_show_case_opening_home_tab_remains_active', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
     HudAppShell.showCaseOpening(TEST_CASE_ID, TEST_CASE_PRICE);
-    const casesTab = _appEl.querySelector('.nav-tab[data-view="cases"]');
-    expect(casesTab.classList.contains('active')).toBe(true);
+    const homeTab = _appEl.querySelector('.nav-tab[data-view="home"]');
+    expect(homeTab.classList.contains('active')).toBe(true);
   });
 
   it('test_hud_init_has_market_tab', () => {

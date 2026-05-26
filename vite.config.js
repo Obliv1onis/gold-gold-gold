@@ -4,13 +4,19 @@ export default defineConfig({
   // ─── Dev Server ────────────────────────────────────────────────────────────
   server: {
     proxy: {
-      // Proxies /api/price/* → CSFloat API in development.
-      // Resolves CORS restriction without needing a production proxy if CSFloat
-      // allows browser origins directly. See ADR-0008.
-      '/api/price': {
-        target: 'https://csfloat.com/api/v1',
+      // Proxies /api/steam → Steam Community Market priceoverview endpoint.
+      // Bypasses CORS (Steam blocks browser fetch; Vite runs server-side).
+      // Production requires VITE_PRICE_API_BASE pointing to a serverless proxy.
+      // See ADR-0008.
+      '/api/steam': {
+        target: 'https://steamcommunity.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/price/, ''),
+        rewrite: (path) => path.replace(/^\/api\/steam/, '/market/priceoverview'),
+      },
+      '/api/steam-search': {
+        target: 'https://steamcommunity.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/steam-search/, '/market/search/render'),
       },
     },
   },

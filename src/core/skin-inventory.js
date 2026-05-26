@@ -86,6 +86,24 @@ export const SkinInventory = {
     return removed;
   },
 
+  /**
+   * Back-fills case_id on inventory items that predate the trade-up system.
+   * Must be called after CaseDataStore is loaded.
+   * @param {function(string): string|null} lookupFn  item_id → case_id
+   * @returns {number}  count of items patched
+   */
+  migrateMissingCaseIds(lookupFn) {
+    let patched = 0;
+    for (const entry of _inventory) {
+      if (!entry.item.case_id && entry.item.item_id) {
+        const found = lookupFn(entry.item.item_id);
+        if (found) { entry.item.case_id = found; patched++; }
+      }
+    }
+    if (patched > 0) _persist();
+    return patched;
+  },
+
   clearInventory() {
     _inventory = [];
     _persist();

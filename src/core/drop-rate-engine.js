@@ -4,7 +4,7 @@ export class RollError extends Error {
   constructor(msg) { super(msg); this.name = 'RollError'; }
 }
 
-const TIERS = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
+const TIERS = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 
 export const DropRateEngine = {
   // rng is injectable for deterministic testing (default: Math.random).

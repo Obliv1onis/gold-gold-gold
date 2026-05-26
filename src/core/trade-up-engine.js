@@ -3,41 +3,51 @@ import { FloatService }  from '../foundation/float-service.js';
 
 /**
  * Rarity progression for Trade-Up Contracts.
- * Covert is the ceiling; rare_special (knives/gloves) cannot be traded up.
+ * Covert (red) contracts produce a Rare Special Item (knife / glove).
  */
 const NEXT_RARITY = {
   mil_spec:   'restricted',
   restricted: 'classified',
   classified: 'covert',
+  covert:     'rare_special',
 };
 
-export const CONTRACT_SIZE      = 10;
-const        STAT_TRAK_MULT     = 1.50;
+export const CONTRACT_SIZE        = 10;  // mil_spec / restricted / classified
+export const CONTRACT_SIZE_COVERT = 5;   // covert → rare_special
+
+function _contractSizeFor(rarity) {
+  return rarity === 'covert' ? CONTRACT_SIZE_COVERT : CONTRACT_SIZE;
+}
+
+function _isVanilla(item) {
+  return item.skin?.startsWith('★') && item.skin.slice(1).trim().toLowerCase() === 'vanilla';
+}
 
 /**
  * Business logic for CS2 Trade-Up Contracts.
  *
  * Rules enforced:
- *  - Exactly 10 skins, all identical rarity (mil_spec / restricted / classified)
+ *  - Mil-Spec / Restricted / Classified: exactly 10 skins, all same rarity
+ *  - Covert (red): exactly 5 skins → one Rare Special Item (knife / glove)
  *  - All StatTrak™ or all non-StatTrak™ — no mixing
- *  - Each input contributes 1/10 weight toward next-rarity skins of its case
- *  - Output float = Avg(input floats) × (1.0 − 0.0) + 0.0  =  Avg(input floats)
- *    (skin-specific float caps not tracked; [0, 1] range assumed for all skins)
+ *  - Output skin: randomly pick one input skin, look up its case, then pick
+ *    one skin of the next rarity from that case (uniform distribution)
+ *  - Output float = Avg(input floats) (vanilla knives have no float)
  *
  * @example
- * const result = TradeUpEngine.execute(tenItems);
- * const entry  = SkinInventory.addItem(result);
- * SkinInventory.consumeItems(tenItems.map(it => it.instanceId)); // caller handles
+ * const result = TradeUpEngine.execute(fiveCovertItems);
+ * SkinInventory.addItem(result);
+ * SkinInventory.consumeItems(fiveCovertItems.map(it => it.instanceId));
  */
 export const TradeUpEngine = {
 
   /**
-   * Validates 10 input item objects for a trade-up contract.
+   * Validates input items for a trade-up contract.
    * @param {object[]} items  Array of InventorySkinEntry.item objects
    * @returns {{ ok: true } | { ok: false, reason: string }}
    */
   validate(items) {
-    if (!Array.isArray(items) || items.length !== CONTRACT_SIZE) {
+    if (!Array.isArray(items) || items.length < 1) {
       return { ok: false, reason: 'need_ten' };
     }
 
@@ -45,6 +55,12 @@ export const TradeUpEngine = {
     if (!NEXT_RARITY[rarity]) {
       return { ok: false, reason: 'ineligible_rarity' };
     }
+
+    const required = _contractSizeFor(rarity);
+    if (items.length !== required) {
+      return { ok: false, reason: rarity === 'covert' ? 'need_five' : 'need_ten' };
+    }
+
     if (items.some(it => it.rarity !== rarity)) {
       return { ok: false, reason: 'mixed_rarity' };
     }
@@ -62,13 +78,9 @@ export const TradeUpEngine = {
   },
 
   /**
-   * Builds a weighted outcome pool from 10 input items.
-   *
-   * Each input contributes 1/10 weight distributed equally across the
-   * next-rarity skins of its source case.  If 7 inputs are from Case A
-   * (3 next-tier skins) and 3 are from Case B (2 next-tier skins):
-   *   Case A skin weight each = 7 / 3 ≈ 2.33
-   *   Case B skin weight each = 3 / 2 = 1.50
+   * Builds a weighted outcome pool from input items.
+   * Each input contributes 1/N weight toward next-rarity skins of its case.
+   * Kept for backward compatibility; execute() uses simpler uniform selection.
    *
    * @param {object[]} items
    * @returns {Array<{ item: object, weight: number }>}
@@ -103,7 +115,7 @@ export const TradeUpEngine = {
   /**
    * Picks a weighted-random item from the pool.
    * @param {Array<{ item: object, weight: number }>} pool
-   * @param {function} [rng=Math.random]  injectable for deterministic tests
+   * @param {function} [rng=Math.random]
    * @returns {object}
    */
   rollFromPool(pool, rng = Math.random) {
@@ -119,11 +131,6 @@ export const TradeUpEngine = {
 
   /**
    * Calculates the output float from the average of input floats.
-   *
-   * Formula: Output Float = Avg × (Max − Min) + Min
-   * With Min = 0.0, Max = 1.0 (full skin range in this simulator):
-   *   Output Float = Avg(input floats)
-   *
    * @param {object[]} items
    * @returns {number}  clamped to [0, 1]
    */
@@ -134,9 +141,15 @@ export const TradeUpEngine = {
 
   /**
    * Executes a full trade-up contract. Returns the output skin item object.
+   *
+   * Algorithm:
+   *   1. Randomly pick one of the input skins (uniform)
+   *   2. Look up its source case
+   *   3. Pick one skin of the next rarity from that case (uniform)
+   *
    * The caller must:
    *   1. Add the result to SkinInventory via addItem()
-   *   2. Remove the 10 input items via consumeItems()
+   *   2. Remove input items via consumeItems()
    *
    * @param {object[]} items  InventorySkinEntry.item objects (must pass validate)
    * @param {function} [rng=Math.random]
@@ -147,23 +160,32 @@ export const TradeUpEngine = {
     const valid = this.validate(items);
     if (!valid.ok) throw new Error(valid.reason);
 
-    const pool = this.buildPool(items);
-    if (!pool.length) throw new Error('empty_pool');
+    const nextRarity = NEXT_RARITY[items[0].rarity];
+
+    // Pick a random pivot input → source case → uniform pick from next-tier pool
+    const pivot      = items[Math.floor(rng() * items.length)];
+    const caseId     = pivot.case_id;
+    const nextItems  = CaseDataStore.getItems(caseId, nextRarity);
+    if (!nextItems.length) throw new Error('empty_pool');
+
+    const caseEntry  = CaseDataStore.getCase(caseId);
+    const caseName   = caseEntry?.name ?? caseId;
+    const rolledItem = nextItems[Math.floor(rng() * nextItems.length)];
 
     const isStatTrak  = !!(items[0].stat_trak);
-    const outputFloat = this.calcOutputFloat(items);
-    const wearTier    = FloatService.getWearTier(outputFloat);
-    const rolledItem  = this.rollFromPool(pool, rng);
-    const basePrice   = rolledItem.market_price ?? 0;
-    const adjPrice    = Math.round(basePrice * FloatService.getPriceMultiplier(outputFloat) * 100) / 100;
-    const finalPrice  = isStatTrak ? Math.round(adjPrice * STAT_TRAK_MULT * 100) / 100 : adjPrice;
+    const vanilla     = _isVanilla(rolledItem);
+    const outputFloat = vanilla ? null : this.calcOutputFloat(items);
+    const wearTier    = outputFloat !== null ? FloatService.getWearTier(outputFloat) : null;
 
     return {
       ...rolledItem,
+      rarity:       nextRarity,
+      case_id:      caseId,
+      case_name:    caseName,
       float:        outputFloat,
       wear_tier:    wearTier,
-      market_price: finalPrice,
       stat_trak:    isStatTrak,
+      market_price: null,
     };
   },
 };

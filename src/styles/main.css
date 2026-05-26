@@ -37,7 +37,11 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .hud-balance { display: flex; flex-direction: column; min-width: 120px; }
 .balance-label { font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.08em; }
-.balance-value { font-size: 1.4rem; font-weight: 700; color: #4caf50; font-variant-numeric: tabular-nums; }
+.balance-value { font-size: 1.4rem; font-weight: 700; color: #81c784; font-variant-numeric: tabular-nums; }
+
+.hud-inv-value { display: flex; flex-direction: column; min-width: 120px; }
+.inv-value-label { font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.08em; }
+.inv-value-amount { font-size: 1.4rem; font-weight: 700; color: #81c784; font-variant-numeric: tabular-nums; }
 
 .hud-open-section { display: flex; align-items: center; gap: 10px; flex: 1; }
 
@@ -105,11 +109,122 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .view.active { display: flex; flex-direction: column; }
 
 /* ─── Rarity colours (shared by reel, reveal, inventory) ────────────────── */
-.rarity-mil_spec    { --rarity-color: #4B69FF; }
-.rarity-restricted  { --rarity-color: #8847FF; }
-.rarity-classified  { --rarity-color: #D32EE6; }
-.rarity-covert      { --rarity-color: #EB4B4B; }
-.rarity-rare_special{ --rarity-color: #E4AE39; }
+.rarity-consumer_grade  { --rarity-color: #b0c3d9; }
+.rarity-industrial_grade{ --rarity-color: #5e98d9; }
+.rarity-mil_spec        { --rarity-color: #4B69FF; }
+.rarity-restricted      { --rarity-color: #8847FF; }
+.rarity-classified      { --rarity-color: #D32EE6; }
+.rarity-covert          { --rarity-color: #EB4B4B; }
+.rarity-rare_special    { --rarity-color: #E4AE39; }
+.rarity-contraband      { --rarity-color: #E4AE39; }
+
+/* Sticker capsule rarities */
+.rarity-high_grade      { --rarity-color: #4B69FF; }
+.rarity-remarkable      { --rarity-color: #8847FF; }
+.rarity-exotic          { --rarity-color: #D32EE6; }
+.rarity-extraordinary   { --rarity-color: #E4AE39; }
+
+/* ─── Home ───────────────────────────────────────────────────────────────── */
+#home-view { overflow: hidden; }
+
+.home-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-tile {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 2.8rem;
+  background: #0c0c0e;
+  border-right: 1px solid #1c1c1e;
+  transition: background 0.25s;
+}
+.home-tile:last-child { border-right: none; }
+
+.home-tile__img-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.home-tile__img {
+  width: 72%;
+  max-width: 260px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 28px rgba(0,0,0,0.7));
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+.home-tile:hover .home-tile__img {
+  transform: scale(1.07) translateY(-6px);
+  filter: drop-shadow(0 14px 36px rgba(0,0,0,0.85)) brightness(1.12);
+}
+
+.home-tile__gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.92) 0%,
+    rgba(0,0,0,0.45) 38%,
+    rgba(0,0,0,0.08) 65%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.home-tile__content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 1rem;
+}
+.home-tile__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
+}
+.home-tile__count {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.home-tile--coming-soon { cursor: not-allowed; }
+.home-tile--coming-soon .home-tile__img-wrap { opacity: 0.18; }
+.home-tile--coming-soon:hover .home-tile__img { transform: none; filter: drop-shadow(0 8px 28px rgba(0,0,0,0.7)); }
+
+.home-tile__badge {
+  position: absolute;
+  top: 1.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 0.28em 0.8em;
+  border-radius: 3px;
+  z-index: 2;
+}
 
 /* ─── Case Browser ───────────────────────────────────────────────────────── */
 #browser-view {
@@ -119,6 +234,21 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .case-browser-container {
   width: 100%;
+}
+
+.browser-section {
+  margin-bottom: 2rem;
+}
+
+.section-header {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .case-grid {
@@ -167,9 +297,20 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 }
 
 .case-card-price {
-  font-size: 0.75rem;
-  color: #4caf50;
+  font-size: 1rem;
+  color: #81c784;
   font-weight: 600;
+}
+.case-card-price--loading {
+  color: #81c784;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.case-card-price--live::after {
+  content: ' ●';
+  font-size: 0.5rem;
+  vertical-align: super;
+  opacity: 0.7;
 }
 
 .browser-empty {
@@ -369,9 +510,22 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .reveal-feedback {
   font-size: 0.85rem;
-  color: #4caf50;
+  color: #81c784;
   text-align: center;
   min-height: 1.2em;
+}
+
+.reveal-item-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #777;
+}
+
+.reveal-source {
+  font-size: 0.7rem;
+  color: #666;
+  text-align: center;
 }
 
 /* ─── StatTrak™ ──────────────────────────────────────────────────────────── */
@@ -453,11 +607,14 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 }
 
 /* ─── Inventory UI ───────────────────────────────────────────────────────── */
+#inventory-view {
+  overflow-y: auto;
+}
+
 .inventory-container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .inventory-view {
@@ -466,7 +623,6 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   flex-direction: column;
   padding: 20px;
   gap: 16px;
-  overflow-y: auto;
 }
 
 .inventory-header {
@@ -521,7 +677,7 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .inventory-card .card-price {
   font-size: 0.8rem;
-  color: #4caf50;
+  color: #81c784;
   font-weight: 600;
 }
 
@@ -616,6 +772,16 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-size: 0.72rem;
   color: #555;
   margin-top: 10px;
+}
+
+.tradeup-error {
+  font-size: 0.8rem;
+  color: #e57373;
+  background: rgba(229, 115, 115, 0.08);
+  border: 1px solid rgba(229, 115, 115, 0.25);
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
 }
 
 /* Slot grid */
@@ -864,7 +1030,7 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .tradeup-result-price {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #4caf50;
+  color: #81c784;
 }
 
 .btn-tradeup-accept {
@@ -1014,9 +1180,19 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .market-row-price {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #4caf50;
+  color: #81c784;
   text-align: right;
   white-space: nowrap;
+}
+.market-row-price--loading {
+  color: #666;
+  font-weight: 400;
+}
+.market-row-price--live::after {
+  content: ' ●';
+  font-size: 0.5rem;
+  vertical-align: super;
+  opacity: 0.7;
 }
 
 /* Buy button */

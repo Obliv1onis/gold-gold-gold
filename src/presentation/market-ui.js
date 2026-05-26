@@ -1,8 +1,10 @@
 import { CaseDataStore }   from '../foundation/case-data-store.js';
 import { FloatService }    from '../foundation/float-service.js';
 import { SkinImageLoader } from '../feature/skin-image-loader.js';
+import { PriceAPILayer }   from '../feature/price-api-layer.js';
 import { VirtualEconomy }  from '../core/virtual-economy.js';
 import { SkinInventory }   from '../core/skin-inventory.js';
+import { Events }          from '../foundation/events.js';
 
 const RARITY_TIERS      = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 const WEAR_TIERS        = ['fn', 'mw', 'ft', 'ww', 'bs'];
@@ -14,6 +16,21 @@ const LISTING_VARIANTS  = [
 ];
 const RECOMMEND_SKINS = 2;   // × 10 variants = 20 rows
 const SEARCH_SKINS    = 6;   // × 10 variants = 60 rows
+
+// Contraband items exist only in the market — not in any case, not in trade-ups.
+const CONTRABAND_ITEMS = [
+  {
+    id:          'm4a4_howl',
+    weapon:      'M4A4',
+    skin:        'Howl',
+    rarity:      'contraband',
+    market_price: 2500,
+    image_url:   'https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiFO0P_6afVSKP-EAm6extF6ueZhW2exwkl2tmTXwt39eCiUPQR2DMN4TOVetUK8xoLgM-K341eM2otDnC6okGoXufBz_TAB',
+    wear_tiers:  ['fn', 'mw', 'ft', 'ww'],  // max float 0.4 — no Battle-Scarred
+    case_id:     null,
+    case_name:   null,
+  },
+];
 
 let _container   = null;
 let _allItems    = null;   // built lazily on first show()
@@ -58,6 +75,20 @@ export const MarketUI = {
       clearTimeout(_searchTimer);
       _searchTimer = setTimeout(() => this._onSearch(_searchEl.value.trim()), 250);
     });
+
+    // Update price elements and buy buttons when a live price arrives
+    document.addEventListener(Events.PRICE_UPDATED, e => {
+      const { hashName, price } = e.detail;
+      _listEl?.querySelectorAll(`[data-hash-name="${CSS.escape(hashName)}"]`).forEach(el => {
+        if (el.classList.contains('market-row-price')) {
+          el.textContent = `$${price.toFixed(2)}`;
+          el.classList.remove('market-row-price--loading');
+          el.classList.add('market-row-price--live');
+        } else if (el.classList.contains('btn-market-buy')) {
+          el.disabled = false;
+        }
+      });
+    });
   },
 
   show() {
@@ -68,6 +99,8 @@ export const MarketUI = {
       this._render(_recommended);
       _labelEl.textContent = 'Recommended';
     }
+    // Kick off price fetches for everything currently visible
+    _recommended.forEach(l => PriceAPILayer.prefetch(l.hashName));
   },
 
   hide() { /* no teardown needed */ },
@@ -82,6 +115,9 @@ export const MarketUI = {
           _allItems.push({ ...it, rarity: tier, case_id: c.id, case_name: c.name });
         }
       }
+    }
+    for (const it of CONTRABAND_ITEMS) {
+      _allItems.push(it);
     }
   },
 
@@ -115,6 +151,7 @@ export const MarketUI = {
       ? `Results for "${query}" (${matchedSkins.length} skin${matchedSkins.length !== 1 ? 's' : ''})`
       : `No results for "${query}"`;
     this._render(results);
+    results.forEach(l => PriceAPILayer.prefetch(l.hashName));
   },
 
   _render(listings) {
@@ -133,9 +170,9 @@ export const MarketUI = {
   },
 
   _makeRow(listing) {
-    const { item, floatVal, wearTier, adjPrice, statTrak } = listing;
+    const { item, floatVal, wearTier, statTrak, hashName } = listing;
     const displayName = _formatItemName(item.weapon, item.skin);
-    const wearLabel   = FloatService.getWearLabel(wearTier);
+    const hasFloat    = floatVal !== null && wearTier !== null;
 
     const row = document.createElement('div');
     row.className = `market-row rarity-${item.rarity ?? 'unknown'}${statTrak ? ' market-row--st' : ''}`;
@@ -163,41 +200,54 @@ export const MarketUI = {
 
     const metaEl = document.createElement('div');
     metaEl.className   = 'market-row-meta';
-    metaEl.textContent = `${item.case_name ?? '?'} · ${_formatRarity(item.rarity)}`;
+    const caseLabel = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : '?');
+    metaEl.textContent = `${caseLabel} · ${_formatRarity(item.rarity)}`;
 
     info.appendChild(nameEl);
     info.appendChild(metaEl);
 
-    // ── Float block (scale bar + badge + value) ────────────────────────────
+    // ── Float block — hidden for vanilla knives ───────────────────────────
     const floatBlock = document.createElement('div');
     floatBlock.className = 'market-float-block';
+    if (hasFloat) {
+      floatBlock.appendChild(_makeFloatScale(floatVal));
 
-    floatBlock.appendChild(_makeFloatScale(floatVal));
+      const floatLabel = document.createElement('div');
+      floatLabel.className = 'market-float-label';
 
-    const floatLabel = document.createElement('div');
-    floatLabel.className = 'market-float-label';
+      const badge = document.createElement('span');
+      badge.className   = `wear-badge wear-${wearTier}`;
+      badge.textContent = FloatService.getWearLabel(wearTier);
 
-    const badge = document.createElement('span');
-    badge.className   = `wear-badge wear-${wearTier}`;
-    badge.textContent = wearLabel;
+      const floatNum = document.createElement('span');
+      floatNum.className   = 'market-float-num';
+      floatNum.textContent = FloatService.formatFloat(floatVal);
 
-    const floatNum = document.createElement('span');
-    floatNum.className   = 'market-float-num';
-    floatNum.textContent = FloatService.formatFloat(floatVal);
+      floatLabel.appendChild(badge);
+      floatLabel.appendChild(floatNum);
+      floatBlock.appendChild(floatLabel);
+    }
 
-    floatLabel.appendChild(badge);
-    floatLabel.appendChild(floatNum);
-    floatBlock.appendChild(floatLabel);
+    // ── Price — always from Steam; show loading state until price arrives ─
+    const livePrice = PriceAPILayer.getCachedPrice(hashName);
 
-    // ── Price ─────────────────────────────────────────────────────────────
     const priceEl = document.createElement('div');
-    priceEl.className   = 'market-row-price';
-    priceEl.textContent = `$${adjPrice.toFixed(2)}`;
+    priceEl.className        = 'market-row-price';
+    priceEl.dataset.hashName = hashName;
+    if (livePrice !== null) {
+      priceEl.textContent = `$${livePrice.toFixed(2)}`;
+      priceEl.classList.add('market-row-price--live');
+    } else {
+      priceEl.textContent = '—';
+      priceEl.classList.add('market-row-price--loading');
+    }
 
-    // ── Buy button ────────────────────────────────────────────────────────
+    // ── Buy button — disabled until a live price is available ────────────
     const buyBtn = document.createElement('button');
     buyBtn.className   = 'btn-market-buy';
     buyBtn.textContent = 'Buy';
+    buyBtn.disabled    = livePrice === null;
+    buyBtn.dataset.hashName = hashName;
     buyBtn.addEventListener('click', () => this._handleBuy(listing, buyBtn, row));
 
     row.appendChild(img);
@@ -209,24 +259,23 @@ export const MarketUI = {
   },
 
   _handleBuy(listing, buyBtn, row) {
-    const { item, adjPrice, statTrak } = listing;
+    const { item, statTrak, hashName, wearTier } = listing;
 
-    if (!VirtualEconomy.canAfford(adjPrice)) {
+    const buyPrice = PriceAPILayer.getCachedPrice(hashName);
+
+    if (buyPrice === null || !VirtualEconomy.canAfford(buyPrice)) {
       row.classList.add('market-row--no-funds');
       setTimeout(() => row.classList.remove('market-row--no-funds'), 700);
       return;
     }
 
     buyBtn.disabled = true;
-    VirtualEconomy.spend(adjPrice);
+    VirtualEconomy.spend(buyPrice);
 
     // Issue a fresh float for the item the player actually receives
-    const receivedFloat = FloatService.generateFloat();
-    const receivedTier  = FloatService.getWearTier(receivedFloat);
-    const basePrice     = item.market_price ?? 0;
-    const receivedAdj   = Math.round(basePrice * FloatService.getPriceMultiplier(receivedFloat) * 100) / 100;
-    const receivedPrice = statTrak ? Math.round(receivedAdj * STAT_TRAK_MULTIPLIER * 100) / 100 : receivedAdj;
-    SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: receivedPrice, stat_trak: statTrak });
+    const receivedFloat = wearTier ? FloatService.generateFloatForTier(wearTier) : null;
+    const receivedTier  = receivedFloat !== null ? FloatService.getWearTier(receivedFloat) : null;
+    SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: buyPrice, stat_trak: statTrak });
 
     buyBtn.textContent = 'Bought!';
     buyBtn.classList.add('btn-market-buy--done');
@@ -243,14 +292,13 @@ export const MarketUI = {
 // ── Module helpers ─────────────────────────────────────────────────────────────
 
 function _makeListing(item, forceTier = null, statTrak = false) {
-  const floatVal  = forceTier
-    ? FloatService.generateFloatForTier(forceTier)
-    : FloatService.generateFloat();
-  const wearTier  = FloatService.getWearTier(floatVal);
-  const basePrice = item.market_price ?? 0;
-  const adj       = Math.round(basePrice * FloatService.getPriceMultiplier(floatVal) * 100) / 100;
-  const adjPrice  = statTrak ? Math.round(adj * STAT_TRAK_MULTIPLIER * 100) / 100 : adj;
-  return { item, floatVal, wearTier, adjPrice, statTrak };
+  // Vanilla knives have no float or wear tier
+  const vanilla  = _isVanilla(item);
+  const floatVal = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
+  const wearTier = vanilla ? null : FloatService.getWearTier(floatVal);
+  const hashName = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak);
+  // Price comes exclusively from Steam — no computed placeholders
+  return { item, floatVal, wearTier, statTrak, hashName };
 }
 
 function _makeFloatScale(floatVal) {
@@ -279,9 +327,22 @@ function _isGlove(weapon) {
   return typeof weapon === 'string' && (weapon.includes('Gloves') || weapon.includes('Wraps'));
 }
 
-/** Returns the applicable listing variants for an item (gloves have no StatTrak™). */
+function _isVanilla(item) {
+  return item.skin?.startsWith('★') && item.skin.slice(1).trim().toLowerCase() === 'vanilla';
+}
+
+/** Returns the applicable listing variants for an item.
+ *  - Gloves: 5 wear tiers, no StatTrak™
+ *  - Vanilla knives: single listing, no wear tier
+ *  - Everything else: 5 normal + 5 StatTrak™ wear tiers
+ */
 function _variantsFor(item) {
-  return _isGlove(item.weapon) ? WEAR_TIERS.map(tier => ({ tier, statTrak: false })) : LISTING_VARIANTS;
+  if (item.rarity === 'contraband') return (item.wear_tiers ?? WEAR_TIERS).map(tier => ({ tier, statTrak: false }));
+  const isSouvenir = CaseDataStore.getCase(item.case_id)?.type === 'souvenir_package';
+  if (isSouvenir)             return WEAR_TIERS.map(tier => ({ tier, statTrak: false }));
+  if (_isGlove(item.weapon))  return WEAR_TIERS.map(tier => ({ tier, statTrak: false }));
+  if (_isVanilla(item))       return [{ tier: null, statTrak: false }, { tier: null, statTrak: true }];
+  return LISTING_VARIANTS;
 }
 
 function _formatRarity(rarity) {

@@ -5,14 +5,18 @@ import { Events }                      from '../foundation/events.js';
 
 // ─── Module-level state ───────────────────────────────────────────────────────
 
-let _isAnimating     = false;
-let _revealVisible   = false;
-let _reelReady       = false;
-let _selectedCaseId  = null;
-let _openCost        = 0;
-let _currentView     = 'browser'; // 'browser' | 'reel' | 'market' | 'inventory'
+let _isAnimating      = false;
+let _revealVisible    = false;
+let _reelReady        = false;
+let _selectedCaseId   = null;
+let _caseMarketPrice  = 0;
+let _openCost         = 0;
+let _currentView      = 'home'; // 'home' | 'browser' | 'reel' | 'market' | 'tradeup' | 'inventory'
+let _currentCategory  = null;   // 'weapon_case' | 'souvenir_package' | null
 
 // Callbacks
+let _onShowBrowser   = null;
+let _onHideBrowser   = null;
 let _onShowInventory = null;
 let _onHideInventory = null;
 let _onShowMarket    = null;
@@ -22,6 +26,7 @@ let _onHideTradeUp   = null;
 
 // DOM refs
 let _balanceEl   = null;
+let _invValueEl  = null;
 let _openBtn     = null;
 let _caseCountEl = null;
 let _resetBtn    = null;
@@ -56,8 +61,10 @@ export const HudAppShell = {
    * }} opts
    * @returns {{ caseBrowserContainer, reelContainer, overlayContainer, inventoryContainer }}
    */
-  init(rootEl, { onOpenClick, onShowInventory, onHideInventory, onShowMarket, onHideMarket, onShowTradeUp, onHideTradeUp }) {
+  init(rootEl, { onOpenClick, categories = [], onShowBrowser, onHideBrowser, onShowInventory, onHideInventory, onShowMarket, onHideMarket, onShowTradeUp, onHideTradeUp }) {
     _appEl           = rootEl;
+    _onShowBrowser   = onShowBrowser   ?? null;
+    _onHideBrowser   = onHideBrowser   ?? null;
     _onShowInventory = onShowInventory ?? null;
     _onHideInventory = onHideInventory ?? null;
     _onShowMarket    = onShowMarket    ?? null;
@@ -67,10 +74,14 @@ export const HudAppShell = {
 
     rootEl.innerHTML = `
       <header class="hud-bar">
-        <button class="btn-back" hidden>← Cases</button>
+        <button class="btn-back" hidden>← Home</button>
         <div class="hud-balance">
           <span class="balance-label">Balance</span>
           <span class="balance-value">$0.00</span>
+        </div>
+        <div class="hud-inv-value">
+          <span class="inv-value-label">Inventory Value</span>
+          <span class="inv-value-amount">$0.00</span>
         </div>
         <div class="hud-open-section" hidden>
           <span class="case-count-badge">0 owned</span>
@@ -83,14 +94,17 @@ export const HudAppShell = {
       </header>
 
       <nav class="nav-tabs">
-        <span class="nav-tab active" data-view="cases">Cases</span>
+        <span class="nav-tab active" data-view="home">Home</span>
         <span class="nav-tab"       data-view="market">Market</span>
         <span class="nav-tab"       data-view="tradeup">Trade Up</span>
         <span class="nav-tab"       data-view="inventory">Inventory</span>
       </nav>
 
       <main class="content-region">
-        <div class="view active" id="browser-view">
+        <div class="view active" id="home-view">
+          <div class="home-grid"></div>
+        </div>
+        <div class="view" id="browser-view">
           <div class="case-browser-container"></div>
         </div>
         <div class="view" id="reel-view">
@@ -108,8 +122,20 @@ export const HudAppShell = {
       </main>
     `;
 
+    // Build home category tiles
+    const homeGrid = rootEl.querySelector('.home-grid');
+    for (const cat of categories) {
+      homeGrid.appendChild(_makeTile(cat, () => {
+        if (cat.comingSoon) return;
+        _currentCategory = cat.id;
+        this.showBrowser();
+        _onShowBrowser?.(_currentCategory);
+      }));
+    }
+
     // Cache refs
     _balanceEl   = rootEl.querySelector('.balance-value');
+    _invValueEl  = rootEl.querySelector('.inv-value-amount');
     _openBtn     = rootEl.querySelector('.btn-open');
     _caseCountEl = rootEl.querySelector('.case-count-badge');
     _resetBtn    = rootEl.querySelector('.btn-reset');
@@ -117,10 +143,11 @@ export const HudAppShell = {
     _openSection = rootEl.querySelector('.hud-open-section');
     _backBtn     = rootEl.querySelector('.btn-back');
 
-    // Back button — always returns to browser
+    // Back button — browser → home, reel → browser
     _backBtn.addEventListener('click', () => {
       if (_isAnimating) return;
-      this.showBrowser();
+      if (_currentView === 'browser') this.showHome();
+      else this.showBrowser();
     });
 
     // Open button
@@ -129,13 +156,13 @@ export const HudAppShell = {
       _isAnimating = true;
       CaseInventory.addCase(_selectedCaseId);
       this._evaluateOpenButton();
-      onOpenClick(_selectedCaseId, _openCost - KEY_COST_USD);
+      onOpenClick(_selectedCaseId, _caseMarketPrice, _currentCategory);
     });
 
     // Reset button
     _resetBtn.addEventListener('click', () => this._handleReset());
 
-    // Tab navigation (always visible)
+    // Tab navigation
     rootEl.querySelectorAll('.nav-tab').forEach(tab => {
       tab.addEventListener('click', () => this._handleTabClick(tab.dataset.view));
     });
@@ -143,12 +170,16 @@ export const HudAppShell = {
     // DOM events
     document.addEventListener(Events.BALANCE_CHANGED,        e  => this._onBalanceChanged(e));
     document.addEventListener(Events.CASE_INVENTORY_CHANGED, () => this._refreshCaseCount());
-    document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => this._refreshResetVisibility());
+    document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => {
+      this._refreshResetVisibility();
+      this._refreshInvValue();
+    });
     document.addEventListener(Events.REEL_READY,             () => { _reelReady = true; this._evaluateOpenButton(); });
 
     // Initial render
     this._refreshBalance();
     this._refreshResetVisibility();
+    this._refreshInvValue();
 
     return {
       caseBrowserContainer: rootEl.querySelector('.case-browser-container'),
@@ -162,7 +193,19 @@ export const HudAppShell = {
 
   // ── View transitions ────────────────────────────────────────────────────────
 
-  /** Switch to the case-selection grid. Clears any selected case. */
+  /** Navigate to the home screen (4 category tiles). */
+  showHome() {
+    this._leaveCurrentView();
+    _selectedCaseId  = null;
+    _currentCategory = null;
+    _reelReady       = false;
+    _isAnimating     = false;
+    _revealVisible   = false;
+    _currentView     = 'home';
+    this._applyView();
+  },
+
+  /** Switch to the case-selection grid for the current category. */
   showBrowser() {
     this._leaveCurrentView();
     _selectedCaseId  = null;
@@ -181,7 +224,9 @@ export const HudAppShell = {
   showCaseOpening(caseId, casePrice) {
     this._leaveCurrentView();
     _selectedCaseId  = caseId;
-    _openCost        = Math.round((casePrice + KEY_COST_USD) * 100) / 100;
+    _caseMarketPrice = casePrice;
+    const isKeyless  = _currentCategory === 'souvenir_package' || _currentCategory === 'sticker_capsule';
+    _openCost        = Math.round((isKeyless ? casePrice : casePrice + KEY_COST_USD) * 100) / 100;
     _reelReady       = false;
     _isAnimating     = false;
     _revealVisible   = false;
@@ -214,6 +259,8 @@ export const HudAppShell = {
   // ── Internal ───────────────────────────────────────────────────────────────
 
   _handleTabClick(view) {
+    const inHome = _currentView === 'home' || _currentView === 'browser' || _currentView === 'reel';
+    if (view === 'home' && inHome) return;
     if (view === _currentView) return;
 
     if (view === 'inventory') {
@@ -234,21 +281,14 @@ export const HudAppShell = {
       this._applyView();
       _onShowTradeUp?.();
 
-    } else { // 'cases'
-      this._leaveCurrentView();
-      // Return to the reel if a case is selected, otherwise go to browser
-      if (_selectedCaseId) {
-        _currentView = 'reel';
-        this._applyView();
-      } else {
-        _currentView = 'browser';
-        this._applyView();
-      }
+    } else { // 'home'
+      this.showHome();
     }
   },
 
   /** Fires the "leave" callback for whichever view is currently active. */
   _leaveCurrentView() {
+    if (_currentView === 'browser')   _onHideBrowser?.();
     if (_currentView === 'inventory') _onHideInventory?.();
     if (_currentView === 'market')    _onHideMarket?.();
     if (_currentView === 'tradeup')   _onHideTradeUp?.();
@@ -257,25 +297,31 @@ export const HudAppShell = {
   /** Syncs all view classes, nav tab states, and opening-mode controls. */
   _applyView() {
     const v = _currentView;
+    _appEl.querySelector('#home-view').classList.toggle('active',      v === 'home');
     _appEl.querySelector('#browser-view').classList.toggle('active',   v === 'browser');
     _appEl.querySelector('#reel-view').classList.toggle('active',      v === 'reel');
     _appEl.querySelector('#market-view').classList.toggle('active',    v === 'market');
     _appEl.querySelector('#tradeup-view').classList.toggle('active',   v === 'tradeup');
     _appEl.querySelector('#inventory-view').classList.toggle('active', v === 'inventory');
 
-    const inCases = v === 'browser' || v === 'reel';
+    const inHome = v === 'home' || v === 'browser' || v === 'reel';
     _appEl.querySelectorAll('.nav-tab').forEach(t => {
       const tv = t.dataset.view;
       t.classList.toggle('active',
-        tv === 'cases'     ? inCases           :
+        tv === 'home'      ? inHome            :
         tv === 'market'    ? v === 'market'    :
         tv === 'tradeup'   ? v === 'tradeup'   :
         tv === 'inventory' ? v === 'inventory' : false
       );
     });
 
-    const showOpenControls = v === 'reel' && !!_selectedCaseId;
-    if (showOpenControls) {
+    // Back button: visible in browser (→ Home) and reel (→ browser)
+    if (v === 'browser') {
+      _backBtn.textContent = '← Home';
+      _backBtn.removeAttribute('hidden');
+      _openSection.setAttribute('hidden', '');
+    } else if (v === 'reel' && _selectedCaseId) {
+      _backBtn.textContent = '← Back';
       _backBtn.removeAttribute('hidden');
       _openSection.removeAttribute('hidden');
     } else {
@@ -317,6 +363,12 @@ export const HudAppShell = {
     _openBtn.disabled = !enabled;
   },
 
+  _refreshInvValue() {
+    if (!_invValueEl) return;
+    const total = SkinInventory.getItems().reduce((s, e) => s + (e.item.market_price ?? 0), 0);
+    _invValueEl.textContent = `$${total.toFixed(2)}`;
+  },
+
   _refreshResetVisibility() {
     if (!_resetBtn) return;
     const bal      = VirtualEconomy.getBalance();
@@ -348,6 +400,52 @@ export const HudAppShell = {
     setTimeout(() => _errorEl.setAttribute('hidden', ''), 2600);
   },
 };
+
+function _makeTile(cat, onClick) {
+  const tile = document.createElement('div');
+  tile.className = `home-tile${cat.comingSoon ? ' home-tile--coming-soon' : ''}`;
+  tile.addEventListener('click', onClick);
+
+  if (cat.comingSoon) {
+    const badge = document.createElement('div');
+    badge.className   = 'home-tile__badge';
+    badge.textContent = 'Coming Soon';
+    tile.appendChild(badge);
+  }
+
+  const imgWrap = document.createElement('div');
+  imgWrap.className = 'home-tile__img-wrap';
+  if (cat.image) {
+    const img = document.createElement('img');
+    img.className = 'home-tile__img';
+    img.src = cat.image;
+    img.alt = cat.title;
+    imgWrap.appendChild(img);
+  }
+  tile.appendChild(imgWrap);
+
+  const gradient = document.createElement('div');
+  gradient.className = 'home-tile__gradient';
+  tile.appendChild(gradient);
+
+  const content = document.createElement('div');
+  content.className = 'home-tile__content';
+
+  const title = document.createElement('div');
+  title.className   = 'home-tile__title';
+  title.textContent = cat.title;
+  content.appendChild(title);
+
+  if (cat.subtitle) {
+    const count = document.createElement('div');
+    count.className   = 'home-tile__count';
+    count.textContent = cat.subtitle;
+    content.appendChild(count);
+  }
+
+  tile.appendChild(content);
+  return tile;
+}
 
 function _formatBalance(balance) {
   const n = (typeof balance === 'number' && isFinite(balance)) ? balance : 0;
