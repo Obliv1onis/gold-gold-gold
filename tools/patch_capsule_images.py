@@ -84,12 +84,27 @@ def find_capsule_image(name):
 sticker_img  = {s['name']: s['image'] for s in stickers if s.get('image') and s.get('name')}
 sticker_norm = {_norm(k): v for k, v in sticker_img.items()}
 
+TOURNAMENT_ALIASES = {
+    'Kraków 2017': 'Krakow 2017',
+    'EMS One Katowice 2014': 'Katowice 2014',
+}
+
+ORG_ALIASES = {
+    'NaVi': 'Natus Vincere',
+    'Sprout': 'Sprout Esports',
+    'NiP': 'Ninjas in Pyjamas',
+}
+
 def _org_variants(org):
     """Generate ByMykel name variants for an org name — handles suffix differences."""
     variants = [org]
+    if org in ORG_ALIASES:
+        variants.append(ORG_ALIASES[org])
     for suffix in (' Gaming', ' Esports', ' Team', ' Esports Club'):
         if org.endswith(suffix):
             variants.append(org[:-len(suffix)])
+        else:
+            variants.append(org + suffix)
     return variants
 
 def find_sticker_byMykel(mhn):
@@ -97,17 +112,20 @@ def find_sticker_byMykel(mhn):
     img = sticker_img.get(mhn) or sticker_norm.get(_norm(mhn))
     if img:
         return img
-    # For tournament stickers (Sticker | Name (Quality) | Tournament), try org name variants
+    # For tournament stickers (Sticker | Name (Quality) | Tournament), try aliases
     parts = mhn.split(' | ')
     if len(parts) == 3:
         prefix, name_qual, tournament = parts
         m = re.match(r'^(.*?) \(([^)]+)\)$', name_qual)
         org, quality = (m.group(1), f' ({m.group(2)})') if m else (name_qual, '')
+        t_alias = TOURNAMENT_ALIASES.get(tournament)
+        tournaments = [tournament] + ([t_alias] if t_alias else [])
         for org_v in _org_variants(org):
-            candidate = f'{prefix} | {org_v}{quality} | {tournament}'
-            img = sticker_img.get(candidate) or sticker_norm.get(_norm(candidate))
-            if img:
-                return img
+            for t in tournaments:
+                candidate = f'{prefix} | {org_v}{quality} | {t}'
+                img = sticker_img.get(candidate) or sticker_norm.get(_norm(candidate))
+                if img:
+                    return img
     return None
 
 def find_sticker_steam(mhn, delay=2.0):

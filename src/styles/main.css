@@ -657,6 +657,18 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   height: 120px;
   object-fit: contain;
 }
+.inventory-card .card-image--missing {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 0.65rem;
+  text-align: center;
+}
 
 .inventory-card .card-name {
   font-size: 0.75rem;

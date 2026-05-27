@@ -94,6 +94,7 @@ export const InventoryUI = {
     if (isSticker) {
       img = document.createElement('img');
       img.src = item.image_url ?? '';
+      img.onerror = () => { img.src = ''; img.className = 'card-image card-image--missing'; };
     } else {
       img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
     }
