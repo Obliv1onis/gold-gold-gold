@@ -170,7 +170,7 @@ export const MarketUI = {
   },
 
   _makeRow(listing) {
-    const { item, floatVal, wearTier, statTrak, hashName } = listing;
+    const { item, floatVal, wearTier, statTrak, hashName, localPrice } = listing;
     const displayName = _formatItemName(item.weapon, item.skin);
     const hasFloat    = floatVal !== null && wearTier !== null;
 
@@ -228,25 +228,26 @@ export const MarketUI = {
       floatBlock.appendChild(floatLabel);
     }
 
-    // ── Price — always from Steam; show loading state until price arrives ─
-    const livePrice = PriceAPILayer.getCachedPrice(hashName);
+    // ── Price — Steam live price overrides local fallback when it arrives ─
+    const livePrice    = PriceAPILayer.getCachedPrice(hashName);
+    const displayPrice = livePrice ?? localPrice;
 
     const priceEl = document.createElement('div');
     priceEl.className        = 'market-row-price';
     priceEl.dataset.hashName = hashName;
-    if (livePrice !== null) {
-      priceEl.textContent = `$${livePrice.toFixed(2)}`;
-      priceEl.classList.add('market-row-price--live');
+    if (displayPrice !== null) {
+      priceEl.textContent = `$${displayPrice.toFixed(2)}`;
+      priceEl.classList.toggle('market-row-price--live', livePrice !== null);
     } else {
       priceEl.textContent = '—';
       priceEl.classList.add('market-row-price--loading');
     }
 
-    // ── Buy button — disabled until a live price is available ────────────
+    // ── Buy button — enabled when any price is available ─────────────────
     const buyBtn = document.createElement('button');
     buyBtn.className   = 'btn-market-buy';
     buyBtn.textContent = 'Buy';
-    buyBtn.disabled    = livePrice === null;
+    buyBtn.disabled    = displayPrice === null;
     buyBtn.dataset.hashName = hashName;
     buyBtn.addEventListener('click', () => this._handleBuy(listing, buyBtn, row));
 
@@ -259,9 +260,9 @@ export const MarketUI = {
   },
 
   _handleBuy(listing, buyBtn, row) {
-    const { item, statTrak, hashName, wearTier } = listing;
+    const { item, statTrak, hashName, wearTier, localPrice } = listing;
 
-    const buyPrice = PriceAPILayer.getCachedPrice(hashName);
+    const buyPrice = PriceAPILayer.getCachedPrice(hashName) ?? localPrice;
 
     if (buyPrice === null || !VirtualEconomy.canAfford(buyPrice)) {
       row.classList.add('market-row--no-funds');
@@ -297,8 +298,21 @@ function _makeListing(item, forceTier = null, statTrak = false) {
   const floatVal = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
   const wearTier = vanilla ? null : FloatService.getWearTier(floatVal);
   const hashName = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak);
-  // Price comes exclusively from Steam — no computed placeholders
-  return { item, floatVal, wearTier, statTrak, hashName };
+  // Use local market_price × wear-tier multiplier as immediate fallback price.
+  // Steam live price overrides this when it arrives via Events.PRICE_UPDATED.
+  const localPrice = _localPrice(item, wearTier, statTrak);
+  return { item, floatVal, wearTier, statTrak, hashName, localPrice };
+}
+
+// Wear-tier price multipliers relative to Field-Tested baseline
+const WEAR_MULT = { fn: 3.0, mw: 1.5, ft: 1.0, ww: 0.65, bs: 0.45 };
+
+function _localPrice(item, wearTier, statTrak) {
+  const base = item.market_price ?? null;
+  if (base === null) return null;
+  const wearMult = WEAR_MULT[wearTier] ?? 1.0;
+  const stMult   = statTrak ? 1.5 : 1.0;
+  return Math.round(base * wearMult * stMult * 100) / 100;
 }
 
 function _makeFloatScale(floatVal) {
