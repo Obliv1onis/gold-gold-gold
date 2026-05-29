@@ -59,4 +59,24 @@ export const CapsuleDataStore = {
     const types = Array.isArray(type) ? type : [type];
     return all.filter(c => types.includes(c.type ?? 'sticker_capsule'));
   },
+
+  /**
+   * Returns every item across all capsules (optionally filtered by container type),
+   * with `capsuleType` and `capsuleName` fields added.
+   * @param {string|string[]|null} type
+   */
+  getAllItems(type = null) {
+    const typesArr = type ? (Array.isArray(type) ? type : [type]) : null;
+    const result = [];
+    for (const cap of _capsules.values()) {
+      const capType = cap.type ?? 'sticker_capsule';
+      if (typesArr && !typesArr.includes(capType)) continue;
+      for (const [rarity, items] of Object.entries(cap.tiers ?? {})) {
+        for (const item of items) {
+          result.push({ ...item, rarity, capsuleType: capType, capsuleName: cap.name });
+        }
+      }
+    }
+    return result;
+  },
 };

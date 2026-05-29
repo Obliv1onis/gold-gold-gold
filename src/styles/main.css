@@ -1315,3 +1315,69 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   padding: 60px 20px;
   font-size: 0.95rem;
 }
+
+/* ─── Credits page ────────────────────────────────────────────────────────── */
+.credits-page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+.credits-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  margin: 0 0 32px;
+  letter-spacing: 0.03em;
+}
+
+.credits-section {
+  margin-bottom: 36px;
+}
+
+.credits-section-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #888;
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.credits-text {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+
+.credits-text--muted {
+  font-size: 0.78rem;
+  color: #666;
+  font-style: italic;
+}
+
+.credits-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.credits-link {
+  color: #81c784;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.15s;
+}
+.credits-link:hover { color: #a5d6a7; text-decoration: underline; }
+
+.credits-link--email {
+  color: #ccc;
+  font-family: monospace;
+  font-size: 0.92rem;
+}

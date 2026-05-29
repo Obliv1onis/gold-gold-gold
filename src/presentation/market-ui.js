@@ -1,10 +1,11 @@
-import { CaseDataStore }   from '../foundation/case-data-store.js';
-import { FloatService }    from '../foundation/float-service.js';
-import { SkinImageLoader } from '../feature/skin-image-loader.js';
-import { PriceAPILayer }   from '../feature/price-api-layer.js';
-import { VirtualEconomy }  from '../core/virtual-economy.js';
-import { SkinInventory }   from '../core/skin-inventory.js';
-import { Events }          from '../foundation/events.js';
+import { CaseDataStore }    from '../foundation/case-data-store.js';
+import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
+import { FloatService }     from '../foundation/float-service.js';
+import { SkinImageLoader }  from '../feature/skin-image-loader.js';
+import { PriceAPILayer }    from '../feature/price-api-layer.js';
+import { VirtualEconomy }   from '../core/virtual-economy.js';
+import { SkinInventory }    from '../core/skin-inventory.js';
+import { Events }           from '../foundation/events.js';
 
 const RARITY_TIERS      = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 const WEAR_TIERS        = ['fn', 'mw', 'ft', 'ww', 'bs'];
@@ -14,8 +15,9 @@ const LISTING_VARIANTS  = [
   ...WEAR_TIERS.map(tier => ({ tier, statTrak: false })),
   ...WEAR_TIERS.map(tier => ({ tier, statTrak: true  })),
 ];
-const RECOMMEND_SKINS = 2;   // × 10 variants = 20 rows
-const SEARCH_SKINS    = 6;   // × 10 variants = 60 rows
+const RECOMMEND_SKINS   = 2;   // × 10 variants = 20 rows
+const SEARCH_SKINS      = 6;   // × 10 variants = 60 rows
+const SEARCH_CAP_ITEMS  = 30;  // capsule items have 1 variant each
 
 // Contraband items exist only in the market — not in any case, not in trade-ups.
 const CONTRABAND_ITEMS = [
@@ -32,8 +34,9 @@ const CONTRABAND_ITEMS = [
   },
 ];
 
-let _container   = null;
-let _allItems    = null;   // built lazily on first show()
+let _container    = null;
+let _allItems     = null;   // weapon/souvenir skins — built lazily on first show()
+let _capsuleItems = null;   // stickers, charms, patches, pins, music kits
 let _recommended = [];     // listings shown when search is empty
 let _searchEl    = null;
 let _listEl      = null;
@@ -109,6 +112,7 @@ export const MarketUI = {
   // ── Internal ───────────────────────────────────────────────────────────────
 
   _buildPool() {
+    // ── Weapon / souvenir skins ───────────────────────────────────────────────
     const raw = [];
     for (const c of CaseDataStore.getCaseList()) {
       const isSouvenir = c.type === 'souvenir_package';
@@ -121,9 +125,6 @@ export const MarketUI = {
     for (const it of CONTRABAND_ITEMS) {
       raw.push({ ...it, isSouvenir: false });
     }
-
-    // Rare specials (knives/gloves) and souvenir skins each appear in many
-    // cases/packages. Keep one entry per weapon+skin, strip the case label.
     const seen = new Set();
     _allItems = raw.filter(it => {
       if (it.rarity !== 'rare_special' && !it.isSouvenir) return true;
@@ -133,6 +134,17 @@ export const MarketUI = {
       it.case_name = null;
       return true;
     });
+
+    // ── Capsule items (stickers, charms, patches, pins, music kits) ───────────
+    const seenCap = new Set();
+    _capsuleItems = CapsuleDataStore.getAllItems()
+      .filter(it => {
+        const key = it.market_hash_name ?? it.name;
+        if (seenCap.has(key)) return false;
+        seenCap.add(key);
+        return true;
+      })
+      .map(it => ({ ...it, isCapsuleItem: true }));
   },
 
   /** Picks `n` random skins and returns all wear variants for each (gloves skip StatTrak™). */
@@ -151,6 +163,7 @@ export const MarketUI = {
       return;
     }
     const q = query.toLowerCase();
+
     const matchedSkins = (_allItems ?? [])
       .filter(it => {
         const name     = `${it.weapon} ${it.skin}`.toLowerCase();
@@ -159,10 +172,23 @@ export const MarketUI = {
       })
       .slice(0, SEARCH_SKINS);
 
-    const results = matchedSkins.flatMap(it => _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak)));
+    const matchedCaps = (_capsuleItems ?? [])
+      .filter(it => {
+        const name = (it.name ?? '').toLowerCase();
+        const src  = (it.capsuleName ?? '').toLowerCase();
+        return name.includes(q) || src.includes(q);
+      })
+      .slice(0, SEARCH_CAP_ITEMS);
 
-    _labelEl.textContent = matchedSkins.length
-      ? `Results for "${query}" (${matchedSkins.length} skin${matchedSkins.length !== 1 ? 's' : ''})`
+    const skinListings = matchedSkins.flatMap(it =>
+      _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak))
+    );
+    const capListings = matchedCaps.map(it => _makeCapsuleListing(it));
+
+    const results   = [...skinListings, ...capListings];
+    const totalHits = matchedSkins.length + matchedCaps.length;
+    _labelEl.textContent = totalHits
+      ? `Results for "${query}" (${totalHits} item${totalHits !== 1 ? 's' : ''})`
       : `No results for "${query}"`;
     this._render(results);
     results.forEach(l => PriceAPILayer.prefetch(l.hashName));
@@ -185,8 +211,9 @@ export const MarketUI = {
 
   _makeRow(listing) {
     const { item, floatVal, wearTier, statTrak, hashName, localPrice } = listing;
-    const displayName = _formatItemName(item.weapon, item.skin);
-    const hasFloat    = floatVal !== null && wearTier !== null;
+    const isCap       = !!item.isCapsuleItem;
+    const displayName = isCap ? item.name : _formatItemName(item.weapon, item.skin);
+    const hasFloat    = !isCap && floatVal !== null && wearTier !== null;
 
     const row = document.createElement('div');
     row.className = `market-row rarity-${item.rarity ?? 'unknown'}${statTrak ? ' market-row--st' : ''}`;
@@ -196,28 +223,24 @@ export const MarketUI = {
     img.className = 'market-row-img';
     img.alt       = displayName;
 
-    // ── Info (name + case/rarity) ─────────────────────────────────────────
+    // ── Info (name + meta) ────────────────────────────────────────────────
     const info = document.createElement('div');
     info.className = 'market-row-info';
 
     const nameEl = document.createElement('div');
-    nameEl.className = 'market-row-name';
-    if (statTrak) {
-      const stSpan = document.createElement('span');
-      stSpan.className   = 'stat-trak-prefix';
-      stSpan.textContent = 'StatTrak™ ';
-      nameEl.appendChild(stSpan);
-      nameEl.appendChild(document.createTextNode(displayName));
-    } else {
-      nameEl.textContent = displayName;
-    }
+    nameEl.className   = 'market-row-name';
+    nameEl.textContent = displayName;
 
     const metaEl = document.createElement('div');
-    metaEl.className   = 'market-row-meta';
-    const caseLabel = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : null);
-    metaEl.textContent = caseLabel
-      ? `${caseLabel} · ${_formatRarity(item.rarity)}`
-      : _formatRarity(item.rarity);
+    metaEl.className = 'market-row-meta';
+    if (isCap) {
+      metaEl.textContent = `${_capsuleTypeLabel(item.capsuleType)} · ${_formatRarity(item.rarity)}`;
+    } else {
+      const caseLabel = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : null);
+      metaEl.textContent = caseLabel
+        ? `${caseLabel} · ${_formatRarity(item.rarity)}`
+        : _formatRarity(item.rarity);
+    }
 
     info.appendChild(nameEl);
     info.appendChild(metaEl);
@@ -289,17 +312,21 @@ export const MarketUI = {
     buyBtn.disabled = true;
     VirtualEconomy.spend(buyPrice);
 
-    // Issue a fresh float for the item the player actually receives
-    const receivedFloat = wearTier ? FloatService.generateFloatForTier(wearTier) : null;
-    const receivedTier  = receivedFloat !== null ? FloatService.getWearTier(receivedFloat) : null;
-    SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: buyPrice, stat_trak: statTrak });
+    if (item.isCapsuleItem) {
+      SkinInventory.addItem({ ...item, market_price: buyPrice, stat_trak: false });
+    } else {
+      const receivedFloat = wearTier ? FloatService.generateFloatForTier(wearTier) : null;
+      const receivedTier  = receivedFloat !== null ? FloatService.getWearTier(receivedFloat) : null;
+      SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: buyPrice, stat_trak: statTrak });
+    }
 
     buyBtn.textContent = 'Bought!';
     buyBtn.classList.add('btn-market-buy--done');
 
     setTimeout(() => {
-      // Refresh this row with a new float, preserving the StatTrak™ status
-      const fresh  = _makeListing(item, listing.wearTier, statTrak);
+      const fresh  = item.isCapsuleItem
+        ? _makeCapsuleListing(item)
+        : _makeListing(item, listing.wearTier, statTrak);
       const newRow = this._makeRow(fresh);
       row.replaceWith(newRow);
     }, 1200);
@@ -393,4 +420,22 @@ function _variantsFor(item) {
 function _formatRarity(rarity) {
   if (!rarity) return '';
   return rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function _makeCapsuleListing(item) {
+  const hashName   = item.market_hash_name ?? item.name;
+  const localPrice = item.market_price ?? null;
+  return { item, floatVal: null, wearTier: null, statTrak: false, hashName, localPrice };
+}
+
+const CAPSULE_TYPE_LABELS = {
+  sticker_capsule: 'Sticker',
+  charm_capsule:   'Charm',
+  patch_pack:      'Patch',
+  pin_capsule:     'Collectible Pin',
+  music_kit_box:   'Music Kit',
+};
+
+function _capsuleTypeLabel(capsuleType) {
+  return CAPSULE_TYPE_LABELS[capsuleType] ?? 'Item';
 }

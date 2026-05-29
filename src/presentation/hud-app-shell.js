@@ -11,7 +11,7 @@ let _reelReady        = false;
 let _selectedCaseId   = null;
 let _caseMarketPrice  = 0;
 let _openCost         = 0;
-let _currentView      = 'home'; // 'home' | 'browser' | 'reel' | 'market' | 'tradeup' | 'inventory'
+let _currentView      = 'home'; // 'home' | 'browser' | 'reel' | 'market' | 'tradeup' | 'inventory' | 'credits'
 let _currentCategory  = null;   // 'weapon_case' | 'souvenir_package' | null
 
 // Callbacks
@@ -110,6 +110,7 @@ export const HudAppShell = {
         <span class="nav-tab"       data-view="market">Market</span>
         <span class="nav-tab"       data-view="tradeup">Trade Up</span>
         <span class="nav-tab"       data-view="inventory">Inventory</span>
+        <span class="nav-tab"       data-view="credits">Credits</span>
       </nav>
 
       <main class="content-region">
@@ -130,6 +131,52 @@ export const HudAppShell = {
         </div>
         <div class="view" id="inventory-view">
           <div class="inventory-container"></div>
+        </div>
+        <div class="view" id="credits-view">
+          <div class="credits-page">
+            <h2 class="credits-title">Credits</h2>
+
+            <section class="credits-section">
+              <h3 class="credits-section-title">License</h3>
+              <p class="credits-text">
+                This project is released under the
+                <strong>MIT License</strong>.
+                You are free to use, copy, modify, merge, publish, distribute,
+                sublicense, and/or sell copies of the software, provided the
+                original copyright notice and permission notice are included in
+                all copies or substantial portions of the software.
+              </p>
+              <p class="credits-text credits-text--muted">
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+                NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+                HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+                WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+                DEALINGS IN THE SOFTWARE.
+              </p>
+            </section>
+
+            <section class="credits-section">
+              <h3 class="credits-section-title">Links</h3>
+              <ul class="credits-links">
+                <li>
+                  <a class="credits-link" href="https://github.com/Obliv1onis/gold-gold-gold" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li>
+                  <a class="credits-link" href="https://space.bilibili.com/646730673?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer">Bilibili</a>
+                </li>
+              </ul>
+            </section>
+
+            <section class="credits-section">
+              <h3 class="credits-section-title">Contact</h3>
+              <p class="credits-text">
+                <a class="credits-link credits-link--email" href="mailto:tomori.tkmt@gmail.com">tomori.tkmt@gmail.com</a>
+              </p>
+            </section>
+          </div>
         </div>
       </main>
     `;
@@ -305,6 +352,11 @@ export const HudAppShell = {
       this._applyView();
       _onShowTradeUp?.();
 
+    } else if (view === 'credits') {
+      this._leaveCurrentView();
+      _currentView = 'credits';
+      this._applyView();
+
     } else { // 'home'
       this.showHome();
     }
@@ -327,6 +379,7 @@ export const HudAppShell = {
     _appEl.querySelector('#market-view').classList.toggle('active',    v === 'market');
     _appEl.querySelector('#tradeup-view').classList.toggle('active',   v === 'tradeup');
     _appEl.querySelector('#inventory-view').classList.toggle('active', v === 'inventory');
+    _appEl.querySelector('#credits-view').classList.toggle('active',   v === 'credits');
 
     const inHome = v === 'home' || v === 'browser' || v === 'reel';
     _appEl.querySelectorAll('.nav-tab').forEach(t => {
@@ -335,7 +388,8 @@ export const HudAppShell = {
         tv === 'home'      ? inHome            :
         tv === 'market'    ? v === 'market'    :
         tv === 'tradeup'   ? v === 'tradeup'   :
-        tv === 'inventory' ? v === 'inventory' : false
+        tv === 'inventory' ? v === 'inventory' :
+        tv === 'credits'   ? v === 'credits'   : false
       );
     });
 
