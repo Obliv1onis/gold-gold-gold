@@ -74,6 +74,64 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 }
 .btn-reset:not(:disabled):hover { background: #a93226; }
 
+/* ── Reset confirmation modal ──────────────────────────────────────────────── */
+.reset-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.reset-modal {
+  background: #1e1e1e;
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+  padding: 28px 32px;
+  max-width: 380px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+.reset-modal-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.reset-modal-body {
+  font-size: 0.88rem;
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+.reset-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.btn-reset-cancel {
+  background: #333;
+  color: #ccc;
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+.btn-reset-cancel:hover { background: #3e3e3e; }
+.btn-reset-confirm {
+  background: #c0392b;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-reset-confirm:hover { background: #a93226; }
+
 .hud-error-msg {
   font-size: 0.8rem;
   color: #e74c3c;

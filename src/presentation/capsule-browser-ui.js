@@ -1,5 +1,15 @@
 import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
 
+const STICKER_TYPES = ['sticker_capsule'];
+const OTHER_TYPES   = ['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box'];
+
+const SECTION_LABELS = {
+  charm_capsule: 'Charm Capsules',
+  patch_pack:    'Patch Packs',
+  pin_capsule:   'Collectible Pin Capsules',
+  music_kit_box: 'Music Kit Boxes',
+};
+
 let _container = null;
 let _onSelect  = null;
 
@@ -9,35 +19,49 @@ export const CapsuleBrowserUI = {
     _onSelect  = onSelect;
   },
 
-  show() {
+  /** @param {'sticker_capsule'|'other'} category */
+  show(category = 'sticker_capsule') {
     if (!_container) return;
-    this._render();
+    this._render(category);
   },
 
   hide() {},
 
-  _render() {
+  _render(category) {
     _container.innerHTML = '';
 
-    const section = document.createElement('div');
-    section.className = 'browser-section';
-
-    const header = document.createElement('h2');
-    header.className   = 'section-header';
-    header.textContent = 'Sticker Capsules';
-    section.appendChild(header);
-
-    const grid = document.createElement('div');
-    grid.className = 'case-grid';
-
-    for (const capsule of CapsuleDataStore.getCapsuleList()) {
-      grid.appendChild(_makeCard(capsule, _onSelect));
+    if (category === 'sticker_capsule') {
+      const items = CapsuleDataStore.getCapsuleList('sticker_capsule');
+      _container.appendChild(_makeSection('Sticker Capsules', items, _onSelect));
+      return;
     }
 
-    section.appendChild(grid);
-    _container.appendChild(section);
+    // 'other' — render grouped sections
+    for (const type of OTHER_TYPES) {
+      const items = CapsuleDataStore.getCapsuleList(type);
+      if (!items.length) continue;
+      _container.appendChild(_makeSection(SECTION_LABELS[type] ?? type, items, _onSelect));
+    }
   },
 };
+
+function _makeSection(title, items, onSelect) {
+  const section = document.createElement('div');
+  section.className = 'browser-section';
+
+  const header = document.createElement('h2');
+  header.className   = 'section-header';
+  header.textContent = title;
+  section.appendChild(header);
+
+  const grid = document.createElement('div');
+  grid.className = 'case-grid';
+  for (const capsule of items) {
+    grid.appendChild(_makeCard(capsule, onSelect));
+  }
+  section.appendChild(grid);
+  return section;
+}
 
 function _makeCard(capsule, onSelect) {
   const card = document.createElement('div');

@@ -1,27 +1,31 @@
 import { Events } from '../foundation/events.js';
 
 /**
- * Fetches live skin and case prices from the Steam Community Market.
+ * Live skin price layer.
  *
- * In development the Vite dev server proxies /api/steam → steamcommunity.com
- * (bypassing browser CORS). In production set VITE_PRICE_API_BASE to a
- * serverless proxy URL (e.g. Netlify Function). See ADR-0008.
+ * Primary source: Skinport public bulk API — one request loads prices for every
+ * CS2 item and populates the local cache. No API key required.
+ * Fallback: Steam Community Market priceoverview, one item at a time, for anything
+ * Skinport doesn't cover (very rare).
  *
- * Fires Events.PRICE_UPDATED on document after each successful fetch:
+ * In development, both endpoints are proxied through the Vite dev server to avoid
+ * CORS. In production set VITE_PRICE_API_BASE (Steam) and VITE_SKINPORT_BASE
+ * (Skinport) to serverless proxy URLs. See ADR-0008.
+ *
+ * After a price is resolved, Events.PRICE_UPDATED fires on document:
  *   { detail: { hashName: string, price: number } }
  *
  * @example
- * PriceAPILayer.prefetch('AK-47 | Redline (Field-Tested)');
+ * PriceAPILayer.prefetch('AWP | Dragon Lore (Factory New)');
  * document.addEventListener(Events.PRICE_UPDATED, e => console.log(e.detail));
- *
- * const price = await PriceAPILayer.getPrice('Recoil Case');
  */
 
-const BASE_URL    = import.meta.env?.VITE_PRICE_API_BASE ?? '/api/steam';
-const CACHE_TTL   = 5 * 60 * 1000; // 5 minutes
-const QUEUE_DELAY = 300;             // ms between requests (rate-limit safety)
-const APPID       = 730;
-const CURRENCY    = 1;               // USD
+const SKINPORT_URL = import.meta.env?.VITE_SKINPORT_BASE ?? '/api/skinport';
+const STEAM_URL    = import.meta.env?.VITE_PRICE_API_BASE ?? '/api/steam';
+const CACHE_TTL    = 10 * 60 * 1000; // 10 minutes
+const STEAM_DELAY  = 300;             // ms between Steam fallback requests
+const APPID        = 730;
+const CURRENCY     = 1;               // USD
 
 const WEAR_LABELS = {
   fn: 'Factory New',
@@ -31,13 +35,47 @@ const WEAR_LABELS = {
   bs: 'Battle-Scarred',
 };
 
-// In-memory price cache: hashName → { price: number, fetchedAt: number }
+// Price cache: hashName → { price: number, fetchedAt: number }
 const _cache = new Map();
-// Request queue: [{ hashName, resolve, reject }]
-const _queue = [];
-let   _processing = false;
-// Pending set: hashNames already in the queue (dedup)
-const _pending = new Set();
+
+// ── Skinport bulk loader ────────────────────────────────────────────────────
+
+let _bulkLoadPromise = null;
+let _bulkLoaded      = false;
+
+async function _loadSkinportBulk() {
+  try {
+    const res = await fetch(`${SKINPORT_URL}?app_id=${APPID}&currency=USD`, {
+      signal: AbortSignal.timeout(25000),
+    });
+    if (!res.ok) throw new Error(`Skinport HTTP ${res.status}`);
+    const items = await res.json();
+    const now = Date.now();
+    let count = 0;
+    for (const item of items) {
+      const price = item.suggested_price ?? item.mean_price ?? item.min_price;
+      if (item.market_hash_name && price > 0) {
+        _cache.set(item.market_hash_name, { price, fetchedAt: now });
+        count++;
+      }
+    }
+    console.info(`[PriceAPILayer] Skinport loaded ${count} prices`);
+  } catch (err) {
+    console.warn('[PriceAPILayer] Skinport bulk load failed, will use Steam fallback:', err.message);
+  }
+  _bulkLoaded = true;
+}
+
+function _ensureBulkLoaded() {
+  if (!_bulkLoadPromise) _bulkLoadPromise = _loadSkinportBulk();
+  return _bulkLoadPromise;
+}
+
+// ── Steam per-item fallback ─────────────────────────────────────────────────
+
+const _steamQueue   = [];
+const _steamPending = new Set();
+let   _steamRunning = false;
 
 function _parsePriceStr(str) {
   if (!str || typeof str !== 'string') return null;
@@ -45,24 +83,24 @@ function _parsePriceStr(str) {
   return Number.isFinite(n) && n > 0 ? n : null;
 }
 
-async function _fetchOne(hashName) {
-  const url = `${BASE_URL}?currency=${CURRENCY}&appid=${APPID}&market_hash_name=${encodeURIComponent(hashName)}`;
-  const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+async function _fetchSteam(hashName) {
+  const url = `${STEAM_URL}?currency=${CURRENCY}&appid=${APPID}&market_hash_name=${encodeURIComponent(hashName)}`;
+  const res  = await fetch(url, { signal: AbortSignal.timeout(8000) });
+  if (!res.ok) throw new Error(`Steam HTTP ${res.status}`);
   const data = await res.json();
-  if (!data.success) throw new Error('Steam API success: false');
+  if (!data.success) throw new Error('Steam success: false');
   const price = _parsePriceStr(data.median_price ?? data.lowest_price);
-  if (price === null) throw new Error('No valid price in response');
+  if (price === null) throw new Error('No valid price in Steam response');
   return price;
 }
 
-async function _processQueue() {
-  _processing = true;
-  while (_queue.length) {
-    const { hashName, resolve, reject } = _queue.shift();
-    _pending.delete(hashName);
+async function _runSteamQueue() {
+  _steamRunning = true;
+  while (_steamQueue.length) {
+    const { hashName, resolve, reject } = _steamQueue.shift();
+    _steamPending.delete(hashName);
     try {
-      const price = await _fetchOne(hashName);
+      const price = await _fetchSteam(hashName);
       _cache.set(hashName, { price, fetchedAt: Date.now() });
       document.dispatchEvent(new CustomEvent(Events.PRICE_UPDATED, {
         detail: { hashName, price },
@@ -71,16 +109,14 @@ async function _processQueue() {
     } catch (err) {
       reject(err);
     }
-    if (_queue.length) await new Promise(r => setTimeout(r, QUEUE_DELAY));
+    if (_steamQueue.length) await new Promise(r => setTimeout(r, STEAM_DELAY));
   }
-  _processing = false;
+  _steamRunning = false;
 }
 
-function _enqueue(hashName) {
+function _enqueueSteam(hashName) {
   return new Promise((resolve, reject) => {
-    if (_pending.has(hashName)) {
-      // Already queued — resolve with cached value when it arrives
-      // by attaching to the PRICE_UPDATED event once
+    if (_steamPending.has(hashName)) {
       const handler = e => {
         if (e.detail.hashName !== hashName) return;
         document.removeEventListener(Events.PRICE_UPDATED, handler);
@@ -89,16 +125,17 @@ function _enqueue(hashName) {
       document.addEventListener(Events.PRICE_UPDATED, handler);
       return;
     }
-    _pending.add(hashName);
-    _queue.push({ hashName, resolve, reject });
-    if (!_processing) _processQueue();
+    _steamPending.add(hashName);
+    _steamQueue.push({ hashName, resolve, reject });
+    if (!_steamRunning) _runSteamQueue();
   });
 }
 
+// ── Public API ──────────────────────────────────────────────────────────────
+
 export const PriceAPILayer = {
   /**
-   * Returns the cached price for hashName synchronously, or null if not yet fetched.
-   * Use this when you need an immediate (possibly stale) value.
+   * Returns the cached price synchronously, or null if not yet fetched.
    * @param {string} hashName
    * @returns {number|null}
    */
@@ -107,50 +144,56 @@ export const PriceAPILayer = {
   },
 
   /**
-   * Resolves to the live Steam price for hashName.
-   * Returns the cache if still fresh; queues a fetch otherwise.
-   * Rejects if the fetch fails and there is no stale cache.
+   * Resolves to the live price for hashName.
+   * Waits for the Skinport bulk load; if the item isn't in Skinport, falls
+   * back to a per-item Steam fetch.
    * @param {string} hashName
    * @returns {Promise<number>}
    */
   async getPrice(hashName) {
+    await _ensureBulkLoaded();
     const entry = _cache.get(hashName);
     if (entry && Date.now() - entry.fetchedAt < CACHE_TTL) return entry.price;
-    try {
-      return await _enqueue(hashName);
-    } catch {
-      if (entry) return entry.price; // stale cache beats failure
-      throw new Error(`No price available for "${hashName}"`);
-    }
+    return _enqueueSteam(hashName);
   },
 
   /**
-   * Queues a fetch without waiting for it. When the price arrives,
-   * Events.PRICE_UPDATED fires on document. No-ops if cache is fresh.
+   * Kicks off bulk price loading and fires Events.PRICE_UPDATED for `hashName`
+   * as soon as its price is known. Safe to call many times — deduped internally.
    * @param {string} hashName
    */
   prefetch(hashName) {
-    const entry = _cache.get(hashName);
-    if (entry && Date.now() - entry.fetchedAt < CACHE_TTL) return;
-    _enqueue(hashName).catch(() => {});
+    _ensureBulkLoaded().then(() => {
+      const entry = _cache.get(hashName);
+      if (entry) {
+        // Bulk cache hit — notify immediately (next microtask so DOM is ready)
+        Promise.resolve().then(() => {
+          document.dispatchEvent(new CustomEvent(Events.PRICE_UPDATED, {
+            detail: { hashName, price: entry.price },
+          }));
+        });
+      } else {
+        // Not in Skinport — fall back to Steam
+        _enqueueSteam(hashName).catch(() => {});
+      }
+    });
   },
 
   /**
-   * Builds the Steam Community Market hash name for a skin listing.
+   * Builds the Steam / Skinport market hash name for a skin.
    *
-   * Hash name format:
-   *   Regular:         "AK-47 | Redline (Field-Tested)"
-   *   StatTrak™:       "StatTrak™ AK-47 | Redline (Field-Tested)"
-   *   Knife:           "★ Karambit | Fade (Factory New)"
-   *   StatTrak™ Knife: "★ StatTrak™ Karambit | Fade (Factory New)"
-   *   Vanilla Knife:   "★ Karambit" (no wear suffix)
+   *   Regular:          "AK-47 | Redline (Field-Tested)"
+   *   StatTrak™:        "StatTrak™ AK-47 | Redline (Field-Tested)"
+   *   Knife:            "★ Karambit | Fade (Factory New)"
+   *   StatTrak™ Knife:  "★ StatTrak™ Karambit | Fade (Factory New)"
+   *   Vanilla Knife:    "★ Karambit"
    *
    * @param {{ weapon: string, skin: string }} item
-   * @param {string} wearTier  'fn'|'mw'|'ft'|'ww'|'bs'
+   * @param {string|null} wearTier  'fn'|'mw'|'ft'|'ww'|'bs'|null
    * @param {boolean} [statTrak=false]
    * @returns {string}
    */
-  buildSkinHashName(item, wearTier, statTrak = false) {
+  buildSkinHashName(item, wearTier, statTrak = false, souvenir = false) {
     const wear    = WEAR_LABELS[wearTier] ?? 'Field-Tested';
     const isKnife = item.skin?.startsWith('★');
 
@@ -165,18 +208,23 @@ export const PriceAPILayer = {
         : `★ ${item.weapon} | ${bare} (${wear})`;
     }
 
+    if (souvenir) return `Souvenir ${item.weapon} | ${item.skin} (${wear})`;
+
     return statTrak
       ? `StatTrak™ ${item.weapon} | ${item.skin} (${wear})`
       : `${item.weapon} | ${item.skin} (${wear})`;
   },
 
-  /**
-   * Builds the Steam Market hash name for a weapon case.
-   * Cases use their display name directly (e.g. "Recoil Case").
-   * @param {string} caseName
-   * @returns {string}
-   */
+  /** @param {string} caseName @returns {string} */
   buildCaseHashName(caseName) {
     return caseName;
+  },
+
+  /**
+   * Kicks off the Skinport bulk load immediately in the background.
+   * Call once at app startup so prices are warm by the time the market opens.
+   */
+  warmup() {
+    _ensureBulkLoaded();
   },
 };

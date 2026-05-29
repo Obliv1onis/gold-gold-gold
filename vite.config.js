@@ -18,6 +18,14 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/steam-search/, '/market/search/render'),
       },
+      // Skinport public bulk prices API (no auth, all CS2 items in one call).
+      // Skinport requires Accept-Encoding: br — browsers send this automatically;
+      // the proxy forwards request headers verbatim.
+      '/api/skinport': {
+        target: 'https://api.skinport.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/skinport/, '/v1/items'),
+      },
     },
   },
 

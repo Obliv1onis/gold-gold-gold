@@ -25,15 +25,16 @@ let _onShowTradeUp   = null;
 let _onHideTradeUp   = null;
 
 // DOM refs
-let _balanceEl   = null;
-let _invValueEl  = null;
-let _openBtn     = null;
-let _caseCountEl = null;
-let _resetBtn    = null;
-let _errorEl     = null;
-let _openSection = null;
-let _backBtn     = null;
-let _appEl       = null;
+let _balanceEl      = null;
+let _invValueEl     = null;
+let _openBtn        = null;
+let _caseCountEl    = null;
+let _resetBtn       = null;
+let _resetOverlay   = null;
+let _errorEl        = null;
+let _openSection    = null;
+let _backBtn        = null;
+let _appEl          = null;
 
 /**
  * Top-level layout shell. Manages three views:
@@ -89,9 +90,20 @@ export const HudAppShell = {
           <span class="hud-error-msg" hidden></span>
         </div>
         <div class="hud-actions">
-          <button class="btn-reset" hidden>Reset</button>
+          <button class="btn-reset">Reset</button>
         </div>
       </header>
+
+      <div class="reset-modal-overlay" hidden>
+        <div class="reset-modal">
+          <div class="reset-modal-title">Reset Account?</div>
+          <div class="reset-modal-body">This will clear your entire inventory and set your balance back to $2,000.00. This cannot be undone.</div>
+          <div class="reset-modal-buttons">
+            <button class="btn-reset-cancel">Cancel</button>
+            <button class="btn-reset-confirm">Reset</button>
+          </div>
+        </div>
+      </div>
 
       <nav class="nav-tabs">
         <span class="nav-tab active" data-view="home">Home</span>
@@ -134,14 +146,15 @@ export const HudAppShell = {
     }
 
     // Cache refs
-    _balanceEl   = rootEl.querySelector('.balance-value');
-    _invValueEl  = rootEl.querySelector('.inv-value-amount');
-    _openBtn     = rootEl.querySelector('.btn-open');
-    _caseCountEl = rootEl.querySelector('.case-count-badge');
-    _resetBtn    = rootEl.querySelector('.btn-reset');
-    _errorEl     = rootEl.querySelector('.hud-error-msg');
-    _openSection = rootEl.querySelector('.hud-open-section');
-    _backBtn     = rootEl.querySelector('.btn-back');
+    _balanceEl    = rootEl.querySelector('.balance-value');
+    _invValueEl   = rootEl.querySelector('.inv-value-amount');
+    _openBtn      = rootEl.querySelector('.btn-open');
+    _caseCountEl  = rootEl.querySelector('.case-count-badge');
+    _resetBtn     = rootEl.querySelector('.btn-reset');
+    _resetOverlay = rootEl.querySelector('.reset-modal-overlay');
+    _errorEl      = rootEl.querySelector('.hud-error-msg');
+    _openSection  = rootEl.querySelector('.hud-open-section');
+    _backBtn      = rootEl.querySelector('.btn-back');
 
     // Back button — browser → home, reel → browser
     _backBtn.addEventListener('click', () => {
@@ -159,8 +172,21 @@ export const HudAppShell = {
       onOpenClick(_selectedCaseId, _caseMarketPrice, _currentCategory);
     });
 
-    // Reset button
-    _resetBtn.addEventListener('click', () => this._handleReset());
+    // Reset button — opens modal
+    _resetBtn.addEventListener('click', () => {
+      if (_isAnimating) return;
+      _resetOverlay.removeAttribute('hidden');
+    });
+    _resetOverlay.querySelector('.btn-reset-cancel').addEventListener('click', () => {
+      _resetOverlay.setAttribute('hidden', '');
+    });
+    _resetOverlay.querySelector('.btn-reset-confirm').addEventListener('click', () => {
+      _resetOverlay.setAttribute('hidden', '');
+      this._handleReset();
+    });
+    _resetOverlay.addEventListener('click', e => {
+      if (e.target === _resetOverlay) _resetOverlay.setAttribute('hidden', '');
+    });
 
     // Tab navigation
     rootEl.querySelectorAll('.nav-tab').forEach(tab => {
@@ -171,14 +197,12 @@ export const HudAppShell = {
     document.addEventListener(Events.BALANCE_CHANGED,        e  => this._onBalanceChanged(e));
     document.addEventListener(Events.CASE_INVENTORY_CHANGED, () => this._refreshCaseCount());
     document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => {
-      this._refreshResetVisibility();
       this._refreshInvValue();
     });
     document.addEventListener(Events.REEL_READY,             () => { _reelReady = true; this._evaluateOpenButton(); });
 
     // Initial render
     this._refreshBalance();
-    this._refreshResetVisibility();
     this._refreshInvValue();
 
     return {
@@ -333,7 +357,6 @@ export const HudAppShell = {
   _refreshBalance() {
     const bal = VirtualEconomy.getBalance();
     _balanceEl.textContent = _formatBalance(bal);
-    this._refreshResetVisibility();
   },
 
   _onBalanceChanged(e) {
@@ -343,7 +366,6 @@ export const HudAppShell = {
       : VirtualEconomy.getBalance();
     _balanceEl.textContent = _formatBalance(val);
     this._evaluateOpenButton();
-    this._refreshResetVisibility();
   },
 
   _refreshCaseCount() {
@@ -369,23 +391,7 @@ export const HudAppShell = {
     _invValueEl.textContent = `$${total.toFixed(2)}`;
   },
 
-  _refreshResetVisibility() {
-    if (!_resetBtn) return;
-    const bal      = VirtualEconomy.getBalance();
-    const invEmpty = SkinInventory.getItems().length === 0;
-    if (bal === 0 && invEmpty) {
-      _resetBtn.removeAttribute('hidden');
-    } else {
-      _resetBtn.setAttribute('hidden', '');
-    }
-  },
-
   _handleReset() {
-    if (_isAnimating) return;
-    const ok = window.confirm(
-      'Start over? This will clear your balance and all inventory. It cannot be undone.'
-    );
-    if (!ok) return;
     VirtualEconomy.reset();
     try { CaseInventory.clearInventory(); } catch (e) { console.error(e); }
     try { SkinInventory.clearInventory(); } catch (e) { console.error(e); }

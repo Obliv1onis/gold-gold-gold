@@ -79,7 +79,8 @@ export const MarketUI = {
     // Update price elements and buy buttons when a live price arrives
     document.addEventListener(Events.PRICE_UPDATED, e => {
       const { hashName, price } = e.detail;
-      _listEl?.querySelectorAll(`[data-hash-name="${CSS.escape(hashName)}"]`).forEach(el => {
+      _listEl?.querySelectorAll('[data-hash-name]').forEach(el => {
+        if (el.dataset.hashName !== hashName) return;
         if (el.classList.contains('market-row-price')) {
           el.textContent = `$${price.toFixed(2)}`;
           el.classList.remove('market-row-price--loading');
@@ -294,13 +295,14 @@ export const MarketUI = {
 
 function _makeListing(item, forceTier = null, statTrak = false) {
   // Vanilla knives have no float or wear tier
-  const vanilla  = _isVanilla(item);
-  const floatVal = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
-  const wearTier = vanilla ? null : FloatService.getWearTier(floatVal);
-  const hashName = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak);
-  // Use local market_price × wear-tier multiplier as immediate fallback price.
-  // Steam live price overrides this when it arrives via Events.PRICE_UPDATED.
-  const localPrice = _localPrice(item, wearTier, statTrak);
+  const vanilla    = _isVanilla(item);
+  const floatVal   = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
+  const wearTier   = vanilla ? null : FloatService.getWearTier(floatVal);
+  const isSouvenir = CaseDataStore.getCase(item.case_id)?.type === 'souvenir_package';
+  const hashName   = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak, isSouvenir);
+  // Local market_price is a rough fallback only — Skinport price replaces it when loaded.
+  // Souvenir local prices are intentionally unreliable; Skinport is the source of truth.
+  const localPrice = isSouvenir ? null : _localPrice(item, wearTier, statTrak);
   return { item, floatVal, wearTier, statTrak, hashName, localPrice };
 }
 

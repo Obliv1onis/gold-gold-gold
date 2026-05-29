@@ -19,21 +19,44 @@ function _validate(entry) {
   return true;
 }
 
-export const CapsuleDataStore = {
-  async init(url) {
-    if (_state === 'loaded') return;
-    _state = 'loading';
+async function _loadUrl(url, label) {
+  try {
     const res  = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     let valid = 0, invalid = 0;
     for (const entry of json.capsules ?? []) {
       if (_validate(entry)) { _capsules.set(entry.id, entry); valid++; }
       else invalid++;
     }
+    console.log(`[CapsuleDataStore] ${label}: ${valid} loaded, ${invalid} invalid`);
+  } catch (err) {
+    console.warn(`[CapsuleDataStore] Failed to load ${label} (${url}): ${err.message}`);
+  }
+}
+
+export const CapsuleDataStore = {
+  /**
+   * @param {string} capsulesUrl   - URL for capsules.json  (required)
+   * @param {string} [othersUrl]   - URL for others.json    (optional)
+   */
+  async init(capsulesUrl, othersUrl) {
+    if (_state === 'loaded') return;
+    _state = 'loading';
+    await _loadUrl(capsulesUrl, 'capsules');
+    if (othersUrl) await _loadUrl(othersUrl, 'others');
     _state = 'loaded';
-    console.log(`[CapsuleDataStore] ${valid} capsules loaded, ${invalid} invalid`);
   },
 
-  getCapsule(id)  { return _capsules.get(id) ?? null; },
-  getCapsuleList(){ return [..._capsules.values()]; },
+  getCapsule(id) { return _capsules.get(id) ?? null; },
+
+  /**
+   * @param {string|string[]|null} type - filter by type(s), or null for all
+   */
+  getCapsuleList(type = null) {
+    const all = [..._capsules.values()];
+    if (!type) return all;
+    const types = Array.isArray(type) ? type : [type];
+    return all.filter(c => types.includes(c.type ?? 'sticker_capsule'));
+  },
 };
