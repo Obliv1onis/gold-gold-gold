@@ -1382,6 +1382,23 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-size: 0.92rem;
 }
 
+/* ─── Dev mode badge ──────────────────────────────────────────────────────── */
+#dev-mode-badge {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  background: #e53935;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  z-index: 9999;
+  pointer-events: none;
+  user-select: none;
+}
+
 /* ─── Mobile optimizations ─────────────────────────────────────────────────── */
 @media (max-width: 640px) {
 

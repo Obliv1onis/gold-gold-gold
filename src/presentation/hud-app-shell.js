@@ -162,10 +162,13 @@ export const HudAppShell = {
               <h3 class="credits-section-title">Links</h3>
               <ul class="credits-links">
                 <li>
-                  <a class="credits-link" href="https://github.com/Obliv1onis/gold-gold-gold" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a class="credits-link" href="https://github.com/Obliv1onis/gold-gold-gold" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </li>
                 <li>
                   <a class="credits-link" href="https://space.bilibili.com/646730673?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer">Bilibili</a>
+                </li>
+                <li>
+                  <a class="credits-link" href="https://steamcommunity.com/id/obliv1onis_/" target="_blank" rel="noopener noreferrer">Steam Profile</a>
                 </li>
               </ul>
             </section>

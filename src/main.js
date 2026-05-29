@@ -15,6 +15,7 @@ import { InventoryUI }             from './presentation/inventory-ui.js';
 import { MarketUI }                from './presentation/market-ui.js';
 import { PriceAPILayer }          from './feature/price-api-layer.js';
 import { TradeUpUI }               from './presentation/trade-up-ui.js';
+import { initDevConsole }          from './dev/console.js';
 
 async function main() {
   const appEl = document.getElementById('app');
@@ -103,6 +104,9 @@ async function main() {
   MarketUI.init(marketContainer);
   TradeUpUI.init(tradeUpContainer);
   InventoryUI.init(inventoryContainer);
+
+  // 7. Dev console — exposes window.game in all environments
+  initDevConsole();
 }
 
 main().catch(err => {
