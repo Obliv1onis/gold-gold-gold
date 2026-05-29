@@ -1,5 +1,6 @@
 import { SkinInventory }       from '../core/skin-inventory.js';
-import { StickerImageService } from '../feature/sticker-image-service.js';
+import { StickerImageService }  from '../feature/sticker-image-service.js';
+import { makePlaceholder }      from '../feature/item-placeholder.js';
 
 const SELL_FEE_RATE          = 0.15;
 const SELL_FEEDBACK_DURATION = 1800;
@@ -32,17 +33,16 @@ export const CapsuleRevealUI = {
     const card = document.createElement('div');
     card.className = `reveal-card rarity-${rarity}`;
 
-    const img = document.createElement('img');
-    img.className = 'reveal-image';
-    img.alt       = item.name;
+    let imgEl;
     if (item.image_url) {
-      img.src           = item.image_url;
-      img.style.opacity = '1';
+      imgEl = document.createElement('img');
+      imgEl.className = 'reveal-image';
+      imgEl.alt       = item.name;
+      imgEl.src       = item.image_url;
     } else {
-      img.src           = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>';
-      img.style.opacity = '0.4';
+      imgEl = makePlaceholder(item.name, 'reveal-size');
     }
-    card.appendChild(img);
+    card.appendChild(imgEl);
 
     const rarityLabel = document.createElement('div');
     rarityLabel.className   = 'reveal-rarity-label';
@@ -51,7 +51,7 @@ export const CapsuleRevealUI = {
 
     const typeLabel = document.createElement('div');
     typeLabel.className   = 'reveal-item-type';
-    typeLabel.textContent = 'Sticker';
+    typeLabel.textContent = _itemTypeLabel(item.name);
     card.appendChild(typeLabel);
 
     const nameEl = document.createElement('div');
@@ -96,8 +96,11 @@ export const CapsuleRevealUI = {
     if (!item.image_url) {
       StickerImageService.getImageUrl(item.market_hash_name).then(url => {
         if (url && _visible) {
-          img.src           = url;
-          img.style.opacity = '1';
+          const realImg = document.createElement('img');
+          realImg.className = 'reveal-image';
+          realImg.alt       = item.name;
+          realImg.src       = url;
+          imgEl.replaceWith(realImg);
         }
       });
     }
@@ -125,6 +128,16 @@ export const CapsuleRevealUI = {
     setTimeout(() => this.hide(), SELL_FEEDBACK_DURATION);
   },
 };
+
+function _itemTypeLabel(name) {
+  if (!name) return 'Sticker';
+  const n = name.toLowerCase();
+  if (n.startsWith('charm |'))     return 'Charm';
+  if (n.startsWith('patch |'))     return 'Patch';
+  if (n.endsWith(' pin'))          return 'Pin';
+  if (n.includes('music kit |'))   return 'Music Kit';
+  return 'Sticker';
+}
 
 function _netProceeds(p) {
   return Math.round((typeof p === 'number' ? p : 0) * (1 - SELL_FEE_RATE) * 100) / 100;

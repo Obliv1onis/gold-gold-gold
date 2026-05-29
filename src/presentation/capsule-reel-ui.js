@@ -1,5 +1,6 @@
 import { Events }          from '../foundation/events.js';
-import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
+import { CapsuleDataStore }  from '../foundation/capsule-data-store.js';
+import { makePlaceholder }   from '../feature/item-placeholder.js';
 
 const CARD_WIDTH_PX     = 250;
 const IDLE_CENTER_INDEX = 30;
@@ -106,21 +107,20 @@ function _makeCard(item) {
   const div = document.createElement('div');
   div.className = `reel-card rarity-${item.rarity ?? 'high_grade'}`;
 
-  const img = document.createElement('img');
-  img.className = 'card-image';
-  img.alt = item.name ?? '';
   if (item.image_url) {
+    const img = document.createElement('img');
+    img.className = 'card-image';
+    img.alt = item.name ?? '';
     img.src = item.image_url;
+    div.appendChild(img);
   } else {
-    img.src = '';
-    img.style.opacity = '0.3';
+    div.appendChild(makePlaceholder(item.name ?? '', 'reel-size'));
   }
 
   const name = document.createElement('span');
   name.className   = 'card-name';
   name.textContent = item.name ?? item.market_hash_name ?? '';
 
-  div.appendChild(img);
   div.appendChild(name);
   return div;
 }

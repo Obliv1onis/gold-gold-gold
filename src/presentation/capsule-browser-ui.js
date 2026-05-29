@@ -1,4 +1,5 @@
-import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
+import { CapsuleDataStore }  from '../foundation/capsule-data-store.js';
+import { makePlaceholder }   from '../feature/item-placeholder.js';
 
 const STICKER_TYPES = ['sticker_capsule'];
 const OTHER_TYPES   = ['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box'];
@@ -78,9 +79,7 @@ function _makeCard(capsule, onSelect) {
     img.className = 'case-card-image';
     card.appendChild(img);
   } else {
-    const ph = document.createElement('div');
-    ph.className = 'case-card-image-placeholder';
-    card.appendChild(ph);
+    card.appendChild(makePlaceholder(capsule.name, 'card-size'));
   }
 
   const name = document.createElement('div');

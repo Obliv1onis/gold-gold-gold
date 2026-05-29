@@ -346,6 +346,32 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   border-radius: 4px;
 }
 
+/* ─── Item-type placeholders (no image available) ────────────────────────── */
+.item-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 6px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+}
+.item-placeholder svg { opacity: 0.55; }
+.item-placeholder--charm  { border-color: #4a9; }
+.item-placeholder--charm  svg { color: #4db88c; }
+.item-placeholder--patch  { border-color: #5080c0; }
+.item-placeholder--patch  svg { color: #6090d8; }
+.item-placeholder--pin    { border-color: #a07030; }
+.item-placeholder--pin    svg { color: #c09040; }
+.item-placeholder--mk     { border-color: #8050a0; }
+.item-placeholder--mk     svg { color: #a068c8; }
+
+/* sizes for each usage context */
+.item-placeholder.reel-size  { width: 108px; height: 84px; }
+.item-placeholder.card-size  { width: 150px; height: 110px; }
+.item-placeholder.reveal-size{ width: 200px; height: 150px; }
+
 .case-card-name {
   font-size: 0.78rem;
   color: #ccc;

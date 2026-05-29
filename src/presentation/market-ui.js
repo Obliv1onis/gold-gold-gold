@@ -109,17 +109,30 @@ export const MarketUI = {
   // ── Internal ───────────────────────────────────────────────────────────────
 
   _buildPool() {
-    _allItems = [];
+    const raw = [];
     for (const c of CaseDataStore.getCaseList()) {
+      const isSouvenir = c.type === 'souvenir_package';
       for (const tier of RARITY_TIERS) {
         for (const it of CaseDataStore.getItems(c.id, tier)) {
-          _allItems.push({ ...it, rarity: tier, case_id: c.id, case_name: c.name });
+          raw.push({ ...it, rarity: tier, case_id: c.id, case_name: c.name, isSouvenir });
         }
       }
     }
     for (const it of CONTRABAND_ITEMS) {
-      _allItems.push(it);
+      raw.push({ ...it, isSouvenir: false });
     }
+
+    // Rare specials (knives/gloves) and souvenir skins each appear in many
+    // cases/packages. Keep one entry per weapon+skin, strip the case label.
+    const seen = new Set();
+    _allItems = raw.filter(it => {
+      if (it.rarity !== 'rare_special' && !it.isSouvenir) return true;
+      const key = `${it.weapon}|${it.skin}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      it.case_name = null;
+      return true;
+    });
   },
 
   /** Picks `n` random skins and returns all wear variants for each (gloves skip StatTrak™). */
@@ -201,8 +214,10 @@ export const MarketUI = {
 
     const metaEl = document.createElement('div');
     metaEl.className   = 'market-row-meta';
-    const caseLabel = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : '?');
-    metaEl.textContent = `${caseLabel} · ${_formatRarity(item.rarity)}`;
+    const caseLabel = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : null);
+    metaEl.textContent = caseLabel
+      ? `${caseLabel} · ${_formatRarity(item.rarity)}`
+      : _formatRarity(item.rarity);
 
     info.appendChild(nameEl);
     info.appendChild(metaEl);
@@ -294,24 +309,38 @@ export const MarketUI = {
 // ── Module helpers ─────────────────────────────────────────────────────────────
 
 function _makeListing(item, forceTier = null, statTrak = false) {
-  // Vanilla knives have no float or wear tier
   const vanilla    = _isVanilla(item);
   const floatVal   = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
   const wearTier   = vanilla ? null : FloatService.getWearTier(floatVal);
-  const isSouvenir = CaseDataStore.getCase(item.case_id)?.type === 'souvenir_package';
+  const isSouvenir = item.isSouvenir ?? (CaseDataStore.getCase(item.case_id)?.type === 'souvenir_package');
   const hashName   = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak, isSouvenir);
-  // Local market_price is a rough fallback only — Skinport price replaces it when loaded.
-  // Souvenir local prices are intentionally unreliable; Skinport is the source of truth.
-  const localPrice = isSouvenir ? null : _localPrice(item, wearTier, statTrak);
+  const localPrice = _localPrice(item, wearTier, statTrak);
   return { item, floatVal, wearTier, statTrak, hashName, localPrice };
 }
 
 // Wear-tier price multipliers relative to Field-Tested baseline
 const WEAR_MULT = { fn: 3.0, mw: 1.5, ft: 1.0, ww: 0.65, bs: 0.45 };
 
+// Souvenir item market_price in the JSON data stores the PACKAGE price (e.g. $2),
+// not the individual skin price. Use rarity-based estimates when the stored value
+// looks like a package price (< $20).
+const SOUVENIR_RARITY_ESTIMATE = {
+  covert:          1200,
+  classified:        80,
+  restricted:        12,
+  mil_spec:           2,
+  consumer_grade:  0.50,
+  industrial_grade: 0.50,
+};
+
 function _localPrice(item, wearTier, statTrak) {
-  const base = item.market_price ?? null;
+  let base = item.market_price ?? null;
   if (base === null) return null;
+
+  if (item.isSouvenir && base < 20) {
+    base = SOUVENIR_RARITY_ESTIMATE[item.rarity] ?? 5;
+  }
+
   const wearMult = WEAR_MULT[wearTier] ?? 1.0;
   const stMult   = statTrak ? 1.5 : 1.0;
   return Math.round(base * wearMult * stMult * 100) / 100;

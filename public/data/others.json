@@ -45,7 +45,7 @@
           {
             "name": "Charm | Whiskers",
             "market_hash_name": "Charm | Whiskers",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tuIeTdDzSWx7l35uNqGHHlwx9z6zzVnI2pJ3yfa1N2ApB4EOQKt0bsxtG0ZPSiuVIfhAHkFQ",
             "market_price": 0.1
           },
           {
@@ -187,7 +187,7 @@
           {
             "name": "Patch | Dragon Lore",
             "market_hash_name": "Patch | Dragon Lore",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMCvGqkZ04IT81V31QBr-kNi2rCRatvasP6VvJqOXXWHDxL8ktudqGX7gxkQk4G-Dn9-tJ3-XbAZ1FNIuEm5aAWC5",
             "market_price": 0.07
           },
           {
@@ -211,13 +211,13 @@
           {
             "name": "Patch | Clutch King",
             "market_hash_name": "Patch | Clutch King",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMCvGqkZ04IT81VrrVAnylti5ryNZ6ar2Oqc4IqDGXTWVxb4ksbMxHnnmzUh3smiHnI78cnzCbgB0FNIuErNFzBiT",
             "market_price": 0.07
           },
           {
             "name": "Patch | Boss",
             "market_hash_name": "Patch | Boss",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMCvGqkZ04IT81VvoUg6_yJXlq3Jfvfb3OfVpdvORWzSUmb4vsbA-Tiyxw0l34G3cy9r8cHqQaRhgVMVdMdWYIg",
             "market_price": 0.07
           },
           {
@@ -291,7 +291,7 @@
           {
             "name": "Patch | Headcrab",
             "market_hash_name": "Patch | Headcrab",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMHOb5Fps7Mjk603kSSL5kpfs5Dpk5_evbKd_IfKsGmKRzaAk4edtGHvgwxgk4TmBydb6cS3EPFB1DpElEOACtRnsldzlNezm5APWlcsbmoVHyQYA",
             "market_price": 0.07
           },
           {
@@ -332,7 +332,7 @@
       "name": "Metal Skill Groups Patch Pack",
       "type": "patch_pack",
       "price": 4.8,
-      "image_url": null,
+      "image_url": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack02_png.png",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -341,109 +341,109 @@
           {
             "name": "Patch | Silver I",
             "market_hash_name": "Patch | Silver I",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I5v64bbYjc_bLDWORmb0h6OQ5SSviwhx04GSBzon_Jy3EbgNzDcdyQOBcs0Kwwcqnab3fxfXCfA",
             "market_price": 0.07
           },
           {
             "name": "Patch | Silver II",
             "market_hash_name": "Patch | Silver II",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I5v64bbYjc_bLDWORmb0h6OQ5SSviwhx04GSBzon_Jy3EbgNzDcdyQOBcs0Kwwcqnab3fxfXCfA",
             "market_price": 0.07
           },
           {
             "name": "Patch | Silver III",
             "market_hash_name": "Patch | Silver III",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I5v64bbYjc_bLDWORmb0h6OQ5SSviwhx04GSBzon_Jy3EbgNzDcdyQOBcs0Kwwcqnab3fxfXCfA",
             "market_price": 0.07
           },
           {
             "name": "Patch | Silver IV",
             "market_hash_name": "Patch | Silver IV",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I5v64bbYjc_bLDWORmb0h6OQ5SSviwhx04GSBzon_Jy3EbgNzDcdyQOBcs0Kwwcqnab3fxfXCfA",
             "market_price": 0.07
           },
           {
             "name": "Patch | Silver Elite",
             "market_hash_name": "Patch | Silver Elite",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I5v64bbZSJPWeAWnekr51s-U-H3i3kE8h4DiBmYr6IyrEbQEoA8BwQbZe4UXsx9SxMuPl5hue1dwfmtuzGA",
             "market_price": 0.07
           },
           {
             "name": "Patch | Silver Elite Master",
             "market_hash_name": "Patch | Silver Elite Master",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I5v64bbZSJPWeAWnekr51s-U-H3i3kE8h4DiBmYr6IyrEbQEoA8BwQbZe4UXsx9SxMuPl5hue1dwfmtuzGA",
             "market_price": 0.07
           },
           {
             "name": "Patch | Gold Nova I",
             "market_hash_name": "Patch | Gold Nova I",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1c4P6qZqt7IaHdWmTCwr905rI8GXCwk0x24j_RytqtICmWOwQoW5tzQrNbshTpx9e2PvSiuVJgbtDEaQ",
             "market_price": 0.07
           },
           {
             "name": "Patch | Gold Nova II",
             "market_hash_name": "Patch | Gold Nova II",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1c4P6qZqt7IaTdVmXBlesu5OBtHSq3zEhw4WmBwtmvd3rBaFUmX5F0QrJb4BHuloXnNfSiuVIYcCN0tg",
             "market_price": 0.07
           },
           {
             "name": "Patch | Gold Nova III",
             "market_hash_name": "Patch | Gold Nova III",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1c4P6qZqt7IaTdVmXBlesu5OBtHSq3zEhw4WmBwtmvd3rBaFUmX5F0QrJb4BHuloXnNfSiuVIYcCN0tg",
             "market_price": 0.07
           },
           {
             "name": "Patch | Gold Nova Master",
             "market_hash_name": "Patch | Gold Nova Master",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1c4P6qZqt7If2SHXOV06Aj4uMwFn_gw0x1t2zSmN76d3-Waw8nD5V3TOALsxO6ltPnNOix7gTelcsbmhVplCMW",
             "market_price": 0.07
           },
           {
             "name": "Patch | Master Guardian I",
             "market_hash_name": "Patch | Master Guardian I",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1W7uG6bbZqNfGBCm6Rz784tbA_HnrnwBx2sWrVw9z_dn3FPwAlXpZ2TONfu0a6m9fuNbvr5Qbb3ZUFk3sHmpsRiw",
             "market_price": 0.07
           },
           {
             "name": "Patch | Master Guardian II",
             "market_hash_name": "Patch | Master Guardian II",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1W7uG6bbZqNfGBCm6Rz-t6ufVsAS3hxU4l4m3czNn_dHyVawIjWMQkFLVbtES4ldPlZOK041fdg4gUyi7gznQeOYOZIq4",
             "market_price": 0.07
           },
           {
             "name": "Patch | Master Guardian Elite",
             "market_hash_name": "Patch | Master Guardian Elite",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1W7uG6bbZqNfGBCm6Rz-t6ufVsAS3hxU4l4m3czNn_dHyVawIjWMQkFLVbtES4ldPlZOK041fdg4gUyi7gznQeOYOZIq4",
             "market_price": 0.07
           },
           {
             "name": "Patch | Distinguished Master Guardian",
             "market_hash_name": "Patch | Distinguished Master Guardian",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1f4vXgO6JpcKHLD2PJwLt0teA8GyvlzElz4jiHyY3_cS7FPFcjCpAmF-5ftQ74zINXl2BmzQ",
             "market_price": 0.07
           },
           {
             "name": "Patch | Legendary Eagle",
             "market_hash_name": "Patch | Legendary Eagle",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1X6vWrZqBsMumWD2CcxLw46Oc6Hiiyxk126z7Rztf_IniTPwIoDJMkQuVYtkTtmobhZrmxtQfZ3ZUFk3sJGZSG8Q",
             "market_price": 0.07
           },
           {
             "name": "Patch | Legendary Eagle Master",
             "market_hash_name": "Patch | Legendary Eagle Master",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1X6vWrZqBsMumWD2CcxON3o_VsXWe1xkx1sm3Rzt6gd3zGalMiDMYkQLFbs0O6m9ThM-7r5wfeiYkRnyj9kGoXuYZUHYQE",
             "market_price": 0.07
           },
           {
             "name": "Patch | Supreme Master First Class",
             "market_hash_name": "Patch | Supreme Master First Class",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1I-uK8balobvSQCjWUxb5ztuA4H3GyzR9x52XXm9v9JynBZ1QnCJUhTLMK5hO6w4f5d7S18KYemJo",
             "market_price": 0.07
           },
           {
             "name": "Patch | The Global Elite",
             "market_hash_name": "Patch | The Global Elite",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWbwMuyMESE7l95-IDm5Uz3UlLhn4Lj9R1c4_2saahoLPmHCymUluol4eU6Hn23lkkmsW3TyoyucS_FbANzD8Z4R7NZtRG5m9SzMeLl-UWA3FRqEhOi",
             "market_price": 0.07
           }
         ]
@@ -552,7 +552,7 @@
       "name": "Operation Riptide Patch Pack",
       "type": "patch_pack",
       "price": 3.9,
-      "image_url": null,
+      "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/weapon_cases/crate_patch_pack03.e3c82f4119dc4319f24f7c646874e0d75b66c098.png",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -739,7 +739,7 @@
           {
             "name": "Guardian II Pin",
             "market_hash_name": "Guardian II Pin",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJai2l-lQ8ndwMWvJjSU6lp58YTg41vrRCLhl5jf-jda_fanaapScr7CDzeVlegn5eI-Gnu2wh4itzvVntf9cX6QbAZ1CJcjQeMLuhCwmtbnKaq8sJtUlEYN",
             "market_price": 1.0
           },
           {
@@ -819,7 +819,7 @@
           {
             "name": "Guardian III Pin",
             "market_hash_name": "Guardian III Pin",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJai2l-lQ8ndwMWvJjSU6lp58YTg41vrRCLhl5jf-jda_fanaapSc77KV2TAlbkk4OA8Fi3jlBgm4jvQm9esI3iWOlQoW5VxF-Ze5hC-wIWzKaq8sP_rqume",
             "market_price": 1.0
           },
           {
@@ -890,7 +890,7 @@
       "name": "Nightwatch Music Kit Box",
       "type": "music_kit_box",
       "price": 3.4,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnu9CVT-_-hbKFSI_GDHXKcxKAu4eU6GXvrk05zsmTRzd-tc3yVOw8oAppzQeAO5hDtm4bnMuLq51Pelcsbmj2-wiMd",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -946,7 +946,7 @@
       "name": "StatTrak\u2122 Nightwatch Music Kit Box",
       "type": "music_kit_box",
       "price": 5.5,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnu9CVT-_-hbKFSM-SSGnOCwOVJs-B5XDy_kFMlsWyBz9mscnPEagchW5RzQuEMshi4mtDiZum241GIg40TyST_3ysa8G81tG_eJRxT",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -1282,7 +1282,7 @@
       "name": "Initiation Music Kit Box",
       "type": "music_kit_box",
       "price": 3.4,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnp8ytP5vO6Z7Z-H_OSHnSFzes4teIxSX_qzB515D6Gm9iuI3zEb1VxW5pzQrMKt0awwNCzMuiz5FCIjZUFk3u_gZXg1Q",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -1338,7 +1338,7 @@
       "name": "StatTrak\u2122 Initiation Music Kit Box",
       "type": "music_kit_box",
       "price": 5.9,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnp8ytP5vO6Z7Z-H-OHD3OE0-99j-JoXzqmmRhpt2_Vnt36dXuUblMoWZZxRO4D5xG5wYG0P-zj4FPZi91EniqojSwb7jErvbizkQOf-g",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -1520,7 +1520,7 @@
       "name": "Radicals Music Kit Box",
       "type": "music_kit_box",
       "price": 3.15,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqny_CZS7POie5tuIeCAG2uVj7Yg4udoS37jx0ty5TyEzNiuIHvGbgR2WZd2F-cJsEa7ktSxZL7m71TAy9UStC8aRws",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -1583,7 +1583,7 @@
       "name": "StatTrak\u2122 Radicals Music Kit Box",
       "type": "music_kit_box",
       "price": 6.15,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqny_CZS7POie5tuIeCAG2uVj7Yg4udoS37jx0ty5TyEzNiuIHvGbgR2WZd2F-cJsEa7ktSxZL7m71TAy9UStC8aRws",
       "rarity_weights": {
         "high_grade": 100
       },
