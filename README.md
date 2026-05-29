@@ -27,8 +27,9 @@ Special thanks to the open-source contributors for making this framework availab
 
 * **Core Framework:** Vanilla JavaScript (ES6+), HTML5, CSS3
 * **Bundler & Build Tool:** Vite
-* **Deployment:** Pre-configured for seamless hosting on platforms like Netlify or Vercel
+* **Deployment:** [Netifly](https://enchanting-donut-550b47.netlify.app/)
 
+---
 
 <a href="https://ibb.co/KRY4yQ6"><img src="https://i.ibb.co/6V29spY/2026-05-28-6-36-34.png" alt="2026-05-28-6-36-34" border="0"></a>
 
