@@ -9,10 +9,10 @@ const SVGS = {
 
 function _typeClass(name) {
   const n = name.toLowerCase();
-  if (n.startsWith('charm |'))           return 'charm';
-  if (n.startsWith('patch |'))           return 'patch';
-  if (n.endsWith(' pin'))                return 'pin';
-  if (n.includes('music kit'))           return 'mk';
+  if (n.startsWith('charm |') || n.includes('charm capsule')) return 'charm';
+  if (n.startsWith('patch |') || n.includes('patch'))        return 'patch';
+  if (n.endsWith(' pin') || n.includes('pin capsule'))        return 'pin';
+  if (n.includes('music kit'))                                return 'mk';
   return 'patch';
 }
 

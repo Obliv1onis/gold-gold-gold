@@ -1381,3 +1381,88 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-family: monospace;
   font-size: 0.92rem;
 }
+
+/* ─── Mobile optimizations ─────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+
+  /* Faster tap response on touch devices */
+  button { touch-action: manipulation; }
+
+  /* ── HUD bar ──────────────────────────────────────────────────────────────── */
+  .hud-bar       { gap: 8px; padding: 8px 12px; flex-wrap: wrap; }
+  .hud-inv-value { display: none; }
+  .hud-balance   { min-width: 0; }
+  .balance-label { font-size: 0.6rem; }
+  .balance-value { font-size: 1.1rem; }
+  /* When open section is visible (reel mode) it drops to its own row */
+  .hud-open-section { order: 10; flex-basis: 100%; gap: 8px; }
+  .btn-open  { flex: 1; font-size: 0.9rem; padding: 9px 14px; }
+  .btn-reset { font-size: 0.78rem; padding: 6px 10px; }
+
+  /* ── Nav tabs — horizontally scrollable ───────────────────────────────────── */
+  .nav-tabs {
+    padding: 0 4px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav-tabs::-webkit-scrollbar { display: none; }
+  .nav-tab { padding: 8px 12px; font-size: 0.8rem; white-space: nowrap; }
+
+  /* ── Home grid — 2 × 2 ────────────────────────────────────────────────────── */
+  .home-grid { flex-wrap: wrap; height: 100%; }
+  .home-tile { flex: none; width: 50%; height: 50%; border-right: none; border-bottom: 1px solid #1c1c1e; }
+  .home-tile:nth-child(odd)       { border-right: 1px solid #1c1c1e; }
+  .home-tile:nth-last-child(-n+2) { border-bottom: none; }
+  .home-tile__title { font-size: 0.85rem; }
+
+  /* ── Case browser ─────────────────────────────────────────────────────────── */
+  #browser-view { padding: 16px 12px; }
+  .case-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+  .case-card-image, .case-card-image-placeholder { width: 110px; height: 80px; }
+  .item-placeholder.card-size { width: 110px; height: 80px; }
+
+  /* ── Reel ─────────────────────────────────────────────────────────────────── */
+  #reel-view { padding: 20px 10px; gap: 12px; }
+
+  /* ── Reveal card ──────────────────────────────────────────────────────────── */
+  .reveal-card  { padding: 20px 16px; min-width: unset; width: min(92vw, 420px); }
+  .reveal-image { width: 150px; height: 150px; }
+  .reveal-actions { flex-direction: column; gap: 8px; }
+
+  /* ── Market — reflow to 2-row grid ───────────────────────────────────────── */
+  .market-view { padding: 0 10px 16px; }
+  .market-row {
+    grid-template-columns: 48px 1fr 68px;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "img info  price"
+      "img float buy";
+    gap: 4px 10px;
+    padding: 8px 10px;
+  }
+  .market-row > .market-row-img     { grid-area: img;   width: 48px; height: 36px; align-self: center; }
+  .market-row > .market-row-info    { grid-area: info; }
+  .market-row > .market-float-block { grid-area: float; }
+  .market-row > .market-row-price   { grid-area: price; text-align: right; font-size: 0.8rem; }
+  .market-row > .btn-market-buy     { grid-area: buy;   font-size: 0.72rem; padding: 5px 0; }
+  .market-row-name { font-size: 0.78rem; }
+  .market-row-meta { font-size: 0.62rem; }
+
+  /* ── Trade-up ─────────────────────────────────────────────────────────────── */
+  .tradeup-page      { padding: 12px; }
+  .tradeup-slots-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; }
+  .tradeup-slot      { min-height: 70px; }
+  .tradeup-slot-img  { height: 38px; }
+  .tradeup-contract-bar { flex-wrap: wrap; gap: 8px; }
+  .tradeup-inv-grid  { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
+
+  /* ── Inventory ────────────────────────────────────────────────────────────── */
+  .inventory-view { padding: 12px; }
+  .inventory-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .inventory-card .card-image, .inventory-card .card-image--missing { width: 100px; height: 100px; }
+
+  /* ── Credits ──────────────────────────────────────────────────────────────── */
+  .credits-page  { padding: 24px 16px 40px; }
+  .credits-title { font-size: 1.2rem; }
+}

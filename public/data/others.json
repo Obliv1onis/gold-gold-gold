@@ -454,7 +454,7 @@
       "name": "Operation Broken Fang Patch Pack",
       "type": "patch_pack",
       "price": 3.2,
-      "image_url": null,
+      "image_url": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack02_png.png",
       "rarity_weights": {
         "high_grade": 100
       },
