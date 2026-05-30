@@ -35,14 +35,6 @@
         ],
         "classified": [
           {
-            "weapon": "AWP",
-            "skin": "Methane Ice",
-            "item_id": "genesis_awp_methane_ice",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_DVL0PutbZtuL_GfC2OvzedxuPUnS3u3wR8lsTzTn4qqcXuXOlQmCpUiQOdYtUG_ltXgP-u04wWL3Y9NnjK-0H2dw8uldQ",
-            "market_price": 17.85,
-            "stattrak": false
-          },
-          {
             "weapon": "MP7",
             "skin": "Hazardous Smoking",
             "item_id": "genesis_mp7_hazardous_smoking",
