@@ -1778,6 +1778,660 @@
           }
         ]
       }
+    },
+    {
+      "id": "standalone_music_kits",
+      "name": "Standalone Music Kits",
+      "type": "standalone_music_kit",
+      "price": 0,
+      "image_url": null,
+      "rarity_weights": {
+        "high_grade": 100
+      },
+      "tiers": {
+        "high_grade": [
+          {
+            "name": "Music Kit | Valve, Counter-Strike",
+            "market_hash_name": "Music Kit | Valve, Counter-Strike",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/valve_01.a22bb7e41ed9f28f93ac66f80f74716560236318.png",
+            "market_price": 49.99,
+            "stat_trak": false,
+            "youtube_id": "T7soujCTU34"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Valve, Counter-Strike",
+            "market_hash_name": "StatTrak™ Music Kit | Valve, Counter-Strike",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/valve_01.a22bb7e41ed9f28f93ac66f80f74716560236318.png",
+            "market_price": 149.97,
+            "stat_trak": true,
+            "youtube_id": "T7soujCTU34"
+          },
+          {
+            "name": "Music Kit | Halo, The Master Chief Collection",
+            "market_hash_name": "Music Kit | Halo, The Master Chief Collection",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/halo_01.a49952f4e059871c05f6d829f6f29a1a2ccbddc2.png",
+            "market_price": 6.99,
+            "stat_trak": false,
+            "youtube_id": "BWmMfF-tRmk"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Halo, The Master Chief Collection",
+            "market_hash_name": "StatTrak™ Music Kit | Halo, The Master Chief Collection",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/halo_01.a49952f4e059871c05f6d829f6f29a1a2ccbddc2.png",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "BWmMfF-tRmk"
+          },
+          {
+            "name": "Music Kit | Half-Life: Alyx, Anti-Citizen",
+            "market_hash_name": "Music Kit | Half-Life: Alyx, Anti-Citizen",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/hlalyx_01.695e0b07f37980650d408fd3260737df825d1f91.png",
+            "market_price": 8.99,
+            "stat_trak": false,
+            "youtube_id": "JI5oIiHuVL4"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Half-Life: Alyx, Anti-Citizen",
+            "market_hash_name": "StatTrak™ Music Kit | Half-Life: Alyx, Anti-Citizen",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/hlalyx_01.695e0b07f37980650d408fd3260737df825d1f91.png",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "JI5oIiHuVL4"
+          },
+          {
+            "name": "Music Kit | Perfect World, Hua Lian (Painted Face)",
+            "market_hash_name": "Music Kit | Perfect World, Hua Lian (Painted Face)",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJX6F41N24JD7-FXjfk2g0MLlqScOt6L7PPxrdfTLX2HDkbgi4OM7TX2wkRsm6j-Ewor8InueOwY-Sswnc1NbBcg",
+            "market_price": 4.05,
+            "stat_trak": false,
+            "youtube_id": "iOa_MzvSp74"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Perfect World, Hua Lian (Painted Face)",
+            "market_hash_name": "StatTrak™ Music Kit | Perfect World, Hua Lian (Painted Face)",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJX6F41N24JD7-FXjfk2g0MLlqScOt6L7PPxrdfTLX2HDkbgi4OM7TX2wkRsm6j-Ewor8InueOwY-Sswnc1NbBcg",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "iOa_MzvSp74"
+          },
+          {
+            "name": "Music Kit | Perfect World, Ay Hey",
+            "market_hash_name": "Music Kit | Perfect World, Ay Hey",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJX6F41N24JD7-FXjfk2j0M7ir3QOvKb8P6A1cPSSXzKSkbl14eU-GCu3x0V24jvWzo6veXuUbAQ-SswnjV5YWxY",
+            "market_price": 3.37,
+            "stat_trak": false,
+            "youtube_id": "vfp003u_BWU"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Perfect World, Ay Hey",
+            "market_hash_name": "StatTrak™ Music Kit | Perfect World, Ay Hey",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJX6F41N24JD7-FXjfk2j0M7ir3QOvKb8P6A1cPSSXzKSkbl14eU-GCu3x0V24jvWzo6veXuUbAQ-SswnjV5YWxY",
+            "market_price": 7.62,
+            "stat_trak": true,
+            "youtube_id": "vfp003u_BWU"
+          },
+          {
+            "name": "Music Kit | Various Artists, Hotline Miami",
+            "market_hash_name": "Music Kit | Various Artists, Hotline Miami",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPXSD6V978Yr961Tufk2g0JLmpXsLt6T8OfxsJPOSCDfAw7Ygs-dvSS_kzUx-4jvXnNr7IimSbgY-SswntCV3CPU",
+            "market_price": 4.52,
+            "stat_trak": false,
+            "youtube_id": "GiDX7OvGlnk"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Various Artists, Hotline Miami",
+            "market_hash_name": "StatTrak™ Music Kit | Various Artists, Hotline Miami",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPXSD6V978Yr961Tufk2g0JLmpXsLt6T8OfxsJPOSCDfAw7Ygs-dvSS_kzUx-4jvXnNr7IimSbgY-SswntCV3CPU",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "GiDX7OvGlnk"
+          },
+          {
+            "name": "Music Kit | The Verkkars, EZ4ENCE",
+            "market_hash_name": "Music Kit | The Verkkars, EZ4ENCE",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXOS81Nn_4z1-ErYEUy_ncG2pHQC66qtOfBsefHEWmTHkOgmtLRsSSq2w0ly4DvSmNipIy2TbRhgVMXK454YZg",
+            "market_price": 4.63,
+            "stat_trak": false,
+            "youtube_id": "mxWp6YMnJ14"
+          },
+          {
+            "name": "StatTrak™ Music Kit | The Verkkars, EZ4ENCE",
+            "market_hash_name": "StatTrak™ Music Kit | The Verkkars, EZ4ENCE",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXOS81Nn_4z1-ErYEUy_ncG2pHQC66qtOfBsefHEWmTHkOgmtLRsSSq2w0ly4DvSmNipIy2TbRhgVMXK454YZg",
+            "market_price": 8.53,
+            "stat_trak": true,
+            "youtube_id": "mxWp6YMnJ14"
+          },
+          {
+            "name": "Music Kit | The Verkkars & n0thing, Flashbang Dance",
+            "market_hash_name": "Music Kit | The Verkkars & n0thing, Flashbang Dance",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXOS81Nn_4z1-ErYEU-_zcS5rXEP7KT2PvU_JaiVXjeWkegn6OQ7Hy3klEVztWqByI2veX2VaRhgVMWDR-PWmQ",
+            "market_price": 2.07,
+            "stat_trak": false,
+            "youtube_id": "dJLXAFqMIHM"
+          },
+          {
+            "name": "StatTrak™ Music Kit | The Verkkars & n0thing, Flashbang Dance",
+            "market_hash_name": "StatTrak™ Music Kit | The Verkkars & n0thing, Flashbang Dance",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXOS81Nn_4z1-ErYEU-_zcS5rXEP7KT2PvU_JaiVXjeWkegn6OQ7Hy3klEVztWqByI2veX2VaRhgVMWDR-PWmQ",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "dJLXAFqMIHM"
+          },
+          {
+            "name": "Music Kit | bbno$, u mad!",
+            "market_hash_name": "Music Kit | bbno$, u mad!",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN3mZ6kVKpNa6vgjlRByknJOw-CEK7KP_bPZrefPGVmSTk7py4bY8Tivlx0Vw4z_SzsHpLyyu3lGzoA",
+            "market_price": 3.88,
+            "stat_trak": false,
+            "youtube_id": "xM5qKXr9GEE"
+          },
+          {
+            "name": "StatTrak™ Music Kit | bbno$, u mad!",
+            "market_hash_name": "StatTrak™ Music Kit | bbno$, u mad!",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN3mZ6kVKpNa6vgjlRByknJOw-CEK7KP_bPZrefPGVmSTk7py4bY8Tivlx0Vw4z_SzsHpLyyu3lGzoA",
+            "market_price": 8.0,
+            "stat_trak": true,
+            "youtube_id": "xM5qKXr9GEE"
+          },
+          {
+            "name": "Music Kit | Knock2, dashstar*",
+            "market_hash_name": "Music Kit | Knock2, dashstar*",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnWY5l0ny9elpFuwQhugx8G0qXVavqT_avw_I6HCDT-Vk-oi5rFtGnjjkBxy6zyGmNu3MSXAuEzdSoI",
+            "market_price": 14.23,
+            "stat_trak": false,
+            "youtube_id": "pL9UJHevhqY"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Knock2, dashstar*",
+            "market_hash_name": "StatTrak™ Music Kit | Knock2, dashstar*",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnWY5l0ny9elpFuwQhugx8G0qXVavqT_avw_I6HCDT-Vk-oi5rFtGnjjkBxy6zyGmNu3MSXAuEzdSoI",
+            "market_price": 33.2,
+            "stat_trak": true,
+            "youtube_id": "pL9UJHevhqY"
+          },
+          {
+            "name": "Music Kit | Denzel Curry, ULTIMATE",
+            "market_hash_name": "Music Kit | Denzel Curry, ULTIMATE",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMX6Z_1N595Lm-EDYEUy_ncCzrXpZ6qf_avA9I6bADTeRxep05bA7SS-1wBl1sGTSy9z4Ii7EPxhgVMXpTAlXoQ",
+            "market_price": 4.64,
+            "stat_trak": false,
+            "youtube_id": "RpHBmFLbHQA"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
+            "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMX6Z_1N595Lm-EDYEUy_ncCzrXpZ6qf_avA9I6bADTeRxep05bA7SS-1wBl1sGTSy9z4Ii7EPxhgVMXpTAlXoQ",
+            "market_price": 9.03,
+            "stat_trak": true,
+            "youtube_id": "RpHBmFLbHQA"
+          },
+          {
+            "name": "Music Kit | Killer Mike, MICHAEL",
+            "market_hash_name": "Music Kit | Killer Mike, MICHAEL",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKb6VNn-Y7_72a3EFOlz8biqnRd6ab3bvA_cvTDC2XImOwi4-U8S37nxk5y5D7Sw9v9I37DcEZ-XeFRCz_X",
+            "market_price": 17.95,
+            "stat_trak": false,
+            "youtube_id": "uWJcKMl-5EI"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Killer Mike, MICHAEL",
+            "market_hash_name": "StatTrak™ Music Kit | Killer Mike, MICHAEL",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKb6VNn-Y7_72a3EFOlz8biqnRd6ab3bvA_cvTDC2XImOwi4-U8S37nxk5y5D7Sw9v9I37DcEZ-XeFRCz_X",
+            "market_price": 29.0,
+            "stat_trak": true,
+            "youtube_id": "uWJcKMl-5EI"
+          },
+          {
+            "name": "Music Kit | AWOLNATION, I Am",
+            "market_hash_name": "Music Kit | AWOLNATION, I Am",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNGyY6Vh04I775Ga3EFOjmJDjrHQOv_OsbKFseaDKVzLHk70hsbc4GSvrlEVytWWGm9mhdy6TcEZ-XZaQ4-De",
+            "market_price": 3.96,
+            "stat_trak": false,
+            "youtube_id": "R2rGDSV0EP8"
+          },
+          {
+            "name": "StatTrak™ Music Kit | AWOLNATION, I Am",
+            "market_hash_name": "StatTrak™ Music Kit | AWOLNATION, I Am",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNGyY6Vh04I775Ga3EFOjmJDjrHQOv_OsbKFseaDKVzLHk70hsbc4GSvrlEVytWWGm9mhdy6TcEZ-XZaQ4-De",
+            "market_price": 8.0,
+            "stat_trak": true,
+            "youtube_id": "R2rGDSV0EP8"
+          },
+          {
+            "name": "Music Kit | Beartooth, Disgusting",
+            "market_hash_name": "Music Kit | Beartooth, Disgusting",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN36W90J6-5P81Qm2D0ryxsS3ryMKu_P6P_08dvOWDDOSlLd0s7AxTXi1xxl3427TmNqsc3iJLlh34_7J-SA",
+            "market_price": 2.96,
+            "stat_trak": false,
+            "youtube_id": "2XHiJGTVMlU"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Beartooth, Disgusting",
+            "market_hash_name": "StatTrak™ Music Kit | Beartooth, Disgusting",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN36W90J6-5P81Qm2D0ryxsS3ryMKu_P6P_08dvOWDDOSlLd0s7AxTXi1xxl3427TmNqsc3iJLlh34_7J-SA",
+            "market_price": 6.76,
+            "stat_trak": true,
+            "youtube_id": "2XHiJGTVMlU"
+          },
+          {
+            "name": "Music Kit | Beartooth, Aggressive",
+            "market_hash_name": "Music Kit | Beartooth, Aggressive",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN36W90J6-5P81Qm1D0v0ncXjpHcDuqT5OfY1JKnHWjLFx7l147U8Fivhxxwj4W3Ty46ocyiJLlh39UDB3WA",
+            "market_price": 1.35,
+            "stat_trak": false,
+            "youtube_id": "xFNfuSVvPBk"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Beartooth, Aggressive",
+            "market_hash_name": "StatTrak™ Music Kit | Beartooth, Aggressive",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN36W90J6-5P81Qm1D0v0ncXjpHcDuqT5OfY1JKnHWjLFx7l147U8Fivhxxwj4W3Ty46ocyiJLlh39UDB3WA",
+            "market_price": 1.35,
+            "stat_trak": true,
+            "youtube_id": "xFNfuSVvPBk"
+          },
+          {
+            "name": "Music Kit | Daniel Sadowski, Total Domination",
+            "market_hash_name": "Music Kit | Daniel Sadowski, Total Domination",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsSuqCMJuqKrbvRseaKQDGLAluwntuU8S3vllBsj4juBm9qrJXqXO1MoXowwG7D37VA97g",
+            "market_price": 4.8,
+            "stat_trak": false,
+            "youtube_id": "7oBl9p0smJA"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Daniel Sadowski, Total Domination",
+            "market_hash_name": "StatTrak™ Music Kit | Daniel Sadowski, Total Domination",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsSuqCMJuqKrbvRseaKQDGLAluwntuU8S3vllBsj4juBm9qrJXqXO1MoXowwG7D37VA97g",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "7oBl9p0smJA"
+          },
+          {
+            "name": "Music Kit | Daniel Sadowski, Crimson Assault",
+            "market_hash_name": "Music Kit | Daniel Sadowski, Crimson Assault",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzseu_HBZ6aurOvI5cPWSXGOSw-gjtLE4GHCxwktx6jjVw4msJHzGaQIgAowwG7B47VZqDQ",
+            "market_price": 2.67,
+            "stat_trak": false,
+            "youtube_id": "yqnIlLuZTc8"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Daniel Sadowski, Crimson Assault",
+            "market_hash_name": "StatTrak™ Music Kit | Daniel Sadowski, Crimson Assault",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzseu_HBZ6aurOvI5cPWSXGOSw-gjtLE4GHCxwktx6jjVw4msJHzGaQIgAowwG7B47VZqDQ",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "yqnIlLuZTc8"
+          },
+          {
+            "name": "Music Kit | Daniel Sadowski, Eye of the Dragon",
+            "market_hash_name": "Music Kit | Daniel Sadowski, Eye of the Dragon",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsKuqyBevaD_PvY_cqnBC2aSx-sitOA9Hy3iw0shsmrQm9n9cS_EO1UlD4wwG7C42cYiFA",
+            "market_price": 1.62,
+            "stat_trak": false,
+            "youtube_id": "MDz2APnwJvU"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Daniel Sadowski, Eye of the Dragon",
+            "market_hash_name": "StatTrak™ Music Kit | Daniel Sadowski, Eye of the Dragon",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsKuqyBevaD_PvY_cqnBC2aSx-sitOA9Hy3iw0shsmrQm9n9cS_EO1UlD4wwG7C42cYiFA",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "MDz2APnwJvU"
+          },
+          {
+            "name": "Music Kit | Daniel Sadowski, The 8-Bit Kit",
+            "market_hash_name": "Music Kit | Daniel Sadowski, The 8-Bit Kit",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsWur3FduaX-bvw7JKPDXD7Alusn6bc8GHHjlxt3tT7Uztr4I3iUagQjD4wwG7CloiQLEg",
+            "market_price": 3.45,
+            "stat_trak": false,
+            "youtube_id": "qlblew38rg8"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Daniel Sadowski, The 8-Bit Kit",
+            "market_hash_name": "StatTrak™ Music Kit | Daniel Sadowski, The 8-Bit Kit",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsWur3FduaX-bvw7JKPDXD7Alusn6bc8GHHjlxt3tT7Uztr4I3iUagQjD4wwG7CloiQLEg",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "qlblew38rg8"
+          },
+          {
+            "name": "Music Kit | Damjan Mravunac, The Talos Principle",
+            "market_hash_name": "Music Kit | Damjan Mravunac, The Talos Principle",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqa71d7-ZX1_EzpQB7OzseuqHED7aT2bvY7JPGXCmOVku0u4-c_TiznwRki6mTRzY77di6fPQR0CowwG7A3iRcaNw",
+            "market_price": 4.31,
+            "stat_trak": false,
+            "youtube_id": "hrqugc7R7qs"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Damjan Mravunac, The Talos Principle",
+            "market_hash_name": "StatTrak™ Music Kit | Damjan Mravunac, The Talos Principle",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqa71d7-ZX1_EzpQB7OzseuqHED7aT2bvY7JPGXCmOVku0u4-c_TiznwRki6mTRzY77di6fPQR0CowwG7A3iRcaNw",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "hrqugc7R7qs"
+          },
+          {
+            "name": "Music Kit | Feed Me, High Noon",
+            "market_hash_name": "Music Kit | Feed Me, High Noon",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuM36S4Vtwy9elpAHhQhunysPlriAI7aD5PfBvJKmQWjDIxb8j57drHXmwl04k4mWDm9m3MSXA9LcoLxM",
+            "market_price": 4.3,
+            "stat_trak": false,
+            "youtube_id": "eu_lXQI9X7I"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Feed Me, High Noon",
+            "market_hash_name": "StatTrak™ Music Kit | Feed Me, High Noon",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuM36S4Vtwy9elpAHhQhunysPlriAI7aD5PfBvJKmQWjDIxb8j57drHXmwl04k4mWDm9m3MSXA9LcoLxM",
+            "market_price": 8.56,
+            "stat_trak": true,
+            "youtube_id": "eu_lXQI9X7I"
+          },
+          {
+            "name": "Music Kit | Ki:Theory, MOLOTOV",
+            "market_hash_name": "Music Kit | Ki:Theory, MOLOTOV",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKD7VN65p7LugipEU30x8Hi-ScPv6D7Mfw6c_SVCzLCx-hz6LEwTHmyxUhz4mWBy97_J2XXMFElSD7z3A",
+            "market_price": 2.79,
+            "stat_trak": false,
+            "youtube_id": "PW8PN_7HO5c"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Ki:Theory, MOLOTOV",
+            "market_hash_name": "StatTrak™ Music Kit | Ki:Theory, MOLOTOV",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKD7VN65p7LugipEU30x8Hi-ScPv6D7Mfw6c_SVCzLCx-hz6LEwTHmyxUhz4mWBy97_J2XXMFElSD7z3A",
+            "market_price": 5.06,
+            "stat_trak": true,
+            "youtube_id": "PW8PN_7HO5c"
+          },
+          {
+            "name": "Music Kit | Kelly Bailey, Hazardous Environments",
+            "market_hash_name": "Music Kit | Kelly Bailey, Hazardous Environments",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPn6b6U939Y7470DYEUy_y5C2r3IIvvCsav1pdqjGV2OSk-gntrloGn7mlEsjsDnUytigInKVZhhgVMWDIHfBEw",
+            "market_price": 4.49,
+            "stat_trak": false,
+            "youtube_id": "Wr_1FPMnVSI"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Kelly Bailey, Hazardous Environments",
+            "market_hash_name": "StatTrak™ Music Kit | Kelly Bailey, Hazardous Environments",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPn6b6U939Y7470DYEUy_y5C2r3IIvvCsav1pdqjGV2OSk-gntrloGn7mlEsjsDnUytigInKVZhhgVMWDIHfBEw",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "Wr_1FPMnVSI"
+          },
+          {
+            "name": "Music Kit | Michael Bross, Invasion!",
+            "market_hash_name": "Music Kit | Michael Bross, Invasion!",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHKU7Vdw-IXm5Ur0fk2g0Jfk-yQI7ParafU9IvOSVzORmLwm4rRqTHi1kU1y4T_Qm92qc3zGZlI-SswnxR50Dnw",
+            "market_price": 3.38,
+            "stat_trak": false,
+            "youtube_id": "r2HXdiGXJGI"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Michael Bross, Invasion!",
+            "market_hash_name": "StatTrak™ Music Kit | Michael Bross, Invasion!",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHKU7Vdw-IXm5Ur0fk2g0Jfk-yQI7ParafU9IvOSVzORmLwm4rRqTHi1kU1y4T_Qm92qc3zGZlI-SswnxR50Dnw",
+            "market_price": 6.67,
+            "stat_trak": true,
+            "youtube_id": "r2HXdiGXJGI"
+          },
+          {
+            "name": "Music Kit | Mord Fustang, Diamonds",
+            "market_hash_name": "Music Kit | Mord Fustang, Diamonds",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHSF4VBg55P15F7YEUy_z8_irHdetqqtOfw-JaSQCDbBx74gteQwS3zqlEV-4zncy9qociqfPBhgVMVYMXeUSA",
+            "market_price": 2.77,
+            "stat_trak": false,
+            "youtube_id": "jCoyqQKsbN0"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Mord Fustang, Diamonds",
+            "market_hash_name": "StatTrak™ Music Kit | Mord Fustang, Diamonds",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHSF4VBg55P15F7YEUy_z8_irHdetqqtOfw-JaSQCDbBx74gteQwS3zqlEV-4zncy9qociqfPBhgVMVYMXeUSA",
+            "market_price": 5.4,
+            "stat_trak": true,
+            "youtube_id": "jCoyqQKsbN0"
+          },
+          {
+            "name": "Music Kit | Mateo Messina, For No Mankind",
+            "market_hash_name": "Music Kit | Mateo Messina, For No Mankind",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHqD4Fl48ZTn41fmfk2g0M-0-HUDuPD9bPY_d6jHX2KRlu8ls-U9Fy21l0R24mzWy46oIymWO1A-SswnqhmYKNo",
+            "market_price": 2.48,
+            "stat_trak": false,
+            "youtube_id": "3PnpN4U5CNk"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Mateo Messina, For No Mankind",
+            "market_hash_name": "StatTrak™ Music Kit | Mateo Messina, For No Mankind",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHqD4Fl48ZTn41fmfk2g0M-0-HUDuPD9bPY_d6jHX2KRlu8ls-U9Fy21l0R24mzWy46oIymWO1A-SswnqhmYKNo",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "3PnpN4U5CNk"
+          },
+          {
+            "name": "Music Kit | Matt Lange, IsoRhythm",
+            "market_hash_name": "Music Kit | Matt Lange, IsoRhythm",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHqD8Vp0-oDx1Qm2DxykzcSx-3Bf7auobPw5I6nACzTIlesk6OU_H33rwkVz6mzWm4mhciqJLlh3-4p3w34",
+            "market_price": 2.73,
+            "stat_trak": false,
+            "youtube_id": "_1cmAE7DKE0"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Matt Lange, IsoRhythm",
+            "market_hash_name": "StatTrak™ Music Kit | Matt Lange, IsoRhythm",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHqD8Vp0-oDx1Qm2DxykzcSx-3Bf7auobPw5I6nACzTIlesk6OU_H33rwkVz6mzWm4mhciqJLlh3-4p3w34",
+            "market_price": 6.14,
+            "stat_trak": true,
+            "youtube_id": "_1cmAE7DKE0"
+          },
+          {
+            "name": "Music Kit | Proxy, Battlepack",
+            "market_hash_name": "Music Kit | Proxy, Battlepack",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJWmY_U9KpNa6uwuwGEv0zs_m-3YM7KOqbPY4d6XEDWGWkbkg4eNvGCvrzU0jtT_WmMHpLyx6Oq1mFg",
+            "market_price": 2.25,
+            "stat_trak": false,
+            "youtube_id": "xr9khHEFZ50"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Proxy, Battlepack",
+            "market_hash_name": "StatTrak™ Music Kit | Proxy, Battlepack",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJWmY_U9KpNa6uwuwGEv0zs_m-3YM7KOqbPY4d6XEDWGWkbkg4eNvGCvrzU0jtT_WmMHpLyx6Oq1mFg",
+            "market_price": 4.52,
+            "stat_trak": true,
+            "youtube_id": "xr9khHEFZ50"
+          },
+          {
+            "name": "Music Kit | Skog, II-Headshot",
+            "market_hash_name": "Music Kit | Skog, II-Headshot",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnCY4mklpsnx71u-RRnzzcKw-3pav_D7O_RvcKnECDGRlugl5-JtFnvhxk5ztWjW1J_3JggDF25u",
+            "market_price": 3.23,
+            "stat_trak": false,
+            "youtube_id": "2hHijgDSvwg"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Skog, II-Headshot",
+            "market_hash_name": "StatTrak™ Music Kit | Skog, II-Headshot",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnCY4mklpsnx71u-RRnzzcKw-3pav_D7O_RvcKnECDGRlugl5-JtFnvhxk5ztWjW1J_3JggDF25u",
+            "market_price": 6.07,
+            "stat_trak": true,
+            "youtube_id": "2hHijgDSvwg"
+          },
+          {
+            "name": "Music Kit | Skog, Metal",
+            "market_hash_name": "Music Kit | Skog, Metal",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnCY4mklpcmgsg--QhmlzMGw_3QOvqH7baJrd6WXXzXBkb8ktOM5Fn2xlxtz6mrW1J_3JjSDCT4B",
+            "market_price": 5.24,
+            "stat_trak": false,
+            "youtube_id": "yn-Qf5pVVSI"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Skog, Metal",
+            "market_hash_name": "StatTrak™ Music Kit | Skog, Metal",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnCY4mklpcmgsg--QhmlzMGw_3QOvqH7baJrd6WXXzXBkb8ktOM5Fn2xlxtz6mrW1J_3JjSDCT4B",
+            "market_price": 8.98,
+            "stat_trak": true,
+            "youtube_id": "yn-Qf5pVVSI"
+          },
+          {
+            "name": "Music Kit | Sasha, LNOE",
+            "market_hash_name": "Music Kit | Sasha, LNOE",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnqE7VdKpNa6sljjEB6jn5Pi-XMMt_aoO6BrJqDKDTOWkLcmsrY5GX23wUsj4mnXn8HpLyzD8oHEQA",
+            "market_price": 2.64,
+            "stat_trak": false,
+            "youtube_id": "ASOn3XIgZLE"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Sasha, LNOE",
+            "market_hash_name": "StatTrak™ Music Kit | Sasha, LNOE",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnqE7VdKpNa6sljjEB6jn5Pi-XMMt_aoO6BrJqDKDTOWkLcmsrY5GX23wUsj4mnXn8HpLyzD8oHEQA",
+            "market_price": 5.81,
+            "stat_trak": true,
+            "youtube_id": "ASOn3XIgZLE"
+          },
+          {
+            "name": "Music Kit | Austin Wintory, The Devil Went Clubbing in Georgia",
+            "market_hash_name": "Music Kit | Austin Wintory, The Devil Went Clubbing in Georgia",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj35VTqVBP4io_frnIV7Kb5OaU-JqfHDzXFle0u4LY8Gy_kkRgisGzcm4v4J3vDOAQmDMdyRvlK7EcmeCU3yw",
+            "market_price": 2.07,
+            "stat_trak": false,
+            "youtube_id": "BHYmeJJeIhM"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Austin Wintory, The Devil Went Clubbing in Georgia",
+            "market_hash_name": "StatTrak™ Music Kit | Austin Wintory, The Devil Went Clubbing in Georgia",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj35VTqVBP4io_frnIV7Kb5OaU-JqfHDzXFle0u4LY8Gy_kkRgisGzcm4v4J3vDOAQmDMdyRvlK7EcmeCU3yw",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "BHYmeJJeIhM"
+          },
+          {
+            "name": "Music Kit | Amon Tobin, All for Dust",
+            "market_hash_name": "Music Kit | Amon Tobin, All for Dust",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNHaY60J69o761Qm2D0_ymMLmpSACt_P_OfVrI6jHWTLHl-x05uAxSSyxxk5x5zzXmYn4cCmJLlh3qmNAx_w",
+            "market_price": 4.08,
+            "stat_trak": false,
+            "youtube_id": "BbQjH8Kt_V8"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Amon Tobin, All for Dust",
+            "market_hash_name": "StatTrak™ Music Kit | Amon Tobin, All for Dust",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNHaY60J69o761Qm2D0_ymMLmpSACt_P_OfVrI6jHWTLHl-x05uAxSSyxxk5x5zzXmYn4cCmJLlh3qmNAx_w",
+            "market_price": 7.22,
+            "stat_trak": true,
+            "youtube_id": "BbQjH8Kt_V8"
+          },
+          {
+            "name": "Music Kit | Midnight Riders, All I Want for Christmas",
+            "market_hash_name": "Music Kit | Midnight Riders, All I Want for Christmas",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHKT619y_JPm413iUw7Ozseur3Ba66v6avw9IaDGVmaUku104bI-HC-wk00h5WSAzNahcn-ebwEmD4wwG7Dv5VTfwA",
+            "market_price": 2.07,
+            "stat_trak": false,
+            "youtube_id": "EOtnKF8lxFM"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Midnight Riders, All I Want for Christmas",
+            "market_hash_name": "StatTrak™ Music Kit | Midnight Riders, All I Want for Christmas",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHKT619y_JPm413iUw7Ozseur3Ba66v6avw9IaDGVmaUku104bI-HC-wk00h5WSAzNahcn-ebwEmD4wwG7Dv5VTfwA",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "EOtnKF8lxFM"
+          },
+          {
+            "name": "Music Kit | ALRT, DOPAMINE HIT",
+            "market_hash_name": "Music Kit | ALRT, DOPAMINE HIT",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/alrt_01.91d38c0559f12cd45b2cf206989cc758c75655e7.png",
+            "market_price": 6.64,
+            "stat_trak": false,
+            "youtube_id": "3gUmJe7C49s"
+          },
+          {
+            "name": "StatTrak™ Music Kit | ALRT, DOPAMINE HIT",
+            "market_hash_name": "StatTrak™ Music Kit | ALRT, DOPAMINE HIT",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/alrt_01.91d38c0559f12cd45b2cf206989cc758c75655e7.png",
+            "market_price": 10.94,
+            "stat_trak": true,
+            "youtube_id": "3gUmJe7C49s"
+          },
+          {
+            "name": "Music Kit | Altare, Change My Mind",
+            "market_hash_name": "Music Kit | Altare, Change My Mind",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/altare_01.c06c0fde1220ed0f8d4f626149d3a881f0ffa300.png",
+            "market_price": 5.42,
+            "stat_trak": false,
+            "youtube_id": "rsahmfIoFYg"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Altare, Change My Mind",
+            "market_hash_name": "StatTrak™ Music Kit | Altare, Change My Mind",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/altare_01.c06c0fde1220ed0f8d4f626149d3a881f0ffa300.png",
+            "market_price": 9.02,
+            "stat_trak": true,
+            "youtube_id": "rsahmfIoFYg"
+          },
+          {
+            "name": "Music Kit | borne, Give It To Me",
+            "market_hash_name": "Music Kit | borne, Give It To Me",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/borne_01.ccdce1df1d5da7a392aa2df2390899d27844cb0a.png",
+            "market_price": 5.59,
+            "stat_trak": false,
+            "youtube_id": "HurJaQhHQ44"
+          },
+          {
+            "name": "StatTrak™ Music Kit | borne, Give It To Me",
+            "market_hash_name": "StatTrak™ Music Kit | borne, Give It To Me",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/borne_01.ccdce1df1d5da7a392aa2df2390899d27844cb0a.png",
+            "market_price": 8.07,
+            "stat_trak": true,
+            "youtube_id": "HurJaQhHQ44"
+          },
+          {
+            "name": "Music Kit | Pirapus, EVERYNITE",
+            "market_hash_name": "Music Kit | Pirapus, EVERYNITE",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/pirapus_01.7d45f00bdce59027d7bab82106fdd8f3a9fbb111.png",
+            "market_price": 5.2,
+            "stat_trak": false,
+            "youtube_id": "mPeXxKhIcH4"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Pirapus, EVERYNITE",
+            "market_hash_name": "StatTrak™ Music Kit | Pirapus, EVERYNITE",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/pirapus_01.7d45f00bdce59027d7bab82106fdd8f3a9fbb111.png",
+            "market_price": 9.03,
+            "stat_trak": true,
+            "youtube_id": "mPeXxKhIcH4"
+          },
+          {
+            "name": "Music Kit | Repiet & Julia Kleijn, On And On",
+            "market_hash_name": "Music Kit | Repiet & Julia Kleijn, On And On",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/repiet_01.b0c8c7a7953db2d692b1132b49c5d6129498cac9.png",
+            "market_price": 5.83,
+            "stat_trak": false,
+            "youtube_id": "ZNIdzoJDolw"
+          },
+          {
+            "name": "StatTrak™ Music Kit | Repiet & Julia Kleijn, On And On",
+            "market_hash_name": "StatTrak™ Music Kit | Repiet & Julia Kleijn, On And On",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/repiet_01.b0c8c7a7953db2d692b1132b49c5d6129498cac9.png",
+            "market_price": 2.08,
+            "stat_trak": true,
+            "youtube_id": "ZNIdzoJDolw"
+          },
+          {
+            "name": "Music Kit | ShockOne, Voices",
+            "market_hash_name": "Music Kit | ShockOne, Voices",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/shockone_01.13bf87dcd7908378786692039ca3dd959d1b20b4.png",
+            "market_price": 5.25,
+            "stat_trak": false,
+            "youtube_id": "g8OuGcUnJFc"
+          },
+          {
+            "name": "StatTrak™ Music Kit | ShockOne, Voices",
+            "market_hash_name": "StatTrak™ Music Kit | ShockOne, Voices",
+            "image_url": "https://cdn.steamstatic.com/apps/730/icons/econ/music_kits/shockone_01.13bf87dcd7908378786692039ca3dd959d1b20b4.png",
+            "market_price": 8.07,
+            "stat_trak": true,
+            "youtube_id": "g8OuGcUnJFc"
+          }
+        ]
+      }
     }
   ]
 }

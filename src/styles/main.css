@@ -798,13 +798,6 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-weight: 700;
 }
 
-.stat-trak-kills {
-  color: #CF6A32;
-  font-family: monospace;
-  font-size: 0.7rem;
-  text-align: center;
-}
-
 .market-row--st {
   border-left: 3px solid rgba(207, 106, 50, 0.55);
 }
@@ -1483,6 +1476,7 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   border-left: 3px solid var(--rarity-color, #555);
   transition: background 0.1s;
 }
+.market-row--has-play { grid-template-columns: 56px 1fr 210px 88px 76px 44px; }
 .market-row:hover { background: #212121; }
 
 .market-row--no-funds {
@@ -1585,6 +1579,19 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   background: #2e7d32 !important;
   color: #fff !important;
 }
+
+.btn-market-play {
+  background: #1a3a5c;
+  border: 1px solid #2d6a9f;
+  color: #7ec8e3;
+  font-size: 1rem;
+  padding: 7px 0;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-market-play:hover { background: #1e4f7a; color: #fff; }
 
 .market-empty {
   color: #444;

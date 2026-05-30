@@ -3,6 +3,7 @@ import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
 import { FloatService }     from '../foundation/float-service.js';
 import { SkinImageLoader }  from '../feature/skin-image-loader.js';
 import { PriceAPILayer }    from '../feature/price-api-layer.js';
+import { MusicKitPlayer }   from '../feature/music-kit-player.js';
 import { i18n }             from '../foundation/i18n.js';
 import { VirtualEconomy }   from '../core/virtual-economy.js';
 import { SkinInventory }    from '../core/skin-inventory.js';
@@ -291,8 +292,16 @@ export const MarketUI = {
     info.className = 'market-row-info';
 
     const nameEl = document.createElement('div');
-    nameEl.className   = 'market-row-name';
-    nameEl.textContent = displayName;
+    nameEl.className = 'market-row-name';
+    if (statTrak) {
+      const stSpan = document.createElement('span');
+      stSpan.className   = 'stat-trak-prefix';
+      stSpan.textContent = 'StatTrak™ ';
+      nameEl.appendChild(stSpan);
+      nameEl.appendChild(document.createTextNode(displayName.replace(/^StatTrak™ /, '')));
+    } else {
+      nameEl.textContent = displayName;
+    }
 
     const metaEl = document.createElement('div');
     metaEl.className = 'market-row-meta';
@@ -358,6 +367,20 @@ export const MarketUI = {
     row.appendChild(floatBlock);
     row.appendChild(priceEl);
     row.appendChild(buyBtn);
+
+    // Play button for music kits
+    const isMusicKit = isCap && typeof item.name === 'string' && item.name.includes('Music Kit |');
+    if (isMusicKit) {
+      row.classList.add('market-row--has-play');
+      const playBtn = document.createElement('button');
+      playBtn.className   = 'btn-market-play';
+      playBtn.textContent = '♪';
+      playBtn.title       = 'Preview';
+      playBtn.dataset.kitName = item.name;
+      playBtn.addEventListener('click', () => MusicKitPlayer.toggle(item.name, item.youtube_id ?? ''));
+      row.appendChild(playBtn);
+    }
+
     return row;
   },
 
@@ -376,7 +399,7 @@ export const MarketUI = {
     VirtualEconomy.spend(buyPrice);
 
     if (item.isCapsuleItem) {
-      SkinInventory.addItem({ ...item, market_price: buyPrice, stat_trak: false });
+      SkinInventory.addItem({ ...item, market_price: buyPrice });
     } else {
       const receivedFloat = wearTier ? FloatService.generateFloatForTier(wearTier) : null;
       const receivedTier  = receivedFloat !== null ? FloatService.getWearTier(receivedFloat) : null;
@@ -483,15 +506,17 @@ function _formatRarity(rarity) {
 function _makeCapsuleListing(item) {
   const hashName   = item.market_hash_name ?? item.name;
   const localPrice = item.market_price ?? null;
-  return { item, floatVal: null, wearTier: null, statTrak: false, hashName, localPrice };
+  const statTrak   = !!(item.stat_trak);
+  return { item, floatVal: null, wearTier: null, statTrak, hashName, localPrice };
 }
 
 const CAPSULE_TYPE_LABELS = {
-  sticker_capsule: 'Sticker',
-  charm_capsule:   'Charm',
-  patch_pack:      'Patch',
-  pin_capsule:     'Collectible Pin',
-  music_kit_box:   'Music Kit',
+  sticker_capsule:      'Sticker',
+  charm_capsule:        'Charm',
+  patch_pack:           'Patch',
+  pin_capsule:          'Collectible Pin',
+  music_kit_box:        'Music Kit',
+  standalone_music_kit: 'Music Kit',
 };
 
 function _capsuleTypeLabel(capsuleType) {

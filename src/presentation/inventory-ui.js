@@ -3,11 +3,11 @@ import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { FloatService }    from '../foundation/float-service.js';
 import { Events }          from '../foundation/events.js';
 import { i18n }            from '../foundation/i18n.js';
+import { MusicKitPlayer }  from '../feature/music-kit-player.js';
 
-let _container          = null;
-let _visible            = false;
-let _dirty              = false; // re-render pending while view is hidden
-let _activeMusicKitName = null;  // kit name currently playing in the YouTube player
+let _container = null;
+let _visible   = false;
+let _dirty     = false; // re-render pending while view is hidden
 
 /**
  * Grid view of the player's skin inventory with inline sell confirmation.
@@ -122,11 +122,11 @@ export const InventoryUI = {
 
       card.addEventListener('click', (e) => {
         if (e.target.closest('.btn-sell, .sell-confirm')) return;
-        _toggleMusicKit(item.name, item.youtube_id ?? '');
+        MusicKitPlayer.toggle(item.name, item.youtube_id ?? '');
       });
 
       // Reflect active state if already playing
-      card.classList.toggle('is-playing', _activeMusicKitName === item.name);
+      card.classList.toggle('is-playing', MusicKitPlayer.activeName === item.name);
     }
 
     const name = document.createElement('div');
@@ -200,12 +200,6 @@ export const InventoryUI = {
     card.appendChild(img);
     card.appendChild(name);
     card.appendChild(floatRow);
-    if (isStatTrak) {
-      const killsEl = document.createElement('div');
-      killsEl.className   = 'stat-trak-kills';
-      killsEl.textContent = i18n.t('kills');
-      card.appendChild(killsEl);
-    }
     card.appendChild(price);
     card.appendChild(sellBtn);
     card.appendChild(confirm);
@@ -213,66 +207,6 @@ export const InventoryUI = {
   },
 };
 
-function _closeMusicPlayer() {
-  document.querySelector('.music-kit-modal')?.remove();
-  _activeMusicKitName = null;
-  document.querySelectorAll('.music-kit-card').forEach(c => c.classList.remove('is-playing'));
-}
-
-function _toggleMusicKit(kitName, youtubeId) {
-  if (_activeMusicKitName === kitName) {
-    _closeMusicPlayer();
-    return;
-  }
-
-  // Remove any existing modal first
-  document.querySelector('.music-kit-modal')?.remove();
-  _activeMusicKitName = kitName;
-
-  const displayName = kitName.replace(/^(StatTrak™ )?Music Kit \| /, '');
-
-  // Backdrop
-  const modal = document.createElement('div');
-  modal.className = 'music-kit-modal';
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) _closeMusicPlayer();
-  });
-
-  // Dialog box
-  const dialog = document.createElement('div');
-  dialog.className = 'music-kit-dialog';
-
-  const header = document.createElement('div');
-  header.className = 'music-kit-dialog-header';
-
-  const title = document.createElement('span');
-  title.className   = 'music-kit-dialog-title';
-  title.textContent = displayName;
-
-  const closeBtn = document.createElement('button');
-  closeBtn.className   = 'music-kit-dialog-close';
-  closeBtn.textContent = '✕';
-  closeBtn.addEventListener('click', _closeMusicPlayer);
-
-  header.appendChild(title);
-  header.appendChild(closeBtn);
-
-  const iframe = document.createElement('iframe');
-  iframe.className = 'music-kit-dialog-iframe';
-  iframe.setAttribute('allow', 'autoplay; encrypted-media');
-  iframe.setAttribute('allowfullscreen', '');
-  iframe.src = `https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0`;
-
-  dialog.appendChild(header);
-  dialog.appendChild(iframe);
-  modal.appendChild(dialog);
-  document.body.appendChild(modal);
-
-  // Update card play states
-  document.querySelectorAll('.music-kit-card').forEach(c => {
-    c.classList.toggle('is-playing', c.dataset.kitName === kitName);
-  });
-}
 
 /**
  * Formats a skin name in standard CS2 display format.
