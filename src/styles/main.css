@@ -948,10 +948,12 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-size: 0.8rem;
   color: #81c784;
   font-weight: 600;
+  margin-top: auto;
 }
 
 .inventory-card .btn-sell {
   width: 100%;
+  flex: none;
   font-size: 0.8rem;
   padding: 5px 10px;
   background: #2a5a3a;
