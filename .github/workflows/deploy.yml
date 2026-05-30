@@ -31,8 +31,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
       - name: Build
+        env:
+          VITE_PRICE_API_BASE: https://cs2-price-proxy.superhans0617.workers.dev
         run: npm run build
 
       - name: Setup Pages
