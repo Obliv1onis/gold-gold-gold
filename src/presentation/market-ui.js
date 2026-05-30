@@ -3,6 +3,7 @@ import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
 import { FloatService }     from '../foundation/float-service.js';
 import { SkinImageLoader }  from '../feature/skin-image-loader.js';
 import { PriceAPILayer }    from '../feature/price-api-layer.js';
+import { i18n }             from '../foundation/i18n.js';
 import { VirtualEconomy }   from '../core/virtual-economy.js';
 import { SkinInventory }    from '../core/skin-inventory.js';
 import { Events }           from '../foundation/events.js';
@@ -16,8 +17,7 @@ const LISTING_VARIANTS  = [
   ...WEAR_TIERS.map(tier => ({ tier, statTrak: true  })),
 ];
 const RECOMMEND_SKINS   = 2;   // × 10 variants = 20 rows
-const SEARCH_SKINS      = 6;   // × 10 variants = 60 rows
-const SEARCH_CAP_ITEMS  = 30;  // capsule items have 1 variant each
+const ITEMS_PER_PAGE    = 8;   // unique skins/capsules per search-result page
 
 // Contraband items exist only in the market — not in any case, not in trade-ups.
 const CONTRABAND_ITEMS = [
@@ -34,14 +34,18 @@ const CONTRABAND_ITEMS = [
   },
 ];
 
-let _container    = null;
-let _allItems     = null;   // weapon/souvenir skins — built lazily on first show()
-let _capsuleItems = null;   // stickers, charms, patches, pins, music kits
-let _recommended = [];     // listings shown when search is empty
-let _searchEl    = null;
-let _listEl      = null;
-let _labelEl     = null;
-let _searchTimer = null;
+let _container      = null;
+let _allItems       = null;   // weapon/souvenir skins — built lazily on first show()
+let _capsuleItems   = null;   // stickers, charms, patches, pins, music kits
+let _recommended    = [];     // listings shown when search is empty
+let _searchEl       = null;
+let _listEl         = null;
+let _labelEl        = null;
+let _pagerEl        = null;
+let _searchTimer    = null;
+let _searchQuery    = '';
+let _matchedItems   = [];     // all matched source items for current query
+let _currentPage    = 1;
 
 /**
  * Market browse view.
@@ -63,16 +67,18 @@ export const MarketUI = {
       <div class="market-view">
         <div class="market-search-wrap">
           <input class="market-search" type="text"
-            placeholder="Search weapons, skins, cases…"
+            placeholder="Search weapons, skins, cases…" data-i18n-ph="market_ph"
             autocomplete="off" spellcheck="false" />
         </div>
-        <div class="market-section-label">Recommended</div>
+        <div class="market-section-label" data-i18n="recommended">Recommended</div>
         <div class="market-list"></div>
+        <div class="market-pager" hidden></div>
       </div>
     `;
     _searchEl = container.querySelector('.market-search');
     _listEl   = container.querySelector('.market-list');
     _labelEl  = container.querySelector('.market-section-label');
+    _pagerEl  = container.querySelector('.market-pager');
 
     _searchEl.addEventListener('input', () => {
       clearTimeout(_searchTimer);
@@ -101,7 +107,7 @@ export const MarketUI = {
     if (_recommended.length === 0) {
       _recommended = this._pickBalanced();
       this._render(_recommended);
-      _labelEl.textContent = 'Recommended';
+      _labelEl.textContent = i18n.t('recommended');
     }
     // Kick off price fetches for everything currently visible
     _recommended.forEach(l => PriceAPILayer.prefetch(l.hashName));
@@ -158,40 +164,97 @@ export const MarketUI = {
 
   _onSearch(query) {
     if (!query) {
-      _labelEl.textContent = 'Recommended';
+      _searchQuery  = '';
+      _matchedItems = [];
+      _currentPage  = 1;
+      _labelEl.textContent = i18n.t('recommended');
       this._render(_recommended);
+      _pagerEl.setAttribute('hidden', '');
       return;
     }
+
     const q = query.toLowerCase();
 
-    const matchedSkins = (_allItems ?? [])
-      .filter(it => {
-        const name     = `${it.weapon} ${it.skin}`.toLowerCase();
-        const caseName = (it.case_name ?? '').toLowerCase();
-        return name.includes(q) || caseName.includes(q);
-      })
-      .slice(0, SEARCH_SKINS);
+    const matchedSkins = (_allItems ?? []).filter(it => {
+      const name     = `${it.weapon} ${it.skin}`.toLowerCase();
+      const nameZh   = i18n.skinName(it.weapon, it.skin).toLowerCase();
+      const caseName = (it.case_name ?? '').toLowerCase();
+      const caseZh   = i18n.caseName(it.case_name ?? '').toLowerCase();
+      return name.includes(q) || nameZh.includes(q) || caseName.includes(q) || caseZh.includes(q);
+    });
 
-    const matchedCaps = (_capsuleItems ?? [])
-      .filter(it => {
-        const name = (it.name ?? '').toLowerCase();
-        const src  = (it.capsuleName ?? '').toLowerCase();
-        return name.includes(q) || src.includes(q);
-      })
-      .slice(0, SEARCH_CAP_ITEMS);
+    const matchedCaps = (_capsuleItems ?? []).filter(it => {
+      const name   = (it.name ?? '').toLowerCase();
+      const nameZh = i18n.caseName(it.name ?? '').toLowerCase();
+      const src    = (it.capsuleName ?? '').toLowerCase();
+      const srcZh  = i18n.caseName(it.capsuleName ?? '').toLowerCase();
+      return name.includes(q) || nameZh.includes(q) || src.includes(q) || srcZh.includes(q);
+    });
 
-    const skinListings = matchedSkins.flatMap(it =>
-      _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak))
+    _searchQuery  = query;
+    _matchedItems = [...matchedSkins, ...matchedCaps];
+    _currentPage  = 1;
+    this._showPage();
+  },
+
+  _showPage() {
+    const total      = _matchedItems.length;
+    const totalPages = Math.max(1, Math.ceil(total / ITEMS_PER_PAGE));
+    _currentPage     = Math.min(Math.max(1, _currentPage), totalPages);
+
+    const start    = (_currentPage - 1) * ITEMS_PER_PAGE;
+    const pageItems = _matchedItems.slice(start, start + ITEMS_PER_PAGE);
+
+    const listings = pageItems.flatMap(it =>
+      it.isCapsuleItem
+        ? [_makeCapsuleListing(it)]
+        : _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak))
     );
-    const capListings = matchedCaps.map(it => _makeCapsuleListing(it));
 
-    const results   = [...skinListings, ...capListings];
-    const totalHits = matchedSkins.length + matchedCaps.length;
-    _labelEl.textContent = totalHits
-      ? `Results for "${query}" (${totalHits} item${totalHits !== 1 ? 's' : ''})`
-      : `No results for "${query}"`;
-    this._render(results);
-    results.forEach(l => PriceAPILayer.prefetch(l.hashName));
+    _labelEl.textContent = total
+      ? `Results for "${_searchQuery}" (${total} item${total !== 1 ? 's' : ''})`
+      : `No results for "${_searchQuery}"`;
+
+    this._render(listings);
+    listings.forEach(l => l.hashName && PriceAPILayer.prefetch(l.hashName));
+    this._renderPager(totalPages);
+  },
+
+  _renderPager(totalPages) {
+    if (totalPages <= 1) {
+      _pagerEl.setAttribute('hidden', '');
+      return;
+    }
+    _pagerEl.removeAttribute('hidden');
+    _pagerEl.innerHTML = '';
+
+    const prevBtn = document.createElement('button');
+    prevBtn.className   = 'market-pager-btn';
+    prevBtn.textContent = '←';
+    prevBtn.disabled    = _currentPage === 1;
+    prevBtn.addEventListener('click', () => {
+      _currentPage--;
+      this._showPage();
+      _listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    const label = document.createElement('span');
+    label.className   = 'market-pager-label';
+    label.textContent = `${_currentPage} / ${totalPages}`;
+
+    const nextBtn = document.createElement('button');
+    nextBtn.className   = 'market-pager-btn';
+    nextBtn.textContent = '→';
+    nextBtn.disabled    = _currentPage === totalPages;
+    nextBtn.addEventListener('click', () => {
+      _currentPage++;
+      this._showPage();
+      _listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    _pagerEl.appendChild(prevBtn);
+    _pagerEl.appendChild(label);
+    _pagerEl.appendChild(nextBtn);
   },
 
   _render(listings) {
@@ -200,7 +263,7 @@ export const MarketUI = {
     if (!listings.length) {
       const empty = document.createElement('div');
       empty.className   = 'market-empty';
-      empty.textContent = 'No skins found.';
+      empty.textContent = i18n.t('no_skins');
       _listEl.appendChild(empty);
       return;
     }
@@ -256,7 +319,7 @@ export const MarketUI = {
 
       const badge = document.createElement('span');
       badge.className   = `wear-badge wear-${wearTier}`;
-      badge.textContent = FloatService.getWearLabel(wearTier);
+      badge.textContent = i18n.wearLabel(wearTier);
 
       const floatNum = document.createElement('span');
       floatNum.className   = 'market-float-num';
@@ -285,7 +348,7 @@ export const MarketUI = {
     // ── Buy button — enabled when any price is available ─────────────────
     const buyBtn = document.createElement('button');
     buyBtn.className   = 'btn-market-buy';
-    buyBtn.textContent = 'Buy';
+    buyBtn.textContent = i18n.t('buy_btn');
     buyBtn.disabled    = displayPrice === null;
     buyBtn.dataset.hashName = hashName;
     buyBtn.addEventListener('click', () => this._handleBuy(listing, buyBtn, row));
@@ -320,7 +383,7 @@ export const MarketUI = {
       SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: buyPrice, stat_trak: statTrak });
     }
 
-    buyBtn.textContent = 'Bought!';
+    buyBtn.textContent = i18n.t('bought');
     buyBtn.classList.add('btn-market-buy--done');
 
     setTimeout(() => {
@@ -387,12 +450,7 @@ function _makeFloatScale(floatVal) {
 }
 
 function _formatItemName(weapon, skin) {
-  if (skin && skin.startsWith('★')) {
-    const bare = skin.slice(1).trim();
-    if (bare.toLowerCase() === 'vanilla') return `★ ${weapon}`;
-    return `★ ${weapon} | ${bare}`;
-  }
-  return `${weapon} | ${skin}`;
+  return i18n.skinName(weapon, skin);
 }
 
 function _isGlove(weapon) {

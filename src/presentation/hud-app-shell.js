@@ -2,6 +2,7 @@ import { VirtualEconomy, KEY_COST_USD } from '../core/virtual-economy.js';
 import { CaseInventory }               from '../core/case-inventory.js';
 import { SkinInventory }               from '../core/skin-inventory.js';
 import { Events }                      from '../foundation/events.js';
+import { i18n }                        from '../foundation/i18n.js';
 
 // ─── Module-level state ───────────────────────────────────────────────────────
 
@@ -75,13 +76,13 @@ export const HudAppShell = {
 
     rootEl.innerHTML = `
       <header class="hud-bar">
-        <button class="btn-back" hidden>← Home</button>
+        <button class="btn-back" hidden data-i18n="back_home">← Home</button>
         <div class="hud-balance">
-          <span class="balance-label">Balance</span>
+          <span class="balance-label" data-i18n="balance">Balance</span>
           <span class="balance-value">$0.00</span>
         </div>
         <div class="hud-inv-value">
-          <span class="inv-value-label">Inventory Value</span>
+          <span class="inv-value-label" data-i18n="inv_value">Inventory Value</span>
           <span class="inv-value-amount">$0.00</span>
         </div>
         <div class="hud-open-section" hidden>
@@ -90,27 +91,34 @@ export const HudAppShell = {
           <span class="hud-error-msg" hidden></span>
         </div>
         <div class="hud-actions">
-          <button class="btn-reset">Reset</button>
+          <div class="lang-wrap">
+            <button class="btn-language" data-i18n="language">Language</button>
+            <div class="lang-dropdown" hidden>
+              <button class="lang-option ${i18n.getLocale() === 'en-US' ? 'active' : ''}" data-locale="en-US">🇺🇸 English (US)</button>
+              <button class="lang-option ${i18n.getLocale() === 'zh-CN' ? 'active' : ''}" data-locale="zh-CN">🇨🇳 中文（简体）</button>
+            </div>
+          </div>
+          <button class="btn-reset" data-i18n="reset">Reset</button>
         </div>
       </header>
 
       <div class="reset-modal-overlay" hidden>
         <div class="reset-modal">
-          <div class="reset-modal-title">Reset Account?</div>
-          <div class="reset-modal-body">This will clear your entire inventory and set your balance back to $2,000.00. This cannot be undone.</div>
+          <div class="reset-modal-title" data-i18n="reset_title">Reset Account?</div>
+          <div class="reset-modal-body" data-i18n="reset_body">This will clear your entire inventory and set your balance back to $2,000.00. This cannot be undone.</div>
           <div class="reset-modal-buttons">
-            <button class="btn-reset-cancel">Cancel</button>
-            <button class="btn-reset-confirm">Reset</button>
+            <button class="btn-reset-cancel" data-i18n="cancel">Cancel</button>
+            <button class="btn-reset-confirm" data-i18n="reset">Reset</button>
           </div>
         </div>
       </div>
 
       <nav class="nav-tabs">
-        <span class="nav-tab active" data-view="home">Home</span>
-        <span class="nav-tab"       data-view="market">Market</span>
-        <span class="nav-tab"       data-view="tradeup">Trade Up</span>
-        <span class="nav-tab"       data-view="inventory">Inventory</span>
-        <span class="nav-tab"       data-view="credits">Credits</span>
+        <span class="nav-tab active" data-view="home"      data-i18n="nav_home">Home</span>
+        <span class="nav-tab"        data-view="market"    data-i18n="nav_market">Market</span>
+        <span class="nav-tab"        data-view="tradeup"   data-i18n="nav_tradeup">Trade Up</span>
+        <span class="nav-tab"        data-view="inventory" data-i18n="nav_inventory">Inventory</span>
+        <span class="nav-tab"        data-view="credits"   data-i18n="nav_credits">Credits</span>
       </nav>
 
       <main class="content-region">
@@ -205,6 +213,37 @@ export const HudAppShell = {
     _errorEl      = rootEl.querySelector('.hud-error-msg');
     _openSection  = rootEl.querySelector('.hud-open-section');
     _backBtn      = rootEl.querySelector('.btn-back');
+
+    // Language button + dropdown
+    const langBtn      = rootEl.querySelector('.btn-language');
+    const langDropdown = rootEl.querySelector('.lang-dropdown');
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const hidden = langDropdown.hasAttribute('hidden');
+      if (hidden) langDropdown.removeAttribute('hidden');
+      else langDropdown.setAttribute('hidden', '');
+    });
+    langDropdown.querySelectorAll('.lang-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        i18n.setLocale(btn.dataset.locale);
+        langDropdown.querySelectorAll('.lang-option').forEach(b =>
+          b.classList.toggle('active', b.dataset.locale === btn.dataset.locale));
+        langDropdown.setAttribute('hidden', '');
+      });
+    });
+    // Close dropdown when clicking outside
+    document.addEventListener('click', () => langDropdown.setAttribute('hidden', ''));
+    langDropdown.addEventListener('click', e => e.stopPropagation());
+
+    // Re-apply dynamic strings on locale change
+    document.addEventListener('locale-changed', () => {
+      this._refreshCaseCount();
+      if (_currentView === 'reel' && _selectedCaseId) {
+        _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
+      }
+      if (_currentView === 'browser') _backBtn.textContent = i18n.t('back_home');
+      else if (_currentView === 'reel') _backBtn.textContent = i18n.t('back');
+    });
 
     // Back button — browser → home, reel → browser
     _backBtn.addEventListener('click', () => {
@@ -307,7 +346,7 @@ export const HudAppShell = {
     _currentView     = 'reel';
     this._applyView();
 
-    _openBtn.textContent = `Open ($${_openCost.toFixed(2)})`;
+    _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
     this._refreshCaseCount();
     this._evaluateOpenButton();
   },
@@ -398,11 +437,11 @@ export const HudAppShell = {
 
     // Back button: visible in browser (→ Home) and reel (→ browser)
     if (v === 'browser') {
-      _backBtn.textContent = '← Home';
+      _backBtn.textContent = i18n.t('back_home');
       _backBtn.removeAttribute('hidden');
       _openSection.setAttribute('hidden', '');
     } else if (v === 'reel' && _selectedCaseId) {
-      _backBtn.textContent = '← Back';
+      _backBtn.textContent = i18n.t('back');
       _backBtn.removeAttribute('hidden');
       _openSection.removeAttribute('hidden');
     } else {
@@ -428,7 +467,7 @@ export const HudAppShell = {
   _refreshCaseCount() {
     if (!_selectedCaseId || !_caseCountEl) return;
     const count = CaseInventory.getCaseCount(_selectedCaseId);
-    _caseCountEl.textContent = `${count} owned`;
+    _caseCountEl.textContent = i18n.t('n_owned', { n: count });
     this._evaluateOpenButton();
   },
 
@@ -472,7 +511,8 @@ function _makeTile(cat, onClick) {
   if (cat.comingSoon) {
     const badge = document.createElement('div');
     badge.className   = 'home-tile__badge';
-    badge.textContent = 'Coming Soon';
+    badge.dataset.i18n = 'coming_soon';
+    badge.textContent = i18n.t('coming_soon');
     tile.appendChild(badge);
   }
 
@@ -482,7 +522,7 @@ function _makeTile(cat, onClick) {
     const img = document.createElement('img');
     img.className = 'home-tile__img';
     img.src = cat.image;
-    img.alt = cat.title;
+    img.alt = cat.titleKey ? i18n.t(cat.titleKey) : (cat.title ?? '');
     imgWrap.appendChild(img);
   }
   tile.appendChild(imgWrap);
@@ -496,7 +536,12 @@ function _makeTile(cat, onClick) {
 
   const title = document.createElement('div');
   title.className   = 'home-tile__title';
-  title.textContent = cat.title;
+  if (cat.titleKey) {
+    title.dataset.i18n = cat.titleKey;
+    title.textContent  = i18n.t(cat.titleKey);
+  } else {
+    title.textContent = cat.title ?? '';
+  }
   content.appendChild(title);
 
   if (cat.subtitle) {
@@ -517,9 +562,9 @@ function _formatBalance(balance) {
 
 function _blockedMessage(reason) {
   switch (reason) {
-    case 'no_case':            return 'No cases owned.';
-    case 'insufficient_funds': return 'Insufficient balance.';
-    case 'roll_error':         return 'Case data error — cannot open.';
-    default:                   return 'Could not open case.';
+    case 'no_case':            return i18n.t('err_no_case');
+    case 'insufficient_funds': return i18n.t('err_no_funds');
+    case 'roll_error':         return i18n.t('err_roll');
+    default:                   return i18n.t('err_open');
   }
 }

@@ -3,6 +3,7 @@ import { TradeUpEngine, CONTRACT_SIZE, CONTRACT_SIZE_COVERT } from '../core/trad
 import { SkinImageLoader }from '../feature/skin-image-loader.js';
 import { FloatService }   from '../foundation/float-service.js';
 import { CaseDataStore }  from '../foundation/case-data-store.js';
+import { i18n }           from '../foundation/i18n.js';
 import { Events }         from '../foundation/events.js';
 
 const ELIGIBLE_RARITIES = new Set(['mil_spec', 'restricted', 'classified', 'covert']);
@@ -49,17 +50,17 @@ export const TradeUpUI = {
               <span class="tradeup-count">0 / ${CONTRACT_SIZE}</span>
               <span class="tradeup-avg-float"></span>
             </div>
-            <button class="btn-tradeup" disabled>Trade Up →</button>
+            <button class="btn-tradeup" disabled data-i18n="tradeup_btn">Trade Up →</button>
           </div>
           <div class="tradeup-error" hidden></div>
           <div class="tradeup-slots-grid"></div>
-          <div class="tradeup-hint">Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item</div>
+          <div class="tradeup-hint" data-i18n="tradeup_hint">Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item</div>
         </div>
 
         <div class="tradeup-inventory" id="tradeup-inventory">
-          <div class="tradeup-inv-label">Your Skins</div>
+          <div class="tradeup-inv-label" data-i18n="your_skins">Your Skins</div>
           <div class="tradeup-inv-grid"></div>
-          <div class="tradeup-inv-empty">No eligible skins in inventory.</div>
+          <div class="tradeup-inv-empty" data-i18n="no_eligible">No eligible skins in inventory.</div>
         </div>
 
         <div class="tradeup-result" hidden></div>
@@ -163,7 +164,7 @@ export const TradeUpUI = {
       if (slot) {
         const item      = slot.item;
         const wearTier  = item.wear_tier ?? FloatService.getWearTier(item.float ?? 0);
-        const wearLabel = FloatService.getWearLabel(wearTier);
+        const wearLabel = i18n.wearLabel(wearTier);
         const name      = _formatName(item.weapon, item.skin);
 
         el.className = 'tradeup-slot tradeup-slot--filled';
@@ -222,7 +223,7 @@ export const TradeUpUI = {
       const filled = _slots.filter(Boolean);
       if (filled.length > 0) {
         const avg = filled.reduce((s, sl) => s + (sl.item.float ?? 0), 0) / filled.length;
-        _avgFloatEl.textContent = `Avg float: ${avg.toFixed(6)}`;
+        _avgFloatEl.textContent = i18n.t('avg_float', { val: avg.toFixed(6) });
       } else {
         _avgFloatEl.textContent = '';
       }
@@ -271,7 +272,7 @@ export const TradeUpUI = {
       const item      = entry.item;
       const compat    = compatible.includes(entry);
       const wearTier  = item.wear_tier ?? FloatService.getWearTier(item.float ?? 0);
-      const wearLabel = FloatService.getWearLabel(wearTier);
+      const wearLabel = i18n.wearLabel(wearTier);
       const name      = _formatName(item.weapon, item.skin);
       const caseName  = item.case_name ?? CaseDataStore.getCase(item.case_id)?.name ?? item.case_id ?? '—';
 
@@ -395,7 +396,7 @@ export const TradeUpUI = {
 
     const heading = document.createElement('div');
     heading.className = 'tradeup-result-heading';
-    heading.textContent = 'Trade-Up Result';
+    heading.textContent = i18n.t('tradeup_result');
 
     const rarityEl = document.createElement('div');
     rarityEl.className = 'tradeup-result-rarity';
@@ -410,7 +411,7 @@ export const TradeUpUI = {
       floatRow.className = 'float-row';
       const wbadge = document.createElement('span');
       wbadge.className = `wear-badge wear-${wearTier}`;
-      wbadge.textContent = FloatService.getWearLabel(wearTier);
+      wbadge.textContent = i18n.wearLabel(wearTier);
       const floatVal = document.createElement('span');
       floatVal.className = 'float-value';
       floatVal.textContent = FloatService.formatFloat(item.float);
@@ -446,7 +447,7 @@ export const TradeUpUI = {
 
     const acceptBtn = document.createElement('button');
     acceptBtn.className = 'btn-tradeup-accept';
-    acceptBtn.textContent = 'Accept';
+    acceptBtn.textContent = i18n.t('accept');
     acceptBtn.addEventListener('click', () => this._dismissResult());
     card.appendChild(acceptBtn);
 
@@ -473,12 +474,7 @@ const NEXT_RARITY_LABEL = {
 };
 
 function _formatName(weapon, skin) {
-  if (skin && skin.startsWith('★')) {
-    const bare = skin.slice(1).trim();
-    if (bare.toLowerCase() === 'vanilla') return `★ ${weapon}`;
-    return `★ ${weapon} | ${bare}`;
-  }
-  return `${weapon} | ${skin}`;
+  return i18n.skinName(weapon, skin);
 }
 
 function _formatRarity(rarity) {

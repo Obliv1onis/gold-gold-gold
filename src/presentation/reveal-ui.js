@@ -1,6 +1,7 @@
 import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { SkinInventory }   from '../core/skin-inventory.js';
 import { FloatService }    from '../foundation/float-service.js';
+import { i18n }            from '../foundation/i18n.js';
 
 const SELL_FEE_RATE           = 0.15;
 const SELL_FEEDBACK_DURATION  = 1800; // ms — "Sold!" message display time
@@ -65,7 +66,7 @@ export const RevealUI = {
       const wearTier = item.wear_tier ?? FloatService.getWearTier(item.float);
       const wearBadge = document.createElement('span');
       wearBadge.className = `wear-badge wear-${wearTier}`;
-      wearBadge.textContent = FloatService.getWearLabel(wearTier);
+      wearBadge.textContent = i18n.wearLabel(wearTier);
       const floatVal = document.createElement('span');
       floatVal.className = 'float-value';
       floatVal.textContent = FloatService.formatFloat(item.float);
@@ -90,12 +91,12 @@ export const RevealUI = {
 
     const keepBtn = document.createElement('button');
     keepBtn.className   = 'btn-keep';
-    keepBtn.textContent = 'Keep';
+    keepBtn.textContent = i18n.t('keep');
     keepBtn.addEventListener('click', () => this.hide());
 
     const sellBtn = document.createElement('button');
     sellBtn.className   = 'btn-sell';
-    sellBtn.textContent = `Sell ($${netProceeds.toFixed(2)})`;
+    sellBtn.textContent = i18n.t('sell_price', { price: '$' + netProceeds.toFixed(2) });
     sellBtn.addEventListener('click', () => this._handleSell(entry, sellBtn));
 
     const feedback = document.createElement('div');
@@ -110,7 +111,7 @@ export const RevealUI = {
     if (isStatTrak) {
       const killsEl = document.createElement('div');
       killsEl.className   = 'stat-trak-kills';
-      killsEl.textContent = '☆ 0 Kills';
+      killsEl.textContent = i18n.t('kills');
       card.appendChild(killsEl);
     }
     card.appendChild(actions);
@@ -139,10 +140,10 @@ export const RevealUI = {
     const feedback = _overlay?._feedbackEl;
 
     if (result) {
-      if (feedback) feedback.textContent = `Sold for $${net.toFixed(2)}!`;
+      if (feedback) feedback.textContent = i18n.t('sold_for', { price: '$' + net.toFixed(2) });
       setTimeout(() => this.hide(), SELL_FEEDBACK_DURATION);
     } else {
-      if (feedback) feedback.textContent = 'Could not sell — item not found.';
+      if (feedback) feedback.textContent = i18n.t('sell_not_found');
       setTimeout(() => this.hide(), SELL_FEEDBACK_DURATION);
     }
   },
@@ -159,10 +160,5 @@ function _formatRarity(rarity) {
 }
 
 function _formatItemName(weapon, skin) {
-  if (skin && skin.startsWith('★')) {
-    const bare = skin.slice(1).trim();
-    if (bare.toLowerCase() === 'vanilla') return `★ ${weapon}`;
-    return `★ ${weapon} | ${bare}`;
-  }
-  return `${weapon} | ${skin}`;
+  return i18n.skinName(weapon, skin);
 }

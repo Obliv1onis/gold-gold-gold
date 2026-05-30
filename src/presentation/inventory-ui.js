@@ -2,6 +2,7 @@ import { SkinInventory }   from '../core/skin-inventory.js';
 import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { FloatService }    from '../foundation/float-service.js';
 import { Events }          from '../foundation/events.js';
+import { i18n }            from '../foundation/i18n.js';
 
 let _container          = null;
 let _visible            = false;
@@ -30,11 +31,15 @@ export const InventoryUI = {
           <span class="item-count">0 items</span>
         </div>
         <div class="inventory-grid"></div>
-        <div class="inventory-empty">No skins yet. Open some cases!</div>
+        <div class="inventory-empty" data-i18n="inv_empty">No skins yet. Open some cases!</div>
       </div>
     `;
 
     document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => {
+      if (_visible) this._render();
+      else _dirty = true;
+    });
+    document.addEventListener('locale-changed', () => {
       if (_visible) this._render();
       else _dirty = true;
     });
@@ -63,7 +68,9 @@ export const InventoryUI = {
 
     if (!gridEl) return;
 
-    if (countEl) countEl.textContent = `${items.length} item${items.length !== 1 ? 's' : ''}`;
+    if (countEl) countEl.textContent = items.length === 1
+      ? i18n.t('n_items', { n: 1 })
+      : i18n.t('n_items_plural', { n: items.length });
 
     // Grid vs empty state
     if (items.length === 0) {
@@ -141,7 +148,7 @@ export const InventoryUI = {
       const wearTier = item.wear_tier ?? FloatService.getWearTier(item.float);
       const wearBadge = document.createElement('span');
       wearBadge.className = `wear-badge wear-${wearTier}`;
-      wearBadge.textContent = FloatService.getWearLabel(wearTier);
+      wearBadge.textContent = i18n.wearLabel(wearTier);
       const floatVal = document.createElement('span');
       floatVal.className = 'float-value';
       floatVal.textContent = FloatService.formatFloat(item.float);
@@ -155,15 +162,15 @@ export const InventoryUI = {
 
     const sellBtn = document.createElement('button');
     sellBtn.className   = 'btn-sell';
-    sellBtn.textContent = 'Sell';
+    sellBtn.textContent = i18n.t('sell');
 
     const confirm = document.createElement('div');
     confirm.className = 'sell-confirm';
     confirm.hidden    = true;
     confirm.innerHTML = `
-      <span>Sell for $${net.toFixed(2)}?</span>
-      <button class="btn-confirm">Confirm</button>
-      <button class="btn-cancel">Cancel</button>
+      <span>${i18n.t('sell_for', { price: '$' + net.toFixed(2) })}</span>
+      <button class="btn-confirm">${i18n.t('confirm')}</button>
+      <button class="btn-cancel">${i18n.t('cancel')}</button>
     `;
 
     sellBtn.addEventListener('click', () => {
@@ -180,12 +187,12 @@ export const InventoryUI = {
       try {
         const ok = SkinInventory.sellItem(entry.instanceId, salePrice);
         if (!ok) {
-          confirm.querySelector('span').textContent = 'Could not sell.';
+          confirm.querySelector('span').textContent = i18n.t('sell_error');
           confirmBtn.disabled = false;
         }
         // skin-inventory-changed fires → grid re-renders, removing this card
       } catch {
-        confirm.querySelector('span').textContent = 'Could not sell.';
+        confirm.querySelector('span').textContent = i18n.t('sell_error');
         confirmBtn.disabled = false;
       }
     });
@@ -196,7 +203,7 @@ export const InventoryUI = {
     if (isStatTrak) {
       const killsEl = document.createElement('div');
       killsEl.className   = 'stat-trak-kills';
-      killsEl.textContent = '☆ 0 Kills';
+      killsEl.textContent = i18n.t('kills');
       card.appendChild(killsEl);
     }
     card.appendChild(price);
@@ -274,10 +281,5 @@ function _toggleMusicKit(kitName, youtubeId) {
  * Regular weapons: "Weapon | Skin".
  */
 function _formatItemName(weapon, skin) {
-  if (skin && skin.startsWith('★')) {
-    const bare = skin.slice(1).trim();
-    if (bare.toLowerCase() === 'vanilla') return `★ ${weapon}`;
-    return `★ ${weapon} | ${bare}`;
-  }
-  return `${weapon} | ${skin}`;
+  return i18n.skinName(weapon, skin);
 }

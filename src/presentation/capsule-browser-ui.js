@@ -1,5 +1,6 @@
 import { CapsuleDataStore }  from '../foundation/capsule-data-store.js';
 import { makePlaceholder }   from '../feature/item-placeholder.js';
+import { i18n }              from '../foundation/i18n.js';
 
 const STICKER_TYPES = ['sticker_capsule'];
 const OTHER_TYPES   = ['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box'];
@@ -11,18 +12,23 @@ const SECTION_LABELS = {
   music_kit_box: 'Music Kit Boxes',
 };
 
-let _container = null;
-let _onSelect  = null;
+let _container       = null;
+let _onSelect        = null;
+let _activeCategory  = null;
 
 export const CapsuleBrowserUI = {
   init(container, { onSelect }) {
     _container = container;
     _onSelect  = onSelect;
+    document.addEventListener('locale-changed', () => {
+      if (_activeCategory) this._render(_activeCategory);
+    });
   },
 
   /** @param {'sticker_capsule'|'other'} category */
   show(category = 'sticker_capsule') {
     if (!_container) return;
+    _activeCategory = category;
     this._render(category);
   },
 
@@ -84,7 +90,7 @@ function _makeCard(capsule, onSelect) {
 
   const name = document.createElement('div');
   name.className   = 'case-card-name';
-  name.textContent = capsule.name;
+  name.textContent = i18n.caseName(capsule.name);
 
   const price = document.createElement('div');
   price.className   = 'case-card-price case-card-price--live';

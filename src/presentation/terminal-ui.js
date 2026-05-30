@@ -1,5 +1,6 @@
 import { TerminalOrchestrator } from '../core/terminal-orchestrator.js';
 import { FloatService }         from '../foundation/float-service.js';
+import { i18n }                 from '../foundation/i18n.js';
 
 let _overlay  = null;
 let _onClosed = null;
@@ -65,7 +66,7 @@ export const TerminalUI = {
     // Offer counter
     const counter = document.createElement('div');
     counter.className   = 'terminal-offer-counter';
-    counter.textContent = `Offer ${offerNum} / 5`;
+    counter.textContent = i18n.t('offer_counter', { n: offerNum });
     card.appendChild(counter);
 
     // Image
@@ -95,7 +96,7 @@ export const TerminalUI = {
     meta.className = 'terminal-skin-meta';
     const wearBadge = document.createElement('span');
     wearBadge.className   = `terminal-wear-badge rarity-${rarity}`;
-    wearBadge.textContent = wearLabel;
+    wearBadge.textContent = i18n.wearLabel(skin.wear_tier);
     const floatVal = document.createElement('span');
     floatVal.className   = 'terminal-float-val';
     floatVal.textContent = floatStr;
@@ -116,7 +117,7 @@ export const TerminalUI = {
     const buyBtn = document.createElement('button');
     buyBtn.className = 'btn-terminal-buy';
     const buyLabel = document.createElement('span');
-    buyLabel.textContent = 'Buy ';
+    buyLabel.textContent = i18n.t('buy') + ' ';
     const buyPrice = document.createElement('span');
     buyPrice.className   = 'terminal-price';
     buyPrice.textContent = `$${skin.market_price.toFixed(2)}`;
@@ -127,7 +128,7 @@ export const TerminalUI = {
     const skipBtn = document.createElement('button');
     skipBtn.className = 'btn-terminal-skip';
     skipBtn.disabled  = true;
-    const label = isFinal ? 'End' : 'Skip';
+    const label = isFinal ? i18n.t('end') : i18n.t('skip');
     let countdown = 3;
     skipBtn.textContent = `${label} (${countdown}s)`;
     const timer = setInterval(() => {
@@ -152,7 +153,7 @@ export const TerminalUI = {
   _showError(reason) {
     const errEl = _overlay?.querySelector('.terminal-error');
     if (!errEl) return;
-    errEl.textContent = reason === 'insufficient_funds' ? 'Insufficient balance.' : 'Error.';
+    errEl.textContent = reason === 'insufficient_funds' ? i18n.t('terminal_blocked') : i18n.t('err_open');
     errEl.removeAttribute('hidden');
     setTimeout(() => errEl.setAttribute('hidden', ''), 2600);
   },
@@ -164,10 +165,10 @@ export const TerminalUI = {
     card.className = 'terminal-card rarity-unknown';
     const msg = document.createElement('div');
     msg.className   = 'terminal-skin-name';
-    msg.textContent = reason === 'insufficient_funds' ? 'Insufficient balance.' : 'Cannot open terminal.';
+    msg.textContent = reason === 'insufficient_funds' ? i18n.t('terminal_blocked') : i18n.t('terminal_err');
     const closeBtn = document.createElement('button');
     closeBtn.className   = 'btn-terminal-skip';
-    closeBtn.textContent = 'Close';
+    closeBtn.textContent = i18n.t('close');
     closeBtn.style.marginTop = '12px';
     closeBtn.addEventListener('click', () => this.hide());
     card.appendChild(msg);

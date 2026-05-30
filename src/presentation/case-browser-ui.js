@@ -1,6 +1,7 @@
 import { CaseDataStore }  from '../foundation/case-data-store.js';
 import { PriceAPILayer }  from '../feature/price-api-layer.js';
 import { Events }         from '../foundation/events.js';
+import { i18n }           from '../foundation/i18n.js';
 
 let _container      = null;
 let _onSelect       = null;
@@ -24,6 +25,8 @@ export const CaseBrowserUI = {
     _container = container;
     _onSelect  = onSelect;
     this._render();
+
+    document.addEventListener('locale-changed', () => this._render());
 
     // When a live price arrives, replace the placeholder with the real Steam price
     document.addEventListener(Events.PRICE_UPDATED, e => {
@@ -56,16 +59,16 @@ export const CaseBrowserUI = {
     _container.innerHTML = '';
 
     const sections = _activeFilter === 'weapon_case'
-      ? [{ type: 'terminal', title: 'Terminals' }, { type: 'weapon_case', title: 'Weapon Cases' }]
+      ? [{ type: 'terminal', titleKey: 'sec_terminals' }, { type: 'weapon_case', titleKey: 'sec_cases' }]
       : _activeFilter
-        ? [{ type: _activeFilter, title: _activeFilter === 'souvenir_package' ? 'Souvenir Packages' : _activeFilter }]
-        : [{ type: 'weapon_case', title: 'Weapon Cases' }, { type: 'souvenir_package', title: 'Souvenir Packages' }];
+        ? [{ type: _activeFilter, titleKey: _activeFilter === 'souvenir_package' ? 'sec_souvenirs' : 'sec_cases' }]
+        : [{ type: 'weapon_case', titleKey: 'sec_cases' }, { type: 'souvenir_package', titleKey: 'sec_souvenirs' }];
 
     let anyItems = false;
-    for (const { type, title } of sections) {
+    for (const { type, titleKey } of sections) {
       const list = CaseDataStore.getCaseList(type);
       if (list.length) {
-        _container.appendChild(_makeSection(title, list));
+        _container.appendChild(_makeSection(i18n.t(titleKey), list));
         anyItems = true;
       }
     }
@@ -73,7 +76,7 @@ export const CaseBrowserUI = {
     if (!anyItems) {
       const msg = document.createElement('div');
       msg.className   = 'browser-empty';
-      msg.textContent = 'No cases available.';
+      msg.textContent = i18n.t('no_cases');
       _container.appendChild(msg);
     }
   },
@@ -123,7 +126,7 @@ function _makeCard(caseData, onSelect) {
 
   const name = document.createElement('div');
   name.className   = 'case-card-name';
-  name.textContent = caseData.name ?? caseData.id;
+  name.textContent = i18n.caseName(caseData.name ?? caseData.id);
 
   const price = document.createElement('div');
   price.className        = 'case-card-price';

@@ -65,7 +65,7 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .btn-open:not(:disabled):hover { background: #45a049; }
 .btn-open:disabled { background: #444; color: #888; }
 
-.hud-actions { margin-left: auto; }
+.hud-actions { margin-left: auto; display: flex; gap: 8px; }
 
 .btn-reset {
   background: #c0392b;
@@ -73,6 +73,59 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   font-size: 0.85rem;
 }
 .btn-reset:not(:disabled):hover { background: #a93226; }
+
+.btn-language {
+  background: #2a2a2a;
+  color: #ccc;
+  border: 1px solid #444;
+  font-size: 0.85rem;
+}
+.btn-language:hover { background: #333; color: #fff; }
+
+/* ── Language dropdown ─────────────────────────────────────────────────────── */
+.lang-wrap {
+  position: relative;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: #1e1e1e;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 160px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  animation: lang-drop-in 0.12s ease-out;
+}
+
+@keyframes lang-drop-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    }
+}
+
+.lang-option {
+  background: transparent;
+  color: #bbb;
+  border: none;
+  border-radius: 0;
+  font-size: 0.88rem;
+  padding: 10px 16px;
+  text-align: left;
+  width: 100%;
+}
+.lang-option:hover { background: #2a2a2a; color: #fff; }
+.lang-option.active {
+  background: #1e3a5f;
+  color: #7ec8f8;
+}
+.lang-option + .lang-option {
+  border-top: 1px solid #2a2a2a;
+}
 
 /* ── Reset confirmation modal ──────────────────────────────────────────────── */
 .reset-modal-overlay {
@@ -1538,6 +1591,40 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   text-align: center;
   padding: 60px 20px;
   font-size: 0.95rem;
+}
+
+.market-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px 0 28px;
+}
+.market-pager-btn {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #ccc;
+  font-size: 1.1rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.market-pager-btn:hover:not(:disabled) {
+  background: #2a2a2a;
+  border-color: #4caf50;
+  color: #fff;
+}
+.market-pager-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.market-pager-label {
+  color: #aaa;
+  font-size: 0.9rem;
+  min-width: 60px;
+  text-align: center;
 }
 
 /* ─── Credits page ────────────────────────────────────────────────────────── */

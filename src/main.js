@@ -41,10 +41,10 @@ async function main() {
   const heroOther       = allOthers.find(c => c.image_url);
 
   const categories = [
-    { id: 'weapon_case',      title: 'Weapon Cases',      subtitle: `${allWeaponCases.length} Cases`,       image: heroCase?.image_url },
-    { id: 'souvenir_package', title: 'Souvenir Packages', subtitle: `${allSouvenirs.length} Packages`,      image: heroSouvenir?.image_url },
-    { id: 'sticker_capsule',  title: 'Sticker Capsules',  subtitle: `${allCapsules.length} Capsules`,       image: heroCapsule?.image_url },
-    { id: 'other',            title: 'Others',             subtitle: `${allOthers.length} Containers`,      image: heroOther?.image_url },
+    { id: 'weapon_case',      titleKey: 'tile_weapon_case', subtitle: `${allWeaponCases.length} Cases`,       image: heroCase?.image_url },
+    { id: 'souvenir_package', titleKey: 'tile_souvenir',    subtitle: `${allSouvenirs.length} Packages`,      image: heroSouvenir?.image_url },
+    { id: 'sticker_capsule',  titleKey: 'tile_sticker',     subtitle: `${allCapsules.length} Capsules`,       image: heroCapsule?.image_url },
+    { id: 'other',            titleKey: 'tile_other',       subtitle: `${allOthers.length} Containers`,      image: heroOther?.image_url },
   ];
 
   const { caseBrowserContainer, reelContainer, overlayContainer, marketContainer, tradeUpContainer, inventoryContainer } =
