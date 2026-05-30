@@ -6,16 +6,22 @@
       "name": "Small Arms Charm Capsule",
       "type": "charm_capsule",
       "price": 2.85,
-      "image_url": null,
+      "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJai0ki7VeTHjMmuOHbFtQcty9elpUrqQBH9oZfy8DFk5_2iZ5s8c6XGMTTHj-1y4rY7Si_kx05wtWzUz9-qJXmfPAEoC5YjRrIK4xe_x4WzNLnj7lPAy9USLWVb9wk",
       "rarity_weights": {
         "high_grade": 100
       },
       "tiers": {
         "high_grade": [
           {
-            "name": "Charm | Baby Karambit",
-            "market_hash_name": "Charm | Baby Karambit",
-            "image_url": null,
+            "name": "Charm | Baby's AK",
+            "market_hash_name": "Charm | Baby's AK",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOn53f_yNI6rz9OfdrJPbHXjDIwL4ntOVoH3jqkRl3sm_RztmqeC6fa1IgCJAiQ7IOrFDmxYcaCqwO",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Die-cast AK",
+            "market_hash_name": "Charm | Die-cast AK",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOn53f9ydX4-vgPvw_efKXXzWWkL0ksrQwGCjmlBl24DjUyNipcS-WOFQoDsd2Te9Zsg74zIPxCozwxw",
             "market_price": 0.1
           },
           {
@@ -25,15 +31,27 @@
             "market_price": 0.1
           },
           {
-            "name": "Charm | Glock-3000",
-            "market_hash_name": "Charm | Glock-3000",
-            "image_url": null,
+            "name": "Charm | Titeenium AWP",
+            "market_hash_name": "Charm | Titeenium AWP",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOn4HwwjFL4P2gJvJocPPEXD7IlLsn4bRrG3nkzUsh5z_Tnt_4dnKVOgd2CsAlEeEJ5xSm0oqwhs-lt_s",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Semi-Auto",
-            "market_hash_name": "Charm | Semi-Auto",
-            "image_url": null,
+            "name": "Charm | Baby Karat CT",
+            "market_hash_name": "Charm | Baby Karat CT",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOnYLr8ytd6s2pZ6hpbqGVXWOWwLoktLFtHnDmwU4l4jnUwt6pInqSO1AiWJp1QuVeu0S4kt35d7S1otZRy58",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Whittle Knife",
+            "market_hash_name": "Charm | Whittle Knife",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOnYLr8ytd6s25Z6tpbqeWCj7Hlr8n5OQ9TX62xUVx4DnUzI76eCmXaQEnXMN2FrEDuhDsm9L5d7S1yNWnbys",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | POP Art",
+            "market_hash_name": "Charm | POP Art",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOk8LhrDFk7P2jYacjcaCXC2HHlO8n57c4Tn22l0QksjiHnN_4dC7GaAclDMF0EbID4BmxwMqnab2cc2w76Q",
             "market_price": 0.1
           },
           {
@@ -43,45 +61,51 @@
             "market_price": 0.1
           },
           {
-            "name": "Charm | Whiskers",
-            "market_hash_name": "Charm | Whiskers",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tuIeTdDzSWx7l35uNqGHHlwx9z6zzVnI2pJ3yfa1N2ApB4EOQKt0bsxtG0ZPSiuVIfhAHkFQ",
+            "name": "Charm | Disco MAC",
+            "market_hash_name": "Charm | Disco MAC",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOk5fjrHJk6P6nfLBoMr7CXmLDwOhy5LZoTCywxxklt2WEz96gIiiQPwJyCJYhEORYuhW9ldDkKaq8sNVLzyxd",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Hot Sauce",
-            "market_hash_name": "Charm | Hot Sauce",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-If2sDWaEwuZjoK87SnHqwU4j5mzTzdmrc36SalchD5F1TOQD4RTtkobmMuzh5wzY3YpE02yg2QU8_kjN",
+            "name": "Charm | Backsplash",
+            "market_hash_name": "Charm | Backsplash",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOk5fjrHJk-_uibeo0JvOWDGTCl7ly6OM6TX22wBlx5GWGydf_dn6eOlByDptzF7Rbthe9jJS5YC-ZfoqM",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Taz",
-            "market_hash_name": "Charm | Taz",
-            "image_url": null,
+            "name": "Charm | Lil' Cap Gun",
+            "market_hash_name": "Charm | Lil' Cap Gun",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOipPjpB1Y7uLgOfY1cKOVX2HIl70msuQ_Gn3lwURw5GXUyNetIi_EawIhWZcjTOcOtA74zINbStzEKA",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Lil' Crump",
-            "market_hash_name": "Charm | Lil' Crump",
-            "image_url": null,
+            "name": "Charm | Hot Hands",
+            "market_hash_name": "Charm | Hot Hands",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOipPjpB1W7vWjaeo_c_PLDzWRl-on6bc4GyznzBsh4zjTyY2geSnCPAAoDZJ2E-IItULpjJS5YK7VXWL0",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Lil' Monster",
-            "market_hash_name": "Charm | Lil' Monster",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tgL_6AGmKCj79wtOVrTijixU0m5m3UntioI3PEZldzCpd1FOJfsxXtmtCxNezk5gTAy9USJfGXAGI",
+            "name": "Charm | Semi-Precious",
+            "market_hash_name": "Charm | Semi-Precious",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOip3u9CRe0PG8cbd5IfzdXT_Bwr4u4rU9GSrrx09042TUm4z7eXOVbFcgC5J4Q7QL4BW_x4CzMPSiuVKoeSA8mg",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Pint-Sized Pizza",
-            "market_hash_name": "Charm | Pint-Sized Pizza",
-            "image_url": null,
+            "name": "Charm | Baby Karat T",
+            "market_hash_name": "Charm | Baby Karat T",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOip3u9CRe0PWhZKAjJPOXWDGWlOgm47QxTH7jwExy5zmAw977cinCbgcgCJNzFLID50bsw8qnab1NtMpc9Q",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Lil' Whacker",
-            "market_hash_name": "Charm | Lil' Whacker",
-            "image_url": null,
+            "name": "Charm | Glamour Shot",
+            "market_hash_name": "Charm | Glamour Shot",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOi4Xwwihe-PeiJqA6dvPDD2XAmL4i47ZtHyuxxU5_tWTcyYqvcymVawEnWZNxEeAMtEWm0oqw8L2NeF4",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Stitch-Loaded",
+            "market_hash_name": "Charm | Stitch-Loaded",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IW2MHqH6lhKpcj_6WbwURPOi4Xwwjta_fzgPvNoJfPLDDDHwLcjtrdsGS3lwxwl52qGm9b_eHiVO1IgCMR4QO5Yuw74zIPBDwTYVQ",
             "market_price": 0.1
           }
         ]
@@ -92,7 +116,7 @@
       "name": "Missing Link Charm Capsule",
       "type": "charm_capsule",
       "price": 2.4,
-      "image_url": null,
+      "image_url": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png",
       "rarity_weights": {
         "high_grade": 100
       },
@@ -105,69 +129,99 @@
             "market_price": 0.1
           },
           {
+            "name": "Charm | That's Bananas",
+            "market_hash_name": "Charm | That's Bananas",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tvIf6SAGbelbkg5eM6SyywlEVx42mBztj9c36RPAV0XJQkE7ECtEW6loXhP-q07hue1dzjgFlFEA",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Lil' Whiskers",
+            "market_hash_name": "Charm | Lil' Whiskers",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tuIeTdDzSWx7l35uNqGHHlwx9z6zzVnI2pJ3yfa1N2ApB4EOQKt0bsxtG0ZPSiuVIfhAHkFQ",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Lil' Sandy",
+            "market_hash_name": "Charm | Lil' Sandy",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tuIeSRC2aTyaB05rMwTX2xwBsjtmzVzd2sJy6WPw5xCZBzF-BbtUG9ldLjMr604QGIlcsbmu0WJNUt",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Chicken Lil'",
+            "market_hash_name": "Charm | Chicken Lil'",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tuKPmQBWKej7p1suBqSi_iwU9wt2vcnN34JX6XOgdzX5N1QbQCsxm5wNHnZr-35FbAy9USbxYiw0U",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Lil' Crass",
+            "market_hash_name": "Charm | Lil' Crass",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tqNfWBB2ucwKAus-dqTX_kx01xsG_XzYmpeH2WPA8lX8YhTeZesEa8m4GxZOLl7leLlcsbmiGjx1Ce",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Hot Howl",
+            "market_hash_name": "Charm | Hot Howl",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tlL-efQGKTmbxztbJoFnvjkBtw4zjcw9v8ICiTOwcpDpZyF-FYsBO9k4W2Nbn8p1uJTS_m1eQ",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Big Kev",
+            "market_hash_name": "Charm | Big Kev",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tmJebdDDHExLxy5uUwHXGwkE11tWSByo37IH-UaQUoX5ZxR-Re4UK5xtezNvSiuVIxxa4IjQ",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Lil' Monster",
+            "market_hash_name": "Charm | Lil' Monster",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tgL_6AGmKCj79wtOVrTijixU0m5m3UntioI3PEZldzCpd1FOJfsxXtmtCxNezk5gTAy9USJfGXAGI",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Hot Sauce",
+            "market_hash_name": "Charm | Hot Sauce",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-If2sDWaEwuZjoK87SnHqwU4j5mzTzdmrc36SalchD5F1TOQD4RTtkobmMuzh5wzY3YpE02yg2QU8_kjN",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Diamond Dog",
+            "market_hash_name": "Charm | Diamond Dog",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-If2sCm6RzOF4tK9sFyi3wUki4TvSnNytdC7FPQBzApIkQuRfukTql93vMung4FTXjIlC02yg2RVCPh13",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Pinch O' Salt",
+            "market_hash_name": "Charm | Pinch O' Salt",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-If2sHWac1fc44LRqTnywxR4k5mTVzYn6cy7GOlAlA8NzRLILskW9wIbuP7ni5Qze2ZUFk3v2JiibwQ",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Diner Dog",
+            "market_hash_name": "Charm | Diner Dog",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-If2sHW-R0es44ec6GCziw0om4W7TzNuqcX2UZg9xA5RzF-QDsRa9ktXvYevg7wPe2JUFk3ucEH-vmw",
+            "market_price": 0.1
+          },
+          {
+            "name": "Charm | Lil' Teacup",
+            "market_hash_name": "Charm | Lil' Teacup",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-If2sGmiZzes46OBoTnnlxB5_6m7Vn437cXqQbFQlXsBwQbRcshPrwYXiY-ixsgCIg5UFk3uYpcc7wQ",
+            "market_price": 0.1
+          },
+          {
             "name": "Charm | Lil' SAS",
             "market_hash_name": "Charm | Lil' SAS",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t-IePdV2bJl-8h5rhtHS_ilEVwt23VmNmsc3LFPFcgC8F4EeFZ4Bmxxt2xZvSiuVIxEk8sOA",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Lil' Larry",
-            "market_hash_name": "Charm | Lil' Larry",
-            "image_url": null,
+            "name": "Charm | Hot Wurst",
+            "market_hash_name": "Charm | Hot Wurst",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5t6NeKAGimTkL0jtbJtTn7hxR524W2An9yhJC-XbQV1CMQlF-5fu0HtkoexYb6z-UWA3FJ1-Je9",
             "market_price": 0.1
           },
           {
-            "name": "Charm | Lil' Froman",
-            "market_hash_name": "Charm | Lil' Froman",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Lil' Mascot",
-            "market_hash_name": "Charm | Lil' Mascot",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Lil' Chef",
-            "market_hash_name": "Charm | Lil' Chef",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Sausage Link",
-            "market_hash_name": "Charm | Sausage Link",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Hot Dog",
-            "market_hash_name": "Charm | Hot Dog",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Pork Chop",
-            "market_hash_name": "Charm | Pork Chop",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Chicken Lover",
-            "market_hash_name": "Charm | Chicken Lover",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Diamond Eye",
-            "market_hash_name": "Charm | Diamond Eye",
-            "image_url": null,
-            "market_price": 0.1
-          },
-          {
-            "name": "Charm | Kittens",
-            "market_hash_name": "Charm | Kittens",
-            "image_url": null,
+            "name": "Charm | Lil' Squatch",
+            "market_hash_name": "Charm | Lil' Squatch",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGI6zwki4Uf_a0IWsPGiE7Fhy-I764RbsQiL8l4Xz9Cxc4_ugY5tvKfeVAWiEj-10suQ6Fy2ylkolsj6BmNuvInzDZgciApAlF-JYuxK9xN2yNL-24gHAy9USv4cN0g0",
             "market_price": 0.1
           }
         ]
@@ -797,8 +851,8 @@
             "market_price": 1.0
           },
           {
-            "name": "\u00c1guila Pin",
-            "market_hash_name": "\u00c1guila Pin",
+            "name": "Águila Pin",
+            "market_hash_name": "Águila Pin",
             "image_url": null,
             "market_price": 1.0
           }
@@ -901,49 +955,55 @@
             "market_hash_name": "Music Kit | DRYDEN, Feel The Power",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMWmO4VN7y9elpAiyEUynyZSwrSMOu6v-MaI8cqjCDzXIluwmtLRtHy2wzB4mtzuDyNi3MSXAPV825k0",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "WsUJ4qLAnM4"
           },
           {
             "name": "Music Kit | ISOxo, inhuman",
             "market_hash_name": "Music Kit | ISOxo, inhuman",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPGiY_VlKpNa671zmERmmy5Pi_3YMtqr5aqBpJaXFWGSRlL916LUxGS3nwBwk52TUz8HpLyyhdGnKfw",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "ps-V1GQZPRM"
           },
           {
             "name": "Music Kit | KILL SCRIPT, All Night",
             "market_hash_name": "Music Kit | KILL SCRIPT, All Night",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKb6UV25o7k_ma3EFPym86wqSAKu_H7PKE4JKiWV2GVx71z57k6Sy3hzURwsWjXyouod3KfcEZ-XaDU2Jmf",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "ZjnYQDRBk1A"
           },
           {
             "name": "Music Kit | Knock2, Make U SWEAT!",
             "market_hash_name": "Music Kit | Knock2, Make U SWEAT!",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnWY5l0ny9empA21F0ijnMS3rXoO6qv2Oac4cKfDXz-Uw7p0tLk9TXHllkVx5W2HzNa3MSXAGLCr2ac",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "vekNwu9_VD4"
           },
           {
             "name": "Music Kit | Rad Cat, Reason",
             "market_hash_name": "Music Kit | Rad Cat, Reason",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJ3qT5ldhy9elpFq0FEmgzpDh-3INuaqtaqU0cKmWCzSSlr9ysrI_TCq1xx5ztmqDyd23MSXAcELeXMM",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "IYMhhpg2nho"
           },
           {
             "name": "Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights",
             "market_hash_name": "Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights",
             "image_url": null,
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "9fg9ic46ik0"
           }
         ]
       }
     },
     {
       "id": "stattrak_nightwatch_music_kit_box",
-      "name": "StatTrak\u2122 Nightwatch Music Kit Box",
+      "name": "StatTrak™ Nightwatch Music Kit Box",
       "type": "music_kit_box",
       "price": 5.5,
       "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnu9CVT-_-hbKFSM-SSGnOCwOVJs-B5XDy_kFMlsWyBz9mscnPEagchW5RzQuEMshi4mtDiZum241GIg40TyST_3ysa8G81tG_eJRxT",
@@ -953,46 +1013,52 @@
       "tiers": {
         "high_grade": [
           {
-            "name": "StatTrak\u2122 Music Kit | DRYDEN, Feel The Power",
-            "market_hash_name": "StatTrak\u2122 Music Kit | DRYDEN, Feel The Power",
+            "name": "StatTrak™ Music Kit | DRYDEN, Feel The Power",
+            "market_hash_name": "StatTrak™ Music Kit | DRYDEN, Feel The Power",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMWmO4VN7y9elpAiyEUynyZSwrSMOu6v-MaI8cqjCDzXIluwmtLRtHy2wzB4mtzuDyNi3MSXAPV825k0",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "WsUJ4qLAnM4"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | ISOxo, inhuman",
-            "market_hash_name": "StatTrak\u2122 Music Kit | ISOxo, inhuman",
+            "name": "StatTrak™ Music Kit | ISOxo, inhuman",
+            "market_hash_name": "StatTrak™ Music Kit | ISOxo, inhuman",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPGiY_VlKpNa671zmERmmy5Pi_3YMtqr5aqBpJaXFWGSRlL916LUxGS3nwBwk52TUz8HpLyyhdGnKfw",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "ps-V1GQZPRM"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | KILL SCRIPT, All Night",
-            "market_hash_name": "StatTrak\u2122 Music Kit | KILL SCRIPT, All Night",
+            "name": "StatTrak™ Music Kit | KILL SCRIPT, All Night",
+            "market_hash_name": "StatTrak™ Music Kit | KILL SCRIPT, All Night",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKb6UV25o7k_ma3EFPym86wqSAKu_H7PKE4JKiWV2GVx71z57k6Sy3hzURwsWjXyouod3KfcEZ-XaDU2Jmf",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "ZjnYQDRBk1A"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Knock2, Make U SWEAT!",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Knock2, Make U SWEAT!",
+            "name": "StatTrak™ Music Kit | Knock2, Make U SWEAT!",
+            "market_hash_name": "StatTrak™ Music Kit | Knock2, Make U SWEAT!",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnWY5l0ny9empA21F0ijnMS3rXoO6qv2Oac4cKfDXz-Uw7p0tLk9TXHllkVx5W2HzNa3MSXAGLCr2ac",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "vekNwu9_VD4"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Rad Cat, Reason",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Rad Cat, Reason",
+            "name": "StatTrak™ Music Kit | Rad Cat, Reason",
+            "market_hash_name": "StatTrak™ Music Kit | Rad Cat, Reason",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJ3qT5ldhy9elpFq0FEmgzpDh-3INuaqtaqU0cKmWCzSSlr9ysrI_TCq1xx5ztmqDyd23MSXAcELeXMM",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "IYMhhpg2nho"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights",
-            "market_hash_name": "StatTrak\u2122 Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights",
+            "name": "StatTrak™ Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights",
+            "market_hash_name": "StatTrak™ Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIWyS91pKpNa6s13lE0-jn8-1pXJauqf4O_xrdaLHDzPBwugh4bgwGHvjxR9-4G6HnMHpLyxvON_2ZA",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "9fg9ic46ik0"
           }
         ]
       }
@@ -1013,77 +1079,87 @@
             "market_hash_name": "Music Kit | Adam Beyer, Red Room",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNH-W6FRw7YLm1Qm2D0ypm86w-CcL6vT-OP05caHDWmHHmOh35eI5HS_jwE4msmTXwtepcniJLlh3Piv7u7I",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "GIf50k8j270"
           },
           {
-            "name": "Music Kit | Ghost, Skelet\u00e1",
-            "market_hash_name": "Music Kit | Ghost, Skelet\u00e1",
+            "name": "Music Kit | Ghost, Skeletá",
+            "market_hash_name": "Music Kit | Ghost, Skeletá",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMnOY9kJKpNa6uwzmFkT1zMHlpXMMvKv5Oqc0caHBX2bCmb8ltbIxH37klE0h4W_cm8HpLyyghyHkLA",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "6ZDG_mlKq4I"
           },
           {
             "name": "Music Kit | HEALTH, RAT WARS",
             "market_hash_name": "Music Kit | HEALTH, RAT WARS",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPX6W6UJ9y9elpAHkF0_wz8C5r3BeuvH4Pfw8IaPACzWSmbkgtrI6Hy2xwBh34mrcyt63MSXA80s-Xh8",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "5VSVvT9EQXI"
           },
           {
             "name": "Music Kit | James and the Cold Gun, Chewing Glass",
             "market_hash_name": "Music Kit | James and the Cold Gun, Chewing Glass",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP3qa4EV0-oPg4lzkThH1mYPuwnIKofD-PPxseajKDTCTkbgg6OI4TCzmxURw42yDzI6hcy-ebgN1XJEiQ-MU8k7vPe1y5g0",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "lpWANy9j0PY"
           },
           {
             "name": "Music Kit | Jonathan Young, Starship Velociraptor",
             "market_hash_name": "Music Kit | Jonathan Young, Starship Velociraptor",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP3SZ5EJ99Ynt5UzpRiKhz9i0-3YCvvD7P_xrJanECDWTme0m5-drHn7hwkpw52zTzYv9cH2eOA4nFNIuEiP11Fka",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "iai5rBxywJ0"
           },
           {
             "name": "Music Kit | Juelz, Floorspace",
             "market_hash_name": "Music Kit | Juelz, Floorspace",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP26S6UxKpNW661yyF0Xwyc7kryMIuqCtOqdudaPEDTeUw-11seQ4H3G3zRwk4DuGn8HpLyxF_Gg6fw",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "BBgiopENh7g"
           },
           {
             "name": "Music Kit | Killer Mike, MICHAEL",
             "market_hash_name": "Music Kit | Killer Mike, MICHAEL",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKb6VNn-Y7_72a3EFOlz8biqnRd6ab3bvA_cvTDC2XImOwi4-U8S37nxk5y5D7Sw9v9I37DcEZ-XeFRCz_X",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "AjpT37o9dCo"
           },
           {
             "name": "Music Kit | PVRIS, Evergreen",
             "market_hash_name": "Music Kit | PVRIS, Evergreen",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJW2F7EVKpNa671jlEk-pmpLj-HtZ6qv8Ofc6JaWRXGTIw750srVqSXCwlBgi423XmMHpLywuexEzEA",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "XbuXGoOMiqg"
           },
           {
             "name": "Music Kit | Selective Response, No Love Only Pleasure",
             "market_hash_name": "Music Kit | Selective Response, No Love Only Pleasure",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJn6b4FVh_ZHx-Fz0URL_jZPfrXMVtqH2a_Q0cfLBDWbJk-p0sbNoHnrmxx8m42jdy9f7InieOgciDZZ1EPlK7EehqW9d7Q",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "69XPnu1TI0Q"
           },
           {
             "name": "Music Kit | Tigercub, The Perfume of Decay",
             "market_hash_name": "Music Kit | Tigercub, The Perfume of Decay",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXKQ4ER24YXLugipQEn0mpPl_icD6qD4a6c7I6XGWTbFx7ZysbIxG3C3zEtz4G6BmImoImXXMFEshFifrQ",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "i9sgCEI4KUg"
           }
         ]
       }
     },
     {
       "id": "stattrak_deluge_music_kit_box",
-      "name": "StatTrak\u2122 Deluge Music Kit Box",
+      "name": "StatTrak™ Deluge Music Kit Box",
       "type": "music_kit_box",
       "price": 5.45,
       "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnk-C5O6PeRe7BsNOSBD2yvwu9mo_RlSmfiwBh_4D_dz9z4J3PDOAJ2WZUkQbYP5kO_kdbnNr7g5g3XjIsWm3_9kGoXuV-uka_9",
@@ -1093,74 +1169,84 @@
       "tiers": {
         "high_grade": [
           {
-            "name": "StatTrak\u2122 Music Kit | Adam Beyer, Red Room",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Adam Beyer, Red Room",
+            "name": "StatTrak™ Music Kit | Adam Beyer, Red Room",
+            "market_hash_name": "StatTrak™ Music Kit | Adam Beyer, Red Room",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNH-W6FRw7YLm1Qm2D0ypm86w-CcL6vT-OP05caHDWmHHmOh35eI5HS_jwE4msmTXwtepcniJLlh3Piv7u7I",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "GIf50k8j270"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Ghost, Skelet\u00e1",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Ghost, Skelet\u00e1",
+            "name": "StatTrak™ Music Kit | Ghost, Skeletá",
+            "market_hash_name": "StatTrak™ Music Kit | Ghost, Skeletá",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMnOY9kJKpNa6uwzmFkT1zMHlpXMMvKv5Oqc0caHBX2bCmb8ltbIxH37klE0h4W_cm8HpLyyghyHkLA",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "6ZDG_mlKq4I"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | HEALTH, RAT WARS",
-            "market_hash_name": "StatTrak\u2122 Music Kit | HEALTH, RAT WARS",
+            "name": "StatTrak™ Music Kit | HEALTH, RAT WARS",
+            "market_hash_name": "StatTrak™ Music Kit | HEALTH, RAT WARS",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPX6W6UJ9y9elpAHkF0_wz8C5r3BeuvH4Pfw8IaPACzWSmbkgtrI6Hy2xwBh34mrcyt63MSXA80s-Xh8",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "5VSVvT9EQXI"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | James and the Cold Gun, Chewing Glass",
-            "market_hash_name": "StatTrak\u2122 Music Kit | James and the Cold Gun, Chewing Glass",
+            "name": "StatTrak™ Music Kit | James and the Cold Gun, Chewing Glass",
+            "market_hash_name": "StatTrak™ Music Kit | James and the Cold Gun, Chewing Glass",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP3qa4EV0-oPg4lzkThH1mYPuwnIKofD-PPxseajKDTCTkbgg6OI4TCzmxURw42yDzI6hcy-ebgN1XJEiQ-MU8k7vPe1y5g0",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "lpWANy9j0PY"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Jonathan Young, Starship Velociraptor",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Jonathan Young, Starship Velociraptor",
+            "name": "StatTrak™ Music Kit | Jonathan Young, Starship Velociraptor",
+            "market_hash_name": "StatTrak™ Music Kit | Jonathan Young, Starship Velociraptor",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP3SZ5EJ99Ynt5UzpRiKhz9i0-3YCvvD7P_xrJanECDWTme0m5-drHn7hwkpw52zTzYv9cH2eOA4nFNIuEiP11Fka",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "iai5rBxywJ0"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Juelz, Floorspace",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Juelz, Floorspace",
+            "name": "StatTrak™ Music Kit | Juelz, Floorspace",
+            "market_hash_name": "StatTrak™ Music Kit | Juelz, Floorspace",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP26S6UxKpNW661yyF0Xwyc7kryMIuqCtOqdudaPEDTeUw-11seQ4H3G3zRwk4DuGn8HpLyxF_Gg6fw",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "BBgiopENh7g"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Killer Mike, MICHAEL",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Killer Mike, MICHAEL",
+            "name": "StatTrak™ Music Kit | Killer Mike, MICHAEL",
+            "market_hash_name": "StatTrak™ Music Kit | Killer Mike, MICHAEL",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnKb6VNn-Y7_72a3EFOlz8biqnRd6ab3bvA_cvTDC2XImOwi4-U8S37nxk5y5D7Sw9v9I37DcEZ-XeFRCz_X",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "AjpT37o9dCo"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | PVRIS, Evergreen",
-            "market_hash_name": "StatTrak\u2122 Music Kit | PVRIS, Evergreen",
+            "name": "StatTrak™ Music Kit | PVRIS, Evergreen",
+            "market_hash_name": "StatTrak™ Music Kit | PVRIS, Evergreen",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJW2F7EVKpNa671jlEk-pmpLj-HtZ6qv8Ofc6JaWRXGTIw750srVqSXCwlBgi423XmMHpLywuexEzEA",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "XbuXGoOMiqg"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Selective Response, No Love Only Pleasure",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Selective Response, No Love Only Pleasure",
+            "name": "StatTrak™ Music Kit | Selective Response, No Love Only Pleasure",
+            "market_hash_name": "StatTrak™ Music Kit | Selective Response, No Love Only Pleasure",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJn6b4FVh_ZHx-Fz0URL_jZPfrXMVtqH2a_Q0cfLBDWbJk-p0sbNoHnrmxx8m42jdy9f7InieOgciDZZ1EPlK7EehqW9d7Q",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "69XPnu1TI0Q"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Tigercub, The Perfume of Decay",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Tigercub, The Perfume of Decay",
+            "name": "StatTrak™ Music Kit | Tigercub, The Perfume of Decay",
+            "market_hash_name": "StatTrak™ Music Kit | Tigercub, The Perfume of Decay",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXKQ4ER24YXLugipQEn0mpPl_icD6qD4a6c7I6XGWTbFx7ZysbIxG3C3zEtz4G6BmImoImXXMFEshFifrQ",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "i9sgCEI4KUg"
           }
         ]
       }
@@ -1181,49 +1267,55 @@
             "market_hash_name": "Music Kit | Laura Shigihara, Work Hard, Play Hard",
             "image_url": null,
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "CJVr7wVRL70"
           },
           {
             "name": "Music Kit | Freaky DNA, Vici",
             "market_hash_name": "Music Kit | Freaky DNA, Vici",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuM2mS5F1s8In11Qm2D0Snn5DhqXII6aevMaE9cqPHXj-VmbYi6bc6GXDgw0wl5zvQz9j_dX-JLlh3U7PBHho",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "PAmQ6Xl6NkI"
           },
           {
             "name": "Music Kit | Chipzel, ~Yellow Magic~",
             "market_hash_name": "Music Kit | Chipzel, ~Yellow Magic~",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNnOe9Uxw-LikuxeyR0n1x5C1_HYPv_P3avI7eKDEDDSRkO135LFrSSzlxB8jtz7Rwtz6bzvJOed42IOv",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "THChLWmCEA4"
           },
           {
             "name": "Music Kit | Austin Wintory, Mocha Petal",
             "market_hash_name": "Music Kit | Austin Wintory, Mocha Petal",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNG6E8V974476_lb1WCKhzdixpSQNvaP9avU8JfOQCmXBk7wl57Q9GCjkzR51sD_Syon7dH_DZgQpFNIuEpzXvuPa",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "mwHTecB638E"
           },
           {
             "name": "Music Kit | Jesse Harlin, Astro Bellum",
             "market_hash_name": "Music Kit | Jesse Harlin, Astro Bellum",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP36E9lN99ZX441fYEUy_xsC5pSMIvfGqbaZvJfXCWDXClO0k47BrTi3ml0l14W_QzI6tJS3CbBhgVMVNIuoA8w",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "P4HpUNmo_AQ"
           },
           {
             "name": "Music Kit | Sarah Schachner, KOLIBRI",
             "market_hash_name": "Music Kit | Sarah Schachner, KOLIBRI",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnqF5F5m94_16VHpRA_OzseuqCMO7feoO_Q9IaTHCD-WlLp0sbJtF3jkx0lysD_WyImvdy-WPQ4lXIwwG7Cq-4RO3A",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "G2bMJMber5g"
           }
         ]
       }
     },
     {
       "id": "stattrak_tacticians_music_kit_box",
-      "name": "StatTrak\u2122 Tacticians Music Kit Box",
+      "name": "StatTrak™ Tacticians Music Kit Box",
       "type": "music_kit_box",
       "price": 5.85,
       "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqn0_CFP5vGnaap-H-OHD3OE0-99j-JoXzqmmRhp5WTRyd6pI3rDbgcoX8QmFu9Y40O5w4LhP-6071bYiN4WySX3jSNK5zErvbjU8BGSYg",
@@ -1233,46 +1325,52 @@
       "tiers": {
         "high_grade": [
           {
-            "name": "StatTrak\u2122 Music Kit | Laura Shigihara, Work Hard, Play Hard",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Laura Shigihara, Work Hard, Play Hard",
+            "name": "StatTrak™ Music Kit | Laura Shigihara, Work Hard, Play Hard",
+            "market_hash_name": "StatTrak™ Music Kit | Laura Shigihara, Work Hard, Play Hard",
             "image_url": null,
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "CJVr7wVRL70"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Freaky DNA, Vici",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Freaky DNA, Vici",
+            "name": "StatTrak™ Music Kit | Freaky DNA, Vici",
+            "market_hash_name": "StatTrak™ Music Kit | Freaky DNA, Vici",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuM2mS5F1s8In11Qm2D0Snn5DhqXII6aevMaE9cqPHXj-VmbYi6bc6GXDgw0wl5zvQz9j_dX-JLlh3U7PBHho",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "PAmQ6Xl6NkI"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Chipzel, ~Yellow Magic~",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Chipzel, ~Yellow Magic~",
+            "name": "StatTrak™ Music Kit | Chipzel, ~Yellow Magic~",
+            "market_hash_name": "StatTrak™ Music Kit | Chipzel, ~Yellow Magic~",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNnOe9Uxw-LikuxeyR0n1x5C1_HYPv_P3avI7eKDEDDSRkO135LFrSSzlxB8jtz7Rwtz6bzvJOed42IOv",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "THChLWmCEA4"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Austin Wintory, Mocha Petal",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Austin Wintory, Mocha Petal",
+            "name": "StatTrak™ Music Kit | Austin Wintory, Mocha Petal",
+            "market_hash_name": "StatTrak™ Music Kit | Austin Wintory, Mocha Petal",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNG6E8V974476_lb1WCKhzdixpSQNvaP9avU8JfOQCmXBk7wl57Q9GCjkzR51sD_Syon7dH_DZgQpFNIuEpzXvuPa",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "mwHTecB638E"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Jesse Harlin, Astro Bellum",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Jesse Harlin, Astro Bellum",
+            "name": "StatTrak™ Music Kit | Jesse Harlin, Astro Bellum",
+            "market_hash_name": "StatTrak™ Music Kit | Jesse Harlin, Astro Bellum",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP36E9lN99ZX441fYEUy_xsC5pSMIvfGqbaZvJfXCWDXClO0k47BrTi3ml0l14W_QzI6tJS3CbBhgVMVNIuoA8w",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "P4HpUNmo_AQ"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Sarah Schachner, KOLIBRI",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Sarah Schachner, KOLIBRI",
+            "name": "StatTrak™ Music Kit | Sarah Schachner, KOLIBRI",
+            "market_hash_name": "StatTrak™ Music Kit | Sarah Schachner, KOLIBRI",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnqF5F5m94_16VHpRA_OzseuqCMO7feoO_Q9IaTHCD-WlLp0sbJtF3jkx0lysD_WyImvdy-WPQ4lXIwwG7Cq-4RO3A",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "G2bMJMber5g"
           }
         ]
       }
@@ -1293,49 +1391,55 @@
             "market_hash_name": "Music Kit | 3kliksphilip, Heading for the Source",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuZnCb7F1m5I_95lD3fk2g0MW3q3IKvqr4P6BsJPHHXjeSkLl147Q-GH3rkU5z5z7UztaoIHmfZgc-SswnBcYXqSs",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "xqcwgRlfeAY"
           },
           {
             "name": "Music Kit | Humanity's Last Breath, Void",
             "market_hash_name": "Music Kit | Humanity's Last Breath, Void",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPXeV2gYkutf2ugHjR0T1yc7ir3EL6aD4av1od_WRWmHIxe134bBvHXDrl053tjvLioH-59nm0rc",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "b4H9qZHfLPM"
           },
           {
             "name": "Music Kit | Juelz, Shooters",
             "market_hash_name": "Music Kit | Juelz, Shooters",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP26S6UxKpNa6ul2yGE3zzZLkqyEOt_asafQ4dPWWXjeWlLx36LA_GnDlwx8isW7UysHpLyxdw4RVEg",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "FxZWIscBpqE"
           },
           {
             "name": "Music Kit | Knock2, dashstar*",
             "market_hash_name": "Music Kit | Knock2, dashstar*",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnWY5l0ny9elpFuwQhugx8G0qXVavqT_avw_I6HCDT-Vk-oi5rFtGnjjkBxy6zyGmNu3MSXAuEzdSoI",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "OCxmJWVv31o"
           },
           {
             "name": "Music Kit | Meechy Darko, Gothic Luxury",
             "market_hash_name": "Music Kit | Meechy Darko, Gothic Luxury",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOH6S5l5s8Ibm4VbYEUy_y5Li-HsC6fT2afZoJqnKXDWUmbp3s7c4TSyxzB4j5WXQzduvI3OfaBhgVMWCMDEthw",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "ZP-P4ieTMKs"
           },
           {
             "name": "Music Kit | Sullivan King, Lock Me Up",
             "market_hash_name": "Music Kit | Sullivan King, Lock Me Up",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJm6b6V9j9Yn_41fgfk2g0MG3rXUMvfH3OKc8IfOVXTPJxbwgs-BqTSuykUwm6mvTm9erdHmTbVU-SswnLnCCc2g",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "jaWkZCTpuQ8"
           }
         ]
       }
     },
     {
       "id": "stattrak_initiation_music_kit_box",
-      "name": "StatTrak\u2122 Initiation Music Kit Box",
+      "name": "StatTrak™ Initiation Music Kit Box",
       "type": "music_kit_box",
       "price": 5.9,
       "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnp8ytP5vO6Z7Z-H-OHD3OE0-99j-JoXzqmmRhpt2_Vnt36dXuUblMoWZZxRO4D5xG5wYG0P-zj4FPZi91EniqojSwb7jErvbizkQOf-g",
@@ -1345,46 +1449,52 @@
       "tiers": {
         "high_grade": [
           {
-            "name": "StatTrak\u2122 Music Kit | 3kliksphilip, Heading for the Source",
-            "market_hash_name": "StatTrak\u2122 Music Kit | 3kliksphilip, Heading for the Source",
+            "name": "StatTrak™ Music Kit | 3kliksphilip, Heading for the Source",
+            "market_hash_name": "StatTrak™ Music Kit | 3kliksphilip, Heading for the Source",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuZnCb7F1m5I_95lD3fk2g0MW3q3IKvqr4P6BsJPHHXjeSkLl147Q-GH3rkU5z5z7UztaoIHmfZgc-SswnBcYXqSs",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "xqcwgRlfeAY"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Humanity's Last Breath, Void",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Humanity's Last Breath, Void",
+            "name": "StatTrak™ Music Kit | Humanity's Last Breath, Void",
+            "market_hash_name": "StatTrak™ Music Kit | Humanity's Last Breath, Void",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPXeV2gYkutf2ugHjR0T1yc7ir3EL6aD4av1od_WRWmHIxe134bBvHXDrl053tjvLioH-59nm0rc",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "b4H9qZHfLPM"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Juelz, Shooters",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Juelz, Shooters",
+            "name": "StatTrak™ Music Kit | Juelz, Shooters",
+            "market_hash_name": "StatTrak™ Music Kit | Juelz, Shooters",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuP26S6UxKpNa6ul2yGE3zzZLkqyEOt_asafQ4dPWWXjeWlLx36LA_GnDlwx8isW7UysHpLyxdw4RVEg",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "FxZWIscBpqE"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Knock2, dashstar*",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Knock2, dashstar*",
+            "name": "StatTrak™ Music Kit | Knock2, dashstar*",
+            "market_hash_name": "StatTrak™ Music Kit | Knock2, dashstar*",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPnWY5l0ny9elpFuwQhugx8G0qXVavqT_avw_I6HCDT-Vk-oi5rFtGnjjkBxy6zyGmNu3MSXAuEzdSoI",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "OCxmJWVv31o"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Meechy Darko, Gothic Luxury",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Meechy Darko, Gothic Luxury",
+            "name": "StatTrak™ Music Kit | Meechy Darko, Gothic Luxury",
+            "market_hash_name": "StatTrak™ Music Kit | Meechy Darko, Gothic Luxury",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOH6S5l5s8Ibm4VbYEUy_y5Li-HsC6fT2afZoJqnKXDWUmbp3s7c4TSyxzB4j5WXQzduvI3OfaBhgVMWCMDEthw",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "ZP-P4ieTMKs"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Sullivan King, Lock Me Up",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Sullivan King, Lock Me Up",
+            "name": "StatTrak™ Music Kit | Sullivan King, Lock Me Up",
+            "market_hash_name": "StatTrak™ Music Kit | Sullivan King, Lock Me Up",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJm6b6V9j9Yn_41fgfk2g0MG3rXUMvfH3OKc8IfOVXTPJxbwgs-BqTSuykUwm6mvTm9erdHmTbVU-SswnLnCCc2g",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "jaWkZCTpuQ8"
           }
         ]
       }
@@ -1405,56 +1515,63 @@
             "market_hash_name": "Music Kit | Dren, Gunman Taco Truck",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMWmS62klpsmiuQ-zFh7ympPlrXQCvaf7bvU0dajKCjCTxLxy5eM-SyzmzEwmsmuH1J_3JsSHwbhj",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "kSENMW9KHJ0"
           },
           {
             "name": "Music Kit | Sam Marshall, Bodacious",
             "market_hash_name": "Music Kit | Sam Marshall, Bodacious",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnqa6Fdn54_15lXYEUy_zsPh-SEJtqCvbvBsIvOVCzGTxbh04uU-GSjlxU93sj_dyt6rcyrDPxhgVMX0GDfl6g",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "w8Wph6r8g4M"
           },
           {
             "name": "Music Kit | Austin Wintory, Bachram",
             "market_hash_name": "Music Kit | Austin Wintory, Bachram",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNG6E8V974476_lb1WCKhzNjjpSRZuKr3bqVveKjGVjGUl7d04uNqF3vhxk51smqEwtn4JymfbVN0FNIuEmZnQsKn",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "z0tboG1zirM"
           },
           {
             "name": "Music Kit | Matt Levine, Drifter",
             "market_hash_name": "Music Kit | Matt Levine, Drifter",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHqD8Vpw4o7672a3EFOoycLiqXcL6qT-PvE5d_HCXT-VkLt35bU5GnDkxEtzsT6Bzd_4eS6fcEZ-XQTUt-o7",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "97incUZu5f8"
           },
           {
             "name": "Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
             "market_hash_name": "Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIWmS4Fdx9Yrn1VviTx_jkZvm9CdX683-Oeo9ePOSVj-Tmegg5bFrGnvnk0p36jzWn938cX7CbQcmCpd3TOANs0O7jJS5YPSqCPlw",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "t8QKDnCPmNM"
           },
           {
             "name": "Music Kit | Daniel Sadowski, Eye of the Dragon",
             "market_hash_name": "Music Kit | Daniel Sadowski, Eye of the Dragon",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsKuqyBevaD_PvY_cqnBC2aSx-sitOA9Hy3iw0shsmrQm9n9cS_EO1UlD4wwG7C42cYiFA",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "MDz2APnwJvU"
           },
           {
             "name": "Music Kit | Tim Huling, Neo Noir",
             "market_hash_name": "Music Kit | Tim Huling, Neo Noir",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXKa7UN5_Ynz1Qm2D0igxpfhqyAPufGra_RpeKDKCzaVmLYi4LU4TH_lkxl34zvXyI2pcX6JLlh3SgiXjNY",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "1_aIPw_0gXE"
           }
         ]
       }
     },
     {
       "id": "stattrak_masterminds_music_kit_box",
-      "name": "StatTrak\u2122 Masterminds Music Kit Box",
+      "name": "StatTrak™ Masterminds Music Kit Box",
       "type": "music_kit_box",
       "price": 5.6,
       "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqnt_DFP6uCjYappM8-AGmaE1fx3u95qTjmggBEi_T-EzIqqeSmQO1JxA5MiTbFYtBa5wNflM-PmsQffiogTmCn4jn9M7y11o7FVUoJ_7e8",
@@ -1464,53 +1581,60 @@
       "tiers": {
         "high_grade": [
           {
-            "name": "StatTrak\u2122 Music Kit | Dren, Gunman Taco Truck",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Dren, Gunman Taco Truck",
+            "name": "StatTrak™ Music Kit | Dren, Gunman Taco Truck",
+            "market_hash_name": "StatTrak™ Music Kit | Dren, Gunman Taco Truck",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMWmS62klpsmiuQ-zFh7ympPlrXQCvaf7bvU0dajKCjCTxLxy5eM-SyzmzEwmsmuH1J_3JsSHwbhj",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "kSENMW9KHJ0"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Sam Marshall, Bodacious",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Sam Marshall, Bodacious",
+            "name": "StatTrak™ Music Kit | Sam Marshall, Bodacious",
+            "market_hash_name": "StatTrak™ Music Kit | Sam Marshall, Bodacious",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnqa6Fdn54_15lXYEUy_zsPh-SEJtqCvbvBsIvOVCzGTxbh04uU-GSjlxU93sj_dyt6rcyrDPxhgVMX0GDfl6g",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "w8Wph6r8g4M"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Austin Wintory, Bachram",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Austin Wintory, Bachram",
+            "name": "StatTrak™ Music Kit | Austin Wintory, Bachram",
+            "market_hash_name": "StatTrak™ Music Kit | Austin Wintory, Bachram",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuNG6E8V974476_lb1WCKhzNjjpSRZuKr3bqVveKjGVjGUl7d04uNqF3vhxk51smqEwtn4JymfbVN0FNIuEmZnQsKn",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "z0tboG1zirM"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Matt Levine, Drifter",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Matt Levine, Drifter",
+            "name": "StatTrak™ Music Kit | Matt Levine, Drifter",
+            "market_hash_name": "StatTrak™ Music Kit | Matt Levine, Drifter",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuOHqD8Vpw4o7672a3EFOoycLiqXcL6qT-PvE5d_HCXT-VkLt35bU5GnDkxEtzsT6Bzd_4eS6fcEZ-XQTUt-o7",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "97incUZu5f8"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
+            "name": "StatTrak™ Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
+            "market_hash_name": "StatTrak™ Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIWmS4Fdx9Yrn1VviTx_jkZvm9CdX683-Oeo9ePOSVj-Tmegg5bFrGnvnk0p36jzWn938cX7CbQcmCpd3TOANs0O7jJS5YPSqCPlw",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "t8QKDnCPmNM"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Daniel Sadowski, Eye of the Dragon",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Daniel Sadowski, Eye of the Dragon",
+            "name": "StatTrak™ Music Kit | Daniel Sadowski, Eye of the Dragon",
+            "market_hash_name": "StatTrak™ Music Kit | Daniel Sadowski, Eye of the Dragon",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuMXqZ7FN554bw5U70ShTOzsKuqyBevaD_PvY_cqnBC2aSx-sitOA9Hy3iw0shsmrQm9n9cS_EO1UlD4wwG7C42cYiFA",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "MDz2APnwJvU"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Tim Huling, Neo Noir",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Tim Huling, Neo Noir",
+            "name": "StatTrak™ Music Kit | Tim Huling, Neo Noir",
+            "market_hash_name": "StatTrak™ Music Kit | Tim Huling, Neo Noir",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIXKa7UN5_Ynz1Qm2D0igxpfhqyAPufGra_RpeKDKCzaVmLYi4LU4TH_lkxl34zvXyI2pcX6JLlh3SgiXjNY",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "1_aIPw_0gXE"
           }
         ]
       }
@@ -1531,56 +1655,63 @@
             "market_hash_name": "Music Kit | Beartooth, Aggressive",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN36W90J6-5P81Qm1D0v0ncXjpHcDuqT5OfY1JKnHWjLFx7l147U8Fivhxxwj4W3Ty46ocyiJLlh39UDB3WA",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "vnMSivyiFEE"
           },
           {
             "name": "Music Kit | Roam, Backbone",
             "market_hash_name": "Music Kit | Roam, Backbone",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJ3SW6Gklpcnw7wC2GEujx5Cx-SQMuqSqOv01JKjCDWOSk7pz5rQxSiiwk0p36m2G1J_3JhtobOCh",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "auum2IQVmEw"
           },
           {
             "name": "Music Kit | Blitz Kids, The Good Youth",
             "market_hash_name": "Music Kit | Blitz Kids, The Good Youth",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN3ee8Ux-_YPn1Qm2D0j3zsK4rXYNt_T5avA7IajAVmWSlrgntOdtSSjjwkV_52vcn9z8cHyJLlh3QAIUPxY",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "3aFh__HBYGM"
           },
           {
             "name": "Music Kit | Neck Deep, Life's Not Out To Get You",
             "market_hash_name": "Music Kit | Neck Deep, Life's Not Out To Get You",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuO36U7lJw8ZfLugipR0_zzMCzqHsMvKSoOvI-I6XCV2GSlOxwtuNoSXzqxR5ysD-BmYuodmXXMFGQ36ERJg",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "BP3yqucVzjc"
           },
           {
             "name": "Music Kit | Hundredth, FREE",
             "market_hash_name": "Music Kit | Hundredth, FREE",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPW6Z4URw8JP81Qm2DxunzsWypXcL7qD4bf1vcfaXDT6Vmbol5eA8GH3hzU8l4WrSw92udXyJLlh3C_9f1qc",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "RKGAUvW96fo"
           },
           {
             "name": "Music Kit | Skog, III-Arena",
             "market_hash_name": "Music Kit | Skog, III-Arena",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnCY4mklp8mm6w_lF0j3m8S0qXFY66D5PPU5I6iWDzPIl78is7VrFnrrwx505GqE1J_3JpXwBPe8",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "vr7nfZsuucI"
           },
           {
             "name": "Music Kit | Twin Atlantic, GLA",
             "market_hash_name": "Music Kit | Twin Atlantic, GLA",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIWye61dh-Ib6_lDkfk2g0Jez-HQLuqT3bPQ4cqfBXzXHlLci4-M-SSjjlEhx4DjQw4v9cy2WbgM-SswnmggWEWw",
             "market_price": 0.6,
-            "stat_trak": false
+            "stat_trak": false,
+            "youtube_id": "POXMI1ZfImM"
           }
         ]
       }
     },
     {
       "id": "stattrak_radicals_music_kit_box",
-      "name": "StatTrak\u2122 Radicals Music Kit Box",
+      "name": "StatTrak™ Radicals Music Kit Box",
       "type": "music_kit_box",
       "price": 6.15,
       "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj5_0ruQhb4iqny_CZS7POie5tuIeCAG2uVj7Yg4udoS37jx0ty5TyEzNiuIHvGbgR2WZd2F-cJsEa7ktSxZL7m71TAy9UStC8aRws",
@@ -1590,53 +1721,60 @@
       "tiers": {
         "high_grade": [
           {
-            "name": "StatTrak\u2122 Music Kit | Beartooth, Aggressive",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Beartooth, Aggressive",
+            "name": "StatTrak™ Music Kit | Beartooth, Aggressive",
+            "market_hash_name": "StatTrak™ Music Kit | Beartooth, Aggressive",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN36W90J6-5P81Qm1D0v0ncXjpHcDuqT5OfY1JKnHWjLFx7l147U8Fivhxxwj4W3Ty46ocyiJLlh39UDB3WA",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "vnMSivyiFEE"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Roam, Backbone",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Roam, Backbone",
+            "name": "StatTrak™ Music Kit | Roam, Backbone",
+            "market_hash_name": "StatTrak™ Music Kit | Roam, Backbone",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJ3SW6Gklpcnw7wC2GEujx5Cx-SQMuqSqOv01JKjCDWOSk7pz5rQxSiiwk0p36m2G1J_3JhtobOCh",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "auum2IQVmEw"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Blitz Kids, The Good Youth",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Blitz Kids, The Good Youth",
+            "name": "StatTrak™ Music Kit | Blitz Kids, The Good Youth",
+            "market_hash_name": "StatTrak™ Music Kit | Blitz Kids, The Good Youth",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuN3ee8Ux-_YPn1Qm2D0j3zsK4rXYNt_T5avA7IajAVmWSlrgntOdtSSjjwkV_52vcn9z8cHyJLlh3QAIUPxY",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "3aFh__HBYGM"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Neck Deep, Life's Not Out To Get You",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Neck Deep, Life's Not Out To Get You",
+            "name": "StatTrak™ Music Kit | Neck Deep, Life's Not Out To Get You",
+            "market_hash_name": "StatTrak™ Music Kit | Neck Deep, Life's Not Out To Get You",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuO36U7lJw8ZfLugipR0_zzMCzqHsMvKSoOvI-I6XCV2GSlOxwtuNoSXzqxR5ysD-BmYuodmXXMFGQ36ERJg",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "BP3yqucVzjc"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Hundredth, FREE",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Hundredth, FREE",
+            "name": "StatTrak™ Music Kit | Hundredth, FREE",
+            "market_hash_name": "StatTrak™ Music Kit | Hundredth, FREE",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuPW6Z4URw8JP81Qm2DxunzsWypXcL7qD4bf1vcfaXDT6Vmbol5eA8GH3hzU8l4WrSw92udXyJLlh3C_9f1qc",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "RKGAUvW96fo"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Skog, III-Arena",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Skog, III-Arena",
+            "name": "StatTrak™ Music Kit | Skog, III-Arena",
+            "market_hash_name": "StatTrak™ Music Kit | Skog, III-Arena",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJnCY4mklp8mm6w_lF0j3m8S0qXFY66D5PPU5I6iWDzPIl78is7VrFnrrwx505GqE1J_3JpXwBPe8",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "vr7nfZsuucI"
           },
           {
-            "name": "StatTrak\u2122 Music Kit | Twin Atlantic, GLA",
-            "market_hash_name": "StatTrak\u2122 Music Kit | Twin Atlantic, GLA",
+            "name": "StatTrak™ Music Kit | Twin Atlantic, GLA",
+            "market_hash_name": "StatTrak™ Music Kit | Twin Atlantic, GLA",
             "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuIWye61dh-Ib6_lDkfk2g0Jez-HQLuqT3bPQ4cqfBXzXHlLci4-M-SSjjlEhx4DjQw4v9cy2WbgM-SswnmggWEWw",
             "market_price": 0.6,
-            "stat_trak": true
+            "stat_trak": true,
+            "youtube_id": "POXMI1ZfImM"
           }
         ]
       }

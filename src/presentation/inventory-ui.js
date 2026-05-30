@@ -3,9 +3,10 @@ import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { FloatService }    from '../foundation/float-service.js';
 import { Events }          from '../foundation/events.js';
 
-let _container = null;
-let _visible   = false;
-let _dirty     = false; // re-render pending while view is hidden
+let _container          = null;
+let _visible            = false;
+let _dirty              = false; // re-render pending while view is hidden
+let _activeMusicKitName = null;  // kit name currently playing in the YouTube player
 
 /**
  * Grid view of the player's skin inventory with inline sell confirmation.
@@ -81,17 +82,19 @@ export const InventoryUI = {
 
   _makeCard(entry) {
     const item        = entry.item;
-    const isSticker   = !item.weapon && !!item.name;
+    const isMusicKit  = !item.weapon && typeof item.name === 'string' && (item.name.startsWith('Music Kit |') || item.name.startsWith('StatTrak™ Music Kit |'));
+    const isSticker   = !item.weapon && !!item.name && !isMusicKit;
     const isStatTrak  = !!item.stat_trak;
     const salePrice   = item.market_price ?? 0;
     const net         = Math.round(salePrice * 0.85 * 100) / 100;
-    const displayName = isSticker ? item.name : _formatItemName(item.weapon, item.skin);
+    const displayName = (isSticker || isMusicKit) ? item.name : _formatItemName(item.weapon, item.skin);
 
     const card = document.createElement('div');
     card.className = `inventory-card rarity-${item.rarity ?? 'unknown'}`;
+    if (isMusicKit) card.classList.add('music-kit-card');
 
     let img;
-    if (isSticker) {
+    if (isSticker || isMusicKit) {
       img = document.createElement('img');
       img.src = item.image_url ?? '';
       img.onerror = () => { img.src = ''; img.className = 'card-image card-image--missing'; };
@@ -100,6 +103,24 @@ export const InventoryUI = {
     }
     img.className = 'card-image';
     img.alt       = displayName;
+
+    if (isMusicKit) {
+      const playIndicator = document.createElement('div');
+      playIndicator.className = 'music-kit-playing';
+      playIndicator.textContent = '♪';
+      card.appendChild(playIndicator);
+
+      card.dataset.kitName = item.name;
+      card.dataset.youtubeId = item.youtube_id ?? '';
+
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.btn-sell, .sell-confirm')) return;
+        _toggleMusicKit(item.name, item.youtube_id ?? '');
+      });
+
+      // Reflect active state if already playing
+      card.classList.toggle('is-playing', _activeMusicKitName === item.name);
+    }
 
     const name = document.createElement('div');
     name.className = 'card-name';
@@ -184,6 +205,67 @@ export const InventoryUI = {
     return card;
   },
 };
+
+function _closeMusicPlayer() {
+  document.querySelector('.music-kit-modal')?.remove();
+  _activeMusicKitName = null;
+  document.querySelectorAll('.music-kit-card').forEach(c => c.classList.remove('is-playing'));
+}
+
+function _toggleMusicKit(kitName, youtubeId) {
+  if (_activeMusicKitName === kitName) {
+    _closeMusicPlayer();
+    return;
+  }
+
+  // Remove any existing modal first
+  document.querySelector('.music-kit-modal')?.remove();
+  _activeMusicKitName = kitName;
+
+  const displayName = kitName.replace(/^(StatTrak™ )?Music Kit \| /, '');
+
+  // Backdrop
+  const modal = document.createElement('div');
+  modal.className = 'music-kit-modal';
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) _closeMusicPlayer();
+  });
+
+  // Dialog box
+  const dialog = document.createElement('div');
+  dialog.className = 'music-kit-dialog';
+
+  const header = document.createElement('div');
+  header.className = 'music-kit-dialog-header';
+
+  const title = document.createElement('span');
+  title.className   = 'music-kit-dialog-title';
+  title.textContent = displayName;
+
+  const closeBtn = document.createElement('button');
+  closeBtn.className   = 'music-kit-dialog-close';
+  closeBtn.textContent = '✕';
+  closeBtn.addEventListener('click', _closeMusicPlayer);
+
+  header.appendChild(title);
+  header.appendChild(closeBtn);
+
+  const iframe = document.createElement('iframe');
+  iframe.className = 'music-kit-dialog-iframe';
+  iframe.setAttribute('allow', 'autoplay; encrypted-media');
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.src = `https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0`;
+
+  dialog.appendChild(header);
+  dialog.appendChild(iframe);
+  modal.appendChild(dialog);
+  document.body.appendChild(modal);
+
+  // Update card play states
+  document.querySelectorAll('.music-kit-card').forEach(c => {
+    c.classList.toggle('is-playing', c.dataset.kitName === kitName);
+  });
+}
 
 /**
  * Formats a skin name in standard CS2 display format.
