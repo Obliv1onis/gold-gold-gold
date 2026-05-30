@@ -90,10 +90,11 @@ export const TerminalOrchestrator = {
       throw e;
     }
     _offeredIds.add(rolled.item_id);
-    const floatVal = FloatService.generateFloat();
-    const wearTier = FloatService.getWearTier(floatVal);
-    const adjPrice = _round((rolled.market_price ?? 0) * FloatService.getPriceMultiplier(floatVal));
-    const skin     = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: adjPrice };
+    const floatVal      = FloatService.generateFloat();
+    const wearTier      = FloatService.getWearTier(floatVal);
+    const terminalMult  = 0.60 + Math.random() * 0.50; // [0.60, 1.10]
+    const adjPrice      = _round((rolled.market_price ?? 0) * FloatService.getPriceMultiplier(floatVal) * terminalMult);
+    const skin          = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: adjPrice };
     AudioSystem.playReveal();
     _onOffer(skin, _offerCount, _offerCount >= MAX_OFFERS);
   },

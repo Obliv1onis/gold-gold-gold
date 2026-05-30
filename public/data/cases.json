@@ -742,9 +742,9 @@
           },
           {
             "weapon": "Nova",
-            "skin": "Dark Water",
+            "skin": "Dark Sigil",
             "item_id": "kw_nova_dark_water",
-            "image_url": null,
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwixU-fORbLZsK_uSHFicyOl-pK8xG3q1lk0l4m2HmI6odXiRbwF1CJchQbEI4RK8kNPiMb-24A3W3YoX02yg2YjfpjSA",
             "market_price": 0.06,
             "stattrak": true
           },
