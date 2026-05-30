@@ -55,9 +55,11 @@ export const CaseBrowserUI = {
     if (!_container) return;
     _container.innerHTML = '';
 
-    const sections = _activeFilter
-      ? [{ type: _activeFilter, title: _activeFilter === 'weapon_case' ? 'Weapon Cases' : 'Souvenir Packages' }]
-      : [{ type: 'weapon_case', title: 'Weapon Cases' }, { type: 'souvenir_package', title: 'Souvenir Packages' }];
+    const sections = _activeFilter === 'weapon_case'
+      ? [{ type: 'terminal', title: 'Terminals' }, { type: 'weapon_case', title: 'Weapon Cases' }]
+      : _activeFilter
+        ? [{ type: _activeFilter, title: _activeFilter === 'souvenir_package' ? 'Souvenir Packages' : _activeFilter }]
+        : [{ type: 'weapon_case', title: 'Weapon Cases' }, { type: 'souvenir_package', title: 'Souvenir Packages' }];
 
     let anyItems = false;
     for (const { type, title } of sections) {

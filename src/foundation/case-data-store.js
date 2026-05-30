@@ -2,6 +2,7 @@
 // See GDD: design/gdd/case-data-store.md for schema, validation rules, and edge cases.
 
 const WEAPON_CASE_RARITIES = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
+const TERMINAL_RARITIES    = ['mil_spec', 'restricted', 'classified', 'covert'];
 const ALL_RARITIES = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 
 let _cases = new Map();
@@ -10,13 +11,15 @@ let _state = 'unloaded'; // 'unloaded' | 'loaded' | 'error'
 function _validateEntry(entry) {
   const type = entry.type ?? 'weapon_case';
 
-  if (type !== 'weapon_case' && type !== 'souvenir_package') {
+  if (type !== 'weapon_case' && type !== 'souvenir_package' && type !== 'terminal') {
     console.warn(`[CDS] Skipping "${entry.id}": unrecognized type "${type}"`);
     return false;
   }
 
   const weights = entry.rarity_weights ?? {};
-  const checkRarities = type === 'weapon_case' ? WEAPON_CASE_RARITIES : ALL_RARITIES;
+  const checkRarities = type === 'weapon_case' ? WEAPON_CASE_RARITIES
+                      : type === 'terminal'     ? TERMINAL_RARITIES
+                      :                          ALL_RARITIES;
   const sum = checkRarities.reduce((acc, r) => acc + (weights[r] ?? 0), 0);
   if (Math.abs(sum - 100.0) > 0.01) {
     console.error(`[CDS] Data error: "${entry.id}" weights sum to ${sum.toFixed(4)} (expected 100.0 ±0.01). Skipping.`);
@@ -25,8 +28,9 @@ function _validateEntry(entry) {
 
   const items = entry.items ?? {};
 
-  if (type === 'weapon_case') {
-    for (const rarity of WEAPON_CASE_RARITIES) {
+  if (type === 'weapon_case' || type === 'terminal') {
+    const rarities = type === 'weapon_case' ? WEAPON_CASE_RARITIES : TERMINAL_RARITIES;
+    for (const rarity of rarities) {
       const tier = items[rarity] ?? [];
       const weight = weights[rarity] ?? 0;
       if (tier.length === 0) {

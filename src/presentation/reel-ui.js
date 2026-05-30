@@ -1,15 +1,17 @@
 import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { Events }          from '../foundation/events.js';
 import { CaseDataStore }   from '../foundation/case-data-store.js';
+import goldUrl             from '../gold.png';
 
 const CARD_WIDTH_PX      = 250;
 const IDLE_CENTER_INDEX  = 30;
 const VIEWPORT_FALLBACK  = 800; // px — used when container is not in DOM (E4)
 
-let _container  = null;  // outer element passed to initialize()
-let _viewport   = null;  // .reel-viewport element
-let _strip      = null;  // .reel-strip element
-let _spinActive = false; // true from first render() call until next initialize()
+let _container        = null;  // outer element passed to initialize()
+let _viewport         = null;  // .reel-viewport element
+let _strip            = null;  // .reel-strip element
+let _spinActive       = false; // true from first render() call until next initialize()
+let _rareWinningCard  = null;  // DOM card element for a rare_special winning item
 
 /**
  * DOM rendering layer for the case opening reel animation.
@@ -82,6 +84,21 @@ export const ReelUI = {
   /** Resets internal spin state so the next open rebuilds cards. */
   resetSpin() {
     _spinActive = false;
+    _rareWinningCard = null;
+  },
+
+  /**
+   * Swaps the masked gold card with the actual rare_special item visuals.
+   * Called by the orchestrator when the reveal overlay appears.
+   *
+   * @param {object} item - InventorySkinEntry with image_url, weapon, skin
+   */
+  revealRareCard(item) {
+    if (!_rareWinningCard) return;
+    const imgEl  = _rareWinningCard.querySelector('.card-image');
+    const nameEl = _rareWinningCard.querySelector('.card-name');
+    if (imgEl)  { imgEl.src = item.image_url ?? ''; imgEl.alt = `${item.weapon} | ${item.skin}`; }
+    if (nameEl) nameEl.textContent = `${item.weapon} | ${item.skin}`;
   },
 };
 
@@ -130,16 +147,27 @@ function _makeCard(item) {
   const div = document.createElement('div');
   div.className = `reel-card rarity-${item.rarity ?? 'unknown'}`;
 
-  const img = SkinImageLoader.getImage(item.image_url ?? null, item.rarity);
+  const isRare = item.rarity === 'rare_special';
+
+  let img;
+  if (isRare) {
+    img = document.createElement('img');
+    img.src = goldUrl;
+    img.alt = 'Rare Special Item';
+  } else {
+    img = SkinImageLoader.getImage(item.image_url ?? null, item.rarity);
+  }
   img.className = 'card-image';
-  img.alt = `${item.weapon} | ${item.skin}`;
 
   const name = document.createElement('span');
-  name.className  = 'card-name';
-  name.textContent = `${item.weapon} | ${item.skin}`;
+  name.className   = 'card-name';
+  name.textContent = isRare ? '★Rare Special Item★' : `${item.weapon} | ${item.skin}`;
 
   div.appendChild(img);
   div.appendChild(name);
+
+  if (isRare) _rareWinningCard = div;
+
   return div;
 }
 

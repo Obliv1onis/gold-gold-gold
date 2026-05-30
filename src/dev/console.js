@@ -11,11 +11,14 @@
  *   game.confirm()        — confirm a pending action    (dev mode only)
  */
 
-import { VirtualEconomy } from '../core/virtual-economy.js';
+import { VirtualEconomy }  from '../core/virtual-economy.js';
+import { DropRateEngine }  from '../core/drop-rate-engine.js';
 
-let _devMode = false;
-let _badge   = null;
-let _pending = null; // stores a queued action waiting for game.confirm()
+let _devMode  = false;
+let _goldMode = false;
+let _badge    = null;
+let _goldBadge = null;
+let _pending  = null; // stores a queued action waiting for game.confirm()
 
 function _applyDevMode(on) {
   document.body.classList.toggle('dev-mode', on);
@@ -28,9 +31,30 @@ function _applyDevMode(on) {
   }
   if (_badge) _badge.hidden = !on;
 
+  // Turn off gold mode when dev mode turns off
+  if (!on && _goldMode) _applyGoldMode(false);
+
   console.log(
     `%c[DEV] Dev mode ${on ? 'ON ✓' : 'OFF'}`,
     `color: ${on ? '#4caf50' : '#e57373'}; font-weight: bold`,
+  );
+}
+
+function _applyGoldMode(on) {
+  _goldMode = on;
+  DropRateEngine.setForceGold(on);
+
+  if (on && !_goldBadge) {
+    _goldBadge = document.createElement('div');
+    _goldBadge.id = 'gold-mode-badge';
+    _goldBadge.textContent = 'GOLD';
+    document.body.appendChild(_goldBadge);
+  }
+  if (_goldBadge) _goldBadge.hidden = !on;
+
+  console.log(
+    `%c[DEV] Gold mode ${on ? 'ON ✓ — always rare special (if available)' : 'OFF'}`,
+    `color: ${on ? '#f9a825' : '#e57373'}; font-weight: bold`,
   );
 }
 
@@ -53,14 +77,27 @@ const _commands = {
 
   help() {
     console.log('%c── game console commands ──────────────────', 'color: #81c784; font-weight: bold');
-    console.log('%c  game.devMode(1|0)    %c  turn on/off, or toggle if empty',           'color: #ffd54f', 'color: #aaa');
-    console.log('%c  game.help()          %c  show this list',                            'color: #ffd54f', 'color: #aaa');
-    console.log('%c  game.setBalance(num) %c  set balance to num (up to 2 decimals) [dev]', 'color: #ffd54f', 'color: #aaa');
-    console.log('%c  game.prototype(1|0)  %c  jump to / from the prototype page      [dev]', 'color: #ffd54f', 'color: #aaa');
-    console.log('%c  game.confirm()       %c  confirm a pending action               [dev]', 'color: #ffd54f', 'color: #aaa');
+    console.log('%c  game.devMode(1|0)    %c  turn on/off, or toggle if empty',                   'color: #ffd54f', 'color: #aaa');
+    console.log('%c  game.help()          %c  show this list',                                    'color: #ffd54f', 'color: #aaa');
+    console.log('%c  game.setBalance(num) %c  set balance to num (up to 2 decimals)  [dev]',      'color: #ffd54f', 'color: #aaa');
+    console.log('%c  game.alwaysGold(1|0) %c  force rare special drops, or toggle    [dev]',      'color: #ffd54f', 'color: #aaa');
+    console.log('%c  game.prototype(1|0)  %c  jump to / from the prototype page      [dev]',      'color: #ffd54f', 'color: #aaa');
+    console.log('%c  game.confirm()       %c  confirm a pending action               [dev]',      'color: #ffd54f', 'color: #aaa');
   },
 
   // ── Add custom dev commands below this line ───────────────────────────────
+
+  alwaysGold(val) {
+    if (val === undefined) {
+      _applyGoldMode(!_goldMode);
+    } else if (val === 0 || val === false) {
+      _applyGoldMode(false);
+    } else if (val === 1 || val === true) {
+      _applyGoldMode(true);
+    } else {
+      console.warn('%c[game] alwaysGold accepts: 1, 0, true, false, or nothing.', 'color: #e57373');
+    }
+  },
 
   prototype(val) {
     const PROTO_PATH = '/prototypes/vault-concept/prototype.html';

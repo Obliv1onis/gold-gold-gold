@@ -15,6 +15,7 @@ import { InventoryUI }             from './presentation/inventory-ui.js';
 import { MarketUI }                from './presentation/market-ui.js';
 import { PriceAPILayer }          from './feature/price-api-layer.js';
 import { TradeUpUI }               from './presentation/trade-up-ui.js';
+import { TerminalUI }              from './presentation/terminal-ui.js';
 import { initDevConsole }          from './dev/console.js';
 
 async function main() {
@@ -72,7 +73,7 @@ async function main() {
         } else {
           CaseOpeningOrchestrator.open(itemId, price, ReelUI.viewportWidth, {
             onFrame:   (offset, strip) => ReelUI.render(offset, strip),
-            onReveal:  (entry)         => RevealUI.show(entry),
+            onReveal:  (entry)         => { if (entry.rarity === 'rare_special') ReelUI.revealRareCard(entry); RevealUI.show(entry); },
             onBlocked: (reason)        => HudAppShell.onBlocked(reason),
             onReady:   ()              => { ReelUI.resetSpin(); HudAppShell.onReady(); },
           });
@@ -83,6 +84,10 @@ async function main() {
   // 4. Case + capsule browsers share the same container
   CaseBrowserUI.init(caseBrowserContainer, {
     onSelect: async (caseId, casePrice) => {
+      if (CaseDataStore.getCase(caseId)?.type === 'terminal') {
+        TerminalUI.show(caseId, casePrice);
+        return;
+      }
       HudAppShell.showCaseOpening(caseId, casePrice);
       await ReelUI.initialize(reelContainer, caseId);
     },
@@ -98,9 +103,10 @@ async function main() {
   // 5. Start price bulk-load in background immediately (warms cache before market opens)
   PriceAPILayer.warmup();
 
-  // 6. Reveal overlays, market, and inventory
+  // 6. Reveal overlays, terminal overlay, market, and inventory
   RevealUI.init(overlayContainer, () => HudAppShell.onRevealDismissed());
   CapsuleRevealUI.init(overlayContainer, () => HudAppShell.onReady());
+  TerminalUI.init(overlayContainer);
   MarketUI.init(marketContainer);
   TradeUpUI.init(tradeUpContainer);
   InventoryUI.init(inventoryContainer);

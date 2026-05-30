@@ -6,7 +6,12 @@ export class RollError extends Error {
 
 const TIERS = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 
+let _forceGold = false;
+
 export const DropRateEngine = {
+  get forceGold() { return _forceGold; },
+  setForceGold(on) { _forceGold = !!on; },
+
   // rng is injectable for deterministic testing (default: Math.random).
   // See GDD Open Question re: RNG injection for testability.
   roll(caseId, rng = Math.random) {
@@ -14,6 +19,17 @@ export const DropRateEngine = {
     if (!entry) throw new RollError(`Case not found: ${caseId}`);
 
     const weights = entry.rarity_weights;
+
+    // Dev override: force the highest available tier
+    if (_forceGold) {
+      const tiersByPriority = [...TIERS].reverse(); // rare_special → covert → classified → …
+      for (const tier of tiersByPriority) {
+        const items = CaseDataStore.getItems(caseId, tier);
+        if (items.length > 0) {
+          return { ...items[Math.floor(rng() * items.length)], rarity: tier };
+        }
+      }
+    }
 
     // Phase 1 — weighted tier selection
     let selectedTier = TIERS[TIERS.length - 1]; // rare_special fallback (float-sum guard)
