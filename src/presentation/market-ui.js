@@ -174,14 +174,15 @@ export const MarketUI = {
       return;
     }
 
-    const q = query.toLowerCase();
+    const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    const matchAll = (haystack) => words.every(w => haystack.includes(w));
 
     const matchedSkins = (_allItems ?? []).filter(it => {
       const name     = `${it.weapon} ${it.skin}`.toLowerCase();
       const nameZh   = i18n.skinName(it.weapon, it.skin).toLowerCase();
       const caseName = (it.case_name ?? '').toLowerCase();
       const caseZh   = i18n.caseName(it.case_name ?? '').toLowerCase();
-      return name.includes(q) || nameZh.includes(q) || caseName.includes(q) || caseZh.includes(q);
+      return matchAll(name) || matchAll(nameZh) || matchAll(caseName) || matchAll(caseZh);
     });
 
     const matchedCaps = (_capsuleItems ?? []).filter(it => {
@@ -189,7 +190,7 @@ export const MarketUI = {
       const nameZh = i18n.caseName(it.name ?? '').toLowerCase();
       const src    = (it.capsuleName ?? '').toLowerCase();
       const srcZh  = i18n.caseName(it.capsuleName ?? '').toLowerCase();
-      return name.includes(q) || nameZh.includes(q) || src.includes(q) || srcZh.includes(q);
+      return matchAll(name) || matchAll(nameZh) || matchAll(src) || matchAll(srcZh);
     });
 
     _searchQuery  = query;
