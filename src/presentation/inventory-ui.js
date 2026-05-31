@@ -136,7 +136,7 @@ export const InventoryUI = {
       stSpan.className   = 'stat-trak-prefix';
       stSpan.textContent = 'StatTrak™ ';
       name.appendChild(stSpan);
-      name.appendChild(document.createTextNode(displayName));
+      name.appendChild(document.createTextNode(displayName.replace(/^StatTrak™ /, '')));
     } else {
       name.textContent = displayName;
     }

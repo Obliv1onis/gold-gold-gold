@@ -142,17 +142,18 @@ const _commands = {
     action();
   },
 
+  noWayYouFoundThis() {
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+  },
+
   setBalance(num) {
-    if (!Number.isFinite(num) || num < 0) {
-      console.warn('%c[game] setBalance requires a non-negative number.', 'color: #e57373');
+    if (num !== Infinity && (!Number.isFinite(num) || num < 0)) {
+      console.warn('%c[game] setBalance requires a non-negative number or Infinity.', 'color: #e57373');
       return;
     }
-    const target  = Math.round(num * 100) / 100;
-    const current = VirtualEconomy.getBalance();
-    const diff    = Math.round((target - current) * 100) / 100;
-    if (diff > 0)      VirtualEconomy.earn(diff);
-    else if (diff < 0) VirtualEconomy.spend(-diff);
-    console.log(`%c[game] Balance set to $${target.toFixed(2)}`, 'color: #4caf50; font-weight: bold');
+    VirtualEconomy.forceSet(num);
+    const label = num === Infinity ? 'Infinity' : `$${(Math.round(num * 100) / 100).toFixed(2)}`;
+    console.log(`%c[game] Balance set to ${label}`, 'color: #4caf50; font-weight: bold');
   },
 
 };
@@ -164,8 +165,8 @@ export function initDevConsole() {
     get(target, prop) {
       if (typeof prop !== 'string' || prop === 'devMode') return target[prop];
 
-      // help() is always allowed
-      if (prop === 'help') return target.help;
+      // help() and easter eggs are always allowed
+      if (prop === 'help' || prop === 'noWayYouFoundThis') return target[prop];
 
       if (!_devMode) {
         return () => console.warn(

@@ -566,6 +566,7 @@ function _makeTile(cat, onClick) {
 }
 
 function _formatBalance(balance) {
+  if (balance === Infinity) return 'Infinity';
   const n = (typeof balance === 'number' && isFinite(balance)) ? balance : 0;
   return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
