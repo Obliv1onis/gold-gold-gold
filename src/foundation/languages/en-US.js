@@ -24,10 +24,14 @@ export default {
 
   // Home tiles
   coming_soon:      'Coming Soon',
-  tile_weapon_case: 'Weapon Cases',
-  tile_souvenir:    'Souvenir Packages',
-  tile_sticker:     'Sticker Capsules',
-  tile_other:       'Others',
+  tile_weapon_case:       'Weapon Cases',
+  tile_souvenir:          'Souvenir Packages',
+  tile_sticker:           'Sticker Capsules',
+  tile_other:             'Others',
+  tile_sub_weapon_case:   '{n} Cases',
+  tile_sub_souvenir:      '{n} Packages',
+  tile_sub_sticker:       '{n} Capsules',
+  tile_sub_other:         '{n} Containers',
 
   // Blocked / error messages
   err_no_case:      'No cases owned.',
@@ -76,7 +80,20 @@ export default {
 
   // Trade-up
   tradeup_btn:      'Trade Up →',
-  tradeup_hint:     'Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item',
+  tradeup_hint:        'Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item',
+  rare_special_label:  '★Rare Special Item★',
+  'rarity.consumer_grade':   'Consumer Grade',
+  'rarity.industrial_grade': 'Industrial Grade',
+  'rarity.mil_spec':         'Mil-Spec',
+  'rarity.restricted':       'Restricted',
+  'rarity.classified':       'Classified',
+  'rarity.covert':           'Covert',
+  'rarity.rare_special':     'Rare Special',
+  'rarity.contraband':       'Contraband',
+  'rarity.high_grade':       'High Grade',
+  'rarity.remarkable':       'Remarkable',
+  'rarity.exotic':           'Exotic',
+  'rarity.extraordinary':    'Extraordinary',
   your_skins:       'Your Skins',
   no_eligible:      'No eligible skins in inventory.',
   avg_float:        'Avg float: {val}',

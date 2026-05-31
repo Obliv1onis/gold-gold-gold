@@ -162,7 +162,7 @@ function _makeCard(item) {
 
   const name = document.createElement('span');
   name.className   = 'card-name';
-  name.textContent = isRare ? '★Rare Special Item★' : i18n.skinName(item.weapon, item.skin);
+  name.textContent = isRare ? i18n.t('rare_special_label') : i18n.skinName(item.weapon, item.skin);
 
   div.appendChild(img);
   div.appendChild(name);

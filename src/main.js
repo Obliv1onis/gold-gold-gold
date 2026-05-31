@@ -32,6 +32,7 @@ async function main() {
 
   // 3. Build layout; wire Open button → Orchestrator
   const allWeaponCases  = CaseDataStore.getCaseList('weapon_case');
+  const allTerminals    = CaseDataStore.getCaseList('terminal');
   const allSouvenirs    = CaseDataStore.getCaseList('souvenir_package');
   const allCapsules     = CapsuleDataStore.getCapsuleList('sticker_capsule');
   const allOthers       = CapsuleDataStore.getCapsuleList(['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box']);
@@ -41,10 +42,10 @@ async function main() {
   const heroOther       = allOthers.find(c => c.image_url);
 
   const categories = [
-    { id: 'weapon_case',      titleKey: 'tile_weapon_case', subtitle: `${allWeaponCases.length} Cases`,       image: heroCase?.image_url },
-    { id: 'souvenir_package', titleKey: 'tile_souvenir',    subtitle: `${allSouvenirs.length} Packages`,      image: heroSouvenir?.image_url },
-    { id: 'sticker_capsule',  titleKey: 'tile_sticker',     subtitle: `${allCapsules.length} Capsules`,       image: heroCapsule?.image_url },
-    { id: 'other',            titleKey: 'tile_other',       subtitle: `${allOthers.length} Containers`,      image: heroOther?.image_url },
+    { id: 'weapon_case',      titleKey: 'tile_weapon_case', subtitleKey: 'tile_sub_weapon_case', subtitleN: allWeaponCases.length + allTerminals.length, image: heroCase?.image_url },
+    { id: 'souvenir_package', titleKey: 'tile_souvenir',    subtitleKey: 'tile_sub_souvenir',    subtitleN: allSouvenirs.length,                          image: heroSouvenir?.image_url },
+    { id: 'sticker_capsule',  titleKey: 'tile_sticker',     subtitleKey: 'tile_sub_sticker',     subtitleN: allCapsules.length,                           image: heroCapsule?.image_url },
+    { id: 'other',            titleKey: 'tile_other',       subtitleKey: 'tile_sub_other',       subtitleN: allOthers.length,                             image: heroOther?.image_url },
   ];
 
   const { caseBrowserContainer, reelContainer, overlayContainer, marketContainer, tradeUpContainer, inventoryContainer } =

@@ -237,6 +237,9 @@ export const HudAppShell = {
 
     // Re-apply dynamic strings on locale change
     document.addEventListener('locale-changed', () => {
+      rootEl.querySelectorAll('.home-tile__count[data-subtitle-key]').forEach(el => {
+        el.textContent = i18n.t(el.dataset.subtitleKey, { n: Number(el.dataset.subtitleN) });
+      });
       this._refreshCaseCount();
       if (_currentView === 'reel' && _selectedCaseId) {
         _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
@@ -544,7 +547,14 @@ function _makeTile(cat, onClick) {
   }
   content.appendChild(title);
 
-  if (cat.subtitle) {
+  if (cat.subtitleKey) {
+    const count = document.createElement('div');
+    count.className            = 'home-tile__count';
+    count.dataset.subtitleKey  = cat.subtitleKey;
+    count.dataset.subtitleN    = cat.subtitleN ?? 0;
+    count.textContent          = i18n.t(cat.subtitleKey, { n: cat.subtitleN ?? 0 });
+    content.appendChild(count);
+  } else if (cat.subtitle) {
     const count = document.createElement('div');
     count.className   = 'home-tile__count';
     count.textContent = cat.subtitle;

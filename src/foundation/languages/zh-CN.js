@@ -24,10 +24,14 @@ export default {
 
   // Home tiles
   coming_soon:      '即将推出',
-  tile_weapon_case: '武器箱',
-  tile_souvenir:    '纪念包',
-  tile_sticker:     '印花胶囊',
-  tile_other:       '其他',
+  tile_weapon_case:       '武器箱',
+  tile_souvenir:          '纪念包',
+  tile_sticker:           '印花胶囊',
+  tile_other:             '其他',
+  tile_sub_weapon_case:   '{n} 个武器箱',
+  tile_sub_souvenir:      '{n} 个纪念包',
+  tile_sub_sticker:       '{n} 个印花胶囊',
+  tile_sub_other:         '{n} 个容器',
 
   // Blocked / error messages
   err_no_case:      '未拥有此箱子。',
@@ -76,7 +80,20 @@ export default {
 
   // Trade-up
   tradeup_btn:      '汰换合同 →',
-  tradeup_hint:     '选择10件同品质皮肤（军规/受限/保密）或5件隐秘皮肤以获得罕见特殊物品',
+  tradeup_hint:        '选择10件同品质皮肤（军规/受限/保密）或5件隐秘皮肤以获得罕见特殊物品',
+  rare_special_label:  '★极其罕见的特殊物品★',
+  'rarity.consumer_grade':   '消费级',
+  'rarity.industrial_grade': '工业级',
+  'rarity.mil_spec':         '军规级',
+  'rarity.restricted':       '受限',
+  'rarity.classified':       '保密',
+  'rarity.covert':           '隐秘',
+  'rarity.rare_special':     '罕见特殊',
+  'rarity.contraband':       '违禁',
+  'rarity.high_grade':       '高级',
+  'rarity.remarkable':       '卓越',
+  'rarity.exotic':           '奇异',
+  'rarity.extraordinary':    '非凡',
   your_skins:       '我的皮肤',
   no_eligible:      '背包中没有符合条件的皮肤。',
   avg_float:        '平均磨损：{val}',

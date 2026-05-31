@@ -53,6 +53,13 @@ export const i18n = {
     return result ?? name;
   },
 
+  /** Translated rarity label, falling back to title-cased English key. */
+  rarityLabel(rarity) {
+    const result = TRANSLATIONS[_locale]?.['rarity.' + rarity];
+    if (result) return result;
+    return rarity ? rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : '';
+  },
+
   /**
    * Translated skin display name, falling back to formatted English.
    * Handles knife/glove ★ prefix repositioning for English display.

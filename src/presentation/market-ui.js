@@ -306,12 +306,13 @@ export const MarketUI = {
     const metaEl = document.createElement('div');
     metaEl.className = 'market-row-meta';
     if (isCap) {
-      metaEl.textContent = `${_capsuleTypeLabel(item.capsuleType)} · ${_formatRarity(item.rarity)}`;
+      metaEl.textContent = `${_capsuleTypeLabel(item.capsuleType)} · ${i18n.rarityLabel(item.rarity)}`;
     } else {
-      const caseLabel = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : null);
+      const rawCase  = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : null);
+      const caseLabel = rawCase ? i18n.caseName(rawCase) : null;
       metaEl.textContent = caseLabel
-        ? `${caseLabel} · ${_formatRarity(item.rarity)}`
-        : _formatRarity(item.rarity);
+        ? `${caseLabel} · ${i18n.rarityLabel(item.rarity)}`
+        : i18n.rarityLabel(item.rarity);
     }
 
     info.appendChild(nameEl);
@@ -498,10 +499,6 @@ function _variantsFor(item) {
   return LISTING_VARIANTS;
 }
 
-function _formatRarity(rarity) {
-  if (!rarity) return '';
-  return rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-}
 
 function _makeCapsuleListing(item) {
   const hashName   = item.market_hash_name ?? item.name;
