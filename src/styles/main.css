@@ -238,6 +238,26 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 /* ─── Home ───────────────────────────────────────────────────────────────── */
 #home-view { overflow: hidden; }
 
+.btn-daily-bonus {
+  padding: 5px 12px;
+  background: #e4ae39;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.btn-daily-bonus:hover:not(:disabled) { background: #f0c04a; }
+
+.btn-daily-bonus:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
 .home-grid {
   flex: 1;
   display: flex;

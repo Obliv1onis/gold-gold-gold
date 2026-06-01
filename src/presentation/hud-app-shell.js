@@ -3,6 +3,7 @@ import { CaseInventory }               from '../core/case-inventory.js';
 import { SkinInventory }               from '../core/skin-inventory.js';
 import { Events }                      from '../foundation/events.js';
 import { i18n }                        from '../foundation/i18n.js';
+import { DailyBonus }                  from '../feature/daily-bonus.js';
 
 // ─── Module-level state ───────────────────────────────────────────────────────
 
@@ -36,6 +37,8 @@ let _errorEl        = null;
 let _openSection    = null;
 let _backBtn        = null;
 let _appEl          = null;
+let _bonusBtn       = null;
+let _bonusTimer     = null;
 
 /**
  * Top-level layout shell. Manages three views:
@@ -91,6 +94,7 @@ export const HudAppShell = {
           <span class="hud-error-msg" hidden></span>
         </div>
         <div class="hud-actions">
+          <button class="btn-daily-bonus" data-i18n="daily_bonus_btn">${i18n.t('daily_bonus_btn')}</button>
           <div class="lang-wrap">
             <button class="btn-language" data-i18n="language">Language</button>
             <div class="lang-dropdown" hidden>
@@ -213,6 +217,17 @@ export const HudAppShell = {
     _errorEl      = rootEl.querySelector('.hud-error-msg');
     _openSection  = rootEl.querySelector('.hud-open-section');
     _backBtn      = rootEl.querySelector('.btn-back');
+
+    // Daily bonus
+    _bonusBtn = rootEl.querySelector('.btn-daily-bonus');
+    _bonusBtn.addEventListener('click', () => {
+      if (DailyBonus.claim()) {
+        this._refreshBonusBar();
+        this._refreshBalance();
+      }
+    });
+    this._refreshBonusBar();
+    _bonusTimer = setInterval(() => this._refreshBonusBar(), 1000);
 
     // Language button + dropdown
     const langBtn      = rootEl.querySelector('.btn-language');
@@ -503,6 +518,11 @@ export const HudAppShell = {
     _errorEl.textContent = msg;
     _errorEl.removeAttribute('hidden');
     setTimeout(() => _errorEl.setAttribute('hidden', ''), 2600);
+  },
+
+  _refreshBonusBar() {
+    if (!_bonusBtn) return;
+    _bonusBtn.disabled = !DailyBonus.isAvailable();
   },
 };
 

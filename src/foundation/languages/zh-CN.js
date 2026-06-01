@@ -1751,6 +1751,12 @@ export default {
   'skin_name.Zeus x27 | Olympus': '宙斯x27电击枪 | 奥林匹斯',
   'skin_name.Zeus x27 | Tosai': '宙斯x27电击枪 | 当岁鱼',
 
+  // Daily bonus
+  daily_bonus_btn:      '每日$200',
+  daily_bonus_ready:    '🎁 每日奖励已就绪！',
+  daily_bonus_claim:    '领取 $200',
+  daily_bonus_next:     '下次奖励：{time}',
+
   // Market
   market_ph:        '搜索武器、皮肤、箱子……',
   recommended:      '推荐',

@@ -100,6 +100,12 @@ export default {
   tradeup_result:   'Trade-Up Result',
   accept:           'Accept',
 
+  // Daily bonus
+  daily_bonus_btn:      'Daily $200',
+  daily_bonus_ready:    '🎁 Daily Bonus Ready!',
+  daily_bonus_claim:    'Claim $200',
+  daily_bonus_next:     'Next bonus in: {time}',
+
   // Market
   market_ph:        'Search weapons, skins, cases…',
   recommended:      'Recommended',
