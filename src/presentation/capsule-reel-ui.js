@@ -1,6 +1,7 @@
 import { Events }          from '../foundation/events.js';
 import { CapsuleDataStore }  from '../foundation/capsule-data-store.js';
 import { makePlaceholder }   from '../feature/item-placeholder.js';
+import { i18n }              from '../foundation/i18n.js';
 
 const CARD_WIDTH_PX     = 250;
 const IDLE_CENTER_INDEX = 30;
@@ -95,7 +96,11 @@ function _buildIdleStrip(capsuleId) {
   for (let i = 0; i < 60; i++) {
     const tier  = _pickBackgroundTier(weights);
     const pool  = capsule.tiers?.[tier] ?? [];
-    if (pool.length > 0) strip.push({ ...pool[Math.floor(Math.random() * pool.length)], rarity: tier });
+    if (pool.length > 0) strip.push({
+      ...pool[Math.floor(Math.random() * pool.length)],
+      rarity: tier,
+      capsuleType: capsule.type ?? 'sticker_capsule',
+    });
   }
   if (!strip.length) return;
 
@@ -119,7 +124,11 @@ function _makeCard(item) {
 
   const name = document.createElement('span');
   name.className   = 'card-name';
-  name.textContent = item.name ?? item.market_hash_name ?? '';
+  name.textContent = i18n.itemName(
+    item.market_hash_name ?? item.name ?? '',
+    i18n.getLocale(),
+    item.capsuleType,
+  );
 
   div.appendChild(name);
   return div;

@@ -9,94 +9,165 @@ import { VirtualEconomy }   from '../core/virtual-economy.js';
 import { SkinInventory }    from '../core/skin-inventory.js';
 import { Events }           from '../foundation/events.js';
 
-const RARITY_TIERS      = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
-const WEAR_TIERS        = ['fn', 'mw', 'ft', 'ww', 'bs'];
-const STAT_TRAK_MULTIPLIER = 1.50;
-// 10 variants per skin: 5 normal + 5 StatTrak™
-const LISTING_VARIANTS  = [
-  ...WEAR_TIERS.map(tier => ({ tier, statTrak: false })),
-  ...WEAR_TIERS.map(tier => ({ tier, statTrak: true  })),
+const WEAR_TIERS = ['fn', 'mw', 'ft', 'ww', 'bs'];
+const SKIN_RARITIES = [
+  'consumer_grade', 'industrial_grade', 'mil_spec', 'restricted',
+  'classified', 'covert', 'rare_special',
 ];
-const RECOMMEND_SKINS   = 2;   // × 10 variants = 20 rows
-const ITEMS_PER_PAGE    = 8;   // unique skins/capsules per search-result page
+const ITEMS_PER_PAGE = 24;
+const RECOMMENDED_SKINS = 8;
+const RECOMMENDED_COSMETICS = 4;
 
-// Contraband items exist only in the market — not in any case, not in trade-ups.
-const CONTRABAND_ITEMS = [
-  {
-    id:          'm4a4_howl',
-    weapon:      'M4A4',
-    skin:        'Howl',
-    rarity:      'contraband',
-    market_price: 2500,
-    image_url:   'https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiFO0P_6afVSKP-EAm6extF6ueZhW2exwkl2tmTXwt39eCiUPQR2DMN4TOVetUK8xoLgM-K341eM2otDnC6okGoXufBz_TAB',
-    wear_tiers:  ['fn', 'mw', 'ft', 'ww'],  // max float 0.4 — no Battle-Scarred
-    case_id:     null,
-    case_name:   null,
-  },
+const CONTRABAND_ITEMS = [{
+  id: 'm4a4_howl',
+  weapon: 'M4A4',
+  skin: 'Howl',
+  rarity: 'contraband',
+  market_price: 2500,
+  image_url: 'https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiFO0P_6afVSKP-EAm6extF6ueZhW2exwkl2tmTXwt39eCiUPQR2DMN4TOVetUK8xoLgM-K341eM2otDnC6okGoXufBz_TAB',
+  wear_tiers: ['fn', 'mw', 'ft', 'ww'],
+  case_id: null,
+  case_name: null,
+}];
+
+const CATEGORY_KEYS = {
+  all: 'market_category_all',
+  skin: 'market_category_skins',
+  souvenir: 'market_category_souvenir',
+  sticker_capsule: 'market_category_stickers',
+  charm_capsule: 'market_category_charms',
+  patch_pack: 'market_category_patches',
+  pin_capsule: 'market_category_pins',
+  music_kit_box: 'market_category_music',
+};
+
+const RARITY_OPTIONS = [
+  'all', 'consumer_grade', 'industrial_grade', 'mil_spec', 'restricted',
+  'classified', 'covert', 'rare_special', 'contraband', 'high_grade',
+  'remarkable', 'exotic', 'extraordinary',
 ];
 
-let _container      = null;
-let _allItems       = null;   // weapon/souvenir skins — built lazily on first show()
-let _capsuleItems   = null;   // stickers, charms, patches, pins, music kits
-let _recommended    = [];     // listings shown when search is empty
-let _searchEl       = null;
-let _listEl         = null;
-let _labelEl        = null;
-let _pagerEl        = null;
-let _searchTimer    = null;
-let _searchQuery    = '';
-let _matchedItems   = [];     // all matched source items for current query
-let _currentPage    = 1;
+let _container = null;
+let _allItems = null;
+let _capsuleItems = null;
+let _recommended = [];
+let _searchEl = null;
+let _listEl = null;
+let _labelEl = null;
+let _pagerEl = null;
+let _refreshBtn = null;
+let _searchTimer = null;
+let _searchQuery = '';
+let _category = 'all';
+let _rarity = 'all';
+let _sort = 'name';
+let _wear = 'ft';
+let _statTrak = false;
+let _currentPage = 1;
+let _visibleSourceItems = [];
 
-/**
- * Market browse view.
- * Shows randomly recommended skin listings (image, name, case, float scale,
- * price, buy button) and a search bar that filters across all skins.
- *
- * @example
- * MarketUI.init(document.querySelector('.market-container'));
- * // Later, from nav:
- * MarketUI.show(); MarketUI.hide();
- */
 export const MarketUI = {
-  /**
-   * @param {HTMLElement} container
-   */
   init(container) {
     _container = container;
     container.innerHTML = `
       <div class="market-view">
-        <div class="market-search-wrap">
-          <input class="market-search" type="text"
-            placeholder="Search weapons, skins, cases…" data-i18n-ph="market_ph"
-            autocomplete="off" spellcheck="false" />
+        <div class="market-toolbar">
+          <div class="market-search-wrap">
+            <span class="market-search-icon" aria-hidden="true">⌕</span>
+            <input class="market-search" type="search"
+              placeholder="Search weapons, skins, cases…" data-i18n-ph="market_ph"
+              aria-label="Search market" data-i18n-aria="market_ph"
+              autocomplete="off" spellcheck="false" />
+            <button type="button" class="market-search-clear" data-i18n-aria="market_clear" aria-label="Clear search" hidden>×</button>
+          </div>
+          <div class="market-filters">
+            ${_makeSelect('market-category', 'market_category', CATEGORY_KEYS)}
+            ${_makeSelect('market-rarity', 'market_rarity', Object.fromEntries(RARITY_OPTIONS.map(value => [value, value === 'all' ? 'market_rarity_all' : `rarity.${value}`])))}
+            ${_makeSelect('market-wear', 'market_wear', Object.fromEntries(WEAR_TIERS.map(value => [value, `wear.${value}`])))}
+            <label class="market-stattrak-toggle">
+              <input class="market-stattrak" type="checkbox" />
+              <span>StatTrak™</span>
+            </label>
+            ${_makeSelect('market-sort', 'market_sort', {
+              name: 'market_sort_name',
+              price_asc: 'market_sort_price_asc',
+              price_desc: 'market_sort_price_desc',
+              rarity: 'market_sort_rarity',
+            })}
+            <button type="button" class="market-refresh" data-i18n="market_refresh">Refresh picks</button>
+          </div>
         </div>
-        <div class="market-section-label" data-i18n="recommended">Recommended</div>
+        <div class="market-results-bar">
+          <div class="market-section-label"></div>
+          <div class="market-variant-note" data-i18n="market_variant_note">One listing per item · choose wear and StatTrak above</div>
+        </div>
         <div class="market-list"></div>
         <div class="market-pager" hidden></div>
       </div>
     `;
+
     _searchEl = container.querySelector('.market-search');
-    _listEl   = container.querySelector('.market-list');
-    _labelEl  = container.querySelector('.market-section-label');
-    _pagerEl  = container.querySelector('.market-pager');
+    _listEl = container.querySelector('.market-list');
+    _labelEl = container.querySelector('.market-section-label');
+    _pagerEl = container.querySelector('.market-pager');
+    _refreshBtn = container.querySelector('.market-refresh');
 
     _searchEl.addEventListener('input', () => {
       clearTimeout(_searchTimer);
-      _searchTimer = setTimeout(() => this._onSearch(_searchEl.value.trim()), 250);
+      container.querySelector('.market-search-clear').toggleAttribute('hidden', !_searchEl.value);
+      _searchTimer = setTimeout(() => {
+        _searchQuery = _searchEl.value.trim();
+        this._refreshView(true);
+      }, 150);
+    });
+    container.querySelector('.market-search-clear').addEventListener('click', event => {
+      clearTimeout(_searchTimer);
+      _searchEl.value = '';
+      _searchQuery = '';
+      event.currentTarget.setAttribute('hidden', '');
+      this._refreshView(true);
+      _searchEl.focus();
+    });
+    container.querySelector('.market-category').addEventListener('change', event => {
+      _category = event.currentTarget.value;
+      this._refreshView(true);
+    });
+    container.querySelector('.market-rarity').addEventListener('change', event => {
+      _rarity = event.currentTarget.value;
+      this._refreshView(true);
+    });
+    container.querySelector('.market-wear').addEventListener('change', event => {
+      _wear = event.currentTarget.value;
+      this._refreshView(false);
+    });
+    container.querySelector('.market-stattrak').addEventListener('change', event => {
+      _statTrak = event.currentTarget.checked;
+      this._refreshView(false);
+    });
+    container.querySelector('.market-sort').addEventListener('change', event => {
+      _sort = event.currentTarget.value;
+      this._refreshView(true);
+    });
+    _refreshBtn.addEventListener('click', () => {
+      _recommended = this._pickRecommended();
+      this._refreshView(true);
     });
 
-    // Update price elements and buy buttons when a live price arrives
-    document.addEventListener(Events.PRICE_UPDATED, e => {
-      const { hashName, price } = e.detail;
-      _listEl?.querySelectorAll('[data-hash-name]').forEach(el => {
-        if (el.dataset.hashName !== hashName) return;
-        if (el.classList.contains('market-row-price')) {
-          el.textContent = `$${price.toFixed(2)}`;
-          el.classList.remove('market-row-price--loading');
-          el.classList.add('market-row-price--live');
-        } else if (el.classList.contains('btn-market-buy')) {
-          el.disabled = false;
+    document.addEventListener('locale-changed', () => {
+      if (_allItems) this._refreshView(false);
+    });
+
+    document.addEventListener(Events.PRICE_UPDATED, event => {
+      const { hashName, price } = event.detail;
+      _listEl?.querySelectorAll('[data-hash-name]').forEach(element => {
+        if (element.dataset.hashName !== hashName) return;
+        if (element.classList.contains('market-row-price')) {
+          element.textContent = `$${price.toFixed(2)}`;
+          element.classList.remove('market-row-price--loading');
+          element.classList.add('market-row-price--live');
+          element.title = i18n.t('market_live_price');
+        } else if (element.classList.contains('btn-market-buy')) {
+          element.disabled = false;
         }
       });
     });
@@ -105,377 +176,386 @@ export const MarketUI = {
   show() {
     if (!_container) return;
     if (!_allItems) this._buildPool();
-    if (_recommended.length === 0) {
-      _recommended = this._pickBalanced();
-      this._render(_recommended);
-      _labelEl.textContent = i18n.t('recommended');
-    }
-    // Kick off price fetches for everything currently visible
-    _recommended.forEach(l => PriceAPILayer.prefetch(l.hashName));
+    if (!_recommended.length) _recommended = this._pickRecommended();
+    this._refreshView(false);
   },
 
-  hide() { /* no teardown needed */ },
-
-  // ── Internal ───────────────────────────────────────────────────────────────
+  hide() {},
 
   _buildPool() {
-    // ── Weapon / souvenir skins ───────────────────────────────────────────────
-    const raw = [];
-    for (const c of CaseDataStore.getCaseList()) {
-      const isSouvenir = c.type === 'souvenir_package';
-      for (const tier of RARITY_TIERS) {
-        for (const it of CaseDataStore.getItems(c.id, tier)) {
-          raw.push({ ...it, rarity: tier, case_id: c.id, case_name: c.name, isSouvenir });
+    const skins = new Map();
+    for (const container of CaseDataStore.getCaseList()) {
+      const isSouvenir = container.type === 'souvenir_package';
+      for (const rarity of SKIN_RARITIES) {
+        const items = CaseDataStore.getItems(container.id, rarity);
+        for (const source of items) {
+          const key = `${isSouvenir ? 'souvenir' : 'skin'}|${source.weapon}|${source.skin}`;
+          const existing = skins.get(key);
+          if (existing) {
+            if (!existing.case_names.includes(container.name)) existing.case_names.push(container.name);
+            continue;
+          }
+          skins.set(key, {
+            ...source,
+            rarity,
+            case_id: container.id,
+            case_name: container.name,
+            case_names: [container.name],
+            isSouvenir,
+          });
         }
       }
     }
-    for (const it of CONTRABAND_ITEMS) {
-      raw.push({ ...it, isSouvenir: false });
+    for (const source of CONTRABAND_ITEMS) {
+      skins.set(`skin|${source.weapon}|${source.skin}`, {
+        ...source,
+        case_names: [],
+        isSouvenir: false,
+      });
     }
-    const seen = new Set();
-    _allItems = raw.filter(it => {
-      if (it.rarity !== 'rare_special' && !it.isSouvenir) return true;
-      const key = `${it.weapon}|${it.skin}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      it.case_name = null;
-      return true;
-    });
+    _allItems = [...skins.values()];
 
-    // ── Capsule items (stickers, charms, patches, pins, music kits) ───────────
-    const seenCap = new Set();
-    _capsuleItems = CapsuleDataStore.getAllItems()
-      .filter(it => {
-        const key = it.market_hash_name ?? it.name;
-        if (seenCap.has(key)) return false;
-        seenCap.add(key);
-        return true;
-      })
-      .map(it => ({ ...it, isCapsuleItem: true }));
-  },
-
-  /** Picks `n` random skins and returns all wear variants for each (gloves skip StatTrak™). */
-  _pickBalanced(n = RECOMMEND_SKINS) {
-    if (!_allItems?.length) return [];
-    return [..._allItems]
-      .sort(() => Math.random() - 0.5)
-      .slice(0, n)
-      .flatMap(it => _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak)));
-  },
-
-  _onSearch(query) {
-    if (!query) {
-      _searchQuery  = '';
-      _matchedItems = [];
-      _currentPage  = 1;
-      _labelEl.textContent = i18n.t('recommended');
-      this._render(_recommended);
-      _pagerEl.setAttribute('hidden', '');
-      return;
+    const cosmetics = new Map();
+    for (const source of CapsuleDataStore.getAllItems()) {
+      const key = source.market_hash_name ?? `${source.capsuleType}|${source.name}`;
+      if (!cosmetics.has(key)) cosmetics.set(key, { ...source, isCapsuleItem: true });
     }
-
-    const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
-    const matchAll = (haystack) => words.every(w => haystack.includes(w));
-
-    const matchedSkins = (_allItems ?? []).filter(it => {
-      const name     = `${it.weapon} ${it.skin}`.toLowerCase();
-      const nameZh   = i18n.skinName(it.weapon, it.skin).toLowerCase();
-      const caseName = (it.case_name ?? '').toLowerCase();
-      const caseZh   = i18n.caseName(it.case_name ?? '').toLowerCase();
-      return matchAll(name) || matchAll(nameZh) || matchAll(caseName) || matchAll(caseZh);
-    });
-
-    const matchedCaps = (_capsuleItems ?? []).filter(it => {
-      const name   = (it.name ?? '').toLowerCase();
-      const nameZh = i18n.caseName(it.name ?? '').toLowerCase();
-      const src    = (it.capsuleName ?? '').toLowerCase();
-      const srcZh  = i18n.caseName(it.capsuleName ?? '').toLowerCase();
-      return matchAll(name) || matchAll(nameZh) || matchAll(src) || matchAll(srcZh);
-    });
-
-    _searchQuery  = query;
-    _matchedItems = [...matchedSkins, ...matchedCaps];
-    _currentPage  = 1;
-    this._showPage();
+    _capsuleItems = [...cosmetics.values()];
   },
 
-  _showPage() {
-    const total      = _matchedItems.length;
-    const totalPages = Math.max(1, Math.ceil(total / ITEMS_PER_PAGE));
-    _currentPage     = Math.min(Math.max(1, _currentPage), totalPages);
+  _pickRecommended() {
+    return [
+      ..._shuffle(_allItems).slice(0, RECOMMENDED_SKINS),
+      ..._shuffle(_capsuleItems).slice(0, RECOMMENDED_COSMETICS),
+    ];
+  },
 
-    const start    = (_currentPage - 1) * ITEMS_PER_PAGE;
-    const pageItems = _matchedItems.slice(start, start + ITEMS_PER_PAGE);
+  _refreshView(resetPage) {
+    if (!_allItems) return;
+    if (resetPage) _currentPage = 1;
 
-    const listings = pageItems.flatMap(it =>
-      it.isCapsuleItem
-        ? [_makeCapsuleListing(it)]
-        : _variantsFor(it).map(v => _makeListing(it, v.tier, v.statTrak))
+    const discoveryMode = !_searchQuery && _category === 'all' && _rarity === 'all';
+    const source = discoveryMode ? _recommended : [..._allItems, ..._capsuleItems];
+    _visibleSourceItems = sortMarketItems(
+      source.filter(item => marketItemMatches(item, {
+        query: _searchQuery,
+        category: _category,
+        rarity: _rarity,
+      })),
+      _sort,
+      { wear: _wear, statTrak: _statTrak },
     );
 
-    _labelEl.textContent = total
-      ? `Results for "${_searchQuery}" (${total} item${total !== 1 ? 's' : ''})`
-      : `No results for "${_searchQuery}"`;
+    const totalPages = Math.max(1, Math.ceil(_visibleSourceItems.length / ITEMS_PER_PAGE));
+    _currentPage = Math.min(Math.max(1, _currentPage), totalPages);
+    const start = (_currentPage - 1) * ITEMS_PER_PAGE;
+    const page = _visibleSourceItems.slice(start, start + ITEMS_PER_PAGE);
+    const listings = page.map(item => this._listingFor(item));
 
+    _labelEl.textContent = discoveryMode
+      ? i18n.t('market_recommended_count', { n: _visibleSourceItems.length })
+      : i18n.t('market_results_count', { n: _visibleSourceItems.length });
+    _refreshBtn.toggleAttribute('hidden', !discoveryMode);
     this._render(listings);
-    listings.forEach(l => l.hashName && PriceAPILayer.prefetch(l.hashName));
     this._renderPager(totalPages);
+    listings.forEach(listing => listing.hashName && PriceAPILayer.prefetch(listing.hashName));
+  },
+
+  _listingFor(item) {
+    if (item.isCapsuleItem) return _makeCapsuleListing(item);
+    const tiers = item.wear_tiers?.length ? item.wear_tiers : WEAR_TIERS;
+    const tier = _isVanilla(item) ? null : (tiers.includes(_wear) ? _wear : (tiers.includes('ft') ? 'ft' : tiers[0]));
+    const allowsStatTrak = !item.isSouvenir && !_isGlove(item.weapon) && item.rarity !== 'contraband';
+    return _makeListing(item, tier, _statTrak && allowsStatTrak);
   },
 
   _renderPager(totalPages) {
+    _pagerEl.innerHTML = '';
     if (totalPages <= 1) {
       _pagerEl.setAttribute('hidden', '');
       return;
     }
     _pagerEl.removeAttribute('hidden');
-    _pagerEl.innerHTML = '';
-
-    const prevBtn = document.createElement('button');
-    prevBtn.className   = 'market-pager-btn';
-    prevBtn.textContent = '←';
-    prevBtn.disabled    = _currentPage === 1;
-    prevBtn.addEventListener('click', () => {
+    const previous = _pagerButton('←', 'market_previous', _currentPage === 1, () => {
       _currentPage--;
-      this._showPage();
-      _listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this._refreshView(false);
+      _scrollMarketTop();
     });
-
     const label = document.createElement('span');
-    label.className   = 'market-pager-label';
-    label.textContent = `${_currentPage} / ${totalPages}`;
-
-    const nextBtn = document.createElement('button');
-    nextBtn.className   = 'market-pager-btn';
-    nextBtn.textContent = '→';
-    nextBtn.disabled    = _currentPage === totalPages;
-    nextBtn.addEventListener('click', () => {
+    label.className = 'market-pager-label';
+    label.textContent = i18n.t('market_page', { current: _currentPage, total: totalPages });
+    const next = _pagerButton('→', 'market_next', _currentPage === totalPages, () => {
       _currentPage++;
-      this._showPage();
-      _listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this._refreshView(false);
+      _scrollMarketTop();
     });
-
-    _pagerEl.appendChild(prevBtn);
-    _pagerEl.appendChild(label);
-    _pagerEl.appendChild(nextBtn);
+    _pagerEl.append(previous, label, next);
   },
 
   _render(listings) {
-    if (!_listEl) return;
     _listEl.innerHTML = '';
     if (!listings.length) {
       const empty = document.createElement('div');
-      empty.className   = 'market-empty';
-      empty.textContent = i18n.t('no_skins');
+      empty.className = 'market-empty';
+      empty.innerHTML = `<strong>${i18n.t('market_no_results')}</strong><span>${i18n.t('market_no_results_hint')}</span>`;
       _listEl.appendChild(empty);
       return;
     }
-    const frag = document.createDocumentFragment();
-    listings.forEach(l => frag.appendChild(this._makeRow(l)));
-    _listEl.appendChild(frag);
+    const fragment = document.createDocumentFragment();
+    for (const listing of listings) fragment.appendChild(this._makeRow(listing));
+    _listEl.appendChild(fragment);
   },
 
   _makeRow(listing) {
     const { item, floatVal, wearTier, statTrak, hashName, localPrice } = listing;
-    const isCap       = !!item.isCapsuleItem;
-    const displayName = isCap ? item.name : _formatItemName(item.weapon, item.skin);
-    const hasFloat    = !isCap && floatVal !== null && wearTier !== null;
+    const isCosmetic = !!item.isCapsuleItem;
+    const displayName = marketItemDisplayName(item);
+    const hasFloat = !isCosmetic && floatVal !== null && wearTier !== null;
 
-    const row = document.createElement('div');
+    const row = document.createElement('article');
     row.className = `market-row rarity-${item.rarity ?? 'unknown'}${statTrak ? ' market-row--st' : ''}`;
 
-    // ── Image ────────────────────────────────────────────────────────────────
     const img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
     img.className = 'market-row-img';
-    img.alt       = displayName;
+    img.alt = displayName;
 
-    // ── Info (name + meta) ────────────────────────────────────────────────
     const info = document.createElement('div');
     info.className = 'market-row-info';
-
-    const nameEl = document.createElement('div');
-    nameEl.className = 'market-row-name';
+    const name = document.createElement('div');
+    name.className = 'market-row-name';
     if (statTrak) {
-      const stSpan = document.createElement('span');
-      stSpan.className   = 'stat-trak-prefix';
-      stSpan.textContent = 'StatTrak™ ';
-      nameEl.appendChild(stSpan);
-      nameEl.appendChild(document.createTextNode(displayName.replace(/^StatTrak™ /, '')));
+      const prefix = document.createElement('span');
+      prefix.className = 'stat-trak-prefix';
+      prefix.textContent = 'StatTrak™ ';
+      name.append(prefix, document.createTextNode(displayName.replace(/^StatTrak™ /, '')));
     } else {
-      nameEl.textContent = displayName;
+      name.textContent = displayName;
     }
+    const meta = document.createElement('div');
+    meta.className = 'market-row-meta';
+    meta.textContent = _marketItemMeta(item);
+    info.append(name, meta);
 
-    const metaEl = document.createElement('div');
-    metaEl.className = 'market-row-meta';
-    if (isCap) {
-      metaEl.textContent = `${_capsuleTypeLabel(item.capsuleType)} · ${i18n.rarityLabel(item.rarity)}`;
-    } else {
-      const rawCase  = item.case_name ?? (item.rarity === 'contraband' ? 'Contraband Item' : null);
-      const caseLabel = rawCase ? i18n.caseName(rawCase) : null;
-      metaEl.textContent = caseLabel
-        ? `${caseLabel} · ${i18n.rarityLabel(item.rarity)}`
-        : i18n.rarityLabel(item.rarity);
-    }
-
-    info.appendChild(nameEl);
-    info.appendChild(metaEl);
-
-    // ── Float block — hidden for vanilla knives ───────────────────────────
     const floatBlock = document.createElement('div');
     floatBlock.className = 'market-float-block';
     if (hasFloat) {
       floatBlock.appendChild(_makeFloatScale(floatVal));
-
-      const floatLabel = document.createElement('div');
-      floatLabel.className = 'market-float-label';
-
+      const detail = document.createElement('div');
+      detail.className = 'market-float-label';
       const badge = document.createElement('span');
-      badge.className   = `wear-badge wear-${wearTier}`;
+      badge.className = `wear-badge wear-${wearTier}`;
       badge.textContent = i18n.wearLabel(wearTier);
-
-      const floatNum = document.createElement('span');
-      floatNum.className   = 'market-float-num';
-      floatNum.textContent = FloatService.formatFloat(floatVal);
-
-      floatLabel.appendChild(badge);
-      floatLabel.appendChild(floatNum);
-      floatBlock.appendChild(floatLabel);
-    }
-
-    // ── Price — Steam live price overrides local fallback when it arrives ─
-    const livePrice    = PriceAPILayer.getCachedPrice(hashName);
-    const displayPrice = livePrice ?? localPrice;
-
-    const priceEl = document.createElement('div');
-    priceEl.className        = 'market-row-price';
-    priceEl.dataset.hashName = hashName;
-    if (displayPrice !== null) {
-      priceEl.textContent = `$${displayPrice.toFixed(2)}`;
-      priceEl.classList.toggle('market-row-price--live', livePrice !== null);
+      const number = document.createElement('span');
+      number.className = 'market-float-num';
+      number.textContent = FloatService.formatFloat(floatVal);
+      detail.append(badge, number);
+      floatBlock.appendChild(detail);
     } else {
-      priceEl.textContent = '—';
-      priceEl.classList.add('market-row-price--loading');
+      floatBlock.textContent = i18n.t(isCosmetic ? 'market_no_wear' : 'market_vanilla');
+      floatBlock.classList.add('market-float-block--empty');
     }
 
-    // ── Buy button — enabled when any price is available ─────────────────
-    const buyBtn = document.createElement('button');
-    buyBtn.className   = 'btn-market-buy';
-    buyBtn.textContent = i18n.t('buy_btn');
-    buyBtn.disabled    = displayPrice === null;
-    buyBtn.dataset.hashName = hashName;
-    buyBtn.addEventListener('click', () => this._handleBuy(listing, buyBtn, row));
+    const livePrice = PriceAPILayer.getCachedPrice(hashName);
+    const displayPrice = livePrice ?? localPrice;
+    const price = document.createElement('div');
+    price.className = 'market-row-price';
+    price.dataset.hashName = hashName;
+    price.textContent = displayPrice === null ? '—' : `$${displayPrice.toFixed(2)}`;
+    if (livePrice !== null) {
+      price.classList.add('market-row-price--live');
+      price.title = i18n.t('market_live_price');
+    } else if (displayPrice === null) {
+      price.classList.add('market-row-price--loading');
+    } else {
+      price.title = i18n.t('market_fallback_price');
+    }
 
-    row.appendChild(img);
-    row.appendChild(info);
-    row.appendChild(floatBlock);
-    row.appendChild(priceEl);
-    row.appendChild(buyBtn);
+    const buy = document.createElement('button');
+    buy.className = 'btn-market-buy';
+    buy.textContent = i18n.t('buy_btn');
+    buy.disabled = displayPrice === null;
+    buy.dataset.hashName = hashName;
+    buy.addEventListener('click', () => this._handleBuy(listing, buy, row));
 
-    // Play button for music kits
-    const isMusicKit = isCap && typeof item.name === 'string' && item.name.includes('Music Kit |');
+    row.append(img, info, floatBlock, price, buy);
+    const isMusicKit = isCosmetic && item.capsuleType === 'music_kit_box';
     if (isMusicKit) {
       row.classList.add('market-row--has-play');
-      const playBtn = document.createElement('button');
-      playBtn.className   = 'btn-market-play';
-      playBtn.textContent = '♪';
-      playBtn.title       = 'Preview';
-      playBtn.dataset.kitName = item.name;
-      playBtn.addEventListener('click', () => MusicKitPlayer.toggle(item.name, item.youtube_id ?? ''));
-      row.appendChild(playBtn);
+      const play = document.createElement('button');
+      play.className = 'btn-market-play';
+      play.textContent = '♪';
+      play.title = i18n.t('market_preview');
+      play.setAttribute('aria-label', i18n.t('market_preview'));
+      play.addEventListener('click', () => MusicKitPlayer.toggle(item.name, item.youtube_id ?? ''));
+      row.appendChild(play);
     }
-
     return row;
   },
 
-  _handleBuy(listing, buyBtn, row) {
+  _handleBuy(listing, button, row) {
     const { item, statTrak, hashName, wearTier, localPrice } = listing;
-
     const buyPrice = PriceAPILayer.getCachedPrice(hashName) ?? localPrice;
-
     if (buyPrice === null || !VirtualEconomy.canAfford(buyPrice)) {
       row.classList.add('market-row--no-funds');
-      setTimeout(() => row.classList.remove('market-row--no-funds'), 700);
+      button.textContent = i18n.t('market_no_funds');
+      setTimeout(() => {
+        row.classList.remove('market-row--no-funds');
+        button.textContent = i18n.t('buy_btn');
+      }, 900);
       return;
     }
 
-    buyBtn.disabled = true;
+    button.disabled = true;
     VirtualEconomy.spend(buyPrice);
-
     if (item.isCapsuleItem) {
       SkinInventory.addItem({ ...item, market_price: buyPrice });
     } else {
       const receivedFloat = wearTier ? FloatService.generateFloatForTier(wearTier) : null;
-      const receivedTier  = receivedFloat !== null ? FloatService.getWearTier(receivedFloat) : null;
-      SkinInventory.addItem({ ...item, float: receivedFloat, wear_tier: receivedTier, market_price: buyPrice, stat_trak: statTrak });
+      SkinInventory.addItem({
+        ...item,
+        float: receivedFloat,
+        wear_tier: receivedFloat === null ? null : FloatService.getWearTier(receivedFloat),
+        market_price: buyPrice,
+        stat_trak: statTrak,
+      });
     }
-
-    buyBtn.textContent = i18n.t('bought');
-    buyBtn.classList.add('btn-market-buy--done');
-
-    setTimeout(() => {
-      const fresh  = item.isCapsuleItem
-        ? _makeCapsuleListing(item)
-        : _makeListing(item, listing.wearTier, statTrak);
-      const newRow = this._makeRow(fresh);
-      row.replaceWith(newRow);
-    }, 1200);
+    button.textContent = i18n.t('bought');
+    button.classList.add('btn-market-buy--done');
+    setTimeout(() => row.replaceWith(this._makeRow(this._listingFor(item))), 1000);
   },
 };
 
-// ── Module helpers ─────────────────────────────────────────────────────────────
-
-function _makeListing(item, forceTier = null, statTrak = false) {
-  const vanilla    = _isVanilla(item);
-  const floatVal   = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
-  const wearTier   = vanilla ? null : FloatService.getWearTier(floatVal);
-  const isSouvenir = item.isSouvenir ?? (CaseDataStore.getCase(item.case_id)?.type === 'souvenir_package');
-  const hashName   = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak, isSouvenir);
-  const localPrice = _localPrice(item, wearTier, statTrak);
-  return { item, floatVal, wearTier, statTrak, hashName, localPrice };
+export function marketItemCategory(item) {
+  if (item.isCapsuleItem) return item.capsuleType ?? 'sticker_capsule';
+  return item.isSouvenir ? 'souvenir' : 'skin';
 }
 
-// Wear-tier price multipliers relative to Field-Tested baseline
-const WEAR_MULT = { fn: 3.0, mw: 1.5, ft: 1.0, ww: 0.65, bs: 0.45 };
+export function marketItemDisplayName(item, locale = i18n.getLocale()) {
+  return item.isCapsuleItem
+    ? i18n.itemName(_marketItemTranslationName(item), locale, item.capsuleType)
+    : i18n.skinName(item.weapon, item.skin, locale);
+}
 
-// Souvenir item market_price in the JSON data stores the PACKAGE price (e.g. $2),
-// not the individual skin price. Use rarity-based estimates when the stored value
-// looks like a package price (< $20).
+export function marketItemMatches(item, { query = '', category = 'all', rarity = 'all' } = {}) {
+  if (category !== 'all' && marketItemCategory(item) !== category) return false;
+  if (rarity !== 'all' && item.rarity !== rarity) return false;
+  const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const sources = item.case_names ?? [item.case_name ?? item.capsuleName].filter(Boolean);
+  const text = [
+    marketItemDisplayName(item, 'en-US'),
+    marketItemDisplayName(item, 'zh-CN'),
+    item.market_hash_name,
+    ...sources,
+    ...sources.map(name => i18n.caseName(name, 'zh-CN')),
+  ].filter(Boolean).join(' ').toLocaleLowerCase();
+  return words.every(word => text.includes(word));
+}
+
+export function sortMarketItems(items, sort = 'name', variant = { wear: 'ft', statTrak: false }) {
+  const result = [...items];
+  const byName = (a, b) => marketItemDisplayName(a).localeCompare(marketItemDisplayName(b), i18n.getLocale());
+  if (sort === 'price_asc' || sort === 'price_desc') {
+    const direction = sort === 'price_asc' ? 1 : -1;
+    return result.sort((a, b) => direction * (_estimatedPrice(a, variant) - _estimatedPrice(b, variant)) || byName(a, b));
+  }
+  if (sort === 'rarity') {
+    return result.sort((a, b) => _rarityRank(b.rarity) - _rarityRank(a.rarity) || byName(a, b));
+  }
+  return result.sort(byName);
+}
+
+function _makeSelect(className, labelKey, options) {
+  const optionHtml = Object.entries(options)
+    .map(([value, key]) => `<option value="${value}" data-i18n="${key}">${i18n.t(key)}</option>`)
+    .join('');
+  return `<label class="market-filter"><span data-i18n="${labelKey}">${i18n.t(labelKey)}</span><select class="${className}">${optionHtml}</select></label>`;
+}
+
+function _pagerButton(text, labelKey, disabled, onClick) {
+  const button = document.createElement('button');
+  button.className = 'market-pager-btn';
+  button.textContent = text;
+  button.disabled = disabled;
+  button.title = i18n.t(labelKey);
+  button.setAttribute('aria-label', i18n.t(labelKey));
+  button.addEventListener('click', onClick);
+  return button;
+}
+
+function _scrollMarketTop() {
+  _labelEl?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function _shuffle(items) {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function _marketItemMeta(item) {
+  if (item.isCapsuleItem) {
+    return `${i18n.t(CATEGORY_KEYS[marketItemCategory(item)] ?? 'market_category_cosmetics')} · ${i18n.rarityLabel(item.rarity)}`;
+  }
+  const sources = item.case_names ?? [];
+  const source = sources[0] ?? (item.rarity === 'contraband' ? i18n.t('market_contraband_item') : null);
+  const translated = source ? i18n.caseName(source) : null;
+  const extra = sources.length > 1 ? i18n.t('market_more_sources', { n: sources.length - 1 }) : '';
+  return [translated, extra, i18n.rarityLabel(item.rarity)].filter(Boolean).join(' · ');
+}
+
+function _marketItemTranslationName(item) {
+  return item.market_hash_name ?? item.name;
+}
+
+function _makeListing(item, forceTier = null, statTrak = false) {
+  const vanilla = _isVanilla(item);
+  const floatVal = vanilla ? null : (forceTier ? FloatService.generateFloatForTier(forceTier) : FloatService.generateFloat());
+  const wearTier = vanilla ? null : FloatService.getWearTier(floatVal);
+  const hashName = PriceAPILayer.buildSkinHashName(item, wearTier, statTrak, item.isSouvenir);
+  return { item, floatVal, wearTier, statTrak, hashName, localPrice: _localPrice(item, wearTier, statTrak) };
+}
+
+const WEAR_MULTIPLIERS = { fn: 3, mw: 1.5, ft: 1, ww: 0.65, bs: 0.45 };
 const SOUVENIR_RARITY_ESTIMATE = {
-  covert:          1200,
-  classified:        80,
-  restricted:        12,
-  mil_spec:           2,
-  consumer_grade:  0.50,
-  industrial_grade: 0.50,
+  covert: 1200,
+  classified: 80,
+  restricted: 12,
+  mil_spec: 2,
+  consumer_grade: 0.5,
+  industrial_grade: 0.5,
 };
 
 function _localPrice(item, wearTier, statTrak) {
   let base = item.market_price ?? null;
   if (base === null) return null;
+  if (item.isSouvenir && base < 20) base = SOUVENIR_RARITY_ESTIMATE[item.rarity] ?? 5;
+  return Math.round(base * (WEAR_MULTIPLIERS[wearTier] ?? 1) * (statTrak ? 1.5 : 1) * 100) / 100;
+}
 
-  if (item.isSouvenir && base < 20) {
-    base = SOUVENIR_RARITY_ESTIMATE[item.rarity] ?? 5;
-  }
+function _estimatedPrice(item, { wear, statTrak }) {
+  if (item.isCapsuleItem) return item.market_price ?? Number.POSITIVE_INFINITY;
+  return _localPrice(item, wear, statTrak) ?? Number.POSITIVE_INFINITY;
+}
 
-  const wearMult = WEAR_MULT[wearTier] ?? 1.0;
-  const stMult   = statTrak ? 1.5 : 1.0;
-  return Math.round(base * wearMult * stMult * 100) / 100;
+function _rarityRank(rarity) {
+  return ['consumer_grade', 'industrial_grade', 'mil_spec', 'high_grade', 'restricted', 'remarkable', 'classified', 'exotic', 'covert', 'extraordinary', 'rare_special', 'contraband'].indexOf(rarity);
 }
 
 function _makeFloatScale(floatVal) {
-  const wrap   = document.createElement('div');
+  const wrap = document.createElement('div');
   wrap.className = 'float-scale';
-  const bar    = document.createElement('div');
+  const bar = document.createElement('div');
   bar.className = 'float-scale-bar';
   const marker = document.createElement('div');
-  marker.className   = 'float-scale-marker';
-  marker.style.left  = `${(floatVal * 100).toFixed(4)}%`;
+  marker.className = 'float-scale-marker';
+  marker.style.left = `${(floatVal * 100).toFixed(4)}%`;
   bar.appendChild(marker);
   wrap.appendChild(bar);
   return wrap;
-}
-
-function _formatItemName(weapon, skin) {
-  return i18n.skinName(weapon, skin);
 }
 
 function _isGlove(weapon) {
@@ -486,37 +566,13 @@ function _isVanilla(item) {
   return item.skin?.startsWith('★') && item.skin.slice(1).trim().toLowerCase() === 'vanilla';
 }
 
-/** Returns the applicable listing variants for an item.
- *  - Gloves: 5 wear tiers, no StatTrak™
- *  - Vanilla knives: single listing, no wear tier
- *  - Everything else: 5 normal + 5 StatTrak™ wear tiers
- */
-function _variantsFor(item) {
-  if (item.rarity === 'contraband') return (item.wear_tiers ?? WEAR_TIERS).map(tier => ({ tier, statTrak: false }));
-  const isSouvenir = CaseDataStore.getCase(item.case_id)?.type === 'souvenir_package';
-  if (isSouvenir)             return WEAR_TIERS.map(tier => ({ tier, statTrak: false }));
-  if (_isGlove(item.weapon))  return WEAR_TIERS.map(tier => ({ tier, statTrak: false }));
-  if (_isVanilla(item))       return [{ tier: null, statTrak: false }, { tier: null, statTrak: true }];
-  return LISTING_VARIANTS;
-}
-
-
 function _makeCapsuleListing(item) {
-  const hashName   = item.market_hash_name ?? item.name;
-  const localPrice = item.market_price ?? null;
-  const statTrak   = !!(item.stat_trak);
-  return { item, floatVal: null, wearTier: null, statTrak, hashName, localPrice };
-}
-
-const CAPSULE_TYPE_LABELS = {
-  sticker_capsule:      'Sticker',
-  charm_capsule:        'Charm',
-  patch_pack:           'Patch',
-  pin_capsule:          'Collectible Pin',
-  music_kit_box:        'Music Kit',
-  standalone_music_kit: 'Music Kit',
-};
-
-function _capsuleTypeLabel(capsuleType) {
-  return CAPSULE_TYPE_LABELS[capsuleType] ?? 'Item';
+  return {
+    item,
+    floatVal: null,
+    wearTier: null,
+    statTrak: !!item.stat_trak,
+    hashName: item.market_hash_name ?? item.name,
+    localPrice: item.market_price ?? null,
+  };
 }

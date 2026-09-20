@@ -16,7 +16,8 @@
     "docs:reference":  "node tools/catalog/generate-reference-docs.mjs",
     "docs:reference:check": "node tools/catalog/generate-reference-docs.mjs --check",
     "data:sync:cases": "node tools/catalog/sync-cases.mjs",
-    "data:sync:containers": "node tools/catalog/sync-containers.mjs"
+    "data:sync:containers": "node tools/catalog/sync-containers.mjs",
+    "data:sync:translations": "node tools/catalog/sync-translations.mjs"
   },
   "devDependencies": {
     "vite": "^6.0.0",

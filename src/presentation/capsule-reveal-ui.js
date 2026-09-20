@@ -1,6 +1,7 @@
 import { SkinInventory }       from '../core/skin-inventory.js';
 import { StickerImageService }  from '../feature/sticker-image-service.js';
 import { makePlaceholder }      from '../feature/item-placeholder.js';
+import { i18n }                 from '../foundation/i18n.js';
 
 const SELL_FEE_RATE          = 0.15;
 const SELL_FEEDBACK_DURATION = 1800;
@@ -27,6 +28,7 @@ export const CapsuleRevealUI = {
     const item       = entry.item;
     const rarity     = item.rarity ?? 'high_grade';
     const netProceed = _netProceeds(item.market_price);
+    const displayName = i18n.itemName(item.market_hash_name ?? item.name, i18n.getLocale(), item.capsuleType);
 
     _overlay.innerHTML = '';
 
@@ -37,7 +39,7 @@ export const CapsuleRevealUI = {
     if (item.image_url) {
       imgEl = document.createElement('img');
       imgEl.className = 'reveal-image';
-      imgEl.alt       = item.name;
+      imgEl.alt       = displayName;
       imgEl.src       = item.image_url;
     } else {
       imgEl = makePlaceholder(item.name, 'reveal-size');
@@ -46,22 +48,22 @@ export const CapsuleRevealUI = {
 
     const rarityLabel = document.createElement('div');
     rarityLabel.className   = 'reveal-rarity-label';
-    rarityLabel.textContent = _formatRarity(rarity);
+    rarityLabel.textContent = i18n.rarityLabel(rarity);
     card.appendChild(rarityLabel);
 
     const typeLabel = document.createElement('div');
     typeLabel.className   = 'reveal-item-type';
-    typeLabel.textContent = _itemTypeLabel(item.name);
+    typeLabel.textContent = _itemTypeLabel(item);
     card.appendChild(typeLabel);
 
     const nameEl = document.createElement('div');
     nameEl.className   = 'reveal-item-name';
-    nameEl.textContent = item.name;
+    nameEl.textContent = displayName;
     card.appendChild(nameEl);
 
     const capsuleEl = document.createElement('div');
     capsuleEl.className   = 'reveal-source';
-    capsuleEl.textContent = item.capsuleName ?? '';
+    capsuleEl.textContent = i18n.caseName(item.capsuleName ?? '');
     card.appendChild(capsuleEl);
 
     const actions = document.createElement('div');
@@ -69,12 +71,12 @@ export const CapsuleRevealUI = {
 
     const keepBtn = document.createElement('button');
     keepBtn.className   = 'btn-keep';
-    keepBtn.textContent = 'Keep';
+    keepBtn.textContent = i18n.t('keep');
     keepBtn.addEventListener('click', () => this.hide());
 
     const sellLabel = item.market_price != null
-      ? `Sell ($${netProceed.toFixed(2)})`
-      : 'Sell';
+      ? i18n.t('sell_price', { price: `$${netProceed.toFixed(2)}` })
+      : i18n.t('sell');
     const sellBtn = document.createElement('button');
     sellBtn.className   = 'btn-sell';
     sellBtn.textContent = sellLabel;
@@ -98,7 +100,7 @@ export const CapsuleRevealUI = {
         if (url && _visible) {
           const realImg = document.createElement('img');
           realImg.className = 'reveal-image';
-          realImg.alt       = item.name;
+          realImg.alt       = displayName;
           realImg.src       = url;
           imgEl.replaceWith(realImg);
         }
@@ -121,28 +123,23 @@ export const CapsuleRevealUI = {
     const result = SkinInventory.sellItem(entry.instanceId, price);
     const fb     = _overlay?._feedbackEl;
     if (result) {
-      if (fb) fb.textContent = `Sold for $${net.toFixed(2)}!`;
+      if (fb) fb.textContent = i18n.t('sold_for', { price: `$${net.toFixed(2)}` });
     } else {
-      if (fb) fb.textContent = 'Could not sell — item not found.';
+      if (fb) fb.textContent = i18n.t('sell_not_found');
     }
     setTimeout(() => this.hide(), SELL_FEEDBACK_DURATION);
   },
 };
 
-function _itemTypeLabel(name) {
-  if (!name) return 'Sticker';
-  const n = name.toLowerCase();
-  if (n.startsWith('charm |'))     return 'Charm';
-  if (n.startsWith('patch |'))     return 'Patch';
-  if (n.endsWith(' pin'))          return 'Pin';
-  if (n.includes('music kit |'))   return 'Music Kit';
-  return 'Sticker';
+function _itemTypeLabel(item) {
+  const type = item.capsuleType ?? '';
+  if (type === 'charm_capsule') return i18n.t('market_category_charms');
+  if (type === 'patch_pack') return i18n.t('market_category_patches');
+  if (type === 'pin_capsule') return i18n.t('market_category_pins');
+  if (type === 'music_kit_box') return i18n.t('market_category_music');
+  return i18n.t('market_category_stickers');
 }
 
 function _netProceeds(p) {
   return Math.round((typeof p === 'number' ? p : 0) * (1 - SELL_FEE_RATE) * 100) / 100;
-}
-
-function _formatRarity(rarity) {
-  return rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }

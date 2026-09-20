@@ -235,11 +235,14 @@ export const TradeUpUI = {
     if (_hintEl) {
       const lr = this._lockedRarity();
       if (lr === 'covert') {
-        _hintEl.textContent = `5 Covert skins → Rare Special Item (Knife / Glove)`;
+        _hintEl.textContent = i18n.t('tradeup_hint_covert');
       } else if (lr) {
-        _hintEl.textContent = `10 ${_formatRarity(lr)} skins → ${_formatRarity(NEXT_RARITY_LABEL[lr])}`;
+        _hintEl.textContent = i18n.t('tradeup_hint_locked', {
+          from: i18n.rarityLabel(lr),
+          to: i18n.rarityLabel(NEXT_RARITY_LABEL[lr]),
+        });
       } else {
-        _hintEl.textContent = 'Select 10 skins of the same rarity (Mil-Spec / Restricted / Classified) or 5 Covert skins for a Rare Special Item';
+        _hintEl.textContent = i18n.t('tradeup_hint');
       }
     }
   },
@@ -310,7 +313,7 @@ export const TradeUpUI = {
 
       const caseEl = document.createElement('div');
       caseEl.className = 'tradeup-inv-case';
-      caseEl.textContent = caseName;
+      caseEl.textContent = caseName === '—' ? caseName : i18n.caseName(caseName);
 
       card.appendChild(img);
       card.appendChild(nameEl);
@@ -400,7 +403,7 @@ export const TradeUpUI = {
 
     const rarityEl = document.createElement('div');
     rarityEl.className = 'tradeup-result-rarity';
-    rarityEl.textContent = _formatRarity(item.rarity);
+    rarityEl.textContent = i18n.rarityLabel(item.rarity);
 
     card.appendChild(heading);
     card.appendChild(img);
@@ -434,14 +437,14 @@ export const TradeUpUI = {
     if (item.stat_trak) {
       const kills = document.createElement('div');
       kills.className = 'stat-trak-kills';
-      kills.textContent = '☆ 0 Kills';
+      kills.textContent = i18n.t('kills');
       card.appendChild(kills);
     }
 
     if (caseName) {
       const caseEl = document.createElement('div');
       caseEl.className = 'tradeup-result-case';
-      caseEl.textContent = caseName;
+      caseEl.textContent = i18n.caseName(caseName);
       card.appendChild(caseEl);
     }
 
@@ -475,16 +478,4 @@ const NEXT_RARITY_LABEL = {
 
 function _formatName(weapon, skin) {
   return i18n.skinName(weapon, skin);
-}
-
-function _formatRarity(rarity) {
-  if (!rarity) return '';
-  const labels = {
-    mil_spec:     'Mil-Spec',
-    restricted:   'Restricted',
-    classified:   'Classified',
-    covert:       'Covert',
-    rare_special: 'Rare Special',
-  };
-  return labels[rarity] ?? rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }

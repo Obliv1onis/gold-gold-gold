@@ -57,7 +57,7 @@ export const RevealUI = {
 
     const rarityLabel = document.createElement('div');
     rarityLabel.className = 'reveal-rarity-label';
-    rarityLabel.textContent = _formatRarity(item.rarity);
+    rarityLabel.textContent = i18n.rarityLabel(item.rarity);
 
     // Float row: wear badge + float value
     const floatRow = document.createElement('div');
@@ -152,11 +152,6 @@ export const RevealUI = {
 function _netProceeds(marketPrice) {
   const p = typeof marketPrice === 'number' ? marketPrice : 0;
   return Math.round(p * (1 - SELL_FEE_RATE) * 100) / 100;
-}
-
-function _formatRarity(rarity) {
-  if (!rarity) return '';
-  return rarity.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
 
 function _formatItemName(weapon, skin) {

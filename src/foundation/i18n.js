@@ -39,8 +39,8 @@ export const i18n = {
    * @param {string} key
    * @param {Record<string,string|number>} [vars]
    */
-  t(key, vars = {}) {
-    const str = TRANSLATIONS[_locale]?.[key] ?? TRANSLATIONS['en-US']?.[key] ?? key;
+  t(key, vars = {}, locale = _locale) {
+    const str = TRANSLATIONS[locale]?.[key] ?? TRANSLATIONS['en-US']?.[key] ?? key;
     return str.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? `{${k}}`);
   },
 
@@ -50,8 +50,8 @@ export const i18n = {
   },
 
   /** Translated case/capsule name, falling back to the original English name. */
-  caseName(name) {
-    const result = TRANSLATIONS[_locale]?.['case_name.' + name];
+  caseName(name, locale = _locale) {
+    const result = TRANSLATIONS[locale]?.['case_name.' + name];
     return result ?? name;
   },
 
@@ -68,9 +68,9 @@ export const i18n = {
    * @param {string} weapon
    * @param {string} skin
    */
-  skinName(weapon, skin) {
+  skinName(weapon, skin, locale = _locale) {
     const full = `${weapon} | ${skin}`;
-    const translated = TRANSLATIONS[_locale]?.['skin_name.' + full];
+    const translated = TRANSLATIONS[locale]?.['skin_name.' + full];
     if (translated) return translated;
     // English fallback — reposition ★ for knives/gloves
     if (skin?.startsWith('★')) {
@@ -81,6 +81,23 @@ export const i18n = {
     return full;
   },
 
+  /** Translated sticker/charm/patch/music item name. */
+  itemName(name, locale = _locale, type = null) {
+    if (type === 'patch_pack' && !name?.startsWith('Patch | ')) name = `Patch | ${name}`;
+    const exact = TRANSLATIONS[locale]?.['item_name.' + name];
+    if (exact) return exact;
+    const prefixes = [
+      ['Sticker | ', 'item_prefix.sticker'],
+      ['Charm | ', 'item_prefix.charm'],
+      ['Patch | ', 'item_prefix.patch'],
+      ['Music Kit | ', 'item_prefix.music_kit'],
+    ];
+    for (const [prefix, key] of prefixes) {
+      if (name?.startsWith(prefix)) return `${this.t(key, {}, locale)} | ${name.slice(prefix.length)}`;
+    }
+    return name;
+  },
+
   /** Updates every [data-i18n] and [data-i18n-ph] element in the document. */
   applyToDOM() {
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -88,6 +105,9 @@ export const i18n = {
     });
     document.querySelectorAll('[data-i18n-ph]').forEach(el => {
       el.placeholder = this.t(el.dataset.i18nPh);
+    });
+    document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+      el.setAttribute('aria-label', this.t(el.dataset.i18nAria));
     });
   },
 };

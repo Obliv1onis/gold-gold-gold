@@ -94,7 +94,9 @@ export const InventoryUI = {
     const isStatTrak  = !!item.stat_trak;
     const salePrice   = item.market_price ?? 0;
     const net         = Math.round(salePrice * 0.85 * 100) / 100;
-    const displayName = (isSticker || isMusicKit) ? item.name : _formatItemName(item.weapon, item.skin);
+    const displayName = (isSticker || isMusicKit)
+      ? i18n.itemName(item.market_hash_name ?? item.name, i18n.getLocale(), item.capsuleType)
+      : _formatItemName(item.weapon, item.skin);
 
     const card = document.createElement('div');
     card.className = `inventory-card rarity-${item.rarity ?? 'unknown'}`;

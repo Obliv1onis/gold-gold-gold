@@ -21,6 +21,7 @@ export const CapsuleEngine = {
     return {
       capsuleId,
       capsuleName: capsule.name,
+      capsuleType: capsule.type ?? 'sticker_capsule',
       rarity,
       name:             sticker.name,
       market_hash_name: sticker.market_hash_name,

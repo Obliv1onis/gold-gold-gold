@@ -56,8 +56,8 @@ export const TerminalUI = {
     _overlay.innerHTML = '';
 
     const rarity    = skin.rarity ?? 'unknown';
-    const wearLabel = FloatService.getWearLabel(skin.wear_tier);
     const floatStr  = FloatService.formatFloat(skin.float);
+    const displayName = i18n.skinName(skin.weapon, skin.skin);
 
     // Card
     const card = document.createElement('div');
@@ -76,7 +76,7 @@ export const TerminalUI = {
       const img = document.createElement('img');
       img.className = 'terminal-skin-img';
       img.src = skin.image_url;
-      img.alt = `${skin.weapon} | ${skin.skin}`;
+      img.alt = displayName;
       imgWrap.appendChild(img);
     } else {
       const ph = document.createElement('div');
@@ -88,7 +88,7 @@ export const TerminalUI = {
     // Name
     const nameEl = document.createElement('div');
     nameEl.className   = 'terminal-skin-name';
-    nameEl.textContent = `${skin.weapon} | ${skin.skin}`;
+    nameEl.textContent = displayName;
     card.appendChild(nameEl);
 
     // Wear + float row
