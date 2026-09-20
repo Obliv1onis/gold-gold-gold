@@ -45,7 +45,18 @@ export default {
   sec_souvenirs:    'Souvenir Packages',
   sec_stickers:     'Sticker Capsules',
   sec_others:       'Others',
+  sec_charms:       'Charm Capsules',
+  sec_patches:      'Patch Packs',
+  sec_pins:         'Collectible Pin Capsules',
+  sec_music_kits:   'Music Kit Boxes',
   no_cases:         'No cases available.',
+  catalog_search:   'Search containers…',
+  catalog_sort:     'Sort containers',
+  catalog_newest:   'Newest first',
+  catalog_oldest:   'Oldest first',
+  catalog_name:     'Name A–Z',
+  catalog_count:    '{visible} of {total}',
+  catalog_no_results: 'No matching containers.',
 
   // Inventory
   n_items:          '{n} item',

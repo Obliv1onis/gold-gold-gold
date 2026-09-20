@@ -1,1357 +1,9571 @@
-# Stickers from Standard & Community Capsules
-
-## Sticker Capsule
-* Standard
-* Chicken Strike
-* Chabo
-* Lucky 13
-* Death Garlands
-* Rising Skull
-* Vigilance
-* To B or not to B
-* Glock Up
-* I Buy Power
-* King on the Field
-
-## Sticker Capsule 2
-* Banana
-* Bomb Code
-* Bosh (Holo)
-* Crown (Foil)
-* Good Game
-* Good Luck
-* Have Fun
-* Nice Shot
-* Rasta
-* Shave Master
-* Skull Lil Boney
-* Welcome to the Clutch
-
-## Community Sticker Capsule 1
-* Backstab
-* Blitzkrieg
-* Bomb Doge
-* Burning DJ
-* Chief
-* Easy Peasy
-* Flammable (Foil)
-* Headhunter (Foil)
-* Luck Skill
-* Ninja
-* Phoenix (Foil)
-* Swag (Foil)
-
-## Enfu Sticker Capsule
-* Unicorn
-* Unicorn (Holo)
-* Teamwork (Holo)
-* Hamster Hawk
-* Dynamic Diamond
-* Kimberly
-* Pineapple Express
-* Pinup Marine
-* Pizza T
-* Baited
-* Chew Me NW
-
-## Pinups Capsule
-* Martha
-* Martha (Holo)
-* Erika
-* Erika (Holo)
-* Tamara
-* Tamara (Holo)
-* Ivette
-* Ivette (Holo)
-* Sally
-* Sally (Holo)
-
-## Slid3 Capsule
-* One Shot One Kill
-* One Shot One Kill (Holo)
-* Phoenix
-* Phoenix (Holo)
-* CT-Tech
-* CT-Tech (Holo)
-* Skulltorgeist
-* Skulltorgeist (Holo)
-* Till Death Do Us Part
-* Defuse It
-
-## Team Roles Capsule
-* Awper
-* Awper (Foil)
-* Entry Killer
-* Entry Killer (Foil)
-* Lurker
-* Lurker (Foil)
-* Support
-* Support (Foil)
-* IGL
-* IGL (Foil)
-
-## Sugarface Capsule
-* Drug War Veteran
-* Candy
-* Candy (Holo)
-* Bubble Gum
-* Bubble Gum (Holo)
-* Ice Cream
-* Ice Cream (Holo)
-* Lollypop
-* Lollypop (Holo)
-* Cotton Candy
-
-## Bestiary Capsule
-* Manticore
-* Manticore (Holo)
-* Pegasus
-* Pegasus (Holo)
-* Cerberus
-* Cerberus (Holo)
-* Griffin
-* Griffin (Holo)
-* Basilisk
-* Phoenix Blue
-
-## CS:GO Perfect World Sticker Capsule 1
-* Guardian Dragon
-* Guardian Dragon (Foil)
-* Cheongsam
-* Cheongsam (Holo)
-* Pixels T
-* Pixels CT
-* Longevity
-* Longevity (Foil)
-* Good Fortune
-* Treat T
-
-## CS:GO Perfect World Sticker Capsule 2
-* Baby Lore
-* Baby Lore (Foil)
-* Baby Medusa
-* Baby Medusa (Holo)
-* Rice Worker
-* Noodles
-* Hot Pot
-* Mahjong
-* Fire Dragon
-* Water Dragon
-
-## Community Capsule 2018
-* Dragon Lore
-* Dragon Lore (Foil)
-* Medusa
-* Howl
-* Kingfish
-* Pegasus Blue
-* Fire Serpent
-* Bloodhound
-* Global Elite
-* Silver
-
-## Skill Groups Capsule
-* Silver I
-* Silver Elite Master
-* Gold Nova I
-* Gold Nova Master
-* Master Guardian I
-* Master Guardian Elite
-* Distinguished Master Guardian
-* Legendary Eagle
-* Legendary Eagle Master
-* Supreme Master First Class
-* Global Elite (Holo)
-
-## Feral Predators Capsule
-* Roar
-* Roar (Holo)
-* Alpha Predator
-* Alpha Predator (Holo)
-* Apex Predator
-* Apex Predator (Holo)
-* Bite
-* Bite (Holo)
-* Claws
-* Claws (Holo)
-
-## Chicken Capsule
-* Chicken Lover
-* Chicken Lover (Holo)
-* Chicken Strike
-* Chicken Strike (Holo)
-* Swag Chicken
-* Ninja Chicken
-* Defuse Chicken
-* Whack-A-Chicken
-* Chicken Dinner
-* Golden Chicken
-
-## CS20 Sticker Capsule
-* Classic Knife
-* Classic Knife (Holo)
-* Dragon Lore
-* Howl (Gold)
-* CS20
-* CS20 (Holo)
-* Global Offensive
-* Global Offensive (Holo)
-* Door Stuck
-* Door Stuck (Holo)
-
-## Halo Capsule
-* Chief
-* Chief (Holo)
-* Noble
-* Noble (Holo)
-* Legendary
-* Legendary (Foil)
-* Mister Chief
-* Cortana
-* Incineration
-* Killjoy
-
-## Half-Life: Alyx Sticker Capsule
-* Alyx
-* Alyx (Holo)
-* Combine Helmet
-* Combine Helmet (Holo)
-* Lambda
-* Lambda (Holo)
-* Black Mesa
-* Black Mesa (Holo)
-* Vortigaunt
-* Headcrab
-
-## Warhammer 40,000 Sticker Capsule
-* Space Marine
-* Space Marine (Holo)
-* Chaos Space Marine
-* Chaos Space Marine (Holo)
-* Imperium
-* Imperium (Foil)
-* Orks
-* Tyranids
-* Necrons
-* Blood Angels
-
-## Poorly Drawn Capsule
-* Poorly Drawn CT
-* Poorly Drawn CT (Holo)
-* Poorly Drawn T
-* Poorly Drawn T (Holo)
-* Poorly Drawn Chicken
-* Poorly Drawn AWP
-* Poorly Drawn Ak-47
-* Poorly Drawn Global Elite
-* Poorly Drawn Defuse
-* Poorly Drawn Bomb
-
-## 2021 Community Sticker Capsule
-* Dr. Droll
-* Dr. Droll (Holo)
-* Cyberpunk
-* Cyberpunk (Holo)
-* Ez Pz
-* Great Wave
-* Great Wave (Holo)
-* Recoil
-* Recoil (Holo)
-* Karambit
-
-## Battlefield 2042 Sticker Capsule
-* Battlefield 2042
-* Battlefield 2042 (Holo)
-* No-Pat
-* No-Pat (Holo)
-* Wingsuit
-* T-Rex
-* Pac
-* Irish
-* Boris
-* Casper
-
-## The Boardroom Sticker Capsule
-* Diamond Hands
-* Diamond Hands (Holo)
-* Stonks
-* Stonks (Holo)
-* HODL
-* HODL (Gold)
-* Bull Market
-* Bear Market
-* To The Moon
-* To The Moon (Holo)
-
-## 10 Year Birthday Sticker Capsule
-* 10 Year Birthday
-* 10 Year Birthday (Holo)
-* Zeused
-* Zeused (Holo)
-* Agent Ava
-* Conspiracies
-* Green Bandana
-* Rush B
-* Chicken Birthday
-* Global Elite 10th
-
-## Espionage Sticker Capsule
-* Agent K
-* Agent K (Holo)
-* Blue Gem
-* Blue Gem (Holo)
-* Spy Tech
-* Spy Tech (Holo)
-* Code Cracker
-* Classified
-* Top Secret
-* Redacted
-
-## Ambush Sticker Capsule
-* Ambush
-* Ambush (Holo)
-* Bait
-* Bait (Holo)
-* Smoke Grenade
-* Flashbang
-* Molotov
-* HE Grenade
-* Eco Round
-* Full Buy
-
-
-# 2025 Major Championships Sticker Capsules
-
----
-
-## 1. BLAST.tv Austin Major 2025
-
-### Austin 2025 Legends Sticker Capsule ($0.27)
-* Team Vitality
-* MOUZ
-* Team Spirit
-* Aurora Gaming
-* Natus Vincere
-* G2 Esports
-* Team Liquid
-* The MongolZ
-
-### Austin 2025 Challengers Sticker Capsule ($0.32)
-* Team Falcons
-* FaZe Clan
-* 3DMAX
-* Virtus.pro
-* paiN Gaming
-* FURIA Esports
-* MIBR
-* M80
-
-### Austin 2025 Contenders Sticker Capsule ($0.34)
-* Complexity Gaming
-* Wildcard
-* HEROIC
-* B8 Esports
-* OG
-* Nemiga Gaming
-* BetBoom Team
-* Imperial Esports
-* NRG Esports
-* FlyQuest
-* Metizport
-* TYLOO
-* Fluxo
-* Chinggis Warriors
-* Lynn Vision Gaming
-* Legacy
-
----
-
-### Austin 2025 Legends Autograph Capsule ($0.24)
-* **Team Vitality:** apEX, ZywOo, Spinx, flameZ, mezii
-* **MOUZ:** siuhy, xertioN, torzsi, Jimpphat, Brollan
-* **Team Spirit:** chopper, shalfey, magixx, donk, zont1x
-* **Aurora Gaming:** Lack1, KENSI, Norwi, deko, r3salt
-* **Natus Vincere:** Aleksib, iM, b1t, JL, w0nderful
-* **G2 Esports:** Snax, huNter-, malbsMd, HeavyGod, hades
-* **Team Liquid:** jks, NAF, YEKINDAR, ultimate, Twistzz
-* **The MongolZ:** bLitz, Techno4K, 9oDBless, Mazaalee, mzinho
-
-### Austin 2025 Challengers Autograph Capsule ($0.23)
-* **Team Falcons:** kyxsan, Magisk, NiKo, m0NESY, TeSeS
-* **FaZe Clan:** karrigan, el1an, NiKo (Note: roster variant), broky, ropz
-* **3DMAX:** Maka, Lucky, Djoko, Ex3rcice, Graviti
-* **Virtus.pro:** Jame, FL1T, fame, n0rb3r7, electroNic
-* **paiN Gaming:** biguzera, kauez, lux, snow, nqz
-* **FURIA Esports:** FalleN, chelo, KSCERATO, yuurih, skullz
-* **MIBR:** exit, brnz4n, insani, drop, sazde
-* **M80:** slaxz-, s1n, Swisher, Lake, reck
-
-### Austin 2025 Contenders Autograph Capsule ($0.22)
-* **Complexity Gaming:** JT, floppy, hallzerk, Grim, EliGE
-* **Wildcard:** stanislaw, phzy, Sonic, JBa, susp
-* **HEROIC:** KySelected, sjuush, TeSeS, NertZ, degster
-* **B8 Esports:** npl, esphir, headtr1ck, alex666, cptkurtka05
-* **OG:** Mac contractual players (Chr1sN, MoDo, Buzz, Nexius, Fiku)
-* **Nemiga Gaming:** 1eeR, BELCHONOKK, khaN, risk, Zweih
-* **BetBoom Team:** Nafany, KaiR0N-, Magnojez, zorte, s1ren
-* **Imperial Esports:** VINI, decenty, noway, try, chayJESUS
-* **NRG Esports:** nitr0, oSee, Brehze, HexT, jeorge
-* **FlyQuest:** dexter, Vexite, aliStair, INS, Liazz
-* **Metizport:** Jackinho, nilo, adamb, suspense, zack
-* **TYLOO:** JamYoung, Advent, kaze, Mercury, zr
-* **Fluxo:** arT, kye, mlhzin, piriajr, zevy
-* **Chinggis Warriors:** NEUZ, hasteka, dobu, cool4st, Bart4k
-* **Lynn Vision Gaming:** Westmelon, z4kr, Starry, Flying, Jee
-* **Legacy:** dumau, latto, lux, n1ssim, saadzin
-
-### Austin 2025 Champions Autograph Capsule ($0.25)
-* **Team Vitality (Champions Roster):** apEX, ZywOo, Spinx, flameZ, mezii
-
----
----
-
-## 2. StarLadder Budapest Major 2025
-
-### Budapest 2025 Legends Sticker Capsule ($0.19)
-* Team Vitality
-* FURIA Esports
-* Team Falcons
-* Team Spirit
-* Natus Vincere
-* Aurora Gaming
-* Team Liquid
-* G2 Esports
-
-### Budapest 2025 Challengers Sticker Capsule ($0.32)
-* Legacy
-* FaZe Clan
-* MOUZ
-* Astralis
-* Ninjas in Pyjamas
-* PARIVISION
-* GamerLegion
-* B8 Esports
-
-### Budapest 2025 Contenders Sticker Capsule ($0.31)
-* fnatic
-* Imperial Esports
-* The MongolZ
-* Rare Atom
-* The Huns
-* *Plus additional regional MRQ Stage 1 qualifiers*
-
----
-
-### Budapest 2025 Legends Autograph Capsule ($0.20)
-* **Team Vitality:** apEX, ZywOo, Spinx, flameZ, mezii
-* **FURIA Esports:** FalleN, chelo, KSCERATO, yuurih, skullz
-* **Team Falcons:** kyxsan, Magisk, NiKo, m0NESY, TeSeS
-* **Team Spirit:** chopper, shalfey, magixx, donk, zont1x
-* **Natus Vincere:** Aleksib, iM, b1t, jL, w0nderful
-* **Aurora Gaming:** Lack1, KENSI, Norwi, deko, r3salt
-* **Team Liquid:** jks, NAF, YEKINDAR, ultimate, Twistzz
-* **G2 Esports:** Snax, huNter-, matys, SunPayus, malbsMd
-
-### Budapest 2025 Challengers Autograph Capsule ($0.32)
-* **Legacy:** dumau, latto, lux, n1ssim, saadzin
-* **FaZe Clan:** karrigan, broky, ropz, frozen, el1an
-* **MOUZ:** siuhy, xertioN, torzsi, Jimpphat, Brollan
-* **Astralis:** dev1ce, Staehr, br0, jabbi, stavn
-* **Ninjas in Pyjamas:** Maxster, r1nkle, alex, Isak, MisteM
-* **PARIVISION:** Jerry, Alpha, ArtFr0st, Patsi, Qikert
-* **GamerLegion:** Snax, volt, sl3nd, FL4MUS, aNdu
-* **B8 Esports:** npl, esphir, headtr1ck, alex666, cptkurtka05
-
-### Budapest 2025 Contenders Autograph Capsule ($0.31)
-* **fnatic:** KRIMZ, bodyy, matys, blameF, nawwk
-* **Imperial Esports:** VINI, decenty, noway, try, chayJESUS
-* **The MongolZ:** bLitz, Techno4K, 9oDBless, Mazaalee, mzinho
-* **Rare Atom:** Somebody, Summer, kaze, ChildKing, L1haNg
-* **The Huns:** Bart4k, cool4st, machinegun, sk0R, hasteka
-
-### Budapest 2025 Champions Autograph Capsule ($0.23)
-* **Team Vitality (Back-to-Back Champions Roster):** apEX, ZywOo, Spinx, flameZ, mezii
-
-
-
-# 2024 Major Championships Sticker & Autograph Capsules
-
----
-
-## 1. Perfect World Shanghai Major 2024
-
-### Shanghai 2024 Legends Sticker Capsule ($0.65)
-* G2 Esports
-* Natus Vincere
-* Team Vitality
-* Team Spirit
-* MOUZ
-* FaZe Clan
-* HEROIC
-* 3DMAX
-
-### Shanghai 2024 Challengers Sticker Capsule ($0.52)
-* fnatic
-* Virtus.pro
-* Team Liquid
-* Complexity Gaming
-* BIG
-* FURIA Esports
-* The MongolZ
-* paiN Gaming
-
-### Shanghai 2024 Contenders Sticker Capsule ($0.77)
-* GamerLegion
-* MIBR
-* Cloud9
-* FlyQuest
-* Passion UA
-* Wildcard
-* Rare Atom
-* Imperial Esports
-
----
-
-### Shanghai 2024 Legends Autograph Capsule ($0.21)
-* **G2 Esports:** Snax, huNter-, malbsMd, m0NESY, NiKo
-* **Natus Vincere:** Aleksib, iM, b1t, jL, w0nderful
-* **Team Vitality:** apEX, ZywOo, Spinx, flameZ, mezii
-* **Team Spirit:** chopper, sh1ro, magixx, donk, zont1x
-* **MOUZ:** siuhy, xertioN, torzsi, Jimpphat, Brollan
-* **FaZe Clan:** karrigan, rain, broky, ropz, frozen
-* **HEROIC:** KySelected, sjuush, TeSeS, NertZ, degster
-* **3DMAX:** Maka, Lucky, Djoko, Ex3rcice, Graviti
-
-### Shanghai 2024 Challengers Autograph Capsule ($0.27)
-* **fnatic:** KRIMZ, bodyy, MATYS, blameF, afro (Note: substituted for nawwk)
-* **Virtus.pro:** Jame, FL1T, fame, n0rb3r7, electroNic
-* **Team Liquid:** jks, NAF, YEKINDAR, ultimate, Twistzz
-* **Complexity Gaming:** JT, floppy, hallzerk, Grim, EliGE
-* **BIG:** tabseN, Krimbo, JDC, syrsoN, rigoN
-* **FURIA Esports:** FalleN, chelo, yuurih, KSCERATO, skullz
-* **The MongolZ:** bLitz, Techno4K, Senzu, mzinho, 910
-* **paiN Gaming:** biguzera, lux, kauez, nqz, snow
-
-### Shanghai 2024 Contenders Autograph Capsule ($0.28)
-* **GamerLegion:** ztr, aNdu, volt, sl3nd, FL4MUS (Note: substituted for Tauson)
-* **MIBR:** exit, Lucaozy, saffee, drop, insani (Note: substituted for brnz4n)
-* **Cloud9:** Boombl4, Perfecto, Ax1Le, HeavyGod, ICY (Note: substituted for interz)
-* **FlyQuest:** aliStair, dexter, Liazz, Vexite, INS
-* **Passion UA:** fear, jambo, s-chilla, jackasmo, zeRRoFIX
-* **Wildcard:** stanislaw, Sonic, phzy, susp, jBa
-* **Rare Atom:** Summer, somebody, kaze, ChildKing, L1haNg
-* **Imperial Esports:** felps, VINI, try, decenty, noway
-
-### Shanghai 2024 Champions Autograph Capsule ($0.31)
-* **Team Spirit (Champions Roster):** chopper, sh1ro, magixx, zont1x, donk
-
----
----
-
-## 2. PGL Major Copenhagen 2024
-
-### Copenhagen 2024 Legends Sticker Capsule ($0.55)
-* FaZe Clan
-* Team Spirit
-* Team Vitality
-* MOUZ
-* Virtus.pro
-* Natus Vincere
-* G2 Esports
-* Complexity Gaming
-
-### Copenhagen 2024 Challengers Sticker Capsule ($0.62)
-* Cloud9
-* Eternal Fire
-* ENCE
-* Apeks
-* HEROIC
-* GamerLegion
-* SAW
-* FURIA Esports
-
-### Copenhagen 2024 Contenders Sticker Capsule ($0.44)
-* paiN Gaming
-* Imperial Esports
-* The MongolZ
-* AMKAL ESPORTS
-* ECSTATIC
-* KOI
-* Legacy
-* Lynn Vision Gaming
-
----
-
-### Copenhagen 2024 Legends Autograph Capsule ($0.31)
-* **FaZe Clan:** karrigan, rain, frozen, ropz, broky
-* **Team Spirit:** chopper, sh1ro, magixx, zont1x, donk
-* **Team Vitality:** apEX, ZywOo, flameZ, Spinx, mezii
-* **MOUZ:** Brollan, siuhy, torzsi, Jimpphat, xertioN
-* **Virtus.pro:** mir, FL1T, Jame, n0rb3r7, fame
-* **Natus Vincere:** Aleksib, iM, b1t, jL, w0nderful
-* **G2 Esports:** NiKo, huNter-, nexa, HooXi, m0NESY
-* **Complexity Gaming:** EliGE, JT, floppy, hallzerk, Grim
-
-### Copenhagen 2024 Challengers Autograph Capsule ($0.26)
-* **Cloud9:** HObbit, electroNic, Boombl4, Ax1Le, Perfecto
-* **Eternal Fire:** MAJ3R, XANTARES, woxic, Calyx, Wicadia
-* **ENCE:** gla1ve, Goofy, dycha, hades, Kylar
-* **Apeks:** STYKO, jkaem, nawwk, sense, CacaNito
-* **HEROIC:** NertZ, TeSeS, nicoodoz, sjuush, kyxsan
-* **GamerLegion:** Snax, acoR, Keoz, isak, volt
-* **SAW:** MUTiRiS, roman, story, ewjerkz, arrozdoce
-* **FURIA Esports:** FalleN, chelo, arT, yuurih, KSCERATO
-
-### Copenhagen 2024 Contenders Autograph Capsule ($0.18)
-* **paiN Gaming:** biguzera, n1ssim, nqz, kauez, lux
-* **Imperial Esports:** HEN1, felps, VINI, decenty, noway
-* **The MongolZ:** bLitz, Techno4K, 910, mzinho, Senzu
-* **AMKAL ESPORTS:** NickelBack, Krad, Forester, TRAVIS, ICY
-* **ECSTATIC:** Nodios, Patti, Queenix, kraghen, salazar
-* **KOI:** JUST, mopoz, stadodo, dav1g, adamS
-* **Legacy:** coldzera, NEKIZ, dumau, b4rtiN, latto
-* **Lynn Vision Gaming:** Westmelon, z4kr, Starry, Flying, Jee
-
-### Copenhagen 2024 Champions Autograph Capsule ($0.27)
-* **Natus Vincere (Champions Roster):** Aleksib, iM, b1t, jL, w0nderful
-
-
-
-# BLAST.tv Paris Major 2023 Sticker & Autograph Capsules
-
----
-
-## 1. Paris 2023 Team Sticker Capsules
-
-### Paris 2023 Legends Sticker Capsule ($0.11)
-* Fnatic
-* Natus Vincere
-* FURIA Esports
-* Team Vitality
-* Heroic
-* Bad News Eagles
-* Into The Breach
-* 9INE
-
-### Paris 2023 Challengers Sticker Capsule ($0.09)
-* Ninjas in Pyjamas
-* G2 Esports
-* forZe eSports
-* OG
-* paiN Gaming
-* GamerLegion
-* Apeks
-* Monte
-
-### Paris 2023 Contenders Sticker Capsule ($0.09)
-* Team Liquid
-* FaZe Clan
-* ENCE
-* Grayhound Gaming
-* MOUZ
-* Complexity Gaming
-* Fluxo
-* The MongolZ
-
----
-
-## 2. Paris 2023 Player Autograph Capsules
-
-### Paris 2023 Legends Autograph Capsule ($0.17)
-* **Fnatic:** KRIMZ, mezii, nicoodoz, roeJ, FASHR
-* **Natus Vincere:** s1mple, electroNic, Perfecto, b1t, npl
-* **FURIA Esports:** arT, drop, yuurih, KSCERATO, saffee
-* **Team Vitality:** apEX, ZywOo, dupreeh, Magisk, Spinx
-* **Heroic:** stavn, cadiaN, TeSeS, sjuush, jabbi
-* **Bad News Eagles:** SENER1, gxx-, juanflatroo, sinnopsyy, rigoN
-* **Into The Breach:** rallen, CRUC1AL, Thomas, volt, cypher
-* **9INE:** Goofy, KEi, Kylar, mynio, hades
-
-### Paris 2023 Challengers Autograph Capsule ($0.22)
-* **Ninjas in Pyjamas:** REZ, Brollan, Aleksib, headtr1ck, k0nfig
-* **G2 Esports:** huNter-, NiKo, m0NESY, jks, HooXi
-* **forZe eSports:** Jerry, zorte, shalfey, Krad, r3salt
-* **OG:** flameZ, NEOFRAG, Fiku, degster, nexa
-* **paiN Gaming:** biguzera, hardzao, NEKIZ, zevy, skullz
-* **GamerLegion:** iM, isak, acoR, siuhy, Keoz
-* **Apeks:** nawwk, jkaem, STYKO, kyxsan, jL
-* **Monte:** sdy, BOROS, Woro2k, DemQQ, Krasnal
-
-### Paris 2023 Contenders Autograph Capsule ($0.13)
-* **Team Liquid:** EliGE, NAF, oSee, nitr0, YEKINDAR
-* **FaZe Clan:** karrigan, rain, Twistzz, ropz, broky
-* **ENCE:** Snappi, dycha, maden, SunPayus, NertZ
-* **Grayhound Gaming:** Sico, INS, aliStair, Liazz, Vexite
-* **MOUZ:** dexter, frozen, torzsi, JDC, xertioN
-* **Complexity Gaming:** JT, floppy, hallzerk, Grim, FaNg
-* **Fluxo:** felps, WOOD7, v$m, history, nqz
-* **The MongolZ:** bLitz, Techno4K, Bart4k, hasteka, ANNiMATION
-
-### Paris 2023 Champions Autograph Capsule ($0.23)
-* **Team Vitality (Champions Roster):** apEX, ZywOo, dupreeh, Magisk, Spinx
-
-
-
-# 2022 Major Championships Sticker & Autograph Capsules
-
----
-
-## 1. Intel Extreme Masters Rio Major 2022
-
-### Rio 2022 Legends Sticker Capsule ($0.46)
-* FaZe Clan
-* Natus Vincere
-* Ninjas in Pyjamas
-* ENCE
-* Sprout
-* HEROIC
-* Team Spirit
-* Team Liquid
-
-### Rio 2022 Challengers Sticker Capsule ($0.28)
-* OG
-* Team Vitality
-* Evil Geniuses
-* Cloud9
-* BIG
-* Bad News Eagles
-* MOUZ
-* 9z Team
-
-### Rio 2022 Contenders Sticker Capsule ($0.25)
-* GamerLegion
-* Outsiders
-* 00 NATION
-* FURIA Esports
-* Fnatic
-* Imperial Esports
-* IHC Esports
-* Grayhound Gaming
-
----
-
-### Rio 2022 Legends Autograph Capsule ($0.26)
-* **FaZe Clan:** karrigan, rain, Twistzz, ropz, broky
-* **Natus Vincere:** s1mple, electroNic, Perfecto, b1t, sdy
-* **Ninjas in Pyjamas:** REZ, hampus, Brollan, Aleksib, es3tag
-* **ENCE:** Snappi, dycha, maden, SunPayus, valde
-* **Sprout:** Denis, raalz, Staehr, lauNX, Zyphon
-* **HEROIC:** stavn, cadiaN, TeSeS, sjuush, jabbi
-* **Team Spirit:** chopper, magixx, s1ren, Patsi, w0nderful
-* **Team Liquid:** EliGE, NAF, oSee, nitr0, YEKINDAR
-
-### Rio 2022 Challengers Autograph Capsule ($0.26)
-* **OG:** flameZ, nexa, NEOFRAG, Fiku, degster
-* **Team Vitality:** apEX, ZywOo, dupreeh, Magisk, Spinx
-* **Evil Geniuses:** Brehze, CeRq, Stewie2K, autimatic, RUSH
-* **Cloud9:** nafany, sh1ro, interz, Ax1Le, HObbit
-* **BIG:** tabseN, syrsoN, faveN, Krimbo, s1n
-* **Bad News Eagles:** SENER1, gxx-, juanflatroo, sinnopsyy, rigoN
-* **MOUZ:** dexter, frozen, torzsi, JDC, xertioN
-* **9z Team:** dgt, max, rox, nqz, buda
-
-### Rio 2022 Contenders Autograph Capsule ($0.31)
-* **GamerLegion:** iM, isak, acoR, siuhy, Keoz
-* **Outsiders:** Jame, FL1T, qikert, n0rb3r7, fame
-* **00 NATION:** coldzera, TACO, laski, dumau, try
-* **FURIA Esports:** arT, yuurih, KSCERATO, drop, saffee
-* **Fnatic:** KRIMZ, mezii, nicoodoz, roeJ, FASHR
-* **Imperial Esports:** FalleN, fer, fnx, boltz, VINI
-* **IHC Esports:** bLitz, Techno4K, kabal, nin9, sk0R
-* **Grayhound Gaming:** Sico, INS, aliStair, Liazz, Vexite
-
-### Rio 2022 Champions Autograph Capsule ($0.39)
-* **Outsiders (Champions Roster):** Jame, FL1T, qikert, n0rb3r7, fame
-
----
----
-
-## 2. PGL Major Antwerp 2022
-
-### Antwerp 2022 Legends Sticker Capsule ($0.52)
-* HEROIC
-* Copenhagen Flames
-* BIG
-* Natus Vincere
-* FaZe Clan
-* Ninjas in Pyjamas
-* Cloud9
-* FURIA Esports
-
-### Antwerp 2022 Challengers Sticker Capsule ($0.33)
-* ENCE
-* G2 Esports
-* forZe
-* Astralis
-* Team Vitality
-* MIBR
-* Imperial Esports
-* Bad News Eagles
-
-### Antwerp 2022 Contenders Sticker Capsule ($0.53)
-* Eternal Fire
-* Team Spirit
-* Outsiders
-* Complexity Gaming
-* IHC Esports
-* Renegades
-* Team Liquid
-* 9z Team
-
----
-
-### Antwerp 2022 Legends Autograph Capsule ($0.25)
-* **HEROIC:** cadiaN, refrezh, sjuush, TeSeS, stavn
-* **Copenhagen Flames:** HooXi, nicoodoz, roeJ, jabbi, Zyphon
-* **BIG:** tabseN, tiziaN, syrsoN, faveN, Krimbo
-* **Natus Vincere:** s1mple, electroNic, Boombl4, Perfecto, b1t
-* **FaZe Clan:** karrigan, rain, Twistzz, ropz, broky
-* **Ninjas in Pyjamas:** REZ, Plopski, hampus, es3tag, Brollan
-* **Cloud9:** nafany, sh1ro, interz, Ax1Le, HObbit
-* **FURIA Esports:** arT, yuurih, KSCERATO, drop, saffee
-
-### Antwerp 2022 Challengers Autograph Capsule ($0.27)
-* **ENCE:** Snappi, dycha, hades, Spinx, maden
-* **G2 Esports:** JACKZ, NiKo, huNter-, Aleksib, m0NESY
-* **forZe:** Jerry, zorte, shalfey, KENSI, Norwi
-* **Astralis:** Xyp9x, gla1ve, k组织 (blameF), k0nfig, Farlig
-* **Team Vitality:** apEX, dupreeh, Magisk, ZywOo, misutaaa
-* **MIBR:** chelo, exit, WOOD7, Tuurtle, JOTA
-* **Imperial Esports:** FalleN, fer, fnx, boltz, VINI
-* **Bad News Eagles:** SENER1, gxx-, juanflatroo, sinnopsyy, rigoN
-
-### Antwerp 2022 Contenders Autograph Capsule ($0.61)
-* **Eternal Fire:** XANTARES, woxic, imoRR, xfl0ud, calyx
-* **Team Spirit:** chopper, degster, magixx, s1ren, Patsi
-* **Outsiders:** buster, qikert, Jame, FL1T, YEKINDAR
-* **Complexity Gaming:** JT, FaNg, floppy, Grim, junior
-* **IHC Esports:** bLitz, Techno4K, kabal, nin9, sk0R
-* **Renegades:** Sico, Liazz, aliStair, INS, Hatz
-* **Team Liquid:** shox, nitr0, NAF, EliGE, oSee
-* **9z Team:** max, dgt, Luken, rox, dav1deuS
-
-### Antwerp 2022 Champions Autograph Capsule ($0.32)
-* **FaZe Clan (Champions Roster):** karrigan, rain, Twistzz, ropz, broky
-
-
-
-# 2020-2021 Tournament Sticker & Autograph Capsules
-
----
-
-## 1. PGL Major Stockholm 2021
-
-### Stockholm 2021 Legends Sticker Capsule ($1.62)
-* Evil Geniuses
-* FURIA Esports
-* G2 Esports
-* Natus Vincere
-* Ninjas in Pyjamas
-* Team Liquid
-* Team Vitality
-* Virtus.pro
-
-### Stockholm 2021 Challengers Sticker Capsule ($3.48)
-* Astralis
-* BIG
-* ENCE
-* FaZe Clan
-* Heroic
-* mousesports
-* Movistar Riders
-* Team Spirit
-
-### Stockholm 2021 Contenders Sticker Capsule ($2.60)
-* Copenhagen Flames
-* Entropiq
-* GODSENT
-* paiN Gaming
-* Renegades
-* Sharks Esports
-* TYLOO
-* Virtus.pro (Note: duplicated in system due to regional seed adjustments)
-
----
-
-### Stockholm 2021 Finalists Autograph Capsule ($0.61)
-* **G2 Esports:** NiKo, huNter-, nexa, JACKZ, AMANEK
-* **Team Vitality:** ZywOo, shox, apEX, misutaaa, Kyojin
-* **Ninjas in Pyjamas:** device, REZ, hampus, Plopski, LNZ
-* **Heroic:** cadiaN, stavn, TeSeS, sjuush, refrezh
-* **Gambit Esports:** sh1ro, Ax1Le, HObbit, nafany, interz
-* **FURIA Esports:** arT, yuurih, KSCERATO, VINI, drop
-* **Virtus.pro:** Jame, qikert, buster, FL1T, Sanji (Note: including registered tournament roster)
-
-### Stockholm 2021 Champions Autograph Capsule ($0.78)
-* **Natus Vincere (Champions Roster):** s1mple, b1t, electroNic, Perfecto, Boombl4
-
----
----
-
-## 2. 2020 RMR (Regional Major Rankings)
-
-*注：2020 RMR 胶囊由于当届 Major 取消，仅推出了战队队标印花（包含纸面、全息、闪亮、金色四种材质），并未推出选手个人亲签印花。*
-
-### 2020 RMR Legends ($0.30)
-* Team Vitality
-* Heroic
-* Ninjas in Pyjamas
-* Team Spirit
-* Natus Vincere
-* Evil Geniuses
-* 100 Thieves
-* FURIA Esports
-
-### 2020 RMR Challengers ($0.32)
-* Astralis
-* BIG
-* Fnatic
-* G2 Esports
-* OG
-* GODSENT
-* Nemiga Gaming
-* Team Liquid
-
-### 2020 RMR Contenders ($0.39)
-* FaZe Clan
-* North
-* Virtus.pro
-* ESPADA
-* Gen.G Esports
-* BOOM Esports
-* Renegades
-* TYLOO
-
-
-# 2019 Major Championships Sticker & Autograph Capsules
-
----
-
-## 1. StarLadder Berlin Major 2019
-
-### Berlin 2019 Legends Sticker Capsule ($11.15)
-* Astralis
-* ENCE
-* FaZe Clan
-* MIBR
-* Natus Vincere
-* Ninjas in Pyjamas
-* Renegades
-* Team Liquid
-
-### Berlin 2019 Attending Challengers Sticker Capsule ($14.50)
-* AVANGAR
-* Complexity Gaming
-* G2 Esports
-* HellRaisers
-* Team Vitality
-* Cloud9 (Note: spot retained but entirely new roster)
-
-### Berlin 2019 Minor Challengers Sticker Capsule ($2.60)
-* CR4ZY
-* DreamEaters
-* Fnatic
-* forZe
-* INTZ E-Sports
-* mousesports
-* North
-* NRG Esports
-* Sharks Esports
-* Syman Gaming
-* Team Spirit
-* TYLOO
-
----
-
-### Berlin 2019 Legends Autograph Capsule ($1.30)
-* **Astralis:** dev1ce, dupreeh, gla1ve, Magisk, Xyp9x
-* **ENCE:** aerial, Aleksib, allu, sergej, xseveN
-* **FaZe Clan:** Guardian, Neo, NiKo, olofmeister, rain
-* **MIBR:** Lucas1, FalleN, fer, TACO, zews (Note: zews stood in for coldzera)
-* **Natus Vincere:** b1t, Boombl4, electroNic, s1mple, Zeus
-* **Ninjas in Pyjamas:** Golden, GeT_RiGhT, Lekr0, REZ, f0rest (Note: Golden stood in for Plopski due to roster locks)
-* **Renegades:** azr, jks, jkaem, Liazz, Gratisfaction
-* **Team Liquid:** EliGE, NAF, nitr0, Stewie2K, Twistzz
-
-### Berlin 2019 Attending Challengers Autograph Capsule ($1.15)
-* **AVANGAR:** AdreN, buster, Jame, qikert, Sanji
-* **Complexity Gaming:** dephh, oBo, rickers, ShahZaM, sick
-* **G2 Esports:** AmaNEk, Jackz, kennyS, Lucky, shox
-* **HellRaisers:** nukkye, oskar, ISSAA, loWel, zorte (Note: roster variant)
-* **Team Vitality:** ALEX, apEX, NBK-, RpK, ZywOo
-* **Cloud9:**autimatic, daps, koosta, mixwell, JamezIRL (Note: coach/player dynamic)
-
-### Berlin 2019 Minor Challengers Autograph Capsule ($1.89)
-* **CR4ZY:** Letn1, nexa, hunter-, OttoNd, SHiPZ
-* **DreamEaters:** iDISBALANCE, kinqie, Krad, speed4k, svyat
-* **Fnatic:** Brollan, JW, KRIMZ, twist, Xizt
-* **forZe:** almazer, facecrack, FL1T, Jerry, xsepower
-* **INTZ E-Sports:** kNgV-, k市场 (kito), shz, xand, yeL
-* **mousesports:** chrisJ, frozen, karrigan, ropz, woxic
-* **North:** aizy, gade, JUGi, Kjaerbye, valde
-* **NRG Esports:** Brehze, CeRq, Ethan, stanislaw, Tarik
-* **Sharks Esports:** exit, jnt, leo_drk, Meyern, RMN
-* **Syman Gaming:** t0rick, iis, Keoz, nealan, Ramz1kBO$$
-* **Team Spirit:** chopper, Sdy, iDISBALANCE, COLDYY1, SotF1k
-* **TYLOO:** BnTeT, Freeman, attacker, cy1, somebody
-
----
----
-
-## 2. IEM Katowice Major 2019
-
-### Katowice 2019 Legends Sticker Capsule ($38.90)
-* Astralis
-* BIG
-* Complexity Gaming
-* FaZe Clan
-* HellRaisers
-* MIBR
-* Natus Vincere
-* Team Liquid
-
-### Katowice 2019 Minor Challengers Sticker Capsule ($28.10)
-* AVANGAR
-* Cloud9
-* ENCE
-* Fnatic
-* FURIA Esports
-* G2 Esports
-* Grayhound Gaming
-* Ninjas in Pyjamas
-* NRG Esports
-* Renegades
-* Team Spirit
-* TYLOO
-* Vega Squadron
-* ViCi Gaming
-* Windigo Gaming (Note: regional Minor contender)
-* Winstrike Team
-
----
-
-### Katowice 2019 Legends Autograph Capsule ($5.26)
-* **Astralis:** dev1ce, dupreeh, gla1ve, Magisk, Xyp9x
-* **BIG:** gob b, tabseN, tiziaN, nex, XANTARES
-* **Complexity Gaming:** dephh, n0thing, ShahZaM, stanislaw, Rickeh
-* **FaZe Clan:** AdreN, Guardian, NiKo, olofmeister, rain
-* **HellRaisers:** ANGE1, DeadFox, HObbit, ISSAA, woxic
-* **MIBR:** coldzera, FalleN, fer, felps, TACO
-* **Natus Vincere:** Edward, electroNic, flamie, s1mple, Zeus
-* **Team Liquid:** EliGE, NAF, nitr0, Stewie2K, Twistzz
-
-### Katowice 2019 Minor Challengers Autograph Capsule ($6.53)
-* **AVANGAR:** buster, fitch, Jame, KrizzeN, qikert
-* **Cloud9:** autimatic, flusha, kioShiMa, RUSH, Zellsis
-* **ENCE:** aleksib, allu, sergej, xseveN, Aerial
-* **Fnatic:** Brollan, JW, KRIMZ, twist, Xizt
-* **FURIA Esports:** ableJ, arT, KSCERATO, VINI, yuurih
-* **G2 Esports:** bodyy, Lucky, JACKZ, kennyS, shox
-* **Grayhound Gaming:** dexter, DickStacy, erkaSt, malta, sterling
-* **Ninjas in Pyjamas:** dennis, f0rest, GeT_RiGhT, Lekr0, REZ
-* **NRG Esports:** Brehze, daps, Ethan, FugLy, CeRq
-* **Renegades:** azr, jkaem, jks, Liazz, Gratisfaction
-* **Team Spirit:** coldzera (Note: regional register), somedieyoung, DavCost, Dima, S0tF1k
-* **TYLOO:** attacker, BnTeT, somebody, Summer, xccurate
-* **Vega Squadron:** chopper, crush, hutji, jR, tonyblack
-* **ViCi Gaming:** advent, aumaN, Freeman, kaze, zhokiNg
-* **Winstrike Team:** Boombl4, Kvik, n0rb3r7, wayLander, WorldEdit
-
-
-
-# ELEAGUE Boston 2018 Major Sticker & Autograph Capsules
-
----
-
-## 1. Boston 2018 Team Sticker Capsules
-
-### Boston 2018 Legends Sticker Capsule ($44.00)
-* Gambit Esports
-* 100 Thieves (Withdrew after release, stickers remain in capsule)
-* Astralis
-* Virtus.pro
-* Fnatic
-* SK Gaming
-* BIG
-* North
-
-### Boston 2018 Challengers Sticker Capsule ($55.20)
-* Cloud9
-* FlipSid3 Tactics
-* G2 Esports
-* Natus Vincere
-* mousesports
-* Sprout
-* FaZe Clan
-* Vega Squadron
-* Space Soldiers
-* Team EnVyUs
-* Misfits Gaming
-* Team Liquid
-* Renegades
-* Flash Gaming (Replaced TyLoo)
-* Quantum Bellator Fire
-* AVANGAR
-
----
-
-## 2. Boston 2018 Player Autograph Capsules
-
-### Boston 2018 Legends Autograph Capsule ($101.63)
-* **Gambit Esports:** Dosia, AdreN, mou, HObbit, fitch
-* **100 Thieves:** kNgV-, HEN1, LUCAS1, fnx, bit (Did not attend, rare discontinued autographs)
-* **Astralis:** dev1ce, dupreeh, gla1ve, Kjaerbye, Xyp9x
-* **Virtus.pro:** TaZ, NEO, pashaBiceps, snax, byali
-* **Fnatic:** JW, flusha, KRIMZ, Golden, Lekr0
-* **SK Gaming:** FalleN, fer, coldzera, TACO, felps (felps played as sub for boltz)
-* **BIG:** gob b, nex, tabseN, keev, LEGIJA
-* **North:** MSL, k0nfig, cajunb, aizy, valde
-
-### Boston 2018 Attending Legends Autograph Capsule ($7.70)
-*注：此胶囊为 100 Thieves 确定退赛后，官方为了方便玩家抽到实际到场传奇组选手而调整/推出的修正版分类胶囊（去除了 100T 选手）。*
-* **Gambit Esports:** Dosia, AdreN, mou, HObbit, fitch
-* **Astralis:** dev1ce, dupreeh, gla1ve, Kjaerbye, Xyp9x
-* **Virtus.pro:** TaZ, NEO, pashaBiceps, snax, byali
-* **Fnatic:** JW, flusha, KRIMZ, Golden, Lekr0
-* **SK Gaming:** FalleN, fer, coldzera, TACO, felps
-* **BIG:** gob b, nex, tabseN, keev, LEGIJA
-* **North:** MSL, k0nfig, cajunb, aizy, valde
-
-### Boston 2018 Returning Challengers Autograph Capsule ($11.93)
-* **Cloud9:** Tarik, Stewie2K, autimatic, RUSH, Skadoodle
-* **FlipSid3 Tactics:** B1ad3, markeloff, WorldEdit, wayLander, seized (seized stood in for electronic)
-* **G2 Esports:** shox, bodyy, NBK-, apEX, kennyS
-* **Natus Vincere:** Edward, flamie, s1mple, Zeus, electronic
-* **mousesports:** chrisJ, oskar, suNny, STYKO, ropz
-* **Sprout:** kRYSTAL, innocent, zehN, denis, Spiidi
-* **FaZe Clan:** karrigan, rain, NiKo, Guardian, olofmeister
-* **Vega Squadron:** jR, mir, keshandr, hutji, chopper
-
-### Boston 2018 Minor Challengers Autograph Capsule ($420.60)
-* **Space Soldiers:** XANTARES, NGIN, MAJ3R, Paz, Calyx
-* **Team EnVyUs:** Happy, SIXER, RpK, xms, ScreaM
-* **Misfits Gaming:** seang@res, ShahZaM, SicK, devoduvek, AmaNEk
-* **Team Liquid:** jdm64, nitr0, EliGE, Twistzz, zews (Coach zews stood in as player for steel)
-* **Renegades:** AZR, jks, USTILO, Nifty, NAF
-* **Flash Gaming:** Fancy1, AttackeR, Kaze, LOVEYY, zhokiNg
-* **Quantum Bellator Fire:** balblna, Krad, waterfaLLZ, Boombl4, jmqa
-* **AVANGAR:** Jame, buster, KrizzeN, Qikert, dimasick
-
-
-# Vintage Major Championships (2014 - 2017) Sticker Capsules
-
----
-
-## 1. PGL Major Kraków 2017
-
-### Kraków 2017 Legends Sticker Capsule ($54.00)
-* Astralis
-* Virtus.pro
-* Fnatic
-* SK Gaming
-* Natus Vincere
-* Gambit Esports
-* North
-* FaZe Clan
-
-### Kraków 2017 Challengers Sticker Capsule ($68.50)
-* mousesports
-* G2 Esports
-* Cloud9
-* FlipSid3 Tactics
-* PENTA Sports
-* BIG
-* Vega Squadron
-* Immortals
-
----
-
-## 2. ELEAGUE Major Atlanta 2017
-
-### Atlanta 2017 Legends Sticker Capsule ($92.00)
-* SK Gaming
-* Team Liquid
-* Virtus.pro
-* Fnatic
-* Astralis
-* Gambit Gaming
-* Natus Vincere
-* FlipSid3 Tactics
-
-### Atlanta 2017 Challengers Sticker Capsule ($110.00)
-* FaZe Clan
-* mousesports
-* G2 Esports
-* OpTic Gaming
-* Team Dignitas
-* Team EnVyUs
-* GODSENT
-* HellRaisers
-
----
-
-## 3. ESL One Cologne 2016
-
-### Cologne 2016 Legends Sticker Capsule ($18.50)
-* SK Gaming (Ex-Luminosity)
-* Natus Vincere
-* Astralis
-* Team Liquid
-* Ninjas in Pyjamas
-* Fnatic
-* Virtus.pro
-* Counter Logic Gaming
-
-### Cologne 2016 Challengers Sticker Capsule ($21.00)
-* mousesports
-* FaZe Clan
-* OpTic Gaming
-* Gambit Gaming
-* Team EnVyUs
-* G2 Esports
-* Team Dignitas
-* FlipSid3 Tactics
-
----
-
-## 4. MLG Columbus 2016
-
-### MLG Columbus 2016 Legends Sticker Capsule ($65.00)
-* Team EnVyUs
-* Natus Vincere
-* FaZe Clan (Ex-G2)
-* Ninjas in Pyjamas
-* Fnatic
-* Virtus.pro
-* Astralis (Ex-TSM)
-* Luminosity Gaming
-
-### MLG Columbus 2016 Challengers Sticker Capsule ($72.00)
-* Counter Logic Gaming
-* mousesports
-* Cloud9
-* FlipSid3 Tactics
-* Team Liquid
-* Gambit Gaming
-* G2 Esports (Ex-Titan)
-* Splyce
-
----
-
-## 5. DreamHack Open Cluj-Napoca 2015
-
-### Cluj-Napoca 2015 Legends Sticker Capsule ($45.00)
-* Fnatic
-* Team EnVyUs
-* Virtus.pro
-* Natus Vincere
-* Team SoloMid
-* Ninjas in Pyjamas
-* Luminosity Gaming
-* G2 Kinguin
-
-### Cluj-Napoca 2015 Challengers Sticker Capsule ($52.00)
-* Cloud9
-* mousesports
-* Titan
-* Team Dignitas
-* FlipSid3 Tactics
-* Team Liquid
-* Counter Logic Gaming
-* Vexed Gaming
-
----
-
-## 6. ESL One Cologne 2015
-
-### Cologne 2015 Legends Sticker Capsule ($58.00)
-* Fnatic
-* Ninjas in Pyjamas
-* Natus Vincere
-* Virtus.pro
-* Team SoloMid
-* Team EnVyUs
-* Luminosity Gaming
-* Counter Logic Gaming
-
-### Cologne 2015 Challengers Sticker Capsule ($64.00)
-* Cloud9
-* mousesports
-* Team Kinguin
-* FlipSid3 Tactics
-* Titan
-* Team eBettle
-* Team Liquid
-* Renegades
-
----
-
-## 7. ESL One Katowice 2015
-
-### Katowice 2015 Legends Sticker Capsule ($490.00)
-* Fnatic
-* Ninjas in Pyjamas
-* Virtus.pro
-* Natus Vincere
-* Team EnVyUs (Ex-LDLC)
-* Team SoloMid (Ex-Dignitas)
-* PENTA Sports
-* HellRaisers
-
-### Katowice 2015 Challengers Sticker Capsule ($560.00)
-* Cloud9
-* LGB eSports
-* Vox Eminor
-* Titan
-* 3DMAX
-* Counter Logic Gaming
-* Keyd Stars
-* FlipSid3 Tactics
-
----
-
-## 8. ESL One Cologne 2014
-
-### Cologne 2014 Legends Sticker Capsule ($380.00)
-* Virtus.pro
-* Ninjas in Pyjamas
-* Team Dignitas
-* Team LDLC
-* Fnatic
-* Cloud9 (Ex-Complexity)
-* HellRaisers
-* Natus Vincere
-
-### Cologne 2014 Challengers Sticker Capsule ($410.00)
-* Copenhagen Wolves
-* Titan
-* iBUYPOWER
-* mousesports
-* Vox Eminor
-* MTS GameGod Wolf
-* dAT Team
-* Epsilon eSports
-
----
-
-## 9. EMS One Katowice 2014
-
-### EMS One Katowice 2014 Legends ($3,100.00+)
-* Fnatic
-* Ninjas in Pyjamas
-* Complexity Gaming
-* Team Dignitas
-* Virtus.pro
-* HellRaisers
-* Team LDLC
-* LGB eSports
-
-### EMS One Katowice 2014 Challengers ($3,450.00+)
-* iBUYPOWER
-* mousesports
-* Titan
-* Vox Eminor
-* Reason Gaming
-* Natus Vincere
-* 3DMAX
-* Clan-Mystik
+# Sticker Capsule and Autograph Contents
+
+> Generated from [capsules.json](../../public/data/capsules.json). Do not edit this file manually.
+> Catalogue verified: 2026-09-20.
+
+Complete simulator contents for 122 sticker and autograph capsules.
+
+## Containers
+
+### Jackass Sticker Capsule
+
+- Release date: 2026-07-03
+- Fallback price: $0.99
+- Items: 39
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (3)
+
+- Electric Avenue (Lenticular)
+- Partyboy (Lenticular)
+- Poo Cocktail Supreme (Lenticular)
+
+#### Exotic (5)
+
+- Assterisk (Foil)
+- Censored (Foil)
+- Explosives (Foil)
+- Radiograph (Foil)
+- WARNING (Foil)
+
+#### Remarkable (13)
+
+- Airhorn (Glitter)
+- Assterisk (Glitter)
+- Big Red Rocket (Glitter)
+- Head In Hands (Glitter)
+- High Five! (Glitter)
+- Skull Bunny (Glitter)
+- The Magic Trick (Glitter)
+- Boner Snap (Holo)
+- Jackass (Holo)
+- Gonna Leave A Mark (Holo)
+- Radiograph (Holo)
+- Rocket Skates (Holo)
+- ZZZAP! (Holo)
+
+#### High Grade (18)
+
+- Airhorn
+- Assterisk
+- Big Red Rocket
+- Boner Snap
+- Censored
+- Explosives
+- Golf Cart
+- Gonna Leave A Mark
+- Head In Hands
+- High Five!
+- Jackass
+- Partyboy
+- Radiograph
+- Rocket Skates
+- Skull Bunny
+- The Magic Trick
+- WARNING
+- ZZZAP!
+
+### Warhammer 40,000 Adeptus Astartes Sticker Capsule
+
+- Release date: 2025-05-22
+- Fallback price: $0.99
+- Items: 18
+- Drop weights: High Grade 100%
+
+#### High Grade (18)
+
+- Ultramarines
+- Dark Angels
+- Blood Angels
+- Space Wolves
+- Imperial Fists
+- Salamanders
+- White Scars
+- Raven Guard
+- Astartes Skull
+- Raptors
+- Iron Hands
+- Iron Halo
+- Flesh Tearers
+- Scythes of the Emperor
+- Blood Ravens
+- Adeptus Astartes
+- Crimson Fists
+- Silver Skulls
+
+### Warhammer 40,000 Imperium Sticker Capsule
+
+- Release date: 2025-05-22
+- Fallback price: $0.99
+- Items: 18
+- Drop weights: High Grade 100%
+
+#### High Grade (18)
+
+- Ecclesiarchy
+- Inquisition
+- Imperial Knights
+- Astra Militarum 1
+- Astra Militarum 2
+- Cadia
+- Adeptus Custodes 1
+- Adeptus Custodes 2
+- Officio Assassinorum
+- Sisters of Battle 1
+- Sisters of Battle 2
+- Adeptus Arbites
+- Catachan
+- Adeptus Titanicus 1
+- Adeptus Titanicus 2
+- Adeptus Mechanicus 1
+- Adeptus Mechanicus 2
+- Rogue Trader
+
+### Warhammer 40,000 Traitor Astartes Sticker Capsule
+
+- Release date: 2025-05-22
+- Fallback price: $0.99
+- Items: 18
+- Drop weights: High Grade 100%
+
+#### High Grade (18)
+
+- World Eaters 1
+- World Eaters 2
+- Word Bearers 1
+- Word Bearers 2
+- Thousand Sons 1
+- Thousand Sons 2
+- Night Lords 1
+- Night Lords 2
+- Iron Warriors 1
+- Iron Warriors 2
+- Emperor's Children 1
+- Emperor's Children 2
+- Death Guard 1
+- Death Guard 2
+- Black Legion 1
+- Black Legion 2
+- Alpha Legion 1
+- Alpha Legion 2
+
+### Warhammer 40,000 Xenos Sticker Capsule
+
+- Release date: 2025-05-22
+- Fallback price: $0.99
+- Items: 18
+- Drop weights: High Grade 100%
+
+#### High Grade (18)
+
+- Tyranids 1
+- Tyranids 2
+- T'au Empire 1
+- T'au Empire 2
+- Orks 1
+- Orks 2
+- Necron Ankh
+- Necron Glyphs
+- Leagues of Votann 1
+- Leagues of Votann 2
+- Harlequins 1
+- Harlequins 2
+- Genestealer Cults 1
+- Genestealer Cults 2
+- Drukhari 1
+- Drukhari 2
+- Aeldari 1
+- Aeldari 2
+
+### Ambush Sticker Capsule
+
+- Release date: 2024-01-25
+- Fallback price: $0.68
+- Items: 21
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (3)
+
+- Dystopian Gaze (Lenticular)
+- Econometer (Lenticular)
+- Old School (Lenticular)
+
+#### Exotic (4)
+
+- Lost In Smoke (Foil)
+- On An Eco (Foil)
+- Ouchie (Foil)
+- Factory Sealed (Foil)
+
+#### Remarkable (6)
+
+- Lotus (Glitter)
+- Pushing Smokes (Glitter)
+- Cedar Creek (Holo)
+- Lit (Holo)
+- Loving Eyes (Holo)
+- Try Hard (Holo)
+
+#### High Grade (8)
+
+- This Is Fine (Chicken)
+- Retro Zeus
+- Please Return To
+- Peek-A-Boo
+- AKickflip-47
+- Easy For Ricksaw
+- Bum A Smoke
+- Angry T
+
+### Espionage Sticker Capsule
+
+- Release date: 2023-01-05
+- Fallback price: $0.68
+- Items: 21
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- Hidden Hero (Foil)
+- Ethereal Gaze (Foil)
+- Peek Me (Foil)
+
+#### Remarkable (6)
+
+- Cyber Chicken (Holo)
+- Mind Games (Holo)
+- Infinite Triangle (Holo)
+- Salty (Holo)
+- Snowfall (Glitter)
+- Street Artist (Glitter)
+
+#### High Grade (12)
+
+- 360 No Scope
+- Aim And Fire
+- Batter Up
+- Sting Like A Butterfly
+- Fireball
+- Explosive Strength
+- Not A Bot
+- Knife's Edge
+- Run T, Run
+- Spectators
+- Zap Cat
+- Well Played
+
+### 10 Year Birthday Sticker Capsule
+
+- Release date: 2022-06-15
+- Fallback price: $0.66
+- Items: 65
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (6)
+
+- DJ Safecracker (Lenticular)
+- Freeze (Lenticular)
+- Global TV (Lenticular)
+- Magic Rush Ball (Lenticular)
+- Skin Lover (Lenticular)
+- TV Installation (Lenticular)
+
+#### Exotic (8)
+
+- Approaching Site (Foil)
+- Dust FA (Foil)
+- In The Fire (Foil)
+- Overpass Diorama (Foil)
+- Pure Malt (Foil)
+- Romanov's Fire (Foil)
+- Showdown (Foil)
+- Ten Years (Foil)
+
+#### Remarkable (13)
+
+- Ace Clutch Co. (Holo)
+- Blue Gem (Glitter)
+- Cbbl (Holo)
+- Conspiracy Club (Holo)
+- Defuse It (Holo)
+- Get Smoked (Holo)
+- Go Boom (Glitter)
+- Kawaii CT (Holo)
+- Kawaii T (Holo)
+- Leaving The Station (Holo)
+- Pain Train (Holo)
+- Vertigo's Hero (Holo)
+- Zeusception (Holo)
+
+#### High Grade (38)
+
+- Agent Select
+- Arms Race
+- B-Day
+- Baby Cerberus
+- Baby Fire Serpent
+- Baby Howl
+- Baby Lore
+- Baby Medusa
+- Beaky Decade
+- Booth
+- C-S On The Go
+- Call Your Flashes
+- Chicken Whisperer
+- Choose Wisely
+- Clicking Heads
+- Co Co Co
+- Cursed Penmanship
+- Dragon's Keep
+- Dragon Tale
+- Dreams And Mimics
+- Endless Cycle
+- Exo Jumper
+- Free Range
+- GO
+- Good Sports
+- Good Versus Evil
+- Green's Problem
+- Laser Beam
+- Monster
+- Noble Steed
+- Not For Resale
+- Press Start
+- Rush More
+- Save Me
+- Shifty Tactics
+- This Is Fine (H)
+- TV On Mirage
+- Zeused
+
+### The Boardroom Sticker Capsule
+
+- Release date: 2022-02-20
+- Fallback price: $0.79
+- Items: 22
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (4)
+
+- Face Me (Foil)
+- Inferno Diorama (Foil)
+- The Real MVP (Foil)
+- Rock, Paper, Scissors (Foil)
+
+#### Remarkable (6)
+
+- Flashblack (Holo)
+- Infinite Diamond (Holo)
+- Phoenix Balaclava Co. (Holo)
+- Sneaky Beaky Dept. (Holo)
+- T Rush (Holo)
+- V For Victory (Holo)
+
+#### High Grade (12)
+
+- B Hop
+- Flick Shotter
+- Get Clucked
+- I'm Lit
+- Little Mischief
+- Hi, My Game Is
+- Run CT, Run
+- Smoke Criminal
+- Squeaky Door
+- Rat Pack
+- This Is Fine (T)
+- Wallbang
+
+### Stockholm 2021 Challengers Sticker Capsule
+
+- Release date: 2021-10-10
+- Fallback price: $3.48
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Team Spirit (Gold) | Stockholm 2021
+- Astralis (Gold) | Stockholm 2021
+- paiN Gaming (Gold) | Stockholm 2021
+- ENCE (Gold) | Stockholm 2021
+- BIG (Gold) | Stockholm 2021
+- Movistar Riders (Gold) | Stockholm 2021
+- Heroic (Gold) | Stockholm 2021
+- MOUZ (Gold) | Stockholm 2021
+- PGL (Gold) | Stockholm 2021
+
+#### Exotic (9)
+
+- Team Spirit (Foil) | Stockholm 2021
+- Astralis (Foil) | Stockholm 2021
+- paiN Gaming (Foil) | Stockholm 2021
+- ENCE (Foil) | Stockholm 2021
+- BIG (Foil) | Stockholm 2021
+- Movistar Riders (Foil) | Stockholm 2021
+- Heroic (Foil) | Stockholm 2021
+- MOUZ (Foil) | Stockholm 2021
+- PGL (Foil) | Stockholm 2021
+
+#### Remarkable (9)
+
+- Team Spirit (Holo) | Stockholm 2021
+- Astralis (Holo) | Stockholm 2021
+- paiN Gaming (Holo) | Stockholm 2021
+- ENCE (Holo) | Stockholm 2021
+- BIG (Holo) | Stockholm 2021
+- Movistar Riders (Holo) | Stockholm 2021
+- Heroic (Holo) | Stockholm 2021
+- MOUZ (Holo) | Stockholm 2021
+- PGL (Holo) | Stockholm 2021
+
+#### High Grade (9)
+
+- Team Spirit | Stockholm 2021
+- Astralis | Stockholm 2021
+- paiN Gaming | Stockholm 2021
+- ENCE | Stockholm 2021
+- BIG | Stockholm 2021
+- Movistar Riders | Stockholm 2021
+- Heroic | Stockholm 2021
+- MOUZ | Stockholm 2021
+- PGL | Stockholm 2021
+
+### Stockholm 2021 Champions Autograph Capsule
+
+- Release date: 2021-10-10
+- Fallback price: $0.78
+- Items: 15
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (5)
+
+- s1mple (Gold) | Stockholm 2021
+- Perfecto (Gold) | Stockholm 2021
+- Boombl4 (Gold) | Stockholm 2021
+- b1t (Gold) | Stockholm 2021
+- electroNic (Gold) | Stockholm 2021
+
+#### Remarkable (5)
+
+- s1mple (Holo) | Stockholm 2021
+- Perfecto (Holo) | Stockholm 2021
+- Boombl4 (Holo) | Stockholm 2021
+- b1t (Holo) | Stockholm 2021
+- electroNic (Holo) | Stockholm 2021
+
+#### High Grade (5)
+
+- s1mple | Stockholm 2021
+- Perfecto | Stockholm 2021
+- Boombl4 | Stockholm 2021
+- b1t | Stockholm 2021
+- electroNic | Stockholm 2021
+
+### Stockholm 2021 Contenders Sticker Capsule
+
+- Release date: 2021-10-10
+- Fallback price: $2.60
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Sharks Esports (Gold) | Stockholm 2021
+- Tyloo (Gold) | Stockholm 2021
+- Renegades (Gold) | Stockholm 2021
+- Entropiq (Gold) | Stockholm 2021
+- GODSENT (Gold) | Stockholm 2021
+- Virtus.Pro (Gold) | Stockholm 2021
+- Copenhagen Flames (Gold) | Stockholm 2021
+- FaZe Clan (Gold) | Stockholm 2021
+- PGL (Gold) | Stockholm 2021
+
+#### Exotic (9)
+
+- Sharks Esports (Foil) | Stockholm 2021
+- Tyloo (Foil) | Stockholm 2021
+- Renegades (Foil) | Stockholm 2021
+- Entropiq (Foil) | Stockholm 2021
+- GODSENT (Foil) | Stockholm 2021
+- Virtus.Pro (Foil) | Stockholm 2021
+- Copenhagen Flames (Foil) | Stockholm 2021
+- FaZe Clan (Foil) | Stockholm 2021
+- PGL (Foil) | Stockholm 2021
+
+#### Remarkable (9)
+
+- Sharks Esports (Holo) | Stockholm 2021
+- Tyloo (Holo) | Stockholm 2021
+- Renegades (Holo) | Stockholm 2021
+- Entropiq (Holo) | Stockholm 2021
+- GODSENT (Holo) | Stockholm 2021
+- Virtus.Pro (Holo) | Stockholm 2021
+- Copenhagen Flames (Holo) | Stockholm 2021
+- FaZe Clan (Holo) | Stockholm 2021
+- PGL (Holo) | Stockholm 2021
+
+#### High Grade (9)
+
+- Sharks Esports | Stockholm 2021
+- Tyloo | Stockholm 2021
+- Renegades | Stockholm 2021
+- Entropiq | Stockholm 2021
+- GODSENT | Stockholm 2021
+- Virtus.Pro | Stockholm 2021
+- Copenhagen Flames | Stockholm 2021
+- FaZe Clan | Stockholm 2021
+- PGL | Stockholm 2021
+
+### Stockholm 2021 Finalists Autograph Capsule
+
+- Release date: 2021-10-10
+- Fallback price: $0.61
+- Items: 105
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (35)
+
+- NiKo (Gold) | Stockholm 2021
+- nexa (Gold) | Stockholm 2021
+- huNter- (Gold) | Stockholm 2021
+- JACKZ (Gold) | Stockholm 2021
+- AMANEK (Gold) | Stockholm 2021
+- TeSeS (Gold) | Stockholm 2021
+- stavn (Gold) | Stockholm 2021
+- sjuush (Gold) | Stockholm 2021
+- refrezh (Gold) | Stockholm 2021
+- cadiaN (Gold) | Stockholm 2021
+- nafany (Gold) | Stockholm 2021
+- Ax1Le (Gold) | Stockholm 2021
+- interz (Gold) | Stockholm 2021
+- sh1ro (Gold) | Stockholm 2021
+- HObbit (Gold) | Stockholm 2021
+- drop (Gold) | Stockholm 2021
+- KSCERATO (Gold) | Stockholm 2021
+- VINI (Gold) | Stockholm 2021
+- arT (Gold) | Stockholm 2021
+- yuurih (Gold) | Stockholm 2021
+- Qikert (Gold) | Stockholm 2021
+- buster (Gold) | Stockholm 2021
+- YEKINDAR (Gold) | Stockholm 2021
+- Jame (Gold) | Stockholm 2021
+- FL1T (Gold) | Stockholm 2021
+- hampus (Gold) | Stockholm 2021
+- LNZ (Gold) | Stockholm 2021
+- REZ (Gold) | Stockholm 2021
+- Plopski (Gold) | Stockholm 2021
+- device (Gold) | Stockholm 2021
+- ZywOo (Gold) | Stockholm 2021
+- misutaaa (Gold) | Stockholm 2021
+- Kyojin (Gold) | Stockholm 2021
+- shox (Gold) | Stockholm 2021
+- apEX (Gold) | Stockholm 2021
+
+#### Remarkable (35)
+
+- NiKo (Holo) | Stockholm 2021
+- nexa (Holo) | Stockholm 2021
+- huNter- (Holo) | Stockholm 2021
+- JACKZ (Holo) | Stockholm 2021
+- AMANEK (Holo) | Stockholm 2021
+- TeSeS (Holo) | Stockholm 2021
+- stavn (Holo) | Stockholm 2021
+- sjuush (Holo) | Stockholm 2021
+- refrezh (Holo) | Stockholm 2021
+- cadiaN (Holo) | Stockholm 2021
+- nafany (Holo) | Stockholm 2021
+- Ax1Le (Holo) | Stockholm 2021
+- interz (Holo) | Stockholm 2021
+- sh1ro (Holo) | Stockholm 2021
+- HObbit (Holo) | Stockholm 2021
+- drop (Holo) | Stockholm 2021
+- KSCERATO (Holo) | Stockholm 2021
+- VINI (Holo) | Stockholm 2021
+- arT (Holo) | Stockholm 2021
+- yuurih (Holo) | Stockholm 2021
+- Qikert (Holo) | Stockholm 2021
+- buster (Holo) | Stockholm 2021
+- YEKINDAR (Holo) | Stockholm 2021
+- Jame (Holo) | Stockholm 2021
+- FL1T (Holo) | Stockholm 2021
+- hampus (Holo) | Stockholm 2021
+- LNZ (Holo) | Stockholm 2021
+- REZ (Holo) | Stockholm 2021
+- Plopski (Holo) | Stockholm 2021
+- device (Holo) | Stockholm 2021
+- ZywOo (Holo) | Stockholm 2021
+- misutaaa (Holo) | Stockholm 2021
+- Kyojin (Holo) | Stockholm 2021
+- shox (Holo) | Stockholm 2021
+- apEX (Holo) | Stockholm 2021
+
+#### High Grade (35)
+
+- NiKo | Stockholm 2021
+- nexa | Stockholm 2021
+- huNter- | Stockholm 2021
+- JACKZ | Stockholm 2021
+- AMANEK | Stockholm 2021
+- TeSeS | Stockholm 2021
+- stavn | Stockholm 2021
+- sjuush | Stockholm 2021
+- refrezh | Stockholm 2021
+- cadiaN | Stockholm 2021
+- nafany | Stockholm 2021
+- Ax1Le | Stockholm 2021
+- interz | Stockholm 2021
+- sh1ro | Stockholm 2021
+- HObbit | Stockholm 2021
+- drop | Stockholm 2021
+- KSCERATO | Stockholm 2021
+- VINI | Stockholm 2021
+- arT | Stockholm 2021
+- yuurih | Stockholm 2021
+- Qikert | Stockholm 2021
+- buster | Stockholm 2021
+- YEKINDAR | Stockholm 2021
+- Jame | Stockholm 2021
+- FL1T | Stockholm 2021
+- hampus | Stockholm 2021
+- LNZ | Stockholm 2021
+- REZ | Stockholm 2021
+- Plopski | Stockholm 2021
+- device | Stockholm 2021
+- ZywOo | Stockholm 2021
+- misutaaa | Stockholm 2021
+- Kyojin | Stockholm 2021
+- shox | Stockholm 2021
+- apEX | Stockholm 2021
+
+### Stockholm 2021 Legends Sticker Capsule
+
+- Release date: 2021-10-10
+- Fallback price: $1.62
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Ninjas in Pyjamas (Gold) | Stockholm 2021
+- FURIA (Gold) | Stockholm 2021
+- Natus Vincere (Gold) | Stockholm 2021
+- Vitality (Gold) | Stockholm 2021
+- Team Liquid (Gold) | Stockholm 2021
+- Gambit Gaming (Gold) | Stockholm 2021
+- G2 Esports (Gold) | Stockholm 2021
+- Evil Geniuses (Gold) | Stockholm 2021
+- PGL (Gold) | Stockholm 2021
+
+#### Exotic (9)
+
+- Ninjas in Pyjamas (Foil) | Stockholm 2021
+- FURIA (Foil) | Stockholm 2021
+- Natus Vincere (Foil) | Stockholm 2021
+- Vitality (Foil) | Stockholm 2021
+- Team Liquid (Foil) | Stockholm 2021
+- Gambit Gaming (Foil) | Stockholm 2021
+- G2 Esports (Foil) | Stockholm 2021
+- Evil Geniuses (Foil) | Stockholm 2021
+- PGL (Foil) | Stockholm 2021
+
+#### Remarkable (9)
+
+- Ninjas in Pyjamas (Holo) | Stockholm 2021
+- FURIA (Holo) | Stockholm 2021
+- Natus Vincere (Holo) | Stockholm 2021
+- Vitality (Holo) | Stockholm 2021
+- Team Liquid (Holo) | Stockholm 2021
+- Gambit Gaming (Holo) | Stockholm 2021
+- G2 Esports (Holo) | Stockholm 2021
+- Evil Geniuses (Holo) | Stockholm 2021
+- PGL (Holo) | Stockholm 2021
+
+#### High Grade (9)
+
+- Ninjas in Pyjamas | Stockholm 2021
+- FURIA | Stockholm 2021
+- Natus Vincere | Stockholm 2021
+- Vitality | Stockholm 2021
+- Team Liquid | Stockholm 2021
+- Gambit Gaming | Stockholm 2021
+- G2 Esports | Stockholm 2021
+- Evil Geniuses | Stockholm 2021
+- PGL | Stockholm 2021
+
+### Battlefield 2042 Sticker Capsule
+
+- Release date: 2021-10-07
+- Fallback price: $0.76
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- Mr. Chompy (Foil)
+- PAC AI (Foil)
+- Tornado Chaos (Foil)
+
+#### Remarkable (4)
+
+- No Pats (Holo)
+- PTFO (Holo)
+- Ready For Battle (Holo)
+- Wingsuit (Holo)
+
+#### High Grade (10)
+
+- Battlefield Portal
+- BF 2042
+- Come Here Boy
+- Forty Two
+- Knives Out
+- Mr. Chompy
+- No Pats
+- PAC AI
+- PTFO
+- Ready For Battle
+
+### 2021 Community Sticker Capsule
+
+- Release date: 2021-09-02
+- Fallback price: $1.38
+- Items: 21
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- Ace Devil (Foil)
+- Bullet Hell (Foil)
+- Purrurists (Foil)
+
+#### Remarkable (6)
+
+- Cyber Romanov (Holo)
+- Eye Contact (Holo)
+- Handle With Care (Holo)
+- I See You (Holo)
+- Nice Clutch (Holo)
+- Runtime (Holo)
+
+#### High Grade (12)
+
+- Clutch Or Kick
+- Dr. Dazzles
+- EZ
+- Fast Banana
+- Hard Carry
+- Kitted Out
+- Nademan
+- No Time
+- Retro Leet
+- Speedy T
+- This Is Fine (CT)
+- War
+
+### Poorly Drawn Capsule
+
+- Release date: 2021-02-14
+- Fallback price: $0.73
+- Items: 20
+- Drop weights: Remarkable 16.6615% · High Grade 83.3385%
+
+#### Remarkable (10)
+
+- Poorly Drawn Ava (Holo)
+- Poorly Drawn Balkan (Holo)
+- Poorly Drawn Bloody Darryl (Holo)
+- Poorly Drawn Chicken (Holo)
+- Poorly Drawn FBI (Holo)
+- Poorly Drawn IDF (Holo)
+- Poorly Drawn Leet Crew (Holo)
+- Poorly Drawn Number K (Holo)
+- Poorly Drawn SAS (Holo)
+- Poorly Drawn Terrorist (Holo)
+
+#### High Grade (10)
+
+- Poorly Drawn Ava
+- Poorly Drawn Balkan
+- Poorly Drawn Bloody Darryl
+- Poorly Drawn Chicken
+- Poorly Drawn FBI
+- Poorly Drawn IDF
+- Poorly Drawn Leet Crew
+- Poorly Drawn Number K
+- Poorly Drawn SAS
+- Poorly Drawn Terrorist
+
+### 2020 RMR Challengers
+
+- Release date: 2021-01-19
+- Fallback price: $0.32
+- Items: 32
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (8)
+
+- Astralis (Gold) | 2020 RMR
+- BIG (Gold) | 2020 RMR
+- Fnatic (Gold) | 2020 RMR
+- G2 (Gold) | 2020 RMR
+- OG (Gold) | 2020 RMR
+- GODSENT (Gold) | 2020 RMR
+- Nemiga (Gold) | 2020 RMR
+- Liquid (Gold) | 2020 RMR
+
+#### Exotic (8)
+
+- Astralis (Foil) | 2020 RMR
+- BIG (Foil) | 2020 RMR
+- Fnatic (Foil) | 2020 RMR
+- G2 (Foil) | 2020 RMR
+- OG (Foil) | 2020 RMR
+- GODSENT (Foil) | 2020 RMR
+- Nemiga (Foil) | 2020 RMR
+- Liquid (Foil) | 2020 RMR
+
+#### Remarkable (8)
+
+- Astralis (Holo) | 2020 RMR
+- BIG (Holo) | 2020 RMR
+- Fnatic (Holo) | 2020 RMR
+- G2 (Holo) | 2020 RMR
+- OG (Holo) | 2020 RMR
+- GODSENT (Holo) | 2020 RMR
+- Nemiga (Holo) | 2020 RMR
+- Liquid (Holo) | 2020 RMR
+
+#### High Grade (8)
+
+- Astralis | 2020 RMR
+- BIG | 2020 RMR
+- Fnatic | 2020 RMR
+- G2 | 2020 RMR
+- OG | 2020 RMR
+- GODSENT | 2020 RMR
+- Nemiga | 2020 RMR
+- Liquid | 2020 RMR
+
+### 2020 RMR Contenders
+
+- Release date: 2021-01-19
+- Fallback price: $0.39
+- Items: 32
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (8)
+
+- FaZe (Gold) | 2020 RMR
+- North (Gold) | 2020 RMR
+- Virtus.pro (Gold) | 2020 RMR
+- ESPADA (Gold) | 2020 RMR
+- Gen.G (Gold) | 2020 RMR
+- Boom (Gold) | 2020 RMR
+- Renegades (Gold) | 2020 RMR
+- TYLOO (Gold) | 2020 RMR
+
+#### Exotic (8)
+
+- FaZe (Foil) | 2020 RMR
+- North (Foil) | 2020 RMR
+- Virtus.pro (Foil) | 2020 RMR
+- ESPADA (Foil) | 2020 RMR
+- Gen.G (Foil) | 2020 RMR
+- Boom (Foil) | 2020 RMR
+- Renegades (Foil) | 2020 RMR
+- TYLOO (Foil) | 2020 RMR
+
+#### Remarkable (8)
+
+- FaZe (Holo) | 2020 RMR
+- North (Holo) | 2020 RMR
+- Virtus.pro (Holo) | 2020 RMR
+- ESPADA (Holo) | 2020 RMR
+- Gen.G (Holo) | 2020 RMR
+- Boom (Holo) | 2020 RMR
+- Renegades (Holo) | 2020 RMR
+- TYLOO (Holo) | 2020 RMR
+
+#### High Grade (8)
+
+- FaZe | 2020 RMR
+- North | 2020 RMR
+- Virtus.pro | 2020 RMR
+- ESPADA | 2020 RMR
+- Gen.G | 2020 RMR
+- Boom | 2020 RMR
+- Renegades | 2020 RMR
+- TYLOO | 2020 RMR
+
+### 2020 RMR Legends
+
+- Release date: 2021-01-19
+- Fallback price: $0.30
+- Items: 32
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (8)
+
+- Vitality (Gold) | 2020 RMR
+- Heroic (Gold) | 2020 RMR
+- Ninjas in Pyjamas (Gold) | 2020 RMR
+- Spirit (Gold) | 2020 RMR
+- Natus Vincere (Gold) | 2020 RMR
+- Evil Geniuses (Gold) | 2020 RMR
+- 100 Thieves (Gold) | 2020 RMR
+- FURIA (Gold) | 2020 RMR
+
+#### Exotic (8)
+
+- Vitality (Foil) | 2020 RMR
+- Heroic (Foil) | 2020 RMR
+- Ninjas in Pyjamas (Foil) | 2020 RMR
+- Spirit (Foil) | 2020 RMR
+- Natus Vincere (Foil) | 2020 RMR
+- Evil Geniuses (Foil) | 2020 RMR
+- 100 Thieves (Foil) | 2020 RMR
+- FURIA (Foil) | 2020 RMR
+
+#### Remarkable (8)
+
+- Vitality (Holo) | 2020 RMR
+- Heroic (Holo) | 2020 RMR
+- Ninjas in Pyjamas (Holo) | 2020 RMR
+- Spirit (Holo) | 2020 RMR
+- Natus Vincere (Holo) | 2020 RMR
+- Evil Geniuses (Holo) | 2020 RMR
+- 100 Thieves (Holo) | 2020 RMR
+- FURIA (Holo) | 2020 RMR
+
+#### High Grade (8)
+
+- Vitality | 2020 RMR
+- Heroic | 2020 RMR
+- Ninjas in Pyjamas | 2020 RMR
+- Spirit | 2020 RMR
+- Natus Vincere | 2020 RMR
+- Evil Geniuses | 2020 RMR
+- 100 Thieves | 2020 RMR
+- FURIA | 2020 RMR
+
+### Warhammer 40,000 Sticker Capsule
+
+- Release date: 2020-05-28
+- Fallback price: $0.84
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- Bloodthirster (Foil)
+- Chaos Marine (Foil)
+- Emperor (Foil)
+
+#### Remarkable (4)
+
+- Heresy (Holo)
+- Lord of Skulls (Holo)
+- Space Marine (Holo)
+- Tyranids Hive Tyrant (Holo)
+
+#### High Grade (10)
+
+- Adepta Sororitas
+- Aeldari Avatar
+- Full Buy
+- Heresy
+- Necron
+- Ork Waaagh!
+- Primaris Keychain
+- Repulsor
+- Space Marine
+- Tyranids Ravener
+
+### Half-Life: Alyx Sticker Capsule
+
+- Release date: 2020-03-23
+- Fallback price: $0.75
+- Items: 13
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Last Vance (Gold)
+- Health (Gold)
+
+#### Remarkable (4)
+
+- Vortigaunt (Holo)
+- Big Hugs (Holo)
+- Combine Helmet (Holo)
+- Lambda (Holo)
+
+#### High Grade (7)
+
+- Last Vance
+- Vortigaunt the Painter
+- Big Hugs
+- Combine Helmet
+- Gnome Mercy
+- Greetings
+- Lambda
+
+### Halo Capsule
+
+- Release date: 2019-11-25
+- Fallback price: $0.77
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Chief (Foil)
+- Legendary (Foil)
+
+#### Remarkable (5)
+
+- Assassin (Holo)
+- Chief (Holo)
+- Incineration (Holo)
+- Killjoy (Holo)
+- Noble (Holo)
+
+#### High Grade (10)
+
+- Assassin
+- Chief
+- Dirty Money
+- Extermination
+- Incineration
+- Killjoy
+- Legendary
+- Mister Chief
+- Noble
+- Spartan
+
+### CS20 Sticker Capsule
+
+- Release date: 2019-10-16
+- Fallback price: $1.20
+- Items: 20
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- All Hail the King (Foil)
+- Door Stuck (Foil)
+- Dragon Lore (Foil)
+
+#### Remarkable (6)
+
+- CS20 Classic (Holo)
+- Clutchman (Holo)
+- Guinea Pig (Holo)
+- Fire in the Hole (Holo)
+- Boost (Holo)
+- Rush 4x20 (Holo)
+
+#### High Grade (11)
+
+- Too Old for This
+- Pixel Avenger
+- Aztec
+- Too Late
+- Friend Code
+- Obey SAS
+- Nuke Beast
+- Mondays
+- Separate Pixels
+- Surf's Up
+- Temperance
+
+### Berlin 2019 Legends Autograph Capsule
+
+- Release date: 2019-08-08
+- Fallback price: $1.30
+- Items: 120
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (40)
+
+- Magisk (Gold) | Berlin 2019
+- device (Gold) | Berlin 2019
+- Xyp9x (Gold) | Berlin 2019
+- dupreeh (Gold) | Berlin 2019
+- gla1ve (Gold) | Berlin 2019
+- allu (Gold) | Berlin 2019
+- Aerial (Gold) | Berlin 2019
+- xseveN (Gold) | Berlin 2019
+- Aleksib (Gold) | Berlin 2019
+- sergej (Gold) | Berlin 2019
+- FalleN (Gold) | Berlin 2019
+- LUCAS1 (Gold) | Berlin 2019
+- fer (Gold) | Berlin 2019
+- TACO (Gold) | Berlin 2019
+- coldzera (Gold) | Berlin 2019
+- Zeus (Gold) | Berlin 2019
+- s1mple (Gold) | Berlin 2019
+- electronic (Gold) | Berlin 2019
+- flamie (Gold) | Berlin 2019
+- Boombl4 (Gold) | Berlin 2019
+- f0rest (Gold) | Berlin 2019
+- Lekr0 (Gold) | Berlin 2019
+- GeT_RiGhT (Gold) | Berlin 2019
+- REZ (Gold) | Berlin 2019
+- Golden (Gold) | Berlin 2019
+- NEO (Gold) | Berlin 2019
+- GuardiaN (Gold) | Berlin 2019
+- olofmeister (Gold) | Berlin 2019
+- rain (Gold) | Berlin 2019
+- NiKo (Gold) | Berlin 2019
+- nitr0 (Gold) | Berlin 2019
+- Stewie2K (Gold) | Berlin 2019
+- NAF (Gold) | Berlin 2019
+- Twistzz (Gold) | Berlin 2019
+- EliGE (Gold) | Berlin 2019
+- Gratisfaction (Gold) | Berlin 2019
+- jks (Gold) | Berlin 2019
+- AZR (Gold) | Berlin 2019
+- jkaem (Gold) | Berlin 2019
+- Liazz (Gold) | Berlin 2019
+
+#### Remarkable (40)
+
+- Magisk (Foil) | Berlin 2019
+- device (Foil) | Berlin 2019
+- Xyp9x (Foil) | Berlin 2019
+- dupreeh (Foil) | Berlin 2019
+- gla1ve (Foil) | Berlin 2019
+- allu (Foil) | Berlin 2019
+- Aerial (Foil) | Berlin 2019
+- xseveN (Foil) | Berlin 2019
+- Aleksib (Foil) | Berlin 2019
+- sergej (Foil) | Berlin 2019
+- FalleN (Foil) | Berlin 2019
+- LUCAS1 (Foil) | Berlin 2019
+- fer (Foil) | Berlin 2019
+- TACO (Foil) | Berlin 2019
+- coldzera (Foil) | Berlin 2019
+- Zeus (Foil) | Berlin 2019
+- s1mple (Foil) | Berlin 2019
+- electronic (Foil) | Berlin 2019
+- flamie (Foil) | Berlin 2019
+- Boombl4 (Foil) | Berlin 2019
+- f0rest (Foil) | Berlin 2019
+- Lekr0 (Foil) | Berlin 2019
+- GeT_RiGhT (Foil) | Berlin 2019
+- REZ (Foil) | Berlin 2019
+- Golden (Foil) | Berlin 2019
+- NEO (Foil) | Berlin 2019
+- GuardiaN (Foil) | Berlin 2019
+- olofmeister (Foil) | Berlin 2019
+- rain (Foil) | Berlin 2019
+- NiKo (Foil) | Berlin 2019
+- nitr0 (Foil) | Berlin 2019
+- Stewie2K (Foil) | Berlin 2019
+- NAF (Foil) | Berlin 2019
+- Twistzz (Foil) | Berlin 2019
+- EliGE (Foil) | Berlin 2019
+- Gratisfaction (Foil) | Berlin 2019
+- jks (Foil) | Berlin 2019
+- AZR (Foil) | Berlin 2019
+- jkaem (Foil) | Berlin 2019
+- Liazz (Foil) | Berlin 2019
+
+#### High Grade (40)
+
+- Magisk | Berlin 2019
+- device | Berlin 2019
+- Xyp9x | Berlin 2019
+- dupreeh | Berlin 2019
+- gla1ve | Berlin 2019
+- allu | Berlin 2019
+- Aerial | Berlin 2019
+- xseveN | Berlin 2019
+- Aleksib | Berlin 2019
+- sergej | Berlin 2019
+- FalleN | Berlin 2019
+- LUCAS1 | Berlin 2019
+- fer | Berlin 2019
+- TACO | Berlin 2019
+- coldzera | Berlin 2019
+- Zeus | Berlin 2019
+- s1mple | Berlin 2019
+- electronic | Berlin 2019
+- flamie | Berlin 2019
+- Boombl4 | Berlin 2019
+- f0rest | Berlin 2019
+- Lekr0 | Berlin 2019
+- GeT_RiGhT | Berlin 2019
+- REZ | Berlin 2019
+- Golden | Berlin 2019
+- NEO | Berlin 2019
+- GuardiaN | Berlin 2019
+- olofmeister | Berlin 2019
+- rain | Berlin 2019
+- NiKo | Berlin 2019
+- nitr0 | Berlin 2019
+- Stewie2K | Berlin 2019
+- NAF | Berlin 2019
+- Twistzz | Berlin 2019
+- EliGE | Berlin 2019
+- Gratisfaction | Berlin 2019
+- jks | Berlin 2019
+- AZR | Berlin 2019
+- jkaem | Berlin 2019
+- Liazz | Berlin 2019
+
+### Berlin 2019 Minor Challengers (Holo/Foil)
+
+- Release date: 2019-08-08
+- Fallback price: $2.60
+- Items: 24
+- Drop weights: Exotic 16.6927% · Remarkable 83.3073%
+
+#### Exotic (12)
+
+- Grayhound Gaming (Foil) | Berlin 2019
+- mousesports (Foil) | Berlin 2019
+- forZe eSports (Foil) | Berlin 2019
+- NRG (Foil) | Berlin 2019
+- Tyloo (Foil) | Berlin 2019
+- FURIA (Foil) | Berlin 2019
+- CR4ZY (Foil) | Berlin 2019
+- Syman Gaming (Foil) | Berlin 2019
+- North (Foil) | Berlin 2019
+- DreamEaters (Foil) | Berlin 2019
+- INTZ E-SPORTS CLUB (Foil) | Berlin 2019
+- StarLadder (Foil) | Berlin 2019
+
+#### Remarkable (12)
+
+- Grayhound Gaming (Holo) | Berlin 2019
+- mousesports (Holo) | Berlin 2019
+- forZe eSports (Holo) | Berlin 2019
+- NRG (Holo) | Berlin 2019
+- Tyloo (Holo) | Berlin 2019
+- FURIA (Holo) | Berlin 2019
+- CR4ZY (Holo) | Berlin 2019
+- Syman Gaming (Holo) | Berlin 2019
+- North (Holo) | Berlin 2019
+- DreamEaters (Holo) | Berlin 2019
+- INTZ E-SPORTS CLUB (Holo) | Berlin 2019
+- StarLadder (Holo) | Berlin 2019
+
+### Berlin 2019 Minor Challengers Autograph Capsule
+
+- Release date: 2019-08-08
+- Fallback price: $1.89
+- Items: 165
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (55)
+
+- Sico (Gold) | Berlin 2019
+- dexter (Gold) | Berlin 2019
+- erkaSt (Gold) | Berlin 2019
+- malta (Gold) | Berlin 2019
+- DickStacy (Gold) | Berlin 2019
+- chrisJ (Gold) | Berlin 2019
+- karrigan (Gold) | Berlin 2019
+- ropz (Gold) | Berlin 2019
+- frozen (Gold) | Berlin 2019
+- woxic (Gold) | Berlin 2019
+- FL1T (Gold) | Berlin 2019
+- Jerry (Gold) | Berlin 2019
+- almazer (Gold) | Berlin 2019
+- xsepower (Gold) | Berlin 2019
+- facecrack (Gold) | Berlin 2019
+- tarik (Gold) | Berlin 2019
+- stanislaw (Gold) | Berlin 2019
+- Brehze (Gold) | Berlin 2019
+- Ethan (Gold) | Berlin 2019
+- CeRq (Gold) | Berlin 2019
+- Summer (Gold) | Berlin 2019
+- somebody (Gold) | Berlin 2019
+- Attacker (Gold) | Berlin 2019
+- BnTeT (Gold) | Berlin 2019
+- Freeman (Gold) | Berlin 2019
+- VINI (Gold) | Berlin 2019
+- ableJ (Gold) | Berlin 2019
+- arT (Gold) | Berlin 2019
+- KSCERATO (Gold) | Berlin 2019
+- yuurih (Gold) | Berlin 2019
+- nexa (Gold) | Berlin 2019
+- huNter- (Gold) | Berlin 2019
+- ottoNd (Gold) | Berlin 2019
+- LETN1 (Gold) | Berlin 2019
+- EspiranTo (Gold) | Berlin 2019
+- t0rick (Gold) | Berlin 2019
+- neaLaN (Gold) | Berlin 2019
+- Keoz (Gold) | Berlin 2019
+- Ramz1kBO$$ (Gold) | Berlin 2019
+- Perfecto (Gold) | Berlin 2019
+- gade (Gold) | Berlin 2019
+- Kjaerbye (Gold) | Berlin 2019
+- JUGi (Gold) | Berlin 2019
+- aizy (Gold) | Berlin 2019
+- v4lde (Gold) | Berlin 2019
+- svyat (Gold) | Berlin 2019
+- kinqie (Gold) | Berlin 2019
+- Forester (Gold) | Berlin 2019
+- Krad (Gold) | Berlin 2019
+- speed4k (Gold) | Berlin 2019
+- kNgV- (Gold) | Berlin 2019
+- DeStiNy (Gold) | Berlin 2019
+- yel (Gold) | Berlin 2019
+- chelo (Gold) | Berlin 2019
+- xand (Gold) | Berlin 2019
+
+#### Remarkable (55)
+
+- Sico (Foil) | Berlin 2019
+- dexter (Foil) | Berlin 2019
+- erkaSt (Foil) | Berlin 2019
+- malta (Foil) | Berlin 2019
+- DickStacy (Foil) | Berlin 2019
+- chrisJ (Foil) | Berlin 2019
+- karrigan (Foil) | Berlin 2019
+- ropz (Foil) | Berlin 2019
+- frozen (Foil) | Berlin 2019
+- woxic (Foil) | Berlin 2019
+- FL1T (Foil) | Berlin 2019
+- Jerry (Foil) | Berlin 2019
+- almazer (Foil) | Berlin 2019
+- xsepower (Foil) | Berlin 2019
+- facecrack (Foil) | Berlin 2019
+- tarik (Foil) | Berlin 2019
+- stanislaw (Foil) | Berlin 2019
+- Brehze (Foil) | Berlin 2019
+- Ethan (Foil) | Berlin 2019
+- CeRq (Foil) | Berlin 2019
+- Summer (Foil) | Berlin 2019
+- somebody (Foil) | Berlin 2019
+- Attacker (Foil) | Berlin 2019
+- BnTeT (Foil) | Berlin 2019
+- Freeman (Foil) | Berlin 2019
+- VINI (Foil) | Berlin 2019
+- ableJ (Foil) | Berlin 2019
+- arT (Foil) | Berlin 2019
+- KSCERATO (Foil) | Berlin 2019
+- yuurih (Foil) | Berlin 2019
+- nexa (Foil) | Berlin 2019
+- huNter- (Foil) | Berlin 2019
+- ottoNd (Foil) | Berlin 2019
+- LETN1 (Foil) | Berlin 2019
+- EspiranTo (Foil) | Berlin 2019
+- t0rick (Foil) | Berlin 2019
+- neaLaN (Foil) | Berlin 2019
+- Keoz (Foil) | Berlin 2019
+- Ramz1kBO$$ (Foil) | Berlin 2019
+- Perfecto (Foil) | Berlin 2019
+- gade (Foil) | Berlin 2019
+- Kjaerbye (Foil) | Berlin 2019
+- JUGi (Foil) | Berlin 2019
+- aizy (Foil) | Berlin 2019
+- v4lde (Foil) | Berlin 2019
+- svyat (Foil) | Berlin 2019
+- kinqie (Foil) | Berlin 2019
+- Forester (Foil) | Berlin 2019
+- Krad (Foil) | Berlin 2019
+- speed4k (Foil) | Berlin 2019
+- kNgV- (Foil) | Berlin 2019
+- DeStiNy (Foil) | Berlin 2019
+- yel (Foil) | Berlin 2019
+- chelo (Foil) | Berlin 2019
+- xand (Foil) | Berlin 2019
+
+#### High Grade (55)
+
+- Sico | Berlin 2019
+- dexter | Berlin 2019
+- erkaSt | Berlin 2019
+- malta | Berlin 2019
+- DickStacy | Berlin 2019
+- chrisJ | Berlin 2019
+- karrigan | Berlin 2019
+- ropz | Berlin 2019
+- frozen | Berlin 2019
+- woxic | Berlin 2019
+- FL1T | Berlin 2019
+- Jerry | Berlin 2019
+- almazer | Berlin 2019
+- xsepower | Berlin 2019
+- facecrack | Berlin 2019
+- tarik | Berlin 2019
+- stanislaw | Berlin 2019
+- Brehze | Berlin 2019
+- Ethan | Berlin 2019
+- CeRq | Berlin 2019
+- Summer | Berlin 2019
+- somebody | Berlin 2019
+- Attacker | Berlin 2019
+- BnTeT | Berlin 2019
+- Freeman | Berlin 2019
+- VINI | Berlin 2019
+- ableJ | Berlin 2019
+- arT | Berlin 2019
+- KSCERATO | Berlin 2019
+- yuurih | Berlin 2019
+- nexa | Berlin 2019
+- huNter- | Berlin 2019
+- ottoNd | Berlin 2019
+- LETN1 | Berlin 2019
+- EspiranTo | Berlin 2019
+- t0rick | Berlin 2019
+- neaLaN | Berlin 2019
+- Keoz | Berlin 2019
+- Ramz1kBO$$ | Berlin 2019
+- Perfecto | Berlin 2019
+- gade | Berlin 2019
+- Kjaerbye | Berlin 2019
+- JUGi | Berlin 2019
+- aizy | Berlin 2019
+- v4lde | Berlin 2019
+- svyat | Berlin 2019
+- kinqie | Berlin 2019
+- Forester | Berlin 2019
+- Krad | Berlin 2019
+- speed4k | Berlin 2019
+- kNgV- | Berlin 2019
+- DeStiNy | Berlin 2019
+- yel | Berlin 2019
+- chelo | Berlin 2019
+- xand | Berlin 2019
+
+### Berlin 2019 Returning Challengers (Holo/Foil)
+
+- Release date: 2019-08-08
+- Fallback price: $14.50
+- Items: 12
+- Drop weights: Exotic 16.6927% · Remarkable 83.3073%
+
+#### Exotic (6)
+
+- compLexity Gaming (Foil) | Berlin 2019
+- HellRaisers (Foil) | Berlin 2019
+- Avangar (Foil) | Berlin 2019
+- G2 Esports (Foil) | Berlin 2019
+- Vitality (Foil) | Berlin 2019
+- StarLadder (Foil) | Berlin 2019
+
+#### Remarkable (6)
+
+- compLexity Gaming (Holo) | Berlin 2019
+- HellRaisers (Holo) | Berlin 2019
+- Avangar (Holo) | Berlin 2019
+- G2 Esports (Holo) | Berlin 2019
+- Vitality (Holo) | Berlin 2019
+- StarLadder (Holo) | Berlin 2019
+
+### Berlin 2019 Returning Challengers Autograph Capsule
+
+- Release date: 2019-08-08
+- Fallback price: $1.15
+- Items: 75
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (25)
+
+- Rickeh (Gold) | Berlin 2019
+- SicK (Gold) | Berlin 2019
+- dephh (Gold) | Berlin 2019
+- ShahZaM (Gold) | Berlin 2019
+- oBo (Gold) | Berlin 2019
+- DeadFox (Gold) | Berlin 2019
+- loWel (Gold) | Berlin 2019
+- ANGE1 (Gold) | Berlin 2019
+- ISSAA (Gold) | Berlin 2019
+- oskar (Gold) | Berlin 2019
+- AdreN (Gold) | Berlin 2019
+- Jame (Gold) | Berlin 2019
+- qikert (Gold) | Berlin 2019
+- buster (Gold) | Berlin 2019
+- SANJI (Gold) | Berlin 2019
+- JaCkz (Gold) | Berlin 2019
+- shox (Gold) | Berlin 2019
+- kennyS (Gold) | Berlin 2019
+- Lucky (Gold) | Berlin 2019
+- AmaNEk (Gold) | Berlin 2019
+- NBK- (Gold) | Berlin 2019
+- apEX (Gold) | Berlin 2019
+- ALEX (Gold) | Berlin 2019
+- RpK (Gold) | Berlin 2019
+- ZywOo (Gold) | Berlin 2019
+
+#### Remarkable (25)
+
+- Rickeh (Foil) | Berlin 2019
+- SicK (Foil) | Berlin 2019
+- dephh (Foil) | Berlin 2019
+- ShahZaM (Foil) | Berlin 2019
+- oBo (Foil) | Berlin 2019
+- DeadFox (Foil) | Berlin 2019
+- loWel (Foil) | Berlin 2019
+- ANGE1 (Foil) | Berlin 2019
+- ISSAA (Foil) | Berlin 2019
+- oskar (Foil) | Berlin 2019
+- AdreN (Foil) | Berlin 2019
+- Jame (Foil) | Berlin 2019
+- qikert (Foil) | Berlin 2019
+- buster (Foil) | Berlin 2019
+- SANJI (Foil) | Berlin 2019
+- JaCkz (Foil) | Berlin 2019
+- shox (Foil) | Berlin 2019
+- kennyS (Foil) | Berlin 2019
+- Lucky (Foil) | Berlin 2019
+- AmaNEk (Foil) | Berlin 2019
+- NBK- (Foil) | Berlin 2019
+- apEX (Foil) | Berlin 2019
+- ALEX (Foil) | Berlin 2019
+- RpK (Foil) | Berlin 2019
+- ZywOo (Foil) | Berlin 2019
+
+#### High Grade (25)
+
+- Rickeh | Berlin 2019
+- SicK | Berlin 2019
+- dephh | Berlin 2019
+- ShahZaM | Berlin 2019
+- oBo | Berlin 2019
+- DeadFox | Berlin 2019
+- loWel | Berlin 2019
+- ANGE1 | Berlin 2019
+- ISSAA | Berlin 2019
+- oskar | Berlin 2019
+- AdreN | Berlin 2019
+- Jame | Berlin 2019
+- qikert | Berlin 2019
+- buster | Berlin 2019
+- SANJI | Berlin 2019
+- JaCkz | Berlin 2019
+- shox | Berlin 2019
+- kennyS | Berlin 2019
+- Lucky | Berlin 2019
+- AmaNEk | Berlin 2019
+- NBK- | Berlin 2019
+- apEX | Berlin 2019
+- ALEX | Berlin 2019
+- RpK | Berlin 2019
+- ZywOo | Berlin 2019
+
+### Chicken Capsule
+
+- Release date: 2019-06-10
+- Fallback price: $1.61
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Big Clucks (Foil)
+- Roosty Boosty (Foil)
+
+#### Remarkable (5)
+
+- Bonehead (Holo)
+- Double Dip (Holo)
+- Fowl Play (Holo)
+- Hot Wings (Holo)
+- Nest Egg (Holo)
+
+#### High Grade (10)
+
+- Big Clucks
+- Bonehead
+- BukAWP
+- Double Dip
+- Fowl Play
+- Heads Up
+- Hot Wings
+- Nest Egg
+- Roosty Boosty
+- What What
+
+### Feral Predators Capsule
+
+- Release date: 2019-04-15
+- Fallback price: $1.05
+- Items: 18
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- Bite Me (Foil)
+- Lurker (Foil)
+- Toxic (Foil)
+
+#### Remarkable (6)
+
+- Baited (Holo)
+- Cluck (Holo)
+- First Blood (Holo)
+- Free Hugs (Holo)
+- One Sting (Holo)
+- Scavenger (Holo)
+
+#### High Grade (9)
+
+- Baited
+- Bite Me
+- Cluck
+- First Blood
+- Free Hugs
+- Lurker
+- One Sting
+- Scavenger
+- Toxic
+
+### Katowice 2019 Legends Autograph Capsule
+
+- Release date: 2019-02-04
+- Fallback price: $5.26
+- Items: 120
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (40)
+
+- Magisk (Gold) | Katowice 2019
+- device (Gold) | Katowice 2019
+- Xyp9x (Gold) | Katowice 2019
+- dupreeh (Gold) | Katowice 2019
+- gla1ve (Gold) | Katowice 2019
+- gob b (Gold) | Katowice 2019
+- tabseN (Gold) | Katowice 2019
+- tiziaN (Gold) | Katowice 2019
+- XANTARES (Gold) | Katowice 2019
+- smooya (Gold) | Katowice 2019
+- n0thing (Gold) | Katowice 2019
+- Rickeh (Gold) | Katowice 2019
+- stanislaw (Gold) | Katowice 2019
+- dephh (Gold) | Katowice 2019
+- ShahZaM (Gold) | Katowice 2019
+- GuardiaN (Gold) | Katowice 2019
+- olofmeister (Gold) | Katowice 2019
+- rain (Gold) | Katowice 2019
+- AdreN (Gold) | Katowice 2019
+- NiKo (Gold) | Katowice 2019
+- DeadFox (Gold) | Katowice 2019
+- ANGE1 (Gold) | Katowice 2019
+- Hobbit (Gold) | Katowice 2019
+- ISSAA (Gold) | Katowice 2019
+- woxic (Gold) | Katowice 2019
+- FalleN (Gold) | Katowice 2019
+- felps (Gold) | Katowice 2019
+- fer (Gold) | Katowice 2019
+- TACO (Gold) | Katowice 2019
+- coldzera (Gold) | Katowice 2019
+- Edward (Gold) | Katowice 2019
+- Zeus (Gold) | Katowice 2019
+- s1mple (Gold) | Katowice 2019
+- electronic (Gold) | Katowice 2019
+- flamie (Gold) | Katowice 2019
+- nitr0 (Gold) | Katowice 2019
+- Stewie2K (Gold) | Katowice 2019
+- NAF (Gold) | Katowice 2019
+- Twistzz (Gold) | Katowice 2019
+- EliGE (Gold) | Katowice 2019
+
+#### Remarkable (40)
+
+- Magisk (Foil) | Katowice 2019
+- device (Foil) | Katowice 2019
+- Xyp9x (Foil) | Katowice 2019
+- dupreeh (Foil) | Katowice 2019
+- gla1ve (Foil) | Katowice 2019
+- gob b (Foil) | Katowice 2019
+- tabseN (Foil) | Katowice 2019
+- tiziaN (Foil) | Katowice 2019
+- XANTARES (Foil) | Katowice 2019
+- smooya (Foil) | Katowice 2019
+- n0thing (Foil) | Katowice 2019
+- Rickeh (Foil) | Katowice 2019
+- stanislaw (Foil) | Katowice 2019
+- dephh (Foil) | Katowice 2019
+- ShahZaM (Foil) | Katowice 2019
+- GuardiaN (Foil) | Katowice 2019
+- olofmeister (Foil) | Katowice 2019
+- rain (Foil) | Katowice 2019
+- AdreN (Foil) | Katowice 2019
+- NiKo (Foil) | Katowice 2019
+- DeadFox (Foil) | Katowice 2019
+- ANGE1 (Foil) | Katowice 2019
+- Hobbit (Foil) | Katowice 2019
+- ISSAA (Foil) | Katowice 2019
+- woxic (Foil) | Katowice 2019
+- FalleN (Foil) | Katowice 2019
+- felps (Foil) | Katowice 2019
+- fer (Foil) | Katowice 2019
+- TACO (Foil) | Katowice 2019
+- coldzera (Foil) | Katowice 2019
+- Edward (Foil) | Katowice 2019
+- Zeus (Foil) | Katowice 2019
+- s1mple (Foil) | Katowice 2019
+- electronic (Foil) | Katowice 2019
+- flamie (Foil) | Katowice 2019
+- nitr0 (Foil) | Katowice 2019
+- Stewie2K (Foil) | Katowice 2019
+- NAF (Foil) | Katowice 2019
+- Twistzz (Foil) | Katowice 2019
+- EliGE (Foil) | Katowice 2019
+
+#### High Grade (40)
+
+- Magisk | Katowice 2019
+- device | Katowice 2019
+- Xyp9x | Katowice 2019
+- dupreeh | Katowice 2019
+- gla1ve | Katowice 2019
+- gob b | Katowice 2019
+- tabseN | Katowice 2019
+- tiziaN | Katowice 2019
+- XANTARES | Katowice 2019
+- smooya | Katowice 2019
+- n0thing | Katowice 2019
+- Rickeh | Katowice 2019
+- stanislaw | Katowice 2019
+- dephh | Katowice 2019
+- ShahZaM | Katowice 2019
+- GuardiaN | Katowice 2019
+- olofmeister | Katowice 2019
+- rain | Katowice 2019
+- AdreN | Katowice 2019
+- NiKo | Katowice 2019
+- DeadFox | Katowice 2019
+- ANGE1 | Katowice 2019
+- Hobbit | Katowice 2019
+- ISSAA | Katowice 2019
+- woxic | Katowice 2019
+- FalleN | Katowice 2019
+- felps | Katowice 2019
+- fer | Katowice 2019
+- TACO | Katowice 2019
+- coldzera | Katowice 2019
+- Edward | Katowice 2019
+- Zeus | Katowice 2019
+- s1mple | Katowice 2019
+- electronic | Katowice 2019
+- flamie | Katowice 2019
+- nitr0 | Katowice 2019
+- Stewie2K | Katowice 2019
+- NAF | Katowice 2019
+- Twistzz | Katowice 2019
+- EliGE | Katowice 2019
+
+### Katowice 2019 Minor Challengers Autograph Capsule
+
+- Release date: 2019-02-04
+- Fallback price: $6.53
+- Items: 150
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (50)
+
+- fitch (Gold) | Katowice 2019
+- Jame (Gold) | Katowice 2019
+- KrizzeN (Gold) | Katowice 2019
+- qikert (Gold) | Katowice 2019
+- buster (Gold) | Katowice 2019
+- allu (Gold) | Katowice 2019
+- Aerial (Gold) | Katowice 2019
+- xseveN (Gold) | Katowice 2019
+- Aleksib (Gold) | Katowice 2019
+- sergej (Gold) | Katowice 2019
+- VINI (Gold) | Katowice 2019
+- ableJ (Gold) | Katowice 2019
+- arT (Gold) | Katowice 2019
+- KSCERATO (Gold) | Katowice 2019
+- yuurih (Gold) | Katowice 2019
+- sterling (Gold) | Katowice 2019
+- dexter (Gold) | Katowice 2019
+- erkaSt (Gold) | Katowice 2019
+- malta (Gold) | Katowice 2019
+- DickStacy (Gold) | Katowice 2019
+- daps (Gold) | Katowice 2019
+- Brehze (Gold) | Katowice 2019
+- FugLy (Gold) | Katowice 2019
+- Ethan (Gold) | Katowice 2019
+- CeRq (Gold) | Katowice 2019
+- Gratisfaction (Gold) | Katowice 2019
+- jks (Gold) | Katowice 2019
+- AZR (Gold) | Katowice 2019
+- jkaem (Gold) | Katowice 2019
+- Liazz (Gold) | Katowice 2019
+- DavCost (Gold) | Katowice 2019
+- COLDYY1 (Gold) | Katowice 2019
+- Dima (Gold) | Katowice 2019
+- sdy (Gold) | Katowice 2019
+- S0tF1k (Gold) | Katowice 2019
+- Kaze (Gold) | Katowice 2019
+- advent (Gold) | Katowice 2019
+- aumaN (Gold) | Katowice 2019
+- zhokiNg (Gold) | Katowice 2019
+- Freeman (Gold) | Katowice 2019
+- NBK- (Gold) | Katowice 2019
+- apEX (Gold) | Katowice 2019
+- ALEX (Gold) | Katowice 2019
+- RpK (Gold) | Katowice 2019
+- ZywOo (Gold) | Katowice 2019
+- WorldEdit (Gold) | Katowice 2019
+- wayLander (Gold) | Katowice 2019
+- Kvik (Gold) | Katowice 2019
+- Boombl4 (Gold) | Katowice 2019
+- n0rb3r7 (Gold) | Katowice 2019
+
+#### Remarkable (50)
+
+- fitch (Foil) | Katowice 2019
+- Jame (Foil) | Katowice 2019
+- KrizzeN (Foil) | Katowice 2019
+- qikert (Foil) | Katowice 2019
+- buster (Foil) | Katowice 2019
+- allu (Foil) | Katowice 2019
+- Aerial (Foil) | Katowice 2019
+- xseveN (Foil) | Katowice 2019
+- Aleksib (Foil) | Katowice 2019
+- sergej (Foil) | Katowice 2019
+- VINI (Foil) | Katowice 2019
+- ableJ (Foil) | Katowice 2019
+- arT (Foil) | Katowice 2019
+- KSCERATO (Foil) | Katowice 2019
+- yuurih (Foil) | Katowice 2019
+- sterling (Foil) | Katowice 2019
+- dexter (Foil) | Katowice 2019
+- erkaSt (Foil) | Katowice 2019
+- malta (Foil) | Katowice 2019
+- DickStacy (Foil) | Katowice 2019
+- daps (Foil) | Katowice 2019
+- Brehze (Foil) | Katowice 2019
+- FugLy (Foil) | Katowice 2019
+- Ethan (Foil) | Katowice 2019
+- CeRq (Foil) | Katowice 2019
+- Gratisfaction (Foil) | Katowice 2019
+- jks (Foil) | Katowice 2019
+- AZR (Foil) | Katowice 2019
+- jkaem (Foil) | Katowice 2019
+- Liazz (Foil) | Katowice 2019
+- DavCost (Foil) | Katowice 2019
+- COLDYY1 (Foil) | Katowice 2019
+- Dima (Foil) | Katowice 2019
+- sdy (Foil) | Katowice 2019
+- S0tF1k (Foil) | Katowice 2019
+- Kaze (Foil) | Katowice 2019
+- advent (Foil) | Katowice 2019
+- aumaN (Foil) | Katowice 2019
+- zhokiNg (Foil) | Katowice 2019
+- Freeman (Foil) | Katowice 2019
+- NBK- (Foil) | Katowice 2019
+- apEX (Foil) | Katowice 2019
+- ALEX (Foil) | Katowice 2019
+- RpK (Foil) | Katowice 2019
+- ZywOo (Foil) | Katowice 2019
+- WorldEdit (Foil) | Katowice 2019
+- wayLander (Foil) | Katowice 2019
+- Kvik (Foil) | Katowice 2019
+- Boombl4 (Foil) | Katowice 2019
+- n0rb3r7 (Foil) | Katowice 2019
+
+#### High Grade (50)
+
+- fitch | Katowice 2019
+- Jame | Katowice 2019
+- KrizzeN | Katowice 2019
+- qikert | Katowice 2019
+- buster | Katowice 2019
+- allu | Katowice 2019
+- Aerial | Katowice 2019
+- xseveN | Katowice 2019
+- Aleksib | Katowice 2019
+- sergej | Katowice 2019
+- VINI | Katowice 2019
+- ableJ | Katowice 2019
+- arT | Katowice 2019
+- KSCERATO | Katowice 2019
+- yuurih | Katowice 2019
+- sterling | Katowice 2019
+- dexter | Katowice 2019
+- erkaSt | Katowice 2019
+- malta | Katowice 2019
+- DickStacy | Katowice 2019
+- daps | Katowice 2019
+- Brehze | Katowice 2019
+- FugLy | Katowice 2019
+- Ethan | Katowice 2019
+- CeRq | Katowice 2019
+- Gratisfaction | Katowice 2019
+- jks | Katowice 2019
+- AZR | Katowice 2019
+- jkaem | Katowice 2019
+- Liazz | Katowice 2019
+- DavCost | Katowice 2019
+- COLDYY1 | Katowice 2019
+- Dima | Katowice 2019
+- sdy | Katowice 2019
+- S0tF1k | Katowice 2019
+- Kaze | Katowice 2019
+- advent | Katowice 2019
+- aumaN | Katowice 2019
+- zhokiNg | Katowice 2019
+- Freeman | Katowice 2019
+- NBK- | Katowice 2019
+- apEX | Katowice 2019
+- ALEX | Katowice 2019
+- RpK | Katowice 2019
+- ZywOo | Katowice 2019
+- WorldEdit | Katowice 2019
+- wayLander | Katowice 2019
+- Kvik | Katowice 2019
+- Boombl4 | Katowice 2019
+- n0rb3r7 | Katowice 2019
+
+### Skill Groups Capsule
+
+- Release date: 2018-11-15
+- Fallback price: $0.76
+- Items: 18
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Silver (Foil)
+- Global Elite (Foil)
+
+#### Remarkable (7)
+
+- Gold Nova (Holo)
+- Master Guardian (Holo)
+- Master Guardian Elite (Holo)
+- Distinguished Master Guardian (Holo)
+- Legendary Eagle (Holo)
+- Legendary Eagle Master (Holo)
+- Supreme Master First Class (Holo)
+
+#### High Grade (9)
+
+- Silver
+- Gold Nova
+- Master Guardian
+- Master Guardian Elite
+- Distinguished Master Guardian
+- Legendary Eagle
+- Legendary Eagle Master
+- Supreme Master First Class
+- Global Elite
+
+### Boston 2018 Attending Legends Autograph Capsule
+
+- Release date: 2017-12-18
+- Fallback price: $7.70
+- Items: 105
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (35)
+
+- AdreN (Gold) | Boston 2018
+- Dosia (Gold) | Boston 2018
+- fitch (Gold) | Boston 2018
+- Hobbit (Gold) | Boston 2018
+- mou (Gold) | Boston 2018
+- device (Gold) | Boston 2018
+- dupreeh (Gold) | Boston 2018
+- gla1ve (Gold) | Boston 2018
+- Kjaerbye (Gold) | Boston 2018
+- Xyp9x (Gold) | Boston 2018
+- byali (Gold) | Boston 2018
+- NEO (Gold) | Boston 2018
+- pashaBiceps (Gold) | Boston 2018
+- Snax (Gold) | Boston 2018
+- TaZ (Gold) | Boston 2018
+- flusha (Gold) | Boston 2018
+- Golden (Gold) | Boston 2018
+- JW (Gold) | Boston 2018
+- KRIMZ (Gold) | Boston 2018
+- Lekr0 (Gold) | Boston 2018
+- coldzera (Gold) | Boston 2018
+- FalleN (Gold) | Boston 2018
+- felps (Gold) | Boston 2018
+- fer (Gold) | Boston 2018
+- TACO (Gold) | Boston 2018
+- gob b (Gold) | Boston 2018
+- keev (Gold) | Boston 2018
+- LEGIJA (Gold) | Boston 2018
+- nex (Gold) | Boston 2018
+- tabseN (Gold) | Boston 2018
+- aizy (Gold) | Boston 2018
+- cajunb (Gold) | Boston 2018
+- k0nfig (Gold) | Boston 2018
+- MSL (Gold) | Boston 2018
+- v4lde (Gold) | Boston 2018
+
+#### Remarkable (35)
+
+- AdreN (Foil) | Boston 2018
+- Dosia (Foil) | Boston 2018
+- fitch (Foil) | Boston 2018
+- Hobbit (Foil) | Boston 2018
+- mou (Foil) | Boston 2018
+- device (Foil) | Boston 2018
+- dupreeh (Foil) | Boston 2018
+- gla1ve (Foil) | Boston 2018
+- Kjaerbye (Foil) | Boston 2018
+- Xyp9x (Foil) | Boston 2018
+- byali (Foil) | Boston 2018
+- NEO (Foil) | Boston 2018
+- pashaBiceps (Foil) | Boston 2018
+- Snax (Foil) | Boston 2018
+- TaZ (Foil) | Boston 2018
+- flusha (Foil) | Boston 2018
+- Golden (Foil) | Boston 2018
+- JW (Foil) | Boston 2018
+- KRIMZ (Foil) | Boston 2018
+- Lekr0 (Foil) | Boston 2018
+- coldzera (Foil) | Boston 2018
+- FalleN (Foil) | Boston 2018
+- felps (Foil) | Boston 2018
+- fer (Foil) | Boston 2018
+- TACO (Foil) | Boston 2018
+- gob b (Foil) | Boston 2018
+- keev (Foil) | Boston 2018
+- LEGIJA (Foil) | Boston 2018
+- nex (Foil) | Boston 2018
+- tabseN (Foil) | Boston 2018
+- aizy (Foil) | Boston 2018
+- cajunb (Foil) | Boston 2018
+- k0nfig (Foil) | Boston 2018
+- MSL (Foil) | Boston 2018
+- v4lde (Foil) | Boston 2018
+
+#### High Grade (35)
+
+- AdreN | Boston 2018
+- Dosia | Boston 2018
+- fitch | Boston 2018
+- Hobbit | Boston 2018
+- mou | Boston 2018
+- device | Boston 2018
+- dupreeh | Boston 2018
+- gla1ve | Boston 2018
+- Kjaerbye | Boston 2018
+- Xyp9x | Boston 2018
+- byali | Boston 2018
+- NEO | Boston 2018
+- pashaBiceps | Boston 2018
+- Snax | Boston 2018
+- TaZ | Boston 2018
+- flusha | Boston 2018
+- Golden | Boston 2018
+- JW | Boston 2018
+- KRIMZ | Boston 2018
+- Lekr0 | Boston 2018
+- coldzera | Boston 2018
+- FalleN | Boston 2018
+- felps | Boston 2018
+- fer | Boston 2018
+- TACO | Boston 2018
+- gob b | Boston 2018
+- keev | Boston 2018
+- LEGIJA | Boston 2018
+- nex | Boston 2018
+- tabseN | Boston 2018
+- aizy | Boston 2018
+- cajunb | Boston 2018
+- k0nfig | Boston 2018
+- MSL | Boston 2018
+- v4lde | Boston 2018
+
+### Boston 2018 Legends Autograph Capsule
+
+- Release date: 2017-12-18
+- Fallback price: $101.63
+- Items: 120
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (40)
+
+- AdreN (Gold) | Boston 2018
+- Dosia (Gold) | Boston 2018
+- fitch (Gold) | Boston 2018
+- Hobbit (Gold) | Boston 2018
+- mou (Gold) | Boston 2018
+- BIT (Gold) | Boston 2018
+- fnx (Gold) | Boston 2018
+- HEN1 (Gold) | Boston 2018
+- kNgV- (Gold) | Boston 2018
+- LUCAS1 (Gold) | Boston 2018
+- device (Gold) | Boston 2018
+- dupreeh (Gold) | Boston 2018
+- gla1ve (Gold) | Boston 2018
+- Kjaerbye (Gold) | Boston 2018
+- Xyp9x (Gold) | Boston 2018
+- byali (Gold) | Boston 2018
+- NEO (Gold) | Boston 2018
+- pashaBiceps (Gold) | Boston 2018
+- Snax (Gold) | Boston 2018
+- TaZ (Gold) | Boston 2018
+- flusha (Gold) | Boston 2018
+- Golden (Gold) | Boston 2018
+- JW (Gold) | Boston 2018
+- KRIMZ (Gold) | Boston 2018
+- Lekr0 (Gold) | Boston 2018
+- coldzera (Gold) | Boston 2018
+- FalleN (Gold) | Boston 2018
+- felps (Gold) | Boston 2018
+- fer (Gold) | Boston 2018
+- TACO (Gold) | Boston 2018
+- gob b (Gold) | Boston 2018
+- keev (Gold) | Boston 2018
+- LEGIJA (Gold) | Boston 2018
+- nex (Gold) | Boston 2018
+- tabseN (Gold) | Boston 2018
+- aizy (Gold) | Boston 2018
+- cajunb (Gold) | Boston 2018
+- k0nfig (Gold) | Boston 2018
+- MSL (Gold) | Boston 2018
+- v4lde (Gold) | Boston 2018
+
+#### Remarkable (40)
+
+- AdreN (Foil) | Boston 2018
+- Dosia (Foil) | Boston 2018
+- fitch (Foil) | Boston 2018
+- Hobbit (Foil) | Boston 2018
+- mou (Foil) | Boston 2018
+- BIT (Foil) | Boston 2018
+- fnx (Foil) | Boston 2018
+- HEN1 (Foil) | Boston 2018
+- kNgV- (Foil) | Boston 2018
+- LUCAS1 (Foil) | Boston 2018
+- device (Foil) | Boston 2018
+- dupreeh (Foil) | Boston 2018
+- gla1ve (Foil) | Boston 2018
+- Kjaerbye (Foil) | Boston 2018
+- Xyp9x (Foil) | Boston 2018
+- byali (Foil) | Boston 2018
+- NEO (Foil) | Boston 2018
+- pashaBiceps (Foil) | Boston 2018
+- Snax (Foil) | Boston 2018
+- TaZ (Foil) | Boston 2018
+- flusha (Foil) | Boston 2018
+- Golden (Foil) | Boston 2018
+- JW (Foil) | Boston 2018
+- KRIMZ (Foil) | Boston 2018
+- Lekr0 (Foil) | Boston 2018
+- coldzera (Foil) | Boston 2018
+- FalleN (Foil) | Boston 2018
+- felps (Foil) | Boston 2018
+- fer (Foil) | Boston 2018
+- TACO (Foil) | Boston 2018
+- gob b (Foil) | Boston 2018
+- keev (Foil) | Boston 2018
+- LEGIJA (Foil) | Boston 2018
+- nex (Foil) | Boston 2018
+- tabseN (Foil) | Boston 2018
+- aizy (Foil) | Boston 2018
+- cajunb (Foil) | Boston 2018
+- k0nfig (Foil) | Boston 2018
+- MSL (Foil) | Boston 2018
+- v4lde (Foil) | Boston 2018
+
+#### High Grade (40)
+
+- AdreN | Boston 2018
+- Dosia | Boston 2018
+- fitch | Boston 2018
+- Hobbit | Boston 2018
+- mou | Boston 2018
+- BIT | Boston 2018
+- fnx | Boston 2018
+- HEN1 | Boston 2018
+- kNgV- | Boston 2018
+- LUCAS1 | Boston 2018
+- device | Boston 2018
+- dupreeh | Boston 2018
+- gla1ve | Boston 2018
+- Kjaerbye | Boston 2018
+- Xyp9x | Boston 2018
+- byali | Boston 2018
+- NEO | Boston 2018
+- pashaBiceps | Boston 2018
+- Snax | Boston 2018
+- TaZ | Boston 2018
+- flusha | Boston 2018
+- Golden | Boston 2018
+- JW | Boston 2018
+- KRIMZ | Boston 2018
+- Lekr0 | Boston 2018
+- coldzera | Boston 2018
+- FalleN | Boston 2018
+- felps | Boston 2018
+- fer | Boston 2018
+- TACO | Boston 2018
+- gob b | Boston 2018
+- keev | Boston 2018
+- LEGIJA | Boston 2018
+- nex | Boston 2018
+- tabseN | Boston 2018
+- aizy | Boston 2018
+- cajunb | Boston 2018
+- k0nfig | Boston 2018
+- MSL | Boston 2018
+- v4lde | Boston 2018
+
+### Boston 2018 Minor Challengers Autograph Capsule
+
+- Release date: 2017-12-18
+- Fallback price: $420.60
+- Items: 120
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (40)
+
+- Calyx (Gold) | Boston 2018
+- MAJ3R (Gold) | Boston 2018
+- ngiN (Gold) | Boston 2018
+- paz (Gold) | Boston 2018
+- XANTARES (Gold) | Boston 2018
+- EliGE (Gold) | Boston 2018
+- jdm64 (Gold) | Boston 2018
+- nitr0 (Gold) | Boston 2018
+- stanislaw (Gold) | Boston 2018
+- Twistzz (Gold) | Boston 2018
+- buster (Gold) | Boston 2018
+- dimasick (Gold) | Boston 2018
+- Jame (Gold) | Boston 2018
+- KrizzeN (Gold) | Boston 2018
+- qikert (Gold) | Boston 2018
+- AZR (Gold) | Boston 2018
+- jks (Gold) | Boston 2018
+- NAF (Gold) | Boston 2018
+- Nifty (Gold) | Boston 2018
+- USTILO (Gold) | Boston 2018
+- Happy (Gold) | Boston 2018
+- RpK (Gold) | Boston 2018
+- ScreaM (Gold) | Boston 2018
+- SIXER (Gold) | Boston 2018
+- xms (Gold) | Boston 2018
+- AmaNEk (Gold) | Boston 2018
+- devoduvek (Gold) | Boston 2018
+- seang@res (Gold) | Boston 2018
+- ShahZaM (Gold) | Boston 2018
+- SicK (Gold) | Boston 2018
+- balblna (Gold) | Boston 2018
+- Boombl4 (Gold) | Boston 2018
+- jmqa (Gold) | Boston 2018
+- Kvik (Gold) | Boston 2018
+- waterfaLLZ (Gold) | Boston 2018
+- BnTeT (Gold) | Boston 2018
+- bondik (Gold) | Boston 2018
+- captainMo (Gold) | Boston 2018
+- DD (Gold) | Boston 2018
+- somebody (Gold) | Boston 2018
+
+#### Remarkable (40)
+
+- Calyx (Foil) | Boston 2018
+- MAJ3R (Foil) | Boston 2018
+- ngiN (Foil) | Boston 2018
+- paz (Foil) | Boston 2018
+- XANTARES (Foil) | Boston 2018
+- EliGE (Foil) | Boston 2018
+- jdm64 (Foil) | Boston 2018
+- nitr0 (Foil) | Boston 2018
+- stanislaw (Foil) | Boston 2018
+- Twistzz (Foil) | Boston 2018
+- buster (Foil) | Boston 2018
+- dimasick (Foil) | Boston 2018
+- Jame (Foil) | Boston 2018
+- KrizzeN (Foil) | Boston 2018
+- qikert (Foil) | Boston 2018
+- AZR (Foil) | Boston 2018
+- jks (Foil) | Boston 2018
+- NAF (Foil) | Boston 2018
+- Nifty (Foil) | Boston 2018
+- USTILO (Foil) | Boston 2018
+- Happy (Foil) | Boston 2018
+- RpK (Foil) | Boston 2018
+- ScreaM (Foil) | Boston 2018
+- SIXER (Foil) | Boston 2018
+- xms (Foil) | Boston 2018
+- AmaNEk (Foil) | Boston 2018
+- devoduvek (Foil) | Boston 2018
+- seang@res (Foil) | Boston 2018
+- ShahZaM (Foil) | Boston 2018
+- SicK (Foil) | Boston 2018
+- balblna (Foil) | Boston 2018
+- Boombl4 (Foil) | Boston 2018
+- jmqa (Foil) | Boston 2018
+- Kvik (Foil) | Boston 2018
+- waterfaLLZ (Foil) | Boston 2018
+- BnTeT (Foil) | Boston 2018
+- bondik (Foil) | Boston 2018
+- captainMo (Foil) | Boston 2018
+- DD (Foil) | Boston 2018
+- somebody (Foil) | Boston 2018
+
+#### High Grade (40)
+
+- Calyx | Boston 2018
+- MAJ3R | Boston 2018
+- ngiN | Boston 2018
+- paz | Boston 2018
+- XANTARES | Boston 2018
+- EliGE | Boston 2018
+- jdm64 | Boston 2018
+- nitr0 | Boston 2018
+- stanislaw | Boston 2018
+- Twistzz | Boston 2018
+- buster | Boston 2018
+- dimasick | Boston 2018
+- Jame | Boston 2018
+- KrizzeN | Boston 2018
+- qikert | Boston 2018
+- AZR | Boston 2018
+- jks | Boston 2018
+- NAF | Boston 2018
+- Nifty | Boston 2018
+- USTILO | Boston 2018
+- Happy | Boston 2018
+- RpK | Boston 2018
+- ScreaM | Boston 2018
+- SIXER | Boston 2018
+- xms | Boston 2018
+- AmaNEk | Boston 2018
+- devoduvek | Boston 2018
+- seang@res | Boston 2018
+- ShahZaM | Boston 2018
+- SicK | Boston 2018
+- balblna | Boston 2018
+- Boombl4 | Boston 2018
+- jmqa | Boston 2018
+- Kvik | Boston 2018
+- waterfaLLZ | Boston 2018
+- BnTeT | Boston 2018
+- bondik | Boston 2018
+- captainMo | Boston 2018
+- DD | Boston 2018
+- somebody | Boston 2018
+
+### Boston 2018 Returning Challengers Autograph Capsule
+
+- Release date: 2017-12-18
+- Fallback price: $11.93
+- Items: 120
+- Drop weights: Extraordinary 0.6612% · Remarkable 16.5513% · High Grade 82.7875%
+
+#### Extraordinary (40)
+
+- apEX (Gold) | Boston 2018
+- bodyy (Gold) | Boston 2018
+- kennyS (Gold) | Boston 2018
+- NBK- (Gold) | Boston 2018
+- shox (Gold) | Boston 2018
+- autimatic (Gold) | Boston 2018
+- RUSH (Gold) | Boston 2018
+- Skadoodle (Gold) | Boston 2018
+- Stewie2K (Gold) | Boston 2018
+- tarik (Gold) | Boston 2018
+- B1ad3 (Gold) | Boston 2018
+- markeloff (Gold) | Boston 2018
+- seized (Gold) | Boston 2018
+- wayLander (Gold) | Boston 2018
+- WorldEdit (Gold) | Boston 2018
+- Edward (Gold) | Boston 2018
+- electronic (Gold) | Boston 2018
+- flamie (Gold) | Boston 2018
+- s1mple (Gold) | Boston 2018
+- Zeus (Gold) | Boston 2018
+- chrisJ (Gold) | Boston 2018
+- oskar (Gold) | Boston 2018
+- ropz (Gold) | Boston 2018
+- STYKO (Gold) | Boston 2018
+- suNny (Gold) | Boston 2018
+- denis (Gold) | Boston 2018
+- innocent (Gold) | Boston 2018
+- kRYSTAL (Gold) | Boston 2018
+- Spiidi (Gold) | Boston 2018
+- zehN (Gold) | Boston 2018
+- GuardiaN (Gold) | Boston 2018
+- karrigan (Gold) | Boston 2018
+- NiKo (Gold) | Boston 2018
+- olofmeister (Gold) | Boston 2018
+- rain (Gold) | Boston 2018
+- chopper (Gold) | Boston 2018
+- hutji (Gold) | Boston 2018
+- jR (Gold) | Boston 2018
+- keshandr (Gold) | Boston 2018
+- mir (Gold) | Boston 2018
+
+#### Remarkable (40)
+
+- apEX (Foil) | Boston 2018
+- bodyy (Foil) | Boston 2018
+- kennyS (Foil) | Boston 2018
+- NBK- (Foil) | Boston 2018
+- shox (Foil) | Boston 2018
+- autimatic (Foil) | Boston 2018
+- RUSH (Foil) | Boston 2018
+- Skadoodle (Foil) | Boston 2018
+- Stewie2K (Foil) | Boston 2018
+- tarik (Foil) | Boston 2018
+- B1ad3 (Foil) | Boston 2018
+- markeloff (Foil) | Boston 2018
+- seized (Foil) | Boston 2018
+- wayLander (Foil) | Boston 2018
+- WorldEdit (Foil) | Boston 2018
+- Edward (Foil) | Boston 2018
+- electronic (Foil) | Boston 2018
+- flamie (Foil) | Boston 2018
+- s1mple (Foil) | Boston 2018
+- Zeus (Foil) | Boston 2018
+- chrisJ (Foil) | Boston 2018
+- oskar (Foil) | Boston 2018
+- ropz (Foil) | Boston 2018
+- STYKO (Foil) | Boston 2018
+- suNny (Foil) | Boston 2018
+- denis (Foil) | Boston 2018
+- innocent (Foil) | Boston 2018
+- kRYSTAL (Foil) | Boston 2018
+- Spiidi (Foil) | Boston 2018
+- zehN (Foil) | Boston 2018
+- GuardiaN (Foil) | Boston 2018
+- karrigan (Foil) | Boston 2018
+- NiKo (Foil) | Boston 2018
+- olofmeister (Foil) | Boston 2018
+- rain (Foil) | Boston 2018
+- chopper (Foil) | Boston 2018
+- hutji (Foil) | Boston 2018
+- jR (Foil) | Boston 2018
+- keshandr (Foil) | Boston 2018
+- mir (Foil) | Boston 2018
+
+#### High Grade (40)
+
+- apEX | Boston 2018
+- bodyy | Boston 2018
+- kennyS | Boston 2018
+- NBK- | Boston 2018
+- shox | Boston 2018
+- autimatic | Boston 2018
+- RUSH | Boston 2018
+- Skadoodle | Boston 2018
+- Stewie2K | Boston 2018
+- tarik | Boston 2018
+- B1ad3 | Boston 2018
+- markeloff | Boston 2018
+- seized | Boston 2018
+- wayLander | Boston 2018
+- WorldEdit | Boston 2018
+- Edward | Boston 2018
+- electronic | Boston 2018
+- flamie | Boston 2018
+- s1mple | Boston 2018
+- Zeus | Boston 2018
+- chrisJ | Boston 2018
+- oskar | Boston 2018
+- ropz | Boston 2018
+- STYKO | Boston 2018
+- suNny | Boston 2018
+- denis | Boston 2018
+- innocent | Boston 2018
+- kRYSTAL | Boston 2018
+- Spiidi | Boston 2018
+- zehN | Boston 2018
+- GuardiaN | Boston 2018
+- karrigan | Boston 2018
+- NiKo | Boston 2018
+- olofmeister | Boston 2018
+- rain | Boston 2018
+- chopper | Boston 2018
+- hutji | Boston 2018
+- jR | Boston 2018
+- keshandr | Boston 2018
+- mir | Boston 2018
+
+### Community Capsule 2018
+
+- Release date: 2017-12-11
+- Fallback price: $0.95
+- Items: 14
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Bullet Rain (Foil)
+- Camper (Foil)
+
+#### Remarkable (4)
+
+- Devouring Flame (Holo)
+- Friendly Fire (Holo)
+- Retake Expert (Holo)
+- Small Arms (Holo)
+
+#### High Grade (8)
+
+- Bullet Rain
+- Camper
+- Dessert Eagle
+- Devouring Flame
+- Entry Fragger
+- Friendly Fire
+- Retake Expert
+- Small Arms
+
+### Perfect World Sticker Capsule 1
+
+- Release date: 2017-09-15
+- Fallback price: $0.65
+- Items: 15
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Guardian Dragon (Foil)
+- Fancy Koi (Foil)
+
+#### Remarkable (1)
+
+- Cheongsam (Holo)
+
+#### High Grade (12)
+
+- Hotpot
+- Noodles
+- Rice Bomb
+- Terror Rice
+- Water Gun
+- Cheongsam
+- Fancy Koi
+- Guardian Dragon
+- Mahjong Fa
+- Mahjong Rooster
+- Mahjong Zhong
+- Toy Tiger
+
+### Perfect World Sticker Capsule 2
+
+- Release date: 2017-09-15
+- Fallback price: $0.68
+- Items: 15
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Longevity (Foil)
+- Pixiu (Foil)
+
+#### Remarkable (1)
+
+- Twin Koi (Holo)
+
+#### High Grade (12)
+
+- God of Fortune
+- Huaji
+- Nezha
+- Rage
+- Longevity
+- Non-Veg
+- Pixiu
+- Twin Koi
+- Shaolin
+- Green Swallow
+- Blue Swallow
+- Zombie Hop
+
+### Bestiary Capsule
+
+- Release date: 2016-08-16
+- Fallback price: $0.84
+- Items: 14
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (3)
+
+- Basilisk (Foil)
+- Dragon (Foil)
+- Phoenix Reborn (Foil)
+
+#### Remarkable (4)
+
+- Hippocamp (Holo)
+- Manticore (Holo)
+- Pegasus (Holo)
+- Sphinx (Holo)
+
+#### High Grade (7)
+
+- Basilisk
+- Dragon
+- Hippocamp
+- Manticore
+- Pegasus
+- Phoenix Reborn
+- Sphinx
+
+### Sugarface Capsule
+
+- Release date: 2016-08-16
+- Fallback price: $0.74
+- Items: 14
+- Drop weights: Remarkable 16.6615% · High Grade 83.3385%
+
+#### Remarkable (7)
+
+- Boris (Holo)
+- Max (Holo)
+- Stan (Holo)
+- Jack (Holo)
+- Perry (Holo)
+- Viggo (Holo)
+- Joan (Holo)
+
+#### High Grade (7)
+
+- Boris
+- Max
+- Stan
+- Jack
+- Perry
+- Viggo
+- Joan
+
+### Pinups Capsule
+
+- Release date: 2015-12-01
+- Fallback price: $0.73
+- Items: 12
+- Drop weights: Remarkable 16.6615% · High Grade 83.3385%
+
+#### Remarkable (6)
+
+- Ivette (Holo)
+- Kimberly (Holo)
+- Martha (Holo)
+- Merietta (Holo)
+- Sherry (Holo)
+- Tamara (Holo)
+
+#### High Grade (6)
+
+- Ivette
+- Kimberly
+- Martha
+- Merietta
+- Sherry
+- Tamara
+
+### Slid3 Capsule
+
+- Release date: 2015-12-01
+- Fallback price: $1.00
+- Items: 15
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (5)
+
+- Boom (Foil)
+- Countdown (Foil)
+- Don't Worry (Foil)
+- Hard Cluck Life (Foil)
+- Move It (Foil)
+
+#### Remarkable (5)
+
+- Boom (Holo)
+- Countdown (Holo)
+- Don't Worry (Holo)
+- Hard Cluck Life (Holo)
+- Move It (Holo)
+
+#### High Grade (5)
+
+- Boom
+- Countdown
+- Don't Worry
+- Hard Cluck Life
+- Move It
+
+### Team Roles Capsule
+
+- Release date: 2015-12-01
+- Fallback price: $0.74
+- Items: 11
+- Drop weights: Exotic 3.8517% · High Grade 96.1483%
+
+#### Exotic (1)
+
+- The Pro (Foil)
+
+#### High Grade (10)
+
+- The Awper
+- The Baiter
+- The Bomber
+- The Bot
+- The Fragger
+- The Leader
+- The Lurker
+- The 'Nader
+- The Ninja
+- Support
+
+### Enfu Sticker Capsule
+
+- Release date: 2015-04-22
+- Fallback price: $0.77
+- Items: 15
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Bombsquad (Foil)
+- Silent Ninja (Foil)
+
+#### Remarkable (1)
+
+- Unicorn (Holo)
+
+#### High Grade (12)
+
+- Chabo
+- Bombsquad
+- Skulltorgeist
+- The Guru
+- Silent Ninja
+- The Samurai
+- Skull Troop
+- Salute!
+- The Spartan
+- Unicorn
+- Skull Lil Boney
+- The Zombie
+
+### ESL One Cologne 2014 Challengers
+
+- Release date: 2014-08-01
+- Fallback price: $410.00
+- Items: 19
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (1)
+
+- ESL One Cologne 2014 (Red)
+
+#### Remarkable (9)
+
+- Copenhagen Wolves (Holo) | Cologne 2014
+- dAT team (Holo) | Cologne 2014
+- Epsilon eSports (Holo) | Cologne 2014
+- iBUYPOWER (Holo) | Cologne 2014
+- London Conspiracy (Holo) | Cologne 2014
+- Natus Vincere (Holo) | Cologne 2014
+- Titan (Holo) | Cologne 2014
+- Vox Eminor (Holo) | Cologne 2014
+- MTS GameGod Wolf (Holo) | Cologne 2014
+
+#### High Grade (9)
+
+- Copenhagen Wolves | Cologne 2014
+- dAT team | Cologne 2014
+- Epsilon eSports | Cologne 2014
+- iBUYPOWER | Cologne 2014
+- London Conspiracy | Cologne 2014
+- Natus Vincere | Cologne 2014
+- Titan | Cologne 2014
+- Vox Eminor | Cologne 2014
+- MTS GameGod Wolf | Cologne 2014
+
+### ESL One Cologne 2014 Legends
+
+- Release date: 2014-08-01
+- Fallback price: $380.00
+- Items: 15
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (1)
+
+- ESL One Cologne 2014 (Blue)
+
+#### Remarkable (7)
+
+- Cloud9 (Holo) | Cologne 2014
+- Fnatic (Holo) | Cologne 2014
+- HellRaisers (Holo) | Cologne 2014
+- Ninjas in Pyjamas (Holo) | Cologne 2014
+- Team Dignitas (Holo) | Cologne 2014
+- Team LDLC.com (Holo) | Cologne 2014
+- Virtus.Pro (Holo) | Cologne 2014
+
+#### High Grade (7)
+
+- Cloud9 | Cologne 2014
+- Fnatic | Cologne 2014
+- HellRaisers | Cologne 2014
+- Ninjas in Pyjamas | Cologne 2014
+- Team Dignitas | Cologne 2014
+- Team LDLC.com | Cologne 2014
+- Virtus.Pro | Cologne 2014
+
+### Community Sticker Capsule 1
+
+- Release date: 2014-06-11
+- Fallback price: $2.60
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (4)
+
+- Headhunter (Foil)
+- Flammable (Foil)
+- New Sheriff (Foil)
+- Swag (Foil)
+
+#### Remarkable (2)
+
+- Teamwork (Holo)
+- Rekt (Holo)
+
+#### High Grade (11)
+
+- Backstab
+- Pocket BBQ
+- Bomb Doge
+- Burn Them All
+- Llama Cannon
+- My Other Awp
+- Shave Master
+- Rising Skull
+- Sneaky Beaky Like
+- To B or not to B
+- Death Comes
+
+### EMS Katowice 2014 Challengers
+
+- Release date: 2014-03-02
+- Fallback price: $3450.00
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (1)
+
+- ESL Wolf (Foil) | Katowice 2014
+
+#### Remarkable (8)
+
+- 3DMAX (Holo) | Katowice 2014
+- iBUYPOWER (Holo) | Katowice 2014
+- mousesports (Holo) | Katowice 2014
+- Clan-Mystik (Holo) | Katowice 2014
+- Natus Vincere (Holo) | Katowice 2014
+- Reason Gaming (Holo) | Katowice 2014
+- Virtus.Pro (Holo) | Katowice 2014
+- Vox Eminor (Holo) | Katowice 2014
+
+#### High Grade (8)
+
+- 3DMAX | Katowice 2014
+- iBUYPOWER | Katowice 2014
+- mousesports | Katowice 2014
+- Clan-Mystik | Katowice 2014
+- Natus Vincere | Katowice 2014
+- Reason Gaming | Katowice 2014
+- Virtus.Pro | Katowice 2014
+- Vox Eminor | Katowice 2014
+
+### EMS Katowice 2014 Legends
+
+- Release date: 2014-03-02
+- Fallback price: $3100.00
+- Items: 17
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (1)
+
+- ESL Skull (Foil) | Katowice 2014
+
+#### Remarkable (8)
+
+- compLexity Gaming (Holo) | Katowice 2014
+- Team Dignitas (Holo) | Katowice 2014
+- Fnatic (Holo) | Katowice 2014
+- HellRaisers (Holo) | Katowice 2014
+- Team LDLC.com (Holo) | Katowice 2014
+- LGB eSports (Holo) | Katowice 2014
+- Ninjas in Pyjamas (Holo) | Katowice 2014
+- Titan (Holo) | Katowice 2014
+
+#### High Grade (8)
+
+- compLexity Gaming | Katowice 2014
+- Team Dignitas | Katowice 2014
+- Fnatic | Katowice 2014
+- HellRaisers | Katowice 2014
+- Team LDLC.com | Katowice 2014
+- LGB eSports | Katowice 2014
+- Ninjas in Pyjamas | Katowice 2014
+- Titan | Katowice 2014
+
+### Sticker Capsule
+
+- Release date: 2014-01-29
+- Fallback price: $0.72
+- Items: 15
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Lucky 13 (Foil)
+- Luck Skill (Foil)
+
+#### Remarkable (3)
+
+- Aces High (Holo)
+- Fearsome (Holo)
+- Vigilance (Holo)
+
+#### High Grade (10)
+
+- Lucky 13
+- Aces High
+- I Conquered
+- Seek & Destroy
+- Black Dog
+- Fearsome
+- Cerberus
+- Easy Peasy
+- Luck Skill
+- Vigilance
+
+### Sticker Capsule 2
+
+- Release date: 2014-01-29
+- Fallback price: $15.50
+- Items: 16
+- Drop weights: Exotic 3.2307% · Remarkable 16.1232% · High Grade 80.6461%
+
+#### Exotic (2)
+
+- Crown (Foil)
+- Stupid Banana (Foil)
+
+#### Remarkable (4)
+
+- Bish (Holo)
+- Bash (Holo)
+- Bosh (Holo)
+- Let's Roll-oll (Holo)
+
+#### High Grade (10)
+
+- Banana
+- Bomb Code
+- Chicken Lover
+- Good Game
+- Good Luck
+- Have Fun
+- Let's Roll-oll
+- Metal
+- Nice Shot
+- Welcome to the Clutch
+
+### Antwerp 2022 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.27
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- Snappi (Gold) | Antwerp 2022
+- dycha (Gold) | Antwerp 2022
+- Spinx (Gold) | Antwerp 2022
+- hades (Gold) | Antwerp 2022
+- maden (Gold) | Antwerp 2022
+- Aleksib (Gold) | Antwerp 2022
+- huNter (Gold) | Antwerp 2022
+- JaCkz (Gold) | Antwerp 2022
+- m0NESY (Gold) | Antwerp 2022
+- NiKo (Gold) | Antwerp 2022
+- Jerry (Gold) | Antwerp 2022
+- zorte (Gold) | Antwerp 2022
+- KENSi (Gold) | Antwerp 2022
+- Norwi (Gold) | Antwerp 2022
+- shalfey (Gold) | Antwerp 2022
+- gla1ve (Gold) | Antwerp 2022
+- blameF (Gold) | Antwerp 2022
+- k0nfig (Gold) | Antwerp 2022
+- Xyp9x (Gold) | Antwerp 2022
+- Farlig (Gold) | Antwerp 2022
+- apEX (Gold) | Antwerp 2022
+- misutaaa (Gold) | Antwerp 2022
+- dupreeh (Gold) | Antwerp 2022
+- Magisk (Gold) | Antwerp 2022
+- ZywOo (Gold) | Antwerp 2022
+- WOOD7 (Gold) | Antwerp 2022
+- chelo (Gold) | Antwerp 2022
+- Tuurtle (Gold) | Antwerp 2022
+- exit (Gold) | Antwerp 2022
+- JOTA (Gold) | Antwerp 2022
+- FalleN (Gold) | Antwerp 2022
+- fer (Gold) | Antwerp 2022
+- fnx (Gold) | Antwerp 2022
+- boltz (Gold) | Antwerp 2022
+- VINI (Gold) | Antwerp 2022
+- rigoN (Gold) | Antwerp 2022
+- juanflatroo (Gold) | Antwerp 2022
+- SENER1 (Gold) | Antwerp 2022
+- sinnopsyy (Gold) | Antwerp 2022
+- gxx- (Gold) | Antwerp 2022
+
+#### Exotic (40)
+
+- Snappi (Holo) | Antwerp 2022
+- dycha (Holo) | Antwerp 2022
+- Spinx (Holo) | Antwerp 2022
+- hades (Holo) | Antwerp 2022
+- maden (Holo) | Antwerp 2022
+- Aleksib (Holo) | Antwerp 2022
+- huNter (Holo) | Antwerp 2022
+- JaCkz (Holo) | Antwerp 2022
+- m0NESY (Holo) | Antwerp 2022
+- NiKo (Holo) | Antwerp 2022
+- Jerry (Holo) | Antwerp 2022
+- zorte (Holo) | Antwerp 2022
+- KENSi (Holo) | Antwerp 2022
+- Norwi (Holo) | Antwerp 2022
+- shalfey (Holo) | Antwerp 2022
+- gla1ve (Holo) | Antwerp 2022
+- blameF (Holo) | Antwerp 2022
+- k0nfig (Holo) | Antwerp 2022
+- Xyp9x (Holo) | Antwerp 2022
+- Farlig (Holo) | Antwerp 2022
+- apEX (Holo) | Antwerp 2022
+- misutaaa (Holo) | Antwerp 2022
+- dupreeh (Holo) | Antwerp 2022
+- Magisk (Holo) | Antwerp 2022
+- ZywOo (Holo) | Antwerp 2022
+- WOOD7 (Holo) | Antwerp 2022
+- chelo (Holo) | Antwerp 2022
+- Tuurtle (Holo) | Antwerp 2022
+- exit (Holo) | Antwerp 2022
+- JOTA (Holo) | Antwerp 2022
+- FalleN (Holo) | Antwerp 2022
+- fer (Holo) | Antwerp 2022
+- fnx (Holo) | Antwerp 2022
+- boltz (Holo) | Antwerp 2022
+- VINI (Holo) | Antwerp 2022
+- rigoN (Holo) | Antwerp 2022
+- juanflatroo (Holo) | Antwerp 2022
+- SENER1 (Holo) | Antwerp 2022
+- sinnopsyy (Holo) | Antwerp 2022
+- gxx- (Holo) | Antwerp 2022
+
+#### Remarkable (40)
+
+- Snappi (Glitter) | Antwerp 2022
+- dycha (Glitter) | Antwerp 2022
+- Spinx (Glitter) | Antwerp 2022
+- hades (Glitter) | Antwerp 2022
+- maden (Glitter) | Antwerp 2022
+- Aleksib (Glitter) | Antwerp 2022
+- huNter (Glitter) | Antwerp 2022
+- JaCkz (Glitter) | Antwerp 2022
+- m0NESY (Glitter) | Antwerp 2022
+- NiKo (Glitter) | Antwerp 2022
+- Jerry (Glitter) | Antwerp 2022
+- zorte (Glitter) | Antwerp 2022
+- KENSi (Glitter) | Antwerp 2022
+- Norwi (Glitter) | Antwerp 2022
+- shalfey (Glitter) | Antwerp 2022
+- gla1ve (Glitter) | Antwerp 2022
+- blameF (Glitter) | Antwerp 2022
+- k0nfig (Glitter) | Antwerp 2022
+- Xyp9x (Glitter) | Antwerp 2022
+- Farlig (Glitter) | Antwerp 2022
+- apEX (Glitter) | Antwerp 2022
+- misutaaa (Glitter) | Antwerp 2022
+- dupreeh (Glitter) | Antwerp 2022
+- Magisk (Glitter) | Antwerp 2022
+- ZywOo (Glitter) | Antwerp 2022
+- WOOD7 (Glitter) | Antwerp 2022
+- chelo (Glitter) | Antwerp 2022
+- Tuurtle (Glitter) | Antwerp 2022
+- exit (Glitter) | Antwerp 2022
+- JOTA (Glitter) | Antwerp 2022
+- FalleN (Glitter) | Antwerp 2022
+- fer (Glitter) | Antwerp 2022
+- fnx (Glitter) | Antwerp 2022
+- boltz (Glitter) | Antwerp 2022
+- VINI (Glitter) | Antwerp 2022
+- rigoN (Glitter) | Antwerp 2022
+- juanflatroo (Glitter) | Antwerp 2022
+- SENER1 (Glitter) | Antwerp 2022
+- sinnopsyy (Glitter) | Antwerp 2022
+- gxx- (Glitter) | Antwerp 2022
+
+#### High Grade (40)
+
+- Snappi | Antwerp 2022
+- dycha | Antwerp 2022
+- Spinx | Antwerp 2022
+- hades | Antwerp 2022
+- maden | Antwerp 2022
+- Aleksib | Antwerp 2022
+- huNter | Antwerp 2022
+- JaCkz | Antwerp 2022
+- m0NESY | Antwerp 2022
+- NiKo | Antwerp 2022
+- Jerry | Antwerp 2022
+- zorte | Antwerp 2022
+- KENSi | Antwerp 2022
+- Norwi | Antwerp 2022
+- shalfey | Antwerp 2022
+- gla1ve | Antwerp 2022
+- blameF | Antwerp 2022
+- k0nfig | Antwerp 2022
+- Xyp9x | Antwerp 2022
+- Farlig | Antwerp 2022
+- apEX | Antwerp 2022
+- misutaaa | Antwerp 2022
+- dupreeh | Antwerp 2022
+- Magisk | Antwerp 2022
+- ZywOo | Antwerp 2022
+- WOOD7 | Antwerp 2022
+- chelo | Antwerp 2022
+- Tuurtle | Antwerp 2022
+- exit | Antwerp 2022
+- JOTA | Antwerp 2022
+- FalleN | Antwerp 2022
+- fer | Antwerp 2022
+- fnx | Antwerp 2022
+- boltz | Antwerp 2022
+- VINI | Antwerp 2022
+- rigoN | Antwerp 2022
+- juanflatroo | Antwerp 2022
+- SENER1 | Antwerp 2022
+- sinnopsyy | Antwerp 2022
+- gxx- | Antwerp 2022
+
+### Antwerp 2022 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.33
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- ENCE (Gold) | Antwerp 2022
+- G2 Esports (Gold) | Antwerp 2022
+- forZe eSports (Gold) | Antwerp 2022
+- Astralis (Gold) | Antwerp 2022
+- Vitality (Gold) | Antwerp 2022
+- MIBR (Gold) | Antwerp 2022
+- Imperial Esports (Gold) | Antwerp 2022
+- Bad News Eagles (Gold) | Antwerp 2022
+- PGL (Gold) | Antwerp 2022
+
+#### Exotic (9)
+
+- ENCE (Holo) | Antwerp 2022
+- G2 Esports (Holo) | Antwerp 2022
+- forZe eSports (Holo) | Antwerp 2022
+- Astralis (Holo) | Antwerp 2022
+- Vitality (Holo) | Antwerp 2022
+- MIBR (Holo) | Antwerp 2022
+- Imperial Esports (Holo) | Antwerp 2022
+- Bad News Eagles (Holo) | Antwerp 2022
+- PGL (Holo) | Antwerp 2022
+
+#### Remarkable (9)
+
+- ENCE (Glitter) | Antwerp 2022
+- G2 Esports (Glitter) | Antwerp 2022
+- forZe eSports (Glitter) | Antwerp 2022
+- Astralis (Glitter) | Antwerp 2022
+- Vitality (Glitter) | Antwerp 2022
+- MIBR (Glitter) | Antwerp 2022
+- Imperial Esports (Glitter) | Antwerp 2022
+- Bad News Eagles (Glitter) | Antwerp 2022
+- PGL (Glitter) | Antwerp 2022
+
+#### High Grade (9)
+
+- ENCE | Antwerp 2022
+- G2 Esports | Antwerp 2022
+- forZe eSports | Antwerp 2022
+- Astralis | Antwerp 2022
+- Vitality | Antwerp 2022
+- MIBR | Antwerp 2022
+- Imperial Esports | Antwerp 2022
+- Bad News Eagles | Antwerp 2022
+- PGL | Antwerp 2022
+
+### Antwerp 2022 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.32
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- rain (Gold, Champion) | Antwerp 2022
+- karrigan (Gold, Champion) | Antwerp 2022
+- Twistzz (Gold, Champion) | Antwerp 2022
+- broky (Gold, Champion) | Antwerp 2022
+- ropz (Gold, Champion) | Antwerp 2022
+
+#### Exotic (5)
+
+- rain (Holo, Champion) | Antwerp 2022
+- karrigan (Holo, Champion) | Antwerp 2022
+- Twistzz (Holo, Champion) | Antwerp 2022
+- broky (Holo, Champion) | Antwerp 2022
+- ropz (Holo, Champion) | Antwerp 2022
+
+#### Remarkable (5)
+
+- rain (Glitter, Champion) | Antwerp 2022
+- karrigan (Glitter, Champion) | Antwerp 2022
+- Twistzz (Glitter, Champion) | Antwerp 2022
+- broky (Glitter, Champion) | Antwerp 2022
+- ropz (Glitter, Champion) | Antwerp 2022
+
+#### High Grade (5)
+
+- rain (Champion) | Antwerp 2022
+- karrigan (Champion) | Antwerp 2022
+- Twistzz (Champion) | Antwerp 2022
+- broky (Champion) | Antwerp 2022
+- ropz (Champion) | Antwerp 2022
+
+### Antwerp 2022 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.61
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- XANTARES (Gold) | Antwerp 2022
+- woxic (Gold) | Antwerp 2022
+- imoRR (Gold) | Antwerp 2022
+- Calyx (Gold) | Antwerp 2022
+- xfl0ud (Gold) | Antwerp 2022
+- chopper (Gold) | Antwerp 2022
+- magixx (Gold) | Antwerp 2022
+- degster (Gold) | Antwerp 2022
+- Patsi (Gold) | Antwerp 2022
+- S1ren (Gold) | Antwerp 2022
+- Jame (Gold) | Antwerp 2022
+- qikert (Gold) | Antwerp 2022
+- buster (Gold) | Antwerp 2022
+- YEKINDAR (Gold) | Antwerp 2022
+- FL1T (Gold) | Antwerp 2022
+- FaNg (Gold) | Antwerp 2022
+- floppy (Gold) | Antwerp 2022
+- Grim (Gold) | Antwerp 2022
+- JT (Gold) | Antwerp 2022
+- junior (Gold) | Antwerp 2022
+- bLitz (Gold) | Antwerp 2022
+- kabal (Gold) | Antwerp 2022
+- nin9 (Gold) | Antwerp 2022
+- sk0R (Gold) | Antwerp 2022
+- Techno4K (Gold) | Antwerp 2022
+- ins (Gold) | Antwerp 2022
+- sico (Gold) | Antwerp 2022
+- Liazz (Gold) | Antwerp 2022
+- hatz (Gold) | Antwerp 2022
+- aliStair (Gold) | Antwerp 2022
+- shox (Gold) | Antwerp 2022
+- EliGE (Gold) | Antwerp 2022
+- oSee (Gold) | Antwerp 2022
+- nitr0 (Gold) | Antwerp 2022
+- NAF (Gold) | Antwerp 2022
+- rox (Gold) | Antwerp 2022
+- luken (Gold) | Antwerp 2022
+- max (Gold) | Antwerp 2022
+- dgt (Gold) | Antwerp 2022
+- dav1d (Gold) | Antwerp 2022
+
+#### Exotic (40)
+
+- XANTARES (Holo) | Antwerp 2022
+- woxic (Holo) | Antwerp 2022
+- imoRR (Holo) | Antwerp 2022
+- Calyx (Holo) | Antwerp 2022
+- xfl0ud (Holo) | Antwerp 2022
+- chopper (Holo) | Antwerp 2022
+- magixx (Holo) | Antwerp 2022
+- degster (Holo) | Antwerp 2022
+- Patsi (Holo) | Antwerp 2022
+- S1ren (Holo) | Antwerp 2022
+- Jame (Holo) | Antwerp 2022
+- qikert (Holo) | Antwerp 2022
+- buster (Holo) | Antwerp 2022
+- YEKINDAR (Holo) | Antwerp 2022
+- FL1T (Holo) | Antwerp 2022
+- FaNg (Holo) | Antwerp 2022
+- floppy (Holo) | Antwerp 2022
+- Grim (Holo) | Antwerp 2022
+- JT (Holo) | Antwerp 2022
+- junior (Holo) | Antwerp 2022
+- bLitz (Holo) | Antwerp 2022
+- kabal (Holo) | Antwerp 2022
+- nin9 (Holo) | Antwerp 2022
+- sk0R (Holo) | Antwerp 2022
+- Techno4K (Holo) | Antwerp 2022
+- ins (Holo) | Antwerp 2022
+- sico (Holo) | Antwerp 2022
+- Liazz (Holo) | Antwerp 2022
+- hatz (Holo) | Antwerp 2022
+- aliStair (Holo) | Antwerp 2022
+- shox (Holo) | Antwerp 2022
+- EliGE (Holo) | Antwerp 2022
+- oSee (Holo) | Antwerp 2022
+- nitr0 (Holo) | Antwerp 2022
+- NAF (Holo) | Antwerp 2022
+- rox (Holo) | Antwerp 2022
+- luken (Holo) | Antwerp 2022
+- max (Holo) | Antwerp 2022
+- dgt (Holo) | Antwerp 2022
+- dav1d (Holo) | Antwerp 2022
+
+#### Remarkable (40)
+
+- XANTARES (Glitter) | Antwerp 2022
+- woxic (Glitter) | Antwerp 2022
+- imoRR (Glitter) | Antwerp 2022
+- Calyx (Glitter) | Antwerp 2022
+- xfl0ud (Glitter) | Antwerp 2022
+- chopper (Glitter) | Antwerp 2022
+- magixx (Glitter) | Antwerp 2022
+- degster (Glitter) | Antwerp 2022
+- Patsi (Glitter) | Antwerp 2022
+- S1ren (Glitter) | Antwerp 2022
+- Jame (Glitter) | Antwerp 2022
+- qikert (Glitter) | Antwerp 2022
+- buster (Glitter) | Antwerp 2022
+- YEKINDAR (Glitter) | Antwerp 2022
+- FL1T (Glitter) | Antwerp 2022
+- FaNg (Glitter) | Antwerp 2022
+- floppy (Glitter) | Antwerp 2022
+- Grim (Glitter) | Antwerp 2022
+- JT (Glitter) | Antwerp 2022
+- junior (Glitter) | Antwerp 2022
+- bLitz (Glitter) | Antwerp 2022
+- kabal (Glitter) | Antwerp 2022
+- nin9 (Glitter) | Antwerp 2022
+- sk0R (Glitter) | Antwerp 2022
+- Techno4K (Glitter) | Antwerp 2022
+- ins (Glitter) | Antwerp 2022
+- sico (Glitter) | Antwerp 2022
+- Liazz (Glitter) | Antwerp 2022
+- hatz (Glitter) | Antwerp 2022
+- aliStair (Glitter) | Antwerp 2022
+- shox (Glitter) | Antwerp 2022
+- EliGE (Glitter) | Antwerp 2022
+- oSee (Glitter) | Antwerp 2022
+- nitr0 (Glitter) | Antwerp 2022
+- NAF (Glitter) | Antwerp 2022
+- rox (Glitter) | Antwerp 2022
+- luken (Glitter) | Antwerp 2022
+- max (Glitter) | Antwerp 2022
+- dgt (Glitter) | Antwerp 2022
+- dav1d (Glitter) | Antwerp 2022
+
+#### High Grade (40)
+
+- XANTARES | Antwerp 2022
+- woxic | Antwerp 2022
+- imoRR | Antwerp 2022
+- Calyx | Antwerp 2022
+- xfl0ud | Antwerp 2022
+- chopper | Antwerp 2022
+- magixx | Antwerp 2022
+- degster | Antwerp 2022
+- Patsi | Antwerp 2022
+- S1ren | Antwerp 2022
+- Jame | Antwerp 2022
+- qikert | Antwerp 2022
+- buster | Antwerp 2022
+- YEKINDAR | Antwerp 2022
+- FL1T | Antwerp 2022
+- FaNg | Antwerp 2022
+- floppy | Antwerp 2022
+- Grim | Antwerp 2022
+- JT | Antwerp 2022
+- junior | Antwerp 2022
+- bLitz | Antwerp 2022
+- kabal | Antwerp 2022
+- nin9 | Antwerp 2022
+- sk0R | Antwerp 2022
+- Techno4K | Antwerp 2022
+- ins | Antwerp 2022
+- sico | Antwerp 2022
+- Liazz | Antwerp 2022
+- hatz | Antwerp 2022
+- aliStair | Antwerp 2022
+- shox | Antwerp 2022
+- EliGE | Antwerp 2022
+- oSee | Antwerp 2022
+- nitr0 | Antwerp 2022
+- NAF | Antwerp 2022
+- rox | Antwerp 2022
+- luken | Antwerp 2022
+- max | Antwerp 2022
+- dgt | Antwerp 2022
+- dav1d | Antwerp 2022
+
+### Antwerp 2022 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.53
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Eternal Fire (Gold) | Antwerp 2022
+- Team Spirit (Gold) | Antwerp 2022
+- Outsiders (Gold) | Antwerp 2022
+- Complexity Gaming (Gold) | Antwerp 2022
+- IHC Esports (Gold) | Antwerp 2022
+- Renegades (Gold) | Antwerp 2022
+- Team Liquid (Gold) | Antwerp 2022
+- 9z Team (Gold) | Antwerp 2022
+- PGL (Gold) | Antwerp 2022
+
+#### Exotic (9)
+
+- Eternal Fire (Holo) | Antwerp 2022
+- Team Spirit (Holo) | Antwerp 2022
+- Outsiders (Holo) | Antwerp 2022
+- Complexity Gaming (Holo) | Antwerp 2022
+- IHC Esports (Holo) | Antwerp 2022
+- Renegades (Holo) | Antwerp 2022
+- Team Liquid (Holo) | Antwerp 2022
+- 9z Team (Holo) | Antwerp 2022
+- PGL (Holo) | Antwerp 2022
+
+#### Remarkable (9)
+
+- Eternal Fire (Glitter) | Antwerp 2022
+- Team Spirit (Glitter) | Antwerp 2022
+- Outsiders (Glitter) | Antwerp 2022
+- Complexity Gaming (Glitter) | Antwerp 2022
+- IHC Esports (Glitter) | Antwerp 2022
+- Renegades (Glitter) | Antwerp 2022
+- Team Liquid (Glitter) | Antwerp 2022
+- 9z Team (Glitter) | Antwerp 2022
+- PGL (Glitter) | Antwerp 2022
+
+#### High Grade (9)
+
+- Eternal Fire | Antwerp 2022
+- Team Spirit | Antwerp 2022
+- Outsiders | Antwerp 2022
+- Complexity Gaming | Antwerp 2022
+- IHC Esports | Antwerp 2022
+- Renegades | Antwerp 2022
+- Team Liquid | Antwerp 2022
+- 9z Team | Antwerp 2022
+- PGL | Antwerp 2022
+
+### Antwerp 2022 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.25
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- stavn (Gold) | Antwerp 2022
+- cadiaN (Gold) | Antwerp 2022
+- TeSeS (Gold) | Antwerp 2022
+- refrezh (Gold) | Antwerp 2022
+- sjuush (Gold) | Antwerp 2022
+- roeJ (Gold) | Antwerp 2022
+- Zyphon (Gold) | Antwerp 2022
+- HooXi (Gold) | Antwerp 2022
+- jabbi (Gold) | Antwerp 2022
+- nicoodoz (Gold) | Antwerp 2022
+- tabseN (Gold) | Antwerp 2022
+- tiziaN (Gold) | Antwerp 2022
+- faveN (Gold) | Antwerp 2022
+- Krimbo (Gold) | Antwerp 2022
+- syrsoN (Gold) | Antwerp 2022
+- interz (Gold) | Antwerp 2022
+- sh1ro (Gold) | Antwerp 2022
+- nafany (Gold) | Antwerp 2022
+- Ax1Le (Gold) | Antwerp 2022
+- Hobbit (Gold) | Antwerp 2022
+- yuurih (Gold) | Antwerp 2022
+- arT (Gold) | Antwerp 2022
+- KSCERATO (Gold) | Antwerp 2022
+- drop (Gold) | Antwerp 2022
+- saffee (Gold) | Antwerp 2022
+- rain (Gold) | Antwerp 2022
+- karrigan (Gold) | Antwerp 2022
+- Twistzz (Gold) | Antwerp 2022
+- broky (Gold) | Antwerp 2022
+- ropz (Gold) | Antwerp 2022
+- REZ (Gold) | Antwerp 2022
+- hampus (Gold) | Antwerp 2022
+- Plopski (Gold) | Antwerp 2022
+- es3tag (Gold) | Antwerp 2022
+- Brollan (Gold) | Antwerp 2022
+- s1mple (Gold) | Antwerp 2022
+- Boombl4 (Gold) | Antwerp 2022
+- Perfecto (Gold) | Antwerp 2022
+- electronic (Gold) | Antwerp 2022
+- b1t (Gold) | Antwerp 2022
+
+#### Exotic (40)
+
+- stavn (Holo) | Antwerp 2022
+- cadiaN (Holo) | Antwerp 2022
+- TeSeS (Holo) | Antwerp 2022
+- refrezh (Holo) | Antwerp 2022
+- sjuush (Holo) | Antwerp 2022
+- roeJ (Holo) | Antwerp 2022
+- Zyphon (Holo) | Antwerp 2022
+- HooXi (Holo) | Antwerp 2022
+- jabbi (Holo) | Antwerp 2022
+- nicoodoz (Holo) | Antwerp 2022
+- tabseN (Holo) | Antwerp 2022
+- tiziaN (Holo) | Antwerp 2022
+- faveN (Holo) | Antwerp 2022
+- Krimbo (Holo) | Antwerp 2022
+- syrsoN (Holo) | Antwerp 2022
+- interz (Holo) | Antwerp 2022
+- sh1ro (Holo) | Antwerp 2022
+- nafany (Holo) | Antwerp 2022
+- Ax1Le (Holo) | Antwerp 2022
+- Hobbit (Holo) | Antwerp 2022
+- yuurih (Holo) | Antwerp 2022
+- arT (Holo) | Antwerp 2022
+- KSCERATO (Holo) | Antwerp 2022
+- drop (Holo) | Antwerp 2022
+- saffee (Holo) | Antwerp 2022
+- rain (Holo) | Antwerp 2022
+- karrigan (Holo) | Antwerp 2022
+- Twistzz (Holo) | Antwerp 2022
+- broky (Holo) | Antwerp 2022
+- ropz (Holo) | Antwerp 2022
+- REZ (Holo) | Antwerp 2022
+- hampus (Holo) | Antwerp 2022
+- Plopski (Holo) | Antwerp 2022
+- es3tag (Holo) | Antwerp 2022
+- Brollan (Holo) | Antwerp 2022
+- s1mple (Holo) | Antwerp 2022
+- Boombl4 (Holo) | Antwerp 2022
+- Perfecto (Holo) | Antwerp 2022
+- electronic (Holo) | Antwerp 2022
+- b1t (Holo) | Antwerp 2022
+
+#### Remarkable (40)
+
+- stavn (Glitter) | Antwerp 2022
+- cadiaN (Glitter) | Antwerp 2022
+- TeSeS (Glitter) | Antwerp 2022
+- refrezh (Glitter) | Antwerp 2022
+- sjuush (Glitter) | Antwerp 2022
+- roeJ (Glitter) | Antwerp 2022
+- Zyphon (Glitter) | Antwerp 2022
+- HooXi (Glitter) | Antwerp 2022
+- jabbi (Glitter) | Antwerp 2022
+- nicoodoz (Glitter) | Antwerp 2022
+- tabseN (Glitter) | Antwerp 2022
+- tiziaN (Glitter) | Antwerp 2022
+- faveN (Glitter) | Antwerp 2022
+- Krimbo (Glitter) | Antwerp 2022
+- syrsoN (Glitter) | Antwerp 2022
+- interz (Glitter) | Antwerp 2022
+- sh1ro (Glitter) | Antwerp 2022
+- nafany (Glitter) | Antwerp 2022
+- Ax1Le (Glitter) | Antwerp 2022
+- Hobbit (Glitter) | Antwerp 2022
+- yuurih (Glitter) | Antwerp 2022
+- arT (Glitter) | Antwerp 2022
+- KSCERATO (Glitter) | Antwerp 2022
+- drop (Glitter) | Antwerp 2022
+- saffee (Glitter) | Antwerp 2022
+- rain (Glitter) | Antwerp 2022
+- karrigan (Glitter) | Antwerp 2022
+- Twistzz (Glitter) | Antwerp 2022
+- broky (Glitter) | Antwerp 2022
+- ropz (Glitter) | Antwerp 2022
+- REZ (Glitter) | Antwerp 2022
+- hampus (Glitter) | Antwerp 2022
+- Plopski (Glitter) | Antwerp 2022
+- es3tag (Glitter) | Antwerp 2022
+- Brollan (Glitter) | Antwerp 2022
+- s1mple (Glitter) | Antwerp 2022
+- Boombl4 (Glitter) | Antwerp 2022
+- Perfecto (Glitter) | Antwerp 2022
+- electronic (Glitter) | Antwerp 2022
+- b1t (Glitter) | Antwerp 2022
+
+#### High Grade (40)
+
+- stavn | Antwerp 2022
+- cadiaN | Antwerp 2022
+- TeSeS | Antwerp 2022
+- refrezh | Antwerp 2022
+- sjuush | Antwerp 2022
+- roeJ | Antwerp 2022
+- Zyphon | Antwerp 2022
+- HooXi | Antwerp 2022
+- jabbi | Antwerp 2022
+- nicoodoz | Antwerp 2022
+- tabseN | Antwerp 2022
+- tiziaN | Antwerp 2022
+- faveN | Antwerp 2022
+- Krimbo | Antwerp 2022
+- syrsoN | Antwerp 2022
+- interz | Antwerp 2022
+- sh1ro | Antwerp 2022
+- nafany | Antwerp 2022
+- Ax1Le | Antwerp 2022
+- Hobbit | Antwerp 2022
+- yuurih | Antwerp 2022
+- arT | Antwerp 2022
+- KSCERATO | Antwerp 2022
+- drop | Antwerp 2022
+- saffee | Antwerp 2022
+- rain | Antwerp 2022
+- karrigan | Antwerp 2022
+- Twistzz | Antwerp 2022
+- broky | Antwerp 2022
+- ropz | Antwerp 2022
+- REZ | Antwerp 2022
+- hampus | Antwerp 2022
+- Plopski | Antwerp 2022
+- es3tag | Antwerp 2022
+- Brollan | Antwerp 2022
+- s1mple | Antwerp 2022
+- Boombl4 | Antwerp 2022
+- Perfecto | Antwerp 2022
+- electronic | Antwerp 2022
+- b1t | Antwerp 2022
+
+### Antwerp 2022 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.52
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Heroic (Gold) | Antwerp 2022
+- Copenhagen Flames (Gold) | Antwerp 2022
+- BIG (Gold) | Antwerp 2022
+- Cloud9 (Gold) | Antwerp 2022
+- FURIA (Gold) | Antwerp 2022
+- FaZe Clan (Gold) | Antwerp 2022
+- Ninjas in Pyjamas (Gold) | Antwerp 2022
+- Natus Vincere (Gold) | Antwerp 2022
+- PGL (Gold) | Antwerp 2022
+
+#### Exotic (9)
+
+- Heroic (Holo) | Antwerp 2022
+- Copenhagen Flames (Holo) | Antwerp 2022
+- BIG (Holo) | Antwerp 2022
+- Cloud9 (Holo) | Antwerp 2022
+- FURIA (Holo) | Antwerp 2022
+- FaZe Clan (Holo) | Antwerp 2022
+- Ninjas in Pyjamas (Holo) | Antwerp 2022
+- Natus Vincere (Holo) | Antwerp 2022
+- PGL (Holo) | Antwerp 2022
+
+#### Remarkable (9)
+
+- Heroic (Glitter) | Antwerp 2022
+- Copenhagen Flames (Glitter) | Antwerp 2022
+- BIG (Glitter) | Antwerp 2022
+- Cloud9 (Glitter) | Antwerp 2022
+- FURIA (Glitter) | Antwerp 2022
+- FaZe Clan (Glitter) | Antwerp 2022
+- Ninjas in Pyjamas (Glitter) | Antwerp 2022
+- Natus Vincere (Glitter) | Antwerp 2022
+- PGL (Glitter) | Antwerp 2022
+
+#### High Grade (9)
+
+- Heroic | Antwerp 2022
+- Copenhagen Flames | Antwerp 2022
+- BIG | Antwerp 2022
+- Cloud9 | Antwerp 2022
+- FURIA | Antwerp 2022
+- FaZe Clan | Antwerp 2022
+- Ninjas in Pyjamas | Antwerp 2022
+- Natus Vincere | Antwerp 2022
+- PGL | Antwerp 2022
+
+### Atlanta 2017 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $110.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- FaZe Clan (Gold)
+- mousesports (Gold)
+- G2 Esports (Gold)
+- OpTic Gaming (Gold)
+- Team Dignitas (Gold)
+- Team EnVyUs (Gold)
+- GODSENT (Gold)
+- HellRaisers (Gold)
+
+#### Exotic (8)
+
+- FaZe Clan (Foil)
+- mousesports (Foil)
+- G2 Esports (Foil)
+- OpTic Gaming (Foil)
+- Team Dignitas (Foil)
+- Team EnVyUs (Foil)
+- GODSENT (Foil)
+- HellRaisers (Foil)
+
+#### Remarkable (8)
+
+- FaZe Clan (Holo)
+- mousesports (Holo)
+- G2 Esports (Holo)
+- OpTic Gaming (Holo)
+- Team Dignitas (Holo)
+- Team EnVyUs (Holo)
+- GODSENT (Holo)
+- HellRaisers (Holo)
+
+#### High Grade (8)
+
+- FaZe Clan
+- mousesports
+- G2 Esports
+- OpTic Gaming
+- Team Dignitas
+- Team EnVyUs
+- GODSENT
+- HellRaisers
+
+### Atlanta 2017 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $92.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- SK Gaming (Gold)
+- Team Liquid (Gold)
+- Virtus.Pro (Gold)
+- Fnatic (Gold)
+- Astralis (Gold)
+- Gambit Gaming (Gold)
+- Natus Vincere (Gold)
+- FlipSid3 Tactics (Gold)
+
+#### Exotic (8)
+
+- SK Gaming (Foil)
+- Team Liquid (Foil)
+- Virtus.Pro (Foil)
+- Fnatic (Foil)
+- Astralis (Foil)
+- Gambit Gaming (Foil)
+- Natus Vincere (Foil)
+- FlipSid3 Tactics (Foil)
+
+#### Remarkable (8)
+
+- SK Gaming (Holo)
+- Team Liquid (Holo)
+- Virtus.Pro (Holo)
+- Fnatic (Holo)
+- Astralis (Holo)
+- Gambit Gaming (Holo)
+- Natus Vincere (Holo)
+- FlipSid3 Tactics (Holo)
+
+#### High Grade (8)
+
+- SK Gaming
+- Team Liquid
+- Virtus.Pro
+- Fnatic
+- Astralis
+- Gambit Gaming
+- Natus Vincere
+- FlipSid3 Tactics
+
+### Austin 2025 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.23
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- NiKo (Gold) | Austin 2025
+- kyxsan (Gold) | Austin 2025
+- m0NESY (Gold) | Austin 2025
+- TeSeS (Gold) | Austin 2025
+- Magisk (Gold) | Austin 2025
+- karrigan (Gold) | Austin 2025
+- broky (Gold) | Austin 2025
+- EliGE (Gold) | Austin 2025
+- frozen (Gold) | Austin 2025
+- rain (Gold) | Austin 2025
+- Maka (Gold) | Austin 2025
+- Ex3rcice (Gold) | Austin 2025
+- Lucky (Gold) | Austin 2025
+- Graviti (Gold) | Austin 2025
+- bodyy (Gold) | Austin 2025
+- FL1T (Gold) | Austin 2025
+- fame (Gold) | Austin 2025
+- electronic (Gold) | Austin 2025
+- FL4MUS (Gold) | Austin 2025
+- ICY (Gold) | Austin 2025
+- biguzera (Gold) | Austin 2025
+- NQZ (Gold) | Austin 2025
+- snow (Gold) | Austin 2025
+- dav1deuS (Gold) | Austin 2025
+- dgt (Gold) | Austin 2025
+- FalleN (Gold) | Austin 2025
+- yuurih (Gold) | Austin 2025
+- KSCERATO (Gold) | Austin 2025
+- skullz (Gold) | Austin 2025
+- molodoy (Gold) | Austin 2025
+- exit (Gold) | Austin 2025
+- insani (Gold) | Austin 2025
+- Lucaozy (Gold) | Austin 2025
+- brnz4n (Gold) | Austin 2025
+- saffee (Gold) | Austin 2025
+- reck (Gold) | Austin 2025
+- Lake (Gold) | Austin 2025
+- Swisher (Gold) | Austin 2025
+- slaxz- (Gold) | Austin 2025
+- s1n (Gold) | Austin 2025
+
+#### Exotic (40)
+
+- NiKo (Holo) | Austin 2025
+- kyxsan (Holo) | Austin 2025
+- m0NESY (Holo) | Austin 2025
+- TeSeS (Holo) | Austin 2025
+- Magisk (Holo) | Austin 2025
+- karrigan (Holo) | Austin 2025
+- broky (Holo) | Austin 2025
+- EliGE (Holo) | Austin 2025
+- frozen (Holo) | Austin 2025
+- rain (Holo) | Austin 2025
+- Maka (Holo) | Austin 2025
+- Ex3rcice (Holo) | Austin 2025
+- Lucky (Holo) | Austin 2025
+- Graviti (Holo) | Austin 2025
+- bodyy (Holo) | Austin 2025
+- FL1T (Holo) | Austin 2025
+- fame (Holo) | Austin 2025
+- electronic (Holo) | Austin 2025
+- FL4MUS (Holo) | Austin 2025
+- ICY (Holo) | Austin 2025
+- biguzera (Holo) | Austin 2025
+- NQZ (Holo) | Austin 2025
+- snow (Holo) | Austin 2025
+- dav1deuS (Holo) | Austin 2025
+- dgt (Holo) | Austin 2025
+- FalleN (Holo) | Austin 2025
+- yuurih (Holo) | Austin 2025
+- KSCERATO (Holo) | Austin 2025
+- skullz (Holo) | Austin 2025
+- molodoy (Holo) | Austin 2025
+- exit (Holo) | Austin 2025
+- insani (Holo) | Austin 2025
+- Lucaozy (Holo) | Austin 2025
+- brnz4n (Holo) | Austin 2025
+- saffee (Holo) | Austin 2025
+- reck (Holo) | Austin 2025
+- Lake (Holo) | Austin 2025
+- Swisher (Holo) | Austin 2025
+- slaxz- (Holo) | Austin 2025
+- s1n (Holo) | Austin 2025
+
+#### Remarkable (40)
+
+- NiKo (Foil) | Austin 2025
+- kyxsan (Foil) | Austin 2025
+- m0NESY (Foil) | Austin 2025
+- TeSeS (Foil) | Austin 2025
+- Magisk (Foil) | Austin 2025
+- karrigan (Foil) | Austin 2025
+- broky (Foil) | Austin 2025
+- EliGE (Foil) | Austin 2025
+- frozen (Foil) | Austin 2025
+- rain (Foil) | Austin 2025
+- Maka (Foil) | Austin 2025
+- Ex3rcice (Foil) | Austin 2025
+- Lucky (Foil) | Austin 2025
+- Graviti (Foil) | Austin 2025
+- bodyy (Foil) | Austin 2025
+- FL1T (Foil) | Austin 2025
+- fame (Foil) | Austin 2025
+- electronic (Foil) | Austin 2025
+- FL4MUS (Foil) | Austin 2025
+- ICY (Foil) | Austin 2025
+- biguzera (Foil) | Austin 2025
+- NQZ (Foil) | Austin 2025
+- snow (Foil) | Austin 2025
+- dav1deuS (Foil) | Austin 2025
+- dgt (Foil) | Austin 2025
+- FalleN (Foil) | Austin 2025
+- yuurih (Foil) | Austin 2025
+- KSCERATO (Foil) | Austin 2025
+- skullz (Foil) | Austin 2025
+- molodoy (Foil) | Austin 2025
+- exit (Foil) | Austin 2025
+- insani (Foil) | Austin 2025
+- Lucaozy (Foil) | Austin 2025
+- brnz4n (Foil) | Austin 2025
+- saffee (Foil) | Austin 2025
+- reck (Foil) | Austin 2025
+- Lake (Foil) | Austin 2025
+- Swisher (Foil) | Austin 2025
+- slaxz- (Foil) | Austin 2025
+- s1n (Foil) | Austin 2025
+
+#### High Grade (40)
+
+- NiKo | Austin 2025
+- kyxsan | Austin 2025
+- m0NESY | Austin 2025
+- TeSeS | Austin 2025
+- Magisk | Austin 2025
+- karrigan | Austin 2025
+- broky | Austin 2025
+- EliGE | Austin 2025
+- frozen | Austin 2025
+- rain | Austin 2025
+- Maka | Austin 2025
+- Ex3rcice | Austin 2025
+- Lucky | Austin 2025
+- Graviti | Austin 2025
+- bodyy | Austin 2025
+- FL1T | Austin 2025
+- fame | Austin 2025
+- electronic | Austin 2025
+- FL4MUS | Austin 2025
+- ICY | Austin 2025
+- biguzera | Austin 2025
+- NQZ | Austin 2025
+- snow | Austin 2025
+- dav1deuS | Austin 2025
+- dgt | Austin 2025
+- FalleN | Austin 2025
+- yuurih | Austin 2025
+- KSCERATO | Austin 2025
+- skullz | Austin 2025
+- molodoy | Austin 2025
+- exit | Austin 2025
+- insani | Austin 2025
+- Lucaozy | Austin 2025
+- brnz4n | Austin 2025
+- saffee | Austin 2025
+- reck | Austin 2025
+- Lake | Austin 2025
+- Swisher | Austin 2025
+- slaxz- | Austin 2025
+- s1n | Austin 2025
+
+### Austin 2025 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.32
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Falcons (Gold) | Austin 2025
+- FaZe Clan (Gold) | Austin 2025
+- 3DMAX (Gold) | Austin 2025
+- Virtus.Pro (Gold) | Austin 2025
+- paiN Gaming (Gold) | Austin 2025
+- FURIA (Gold) | Austin 2025
+- MIBR (Gold) | Austin 2025
+- M80 (Gold) | Austin 2025
+- BLAST.tv (Gold) | Austin 2025
+
+#### Exotic (9)
+
+- Falcons (Holo) | Austin 2025
+- FaZe Clan (Holo) | Austin 2025
+- 3DMAX (Holo) | Austin 2025
+- Virtus.Pro (Holo) | Austin 2025
+- paiN Gaming (Holo) | Austin 2025
+- FURIA (Holo) | Austin 2025
+- MIBR (Holo) | Austin 2025
+- M80 (Holo) | Austin 2025
+- BLAST.tv (Holo) | Austin 2025
+
+#### Remarkable (9)
+
+- Falcons (Foil) | Austin 2025
+- FaZe Clan (Foil) | Austin 2025
+- 3DMAX (Foil) | Austin 2025
+- Virtus.Pro (Foil) | Austin 2025
+- paiN Gaming (Foil) | Austin 2025
+- FURIA (Foil) | Austin 2025
+- MIBR (Foil) | Austin 2025
+- M80 (Foil) | Austin 2025
+- BLAST.tv (Foil) | Austin 2025
+
+#### High Grade (9)
+
+- Falcons | Austin 2025
+- FaZe Clan | Austin 2025
+- 3DMAX | Austin 2025
+- Virtus.Pro | Austin 2025
+- paiN Gaming | Austin 2025
+- FURIA | Austin 2025
+- MIBR | Austin 2025
+- M80 | Austin 2025
+- BLAST.tv | Austin 2025
+
+### Austin 2025 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.25
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- apEX (Gold, Champion) | Austin 2025
+- ZywOo (Gold, Champion) | Austin 2025
+- FlameZ (Gold, Champion) | Austin 2025
+- mezii (Gold, Champion) | Austin 2025
+- ropz (Gold, Champion) | Austin 2025
+
+#### Exotic (5)
+
+- apEX (Holo, Champion) | Austin 2025
+- ZywOo (Holo, Champion) | Austin 2025
+- FlameZ (Holo, Champion) | Austin 2025
+- mezii (Holo, Champion) | Austin 2025
+- ropz (Holo, Champion) | Austin 2025
+
+#### Remarkable (5)
+
+- apEX (Foil, Champion) | Austin 2025
+- ZywOo (Foil, Champion) | Austin 2025
+- FlameZ (Foil, Champion) | Austin 2025
+- mezii (Foil, Champion) | Austin 2025
+- ropz (Foil, Champion) | Austin 2025
+
+#### High Grade (5)
+
+- apEX (Champion) | Austin 2025
+- ZywOo (Champion) | Austin 2025
+- FlameZ (Champion) | Austin 2025
+- mezii (Champion) | Austin 2025
+- ropz (Champion) | Austin 2025
+
+### Austin 2025 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.22
+- Items: 320
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (80)
+
+- Cxzi (Gold) | Austin 2025
+- Grim (Gold) | Austin 2025
+- hallzerk (Gold) | Austin 2025
+- JT (Gold) | Austin 2025
+- nicx (Gold) | Austin 2025
+- stanislaw (Gold) | Austin 2025
+- Sonic (Gold) | Austin 2025
+- phzy (Gold) | Austin 2025
+- susp (Gold) | Austin 2025
+- JBa (Gold) | Austin 2025
+- tN1R (Gold) | Austin 2025
+- SunPayus (Gold) | Austin 2025
+- xfl0ud (Gold) | Austin 2025
+- LNZ (Gold) | Austin 2025
+- yxngstxr (Gold) | Austin 2025
+- headtr1ck (Gold) | Austin 2025
+- kensizor (Gold) | Austin 2025
+- esenthial (Gold) | Austin 2025
+- npl (Gold) | Austin 2025
+- alex666 (Gold) | Austin 2025
+- Chr1zN (Gold) | Austin 2025
+- F1KU (Gold) | Austin 2025
+- nicoodoz (Gold) | Austin 2025
+- spooke (Gold) | Austin 2025
+- Buzz (Gold) | Austin 2025
+- 1eeR (Gold) | Austin 2025
+- Xant3r (Gold) | Austin 2025
+- khaN (Gold) | Austin 2025
+- riskyb0b (Gold) | Austin 2025
+- zweih (Gold) | Austin 2025
+- zorte (Gold) | Austin 2025
+- S1ren (Gold) | Austin 2025
+- Magnojez (Gold) | Austin 2025
+- Ax1Le (Gold) | Austin 2025
+- Boombl4 (Gold) | Austin 2025
+- VINI (Gold) | Austin 2025
+- TRY (Gold) | Austin 2025
+- chayJESUS (Gold) | Austin 2025
+- decenty (Gold) | Austin 2025
+- noway (Gold) | Austin 2025
+- oSee (Gold) | Austin 2025
+- HexT (Gold) | Austin 2025
+- br0 (Gold) | Austin 2025
+- nitr0 (Gold) | Austin 2025
+- jeorge (Gold) | Austin 2025
+- INS (Gold) | Austin 2025
+- Liazz (Gold) | Austin 2025
+- vexite (Gold) | Austin 2025
+- regali (Gold) | Austin 2025
+- nettik (Gold) | Austin 2025
+- hampus (Gold) | Austin 2025
+- isak (Gold) | Austin 2025
+- Plopski (Gold) | Austin 2025
+- L00m1 (Gold) | Austin 2025
+- adamb (Gold) | Austin 2025
+- JamYoung (Gold) | Austin 2025
+- Moseyuh (Gold) | Austin 2025
+- Attacker (Gold) | Austin 2025
+- Jee (Gold) | Austin 2025
+- Mercury (Gold) | Austin 2025
+- arT (Gold) | Austin 2025
+- piriajr (Gold) | Austin 2025
+- zevy (Gold) | Austin 2025
+- kye (Gold) | Austin 2025
+- mlhzin (Gold) | Austin 2025
+- controlez (Gold) | Austin 2025
+- efire (Gold) | Austin 2025
+- ROUX (Gold) | Austin 2025
+- Ariucle (Gold) | Austin 2025
+- cool4st (Gold) | Austin 2025
+- westmelon (Gold) | Austin 2025
+- z4KR (Gold) | Austin 2025
+- Starry (Gold) | Austin 2025
+- EmiliaQAQ (Gold) | Austin 2025
+- C4LLM3SU3 (Gold) | Austin 2025
+- lux (Gold) | Austin 2025
+- saadzin (Gold) | Austin 2025
+- latto (Gold) | Austin 2025
+- dumau (Gold) | Austin 2025
+- n1ssim (Gold) | Austin 2025
+
+#### Exotic (80)
+
+- Cxzi (Holo) | Austin 2025
+- Grim (Holo) | Austin 2025
+- hallzerk (Holo) | Austin 2025
+- JT (Holo) | Austin 2025
+- nicx (Holo) | Austin 2025
+- stanislaw (Holo) | Austin 2025
+- Sonic (Holo) | Austin 2025
+- phzy (Holo) | Austin 2025
+- susp (Holo) | Austin 2025
+- JBa (Holo) | Austin 2025
+- tN1R (Holo) | Austin 2025
+- SunPayus (Holo) | Austin 2025
+- xfl0ud (Holo) | Austin 2025
+- LNZ (Holo) | Austin 2025
+- yxngstxr (Holo) | Austin 2025
+- headtr1ck (Holo) | Austin 2025
+- kensizor (Holo) | Austin 2025
+- esenthial (Holo) | Austin 2025
+- npl (Holo) | Austin 2025
+- alex666 (Holo) | Austin 2025
+- Chr1zN (Holo) | Austin 2025
+- F1KU (Holo) | Austin 2025
+- nicoodoz (Holo) | Austin 2025
+- spooke (Holo) | Austin 2025
+- Buzz (Holo) | Austin 2025
+- 1eeR (Holo) | Austin 2025
+- Xant3r (Holo) | Austin 2025
+- khaN (Holo) | Austin 2025
+- riskyb0b (Holo) | Austin 2025
+- zweih (Holo) | Austin 2025
+- zorte (Holo) | Austin 2025
+- S1ren (Holo) | Austin 2025
+- Magnojez (Holo) | Austin 2025
+- Ax1Le (Holo) | Austin 2025
+- Boombl4 (Holo) | Austin 2025
+- VINI (Holo) | Austin 2025
+- TRY (Holo) | Austin 2025
+- chayJESUS (Holo) | Austin 2025
+- decenty (Holo) | Austin 2025
+- noway (Holo) | Austin 2025
+- oSee (Holo) | Austin 2025
+- HexT (Holo) | Austin 2025
+- br0 (Holo) | Austin 2025
+- nitr0 (Holo) | Austin 2025
+- jeorge (Holo) | Austin 2025
+- INS (Holo) | Austin 2025
+- Liazz (Holo) | Austin 2025
+- vexite (Holo) | Austin 2025
+- regali (Holo) | Austin 2025
+- nettik (Holo) | Austin 2025
+- hampus (Holo) | Austin 2025
+- isak (Holo) | Austin 2025
+- Plopski (Holo) | Austin 2025
+- L00m1 (Holo) | Austin 2025
+- adamb (Holo) | Austin 2025
+- JamYoung (Holo) | Austin 2025
+- Moseyuh (Holo) | Austin 2025
+- Attacker (Holo) | Austin 2025
+- Jee (Holo) | Austin 2025
+- Mercury (Holo) | Austin 2025
+- arT (Holo) | Austin 2025
+- piriajr (Holo) | Austin 2025
+- zevy (Holo) | Austin 2025
+- kye (Holo) | Austin 2025
+- mlhzin (Holo) | Austin 2025
+- controlez (Holo) | Austin 2025
+- efire (Holo) | Austin 2025
+- ROUX (Holo) | Austin 2025
+- Ariucle (Holo) | Austin 2025
+- cool4st (Holo) | Austin 2025
+- westmelon (Holo) | Austin 2025
+- z4KR (Holo) | Austin 2025
+- Starry (Holo) | Austin 2025
+- EmiliaQAQ (Holo) | Austin 2025
+- C4LLM3SU3 (Holo) | Austin 2025
+- lux (Holo) | Austin 2025
+- saadzin (Holo) | Austin 2025
+- latto (Holo) | Austin 2025
+- dumau (Holo) | Austin 2025
+- n1ssim (Holo) | Austin 2025
+
+#### Remarkable (80)
+
+- Cxzi (Foil) | Austin 2025
+- Grim (Foil) | Austin 2025
+- hallzerk (Foil) | Austin 2025
+- JT (Foil) | Austin 2025
+- nicx (Foil) | Austin 2025
+- stanislaw (Foil) | Austin 2025
+- Sonic (Foil) | Austin 2025
+- phzy (Foil) | Austin 2025
+- susp (Foil) | Austin 2025
+- JBa (Foil) | Austin 2025
+- tN1R (Foil) | Austin 2025
+- SunPayus (Foil) | Austin 2025
+- xfl0ud (Foil) | Austin 2025
+- LNZ (Foil) | Austin 2025
+- yxngstxr (Foil) | Austin 2025
+- headtr1ck (Foil) | Austin 2025
+- kensizor (Foil) | Austin 2025
+- esenthial (Foil) | Austin 2025
+- npl (Foil) | Austin 2025
+- alex666 (Foil) | Austin 2025
+- Chr1zN (Foil) | Austin 2025
+- F1KU (Foil) | Austin 2025
+- nicoodoz (Foil) | Austin 2025
+- spooke (Foil) | Austin 2025
+- Buzz (Foil) | Austin 2025
+- 1eeR (Foil) | Austin 2025
+- Xant3r (Foil) | Austin 2025
+- khaN (Foil) | Austin 2025
+- riskyb0b (Foil) | Austin 2025
+- zweih (Foil) | Austin 2025
+- zorte (Foil) | Austin 2025
+- S1ren (Foil) | Austin 2025
+- Magnojez (Foil) | Austin 2025
+- Ax1Le (Foil) | Austin 2025
+- Boombl4 (Foil) | Austin 2025
+- VINI (Foil) | Austin 2025
+- TRY (Foil) | Austin 2025
+- chayJESUS (Foil) | Austin 2025
+- decenty (Foil) | Austin 2025
+- noway (Foil) | Austin 2025
+- oSee (Foil) | Austin 2025
+- HexT (Foil) | Austin 2025
+- br0 (Foil) | Austin 2025
+- nitr0 (Foil) | Austin 2025
+- jeorge (Foil) | Austin 2025
+- INS (Foil) | Austin 2025
+- Liazz (Foil) | Austin 2025
+- vexite (Foil) | Austin 2025
+- regali (Foil) | Austin 2025
+- nettik (Foil) | Austin 2025
+- hampus (Foil) | Austin 2025
+- isak (Foil) | Austin 2025
+- Plopski (Foil) | Austin 2025
+- L00m1 (Foil) | Austin 2025
+- adamb (Foil) | Austin 2025
+- JamYoung (Foil) | Austin 2025
+- Moseyuh (Foil) | Austin 2025
+- Attacker (Foil) | Austin 2025
+- Jee (Foil) | Austin 2025
+- Mercury (Foil) | Austin 2025
+- arT (Foil) | Austin 2025
+- piriajr (Foil) | Austin 2025
+- zevy (Foil) | Austin 2025
+- kye (Foil) | Austin 2025
+- mlhzin (Foil) | Austin 2025
+- controlez (Foil) | Austin 2025
+- efire (Foil) | Austin 2025
+- ROUX (Foil) | Austin 2025
+- Ariucle (Foil) | Austin 2025
+- cool4st (Foil) | Austin 2025
+- westmelon (Foil) | Austin 2025
+- z4KR (Foil) | Austin 2025
+- Starry (Foil) | Austin 2025
+- EmiliaQAQ (Foil) | Austin 2025
+- C4LLM3SU3 (Foil) | Austin 2025
+- lux (Foil) | Austin 2025
+- saadzin (Foil) | Austin 2025
+- latto (Foil) | Austin 2025
+- dumau (Foil) | Austin 2025
+- n1ssim (Foil) | Austin 2025
+
+#### High Grade (80)
+
+- Cxzi | Austin 2025
+- Grim | Austin 2025
+- hallzerk | Austin 2025
+- JT | Austin 2025
+- nicx | Austin 2025
+- stanislaw | Austin 2025
+- Sonic | Austin 2025
+- phzy | Austin 2025
+- susp | Austin 2025
+- JBa | Austin 2025
+- tN1R | Austin 2025
+- SunPayus | Austin 2025
+- xfl0ud | Austin 2025
+- LNZ | Austin 2025
+- yxngstxr | Austin 2025
+- headtr1ck | Austin 2025
+- kensizor | Austin 2025
+- esenthial | Austin 2025
+- npl | Austin 2025
+- alex666 | Austin 2025
+- Chr1zN | Austin 2025
+- F1KU | Austin 2025
+- nicoodoz | Austin 2025
+- spooke | Austin 2025
+- Buzz | Austin 2025
+- 1eeR | Austin 2025
+- Xant3r | Austin 2025
+- khaN | Austin 2025
+- riskyb0b | Austin 2025
+- zweih | Austin 2025
+- zorte | Austin 2025
+- S1ren | Austin 2025
+- Magnojez | Austin 2025
+- Ax1Le | Austin 2025
+- Boombl4 | Austin 2025
+- VINI | Austin 2025
+- TRY | Austin 2025
+- chayJESUS | Austin 2025
+- decenty | Austin 2025
+- noway | Austin 2025
+- oSee | Austin 2025
+- HexT | Austin 2025
+- br0 | Austin 2025
+- nitr0 | Austin 2025
+- jeorge | Austin 2025
+- INS | Austin 2025
+- Liazz | Austin 2025
+- vexite | Austin 2025
+- regali | Austin 2025
+- nettik | Austin 2025
+- hampus | Austin 2025
+- isak | Austin 2025
+- Plopski | Austin 2025
+- L00m1 | Austin 2025
+- adamb | Austin 2025
+- JamYoung | Austin 2025
+- Moseyuh | Austin 2025
+- Attacker | Austin 2025
+- Jee | Austin 2025
+- Mercury | Austin 2025
+- arT | Austin 2025
+- piriajr | Austin 2025
+- zevy | Austin 2025
+- kye | Austin 2025
+- mlhzin | Austin 2025
+- controlez | Austin 2025
+- efire | Austin 2025
+- ROUX | Austin 2025
+- Ariucle | Austin 2025
+- cool4st | Austin 2025
+- westmelon | Austin 2025
+- z4KR | Austin 2025
+- Starry | Austin 2025
+- EmiliaQAQ | Austin 2025
+- C4LLM3SU3 | Austin 2025
+- lux | Austin 2025
+- saadzin | Austin 2025
+- latto | Austin 2025
+- dumau | Austin 2025
+- n1ssim | Austin 2025
+
+### Austin 2025 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.34
+- Items: 68
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (17)
+
+- Complexity Gaming (Gold) | Austin 2025
+- Wildcard (Gold) | Austin 2025
+- HEROIC (Gold) | Austin 2025
+- B8 (Gold) | Austin 2025
+- OG (Gold) | Austin 2025
+- Nemiga (Gold) | Austin 2025
+- BetBoom (Gold) | Austin 2025
+- Imperial Esports (Gold) | Austin 2025
+- NRG (Gold) | Austin 2025
+- FlyQuest (Gold) | Austin 2025
+- Metizport (Gold) | Austin 2025
+- TYLOO (Gold) | Austin 2025
+- Fluxo (Gold) | Austin 2025
+- Chinggis Warriors (Gold) | Austin 2025
+- Lynn Vision (Gold) | Austin 2025
+- Legacy (Gold) | Austin 2025
+- BLAST.tv (Gold) | Austin 2025
+
+#### Exotic (17)
+
+- Complexity Gaming (Holo) | Austin 2025
+- Wildcard (Holo) | Austin 2025
+- HEROIC (Holo) | Austin 2025
+- B8 (Holo) | Austin 2025
+- OG (Holo) | Austin 2025
+- Nemiga (Holo) | Austin 2025
+- BetBoom (Holo) | Austin 2025
+- Imperial Esports (Holo) | Austin 2025
+- NRG (Holo) | Austin 2025
+- FlyQuest (Holo) | Austin 2025
+- Metizport (Holo) | Austin 2025
+- TYLOO (Holo) | Austin 2025
+- Fluxo (Holo) | Austin 2025
+- Chinggis Warriors (Holo) | Austin 2025
+- Lynn Vision (Holo) | Austin 2025
+- Legacy (Holo) | Austin 2025
+- BLAST.tv (Holo) | Austin 2025
+
+#### Remarkable (17)
+
+- Complexity Gaming (Foil) | Austin 2025
+- Wildcard (Foil) | Austin 2025
+- HEROIC (Foil) | Austin 2025
+- B8 (Foil) | Austin 2025
+- OG (Foil) | Austin 2025
+- Nemiga (Foil) | Austin 2025
+- BetBoom (Foil) | Austin 2025
+- Imperial Esports (Foil) | Austin 2025
+- NRG (Foil) | Austin 2025
+- FlyQuest (Foil) | Austin 2025
+- Metizport (Foil) | Austin 2025
+- TYLOO (Foil) | Austin 2025
+- Fluxo (Foil) | Austin 2025
+- Chinggis Warriors (Foil) | Austin 2025
+- Lynn Vision (Foil) | Austin 2025
+- Legacy (Foil) | Austin 2025
+- BLAST.tv (Foil) | Austin 2025
+
+#### High Grade (17)
+
+- Complexity Gaming | Austin 2025
+- Wildcard | Austin 2025
+- HEROIC | Austin 2025
+- B8 | Austin 2025
+- OG | Austin 2025
+- Nemiga | Austin 2025
+- BetBoom | Austin 2025
+- Imperial Esports | Austin 2025
+- NRG | Austin 2025
+- FlyQuest | Austin 2025
+- Metizport | Austin 2025
+- TYLOO | Austin 2025
+- Fluxo | Austin 2025
+- Chinggis Warriors | Austin 2025
+- Lynn Vision | Austin 2025
+- Legacy | Austin 2025
+- BLAST.tv | Austin 2025
+
+### Austin 2025 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.24
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- apEX (Gold) | Austin 2025
+- ZywOo (Gold) | Austin 2025
+- FlameZ (Gold) | Austin 2025
+- mezii (Gold) | Austin 2025
+- ropz (Gold) | Austin 2025
+- torzsi (Gold) | Austin 2025
+- Jimpphat (Gold) | Austin 2025
+- Brollan (Gold) | Austin 2025
+- Spinx (Gold) | Austin 2025
+- xertioN (Gold) | Austin 2025
+- chopper (Gold) | Austin 2025
+- magixx (Gold) | Austin 2025
+- donk (Gold) | Austin 2025
+- sh1ro (Gold) | Austin 2025
+- zont1x (Gold) | Austin 2025
+- bLitz (Gold) | Austin 2025
+- Techno4K (Gold) | Austin 2025
+- Senzu (Gold) | Austin 2025
+- 910 (Gold) | Austin 2025
+- mzinho (Gold) | Austin 2025
+- MAJ3R (Gold) | Austin 2025
+- XANTARES (Gold) | Austin 2025
+- jottAAA (Gold) | Austin 2025
+- Wicadia (Gold) | Austin 2025
+- woxic (Gold) | Austin 2025
+- w0nderful (Gold) | Austin 2025
+- Aleksib (Gold) | Austin 2025
+- jL (Gold) | Austin 2025
+- b1t (Gold) | Austin 2025
+- iM (Gold) | Austin 2025
+- Snax (Gold) | Austin 2025
+- huNter- (Gold) | Austin 2025
+- malbsMd (Gold) | Austin 2025
+- Heavygod (Gold) | Austin 2025
+- hades (Gold) | Austin 2025
+- Twistzz (Gold) | Austin 2025
+- ultimate (Gold) | Austin 2025
+- NertZ (Gold) | Austin 2025
+- siuhy (Gold) | Austin 2025
+- NAF (Gold) | Austin 2025
+
+#### Exotic (40)
+
+- apEX (Holo) | Austin 2025
+- ZywOo (Holo) | Austin 2025
+- FlameZ (Holo) | Austin 2025
+- mezii (Holo) | Austin 2025
+- ropz (Holo) | Austin 2025
+- torzsi (Holo) | Austin 2025
+- Jimpphat (Holo) | Austin 2025
+- Brollan (Holo) | Austin 2025
+- Spinx (Holo) | Austin 2025
+- xertioN (Holo) | Austin 2025
+- chopper (Holo) | Austin 2025
+- magixx (Holo) | Austin 2025
+- donk (Holo) | Austin 2025
+- sh1ro (Holo) | Austin 2025
+- zont1x (Holo) | Austin 2025
+- bLitz (Holo) | Austin 2025
+- Techno4K (Holo) | Austin 2025
+- Senzu (Holo) | Austin 2025
+- 910 (Holo) | Austin 2025
+- mzinho (Holo) | Austin 2025
+- MAJ3R (Holo) | Austin 2025
+- XANTARES (Holo) | Austin 2025
+- jottAAA (Holo) | Austin 2025
+- Wicadia (Holo) | Austin 2025
+- woxic (Holo) | Austin 2025
+- w0nderful (Holo) | Austin 2025
+- Aleksib (Holo) | Austin 2025
+- jL (Holo) | Austin 2025
+- b1t (Holo) | Austin 2025
+- iM (Holo) | Austin 2025
+- Snax (Holo) | Austin 2025
+- huNter- (Holo) | Austin 2025
+- malbsMd (Holo) | Austin 2025
+- Heavygod (Holo) | Austin 2025
+- hades (Holo) | Austin 2025
+- Twistzz (Holo) | Austin 2025
+- ultimate (Holo) | Austin 2025
+- NertZ (Holo) | Austin 2025
+- siuhy (Holo) | Austin 2025
+- NAF (Holo) | Austin 2025
+
+#### Remarkable (40)
+
+- apEX (Foil) | Austin 2025
+- ZywOo (Foil) | Austin 2025
+- FlameZ (Foil) | Austin 2025
+- mezii (Foil) | Austin 2025
+- ropz (Foil) | Austin 2025
+- torzsi (Foil) | Austin 2025
+- Jimpphat (Foil) | Austin 2025
+- Brollan (Foil) | Austin 2025
+- Spinx (Foil) | Austin 2025
+- xertioN (Foil) | Austin 2025
+- chopper (Foil) | Austin 2025
+- magixx (Foil) | Austin 2025
+- donk (Foil) | Austin 2025
+- sh1ro (Foil) | Austin 2025
+- zont1x (Foil) | Austin 2025
+- bLitz (Foil) | Austin 2025
+- Techno4K (Foil) | Austin 2025
+- Senzu (Foil) | Austin 2025
+- 910 (Foil) | Austin 2025
+- mzinho (Foil) | Austin 2025
+- MAJ3R (Foil) | Austin 2025
+- XANTARES (Foil) | Austin 2025
+- jottAAA (Foil) | Austin 2025
+- Wicadia (Foil) | Austin 2025
+- woxic (Foil) | Austin 2025
+- w0nderful (Foil) | Austin 2025
+- Aleksib (Foil) | Austin 2025
+- jL (Foil) | Austin 2025
+- b1t (Foil) | Austin 2025
+- iM (Foil) | Austin 2025
+- Snax (Foil) | Austin 2025
+- huNter- (Foil) | Austin 2025
+- malbsMd (Foil) | Austin 2025
+- Heavygod (Foil) | Austin 2025
+- hades (Foil) | Austin 2025
+- Twistzz (Foil) | Austin 2025
+- ultimate (Foil) | Austin 2025
+- NertZ (Foil) | Austin 2025
+- siuhy (Foil) | Austin 2025
+- NAF (Foil) | Austin 2025
+
+#### High Grade (40)
+
+- apEX | Austin 2025
+- ZywOo | Austin 2025
+- FlameZ | Austin 2025
+- mezii | Austin 2025
+- ropz | Austin 2025
+- torzsi | Austin 2025
+- Jimpphat | Austin 2025
+- Brollan | Austin 2025
+- Spinx | Austin 2025
+- xertioN | Austin 2025
+- chopper | Austin 2025
+- magixx | Austin 2025
+- donk | Austin 2025
+- sh1ro | Austin 2025
+- zont1x | Austin 2025
+- bLitz | Austin 2025
+- Techno4K | Austin 2025
+- Senzu | Austin 2025
+- 910 | Austin 2025
+- mzinho | Austin 2025
+- MAJ3R | Austin 2025
+- XANTARES | Austin 2025
+- jottAAA | Austin 2025
+- Wicadia | Austin 2025
+- woxic | Austin 2025
+- w0nderful | Austin 2025
+- Aleksib | Austin 2025
+- jL | Austin 2025
+- b1t | Austin 2025
+- iM | Austin 2025
+- Snax | Austin 2025
+- huNter- | Austin 2025
+- malbsMd | Austin 2025
+- Heavygod | Austin 2025
+- hades | Austin 2025
+- Twistzz | Austin 2025
+- ultimate | Austin 2025
+- NertZ | Austin 2025
+- siuhy | Austin 2025
+- NAF | Austin 2025
+
+### Austin 2025 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.27
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Vitality (Gold) | Austin 2025
+- MOUZ (Gold) | Austin 2025
+- Team Spirit (Gold) | Austin 2025
+- The Mongolz (Gold) | Austin 2025
+- Aurora (Gold) | Austin 2025
+- Natus Vincere (Gold) | Austin 2025
+- G2 Esports (Gold) | Austin 2025
+- Team Liquid (Gold) | Austin 2025
+- BLAST.tv (Gold) | Austin 2025
+
+#### Exotic (9)
+
+- Vitality (Holo) | Austin 2025
+- MOUZ (Holo) | Austin 2025
+- Team Spirit (Holo) | Austin 2025
+- The Mongolz (Holo) | Austin 2025
+- Aurora (Holo) | Austin 2025
+- Natus Vincere (Holo) | Austin 2025
+- G2 Esports (Holo) | Austin 2025
+- Team Liquid (Holo) | Austin 2025
+- BLAST.tv (Holo) | Austin 2025
+
+#### Remarkable (9)
+
+- Vitality (Foil) | Austin 2025
+- MOUZ (Foil) | Austin 2025
+- Team Spirit (Foil) | Austin 2025
+- The Mongolz (Foil) | Austin 2025
+- Aurora (Foil) | Austin 2025
+- Natus Vincere (Foil) | Austin 2025
+- G2 Esports (Foil) | Austin 2025
+- Team Liquid (Foil) | Austin 2025
+- BLAST.tv (Foil) | Austin 2025
+
+#### High Grade (9)
+
+- Vitality | Austin 2025
+- MOUZ | Austin 2025
+- Team Spirit | Austin 2025
+- The Mongolz | Austin 2025
+- Aurora | Austin 2025
+- Natus Vincere | Austin 2025
+- G2 Esports | Austin 2025
+- Team Liquid | Austin 2025
+- BLAST.tv | Austin 2025
+
+### Berlin 2019 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $11.15
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Astralis (Gold)
+- ENCE (Gold)
+- FaZe Clan (Gold)
+- MIBR (Gold)
+- Natus Vincere (Gold)
+- Ninjas in Pyjamas (Gold)
+- Renegades (Gold)
+- Team Liquid (Gold)
+
+#### Exotic (8)
+
+- Astralis (Foil)
+- ENCE (Foil)
+- FaZe Clan (Foil)
+- MIBR (Foil)
+- Natus Vincere (Foil)
+- Ninjas in Pyjamas (Foil)
+- Renegades (Foil)
+- Team Liquid (Foil)
+
+#### Remarkable (8)
+
+- Astralis (Holo)
+- ENCE (Holo)
+- FaZe Clan (Holo)
+- MIBR (Holo)
+- Natus Vincere (Holo)
+- Ninjas in Pyjamas (Holo)
+- Renegades (Holo)
+- Team Liquid (Holo)
+
+#### High Grade (8)
+
+- Astralis
+- ENCE
+- FaZe Clan
+- MIBR
+- Natus Vincere
+- Ninjas in Pyjamas
+- Renegades
+- Team Liquid
+
+### Boston 2018 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $55.20
+- Items: 64
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (16)
+
+- Cloud9 (Gold)
+- FlipSid3 Tactics (Gold)
+- G2 Esports (Gold)
+- Natus Vincere (Gold)
+- mousesports (Gold)
+- Sprout (Gold)
+- FaZe Clan (Gold)
+- Vega Squadron (Gold)
+- Space Soldiers (Gold)
+- Team EnVyUs (Gold)
+- Misfits Gaming (Gold)
+- Team Liquid (Gold)
+- Renegades (Gold)
+- Flash Gaming (Gold)
+- Quantum Bellator Fire (Gold)
+- AVANGAR (Gold)
+
+#### Exotic (16)
+
+- Cloud9 (Foil)
+- FlipSid3 Tactics (Foil)
+- G2 Esports (Foil)
+- Natus Vincere (Foil)
+- mousesports (Foil)
+- Sprout (Foil)
+- FaZe Clan (Foil)
+- Vega Squadron (Foil)
+- Space Soldiers (Foil)
+- Team EnVyUs (Foil)
+- Misfits Gaming (Foil)
+- Team Liquid (Foil)
+- Renegades (Foil)
+- Flash Gaming (Foil)
+- Quantum Bellator Fire (Foil)
+- AVANGAR (Foil)
+
+#### Remarkable (16)
+
+- Cloud9 (Holo)
+- FlipSid3 Tactics (Holo)
+- G2 Esports (Holo)
+- Natus Vincere (Holo)
+- mousesports (Holo)
+- Sprout (Holo)
+- FaZe Clan (Holo)
+- Vega Squadron (Holo)
+- Space Soldiers (Holo)
+- Team EnVyUs (Holo)
+- Misfits Gaming (Holo)
+- Team Liquid (Holo)
+- Renegades (Holo)
+- Flash Gaming (Holo)
+- Quantum Bellator Fire (Holo)
+- AVANGAR (Holo)
+
+#### High Grade (16)
+
+- Cloud9
+- FlipSid3 Tactics
+- G2 Esports
+- Natus Vincere
+- mousesports
+- Sprout
+- FaZe Clan
+- Vega Squadron
+- Space Soldiers
+- Team EnVyUs
+- Misfits Gaming
+- Team Liquid
+- Renegades
+- Flash Gaming
+- Quantum Bellator Fire
+- AVANGAR
+
+### Boston 2018 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $44.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Gambit Esports (Gold)
+- 100 Thieves (Gold)
+- Astralis (Gold)
+- Virtus.Pro (Gold)
+- Fnatic (Gold)
+- SK Gaming (Gold)
+- BIG (Gold)
+- North (Gold)
+
+#### Exotic (8)
+
+- Gambit Esports (Foil)
+- 100 Thieves (Foil)
+- Astralis (Foil)
+- Virtus.Pro (Foil)
+- Fnatic (Foil)
+- SK Gaming (Foil)
+- BIG (Foil)
+- North (Foil)
+
+#### Remarkable (8)
+
+- Gambit Esports (Holo)
+- 100 Thieves (Holo)
+- Astralis (Holo)
+- Virtus.Pro (Holo)
+- Fnatic (Holo)
+- SK Gaming (Holo)
+- BIG (Holo)
+- North (Holo)
+
+#### High Grade (8)
+
+- Gambit Esports
+- 100 Thieves
+- Astralis
+- Virtus.Pro
+- Fnatic
+- SK Gaming
+- BIG
+- North
+
+### Budapest 2025 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.32
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- jottAAA (Gold) | Budapest 2025
+- MAJ3R (Gold) | Budapest 2025
+- Wicadia (Gold) | Budapest 2025
+- woxic (Gold) | Budapest 2025
+- XANTARES (Gold) | Budapest 2025
+- Aleksib (Gold) | Budapest 2025
+- b1t (Gold) | Budapest 2025
+- iM (Gold) | Budapest 2025
+- makazze (Gold) | Budapest 2025
+- w0nderful (Gold) | Budapest 2025
+- EliGE (Gold) | Budapest 2025
+- NAF (Gold) | Budapest 2025
+- NertZ (Gold) | Budapest 2025
+- siuhy (Gold) | Budapest 2025
+- ultimate (Gold) | Budapest 2025
+- bodyy (Gold) | Budapest 2025
+- Ex3rcice (Gold) | Budapest 2025
+- Graviti (Gold) | Budapest 2025
+- Lucky (Gold) | Budapest 2025
+- Maka (Gold) | Budapest 2025
+- device (Gold) | Budapest 2025
+- HooXi (Gold) | Budapest 2025
+- jabbi (Gold) | Budapest 2025
+- Magisk (Gold) | Budapest 2025
+- Staehr (Gold) | Budapest 2025
+- Attacker (Gold) | Budapest 2025
+- JamYoung (Gold) | Budapest 2025
+- Jee (Gold) | Budapest 2025
+- Mercury (Gold) | Budapest 2025
+- Moseyuh (Gold) | Budapest 2025
+- brnz4n (Gold) | Budapest 2025
+- exit (Gold) | Budapest 2025
+- insani (Gold) | Budapest 2025
+- kl1m (Gold) | Budapest 2025
+- qikert (Gold) | Budapest 2025
+- Grim (Gold) | Budapest 2025
+- hallzerk (Gold) | Budapest 2025
+- JT (Gold) | Budapest 2025
+- Kvem (Gold) | Budapest 2025
+- nicx (Gold) | Budapest 2025
+
+#### Exotic (40)
+
+- jottAAA (Holo) | Budapest 2025
+- MAJ3R (Holo) | Budapest 2025
+- Wicadia (Holo) | Budapest 2025
+- woxic (Holo) | Budapest 2025
+- XANTARES (Holo) | Budapest 2025
+- Aleksib (Holo) | Budapest 2025
+- b1t (Holo) | Budapest 2025
+- iM (Holo) | Budapest 2025
+- makazze (Holo) | Budapest 2025
+- w0nderful (Holo) | Budapest 2025
+- EliGE (Holo) | Budapest 2025
+- NAF (Holo) | Budapest 2025
+- NertZ (Holo) | Budapest 2025
+- siuhy (Holo) | Budapest 2025
+- ultimate (Holo) | Budapest 2025
+- bodyy (Holo) | Budapest 2025
+- Ex3rcice (Holo) | Budapest 2025
+- Graviti (Holo) | Budapest 2025
+- Lucky (Holo) | Budapest 2025
+- Maka (Holo) | Budapest 2025
+- device (Holo) | Budapest 2025
+- HooXi (Holo) | Budapest 2025
+- jabbi (Holo) | Budapest 2025
+- Magisk (Holo) | Budapest 2025
+- Staehr (Holo) | Budapest 2025
+- Attacker (Holo) | Budapest 2025
+- JamYoung (Holo) | Budapest 2025
+- Jee (Holo) | Budapest 2025
+- Mercury (Holo) | Budapest 2025
+- Moseyuh (Holo) | Budapest 2025
+- brnz4n (Holo) | Budapest 2025
+- exit (Holo) | Budapest 2025
+- insani (Holo) | Budapest 2025
+- kl1m (Holo) | Budapest 2025
+- qikert (Holo) | Budapest 2025
+- Grim (Holo) | Budapest 2025
+- hallzerk (Holo) | Budapest 2025
+- JT (Holo) | Budapest 2025
+- Kvem (Holo) | Budapest 2025
+- nicx (Holo) | Budapest 2025
+
+#### Remarkable (40)
+
+- jottAAA (Embroidered) | Budapest 2025
+- MAJ3R (Embroidered) | Budapest 2025
+- Wicadia (Embroidered) | Budapest 2025
+- woxic (Embroidered) | Budapest 2025
+- XANTARES (Embroidered) | Budapest 2025
+- Aleksib (Embroidered) | Budapest 2025
+- b1t (Embroidered) | Budapest 2025
+- iM (Embroidered) | Budapest 2025
+- makazze (Embroidered) | Budapest 2025
+- w0nderful (Embroidered) | Budapest 2025
+- EliGE (Embroidered) | Budapest 2025
+- NAF (Embroidered) | Budapest 2025
+- NertZ (Embroidered) | Budapest 2025
+- siuhy (Embroidered) | Budapest 2025
+- ultimate (Embroidered) | Budapest 2025
+- bodyy (Embroidered) | Budapest 2025
+- Ex3rcice (Embroidered) | Budapest 2025
+- Graviti (Embroidered) | Budapest 2025
+- Lucky (Embroidered) | Budapest 2025
+- Maka (Embroidered) | Budapest 2025
+- device (Embroidered) | Budapest 2025
+- HooXi (Embroidered) | Budapest 2025
+- jabbi (Embroidered) | Budapest 2025
+- Magisk (Embroidered) | Budapest 2025
+- Staehr (Embroidered) | Budapest 2025
+- Attacker (Embroidered) | Budapest 2025
+- JamYoung (Embroidered) | Budapest 2025
+- Jee (Embroidered) | Budapest 2025
+- Mercury (Embroidered) | Budapest 2025
+- Moseyuh (Embroidered) | Budapest 2025
+- brnz4n (Embroidered) | Budapest 2025
+- exit (Embroidered) | Budapest 2025
+- insani (Embroidered) | Budapest 2025
+- kl1m (Embroidered) | Budapest 2025
+- qikert (Embroidered) | Budapest 2025
+- Grim (Embroidered) | Budapest 2025
+- hallzerk (Embroidered) | Budapest 2025
+- JT (Embroidered) | Budapest 2025
+- Kvem (Embroidered) | Budapest 2025
+- nicx (Embroidered) | Budapest 2025
+
+#### High Grade (40)
+
+- jottAAA | Budapest 2025
+- MAJ3R | Budapest 2025
+- Wicadia | Budapest 2025
+- woxic | Budapest 2025
+- XANTARES | Budapest 2025
+- Aleksib | Budapest 2025
+- b1t | Budapest 2025
+- iM | Budapest 2025
+- makazze | Budapest 2025
+- w0nderful | Budapest 2025
+- EliGE | Budapest 2025
+- NAF | Budapest 2025
+- NertZ | Budapest 2025
+- siuhy | Budapest 2025
+- ultimate | Budapest 2025
+- bodyy | Budapest 2025
+- Ex3rcice | Budapest 2025
+- Graviti | Budapest 2025
+- Lucky | Budapest 2025
+- Maka | Budapest 2025
+- device | Budapest 2025
+- HooXi | Budapest 2025
+- jabbi | Budapest 2025
+- Magisk | Budapest 2025
+- Staehr | Budapest 2025
+- Attacker | Budapest 2025
+- JamYoung | Budapest 2025
+- Jee | Budapest 2025
+- Mercury | Budapest 2025
+- Moseyuh | Budapest 2025
+- brnz4n | Budapest 2025
+- exit | Budapest 2025
+- insani | Budapest 2025
+- kl1m | Budapest 2025
+- qikert | Budapest 2025
+- Grim | Budapest 2025
+- hallzerk | Budapest 2025
+- JT | Budapest 2025
+- Kvem | Budapest 2025
+- nicx | Budapest 2025
+
+### Budapest 2025 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.32
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Aurora (Gold) | Budapest 2025
+- Natus Vincere (Gold) | Budapest 2025
+- Team Liquid (Gold) | Budapest 2025
+- 3DMAX (Gold) | Budapest 2025
+- Astralis (Gold) | Budapest 2025
+- TYLOO (Gold) | Budapest 2025
+- MIBR (Gold) | Budapest 2025
+- Passion UA (Gold) | Budapest 2025
+- StarLadder (Gold) | Budapest 2025
+
+#### Exotic (9)
+
+- Aurora (Holo) | Budapest 2025
+- Natus Vincere (Holo) | Budapest 2025
+- Team Liquid (Holo) | Budapest 2025
+- 3DMAX (Holo) | Budapest 2025
+- Astralis (Holo) | Budapest 2025
+- TYLOO (Holo) | Budapest 2025
+- MIBR (Holo) | Budapest 2025
+- Passion UA (Holo) | Budapest 2025
+- StarLadder (Holo) | Budapest 2025
+
+#### Remarkable (9)
+
+- Aurora (Embroidered) | Budapest 2025
+- Natus Vincere (Embroidered) | Budapest 2025
+- Team Liquid (Embroidered) | Budapest 2025
+- 3DMAX (Embroidered) | Budapest 2025
+- Astralis (Embroidered) | Budapest 2025
+- TYLOO (Embroidered) | Budapest 2025
+- MIBR (Embroidered) | Budapest 2025
+- Passion UA (Embroidered) | Budapest 2025
+- StarLadder (Embroidered) | Budapest 2025
+
+#### High Grade (9)
+
+- Aurora | Budapest 2025
+- Natus Vincere | Budapest 2025
+- Team Liquid | Budapest 2025
+- 3DMAX | Budapest 2025
+- Astralis | Budapest 2025
+- TYLOO | Budapest 2025
+- MIBR | Budapest 2025
+- Passion UA | Budapest 2025
+- StarLadder | Budapest 2025
+
+### Budapest 2025 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.23
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- apEX (Gold, Champion) | Budapest 2025
+- FlameZ (Gold, Champion) | Budapest 2025
+- mezii (Gold, Champion) | Budapest 2025
+- ropz (Gold, Champion) | Budapest 2025
+- ZywOo (Gold, Champion) | Budapest 2025
+
+#### Exotic (5)
+
+- apEX (Holo, Champion) | Budapest 2025
+- FlameZ (Holo, Champion) | Budapest 2025
+- mezii (Holo, Champion) | Budapest 2025
+- ropz (Holo, Champion) | Budapest 2025
+- ZywOo (Holo, Champion) | Budapest 2025
+
+#### Remarkable (5)
+
+- apEX (Embroidered, Champion) | Budapest 2025
+- FlameZ (Embroidered, Champion) | Budapest 2025
+- mezii (Embroidered, Champion) | Budapest 2025
+- ropz (Embroidered, Champion) | Budapest 2025
+- ZywOo (Embroidered, Champion) | Budapest 2025
+
+#### High Grade (5)
+
+- apEX (Champion) | Budapest 2025
+- FlameZ (Champion) | Budapest 2025
+- mezii (Champion) | Budapest 2025
+- ropz (Champion) | Budapest 2025
+- ZywOo (Champion) | Budapest 2025
+
+### Budapest 2025 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.31
+- Items: 320
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (80)
+
+- dumau (Gold) | Budapest 2025
+- latto (Gold) | Budapest 2025
+- lux (Gold) | Budapest 2025
+- n1ssim (Gold) | Budapest 2025
+- saadzin (Gold) | Budapest 2025
+- broky (Gold) | Budapest 2025
+- frozen (Gold) | Budapest 2025
+- jcobbb (Gold) | Budapest 2025
+- karrigan (Gold) | Budapest 2025
+- rain (Gold) | Budapest 2025
+- alex666 (Gold) | Budapest 2025
+- esenthial (Gold) | Budapest 2025
+- headtr1ck (Gold) | Budapest 2025
+- kensizor (Gold) | Budapest 2025
+- npl (Gold) | Budapest 2025
+- Kursy (Gold) | Budapest 2025
+- PR (Gold) | Budapest 2025
+- REZ (Gold) | Budapest 2025
+- Tauson (Gold) | Budapest 2025
+- ztr (Gold) | Budapest 2025
+- blameF (Gold) | Budapest 2025
+- Cypher (Gold) | Budapest 2025
+- fEAR (Gold) | Budapest 2025
+- jambo (Gold) | Budapest 2025
+- KRIMZ (Gold) | Budapest 2025
+- AW (Gold) | Budapest 2025
+- BELCHONOKK (Gold) | Budapest 2025
+- Jame (Gold) | Budapest 2025
+- nota (Gold) | Budapest 2025
+- xiELO (Gold) | Budapest 2025
+- ewjerkz (Gold) | Budapest 2025
+- r1nkle (Gold) | Budapest 2025
+- sjuush (Gold) | Budapest 2025
+- Snappi (Gold) | Budapest 2025
+- xKacpersky (Gold) | Budapest 2025
+- chelo (Gold) | Budapest 2025
+- noway (Gold) | Budapest 2025
+- skullz (Gold) | Budapest 2025
+- TRY (Gold) | Budapest 2025
+- VINI (Gold) | Budapest 2025
+- INS (Gold) | Budapest 2025
+- jks (Gold) | Budapest 2025
+- nettik (Gold) | Budapest 2025
+- regali (Gold) | Budapest 2025
+- vexite (Gold) | Budapest 2025
+- C4LLM3SU3 (Gold) | Budapest 2025
+- EmiliaQAQ (Gold) | Budapest 2025
+- Starry (Gold) | Budapest 2025
+- westmelon (Gold) | Budapest 2025
+- z4KR (Gold) | Budapest 2025
+- HexT (Gold) | Budapest 2025
+- Lake (Gold) | Budapest 2025
+- s1n (Gold) | Budapest 2025
+- slaxz- (Gold) | Budapest 2025
+- Swisher (Gold) | Budapest 2025
+- arT (Gold) | Budapest 2025
+- decenty (Gold) | Budapest 2025
+- kye (Gold) | Budapest 2025
+- Lucaozy (Gold) | Budapest 2025
+- zevy (Gold) | Budapest 2025
+- chayJESUS (Gold) | Budapest 2025
+- drop (Gold) | Budapest 2025
+- History (Gold) | Budapest 2025
+- kauez (Gold) | Budapest 2025
+- venomzera (Gold) | Budapest 2025
+- Bart4k (Gold) | Budapest 2025
+- cobra (Gold) | Budapest 2025
+- nin9 (Gold) | Budapest 2025
+- sk0R (Gold) | Budapest 2025
+- xerolte (Gold) | Budapest 2025
+- br0 (Gold) | Budapest 2025
+- jeorge (Gold) | Budapest 2025
+- nitr0 (Gold) | Budapest 2025
+- Sonic (Gold) | Budapest 2025
+- XotiC (Gold) | Budapest 2025
+- ChildKing (Gold) | Budapest 2025
+- L1haNg (Gold) | Budapest 2025
+- Marek (Gold) | Budapest 2025
+- Summer (Gold) | Budapest 2025
+- Tiger (Gold) | Budapest 2025
+
+#### Exotic (80)
+
+- dumau (Holo) | Budapest 2025
+- latto (Holo) | Budapest 2025
+- lux (Holo) | Budapest 2025
+- n1ssim (Holo) | Budapest 2025
+- saadzin (Holo) | Budapest 2025
+- broky (Holo) | Budapest 2025
+- frozen (Holo) | Budapest 2025
+- jcobbb (Holo) | Budapest 2025
+- karrigan (Holo) | Budapest 2025
+- rain (Holo) | Budapest 2025
+- alex666 (Holo) | Budapest 2025
+- esenthial (Holo) | Budapest 2025
+- headtr1ck (Holo) | Budapest 2025
+- kensizor (Holo) | Budapest 2025
+- npl (Holo) | Budapest 2025
+- Kursy (Holo) | Budapest 2025
+- PR (Holo) | Budapest 2025
+- REZ (Holo) | Budapest 2025
+- Tauson (Holo) | Budapest 2025
+- ztr (Holo) | Budapest 2025
+- blameF (Holo) | Budapest 2025
+- Cypher (Holo) | Budapest 2025
+- fEAR (Holo) | Budapest 2025
+- jambo (Holo) | Budapest 2025
+- KRIMZ (Holo) | Budapest 2025
+- AW (Holo) | Budapest 2025
+- BELCHONOKK (Holo) | Budapest 2025
+- Jame (Holo) | Budapest 2025
+- nota (Holo) | Budapest 2025
+- xiELO (Holo) | Budapest 2025
+- ewjerkz (Holo) | Budapest 2025
+- r1nkle (Holo) | Budapest 2025
+- sjuush (Holo) | Budapest 2025
+- Snappi (Holo) | Budapest 2025
+- xKacpersky (Holo) | Budapest 2025
+- chelo (Holo) | Budapest 2025
+- noway (Holo) | Budapest 2025
+- skullz (Holo) | Budapest 2025
+- TRY (Holo) | Budapest 2025
+- VINI (Holo) | Budapest 2025
+- INS (Holo) | Budapest 2025
+- jks (Holo) | Budapest 2025
+- nettik (Holo) | Budapest 2025
+- regali (Holo) | Budapest 2025
+- vexite (Holo) | Budapest 2025
+- C4LLM3SU3 (Holo) | Budapest 2025
+- EmiliaQAQ (Holo) | Budapest 2025
+- Starry (Holo) | Budapest 2025
+- westmelon (Holo) | Budapest 2025
+- z4KR (Holo) | Budapest 2025
+- HexT (Holo) | Budapest 2025
+- Lake (Holo) | Budapest 2025
+- s1n (Holo) | Budapest 2025
+- slaxz- (Holo) | Budapest 2025
+- Swisher (Holo) | Budapest 2025
+- arT (Holo) | Budapest 2025
+- decenty (Holo) | Budapest 2025
+- kye (Holo) | Budapest 2025
+- Lucaozy (Holo) | Budapest 2025
+- zevy (Holo) | Budapest 2025
+- chayJESUS (Holo) | Budapest 2025
+- drop (Holo) | Budapest 2025
+- History (Holo) | Budapest 2025
+- kauez (Holo) | Budapest 2025
+- venomzera (Holo) | Budapest 2025
+- Bart4k (Holo) | Budapest 2025
+- cobra (Holo) | Budapest 2025
+- nin9 (Holo) | Budapest 2025
+- sk0R (Holo) | Budapest 2025
+- xerolte (Holo) | Budapest 2025
+- br0 (Holo) | Budapest 2025
+- jeorge (Holo) | Budapest 2025
+- nitr0 (Holo) | Budapest 2025
+- Sonic (Holo) | Budapest 2025
+- XotiC (Holo) | Budapest 2025
+- ChildKing (Holo) | Budapest 2025
+- L1haNg (Holo) | Budapest 2025
+- Marek (Holo) | Budapest 2025
+- Summer (Holo) | Budapest 2025
+- Tiger (Holo) | Budapest 2025
+
+#### Remarkable (80)
+
+- dumau (Embroidered) | Budapest 2025
+- latto (Embroidered) | Budapest 2025
+- lux (Embroidered) | Budapest 2025
+- n1ssim (Embroidered) | Budapest 2025
+- saadzin (Embroidered) | Budapest 2025
+- broky (Embroidered) | Budapest 2025
+- frozen (Embroidered) | Budapest 2025
+- jcobbb (Embroidered) | Budapest 2025
+- karrigan (Embroidered) | Budapest 2025
+- rain (Embroidered) | Budapest 2025
+- alex666 (Embroidered) | Budapest 2025
+- esenthial (Embroidered) | Budapest 2025
+- headtr1ck (Embroidered) | Budapest 2025
+- kensizor (Embroidered) | Budapest 2025
+- npl (Embroidered) | Budapest 2025
+- Kursy (Embroidered) | Budapest 2025
+- PR (Embroidered) | Budapest 2025
+- REZ (Embroidered) | Budapest 2025
+- Tauson (Embroidered) | Budapest 2025
+- ztr (Embroidered) | Budapest 2025
+- blameF (Embroidered) | Budapest 2025
+- Cypher (Embroidered) | Budapest 2025
+- fEAR (Embroidered) | Budapest 2025
+- jambo (Embroidered) | Budapest 2025
+- KRIMZ (Embroidered) | Budapest 2025
+- AW (Embroidered) | Budapest 2025
+- BELCHONOKK (Embroidered) | Budapest 2025
+- Jame (Embroidered) | Budapest 2025
+- nota (Embroidered) | Budapest 2025
+- xiELO (Embroidered) | Budapest 2025
+- ewjerkz (Embroidered) | Budapest 2025
+- r1nkle (Embroidered) | Budapest 2025
+- sjuush (Embroidered) | Budapest 2025
+- Snappi (Embroidered) | Budapest 2025
+- xKacpersky (Embroidered) | Budapest 2025
+- chelo (Embroidered) | Budapest 2025
+- noway (Embroidered) | Budapest 2025
+- skullz (Embroidered) | Budapest 2025
+- TRY (Embroidered) | Budapest 2025
+- VINI (Embroidered) | Budapest 2025
+- INS (Embroidered) | Budapest 2025
+- jks (Embroidered) | Budapest 2025
+- nettik (Embroidered) | Budapest 2025
+- regali (Embroidered) | Budapest 2025
+- vexite (Embroidered) | Budapest 2025
+- C4LLM3SU3 (Embroidered) | Budapest 2025
+- EmiliaQAQ (Embroidered) | Budapest 2025
+- Starry (Embroidered) | Budapest 2025
+- westmelon (Embroidered) | Budapest 2025
+- z4KR (Embroidered) | Budapest 2025
+- HexT (Embroidered) | Budapest 2025
+- Lake (Embroidered) | Budapest 2025
+- s1n (Embroidered) | Budapest 2025
+- slaxz- (Embroidered) | Budapest 2025
+- Swisher (Embroidered) | Budapest 2025
+- arT (Embroidered) | Budapest 2025
+- decenty (Embroidered) | Budapest 2025
+- kye (Embroidered) | Budapest 2025
+- Lucaozy (Embroidered) | Budapest 2025
+- zevy (Embroidered) | Budapest 2025
+- chayJESUS (Embroidered) | Budapest 2025
+- drop (Embroidered) | Budapest 2025
+- History (Embroidered) | Budapest 2025
+- kauez (Embroidered) | Budapest 2025
+- venomzera (Embroidered) | Budapest 2025
+- Bart4k (Embroidered) | Budapest 2025
+- cobra (Embroidered) | Budapest 2025
+- nin9 (Embroidered) | Budapest 2025
+- sk0R (Embroidered) | Budapest 2025
+- xerolte (Embroidered) | Budapest 2025
+- br0 (Embroidered) | Budapest 2025
+- jeorge (Embroidered) | Budapest 2025
+- nitr0 (Embroidered) | Budapest 2025
+- Sonic (Embroidered) | Budapest 2025
+- XotiC (Embroidered) | Budapest 2025
+- ChildKing (Embroidered) | Budapest 2025
+- L1haNg (Embroidered) | Budapest 2025
+- Marek (Embroidered) | Budapest 2025
+- Summer (Embroidered) | Budapest 2025
+- Tiger (Embroidered) | Budapest 2025
+
+#### High Grade (80)
+
+- dumau | Budapest 2025
+- latto | Budapest 2025
+- lux | Budapest 2025
+- n1ssim | Budapest 2025
+- saadzin | Budapest 2025
+- broky | Budapest 2025
+- frozen | Budapest 2025
+- jcobbb | Budapest 2025
+- karrigan | Budapest 2025
+- rain | Budapest 2025
+- alex666 | Budapest 2025
+- esenthial | Budapest 2025
+- headtr1ck | Budapest 2025
+- kensizor | Budapest 2025
+- npl | Budapest 2025
+- Kursy | Budapest 2025
+- PR | Budapest 2025
+- REZ | Budapest 2025
+- Tauson | Budapest 2025
+- ztr | Budapest 2025
+- blameF | Budapest 2025
+- Cypher | Budapest 2025
+- fEAR | Budapest 2025
+- jambo | Budapest 2025
+- KRIMZ | Budapest 2025
+- AW | Budapest 2025
+- BELCHONOKK | Budapest 2025
+- Jame | Budapest 2025
+- nota | Budapest 2025
+- xiELO | Budapest 2025
+- ewjerkz | Budapest 2025
+- r1nkle | Budapest 2025
+- sjuush | Budapest 2025
+- Snappi | Budapest 2025
+- xKacpersky | Budapest 2025
+- chelo | Budapest 2025
+- noway | Budapest 2025
+- skullz | Budapest 2025
+- TRY | Budapest 2025
+- VINI | Budapest 2025
+- INS | Budapest 2025
+- jks | Budapest 2025
+- nettik | Budapest 2025
+- regali | Budapest 2025
+- vexite | Budapest 2025
+- C4LLM3SU3 | Budapest 2025
+- EmiliaQAQ | Budapest 2025
+- Starry | Budapest 2025
+- westmelon | Budapest 2025
+- z4KR | Budapest 2025
+- HexT | Budapest 2025
+- Lake | Budapest 2025
+- s1n | Budapest 2025
+- slaxz- | Budapest 2025
+- Swisher | Budapest 2025
+- arT | Budapest 2025
+- decenty | Budapest 2025
+- kye | Budapest 2025
+- Lucaozy | Budapest 2025
+- zevy | Budapest 2025
+- chayJESUS | Budapest 2025
+- drop | Budapest 2025
+- History | Budapest 2025
+- kauez | Budapest 2025
+- venomzera | Budapest 2025
+- Bart4k | Budapest 2025
+- cobra | Budapest 2025
+- nin9 | Budapest 2025
+- sk0R | Budapest 2025
+- xerolte | Budapest 2025
+- br0 | Budapest 2025
+- jeorge | Budapest 2025
+- nitr0 | Budapest 2025
+- Sonic | Budapest 2025
+- XotiC | Budapest 2025
+- ChildKing | Budapest 2025
+- L1haNg | Budapest 2025
+- Marek | Budapest 2025
+- Summer | Budapest 2025
+- Tiger | Budapest 2025
+
+### Budapest 2025 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.31
+- Items: 68
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (17)
+
+- Legacy (Gold) | Budapest 2025
+- FaZe Clan (Gold) | Budapest 2025
+- B8 (Gold) | Budapest 2025
+- GamerLegion (Gold) | Budapest 2025
+- fnatic (Gold) | Budapest 2025
+- PARIVISION (Gold) | Budapest 2025
+- Ninjas in Pyjamas (Gold) | Budapest 2025
+- Imperial Esports (Gold) | Budapest 2025
+- FlyQuest (Gold) | Budapest 2025
+- Lynn Vision (Gold) | Budapest 2025
+- M80 (Gold) | Budapest 2025
+- Fluxo (Gold) | Budapest 2025
+- RED Canids (Gold) | Budapest 2025
+- The Huns (Gold) | Budapest 2025
+- NRG (Gold) | Budapest 2025
+- Rare Atom (Gold) | Budapest 2025
+- StarLadder (Gold) | Budapest 2025
+
+#### Exotic (17)
+
+- Legacy (Holo) | Budapest 2025
+- FaZe Clan (Holo) | Budapest 2025
+- B8 (Holo) | Budapest 2025
+- GamerLegion (Holo) | Budapest 2025
+- fnatic (Holo) | Budapest 2025
+- PARIVISION (Holo) | Budapest 2025
+- Ninjas in Pyjamas (Holo) | Budapest 2025
+- Imperial Esports (Holo) | Budapest 2025
+- FlyQuest (Holo) | Budapest 2025
+- Lynn Vision (Holo) | Budapest 2025
+- M80 (Holo) | Budapest 2025
+- Fluxo (Holo) | Budapest 2025
+- RED Canids (Holo) | Budapest 2025
+- The Huns (Holo) | Budapest 2025
+- NRG (Holo) | Budapest 2025
+- Rare Atom (Holo) | Budapest 2025
+- StarLadder (Holo) | Budapest 2025
+
+#### Remarkable (17)
+
+- Legacy (Embroidered) | Budapest 2025
+- FaZe Clan (Embroidered) | Budapest 2025
+- B8 (Embroidered) | Budapest 2025
+- GamerLegion (Embroidered) | Budapest 2025
+- fnatic (Embroidered) | Budapest 2025
+- PARIVISION (Embroidered) | Budapest 2025
+- Ninjas in Pyjamas (Embroidered) | Budapest 2025
+- Imperial Esports (Embroidered) | Budapest 2025
+- FlyQuest (Embroidered) | Budapest 2025
+- Lynn Vision (Embroidered) | Budapest 2025
+- M80 (Embroidered) | Budapest 2025
+- Fluxo (Embroidered) | Budapest 2025
+- RED Canids (Embroidered) | Budapest 2025
+- The Huns (Embroidered) | Budapest 2025
+- NRG (Embroidered) | Budapest 2025
+- Rare Atom (Embroidered) | Budapest 2025
+- StarLadder (Embroidered) | Budapest 2025
+
+#### High Grade (17)
+
+- Legacy | Budapest 2025
+- FaZe Clan | Budapest 2025
+- B8 | Budapest 2025
+- GamerLegion | Budapest 2025
+- fnatic | Budapest 2025
+- PARIVISION | Budapest 2025
+- Ninjas in Pyjamas | Budapest 2025
+- Imperial Esports | Budapest 2025
+- FlyQuest | Budapest 2025
+- Lynn Vision | Budapest 2025
+- M80 | Budapest 2025
+- Fluxo | Budapest 2025
+- RED Canids | Budapest 2025
+- The Huns | Budapest 2025
+- NRG | Budapest 2025
+- Rare Atom | Budapest 2025
+- StarLadder | Budapest 2025
+
+### Budapest 2025 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.20
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- FalleN (Gold) | Budapest 2025
+- KSCERATO (Gold) | Budapest 2025
+- molodoy (Gold) | Budapest 2025
+- YEKINDAR (Gold) | Budapest 2025
+- yuurih (Gold) | Budapest 2025
+- apEX (Gold) | Budapest 2025
+- FlameZ (Gold) | Budapest 2025
+- mezii (Gold) | Budapest 2025
+- ropz (Gold) | Budapest 2025
+- ZywOo (Gold) | Budapest 2025
+- kyousuke (Gold) | Budapest 2025
+- kyxsan (Gold) | Budapest 2025
+- m0NESY (Gold) | Budapest 2025
+- NiKo (Gold) | Budapest 2025
+- TeSeS (Gold) | Budapest 2025
+- 910 (Gold) | Budapest 2025
+- bLitz (Gold) | Budapest 2025
+- mzinho (Gold) | Budapest 2025
+- Senzu (Gold) | Budapest 2025
+- Techno4K (Gold) | Budapest 2025
+- Brollan (Gold) | Budapest 2025
+- Jimpphat (Gold) | Budapest 2025
+- Spinx (Gold) | Budapest 2025
+- torzsi (Gold) | Budapest 2025
+- xertioN (Gold) | Budapest 2025
+- chopper (Gold) | Budapest 2025
+- donk (Gold) | Budapest 2025
+- sh1ro (Gold) | Budapest 2025
+- zont1x (Gold) | Budapest 2025
+- zweih (Gold) | Budapest 2025
+- Heavygod (Gold) | Budapest 2025
+- huNter- (Gold) | Budapest 2025
+- malbsMd (Gold) | Budapest 2025
+- MATYS (Gold) | Budapest 2025
+- SunPayus (Gold) | Budapest 2025
+- biguzera (Gold) | Budapest 2025
+- dav1deuS (Gold) | Budapest 2025
+- dgt (Gold) | Budapest 2025
+- NQZ (Gold) | Budapest 2025
+- snow (Gold) | Budapest 2025
+
+#### Exotic (40)
+
+- FalleN (Holo) | Budapest 2025
+- KSCERATO (Holo) | Budapest 2025
+- molodoy (Holo) | Budapest 2025
+- YEKINDAR (Holo) | Budapest 2025
+- yuurih (Holo) | Budapest 2025
+- apEX (Holo) | Budapest 2025
+- FlameZ (Holo) | Budapest 2025
+- mezii (Holo) | Budapest 2025
+- ropz (Holo) | Budapest 2025
+- ZywOo (Holo) | Budapest 2025
+- kyousuke (Holo) | Budapest 2025
+- kyxsan (Holo) | Budapest 2025
+- m0NESY (Holo) | Budapest 2025
+- NiKo (Holo) | Budapest 2025
+- TeSeS (Holo) | Budapest 2025
+- 910 (Holo) | Budapest 2025
+- bLitz (Holo) | Budapest 2025
+- mzinho (Holo) | Budapest 2025
+- Senzu (Holo) | Budapest 2025
+- Techno4K (Holo) | Budapest 2025
+- Brollan (Holo) | Budapest 2025
+- Jimpphat (Holo) | Budapest 2025
+- Spinx (Holo) | Budapest 2025
+- torzsi (Holo) | Budapest 2025
+- xertioN (Holo) | Budapest 2025
+- chopper (Holo) | Budapest 2025
+- donk (Holo) | Budapest 2025
+- sh1ro (Holo) | Budapest 2025
+- zont1x (Holo) | Budapest 2025
+- zweih (Holo) | Budapest 2025
+- Heavygod (Holo) | Budapest 2025
+- huNter- (Holo) | Budapest 2025
+- malbsMd (Holo) | Budapest 2025
+- MATYS (Holo) | Budapest 2025
+- SunPayus (Holo) | Budapest 2025
+- biguzera (Holo) | Budapest 2025
+- dav1deuS (Holo) | Budapest 2025
+- dgt (Holo) | Budapest 2025
+- NQZ (Holo) | Budapest 2025
+- snow (Holo) | Budapest 2025
+
+#### Remarkable (40)
+
+- FalleN (Embroidered) | Budapest 2025
+- KSCERATO (Embroidered) | Budapest 2025
+- molodoy (Embroidered) | Budapest 2025
+- YEKINDAR (Embroidered) | Budapest 2025
+- yuurih (Embroidered) | Budapest 2025
+- apEX (Embroidered) | Budapest 2025
+- FlameZ (Embroidered) | Budapest 2025
+- mezii (Embroidered) | Budapest 2025
+- ropz (Embroidered) | Budapest 2025
+- ZywOo (Embroidered) | Budapest 2025
+- kyousuke (Embroidered) | Budapest 2025
+- kyxsan (Embroidered) | Budapest 2025
+- m0NESY (Embroidered) | Budapest 2025
+- NiKo (Embroidered) | Budapest 2025
+- TeSeS (Embroidered) | Budapest 2025
+- 910 (Embroidered) | Budapest 2025
+- bLitz (Embroidered) | Budapest 2025
+- mzinho (Embroidered) | Budapest 2025
+- Senzu (Embroidered) | Budapest 2025
+- Techno4K (Embroidered) | Budapest 2025
+- Brollan (Embroidered) | Budapest 2025
+- Jimpphat (Embroidered) | Budapest 2025
+- Spinx (Embroidered) | Budapest 2025
+- torzsi (Embroidered) | Budapest 2025
+- xertioN (Embroidered) | Budapest 2025
+- chopper (Embroidered) | Budapest 2025
+- donk (Embroidered) | Budapest 2025
+- sh1ro (Embroidered) | Budapest 2025
+- zont1x (Embroidered) | Budapest 2025
+- zweih (Embroidered) | Budapest 2025
+- Heavygod (Embroidered) | Budapest 2025
+- huNter- (Embroidered) | Budapest 2025
+- malbsMd (Embroidered) | Budapest 2025
+- MATYS (Embroidered) | Budapest 2025
+- SunPayus (Embroidered) | Budapest 2025
+- biguzera (Embroidered) | Budapest 2025
+- dav1deuS (Embroidered) | Budapest 2025
+- dgt (Embroidered) | Budapest 2025
+- NQZ (Embroidered) | Budapest 2025
+- snow (Embroidered) | Budapest 2025
+
+#### High Grade (40)
+
+- FalleN | Budapest 2025
+- KSCERATO | Budapest 2025
+- molodoy | Budapest 2025
+- YEKINDAR | Budapest 2025
+- yuurih | Budapest 2025
+- apEX | Budapest 2025
+- FlameZ | Budapest 2025
+- mezii | Budapest 2025
+- ropz | Budapest 2025
+- ZywOo | Budapest 2025
+- kyousuke | Budapest 2025
+- kyxsan | Budapest 2025
+- m0NESY | Budapest 2025
+- NiKo | Budapest 2025
+- TeSeS | Budapest 2025
+- 910 | Budapest 2025
+- bLitz | Budapest 2025
+- mzinho | Budapest 2025
+- Senzu | Budapest 2025
+- Techno4K | Budapest 2025
+- Brollan | Budapest 2025
+- Jimpphat | Budapest 2025
+- Spinx | Budapest 2025
+- torzsi | Budapest 2025
+- xertioN | Budapest 2025
+- chopper | Budapest 2025
+- donk | Budapest 2025
+- sh1ro | Budapest 2025
+- zont1x | Budapest 2025
+- zweih | Budapest 2025
+- Heavygod | Budapest 2025
+- huNter- | Budapest 2025
+- malbsMd | Budapest 2025
+- MATYS | Budapest 2025
+- SunPayus | Budapest 2025
+- biguzera | Budapest 2025
+- dav1deuS | Budapest 2025
+- dgt | Budapest 2025
+- NQZ | Budapest 2025
+- snow | Budapest 2025
+
+### Budapest 2025 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.19
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- FURIA (Gold) | Budapest 2025
+- Vitality (Gold) | Budapest 2025
+- Falcons (Gold) | Budapest 2025
+- The Mongolz (Gold) | Budapest 2025
+- MOUZ (Gold) | Budapest 2025
+- Team Spirit (Gold) | Budapest 2025
+- G2 esports (Gold) | Budapest 2025
+- paiN Gaming (Gold) | Budapest 2025
+- StarLadder (Gold) | Budapest 2025
+
+#### Exotic (9)
+
+- FURIA (Holo) | Budapest 2025
+- Vitality (Holo) | Budapest 2025
+- Falcons (Holo) | Budapest 2025
+- The Mongolz (Holo) | Budapest 2025
+- MOUZ (Holo) | Budapest 2025
+- Team Spirit (Holo) | Budapest 2025
+- G2 esports (Holo) | Budapest 2025
+- paiN Gaming (Holo) | Budapest 2025
+- StarLadder (Holo) | Budapest 2025
+
+#### Remarkable (9)
+
+- FURIA (Embroidered) | Budapest 2025
+- Vitality (Embroidered) | Budapest 2025
+- Falcons (Embroidered) | Budapest 2025
+- The Mongolz (Embroidered) | Budapest 2025
+- MOUZ (Embroidered) | Budapest 2025
+- Team Spirit (Embroidered) | Budapest 2025
+- G2 esports (Embroidered) | Budapest 2025
+- paiN Gaming (Embroidered) | Budapest 2025
+- StarLadder (Embroidered) | Budapest 2025
+
+#### High Grade (9)
+
+- FURIA | Budapest 2025
+- Vitality | Budapest 2025
+- Falcons | Budapest 2025
+- The Mongolz | Budapest 2025
+- MOUZ | Budapest 2025
+- Team Spirit | Budapest 2025
+- G2 esports | Budapest 2025
+- paiN Gaming | Budapest 2025
+- StarLadder | Budapest 2025
+
+### Cluj-Napoca 2015 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $52.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Cloud9 (Gold)
+- mousesports (Gold)
+- Titan (Gold)
+- Team Dignitas (Gold)
+- FlipSid3 Tactics (Gold)
+- Team Liquid (Gold)
+- Counter Logic Gaming (Gold)
+- Vexed Gaming (Gold)
+
+#### Exotic (8)
+
+- Cloud9 (Foil)
+- mousesports (Foil)
+- Titan (Foil)
+- Team Dignitas (Foil)
+- FlipSid3 Tactics (Foil)
+- Team Liquid (Foil)
+- Counter Logic Gaming (Foil)
+- Vexed Gaming (Foil)
+
+#### Remarkable (8)
+
+- Cloud9 (Holo)
+- mousesports (Holo)
+- Titan (Holo)
+- Team Dignitas (Holo)
+- FlipSid3 Tactics (Holo)
+- Team Liquid (Holo)
+- Counter Logic Gaming (Holo)
+- Vexed Gaming (Holo)
+
+#### High Grade (8)
+
+- Cloud9
+- mousesports
+- Titan
+- Team Dignitas
+- FlipSid3 Tactics
+- Team Liquid
+- Counter Logic Gaming
+- Vexed Gaming
+
+### Cluj-Napoca 2015 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Fnatic (Gold)
+- Team EnVyUs (Gold)
+- Virtus.Pro (Gold)
+- Natus Vincere (Gold)
+- Team SoloMid (Gold)
+- Ninjas in Pyjamas (Gold)
+- Luminosity Gaming (Gold)
+- G2 Kinguin (Gold)
+
+#### Exotic (8)
+
+- Fnatic (Foil)
+- Team EnVyUs (Foil)
+- Virtus.Pro (Foil)
+- Natus Vincere (Foil)
+- Team SoloMid (Foil)
+- Ninjas in Pyjamas (Foil)
+- Luminosity Gaming (Foil)
+- G2 Kinguin (Foil)
+
+#### Remarkable (8)
+
+- Fnatic (Holo)
+- Team EnVyUs (Holo)
+- Virtus.Pro (Holo)
+- Natus Vincere (Holo)
+- Team SoloMid (Holo)
+- Ninjas in Pyjamas (Holo)
+- Luminosity Gaming (Holo)
+- G2 Kinguin (Holo)
+
+#### High Grade (8)
+
+- Fnatic
+- Team EnVyUs
+- Virtus.Pro
+- Natus Vincere
+- Team SoloMid
+- Ninjas in Pyjamas
+- Luminosity Gaming
+- G2 Kinguin
+
+### Cologne 2015 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $64.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Cloud9 (Gold)
+- mousesports (Gold)
+- Team Kinguin (Gold)
+- FlipSid3 Tactics (Gold)
+- Titan (Gold)
+- Team eBettle (Gold)
+- Team Liquid (Gold)
+- Renegades (Gold)
+
+#### Exotic (8)
+
+- Cloud9 (Foil)
+- mousesports (Foil)
+- Team Kinguin (Foil)
+- FlipSid3 Tactics (Foil)
+- Titan (Foil)
+- Team eBettle (Foil)
+- Team Liquid (Foil)
+- Renegades (Foil)
+
+#### Remarkable (8)
+
+- Cloud9 (Holo)
+- mousesports (Holo)
+- Team Kinguin (Holo)
+- FlipSid3 Tactics (Holo)
+- Titan (Holo)
+- Team eBettle (Holo)
+- Team Liquid (Holo)
+- Renegades (Holo)
+
+#### High Grade (8)
+
+- Cloud9
+- mousesports
+- Team Kinguin
+- FlipSid3 Tactics
+- Titan
+- Team eBettle
+- Team Liquid
+- Renegades
+
+### Cologne 2015 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $58.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Fnatic (Gold)
+- Ninjas in Pyjamas (Gold)
+- Natus Vincere (Gold)
+- Virtus.Pro (Gold)
+- Team SoloMid (Gold)
+- Team EnVyUs (Gold)
+- Luminosity Gaming (Gold)
+- Counter Logic Gaming (Gold)
+
+#### Exotic (8)
+
+- Fnatic (Foil)
+- Ninjas in Pyjamas (Foil)
+- Natus Vincere (Foil)
+- Virtus.Pro (Foil)
+- Team SoloMid (Foil)
+- Team EnVyUs (Foil)
+- Luminosity Gaming (Foil)
+- Counter Logic Gaming (Foil)
+
+#### Remarkable (8)
+
+- Fnatic (Holo)
+- Ninjas in Pyjamas (Holo)
+- Natus Vincere (Holo)
+- Virtus.Pro (Holo)
+- Team SoloMid (Holo)
+- Team EnVyUs (Holo)
+- Luminosity Gaming (Holo)
+- Counter Logic Gaming (Holo)
+
+#### High Grade (8)
+
+- Fnatic
+- Ninjas in Pyjamas
+- Natus Vincere
+- Virtus.Pro
+- Team SoloMid
+- Team EnVyUs
+- Luminosity Gaming
+- Counter Logic Gaming
+
+### Cologne 2016 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $21.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- mousesports (Gold)
+- FaZe Clan (Gold)
+- OpTic Gaming (Gold)
+- Gambit Gaming (Gold)
+- Team EnVyUs (Gold)
+- G2 Esports (Gold)
+- Team Dignitas (Gold)
+- FlipSid3 Tactics (Gold)
+
+#### Exotic (8)
+
+- mousesports (Foil)
+- FaZe Clan (Foil)
+- OpTic Gaming (Foil)
+- Gambit Gaming (Foil)
+- Team EnVyUs (Foil)
+- G2 Esports (Foil)
+- Team Dignitas (Foil)
+- FlipSid3 Tactics (Foil)
+
+#### Remarkable (8)
+
+- mousesports (Holo)
+- FaZe Clan (Holo)
+- OpTic Gaming (Holo)
+- Gambit Gaming (Holo)
+- Team EnVyUs (Holo)
+- G2 Esports (Holo)
+- Team Dignitas (Holo)
+- FlipSid3 Tactics (Holo)
+
+#### High Grade (8)
+
+- mousesports
+- FaZe Clan
+- OpTic Gaming
+- Gambit Gaming
+- Team EnVyUs
+- G2 Esports
+- Team Dignitas
+- FlipSid3 Tactics
+
+### Cologne 2016 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $18.50
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- SK Gaming (Gold)
+- Natus Vincere (Gold)
+- Astralis (Gold)
+- Team Liquid (Gold)
+- Ninjas in Pyjamas (Gold)
+- Fnatic (Gold)
+- Virtus.Pro (Gold)
+- Counter Logic Gaming (Gold)
+
+#### Exotic (8)
+
+- SK Gaming (Foil)
+- Natus Vincere (Foil)
+- Astralis (Foil)
+- Team Liquid (Foil)
+- Ninjas in Pyjamas (Foil)
+- Fnatic (Foil)
+- Virtus.Pro (Foil)
+- Counter Logic Gaming (Foil)
+
+#### Remarkable (8)
+
+- SK Gaming (Holo)
+- Natus Vincere (Holo)
+- Astralis (Holo)
+- Team Liquid (Holo)
+- Ninjas in Pyjamas (Holo)
+- Fnatic (Holo)
+- Virtus.Pro (Holo)
+- Counter Logic Gaming (Holo)
+
+#### High Grade (8)
+
+- SK Gaming
+- Natus Vincere
+- Astralis
+- Team Liquid
+- Ninjas in Pyjamas
+- Fnatic
+- Virtus.Pro
+- Counter Logic Gaming
+
+### Copenhagen 2024 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.26
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- Ax1Le (Gold) | Copenhagen 2024
+- Boombl4 (Gold) | Copenhagen 2024
+- electronic (Gold) | Copenhagen 2024
+- Hobbit (Gold) | Copenhagen 2024
+- Perfecto (Gold) | Copenhagen 2024
+- Goofy (Gold) | Copenhagen 2024
+- Kylar (Gold) | Copenhagen 2024
+- Dycha (Gold) | Copenhagen 2024
+- gla1ve (Gold) | Copenhagen 2024
+- hades (Gold) | Copenhagen 2024
+- arT (Gold) | Copenhagen 2024
+- chelo (Gold) | Copenhagen 2024
+- FalleN (Gold) | Copenhagen 2024
+- KSCERATO (Gold) | Copenhagen 2024
+- yuurih (Gold) | Copenhagen 2024
+- kyxsan (Gold) | Copenhagen 2024
+- NertZ (Gold) | Copenhagen 2024
+- nicoodoz (Gold) | Copenhagen 2024
+- sjuush (Gold) | Copenhagen 2024
+- TeSeS (Gold) | Copenhagen 2024
+- Calyx (Gold) | Copenhagen 2024
+- MAJ3R (Gold) | Copenhagen 2024
+- Wicadia (Gold) | Copenhagen 2024
+- woxic (Gold) | Copenhagen 2024
+- XANTARES (Gold) | Copenhagen 2024
+- nawwk (Gold) | Copenhagen 2024
+- CacaNito (Gold) | Copenhagen 2024
+- jkaem (Gold) | Copenhagen 2024
+- sense (Gold) | Copenhagen 2024
+- STYKO (Gold) | Copenhagen 2024
+- acoR (Gold) | Copenhagen 2024
+- isak (Gold) | Copenhagen 2024
+- Keoz (Gold) | Copenhagen 2024
+- Snax (Gold) | Copenhagen 2024
+- volt (Gold) | Copenhagen 2024
+- arrozdoce (Gold) | Copenhagen 2024
+- ewjerkz (Gold) | Copenhagen 2024
+- MUTiRiS (Gold) | Copenhagen 2024
+- roman (Gold) | Copenhagen 2024
+- story (Gold) | Copenhagen 2024
+
+#### Exotic (40)
+
+- Ax1Le (Holo) | Copenhagen 2024
+- Boombl4 (Holo) | Copenhagen 2024
+- electronic (Holo) | Copenhagen 2024
+- Hobbit (Holo) | Copenhagen 2024
+- Perfecto (Holo) | Copenhagen 2024
+- Goofy (Holo) | Copenhagen 2024
+- Kylar (Holo) | Copenhagen 2024
+- Dycha (Holo) | Copenhagen 2024
+- gla1ve (Holo) | Copenhagen 2024
+- hades (Holo) | Copenhagen 2024
+- arT (Holo) | Copenhagen 2024
+- chelo (Holo) | Copenhagen 2024
+- FalleN (Holo) | Copenhagen 2024
+- KSCERATO (Holo) | Copenhagen 2024
+- yuurih (Holo) | Copenhagen 2024
+- kyxsan (Holo) | Copenhagen 2024
+- NertZ (Holo) | Copenhagen 2024
+- nicoodoz (Holo) | Copenhagen 2024
+- sjuush (Holo) | Copenhagen 2024
+- TeSeS (Holo) | Copenhagen 2024
+- Calyx (Holo) | Copenhagen 2024
+- MAJ3R (Holo) | Copenhagen 2024
+- Wicadia (Holo) | Copenhagen 2024
+- woxic (Holo) | Copenhagen 2024
+- XANTARES (Holo) | Copenhagen 2024
+- nawwk (Holo) | Copenhagen 2024
+- CacaNito (Holo) | Copenhagen 2024
+- jkaem (Holo) | Copenhagen 2024
+- sense (Holo) | Copenhagen 2024
+- STYKO (Holo) | Copenhagen 2024
+- acoR (Holo) | Copenhagen 2024
+- isak (Holo) | Copenhagen 2024
+- Keoz (Holo) | Copenhagen 2024
+- Snax (Holo) | Copenhagen 2024
+- volt (Holo) | Copenhagen 2024
+- arrozdoce (Holo) | Copenhagen 2024
+- ewjerkz (Holo) | Copenhagen 2024
+- MUTiRiS (Holo) | Copenhagen 2024
+- roman (Holo) | Copenhagen 2024
+- story (Holo) | Copenhagen 2024
+
+#### Remarkable (40)
+
+- Ax1Le (Glitter) | Copenhagen 2024
+- Boombl4 (Glitter) | Copenhagen 2024
+- electronic (Glitter) | Copenhagen 2024
+- Hobbit (Glitter) | Copenhagen 2024
+- Perfecto (Glitter) | Copenhagen 2024
+- Goofy (Glitter) | Copenhagen 2024
+- Kylar (Glitter) | Copenhagen 2024
+- Dycha (Glitter) | Copenhagen 2024
+- gla1ve (Glitter) | Copenhagen 2024
+- hades (Glitter) | Copenhagen 2024
+- arT (Glitter) | Copenhagen 2024
+- chelo (Glitter) | Copenhagen 2024
+- FalleN (Glitter) | Copenhagen 2024
+- KSCERATO (Glitter) | Copenhagen 2024
+- yuurih (Glitter) | Copenhagen 2024
+- kyxsan (Glitter) | Copenhagen 2024
+- NertZ (Glitter) | Copenhagen 2024
+- nicoodoz (Glitter) | Copenhagen 2024
+- sjuush (Glitter) | Copenhagen 2024
+- TeSeS (Glitter) | Copenhagen 2024
+- Calyx (Glitter) | Copenhagen 2024
+- MAJ3R (Glitter) | Copenhagen 2024
+- Wicadia (Glitter) | Copenhagen 2024
+- woxic (Glitter) | Copenhagen 2024
+- XANTARES (Glitter) | Copenhagen 2024
+- nawwk (Glitter) | Copenhagen 2024
+- CacaNito (Glitter) | Copenhagen 2024
+- jkaem (Glitter) | Copenhagen 2024
+- sense (Glitter) | Copenhagen 2024
+- STYKO (Glitter) | Copenhagen 2024
+- acoR (Glitter) | Copenhagen 2024
+- isak (Glitter) | Copenhagen 2024
+- Keoz (Glitter) | Copenhagen 2024
+- Snax (Glitter) | Copenhagen 2024
+- volt (Glitter) | Copenhagen 2024
+- arrozdoce (Glitter) | Copenhagen 2024
+- ewjerkz (Glitter) | Copenhagen 2024
+- MUTiRiS (Glitter) | Copenhagen 2024
+- roman (Glitter) | Copenhagen 2024
+- story (Glitter) | Copenhagen 2024
+
+#### High Grade (40)
+
+- Ax1Le | Copenhagen 2024
+- Boombl4 | Copenhagen 2024
+- electronic | Copenhagen 2024
+- Hobbit | Copenhagen 2024
+- Perfecto | Copenhagen 2024
+- Goofy | Copenhagen 2024
+- Kylar | Copenhagen 2024
+- Dycha | Copenhagen 2024
+- gla1ve | Copenhagen 2024
+- hades | Copenhagen 2024
+- arT | Copenhagen 2024
+- chelo | Copenhagen 2024
+- FalleN | Copenhagen 2024
+- KSCERATO | Copenhagen 2024
+- yuurih | Copenhagen 2024
+- kyxsan | Copenhagen 2024
+- NertZ | Copenhagen 2024
+- nicoodoz | Copenhagen 2024
+- sjuush | Copenhagen 2024
+- TeSeS | Copenhagen 2024
+- Calyx | Copenhagen 2024
+- MAJ3R | Copenhagen 2024
+- Wicadia | Copenhagen 2024
+- woxic | Copenhagen 2024
+- XANTARES | Copenhagen 2024
+- nawwk | Copenhagen 2024
+- CacaNito | Copenhagen 2024
+- jkaem | Copenhagen 2024
+- sense | Copenhagen 2024
+- STYKO | Copenhagen 2024
+- acoR | Copenhagen 2024
+- isak | Copenhagen 2024
+- Keoz | Copenhagen 2024
+- Snax | Copenhagen 2024
+- volt | Copenhagen 2024
+- arrozdoce | Copenhagen 2024
+- ewjerkz | Copenhagen 2024
+- MUTiRiS | Copenhagen 2024
+- roman | Copenhagen 2024
+- story | Copenhagen 2024
+
+### Copenhagen 2024 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.62
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Cloud9 (Gold) | Copenhagen 2024
+- ENCE (Gold) | Copenhagen 2024
+- FURIA (Gold) | Copenhagen 2024
+- Heroic (Gold) | Copenhagen 2024
+- Eternal Fire (Gold) | Copenhagen 2024
+- Apeks (Gold) | Copenhagen 2024
+- GamerLegion (Gold) | Copenhagen 2024
+- SAW (Gold) | Copenhagen 2024
+- PGL (Gold) | Copenhagen 2024
+
+#### Exotic (9)
+
+- Cloud9 (Holo) | Copenhagen 2024
+- ENCE (Holo) | Copenhagen 2024
+- FURIA (Holo) | Copenhagen 2024
+- Heroic (Holo) | Copenhagen 2024
+- Eternal Fire (Holo) | Copenhagen 2024
+- Apeks (Holo) | Copenhagen 2024
+- GamerLegion (Holo) | Copenhagen 2024
+- SAW (Holo) | Copenhagen 2024
+- PGL (Holo) | Copenhagen 2024
+
+#### Remarkable (9)
+
+- Cloud9 (Glitter) | Copenhagen 2024
+- ENCE (Glitter) | Copenhagen 2024
+- FURIA (Glitter) | Copenhagen 2024
+- Heroic (Glitter) | Copenhagen 2024
+- Eternal Fire (Glitter) | Copenhagen 2024
+- Apeks (Glitter) | Copenhagen 2024
+- GamerLegion (Glitter) | Copenhagen 2024
+- SAW (Glitter) | Copenhagen 2024
+- PGL (Glitter) | Copenhagen 2024
+
+#### High Grade (9)
+
+- Cloud9 | Copenhagen 2024
+- ENCE | Copenhagen 2024
+- FURIA | Copenhagen 2024
+- Heroic | Copenhagen 2024
+- Eternal Fire | Copenhagen 2024
+- Apeks | Copenhagen 2024
+- GamerLegion | Copenhagen 2024
+- SAW | Copenhagen 2024
+- PGL | Copenhagen 2024
+
+### Copenhagen 2024 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.27
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- jL (Gold, Champion) | Copenhagen 2024
+- Aleksib (Gold, Champion) | Copenhagen 2024
+- b1t (Gold, Champion) | Copenhagen 2024
+- iM (Gold, Champion) | Copenhagen 2024
+- w0nderful (Gold, Champion) | Copenhagen 2024
+
+#### Exotic (5)
+
+- jL (Holo, Champion) | Copenhagen 2024
+- Aleksib (Holo, Champion) | Copenhagen 2024
+- b1t (Holo, Champion) | Copenhagen 2024
+- iM (Holo, Champion) | Copenhagen 2024
+- w0nderful (Holo, Champion) | Copenhagen 2024
+
+#### Remarkable (5)
+
+- jL (Glitter, Champion) | Copenhagen 2024
+- Aleksib (Glitter, Champion) | Copenhagen 2024
+- b1t (Glitter, Champion) | Copenhagen 2024
+- iM (Glitter, Champion) | Copenhagen 2024
+- w0nderful (Glitter, Champion) | Copenhagen 2024
+
+#### High Grade (5)
+
+- jL (Champion) | Copenhagen 2024
+- Aleksib (Champion) | Copenhagen 2024
+- b1t (Champion) | Copenhagen 2024
+- iM (Champion) | Copenhagen 2024
+- w0nderful (Champion) | Copenhagen 2024
+
+### Copenhagen 2024 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.18
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- biguzera (Gold) | Copenhagen 2024
+- kauez (Gold) | Copenhagen 2024
+- lux (Gold) | Copenhagen 2024
+- n1ssim (Gold) | Copenhagen 2024
+- NQZ (Gold) | Copenhagen 2024
+- decenty (Gold) | Copenhagen 2024
+- felps (Gold) | Copenhagen 2024
+- HEN1 (Gold) | Copenhagen 2024
+- noway (Gold) | Copenhagen 2024
+- VINI (Gold) | Copenhagen 2024
+- 910 (Gold) | Copenhagen 2024
+- bLitz (Gold) | Copenhagen 2024
+- mzinho (Gold) | Copenhagen 2024
+- Senzu (Gold) | Copenhagen 2024
+- Techno4K (Gold) | Copenhagen 2024
+- Forester (Gold) | Copenhagen 2024
+- ICY (Gold) | Copenhagen 2024
+- Krad (Gold) | Copenhagen 2024
+- NickelBack (Gold) | Copenhagen 2024
+- TRAVIS (Gold) | Copenhagen 2024
+- kraghen (Gold) | Copenhagen 2024
+- Nodios (Gold) | Copenhagen 2024
+- Patti (Gold) | Copenhagen 2024
+- Queenix (Gold) | Copenhagen 2024
+- salazar (Gold) | Copenhagen 2024
+- adamS (Gold) | Copenhagen 2024
+- dav1g (Gold) | Copenhagen 2024
+- JUST (Gold) | Copenhagen 2024
+- mopoz (Gold) | Copenhagen 2024
+- stadodo (Gold) | Copenhagen 2024
+- b4rtiN (Gold) | Copenhagen 2024
+- coldzera (Gold) | Copenhagen 2024
+- dumau (Gold) | Copenhagen 2024
+- latto (Gold) | Copenhagen 2024
+- NEKiZ (Gold) | Copenhagen 2024
+- EmiliaQAQ (Gold) | Copenhagen 2024
+- Jee (Gold) | Copenhagen 2024
+- Starry (Gold) | Copenhagen 2024
+- westmelon (Gold) | Copenhagen 2024
+- z4KR (Gold) | Copenhagen 2024
+
+#### Exotic (40)
+
+- biguzera (Holo) | Copenhagen 2024
+- kauez (Holo) | Copenhagen 2024
+- lux (Holo) | Copenhagen 2024
+- n1ssim (Holo) | Copenhagen 2024
+- NQZ (Holo) | Copenhagen 2024
+- decenty (Holo) | Copenhagen 2024
+- felps (Holo) | Copenhagen 2024
+- HEN1 (Holo) | Copenhagen 2024
+- noway (Holo) | Copenhagen 2024
+- VINI (Holo) | Copenhagen 2024
+- 910 (Holo) | Copenhagen 2024
+- bLitz (Holo) | Copenhagen 2024
+- mzinho (Holo) | Copenhagen 2024
+- Senzu (Holo) | Copenhagen 2024
+- Techno4K (Holo) | Copenhagen 2024
+- Forester (Holo) | Copenhagen 2024
+- ICY (Holo) | Copenhagen 2024
+- Krad (Holo) | Copenhagen 2024
+- NickelBack (Holo) | Copenhagen 2024
+- TRAVIS (Holo) | Copenhagen 2024
+- kraghen (Holo) | Copenhagen 2024
+- Nodios (Holo) | Copenhagen 2024
+- Patti (Holo) | Copenhagen 2024
+- Queenix (Holo) | Copenhagen 2024
+- salazar (Holo) | Copenhagen 2024
+- adamS (Holo) | Copenhagen 2024
+- dav1g (Holo) | Copenhagen 2024
+- JUST (Holo) | Copenhagen 2024
+- mopoz (Holo) | Copenhagen 2024
+- stadodo (Holo) | Copenhagen 2024
+- b4rtiN (Holo) | Copenhagen 2024
+- coldzera (Holo) | Copenhagen 2024
+- dumau (Holo) | Copenhagen 2024
+- latto (Holo) | Copenhagen 2024
+- NEKiZ (Holo) | Copenhagen 2024
+- EmiliaQAQ (Holo) | Copenhagen 2024
+- Jee (Holo) | Copenhagen 2024
+- Starry (Holo) | Copenhagen 2024
+- westmelon (Holo) | Copenhagen 2024
+- z4KR (Holo) | Copenhagen 2024
+
+#### Remarkable (40)
+
+- biguzera (Glitter) | Copenhagen 2024
+- kauez (Glitter) | Copenhagen 2024
+- lux (Glitter) | Copenhagen 2024
+- n1ssim (Glitter) | Copenhagen 2024
+- NQZ (Glitter) | Copenhagen 2024
+- decenty (Glitter) | Copenhagen 2024
+- felps (Glitter) | Copenhagen 2024
+- HEN1 (Glitter) | Copenhagen 2024
+- noway (Glitter) | Copenhagen 2024
+- VINI (Glitter) | Copenhagen 2024
+- 910 (Glitter) | Copenhagen 2024
+- bLitz (Glitter) | Copenhagen 2024
+- mzinho (Glitter) | Copenhagen 2024
+- Senzu (Glitter) | Copenhagen 2024
+- Techno4K (Glitter) | Copenhagen 2024
+- Forester (Glitter) | Copenhagen 2024
+- ICY (Glitter) | Copenhagen 2024
+- Krad (Glitter) | Copenhagen 2024
+- NickelBack (Glitter) | Copenhagen 2024
+- TRAVIS (Glitter) | Copenhagen 2024
+- kraghen (Glitter) | Copenhagen 2024
+- Nodios (Glitter) | Copenhagen 2024
+- Patti (Glitter) | Copenhagen 2024
+- Queenix (Glitter) | Copenhagen 2024
+- salazar (Glitter) | Copenhagen 2024
+- adamS (Glitter) | Copenhagen 2024
+- dav1g (Glitter) | Copenhagen 2024
+- JUST (Glitter) | Copenhagen 2024
+- mopoz (Glitter) | Copenhagen 2024
+- stadodo (Glitter) | Copenhagen 2024
+- b4rtiN (Glitter) | Copenhagen 2024
+- coldzera (Glitter) | Copenhagen 2024
+- dumau (Glitter) | Copenhagen 2024
+- latto (Glitter) | Copenhagen 2024
+- NEKiZ (Glitter) | Copenhagen 2024
+- EmiliaQAQ (Glitter) | Copenhagen 2024
+- Jee (Glitter) | Copenhagen 2024
+- Starry (Glitter) | Copenhagen 2024
+- westmelon (Glitter) | Copenhagen 2024
+- z4KR (Glitter) | Copenhagen 2024
+
+#### High Grade (40)
+
+- biguzera | Copenhagen 2024
+- kauez | Copenhagen 2024
+- lux | Copenhagen 2024
+- n1ssim | Copenhagen 2024
+- NQZ | Copenhagen 2024
+- decenty | Copenhagen 2024
+- felps | Copenhagen 2024
+- HEN1 | Copenhagen 2024
+- noway | Copenhagen 2024
+- VINI | Copenhagen 2024
+- 910 | Copenhagen 2024
+- bLitz | Copenhagen 2024
+- mzinho | Copenhagen 2024
+- Senzu | Copenhagen 2024
+- Techno4K | Copenhagen 2024
+- Forester | Copenhagen 2024
+- ICY | Copenhagen 2024
+- Krad | Copenhagen 2024
+- NickelBack | Copenhagen 2024
+- TRAVIS | Copenhagen 2024
+- kraghen | Copenhagen 2024
+- Nodios | Copenhagen 2024
+- Patti | Copenhagen 2024
+- Queenix | Copenhagen 2024
+- salazar | Copenhagen 2024
+- adamS | Copenhagen 2024
+- dav1g | Copenhagen 2024
+- JUST | Copenhagen 2024
+- mopoz | Copenhagen 2024
+- stadodo | Copenhagen 2024
+- b4rtiN | Copenhagen 2024
+- coldzera | Copenhagen 2024
+- dumau | Copenhagen 2024
+- latto | Copenhagen 2024
+- NEKiZ | Copenhagen 2024
+- EmiliaQAQ | Copenhagen 2024
+- Jee | Copenhagen 2024
+- Starry | Copenhagen 2024
+- westmelon | Copenhagen 2024
+- z4KR | Copenhagen 2024
+
+### Copenhagen 2024 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.44
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- paiN Gaming (Gold) | Copenhagen 2024
+- Imperial Esports (Gold) | Copenhagen 2024
+- The MongolZ (Gold) | Copenhagen 2024
+- AMKAL ESPORTS (Gold) | Copenhagen 2024
+- ECSTATIC (Gold) | Copenhagen 2024
+- KOI (Gold) | Copenhagen 2024
+- Legacy (Gold) | Copenhagen 2024
+- Lynn Vision (Gold) | Copenhagen 2024
+- PGL (Gold) | Copenhagen 2024
+
+#### Exotic (9)
+
+- paiN Gaming (Holo) | Copenhagen 2024
+- Imperial Esports (Holo) | Copenhagen 2024
+- The MongolZ (Holo) | Copenhagen 2024
+- AMKAL ESPORTS (Holo) | Copenhagen 2024
+- ECSTATIC (Holo) | Copenhagen 2024
+- KOI (Holo) | Copenhagen 2024
+- Legacy (Holo) | Copenhagen 2024
+- Lynn Vision (Holo) | Copenhagen 2024
+- PGL (Holo) | Copenhagen 2024
+
+#### Remarkable (9)
+
+- paiN Gaming (Glitter) | Copenhagen 2024
+- Imperial Esports (Glitter) | Copenhagen 2024
+- The MongolZ (Glitter) | Copenhagen 2024
+- AMKAL ESPORTS (Glitter) | Copenhagen 2024
+- ECSTATIC (Glitter) | Copenhagen 2024
+- KOI (Glitter) | Copenhagen 2024
+- Legacy (Glitter) | Copenhagen 2024
+- Lynn Vision (Glitter) | Copenhagen 2024
+- PGL (Glitter) | Copenhagen 2024
+
+#### High Grade (9)
+
+- paiN Gaming | Copenhagen 2024
+- Imperial Esports | Copenhagen 2024
+- The MongolZ | Copenhagen 2024
+- AMKAL ESPORTS | Copenhagen 2024
+- ECSTATIC | Copenhagen 2024
+- KOI | Copenhagen 2024
+- Legacy | Copenhagen 2024
+- Lynn Vision | Copenhagen 2024
+- PGL | Copenhagen 2024
+
+### Copenhagen 2024 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.31
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- jL (Gold) | Copenhagen 2024
+- Aleksib (Gold) | Copenhagen 2024
+- b1t (Gold) | Copenhagen 2024
+- iM (Gold) | Copenhagen 2024
+- w0nderful (Gold) | Copenhagen 2024
+- fame (Gold) | Copenhagen 2024
+- FL1T (Gold) | Copenhagen 2024
+- Jame (Gold) | Copenhagen 2024
+- mir (Gold) | Copenhagen 2024
+- n0rb3r7 (Gold) | Copenhagen 2024
+- HooXi (Gold) | Copenhagen 2024
+- huNter- (Gold) | Copenhagen 2024
+- m0NESY (Gold) | Copenhagen 2024
+- nexa (Gold) | Copenhagen 2024
+- NiKo (Gold) | Copenhagen 2024
+- broky (Gold) | Copenhagen 2024
+- frozen (Gold) | Copenhagen 2024
+- karrigan (Gold) | Copenhagen 2024
+- rain (Gold) | Copenhagen 2024
+- ropz (Gold) | Copenhagen 2024
+- chopper (Gold) | Copenhagen 2024
+- donk (Gold) | Copenhagen 2024
+- magixx (Gold) | Copenhagen 2024
+- sh1ro (Gold) | Copenhagen 2024
+- zont1x (Gold) | Copenhagen 2024
+- apEX (Gold) | Copenhagen 2024
+- FlameZ (Gold) | Copenhagen 2024
+- mezii (Gold) | Copenhagen 2024
+- Spinx (Gold) | Copenhagen 2024
+- ZywOo (Gold) | Copenhagen 2024
+- Brollan (Gold) | Copenhagen 2024
+- Jimpphat (Gold) | Copenhagen 2024
+- siuhy (Gold) | Copenhagen 2024
+- torzsi (Gold) | Copenhagen 2024
+- xertioN (Gold) | Copenhagen 2024
+- hallzerk (Gold) | Copenhagen 2024
+- EliGE (Gold) | Copenhagen 2024
+- floppy (Gold) | Copenhagen 2024
+- Grim (Gold) | Copenhagen 2024
+- JT (Gold) | Copenhagen 2024
+
+#### Exotic (40)
+
+- jL (Holo) | Copenhagen 2024
+- Aleksib (Holo) | Copenhagen 2024
+- b1t (Holo) | Copenhagen 2024
+- iM (Holo) | Copenhagen 2024
+- w0nderful (Holo) | Copenhagen 2024
+- fame (Holo) | Copenhagen 2024
+- FL1T (Holo) | Copenhagen 2024
+- Jame (Holo) | Copenhagen 2024
+- mir (Holo) | Copenhagen 2024
+- n0rb3r7 (Holo) | Copenhagen 2024
+- HooXi (Holo) | Copenhagen 2024
+- huNter- (Holo) | Copenhagen 2024
+- m0NESY (Holo) | Copenhagen 2024
+- nexa (Holo) | Copenhagen 2024
+- NiKo (Holo) | Copenhagen 2024
+- broky (Holo) | Copenhagen 2024
+- frozen (Holo) | Copenhagen 2024
+- karrigan (Holo) | Copenhagen 2024
+- rain (Holo) | Copenhagen 2024
+- ropz (Holo) | Copenhagen 2024
+- chopper (Holo) | Copenhagen 2024
+- donk (Holo) | Copenhagen 2024
+- magixx (Holo) | Copenhagen 2024
+- sh1ro (Holo) | Copenhagen 2024
+- zont1x (Holo) | Copenhagen 2024
+- apEX (Holo) | Copenhagen 2024
+- FlameZ (Holo) | Copenhagen 2024
+- mezii (Holo) | Copenhagen 2024
+- Spinx (Holo) | Copenhagen 2024
+- ZywOo (Holo) | Copenhagen 2024
+- Brollan (Holo) | Copenhagen 2024
+- Jimpphat (Holo) | Copenhagen 2024
+- siuhy (Holo) | Copenhagen 2024
+- torzsi (Holo) | Copenhagen 2024
+- xertioN (Holo) | Copenhagen 2024
+- hallzerk (Holo) | Copenhagen 2024
+- EliGE (Holo) | Copenhagen 2024
+- floppy (Holo) | Copenhagen 2024
+- Grim (Holo) | Copenhagen 2024
+- JT (Holo) | Copenhagen 2024
+
+#### Remarkable (40)
+
+- jL (Glitter) | Copenhagen 2024
+- Aleksib (Glitter) | Copenhagen 2024
+- b1t (Glitter) | Copenhagen 2024
+- iM (Glitter) | Copenhagen 2024
+- w0nderful (Glitter) | Copenhagen 2024
+- fame (Glitter) | Copenhagen 2024
+- FL1T (Glitter) | Copenhagen 2024
+- Jame (Glitter) | Copenhagen 2024
+- mir (Glitter) | Copenhagen 2024
+- n0rb3r7 (Glitter) | Copenhagen 2024
+- HooXi (Glitter) | Copenhagen 2024
+- huNter- (Glitter) | Copenhagen 2024
+- m0NESY (Glitter) | Copenhagen 2024
+- nexa (Glitter) | Copenhagen 2024
+- NiKo (Glitter) | Copenhagen 2024
+- broky (Glitter) | Copenhagen 2024
+- frozen (Glitter) | Copenhagen 2024
+- karrigan (Glitter) | Copenhagen 2024
+- rain (Glitter) | Copenhagen 2024
+- ropz (Glitter) | Copenhagen 2024
+- chopper (Glitter) | Copenhagen 2024
+- donk (Glitter) | Copenhagen 2024
+- magixx (Glitter) | Copenhagen 2024
+- sh1ro (Glitter) | Copenhagen 2024
+- zont1x (Glitter) | Copenhagen 2024
+- apEX (Glitter) | Copenhagen 2024
+- FlameZ (Glitter) | Copenhagen 2024
+- mezii (Glitter) | Copenhagen 2024
+- Spinx (Glitter) | Copenhagen 2024
+- ZywOo (Glitter) | Copenhagen 2024
+- Brollan (Glitter) | Copenhagen 2024
+- Jimpphat (Glitter) | Copenhagen 2024
+- siuhy (Glitter) | Copenhagen 2024
+- torzsi (Glitter) | Copenhagen 2024
+- xertioN (Glitter) | Copenhagen 2024
+- hallzerk (Glitter) | Copenhagen 2024
+- EliGE (Glitter) | Copenhagen 2024
+- floppy (Glitter) | Copenhagen 2024
+- Grim (Glitter) | Copenhagen 2024
+- JT (Glitter) | Copenhagen 2024
+
+#### High Grade (40)
+
+- jL | Copenhagen 2024
+- Aleksib | Copenhagen 2024
+- b1t | Copenhagen 2024
+- iM | Copenhagen 2024
+- w0nderful | Copenhagen 2024
+- fame | Copenhagen 2024
+- FL1T | Copenhagen 2024
+- Jame | Copenhagen 2024
+- mir | Copenhagen 2024
+- n0rb3r7 | Copenhagen 2024
+- HooXi | Copenhagen 2024
+- huNter- | Copenhagen 2024
+- m0NESY | Copenhagen 2024
+- nexa | Copenhagen 2024
+- NiKo | Copenhagen 2024
+- broky | Copenhagen 2024
+- frozen | Copenhagen 2024
+- karrigan | Copenhagen 2024
+- rain | Copenhagen 2024
+- ropz | Copenhagen 2024
+- chopper | Copenhagen 2024
+- donk | Copenhagen 2024
+- magixx | Copenhagen 2024
+- sh1ro | Copenhagen 2024
+- zont1x | Copenhagen 2024
+- apEX | Copenhagen 2024
+- FlameZ | Copenhagen 2024
+- mezii | Copenhagen 2024
+- Spinx | Copenhagen 2024
+- ZywOo | Copenhagen 2024
+- Brollan | Copenhagen 2024
+- Jimpphat | Copenhagen 2024
+- siuhy | Copenhagen 2024
+- torzsi | Copenhagen 2024
+- xertioN | Copenhagen 2024
+- hallzerk | Copenhagen 2024
+- EliGE | Copenhagen 2024
+- floppy | Copenhagen 2024
+- Grim | Copenhagen 2024
+- JT | Copenhagen 2024
+
+### Copenhagen 2024 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.55
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Natus Vincere (Gold) | Copenhagen 2024
+- Virtus.pro (Gold) | Copenhagen 2024
+- G2 Esports (Gold) | Copenhagen 2024
+- FaZe Clan (Gold) | Copenhagen 2024
+- Team Spirit (Gold) | Copenhagen 2024
+- Vitality (Gold) | Copenhagen 2024
+- MOUZ (Gold) | Copenhagen 2024
+- Complexity Gaming (Gold) | Copenhagen 2024
+- PGL (Gold) | Copenhagen 2024
+
+#### Exotic (9)
+
+- Natus Vincere (Holo) | Copenhagen 2024
+- Virtus.pro (Holo) | Copenhagen 2024
+- G2 Esports (Holo) | Copenhagen 2024
+- FaZe Clan (Holo) | Copenhagen 2024
+- Team Spirit (Holo) | Copenhagen 2024
+- Vitality (Holo) | Copenhagen 2024
+- MOUZ (Holo) | Copenhagen 2024
+- Complexity Gaming (Holo) | Copenhagen 2024
+- PGL (Holo) | Copenhagen 2024
+
+#### Remarkable (9)
+
+- Natus Vincere (Glitter) | Copenhagen 2024
+- Virtus.pro (Glitter) | Copenhagen 2024
+- G2 Esports (Glitter) | Copenhagen 2024
+- FaZe Clan (Glitter) | Copenhagen 2024
+- Team Spirit (Glitter) | Copenhagen 2024
+- Vitality (Glitter) | Copenhagen 2024
+- MOUZ (Glitter) | Copenhagen 2024
+- Complexity Gaming (Glitter) | Copenhagen 2024
+- PGL (Glitter) | Copenhagen 2024
+
+#### High Grade (9)
+
+- Natus Vincere | Copenhagen 2024
+- Virtus.pro | Copenhagen 2024
+- G2 Esports | Copenhagen 2024
+- FaZe Clan | Copenhagen 2024
+- Team Spirit | Copenhagen 2024
+- Vitality | Copenhagen 2024
+- MOUZ | Copenhagen 2024
+- Complexity Gaming | Copenhagen 2024
+- PGL | Copenhagen 2024
+
+### Katowice 2015 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $560.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Cloud9 (Gold)
+- LGB eSports (Gold)
+- Vox Eminor (Gold)
+- Titan (Gold)
+- 3DMAX (Gold)
+- Counter Logic Gaming (Gold)
+- Keyd Stars (Gold)
+- FlipSid3 Tactics (Gold)
+
+#### Exotic (8)
+
+- Cloud9 (Foil)
+- LGB eSports (Foil)
+- Vox Eminor (Foil)
+- Titan (Foil)
+- 3DMAX (Foil)
+- Counter Logic Gaming (Foil)
+- Keyd Stars (Foil)
+- FlipSid3 Tactics (Foil)
+
+#### Remarkable (8)
+
+- Cloud9 (Holo)
+- LGB eSports (Holo)
+- Vox Eminor (Holo)
+- Titan (Holo)
+- 3DMAX (Holo)
+- Counter Logic Gaming (Holo)
+- Keyd Stars (Holo)
+- FlipSid3 Tactics (Holo)
+
+#### High Grade (8)
+
+- Cloud9
+- LGB eSports
+- Vox Eminor
+- Titan
+- 3DMAX
+- Counter Logic Gaming
+- Keyd Stars
+- FlipSid3 Tactics
+
+### Katowice 2015 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $490.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Fnatic (Gold)
+- Ninjas in Pyjamas (Gold)
+- Virtus.Pro (Gold)
+- Natus Vincere (Gold)
+- Team EnVyUs (Gold)
+- Team SoloMid (Gold)
+- PENTA Sports (Gold)
+- HellRaisers (Gold)
+
+#### Exotic (8)
+
+- Fnatic (Foil)
+- Ninjas in Pyjamas (Foil)
+- Virtus.Pro (Foil)
+- Natus Vincere (Foil)
+- Team EnVyUs (Foil)
+- Team SoloMid (Foil)
+- PENTA Sports (Foil)
+- HellRaisers (Foil)
+
+#### Remarkable (8)
+
+- Fnatic (Holo)
+- Ninjas in Pyjamas (Holo)
+- Virtus.Pro (Holo)
+- Natus Vincere (Holo)
+- Team EnVyUs (Holo)
+- Team SoloMid (Holo)
+- PENTA Sports (Holo)
+- HellRaisers (Holo)
+
+#### High Grade (8)
+
+- Fnatic
+- Ninjas in Pyjamas
+- Virtus.Pro
+- Natus Vincere
+- Team EnVyUs
+- Team SoloMid
+- PENTA Sports
+- HellRaisers
+
+### Katowice 2019 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $38.90
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Astralis (Gold)
+- BIG (Gold)
+- Complexity Gaming (Gold)
+- FaZe Clan (Gold)
+- HellRaisers (Gold)
+- MIBR (Gold)
+- Natus Vincere (Gold)
+- Team Liquid (Gold)
+
+#### Exotic (8)
+
+- Astralis (Foil)
+- BIG (Foil)
+- Complexity Gaming (Foil)
+- FaZe Clan (Foil)
+- HellRaisers (Foil)
+- MIBR (Foil)
+- Natus Vincere (Foil)
+- Team Liquid (Foil)
+
+#### Remarkable (8)
+
+- Astralis (Holo)
+- BIG (Holo)
+- Complexity Gaming (Holo)
+- FaZe Clan (Holo)
+- HellRaisers (Holo)
+- MIBR (Holo)
+- Natus Vincere (Holo)
+- Team Liquid (Holo)
+
+#### High Grade (8)
+
+- Astralis
+- BIG
+- Complexity Gaming
+- FaZe Clan
+- HellRaisers
+- MIBR
+- Natus Vincere
+- Team Liquid
+
+### Katowice 2019 Minor Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $28.10
+- Items: 60
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (15)
+
+- Avangar (Gold)
+- Cloud9 (Gold)
+- ENCE (Gold)
+- Fnatic (Gold)
+- FURIA (Gold)
+- G2 Esports (Gold)
+- Grayhound Gaming (Gold)
+- Ninjas in Pyjamas (Gold)
+- NRG (Gold)
+- Renegades (Gold)
+- Team Spirit (Gold)
+- TYLOO (Gold)
+- Vega Squadron (Gold)
+- ViCi Gaming (Gold)
+- Winstrike Team (Gold)
+
+#### Exotic (15)
+
+- Avangar (Foil)
+- Cloud9 (Foil)
+- ENCE (Foil)
+- Fnatic (Foil)
+- FURIA (Foil)
+- G2 Esports (Foil)
+- Grayhound Gaming (Foil)
+- Ninjas in Pyjamas (Foil)
+- NRG (Foil)
+- Renegades (Foil)
+- Team Spirit (Foil)
+- TYLOO (Foil)
+- Vega Squadron (Foil)
+- ViCi Gaming (Foil)
+- Winstrike Team (Foil)
+
+#### Remarkable (15)
+
+- Avangar (Holo)
+- Cloud9 (Holo)
+- ENCE (Holo)
+- Fnatic (Holo)
+- FURIA (Holo)
+- G2 Esports (Holo)
+- Grayhound Gaming (Holo)
+- Ninjas in Pyjamas (Holo)
+- NRG (Holo)
+- Renegades (Holo)
+- Team Spirit (Holo)
+- TYLOO (Holo)
+- Vega Squadron (Holo)
+- ViCi Gaming (Holo)
+- Winstrike Team (Holo)
+
+#### High Grade (15)
+
+- Avangar
+- Cloud9
+- ENCE
+- Fnatic
+- FURIA
+- G2 Esports
+- Grayhound Gaming
+- Ninjas in Pyjamas
+- NRG
+- Renegades
+- Team Spirit
+- TYLOO
+- Vega Squadron
+- ViCi Gaming
+- Winstrike Team
+
+### Kraków 2017 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $68.50
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- mousesports (Gold)
+- G2 Esports (Gold)
+- Cloud9 (Gold)
+- FlipSid3 Tactics (Gold)
+- PENTA Sports (Gold)
+- BIG (Gold)
+- Vega Squadron (Gold)
+- Immortals (Gold)
+
+#### Exotic (8)
+
+- mousesports (Foil)
+- G2 Esports (Foil)
+- Cloud9 (Foil)
+- FlipSid3 Tactics (Foil)
+- PENTA Sports (Foil)
+- BIG (Foil)
+- Vega Squadron (Foil)
+- Immortals (Foil)
+
+#### Remarkable (8)
+
+- mousesports (Holo)
+- G2 Esports (Holo)
+- Cloud9 (Holo)
+- FlipSid3 Tactics (Holo)
+- PENTA Sports (Holo)
+- BIG (Holo)
+- Vega Squadron (Holo)
+- Immortals (Holo)
+
+#### High Grade (8)
+
+- mousesports
+- G2 Esports
+- Cloud9
+- FlipSid3 Tactics
+- PENTA Sports
+- BIG
+- Vega Squadron
+- Immortals
+
+### Kraków 2017 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $54.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Astralis (Gold)
+- Virtus.Pro (Gold)
+- Fnatic (Gold)
+- SK Gaming (Gold)
+- Natus Vincere (Gold)
+- Gambit Esports (Gold)
+- North (Gold)
+- FaZe Clan (Gold)
+
+#### Exotic (8)
+
+- Astralis (Foil)
+- Virtus.Pro (Foil)
+- Fnatic (Foil)
+- SK Gaming (Foil)
+- Natus Vincere (Foil)
+- Gambit Esports (Foil)
+- North (Foil)
+- FaZe Clan (Foil)
+
+#### Remarkable (8)
+
+- Astralis (Holo)
+- Virtus.Pro (Holo)
+- Fnatic (Holo)
+- SK Gaming (Holo)
+- Natus Vincere (Holo)
+- Gambit Esports (Holo)
+- North (Holo)
+- FaZe Clan (Holo)
+
+#### High Grade (8)
+
+- Astralis
+- Virtus.Pro
+- Fnatic
+- SK Gaming
+- Natus Vincere
+- Gambit Esports
+- North
+- FaZe Clan
+
+### MLG Columbus 2016 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $72.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Counter Logic Gaming (Gold)
+- mousesports (Gold)
+- Cloud9 (Gold)
+- FlipSid3 Tactics (Gold)
+- Team Liquid (Gold)
+- Gambit Gaming (Gold)
+- G2 Esports (Gold)
+- Splyce (Gold)
+
+#### Exotic (8)
+
+- Counter Logic Gaming (Foil)
+- mousesports (Foil)
+- Cloud9 (Foil)
+- FlipSid3 Tactics (Foil)
+- Team Liquid (Foil)
+- Gambit Gaming (Foil)
+- G2 Esports (Foil)
+- Splyce (Foil)
+
+#### Remarkable (8)
+
+- Counter Logic Gaming (Holo)
+- mousesports (Holo)
+- Cloud9 (Holo)
+- FlipSid3 Tactics (Holo)
+- Team Liquid (Holo)
+- Gambit Gaming (Holo)
+- G2 Esports (Holo)
+- Splyce (Holo)
+
+#### High Grade (8)
+
+- Counter Logic Gaming
+- mousesports
+- Cloud9
+- FlipSid3 Tactics
+- Team Liquid
+- Gambit Gaming
+- G2 Esports
+- Splyce
+
+### MLG Columbus 2016 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $65.00
+- Items: 32
+- Drop weights: Extraordinary 2% · Exotic 13% · Remarkable 25% · High Grade 60%
+
+#### Extraordinary (8)
+
+- Team EnVyUs (Gold)
+- Natus Vincere (Gold)
+- FaZe Clan (Gold)
+- Ninjas in Pyjamas (Gold)
+- Fnatic (Gold)
+- Virtus.Pro (Gold)
+- Astralis (Gold)
+- Luminosity Gaming (Gold)
+
+#### Exotic (8)
+
+- Team EnVyUs (Foil)
+- Natus Vincere (Foil)
+- FaZe Clan (Foil)
+- Ninjas in Pyjamas (Foil)
+- Fnatic (Foil)
+- Virtus.Pro (Foil)
+- Astralis (Foil)
+- Luminosity Gaming (Foil)
+
+#### Remarkable (8)
+
+- Team EnVyUs (Holo)
+- Natus Vincere (Holo)
+- FaZe Clan (Holo)
+- Ninjas in Pyjamas (Holo)
+- Fnatic (Holo)
+- Virtus.Pro (Holo)
+- Astralis (Holo)
+- Luminosity Gaming (Holo)
+
+#### High Grade (8)
+
+- Team EnVyUs
+- Natus Vincere
+- FaZe Clan
+- Ninjas in Pyjamas
+- Fnatic
+- Virtus.Pro
+- Astralis
+- Luminosity Gaming
+
+### Paris 2023 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.22
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- Aleksib (Gold) | Paris 2023
+- Brollan (Gold) | Paris 2023
+- headtr1ck (Gold) | Paris 2023
+- k0nfig (Gold) | Paris 2023
+- REZ (Gold) | Paris 2023
+- HooXi (Gold) | Paris 2023
+- huNter- (Gold) | Paris 2023
+- jks (Gold) | Paris 2023
+- m0NESY (Gold) | Paris 2023
+- NiKo (Gold) | Paris 2023
+- Jerry (Gold) | Paris 2023
+- Krad (Gold) | Paris 2023
+- r3salt (Gold) | Paris 2023
+- shalfey (Gold) | Paris 2023
+- zorte (Gold) | Paris 2023
+- degster (Gold) | Paris 2023
+- F1KU (Gold) | Paris 2023
+- FlameZ (Gold) | Paris 2023
+- NEOFRAG (Gold) | Paris 2023
+- niko (Gold)  | Paris 2023
+- biguzera (Gold) | Paris 2023
+- hardzao (Gold) | Paris 2023
+- NEKiZ (Gold) | Paris 2023
+- skullz (Gold) | Paris 2023
+- zevy (Gold) | Paris 2023
+- acoR (Gold) | Paris 2023
+- iM (Gold) | Paris 2023
+- isak (Gold) | Paris 2023
+- Keoz (Gold) | Paris 2023
+- siuhy (Gold) | Paris 2023
+- jkaem (Gold) | Paris 2023
+- jL (Gold) | Paris 2023
+- kyxsan (Gold) | Paris 2023
+- nawwk (Gold) | Paris 2023
+- STYKO (Gold) | Paris 2023
+- BOROS (Gold) | Paris 2023
+- DemQQ (Gold) | Paris 2023
+- kRaSnaL (Gold) | Paris 2023
+- sdy (Gold) | Paris 2023
+- Woro2k (Gold) | Paris 2023
+
+#### Exotic (40)
+
+- Aleksib (Holo) | Paris 2023
+- Brollan (Holo) | Paris 2023
+- headtr1ck (Holo) | Paris 2023
+- k0nfig (Holo) | Paris 2023
+- REZ (Holo) | Paris 2023
+- HooXi (Holo) | Paris 2023
+- huNter- (Holo) | Paris 2023
+- jks (Holo) | Paris 2023
+- m0NESY (Holo) | Paris 2023
+- NiKo (Holo) | Paris 2023
+- Jerry (Holo) | Paris 2023
+- Krad (Holo) | Paris 2023
+- r3salt (Holo) | Paris 2023
+- shalfey (Holo) | Paris 2023
+- zorte (Holo) | Paris 2023
+- degster (Holo) | Paris 2023
+- F1KU (Holo) | Paris 2023
+- FlameZ (Holo) | Paris 2023
+- NEOFRAG (Holo) | Paris 2023
+- niko (Holo)  | Paris 2023
+- biguzera (Holo) | Paris 2023
+- hardzao (Holo) | Paris 2023
+- NEKiZ (Holo) | Paris 2023
+- skullz (Holo) | Paris 2023
+- zevy (Holo) | Paris 2023
+- acoR (Holo) | Paris 2023
+- iM (Holo) | Paris 2023
+- isak (Holo) | Paris 2023
+- Keoz (Holo) | Paris 2023
+- siuhy (Holo) | Paris 2023
+- jkaem (Holo) | Paris 2023
+- jL (Holo) | Paris 2023
+- kyxsan (Holo) | Paris 2023
+- nawwk (Holo) | Paris 2023
+- STYKO (Holo) | Paris 2023
+- BOROS (Holo) | Paris 2023
+- DemQQ (Holo) | Paris 2023
+- kRaSnaL (Holo) | Paris 2023
+- sdy (Holo) | Paris 2023
+- Woro2k (Holo) | Paris 2023
+
+#### Remarkable (40)
+
+- Aleksib (Glitter) | Paris 2023
+- Brollan (Glitter) | Paris 2023
+- headtr1ck (Glitter) | Paris 2023
+- k0nfig (Glitter) | Paris 2023
+- REZ (Glitter) | Paris 2023
+- HooXi (Glitter) | Paris 2023
+- huNter- (Glitter) | Paris 2023
+- jks (Glitter) | Paris 2023
+- m0NESY (Glitter) | Paris 2023
+- NiKo (Glitter) | Paris 2023
+- Jerry (Glitter) | Paris 2023
+- Krad (Glitter) | Paris 2023
+- r3salt (Glitter) | Paris 2023
+- shalfey (Glitter) | Paris 2023
+- zorte (Glitter) | Paris 2023
+- degster (Glitter) | Paris 2023
+- F1KU (Glitter) | Paris 2023
+- FlameZ (Glitter) | Paris 2023
+- NEOFRAG (Glitter) | Paris 2023
+- niko (Glitter)  | Paris 2023
+- biguzera (Glitter) | Paris 2023
+- hardzao (Glitter) | Paris 2023
+- NEKiZ (Glitter) | Paris 2023
+- skullz (Glitter) | Paris 2023
+- zevy (Glitter) | Paris 2023
+- acoR (Glitter) | Paris 2023
+- iM (Glitter) | Paris 2023
+- isak (Glitter) | Paris 2023
+- Keoz (Glitter) | Paris 2023
+- siuhy (Glitter) | Paris 2023
+- jkaem (Glitter) | Paris 2023
+- jL (Glitter) | Paris 2023
+- kyxsan (Glitter) | Paris 2023
+- nawwk (Glitter) | Paris 2023
+- STYKO (Glitter) | Paris 2023
+- BOROS (Glitter) | Paris 2023
+- DemQQ (Glitter) | Paris 2023
+- kRaSnaL (Glitter) | Paris 2023
+- sdy (Glitter) | Paris 2023
+- Woro2k (Glitter) | Paris 2023
+
+#### High Grade (40)
+
+- Aleksib | Paris 2023
+- Brollan | Paris 2023
+- headtr1ck | Paris 2023
+- k0nfig | Paris 2023
+- REZ | Paris 2023
+- HooXi | Paris 2023
+- huNter- | Paris 2023
+- jks | Paris 2023
+- m0NESY | Paris 2023
+- NiKo | Paris 2023
+- Jerry | Paris 2023
+- Krad | Paris 2023
+- r3salt | Paris 2023
+- shalfey | Paris 2023
+- zorte | Paris 2023
+- degster | Paris 2023
+- F1KU | Paris 2023
+- FlameZ | Paris 2023
+- NEOFRAG | Paris 2023
+- niko  | Paris 2023
+- biguzera | Paris 2023
+- hardzao | Paris 2023
+- NEKiZ | Paris 2023
+- skullz | Paris 2023
+- zevy | Paris 2023
+- acoR | Paris 2023
+- iM | Paris 2023
+- isak | Paris 2023
+- Keoz | Paris 2023
+- siuhy | Paris 2023
+- jkaem | Paris 2023
+- jL | Paris 2023
+- kyxsan | Paris 2023
+- nawwk | Paris 2023
+- STYKO | Paris 2023
+- BOROS | Paris 2023
+- DemQQ | Paris 2023
+- kRaSnaL | Paris 2023
+- sdy | Paris 2023
+- Woro2k | Paris 2023
+
+### Paris 2023 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.09
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Ninjas in Pyjamas (Gold) | Paris 2023
+- G2 Esports (Gold) | Paris 2023
+- forZe eSports (Gold) | Paris 2023
+- OG (Gold) | Paris 2023
+- paiN Gaming (Gold) | Paris 2023
+- GamerLegion (Gold) | Paris 2023
+- Apeks (Gold) | Paris 2023
+- Monte (Gold) | Paris 2023
+- BLAST.tv (Gold) | Paris 2023
+
+#### Exotic (9)
+
+- Ninjas in Pyjamas (Holo) | Paris 2023
+- G2 Esports (Holo) | Paris 2023
+- forZe eSports (Holo) | Paris 2023
+- OG (Holo) | Paris 2023
+- paiN Gaming (Holo) | Paris 2023
+- GamerLegion (Holo) | Paris 2023
+- Apeks (Holo) | Paris 2023
+- Monte (Holo) | Paris 2023
+- BLAST.tv (Holo) | Paris 2023
+
+#### Remarkable (9)
+
+- Ninjas in Pyjamas (Glitter) | Paris 2023
+- G2 Esports (Glitter) | Paris 2023
+- forZe eSports (Glitter) | Paris 2023
+- OG (Glitter) | Paris 2023
+- paiN Gaming (Glitter) | Paris 2023
+- GamerLegion (Glitter) | Paris 2023
+- Apeks (Glitter) | Paris 2023
+- Monte (Glitter) | Paris 2023
+- BLAST.tv (Glitter) | Paris 2023
+
+#### High Grade (9)
+
+- Ninjas in Pyjamas | Paris 2023
+- G2 Esports | Paris 2023
+- forZe eSports | Paris 2023
+- OG | Paris 2023
+- paiN Gaming | Paris 2023
+- GamerLegion | Paris 2023
+- Apeks | Paris 2023
+- Monte | Paris 2023
+- BLAST.tv | Paris 2023
+
+### Paris 2023 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.23
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- apEX (Gold, Champion) | Paris 2023
+- dupreeh (Gold, Champion) | Paris 2023
+- Magisk (Gold, Champion) | Paris 2023
+- Spinx (Gold, Champion) | Paris 2023
+- ZywOo (Gold, Champion) | Paris 2023
+
+#### Exotic (5)
+
+- apEX (Holo, Champion) | Paris 2023
+- dupreeh (Holo, Champion) | Paris 2023
+- Magisk (Holo, Champion) | Paris 2023
+- Spinx (Holo, Champion) | Paris 2023
+- ZywOo (Holo, Champion) | Paris 2023
+
+#### Remarkable (5)
+
+- apEX (Glitter, Champion) | Paris 2023
+- dupreeh (Glitter, Champion) | Paris 2023
+- Magisk (Glitter, Champion) | Paris 2023
+- Spinx (Glitter, Champion) | Paris 2023
+- ZywOo (Glitter, Champion) | Paris 2023
+
+#### High Grade (5)
+
+- apEX (Champion) | Paris 2023
+- dupreeh (Champion) | Paris 2023
+- Magisk (Champion) | Paris 2023
+- Spinx (Champion) | Paris 2023
+- ZywOo (Champion) | Paris 2023
+
+### Paris 2023 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.13
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- EliGE (Gold) | Paris 2023
+- NAF (Gold) | Paris 2023
+- nitr0 (Gold) | Paris 2023
+- oSee (Gold) | Paris 2023
+- YEKINDAR (Gold) | Paris 2023
+- broky (Gold) | Paris 2023
+- karrigan (Gold) | Paris 2023
+- rain (Gold) | Paris 2023
+- ropz (Gold) | Paris 2023
+- Twistzz (Gold) | Paris 2023
+- Dycha (Gold) | Paris 2023
+- maden (Gold) | Paris 2023
+- NertZ (Gold) | Paris 2023
+- Snappi (Gold) | Paris 2023
+- SunPayus (Gold) | Paris 2023
+- aliStair (Gold) | Paris 2023
+- INS (Gold) | Paris 2023
+- Liazz (Gold) | Paris 2023
+- Sico (Gold) | Paris 2023
+- vexite (Gold) | Paris 2023
+- dexter (Gold) | Paris 2023
+- frozen (Gold) | Paris 2023
+- JDC (Gold) | Paris 2023
+- torzsi (Gold) | Paris 2023
+- xertioN (Gold) | Paris 2023
+- FaNg (Gold) | Paris 2023
+- floppy (Gold) | Paris 2023
+- Grim (Gold) | Paris 2023
+- hallzerk (Gold) | Paris 2023
+- JT (Gold) | Paris 2023
+- felps (Gold) | Paris 2023
+- History (Gold) | Paris 2023
+- Lucaozy (Gold) | Paris 2023
+- v$m (Gold) | Paris 2023
+- WOOD7 (Gold) | Paris 2023
+- ANNIHILATION (Gold) | Paris 2023
+- Bart4k (Gold) | Paris 2023
+- bLitz (Gold) | Paris 2023
+- sk0R (Gold) | Paris 2023
+- Techno4K (Gold) | Paris 2023
+
+#### Exotic (40)
+
+- EliGE (Holo) | Paris 2023
+- NAF (Holo) | Paris 2023
+- nitr0 (Holo) | Paris 2023
+- oSee (Holo) | Paris 2023
+- YEKINDAR (Holo) | Paris 2023
+- broky (Holo) | Paris 2023
+- karrigan (Holo) | Paris 2023
+- rain (Holo) | Paris 2023
+- ropz (Holo) | Paris 2023
+- Twistzz (Holo) | Paris 2023
+- Dycha (Holo) | Paris 2023
+- maden (Holo) | Paris 2023
+- NertZ (Holo) | Paris 2023
+- Snappi (Holo) | Paris 2023
+- SunPayus (Holo) | Paris 2023
+- aliStair (Holo) | Paris 2023
+- INS (Holo) | Paris 2023
+- Liazz (Holo) | Paris 2023
+- Sico (Holo) | Paris 2023
+- vexite (Holo) | Paris 2023
+- dexter (Holo) | Paris 2023
+- frozen (Holo) | Paris 2023
+- JDC (Holo) | Paris 2023
+- torzsi (Holo) | Paris 2023
+- xertioN (Holo) | Paris 2023
+- FaNg (Holo) | Paris 2023
+- floppy (Holo) | Paris 2023
+- Grim (Holo) | Paris 2023
+- hallzerk (Holo) | Paris 2023
+- JT (Holo) | Paris 2023
+- felps (Holo) | Paris 2023
+- History (Holo) | Paris 2023
+- Lucaozy (Holo) | Paris 2023
+- v$m (Holo) | Paris 2023
+- WOOD7 (Holo) | Paris 2023
+- ANNIHILATION (Holo) | Paris 2023
+- Bart4k (Holo) | Paris 2023
+- bLitz (Holo) | Paris 2023
+- sk0R (Holo) | Paris 2023
+- Techno4K (Holo) | Paris 2023
+
+#### Remarkable (40)
+
+- EliGE (Glitter) | Paris 2023
+- NAF (Glitter) | Paris 2023
+- nitr0 (Glitter) | Paris 2023
+- oSee (Glitter) | Paris 2023
+- YEKINDAR (Glitter) | Paris 2023
+- broky (Glitter) | Paris 2023
+- karrigan (Glitter) | Paris 2023
+- rain (Glitter) | Paris 2023
+- ropz (Glitter) | Paris 2023
+- Twistzz (Glitter) | Paris 2023
+- Dycha (Glitter) | Paris 2023
+- maden (Glitter) | Paris 2023
+- NertZ (Glitter) | Paris 2023
+- Snappi (Glitter) | Paris 2023
+- SunPayus (Glitter) | Paris 2023
+- aliStair (Glitter) | Paris 2023
+- INS (Glitter) | Paris 2023
+- Liazz (Glitter) | Paris 2023
+- Sico (Glitter) | Paris 2023
+- vexite (Glitter) | Paris 2023
+- dexter (Glitter) | Paris 2023
+- frozen (Glitter) | Paris 2023
+- JDC (Glitter) | Paris 2023
+- torzsi (Glitter) | Paris 2023
+- xertioN (Glitter) | Paris 2023
+- FaNg (Glitter) | Paris 2023
+- floppy (Glitter) | Paris 2023
+- Grim (Glitter) | Paris 2023
+- hallzerk (Glitter) | Paris 2023
+- JT (Glitter) | Paris 2023
+- felps (Glitter) | Paris 2023
+- History (Glitter) | Paris 2023
+- Lucaozy (Glitter) | Paris 2023
+- v$m (Glitter) | Paris 2023
+- WOOD7 (Glitter) | Paris 2023
+- ANNIHILATION (Glitter) | Paris 2023
+- Bart4k (Glitter) | Paris 2023
+- bLitz (Glitter) | Paris 2023
+- sk0R (Glitter) | Paris 2023
+- Techno4K (Glitter) | Paris 2023
+
+#### High Grade (40)
+
+- EliGE | Paris 2023
+- NAF | Paris 2023
+- nitr0 | Paris 2023
+- oSee | Paris 2023
+- YEKINDAR | Paris 2023
+- broky | Paris 2023
+- karrigan | Paris 2023
+- rain | Paris 2023
+- ropz | Paris 2023
+- Twistzz | Paris 2023
+- Dycha | Paris 2023
+- maden | Paris 2023
+- NertZ | Paris 2023
+- Snappi | Paris 2023
+- SunPayus | Paris 2023
+- aliStair | Paris 2023
+- INS | Paris 2023
+- Liazz | Paris 2023
+- Sico | Paris 2023
+- vexite | Paris 2023
+- dexter | Paris 2023
+- frozen | Paris 2023
+- JDC | Paris 2023
+- torzsi | Paris 2023
+- xertioN | Paris 2023
+- FaNg | Paris 2023
+- floppy | Paris 2023
+- Grim | Paris 2023
+- hallzerk | Paris 2023
+- JT | Paris 2023
+- felps | Paris 2023
+- History | Paris 2023
+- Lucaozy | Paris 2023
+- v$m | Paris 2023
+- WOOD7 | Paris 2023
+- ANNIHILATION | Paris 2023
+- Bart4k | Paris 2023
+- bLitz | Paris 2023
+- sk0R | Paris 2023
+- Techno4K | Paris 2023
+
+### Paris 2023 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.09
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Team Liquid (Gold) | Paris 2023
+- FaZe Clan (Gold) | Paris 2023
+- ENCE (Gold) | Paris 2023
+- Grayhound Gaming (Gold) | Paris 2023
+- MOUZ (Gold) | Paris 2023
+- Complexity Gaming (Gold) | Paris 2023
+- Fluxo (Gold) | Paris 2023
+- The MongolZ (Gold) | Paris 2023
+- BLAST.tv (Gold) | Paris 2023
+
+#### Exotic (9)
+
+- Team Liquid (Holo) | Paris 2023
+- FaZe Clan (Holo) | Paris 2023
+- ENCE (Holo) | Paris 2023
+- Grayhound Gaming (Holo) | Paris 2023
+- MOUZ (Holo) | Paris 2023
+- Complexity Gaming (Holo) | Paris 2023
+- Fluxo (Holo) | Paris 2023
+- The MongolZ (Holo) | Paris 2023
+- BLAST.tv (Holo) | Paris 2023
+
+#### Remarkable (9)
+
+- Team Liquid (Glitter) | Paris 2023
+- FaZe Clan (Glitter) | Paris 2023
+- ENCE (Glitter) | Paris 2023
+- Grayhound Gaming (Glitter) | Paris 2023
+- MOUZ (Glitter) | Paris 2023
+- Complexity Gaming (Glitter) | Paris 2023
+- Fluxo (Glitter) | Paris 2023
+- The MongolZ (Glitter) | Paris 2023
+- BLAST.tv (Glitter) | Paris 2023
+
+#### High Grade (9)
+
+- Team Liquid | Paris 2023
+- FaZe Clan | Paris 2023
+- ENCE | Paris 2023
+- Grayhound Gaming | Paris 2023
+- MOUZ | Paris 2023
+- Complexity Gaming | Paris 2023
+- Fluxo | Paris 2023
+- The MongolZ | Paris 2023
+- BLAST.tv | Paris 2023
+
+### Paris 2023 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.17
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- FASHR (Gold) | Paris 2023
+- KRIMZ (Gold) | Paris 2023
+- mezii (Gold) | Paris 2023
+- nicoodoz (Gold) | Paris 2023
+- roeJ (Gold) | Paris 2023
+- b1t (Gold) | Paris 2023
+- electronic (Gold) | Paris 2023
+- npl (Gold) | Paris 2023
+- Perfecto (Gold) | Paris 2023
+- s1mple (Gold) | Paris 2023
+- arT (Gold) | Paris 2023
+- drop (Gold) | Paris 2023
+- KSCERATO (Gold) | Paris 2023
+- saffee (Gold) | Paris 2023
+- yuurih (Gold) | Paris 2023
+- apEX (Gold) | Paris 2023
+- dupreeh (Gold) | Paris 2023
+- Magisk (Gold) | Paris 2023
+- Spinx (Gold) | Paris 2023
+- ZywOo (Gold) | Paris 2023
+- cadiaN (Gold) | Paris 2023
+- jabbi (Gold) | Paris 2023
+- sjuush (Gold) | Paris 2023
+- stavn (Gold) | Paris 2023
+- TeSeS (Gold) | Paris 2023
+- gxx- (Gold) | Paris 2023
+- juanflatroo (Gold) | Paris 2023
+- rigoN (Gold) | Paris 2023
+- SENER1 (Gold) | Paris 2023
+- sinnopsyy (Gold) | Paris 2023
+- CRUC1AL (Gold) | Paris 2023
+- Cypher (Gold) | Paris 2023
+- rallen (Gold) | Paris 2023
+- Thomas (Gold) | Paris 2023
+- volt (Gold) | Paris 2023
+- Goofy (Gold) | Paris 2023
+- hades (Gold) | Paris 2023
+- KEi (Gold) | Paris 2023
+- Kylar (Gold) | Paris 2023
+- mynio (Gold) | Paris 2023
+
+#### Exotic (40)
+
+- FASHR (Holo) | Paris 2023
+- KRIMZ (Holo) | Paris 2023
+- mezii (Holo) | Paris 2023
+- nicoodoz (Holo) | Paris 2023
+- roeJ (Holo) | Paris 2023
+- b1t (Holo) | Paris 2023
+- electronic (Holo) | Paris 2023
+- npl (Holo) | Paris 2023
+- Perfecto (Holo) | Paris 2023
+- s1mple (Holo) | Paris 2023
+- arT (Holo) | Paris 2023
+- drop (Holo) | Paris 2023
+- KSCERATO (Holo) | Paris 2023
+- saffee (Holo) | Paris 2023
+- yuurih (Holo) | Paris 2023
+- apEX (Holo) | Paris 2023
+- dupreeh (Holo) | Paris 2023
+- Magisk (Holo) | Paris 2023
+- Spinx (Holo) | Paris 2023
+- ZywOo (Holo) | Paris 2023
+- cadiaN (Holo) | Paris 2023
+- jabbi (Holo) | Paris 2023
+- sjuush (Holo) | Paris 2023
+- stavn (Holo) | Paris 2023
+- TeSeS (Holo) | Paris 2023
+- gxx- (Holo) | Paris 2023
+- juanflatroo (Holo) | Paris 2023
+- rigoN (Holo) | Paris 2023
+- SENER1 (Holo) | Paris 2023
+- sinnopsyy (Holo) | Paris 2023
+- CRUC1AL (Holo) | Paris 2023
+- Cypher (Holo) | Paris 2023
+- rallen (Holo) | Paris 2023
+- Thomas (Holo) | Paris 2023
+- volt (Holo) | Paris 2023
+- Goofy (Holo) | Paris 2023
+- hades (Holo) | Paris 2023
+- KEi (Holo) | Paris 2023
+- Kylar (Holo) | Paris 2023
+- mynio (Holo) | Paris 2023
+
+#### Remarkable (40)
+
+- FASHR (Glitter) | Paris 2023
+- KRIMZ (Glitter) | Paris 2023
+- mezii (Glitter) | Paris 2023
+- nicoodoz (Glitter) | Paris 2023
+- roeJ (Glitter) | Paris 2023
+- b1t (Glitter) | Paris 2023
+- electronic (Glitter) | Paris 2023
+- npl (Glitter) | Paris 2023
+- Perfecto (Glitter) | Paris 2023
+- s1mple (Glitter) | Paris 2023
+- arT (Glitter) | Paris 2023
+- drop (Glitter) | Paris 2023
+- KSCERATO (Glitter) | Paris 2023
+- saffee (Glitter) | Paris 2023
+- yuurih (Glitter) | Paris 2023
+- apEX (Glitter) | Paris 2023
+- dupreeh (Glitter) | Paris 2023
+- Magisk (Glitter) | Paris 2023
+- Spinx (Glitter) | Paris 2023
+- ZywOo (Glitter) | Paris 2023
+- cadiaN (Glitter) | Paris 2023
+- jabbi (Glitter) | Paris 2023
+- sjuush (Glitter) | Paris 2023
+- stavn (Glitter) | Paris 2023
+- TeSeS (Glitter) | Paris 2023
+- gxx- (Glitter) | Paris 2023
+- juanflatroo (Glitter) | Paris 2023
+- rigoN (Glitter) | Paris 2023
+- SENER1 (Glitter) | Paris 2023
+- sinnopsyy (Glitter) | Paris 2023
+- CRUC1AL (Glitter) | Paris 2023
+- Cypher (Glitter) | Paris 2023
+- rallen (Glitter) | Paris 2023
+- Thomas (Glitter) | Paris 2023
+- volt (Glitter) | Paris 2023
+- Goofy (Glitter) | Paris 2023
+- hades (Glitter) | Paris 2023
+- KEi (Glitter) | Paris 2023
+- Kylar (Glitter) | Paris 2023
+- mynio (Glitter) | Paris 2023
+
+#### High Grade (40)
+
+- FASHR | Paris 2023
+- KRIMZ | Paris 2023
+- mezii | Paris 2023
+- nicoodoz | Paris 2023
+- roeJ | Paris 2023
+- b1t | Paris 2023
+- electronic | Paris 2023
+- npl | Paris 2023
+- Perfecto | Paris 2023
+- s1mple | Paris 2023
+- arT | Paris 2023
+- drop | Paris 2023
+- KSCERATO | Paris 2023
+- saffee | Paris 2023
+- yuurih | Paris 2023
+- apEX | Paris 2023
+- dupreeh | Paris 2023
+- Magisk | Paris 2023
+- Spinx | Paris 2023
+- ZywOo | Paris 2023
+- cadiaN | Paris 2023
+- jabbi | Paris 2023
+- sjuush | Paris 2023
+- stavn | Paris 2023
+- TeSeS | Paris 2023
+- gxx- | Paris 2023
+- juanflatroo | Paris 2023
+- rigoN | Paris 2023
+- SENER1 | Paris 2023
+- sinnopsyy | Paris 2023
+- CRUC1AL | Paris 2023
+- Cypher | Paris 2023
+- rallen | Paris 2023
+- Thomas | Paris 2023
+- volt | Paris 2023
+- Goofy | Paris 2023
+- hades | Paris 2023
+- KEi | Paris 2023
+- Kylar | Paris 2023
+- mynio | Paris 2023
+
+### Paris 2023 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.11
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- Fnatic (Gold) | Paris 2023
+- Natus Vincere (Gold) | Paris 2023
+- FURIA (Gold) | Paris 2023
+- Vitality (Gold) | Paris 2023
+- Heroic (Gold) | Paris 2023
+- Bad News Eagles (Gold) | Paris 2023
+- Into The Breach (Gold) | Paris 2023
+- 9INE (Gold) | Paris 2023
+- BLAST.tv (Gold) | Paris 2023
+
+#### Exotic (9)
+
+- Fnatic (Holo) | Paris 2023
+- Natus Vincere (Holo) | Paris 2023
+- FURIA (Holo) | Paris 2023
+- Vitality (Holo) | Paris 2023
+- Heroic (Holo) | Paris 2023
+- Bad News Eagles (Holo) | Paris 2023
+- Into The Breach (Holo) | Paris 2023
+- 9INE (Holo) | Paris 2023
+- BLAST.tv (Holo) | Paris 2023
+
+#### Remarkable (9)
+
+- Fnatic (Glitter) | Paris 2023
+- Natus Vincere (Glitter) | Paris 2023
+- FURIA (Glitter) | Paris 2023
+- Vitality (Glitter) | Paris 2023
+- Heroic (Glitter) | Paris 2023
+- Bad News Eagles (Glitter) | Paris 2023
+- Into The Breach (Glitter) | Paris 2023
+- 9INE (Glitter) | Paris 2023
+- BLAST.tv (Glitter) | Paris 2023
+
+#### High Grade (9)
+
+- Fnatic | Paris 2023
+- Natus Vincere | Paris 2023
+- FURIA | Paris 2023
+- Vitality | Paris 2023
+- Heroic | Paris 2023
+- Bad News Eagles | Paris 2023
+- Into The Breach | Paris 2023
+- 9INE | Paris 2023
+- BLAST.tv | Paris 2023
+
+### Rio 2022 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.26
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- NQZ (Gold) | Rio 2022
+- dav1deuS (Gold) | Rio 2022
+- max (Gold) | Rio 2022
+- dgt (Gold) | Rio 2022
+- BUDA (Gold) | Rio 2022
+- gxx- (Gold) | Rio 2022
+- SENER1 (Gold) | Rio 2022
+- juanflatroo (Gold) | Rio 2022
+- rigoN (Gold) | Rio 2022
+- sinnopsyy (Gold) | Rio 2022
+- faveN (Gold) | Rio 2022
+- Krimbo (Gold) | Rio 2022
+- k1to (Gold) | Rio 2022
+- tabseN (Gold) | Rio 2022
+- syrsoN (Gold) | Rio 2022
+- sh1ro (Gold) | Rio 2022
+- nafany (Gold) | Rio 2022
+- Ax1Le (Gold) | Rio 2022
+- interz (Gold) | Rio 2022
+- Hobbit (Gold) | Rio 2022
+- autimatic (Gold) | Rio 2022
+- neaLaN (Gold) | Rio 2022
+- Brehze (Gold) | Rio 2022
+- HexT (Gold) | Rio 2022
+- CeRq (Gold) | Rio 2022
+- frozen (Gold) | Rio 2022
+- dexter (Gold) | Rio 2022
+- JDC (Gold) | Rio 2022
+- torzsi (Gold) | Rio 2022
+- xertioN (Gold) | Rio 2022
+- nexa (Gold) | Rio 2022
+- NEOFRAG (Gold) | Rio 2022
+- FlameZ (Gold) | Rio 2022
+- degster (Gold) | Rio 2022
+- F1KU (Gold) | Rio 2022
+- dupreeh (Gold) | Rio 2022
+- Magisk (Gold) | Rio 2022
+- apEX (Gold) | Rio 2022
+- Spinx (Gold) | Rio 2022
+- ZywOo (Gold) | Rio 2022
+
+#### Exotic (40)
+
+- NQZ (Holo) | Rio 2022
+- dav1deuS (Holo) | Rio 2022
+- max (Holo) | Rio 2022
+- dgt (Holo) | Rio 2022
+- BUDA (Holo) | Rio 2022
+- gxx- (Holo) | Rio 2022
+- SENER1 (Holo) | Rio 2022
+- juanflatroo (Holo) | Rio 2022
+- rigoN (Holo) | Rio 2022
+- sinnopsyy (Holo) | Rio 2022
+- faveN (Holo) | Rio 2022
+- Krimbo (Holo) | Rio 2022
+- k1to (Holo) | Rio 2022
+- tabseN (Holo) | Rio 2022
+- syrsoN (Holo) | Rio 2022
+- sh1ro (Holo) | Rio 2022
+- nafany (Holo) | Rio 2022
+- Ax1Le (Holo) | Rio 2022
+- interz (Holo) | Rio 2022
+- Hobbit (Holo) | Rio 2022
+- autimatic (Holo) | Rio 2022
+- neaLaN (Holo) | Rio 2022
+- Brehze (Holo) | Rio 2022
+- HexT (Holo) | Rio 2022
+- CeRq (Holo) | Rio 2022
+- frozen (Holo) | Rio 2022
+- dexter (Holo) | Rio 2022
+- JDC (Holo) | Rio 2022
+- torzsi (Holo) | Rio 2022
+- xertioN (Holo) | Rio 2022
+- nexa (Holo) | Rio 2022
+- NEOFRAG (Holo) | Rio 2022
+- FlameZ (Holo) | Rio 2022
+- degster (Holo) | Rio 2022
+- F1KU (Holo) | Rio 2022
+- dupreeh (Holo) | Rio 2022
+- Magisk (Holo) | Rio 2022
+- apEX (Holo) | Rio 2022
+- Spinx (Holo) | Rio 2022
+- ZywOo (Holo) | Rio 2022
+
+#### Remarkable (40)
+
+- NQZ (Glitter) | Rio 2022
+- dav1deuS (Glitter) | Rio 2022
+- max (Glitter) | Rio 2022
+- dgt (Glitter) | Rio 2022
+- BUDA (Glitter) | Rio 2022
+- gxx- (Glitter) | Rio 2022
+- SENER1 (Glitter) | Rio 2022
+- juanflatroo (Glitter) | Rio 2022
+- rigoN (Glitter) | Rio 2022
+- sinnopsyy (Glitter) | Rio 2022
+- faveN (Glitter) | Rio 2022
+- Krimbo (Glitter) | Rio 2022
+- k1to (Glitter) | Rio 2022
+- tabseN (Glitter) | Rio 2022
+- syrsoN (Glitter) | Rio 2022
+- sh1ro (Glitter) | Rio 2022
+- nafany (Glitter) | Rio 2022
+- Ax1Le (Glitter) | Rio 2022
+- interz (Glitter) | Rio 2022
+- Hobbit (Glitter) | Rio 2022
+- autimatic (Glitter) | Rio 2022
+- neaLaN (Glitter) | Rio 2022
+- Brehze (Glitter) | Rio 2022
+- HexT (Glitter) | Rio 2022
+- CeRq (Glitter) | Rio 2022
+- frozen (Glitter) | Rio 2022
+- dexter (Glitter) | Rio 2022
+- JDC (Glitter) | Rio 2022
+- torzsi (Glitter) | Rio 2022
+- xertioN (Glitter) | Rio 2022
+- nexa (Glitter) | Rio 2022
+- NEOFRAG (Glitter) | Rio 2022
+- FlameZ (Glitter) | Rio 2022
+- degster (Glitter) | Rio 2022
+- F1KU (Glitter) | Rio 2022
+- dupreeh (Glitter) | Rio 2022
+- Magisk (Glitter) | Rio 2022
+- apEX (Glitter) | Rio 2022
+- Spinx (Glitter) | Rio 2022
+- ZywOo (Glitter) | Rio 2022
+
+#### High Grade (40)
+
+- NQZ | Rio 2022
+- dav1deuS | Rio 2022
+- max | Rio 2022
+- dgt | Rio 2022
+- BUDA | Rio 2022
+- gxx- | Rio 2022
+- SENER1 | Rio 2022
+- juanflatroo | Rio 2022
+- rigoN | Rio 2022
+- sinnopsyy | Rio 2022
+- faveN | Rio 2022
+- Krimbo | Rio 2022
+- k1to | Rio 2022
+- tabseN | Rio 2022
+- syrsoN | Rio 2022
+- sh1ro | Rio 2022
+- nafany | Rio 2022
+- Ax1Le | Rio 2022
+- interz | Rio 2022
+- Hobbit | Rio 2022
+- autimatic | Rio 2022
+- neaLaN | Rio 2022
+- Brehze | Rio 2022
+- HexT | Rio 2022
+- CeRq | Rio 2022
+- frozen | Rio 2022
+- dexter | Rio 2022
+- JDC | Rio 2022
+- torzsi | Rio 2022
+- xertioN | Rio 2022
+- nexa | Rio 2022
+- NEOFRAG | Rio 2022
+- FlameZ | Rio 2022
+- degster | Rio 2022
+- F1KU | Rio 2022
+- dupreeh | Rio 2022
+- Magisk | Rio 2022
+- apEX | Rio 2022
+- Spinx | Rio 2022
+- ZywOo | Rio 2022
+
+### Rio 2022 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.28
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- 9z Team (Gold) | Rio 2022
+- Bad News Eagles (Gold) | Rio 2022
+- BIG (Gold) | Rio 2022
+- Cloud9 (Gold) | Rio 2022
+- Evil Geniuses (Gold) | Rio 2022
+- MOUZ (Gold) | Rio 2022
+- OG (Gold) | Rio 2022
+- Vitality (Gold) | Rio 2022
+- IEM (Gold) | Rio 2022
+
+#### Exotic (9)
+
+- 9z Team (Holo) | Rio 2022
+- Bad News Eagles (Holo) | Rio 2022
+- BIG (Holo) | Rio 2022
+- Cloud9 (Holo) | Rio 2022
+- Evil Geniuses (Holo) | Rio 2022
+- MOUZ (Holo) | Rio 2022
+- OG (Holo) | Rio 2022
+- Vitality (Holo) | Rio 2022
+- IEM (Holo) | Rio 2022
+
+#### Remarkable (9)
+
+- 9z Team (Glitter) | Rio 2022
+- Bad News Eagles (Glitter) | Rio 2022
+- BIG (Glitter) | Rio 2022
+- Cloud9 (Glitter) | Rio 2022
+- Evil Geniuses (Glitter) | Rio 2022
+- MOUZ (Glitter) | Rio 2022
+- OG (Glitter) | Rio 2022
+- Vitality (Glitter) | Rio 2022
+- IEM (Glitter) | Rio 2022
+
+#### High Grade (9)
+
+- 9z Team | Rio 2022
+- Bad News Eagles | Rio 2022
+- BIG | Rio 2022
+- Cloud9 | Rio 2022
+- Evil Geniuses | Rio 2022
+- MOUZ | Rio 2022
+- OG | Rio 2022
+- Vitality | Rio 2022
+- IEM | Rio 2022
+
+### Rio 2022 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.39
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- FL1T (Gold, Champion) | Rio 2022
+- n0rb3r7 (Gold, Champion) | Rio 2022
+- Jame (Gold, Champion) | Rio 2022
+- qikert (Gold, Champion) | Rio 2022
+- fame (Gold, Champion) | Rio 2022
+
+#### Exotic (5)
+
+- FL1T (Holo, Champion) | Rio 2022
+- n0rb3r7 (Holo, Champion) | Rio 2022
+- Jame (Holo, Champion) | Rio 2022
+- qikert (Holo, Champion) | Rio 2022
+- fame (Holo, Champion) | Rio 2022
+
+#### Remarkable (5)
+
+- FL1T (Glitter, Champion) | Rio 2022
+- n0rb3r7 (Glitter, Champion) | Rio 2022
+- Jame (Glitter, Champion) | Rio 2022
+- qikert (Glitter, Champion) | Rio 2022
+- fame (Glitter, Champion) | Rio 2022
+
+#### High Grade (5)
+
+- FL1T (Champion) | Rio 2022
+- n0rb3r7 (Champion) | Rio 2022
+- Jame (Champion) | Rio 2022
+- qikert (Champion) | Rio 2022
+- fame (Champion) | Rio 2022
+
+### Rio 2022 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.31
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- TACO (Gold) | Rio 2022
+- coldzera (Gold) | Rio 2022
+- TRY (Gold) | Rio 2022
+- latto (Gold) | Rio 2022
+- dumau (Gold) | Rio 2022
+- KRIMZ (Gold) | Rio 2022
+- mezii (Gold) | Rio 2022
+- FASHR (Gold) | Rio 2022
+- roeJ (Gold) | Rio 2022
+- nicoodoz (Gold) | Rio 2022
+- KSCERATO (Gold) | Rio 2022
+- yuurih (Gold) | Rio 2022
+- drop (Gold) | Rio 2022
+- saffee (Gold) | Rio 2022
+- arT (Gold) | Rio 2022
+- acoR (Gold) | Rio 2022
+- iM (Gold) | Rio 2022
+- siuhy (Gold) | Rio 2022
+- Keoz (Gold) | Rio 2022
+- isak (Gold) | Rio 2022
+- INS (Gold) | Rio 2022
+- vexite (Gold) | Rio 2022
+- Sico (Gold) | Rio 2022
+- Liazz (Gold) | Rio 2022
+- aliStair (Gold) | Rio 2022
+- sk0R (Gold) | Rio 2022
+- Techno4K (Gold) | Rio 2022
+- kabal (Gold) | Rio 2022
+- bLitz (Gold) | Rio 2022
+- ANNIHILATION (Gold) | Rio 2022
+- FalleN (Gold) | Rio 2022
+- fer (Gold) | Rio 2022
+- boltz (Gold) | Rio 2022
+- VINI (Gold) | Rio 2022
+- chelo (Gold) | Rio 2022
+- FL1T (Gold) | Rio 2022
+- n0rb3r7 (Gold) | Rio 2022
+- Jame (Gold) | Rio 2022
+- qikert (Gold) | Rio 2022
+- fame (Gold) | Rio 2022
+
+#### Exotic (40)
+
+- TACO (Holo) | Rio 2022
+- coldzera (Holo) | Rio 2022
+- TRY (Holo) | Rio 2022
+- latto (Holo) | Rio 2022
+- dumau (Holo) | Rio 2022
+- KRIMZ (Holo) | Rio 2022
+- mezii (Holo) | Rio 2022
+- FASHR (Holo) | Rio 2022
+- roeJ (Holo) | Rio 2022
+- nicoodoz (Holo) | Rio 2022
+- KSCERATO (Holo) | Rio 2022
+- yuurih (Holo) | Rio 2022
+- drop (Holo) | Rio 2022
+- saffee (Holo) | Rio 2022
+- arT (Holo) | Rio 2022
+- acoR (Holo) | Rio 2022
+- iM (Holo) | Rio 2022
+- siuhy (Holo) | Rio 2022
+- Keoz (Holo) | Rio 2022
+- isak (Holo) | Rio 2022
+- INS (Holo) | Rio 2022
+- vexite (Holo) | Rio 2022
+- Sico (Holo) | Rio 2022
+- Liazz (Holo) | Rio 2022
+- aliStair (Holo) | Rio 2022
+- sk0R (Holo) | Rio 2022
+- Techno4K (Holo) | Rio 2022
+- kabal (Holo) | Rio 2022
+- bLitz (Holo) | Rio 2022
+- ANNIHILATION (Holo) | Rio 2022
+- FalleN (Holo) | Rio 2022
+- fer (Holo) | Rio 2022
+- boltz (Holo) | Rio 2022
+- VINI (Holo) | Rio 2022
+- chelo (Holo) | Rio 2022
+- FL1T (Holo) | Rio 2022
+- n0rb3r7 (Holo) | Rio 2022
+- Jame (Holo) | Rio 2022
+- qikert (Holo) | Rio 2022
+- fame (Holo) | Rio 2022
+
+#### Remarkable (40)
+
+- TACO (Glitter) | Rio 2022
+- coldzera (Glitter) | Rio 2022
+- TRY (Glitter) | Rio 2022
+- latto (Glitter) | Rio 2022
+- dumau (Glitter) | Rio 2022
+- KRIMZ (Glitter) | Rio 2022
+- mezii (Glitter) | Rio 2022
+- FASHR (Glitter) | Rio 2022
+- roeJ (Glitter) | Rio 2022
+- nicoodoz (Glitter) | Rio 2022
+- KSCERATO (Glitter) | Rio 2022
+- yuurih (Glitter) | Rio 2022
+- drop (Glitter) | Rio 2022
+- saffee (Glitter) | Rio 2022
+- arT (Glitter) | Rio 2022
+- acoR (Glitter) | Rio 2022
+- iM (Glitter) | Rio 2022
+- siuhy (Glitter) | Rio 2022
+- Keoz (Glitter) | Rio 2022
+- isak (Glitter) | Rio 2022
+- INS (Glitter) | Rio 2022
+- vexite (Glitter) | Rio 2022
+- Sico (Glitter) | Rio 2022
+- Liazz (Glitter) | Rio 2022
+- aliStair (Glitter) | Rio 2022
+- sk0R (Glitter) | Rio 2022
+- Techno4K (Glitter) | Rio 2022
+- kabal (Glitter) | Rio 2022
+- bLitz (Glitter) | Rio 2022
+- ANNIHILATION (Glitter) | Rio 2022
+- FalleN (Glitter) | Rio 2022
+- fer (Glitter) | Rio 2022
+- boltz (Glitter) | Rio 2022
+- VINI (Glitter) | Rio 2022
+- chelo (Glitter) | Rio 2022
+- FL1T (Glitter) | Rio 2022
+- n0rb3r7 (Glitter) | Rio 2022
+- Jame (Glitter) | Rio 2022
+- qikert (Glitter) | Rio 2022
+- fame (Glitter) | Rio 2022
+
+#### High Grade (40)
+
+- TACO | Rio 2022
+- coldzera | Rio 2022
+- TRY | Rio 2022
+- latto | Rio 2022
+- dumau | Rio 2022
+- KRIMZ | Rio 2022
+- mezii | Rio 2022
+- FASHR | Rio 2022
+- roeJ | Rio 2022
+- nicoodoz | Rio 2022
+- KSCERATO | Rio 2022
+- yuurih | Rio 2022
+- drop | Rio 2022
+- saffee | Rio 2022
+- arT | Rio 2022
+- acoR | Rio 2022
+- iM | Rio 2022
+- siuhy | Rio 2022
+- Keoz | Rio 2022
+- isak | Rio 2022
+- INS | Rio 2022
+- vexite | Rio 2022
+- Sico | Rio 2022
+- Liazz | Rio 2022
+- aliStair | Rio 2022
+- sk0R | Rio 2022
+- Techno4K | Rio 2022
+- kabal | Rio 2022
+- bLitz | Rio 2022
+- ANNIHILATION | Rio 2022
+- FalleN | Rio 2022
+- fer | Rio 2022
+- boltz | Rio 2022
+- VINI | Rio 2022
+- chelo | Rio 2022
+- FL1T | Rio 2022
+- n0rb3r7 | Rio 2022
+- Jame | Rio 2022
+- qikert | Rio 2022
+- fame | Rio 2022
+
+### Rio 2022 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.25
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- 00 Nation (Gold) | Rio 2022
+- Fnatic (Gold) | Rio 2022
+- FURIA (Gold) | Rio 2022
+- GamerLegion (Gold) | Rio 2022
+- Grayhound Gaming (Gold) | Rio 2022
+- IHC Esports (Gold) | Rio 2022
+- Imperial Esports (Gold) | Rio 2022
+- Outsiders (Gold) | Rio 2022
+- IEM (Gold) | Rio 2022
+
+#### Exotic (9)
+
+- 00 Nation (Holo) | Rio 2022
+- Fnatic (Holo) | Rio 2022
+- FURIA (Holo) | Rio 2022
+- GamerLegion (Holo) | Rio 2022
+- Grayhound Gaming (Holo) | Rio 2022
+- IHC Esports (Holo) | Rio 2022
+- Imperial Esports (Holo) | Rio 2022
+- Outsiders (Holo) | Rio 2022
+- IEM (Holo) | Rio 2022
+
+#### Remarkable (9)
+
+- 00 Nation (Glitter) | Rio 2022
+- Fnatic (Glitter) | Rio 2022
+- FURIA (Glitter) | Rio 2022
+- GamerLegion (Glitter) | Rio 2022
+- Grayhound Gaming (Glitter) | Rio 2022
+- IHC Esports (Glitter) | Rio 2022
+- Imperial Esports (Glitter) | Rio 2022
+- Outsiders (Glitter) | Rio 2022
+- IEM (Glitter) | Rio 2022
+
+#### High Grade (9)
+
+- 00 Nation | Rio 2022
+- Fnatic | Rio 2022
+- FURIA | Rio 2022
+- GamerLegion | Rio 2022
+- Grayhound Gaming | Rio 2022
+- IHC Esports | Rio 2022
+- Imperial Esports | Rio 2022
+- Outsiders | Rio 2022
+- IEM | Rio 2022
+
+### Rio 2022 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.26
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- Snappi (Gold) | Rio 2022
+- Dycha (Gold) | Rio 2022
+- maden (Gold) | Rio 2022
+- v4lde (Gold) | Rio 2022
+- SunPayus (Gold) | Rio 2022
+- karrigan (Gold) | Rio 2022
+- rain (Gold) | Rio 2022
+- Twistzz (Gold) | Rio 2022
+- ropz (Gold) | Rio 2022
+- broky (Gold) | Rio 2022
+- cadiaN (Gold) | Rio 2022
+- TeSeS (Gold) | Rio 2022
+- sjuush (Gold) | Rio 2022
+- jabbi (Gold) | Rio 2022
+- stavn (Gold) | Rio 2022
+- b1t (Gold) | Rio 2022
+- electronic (Gold) | Rio 2022
+- sdy (Gold) | Rio 2022
+- Perfecto (Gold) | Rio 2022
+- s1mple (Gold) | Rio 2022
+- es3tag (Gold) | Rio 2022
+- Aleksib (Gold) | Rio 2022
+- REZ (Gold) | Rio 2022
+- hampus (Gold) | Rio 2022
+- Brollan (Gold) | Rio 2022
+- slaxz- (Gold) | Rio 2022
+- lauNX (Gold) | Rio 2022
+- refrezh (Gold) | Rio 2022
+- Staehr (Gold) | Rio 2022
+- Zyphon (Gold) | Rio 2022
+- YEKINDAR (Gold) | Rio 2022
+- oSee (Gold) | Rio 2022
+- nitr0 (Gold) | Rio 2022
+- NAF (Gold) | Rio 2022
+- EliGE (Gold) | Rio 2022
+- chopper (Gold) | Rio 2022
+- magixx (Gold) | Rio 2022
+- Patsi (Gold) | Rio 2022
+- S1ren (Gold) | Rio 2022
+- w0nderful (Gold) | Rio 2022
+
+#### Exotic (40)
+
+- Snappi (Holo) | Rio 2022
+- Dycha (Holo) | Rio 2022
+- maden (Holo) | Rio 2022
+- v4lde (Holo) | Rio 2022
+- SunPayus (Holo) | Rio 2022
+- karrigan (Holo) | Rio 2022
+- rain (Holo) | Rio 2022
+- Twistzz (Holo) | Rio 2022
+- ropz (Holo) | Rio 2022
+- broky (Holo) | Rio 2022
+- cadiaN (Holo) | Rio 2022
+- TeSeS (Holo) | Rio 2022
+- sjuush (Holo) | Rio 2022
+- jabbi (Holo) | Rio 2022
+- stavn (Holo) | Rio 2022
+- b1t (Holo) | Rio 2022
+- electronic (Holo) | Rio 2022
+- sdy (Holo) | Rio 2022
+- Perfecto (Holo) | Rio 2022
+- s1mple (Holo) | Rio 2022
+- es3tag (Holo) | Rio 2022
+- Aleksib (Holo) | Rio 2022
+- REZ (Holo) | Rio 2022
+- hampus (Holo) | Rio 2022
+- Brollan (Holo) | Rio 2022
+- slaxz- (Holo) | Rio 2022
+- lauNX (Holo) | Rio 2022
+- refrezh (Holo) | Rio 2022
+- Staehr (Holo) | Rio 2022
+- Zyphon (Holo) | Rio 2022
+- YEKINDAR (Holo) | Rio 2022
+- oSee (Holo) | Rio 2022
+- nitr0 (Holo) | Rio 2022
+- NAF (Holo) | Rio 2022
+- EliGE (Holo) | Rio 2022
+- chopper (Holo) | Rio 2022
+- magixx (Holo) | Rio 2022
+- Patsi (Holo) | Rio 2022
+- S1ren (Holo) | Rio 2022
+- w0nderful (Holo) | Rio 2022
+
+#### Remarkable (40)
+
+- Snappi (Glitter) | Rio 2022
+- Dycha (Glitter) | Rio 2022
+- maden (Glitter) | Rio 2022
+- v4lde (Glitter) | Rio 2022
+- SunPayus (Glitter) | Rio 2022
+- karrigan (Glitter) | Rio 2022
+- rain (Glitter) | Rio 2022
+- Twistzz (Glitter) | Rio 2022
+- ropz (Glitter) | Rio 2022
+- broky (Glitter) | Rio 2022
+- cadiaN (Glitter) | Rio 2022
+- TeSeS (Glitter) | Rio 2022
+- sjuush (Glitter) | Rio 2022
+- jabbi (Glitter) | Rio 2022
+- stavn (Glitter) | Rio 2022
+- b1t (Glitter) | Rio 2022
+- electronic (Glitter) | Rio 2022
+- sdy (Glitter) | Rio 2022
+- Perfecto (Glitter) | Rio 2022
+- s1mple (Glitter) | Rio 2022
+- es3tag (Glitter) | Rio 2022
+- Aleksib (Glitter) | Rio 2022
+- REZ (Glitter) | Rio 2022
+- hampus (Glitter) | Rio 2022
+- Brollan (Glitter) | Rio 2022
+- slaxz- (Glitter) | Rio 2022
+- lauNX (Glitter) | Rio 2022
+- refrezh (Glitter) | Rio 2022
+- Staehr (Glitter) | Rio 2022
+- Zyphon (Glitter) | Rio 2022
+- YEKINDAR (Glitter) | Rio 2022
+- oSee (Glitter) | Rio 2022
+- nitr0 (Glitter) | Rio 2022
+- NAF (Glitter) | Rio 2022
+- EliGE (Glitter) | Rio 2022
+- chopper (Glitter) | Rio 2022
+- magixx (Glitter) | Rio 2022
+- Patsi (Glitter) | Rio 2022
+- S1ren (Glitter) | Rio 2022
+- w0nderful (Glitter) | Rio 2022
+
+#### High Grade (40)
+
+- Snappi | Rio 2022
+- Dycha | Rio 2022
+- maden | Rio 2022
+- v4lde | Rio 2022
+- SunPayus | Rio 2022
+- karrigan | Rio 2022
+- rain | Rio 2022
+- Twistzz | Rio 2022
+- ropz | Rio 2022
+- broky | Rio 2022
+- cadiaN | Rio 2022
+- TeSeS | Rio 2022
+- sjuush | Rio 2022
+- jabbi | Rio 2022
+- stavn | Rio 2022
+- b1t | Rio 2022
+- electronic | Rio 2022
+- sdy | Rio 2022
+- Perfecto | Rio 2022
+- s1mple | Rio 2022
+- es3tag | Rio 2022
+- Aleksib | Rio 2022
+- REZ | Rio 2022
+- hampus | Rio 2022
+- Brollan | Rio 2022
+- slaxz- | Rio 2022
+- lauNX | Rio 2022
+- refrezh | Rio 2022
+- Staehr | Rio 2022
+- Zyphon | Rio 2022
+- YEKINDAR | Rio 2022
+- oSee | Rio 2022
+- nitr0 | Rio 2022
+- NAF | Rio 2022
+- EliGE | Rio 2022
+- chopper | Rio 2022
+- magixx | Rio 2022
+- Patsi | Rio 2022
+- S1ren | Rio 2022
+- w0nderful | Rio 2022
+
+### Rio 2022 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.46
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- ENCE (Gold) | Rio 2022
+- FaZe Clan (Gold) | Rio 2022
+- Heroic (Gold) | Rio 2022
+- Natus Vincere (Gold) | Rio 2022
+- Ninjas in Pyjamas (Gold) | Rio 2022
+- Sprout Esports (Gold) | Rio 2022
+- Team Liquid (Gold) | Rio 2022
+- Team Spirit (Gold) | Rio 2022
+- IEM (Gold) | Rio 2022
+
+#### Exotic (9)
+
+- ENCE (Holo) | Rio 2022
+- FaZe Clan (Holo) | Rio 2022
+- Heroic (Holo) | Rio 2022
+- Natus Vincere (Holo) | Rio 2022
+- Ninjas in Pyjamas (Holo) | Rio 2022
+- Sprout Esports (Holo) | Rio 2022
+- Team Liquid (Holo) | Rio 2022
+- Team Spirit (Holo) | Rio 2022
+- IEM (Holo) | Rio 2022
+
+#### Remarkable (9)
+
+- ENCE (Glitter) | Rio 2022
+- FaZe Clan (Glitter) | Rio 2022
+- Heroic (Glitter) | Rio 2022
+- Natus Vincere (Glitter) | Rio 2022
+- Ninjas in Pyjamas (Glitter) | Rio 2022
+- Sprout Esports (Glitter) | Rio 2022
+- Team Liquid (Glitter) | Rio 2022
+- Team Spirit (Glitter) | Rio 2022
+- IEM (Glitter) | Rio 2022
+
+#### High Grade (9)
+
+- ENCE | Rio 2022
+- FaZe Clan | Rio 2022
+- Heroic | Rio 2022
+- Natus Vincere | Rio 2022
+- Ninjas in Pyjamas | Rio 2022
+- Sprout Esports | Rio 2022
+- Team Liquid | Rio 2022
+- Team Spirit | Rio 2022
+- IEM | Rio 2022
+
+### Shanghai 2024 Challengers Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.27
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- FalleN (Gold) | Shanghai 2024
+- chelo (Gold) | Shanghai 2024
+- yuurih (Gold) | Shanghai 2024
+- KSCERATO (Gold) | Shanghai 2024
+- skullz (Gold) | Shanghai 2024
+- FL1T (Gold) | Shanghai 2024
+- Jame (Gold) | Shanghai 2024
+- fame (Gold) | Shanghai 2024
+- n0rb3r7 (Gold) | Shanghai 2024
+- electronic (Gold) | Shanghai 2024
+- Twistzz (Gold) | Shanghai 2024
+- ultimate (Gold) | Shanghai 2024
+- YEKINDAR (Gold) | Shanghai 2024
+- jks (Gold) | Shanghai 2024
+- NAF (Gold) | Shanghai 2024
+- EliGE (Gold) | Shanghai 2024
+- floppy (Gold) | Shanghai 2024
+- Grim (Gold) | Shanghai 2024
+- hallzerk (Gold) | Shanghai 2024
+- JT (Gold) | Shanghai 2024
+- tabseN (Gold) | Shanghai 2024
+- Krimbo (Gold) | Shanghai 2024
+- JDC (Gold) | Shanghai 2024
+- syrsoN (Gold) | Shanghai 2024
+- rigoN (Gold) | Shanghai 2024
+- KRIMZ (Gold) | Shanghai 2024
+- bodyy (Gold) | Shanghai 2024
+- MATYS (Gold) | Shanghai 2024
+- blameF (Gold) | Shanghai 2024
+- afro (Gold) | Shanghai 2024
+- bLitz (Gold) | Shanghai 2024
+- 910 (Gold) | Shanghai 2024
+- Techno4K (Gold) | Shanghai 2024
+- Senzu (Gold) | Shanghai 2024
+- mzinho (Gold) | Shanghai 2024
+- biguzera (Gold) | Shanghai 2024
+- lux (Gold) | Shanghai 2024
+- kauez (Gold) | Shanghai 2024
+- NQZ (Gold) | Shanghai 2024
+- snow (Gold) | Shanghai 2024
+
+#### Exotic (40)
+
+- FalleN (Holo) | Shanghai 2024
+- chelo (Holo) | Shanghai 2024
+- yuurih (Holo) | Shanghai 2024
+- KSCERATO (Holo) | Shanghai 2024
+- skullz (Holo) | Shanghai 2024
+- FL1T (Holo) | Shanghai 2024
+- Jame (Holo) | Shanghai 2024
+- fame (Holo) | Shanghai 2024
+- n0rb3r7 (Holo) | Shanghai 2024
+- electronic (Holo) | Shanghai 2024
+- Twistzz (Holo) | Shanghai 2024
+- ultimate (Holo) | Shanghai 2024
+- YEKINDAR (Holo) | Shanghai 2024
+- jks (Holo) | Shanghai 2024
+- NAF (Holo) | Shanghai 2024
+- EliGE (Holo) | Shanghai 2024
+- floppy (Holo) | Shanghai 2024
+- Grim (Holo) | Shanghai 2024
+- hallzerk (Holo) | Shanghai 2024
+- JT (Holo) | Shanghai 2024
+- tabseN (Holo) | Shanghai 2024
+- Krimbo (Holo) | Shanghai 2024
+- JDC (Holo) | Shanghai 2024
+- syrsoN (Holo) | Shanghai 2024
+- rigoN (Holo) | Shanghai 2024
+- KRIMZ (Holo) | Shanghai 2024
+- bodyy (Holo) | Shanghai 2024
+- MATYS (Holo) | Shanghai 2024
+- blameF (Holo) | Shanghai 2024
+- afro (Holo) | Shanghai 2024
+- bLitz (Holo) | Shanghai 2024
+- 910 (Holo) | Shanghai 2024
+- Techno4K (Holo) | Shanghai 2024
+- Senzu (Holo) | Shanghai 2024
+- mzinho (Holo) | Shanghai 2024
+- biguzera (Holo) | Shanghai 2024
+- lux (Holo) | Shanghai 2024
+- kauez (Holo) | Shanghai 2024
+- NQZ (Holo) | Shanghai 2024
+- snow (Holo) | Shanghai 2024
+
+#### Remarkable (40)
+
+- FalleN (Glitter) | Shanghai 2024
+- chelo (Glitter) | Shanghai 2024
+- yuurih (Glitter) | Shanghai 2024
+- KSCERATO (Glitter) | Shanghai 2024
+- skullz (Glitter) | Shanghai 2024
+- FL1T (Glitter) | Shanghai 2024
+- Jame (Glitter) | Shanghai 2024
+- fame (Glitter) | Shanghai 2024
+- n0rb3r7 (Glitter) | Shanghai 2024
+- electronic (Glitter) | Shanghai 2024
+- Twistzz (Glitter) | Shanghai 2024
+- ultimate (Glitter) | Shanghai 2024
+- YEKINDAR (Glitter) | Shanghai 2024
+- jks (Glitter) | Shanghai 2024
+- NAF (Glitter) | Shanghai 2024
+- EliGE (Glitter) | Shanghai 2024
+- floppy (Glitter) | Shanghai 2024
+- Grim (Glitter) | Shanghai 2024
+- hallzerk (Glitter) | Shanghai 2024
+- JT (Glitter) | Shanghai 2024
+- tabseN (Glitter) | Shanghai 2024
+- Krimbo (Glitter) | Shanghai 2024
+- JDC (Glitter) | Shanghai 2024
+- syrsoN (Glitter) | Shanghai 2024
+- rigoN (Glitter) | Shanghai 2024
+- KRIMZ (Glitter) | Shanghai 2024
+- bodyy (Glitter) | Shanghai 2024
+- MATYS (Glitter) | Shanghai 2024
+- blameF (Glitter) | Shanghai 2024
+- afro (Glitter) | Shanghai 2024
+- bLitz (Glitter) | Shanghai 2024
+- 910 (Glitter) | Shanghai 2024
+- Techno4K (Glitter) | Shanghai 2024
+- Senzu (Glitter) | Shanghai 2024
+- mzinho (Glitter) | Shanghai 2024
+- biguzera (Glitter) | Shanghai 2024
+- lux (Glitter) | Shanghai 2024
+- kauez (Glitter) | Shanghai 2024
+- NQZ (Glitter) | Shanghai 2024
+- snow (Glitter) | Shanghai 2024
+
+#### High Grade (40)
+
+- FalleN | Shanghai 2024
+- chelo | Shanghai 2024
+- yuurih | Shanghai 2024
+- KSCERATO | Shanghai 2024
+- skullz | Shanghai 2024
+- FL1T | Shanghai 2024
+- Jame | Shanghai 2024
+- fame | Shanghai 2024
+- n0rb3r7 | Shanghai 2024
+- electronic | Shanghai 2024
+- Twistzz | Shanghai 2024
+- ultimate | Shanghai 2024
+- YEKINDAR | Shanghai 2024
+- jks | Shanghai 2024
+- NAF | Shanghai 2024
+- EliGE | Shanghai 2024
+- floppy | Shanghai 2024
+- Grim | Shanghai 2024
+- hallzerk | Shanghai 2024
+- JT | Shanghai 2024
+- tabseN | Shanghai 2024
+- Krimbo | Shanghai 2024
+- JDC | Shanghai 2024
+- syrsoN | Shanghai 2024
+- rigoN | Shanghai 2024
+- KRIMZ | Shanghai 2024
+- bodyy | Shanghai 2024
+- MATYS | Shanghai 2024
+- blameF | Shanghai 2024
+- afro | Shanghai 2024
+- bLitz | Shanghai 2024
+- 910 | Shanghai 2024
+- Techno4K | Shanghai 2024
+- Senzu | Shanghai 2024
+- mzinho | Shanghai 2024
+- biguzera | Shanghai 2024
+- lux | Shanghai 2024
+- kauez | Shanghai 2024
+- NQZ | Shanghai 2024
+- snow | Shanghai 2024
+
+### Shanghai 2024 Challengers Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.52
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- FURIA (Gold) | Shanghai 2024
+- Virtus.pro (Gold) | Shanghai 2024
+- Team Liquid (Gold) | Shanghai 2024
+- Complexity Gaming (Gold) | Shanghai 2024
+- BIG (Gold) | Shanghai 2024
+- Fnatic (Gold) | Shanghai 2024
+- The MongolZ (Gold) | Shanghai 2024
+- paiN Gaming (Gold) | Shanghai 2024
+- Perfect World (Gold) | Shanghai 2024
+
+#### Exotic (9)
+
+- FURIA (Holo) | Shanghai 2024
+- Virtus.pro (Holo) | Shanghai 2024
+- Team Liquid (Holo) | Shanghai 2024
+- Complexity Gaming (Holo) | Shanghai 2024
+- BIG (Holo) | Shanghai 2024
+- Fnatic (Holo) | Shanghai 2024
+- The MongolZ (Holo) | Shanghai 2024
+- paiN Gaming (Holo) | Shanghai 2024
+- Perfect World (Holo) | Shanghai 2024
+
+#### Remarkable (9)
+
+- FURIA (Glitter) | Shanghai 2024
+- Virtus.pro (Glitter) | Shanghai 2024
+- Team Liquid (Glitter) | Shanghai 2024
+- Complexity Gaming (Glitter) | Shanghai 2024
+- BIG (Glitter) | Shanghai 2024
+- Fnatic (Glitter) | Shanghai 2024
+- The MongolZ (Glitter) | Shanghai 2024
+- paiN Gaming (Glitter) | Shanghai 2024
+- Perfect World (Glitter) | Shanghai 2024
+
+#### High Grade (9)
+
+- FURIA | Shanghai 2024
+- Virtus.pro | Shanghai 2024
+- Team Liquid | Shanghai 2024
+- Complexity Gaming | Shanghai 2024
+- BIG | Shanghai 2024
+- Fnatic | Shanghai 2024
+- The MongolZ | Shanghai 2024
+- paiN Gaming | Shanghai 2024
+- Perfect World | Shanghai 2024
+
+### Shanghai 2024 Champions Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.31
+- Items: 20
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (5)
+
+- chopper (Gold, Champion) | Shanghai 2024
+- magixx (Gold, Champion) | Shanghai 2024
+- donk (Gold, Champion) | Shanghai 2024
+- sh1ro (Gold, Champion) | Shanghai 2024
+- zont1x (Gold, Champion) | Shanghai 2024
+
+#### Exotic (5)
+
+- chopper (Holo, Champion) | Shanghai 2024
+- magixx (Holo, Champion) | Shanghai 2024
+- donk (Holo, Champion) | Shanghai 2024
+- sh1ro (Holo, Champion) | Shanghai 2024
+- zont1x (Holo, Champion) | Shanghai 2024
+
+#### Remarkable (5)
+
+- chopper (Glitter, Champion) | Shanghai 2024
+- magixx (Glitter, Champion) | Shanghai 2024
+- donk (Glitter, Champion) | Shanghai 2024
+- sh1ro (Glitter, Champion) | Shanghai 2024
+- zont1x (Glitter, Champion) | Shanghai 2024
+
+#### High Grade (5)
+
+- chopper (Champion) | Shanghai 2024
+- magixx (Champion) | Shanghai 2024
+- donk (Champion) | Shanghai 2024
+- sh1ro (Champion) | Shanghai 2024
+- zont1x (Champion) | Shanghai 2024
+
+### Shanghai 2024 Contenders Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.28
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- ztr (Gold) | Shanghai 2024
+- sl3nd (Gold) | Shanghai 2024
+- volt (Gold) | Shanghai 2024
+- FL4MUS (Gold) | Shanghai 2024
+- aNdu (Gold) | Shanghai 2024
+- drop (Gold) | Shanghai 2024
+- saffee (Gold) | Shanghai 2024
+- insani (Gold) | Shanghai 2024
+- brnz4n (Gold) | Shanghai 2024
+- exit (Gold) | Shanghai 2024
+- Boombl4 (Gold) | Shanghai 2024
+- Ax1Le (Gold) | Shanghai 2024
+- Heavygod (Gold) | Shanghai 2024
+- ICY (Gold) | Shanghai 2024
+- Perfecto (Gold) | Shanghai 2024
+- dexter (Gold) | Shanghai 2024
+- Liazz (Gold) | Shanghai 2024
+- aliStair (Gold) | Shanghai 2024
+- INS (Gold) | Shanghai 2024
+- vexite (Gold) | Shanghai 2024
+- fEAR (Gold) | Shanghai 2024
+- jambo (Gold) | Shanghai 2024
+- jackasmo (Gold) | Shanghai 2024
+- s-chilla (Gold) | Shanghai 2024
+- zeRRoFIX (Gold) | Shanghai 2024
+- stanislaw (Gold) | Shanghai 2024
+- Sonic (Gold) | Shanghai 2024
+- JBa (Gold) | Shanghai 2024
+- phzy (Gold) | Shanghai 2024
+- susp (Gold) | Shanghai 2024
+- Summer (Gold) | Shanghai 2024
+- ChildKing (Gold) | Shanghai 2024
+- somebody (Gold) | Shanghai 2024
+- L1haNg (Gold) | Shanghai 2024
+- Kaze (Gold) | Shanghai 2024
+- VINI (Gold) | Shanghai 2024
+- felps (Gold) | Shanghai 2024
+- TRY (Gold) | Shanghai 2024
+- decenty (Gold) | Shanghai 2024
+- noway (Gold) | Shanghai 2024
+
+#### Exotic (40)
+
+- ztr (Holo) | Shanghai 2024
+- sl3nd (Holo) | Shanghai 2024
+- volt (Holo) | Shanghai 2024
+- FL4MUS (Holo) | Shanghai 2024
+- aNdu (Holo) | Shanghai 2024
+- drop (Holo) | Shanghai 2024
+- saffee (Holo) | Shanghai 2024
+- insani (Holo) | Shanghai 2024
+- brnz4n (Holo) | Shanghai 2024
+- exit (Holo) | Shanghai 2024
+- Boombl4 (Holo) | Shanghai 2024
+- Ax1Le (Holo) | Shanghai 2024
+- Heavygod (Holo) | Shanghai 2024
+- ICY (Holo) | Shanghai 2024
+- Perfecto (Holo) | Shanghai 2024
+- dexter (Holo) | Shanghai 2024
+- Liazz (Holo) | Shanghai 2024
+- aliStair (Holo) | Shanghai 2024
+- INS (Holo) | Shanghai 2024
+- vexite (Holo) | Shanghai 2024
+- fEAR (Holo) | Shanghai 2024
+- jambo (Holo) | Shanghai 2024
+- jackasmo (Holo) | Shanghai 2024
+- s-chilla (Holo) | Shanghai 2024
+- zeRRoFIX (Holo) | Shanghai 2024
+- stanislaw (Holo) | Shanghai 2024
+- Sonic (Holo) | Shanghai 2024
+- JBa (Holo) | Shanghai 2024
+- phzy (Holo) | Shanghai 2024
+- susp (Holo) | Shanghai 2024
+- Summer (Holo) | Shanghai 2024
+- ChildKing (Holo) | Shanghai 2024
+- somebody (Holo) | Shanghai 2024
+- L1haNg (Holo) | Shanghai 2024
+- Kaze (Holo) | Shanghai 2024
+- VINI (Holo) | Shanghai 2024
+- felps (Holo) | Shanghai 2024
+- TRY (Holo) | Shanghai 2024
+- decenty (Holo) | Shanghai 2024
+- noway (Holo) | Shanghai 2024
+
+#### Remarkable (40)
+
+- ztr (Glitter) | Shanghai 2024
+- sl3nd (Glitter) | Shanghai 2024
+- volt (Glitter) | Shanghai 2024
+- FL4MUS (Glitter) | Shanghai 2024
+- aNdu (Glitter) | Shanghai 2024
+- drop (Glitter) | Shanghai 2024
+- saffee (Glitter) | Shanghai 2024
+- insani (Glitter) | Shanghai 2024
+- brnz4n (Glitter) | Shanghai 2024
+- exit (Glitter) | Shanghai 2024
+- Boombl4 (Glitter) | Shanghai 2024
+- Ax1Le (Glitter) | Shanghai 2024
+- Heavygod (Glitter) | Shanghai 2024
+- ICY (Glitter) | Shanghai 2024
+- Perfecto (Glitter) | Shanghai 2024
+- dexter (Glitter) | Shanghai 2024
+- Liazz (Glitter) | Shanghai 2024
+- aliStair (Glitter) | Shanghai 2024
+- INS (Glitter) | Shanghai 2024
+- vexite (Glitter) | Shanghai 2024
+- fEAR (Glitter) | Shanghai 2024
+- jambo (Glitter) | Shanghai 2024
+- jackasmo (Glitter) | Shanghai 2024
+- s-chilla (Glitter) | Shanghai 2024
+- zeRRoFIX (Glitter) | Shanghai 2024
+- stanislaw (Glitter) | Shanghai 2024
+- Sonic (Glitter) | Shanghai 2024
+- JBa (Glitter) | Shanghai 2024
+- phzy (Glitter) | Shanghai 2024
+- susp (Glitter) | Shanghai 2024
+- Summer (Glitter) | Shanghai 2024
+- ChildKing (Glitter) | Shanghai 2024
+- somebody (Glitter) | Shanghai 2024
+- L1haNg (Glitter) | Shanghai 2024
+- Kaze (Glitter) | Shanghai 2024
+- VINI (Glitter) | Shanghai 2024
+- felps (Glitter) | Shanghai 2024
+- TRY (Glitter) | Shanghai 2024
+- decenty (Glitter) | Shanghai 2024
+- noway (Glitter) | Shanghai 2024
+
+#### High Grade (40)
+
+- ztr | Shanghai 2024
+- sl3nd | Shanghai 2024
+- volt | Shanghai 2024
+- FL4MUS | Shanghai 2024
+- aNdu | Shanghai 2024
+- drop | Shanghai 2024
+- saffee | Shanghai 2024
+- insani | Shanghai 2024
+- brnz4n | Shanghai 2024
+- exit | Shanghai 2024
+- Boombl4 | Shanghai 2024
+- Ax1Le | Shanghai 2024
+- Heavygod | Shanghai 2024
+- ICY | Shanghai 2024
+- Perfecto | Shanghai 2024
+- dexter | Shanghai 2024
+- Liazz | Shanghai 2024
+- aliStair | Shanghai 2024
+- INS | Shanghai 2024
+- vexite | Shanghai 2024
+- fEAR | Shanghai 2024
+- jambo | Shanghai 2024
+- jackasmo | Shanghai 2024
+- s-chilla | Shanghai 2024
+- zeRRoFIX | Shanghai 2024
+- stanislaw | Shanghai 2024
+- Sonic | Shanghai 2024
+- JBa | Shanghai 2024
+- phzy | Shanghai 2024
+- susp | Shanghai 2024
+- Summer | Shanghai 2024
+- ChildKing | Shanghai 2024
+- somebody | Shanghai 2024
+- L1haNg | Shanghai 2024
+- Kaze | Shanghai 2024
+- VINI | Shanghai 2024
+- felps | Shanghai 2024
+- TRY | Shanghai 2024
+- decenty | Shanghai 2024
+- noway | Shanghai 2024
+
+### Shanghai 2024 Contenders Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.77
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- GamerLegion (Gold) | Shanghai 2024
+- MIBR (Gold) | Shanghai 2024
+- Cloud9 (Gold) | Shanghai 2024
+- FlyQuest (Gold) | Shanghai 2024
+- Passion UA (Gold) | Shanghai 2024
+- Wildcard (Gold) | Shanghai 2024
+- Rare Atom (Gold) | Shanghai 2024
+- Imperial Esports (Gold) | Shanghai 2024
+- Perfect World (Gold) | Shanghai 2024
+
+#### Exotic (9)
+
+- GamerLegion (Holo) | Shanghai 2024
+- MIBR (Holo) | Shanghai 2024
+- Cloud9 (Holo) | Shanghai 2024
+- FlyQuest (Holo) | Shanghai 2024
+- Passion UA (Holo) | Shanghai 2024
+- Wildcard (Holo) | Shanghai 2024
+- Rare Atom (Holo) | Shanghai 2024
+- Imperial Esports (Holo) | Shanghai 2024
+- Perfect World (Holo) | Shanghai 2024
+
+#### Remarkable (9)
+
+- GamerLegion (Glitter) | Shanghai 2024
+- MIBR (Glitter) | Shanghai 2024
+- Cloud9 (Glitter) | Shanghai 2024
+- FlyQuest (Glitter) | Shanghai 2024
+- Passion UA (Glitter) | Shanghai 2024
+- Wildcard (Glitter) | Shanghai 2024
+- Rare Atom (Glitter) | Shanghai 2024
+- Imperial Esports (Glitter) | Shanghai 2024
+- Perfect World (Glitter) | Shanghai 2024
+
+#### High Grade (9)
+
+- GamerLegion | Shanghai 2024
+- MIBR | Shanghai 2024
+- Cloud9 | Shanghai 2024
+- FlyQuest | Shanghai 2024
+- Passion UA | Shanghai 2024
+- Wildcard | Shanghai 2024
+- Rare Atom | Shanghai 2024
+- Imperial Esports | Shanghai 2024
+- Perfect World | Shanghai 2024
+
+### Shanghai 2024 Legends Autograph Capsule
+
+- Release date: —
+- Fallback price: $0.21
+- Items: 160
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (40)
+
+- Snax (Gold) | Shanghai 2024
+- huNter- (Gold) | Shanghai 2024
+- malbsMd (Gold) | Shanghai 2024
+- m0NESY (Gold) | Shanghai 2024
+- NiKo (Gold) | Shanghai 2024
+- w0nderful (Gold) | Shanghai 2024
+- Aleksib (Gold) | Shanghai 2024
+- jL (Gold) | Shanghai 2024
+- b1t (Gold) | Shanghai 2024
+- iM (Gold) | Shanghai 2024
+- ZywOo (Gold) | Shanghai 2024
+- apEX (Gold) | Shanghai 2024
+- mezii (Gold) | Shanghai 2024
+- FlameZ (Gold) | Shanghai 2024
+- Spinx (Gold) | Shanghai 2024
+- chopper (Gold) | Shanghai 2024
+- magixx (Gold) | Shanghai 2024
+- donk (Gold) | Shanghai 2024
+- sh1ro (Gold) | Shanghai 2024
+- zont1x (Gold) | Shanghai 2024
+- torzsi (Gold) | Shanghai 2024
+- xertioN (Gold) | Shanghai 2024
+- Brollan (Gold) | Shanghai 2024
+- Jimpphat (Gold) | Shanghai 2024
+- siuhy (Gold) | Shanghai 2024
+- karrigan (Gold) | Shanghai 2024
+- rain (Gold) | Shanghai 2024
+- ropz (Gold) | Shanghai 2024
+- broky (Gold) | Shanghai 2024
+- frozen (Gold) | Shanghai 2024
+- TeSeS (Gold) | Shanghai 2024
+- sjuush (Gold) | Shanghai 2024
+- kyxsan (Gold) | Shanghai 2024
+- NertZ (Gold) | Shanghai 2024
+- degster (Gold) | Shanghai 2024
+- Ex3rcice (Gold) | Shanghai 2024
+- Djoko (Gold) | Shanghai 2024
+- Maka (Gold) | Shanghai 2024
+- Lucky (Gold) | Shanghai 2024
+- Graviti (Gold) | Shanghai 2024
+
+#### Exotic (40)
+
+- Snax (Holo) | Shanghai 2024
+- huNter- (Holo) | Shanghai 2024
+- malbsMd (Holo) | Shanghai 2024
+- m0NESY (Holo) | Shanghai 2024
+- NiKo (Holo) | Shanghai 2024
+- w0nderful (Holo) | Shanghai 2024
+- Aleksib (Holo) | Shanghai 2024
+- jL (Holo) | Shanghai 2024
+- b1t (Holo) | Shanghai 2024
+- iM (Holo) | Shanghai 2024
+- ZywOo (Holo) | Shanghai 2024
+- apEX (Holo) | Shanghai 2024
+- mezii (Holo) | Shanghai 2024
+- FlameZ (Holo) | Shanghai 2024
+- Spinx (Holo) | Shanghai 2024
+- chopper (Holo) | Shanghai 2024
+- magixx (Holo) | Shanghai 2024
+- donk (Holo) | Shanghai 2024
+- sh1ro (Holo) | Shanghai 2024
+- zont1x (Holo) | Shanghai 2024
+- torzsi (Holo) | Shanghai 2024
+- xertioN (Holo) | Shanghai 2024
+- Brollan (Holo) | Shanghai 2024
+- Jimpphat (Holo) | Shanghai 2024
+- siuhy (Holo) | Shanghai 2024
+- karrigan (Holo) | Shanghai 2024
+- rain (Holo) | Shanghai 2024
+- ropz (Holo) | Shanghai 2024
+- broky (Holo) | Shanghai 2024
+- frozen (Holo) | Shanghai 2024
+- TeSeS (Holo) | Shanghai 2024
+- sjuush (Holo) | Shanghai 2024
+- kyxsan (Holo) | Shanghai 2024
+- NertZ (Holo) | Shanghai 2024
+- degster (Holo) | Shanghai 2024
+- Ex3rcice (Holo) | Shanghai 2024
+- Djoko (Holo) | Shanghai 2024
+- Maka (Holo) | Shanghai 2024
+- Lucky (Holo) | Shanghai 2024
+- Graviti (Holo) | Shanghai 2024
+
+#### Remarkable (40)
+
+- Snax (Glitter) | Shanghai 2024
+- huNter- (Glitter) | Shanghai 2024
+- malbsMd (Glitter) | Shanghai 2024
+- m0NESY (Glitter) | Shanghai 2024
+- NiKo (Glitter) | Shanghai 2024
+- w0nderful (Glitter) | Shanghai 2024
+- Aleksib (Glitter) | Shanghai 2024
+- jL (Glitter) | Shanghai 2024
+- b1t (Glitter) | Shanghai 2024
+- iM (Glitter) | Shanghai 2024
+- ZywOo (Glitter) | Shanghai 2024
+- apEX (Glitter) | Shanghai 2024
+- mezii (Glitter) | Shanghai 2024
+- FlameZ (Glitter) | Shanghai 2024
+- Spinx (Glitter) | Shanghai 2024
+- chopper (Glitter) | Shanghai 2024
+- magixx (Glitter) | Shanghai 2024
+- donk (Glitter) | Shanghai 2024
+- sh1ro (Glitter) | Shanghai 2024
+- zont1x (Glitter) | Shanghai 2024
+- torzsi (Glitter) | Shanghai 2024
+- xertioN (Glitter) | Shanghai 2024
+- Brollan (Glitter) | Shanghai 2024
+- Jimpphat (Glitter) | Shanghai 2024
+- siuhy (Glitter) | Shanghai 2024
+- karrigan (Glitter) | Shanghai 2024
+- rain (Glitter) | Shanghai 2024
+- ropz (Glitter) | Shanghai 2024
+- broky (Glitter) | Shanghai 2024
+- frozen (Glitter) | Shanghai 2024
+- TeSeS (Glitter) | Shanghai 2024
+- sjuush (Glitter) | Shanghai 2024
+- kyxsan (Glitter) | Shanghai 2024
+- NertZ (Glitter) | Shanghai 2024
+- degster (Glitter) | Shanghai 2024
+- Ex3rcice (Glitter) | Shanghai 2024
+- Djoko (Glitter) | Shanghai 2024
+- Maka (Glitter) | Shanghai 2024
+- Lucky (Glitter) | Shanghai 2024
+- Graviti (Glitter) | Shanghai 2024
+
+#### High Grade (40)
+
+- Snax | Shanghai 2024
+- huNter- | Shanghai 2024
+- malbsMd | Shanghai 2024
+- m0NESY | Shanghai 2024
+- NiKo | Shanghai 2024
+- w0nderful | Shanghai 2024
+- Aleksib | Shanghai 2024
+- jL | Shanghai 2024
+- b1t | Shanghai 2024
+- iM | Shanghai 2024
+- ZywOo | Shanghai 2024
+- apEX | Shanghai 2024
+- mezii | Shanghai 2024
+- FlameZ | Shanghai 2024
+- Spinx | Shanghai 2024
+- chopper | Shanghai 2024
+- magixx | Shanghai 2024
+- donk | Shanghai 2024
+- sh1ro | Shanghai 2024
+- zont1x | Shanghai 2024
+- torzsi | Shanghai 2024
+- xertioN | Shanghai 2024
+- Brollan | Shanghai 2024
+- Jimpphat | Shanghai 2024
+- siuhy | Shanghai 2024
+- karrigan | Shanghai 2024
+- rain | Shanghai 2024
+- ropz | Shanghai 2024
+- broky | Shanghai 2024
+- frozen | Shanghai 2024
+- TeSeS | Shanghai 2024
+- sjuush | Shanghai 2024
+- kyxsan | Shanghai 2024
+- NertZ | Shanghai 2024
+- degster | Shanghai 2024
+- Ex3rcice | Shanghai 2024
+- Djoko | Shanghai 2024
+- Maka | Shanghai 2024
+- Lucky | Shanghai 2024
+- Graviti | Shanghai 2024
+
+### Shanghai 2024 Legends Sticker Capsule
+
+- Release date: —
+- Fallback price: $0.65
+- Items: 36
+- Drop weights: Extraordinary 0.64% · Exotic 3.21% · Remarkable 16.02% · High Grade 80.13%
+
+#### Extraordinary (9)
+
+- G2 Esports (Gold) | Shanghai 2024
+- Natus Vincere (Gold) | Shanghai 2024
+- Vitality (Gold) | Shanghai 2024
+- Team Spirit (Gold) | Shanghai 2024
+- MOUZ (Gold) | Shanghai 2024
+- FaZe Clan (Gold) | Shanghai 2024
+- HEROIC (Gold) | Shanghai 2024
+- 3DMAX (Gold) | Shanghai 2024
+- Perfect World (Gold) | Shanghai 2024
+
+#### Exotic (9)
+
+- G2 Esports (Holo) | Shanghai 2024
+- Natus Vincere (Holo) | Shanghai 2024
+- Vitality (Holo) | Shanghai 2024
+- Team Spirit (Holo) | Shanghai 2024
+- MOUZ (Holo) | Shanghai 2024
+- FaZe Clan (Holo) | Shanghai 2024
+- HEROIC (Holo) | Shanghai 2024
+- 3DMAX (Holo) | Shanghai 2024
+- Perfect World (Holo) | Shanghai 2024
+
+#### Remarkable (9)
+
+- G2 Esports (Glitter) | Shanghai 2024
+- Natus Vincere (Glitter) | Shanghai 2024
+- Vitality (Glitter) | Shanghai 2024
+- Team Spirit (Glitter) | Shanghai 2024
+- MOUZ (Glitter) | Shanghai 2024
+- FaZe Clan (Glitter) | Shanghai 2024
+- HEROIC (Glitter) | Shanghai 2024
+- 3DMAX (Glitter) | Shanghai 2024
+- Perfect World (Glitter) | Shanghai 2024
+
+#### High Grade (9)
+
+- G2 Esports | Shanghai 2024
+- Natus Vincere | Shanghai 2024
+- Vitality | Shanghai 2024
+- Team Spirit | Shanghai 2024
+- MOUZ | Shanghai 2024
+- FaZe Clan | Shanghai 2024
+- HEROIC | Shanghai 2024
+- 3DMAX | Shanghai 2024
+- Perfect World | Shanghai 2024

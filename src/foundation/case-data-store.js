@@ -17,8 +17,11 @@ function _validateEntry(entry) {
   }
 
   const weights = entry.rarity_weights ?? {};
+  const terminalRarities = (weights.rare_special ?? 0) > 0
+    ? [...TERMINAL_RARITIES, 'rare_special']
+    : TERMINAL_RARITIES;
   const checkRarities = type === 'weapon_case' ? WEAPON_CASE_RARITIES
-                      : type === 'terminal'     ? TERMINAL_RARITIES
+                      : type === 'terminal'     ? terminalRarities
                       :                          ALL_RARITIES;
   const sum = checkRarities.reduce((acc, r) => acc + (weights[r] ?? 0), 0);
   if (Math.abs(sum - 100.0) > 0.01) {
@@ -29,7 +32,7 @@ function _validateEntry(entry) {
   const items = entry.items ?? {};
 
   if (type === 'weapon_case' || type === 'terminal') {
-    const rarities = type === 'weapon_case' ? WEAPON_CASE_RARITIES : TERMINAL_RARITIES;
+    const rarities = type === 'weapon_case' ? WEAPON_CASE_RARITIES : terminalRarities;
     for (const rarity of rarities) {
       const tier = items[rarity] ?? [];
       const weight = weights[rarity] ?? 0;

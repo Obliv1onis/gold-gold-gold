@@ -1,7 +1,6 @@
 # Audio System
 
 > **Status**: In Design
-> **Author**: User + Claude Code
 > **Last Updated**: 2026-05-19
 > **Implements Pillar**: Sound Is Sacred · Faithful Over Flashy
 

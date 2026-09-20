@@ -1,20 +1,23 @@
 import { CapsuleDataStore }  from '../foundation/capsule-data-store.js';
 import { makePlaceholder }   from '../feature/item-placeholder.js';
 import { i18n }              from '../foundation/i18n.js';
+import { createCatalogToolbar, focusCatalogSearch, matchesCatalogQuery } from './catalog-toolbar.js';
 
 const STICKER_TYPES = ['sticker_capsule'];
 const OTHER_TYPES   = ['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box'];
 
 const SECTION_LABELS = {
-  charm_capsule: 'Charm Capsules',
-  patch_pack:    'Patch Packs',
-  pin_capsule:   'Collectible Pin Capsules',
-  music_kit_box: 'Music Kit Boxes',
+  charm_capsule: 'sec_charms',
+  patch_pack:    'sec_patches',
+  pin_capsule:   'sec_pins',
+  music_kit_box: 'sec_music_kits',
 };
 
 let _container       = null;
 let _onSelect        = null;
 let _activeCategory  = null;
+let _query           = '';
+let _sort            = 'newest';
 
 export const CapsuleBrowserUI = {
   init(container, { onSelect }) {
@@ -37,20 +40,66 @@ export const CapsuleBrowserUI = {
   _render(category) {
     _container.innerHTML = '';
 
-    if (category === 'sticker_capsule') {
-      const items = CapsuleDataStore.getCapsuleList('sticker_capsule');
-      _container.appendChild(_makeSection('Sticker Capsules', items, _onSelect));
-      return;
+    const groups = category === 'sticker_capsule'
+      ? [{ type: 'sticker_capsule', title: i18n.t('sec_stickers') }]
+      : OTHER_TYPES.map(type => ({ type, title: i18n.t(SECTION_LABELS[type] ?? 'sec_others') }));
+    const completeGroups = groups.map(group => ({
+      ...group,
+      items: CapsuleDataStore.getCapsuleList(group.type),
+    }));
+    const totalCount = completeGroups.reduce((sum, group) => sum + group.items.length, 0);
+    const visibleGroups = completeGroups.map(group => ({
+      ...group,
+      items: group.items
+        .filter(item => matchesCatalogQuery(item, _query))
+        .sort(_capsuleSort),
+    }));
+    const visibleCount = visibleGroups.reduce((sum, group) => sum + group.items.length, 0);
+
+    _container.appendChild(createCatalogToolbar({
+      query: _query,
+      visibleCount,
+      totalCount,
+      sort: _sort,
+      sortOptions: [
+        { value: 'newest', labelKey: 'catalog_newest' },
+        { value: 'oldest', labelKey: 'catalog_oldest' },
+        { value: 'name', labelKey: 'catalog_name' },
+      ],
+      onQueryChange: value => {
+        _query = value;
+        this._render(category);
+        focusCatalogSearch(_container);
+      },
+      onSortChange: value => {
+        _sort = value;
+        this._render(category);
+      },
+    }));
+
+    for (const group of visibleGroups) {
+      if (!group.items.length) continue;
+      _container.appendChild(_makeSection(group.title, group.items, _onSelect));
     }
 
-    // 'other' — render grouped sections
-    for (const type of OTHER_TYPES) {
-      const items = CapsuleDataStore.getCapsuleList(type);
-      if (!items.length) continue;
-      _container.appendChild(_makeSection(SECTION_LABELS[type] ?? type, items, _onSelect));
+    if (!visibleCount) {
+      const empty = document.createElement('div');
+      empty.className = 'browser-empty';
+      empty.textContent = totalCount ? i18n.t('catalog_no_results') : i18n.t('no_cases');
+      _container.appendChild(empty);
     }
   },
 };
+
+function _capsuleSort(a, b) {
+  const byName = i18n.caseName(a.name).localeCompare(i18n.caseName(b.name), i18n.getLocale());
+  if (_sort === 'name') return byName;
+  if (!a.release_date && !b.release_date) return byName;
+  if (!a.release_date) return 1;
+  if (!b.release_date) return -1;
+  const direction = _sort === 'oldest' ? 1 : -1;
+  return direction * a.release_date.localeCompare(b.release_date) || byName;
+}
 
 function _makeSection(title, items, onSelect) {
   const section = document.createElement('div');
@@ -71,7 +120,8 @@ function _makeSection(title, items, onSelect) {
 }
 
 function _makeCard(capsule, onSelect) {
-  const card = document.createElement('div');
+  const card = document.createElement('button');
+  card.type = 'button';
   card.className = 'case-card';
 
   card.addEventListener('click', () => {
@@ -83,6 +133,8 @@ function _makeCard(capsule, onSelect) {
     img.src       = capsule.image_url;
     img.alt       = capsule.name;
     img.className = 'case-card-image';
+    img.loading   = 'lazy';
+    img.decoding  = 'async';
     card.appendChild(img);
   } else {
     card.appendChild(makePlaceholder(capsule.name, 'card-size'));

@@ -1,49 +1,28 @@
 ---
 name: Bug Report
-about: Something isn't working as expected
+about: Report a problem with the CS2 case simulator
 title: "[Bug] "
 labels: bug
-assignees: ''
+assignees: ""
 ---
 
 ## Description
 
-A clear description of what the bug is.
+Describe what went wrong and what you expected to happen.
 
-## Steps to Reproduce
+## Steps to reproduce
 
-1. Open Claude Code in a project using this template
-2. Run `/<skill>` or trigger `<agent>`
-3. ...
-4. See error
-
-## Expected Behavior
-
-What you expected to happen.
-
-## Actual Behavior
-
-What actually happened. Include any error messages or unexpected output.
+1. Open the simulator.
+2. Navigate to the affected page or container.
+3. Perform the action that triggers the problem.
 
 ## Environment
 
-- **OS**: (e.g., Windows 10, macOS 14, Ubuntu 24.04)
-- **Shell**: (e.g., Git Bash, zsh, bash)
-- **Claude Code version**: (run `claude --version`)
-- **Node.js version**: (run `node --version`)
-- **jq installed?**: Yes / No
-- **Python installed?**: Yes / No
+- Browser and version:
+- Operating system:
+- Language setting:
+- Device type:
 
-## Affected Component
+## Additional context
 
-- [ ] Agent (which one?):
-- [ ] Skill (which one?):
-- [ ] Hook (which one?):
-- [ ] Rule (which one?):
-- [ ] Template
-- [ ] Documentation
-- [ ] Other:
-
-## Additional Context
-
-Any other context — screenshots, terminal output, or the session log if relevant.
+Include screenshots, console errors, and the affected case or item name when relevant.

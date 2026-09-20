@@ -1,7 +1,6 @@
 # Virtual Economy
 
 > **Status**: Complete — Pending Review
-> **Author**: User + Claude Code
 > **Last Updated**: 2026-05-19
 > **Implements Pillar**: Zero Friction · Faithful Over Flashy
 

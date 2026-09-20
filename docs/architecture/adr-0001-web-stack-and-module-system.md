@@ -13,7 +13,7 @@ Proposed
 | **Engine** | Browser (HTML / CSS / JavaScript) |
 | **Domain** | Core / Web Platform |
 | **Knowledge Risk** | LOW — all APIs are stable, pre-training-data |
-| **References Consulted** | Browser platform APIs (Godot engine-reference is not applicable to this project) |
+| **References Consulted** | Browser platform APIs and Vite documentation |
 | **Post-Cutoff APIs Used** | None |
 | **Verification Required** | Confirm Vite 6.x and Vitest 3.x build/test pipeline runs on target dev machines before first sprint |
 

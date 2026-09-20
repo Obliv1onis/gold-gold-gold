@@ -117,12 +117,12 @@ export const HudAppShell = {
         </div>
       </div>
 
-      <nav class="nav-tabs">
-        <span class="nav-tab active" data-view="home"      data-i18n="nav_home">Home</span>
-        <span class="nav-tab"        data-view="market"    data-i18n="nav_market">Market</span>
-        <span class="nav-tab"        data-view="tradeup"   data-i18n="nav_tradeup">Trade Up</span>
-        <span class="nav-tab"        data-view="inventory" data-i18n="nav_inventory">Inventory</span>
-        <span class="nav-tab"        data-view="credits"   data-i18n="nav_credits">Credits</span>
+      <nav class="nav-tabs" aria-label="Primary">
+        <button type="button" class="nav-tab active" data-view="home"      data-i18n="nav_home">Home</button>
+        <button type="button" class="nav-tab"        data-view="market"    data-i18n="nav_market">Market</button>
+        <button type="button" class="nav-tab"        data-view="tradeup"   data-i18n="nav_tradeup">Trade Up</button>
+        <button type="button" class="nav-tab"        data-view="inventory" data-i18n="nav_inventory">Inventory</button>
+        <button type="button" class="nav-tab"        data-view="credits"   data-i18n="nav_credits">Credits</button>
       </nav>
 
       <main class="content-region">
@@ -276,7 +276,8 @@ export const HudAppShell = {
       _isAnimating = true;
       CaseInventory.addCase(_selectedCaseId);
       this._evaluateOpenButton();
-      onOpenClick(_selectedCaseId, _caseMarketPrice, _currentCategory);
+      if (_currentCategory === null) onOpenClick(_selectedCaseId, _caseMarketPrice);
+      else onOpenClick(_selectedCaseId, _caseMarketPrice, _currentCategory);
     });
 
     // Reset button — opens modal
@@ -305,6 +306,7 @@ export const HudAppShell = {
     document.addEventListener(Events.CASE_INVENTORY_CHANGED, () => this._refreshCaseCount());
     document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => {
       this._refreshInvValue();
+      this._refreshResetVisibility();
     });
     document.addEventListener(Events.REEL_READY,             () => { _reelReady = true; this._evaluateOpenButton(); });
 
@@ -471,6 +473,7 @@ export const HudAppShell = {
   _refreshBalance() {
     const bal = VirtualEconomy.getBalance();
     _balanceEl.textContent = _formatBalance(bal);
+    this._refreshResetVisibility();
   },
 
   _onBalanceChanged(e) {
@@ -479,6 +482,7 @@ export const HudAppShell = {
       ? balance
       : VirtualEconomy.getBalance();
     _balanceEl.textContent = _formatBalance(val);
+    this._refreshResetVisibility(val);
     this._evaluateOpenButton();
   },
 
@@ -505,11 +509,18 @@ export const HudAppShell = {
     _invValueEl.textContent = `$${total.toFixed(2)}`;
   },
 
+  _refreshResetVisibility(balance = VirtualEconomy.getBalance()) {
+    if (!_resetBtn) return;
+    const isBankrupt = balance <= 0 && SkinInventory.getItems().length === 0;
+    _resetBtn.toggleAttribute('hidden', !isBankrupt);
+  },
+
   _handleReset() {
     VirtualEconomy.reset();
     try { CaseInventory.clearInventory(); } catch (e) { console.error(e); }
     try { SkinInventory.clearInventory(); } catch (e) { console.error(e); }
     if (_selectedCaseId) this._refreshCaseCount();
+    this._refreshResetVisibility();
     this._evaluateOpenButton();
   },
 
@@ -527,7 +538,8 @@ export const HudAppShell = {
 };
 
 function _makeTile(cat, onClick) {
-  const tile = document.createElement('div');
+  const tile = document.createElement('button');
+  tile.type = 'button';
   tile.className = `home-tile${cat.comingSoon ? ' home-tile--coming-soon' : ''}`;
   tile.addEventListener('click', onClick);
 

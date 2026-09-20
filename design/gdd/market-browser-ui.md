@@ -1,7 +1,6 @@
 # Market Browser UI
 
 > **Status**: Complete
-> **Author**: User + Claude Code
 > **Last Updated**: 2026-05-21
 > **Implements Pillar**: Faithful Over Flashy · Every Case Counts · Zero Friction
 

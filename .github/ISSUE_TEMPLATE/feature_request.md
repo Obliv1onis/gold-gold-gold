@@ -1,40 +1,23 @@
 ---
 name: Feature Request
-about: Suggest a new agent, skill, hook, or improvement
+about: Suggest an improvement to the CS2 case simulator
 title: "[Feature] "
 labels: enhancement
-assignees: ''
+assignees: ""
 ---
 
 ## Summary
 
-A brief description of what you'd like added or changed.
+Describe the requested feature or improvement.
 
-## Type
+## Motivation
 
-- [ ] New agent
-- [ ] New skill (slash command)
-- [ ] New hook
-- [ ] New rule
-- [ ] New template
-- [ ] Improvement to existing component
-- [ ] Other:
+Explain the player or maintenance problem this would solve.
 
-## Problem / Motivation
+## Proposed behavior
 
-What problem does this solve? What workflow does it improve?
+Describe how the feature should work. Include relevant cases, skins, containers, or UI examples.
 
-## Proposed Solution
+## Additional context
 
-How do you think this should work? Include details like:
-- For agents: what domain, what tier, what tools
-- For skills: what the workflow looks like, what it outputs
-- For hooks: what event triggers it, what it validates
-
-## Alternatives Considered
-
-Any other approaches you've thought about.
-
-## Additional Context
-
-Examples, references, or screenshots that help explain the request.
+Add mockups, references, or alternatives if available.

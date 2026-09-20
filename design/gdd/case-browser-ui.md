@@ -1,7 +1,6 @@
 # Case Browser UI
 
 > **Status**: Designed — Pending Review
-> **Author**: User + Claude Code
 > **Last Updated**: 2026-05-21
 > **Implements Pillar**: Zero Friction · Every Case Counts · Faithful Over Flashy
 

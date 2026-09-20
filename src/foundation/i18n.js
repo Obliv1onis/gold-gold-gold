@@ -25,7 +25,9 @@ export const i18n = {
    * @param {string} locale
    */
   setLocale(locale) {
-    if (!TRANSLATIONS[locale] || locale === _locale) return;
+    if (!TRANSLATIONS[locale]) return;
+    document.documentElement.lang = locale;
+    if (locale === _locale) return;
     _locale = locale;
     this.applyToDOM();
     document.dispatchEvent(new CustomEvent('locale-changed', { detail: { locale } }));

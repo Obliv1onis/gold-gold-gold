@@ -2,10 +2,13 @@ import { CaseDataStore }  from '../foundation/case-data-store.js';
 import { PriceAPILayer }  from '../feature/price-api-layer.js';
 import { Events }         from '../foundation/events.js';
 import { i18n }           from '../foundation/i18n.js';
+import { createCatalogToolbar, focusCatalogSearch, matchesCatalogQuery } from './catalog-toolbar.js';
 
 let _container      = null;
 let _onSelect       = null;
 let _activeFilter   = null; // 'weapon_case' | 'souvenir_package' | null (all)
+let _query          = '';
+let _sort           = 'newest';
 
 /**
  * Grid of all available cases. Clicking a card fires onSelect(caseId, casePrice).
@@ -64,9 +67,42 @@ export const CaseBrowserUI = {
         ? [{ type: _activeFilter, titleKey: _activeFilter === 'souvenir_package' ? 'sec_souvenirs' : 'sec_cases' }]
         : [{ type: 'weapon_case', titleKey: 'sec_cases' }, { type: 'souvenir_package', titleKey: 'sec_souvenirs' }];
 
+    const allLists = sections.map(section => ({
+      ...section,
+      list: CaseDataStore.getCaseList(section.type),
+    }));
+    const totalCount = allLists.reduce((sum, section) => sum + section.list.length, 0);
+    const visibleLists = allLists.map(section => ({
+      ...section,
+      list: section.list
+        .filter(item => matchesCatalogQuery(item, _query))
+        .sort(_caseSort),
+    }));
+    const visibleCount = visibleLists.reduce((sum, section) => sum + section.list.length, 0);
+
+    _container.appendChild(createCatalogToolbar({
+      query: _query,
+      visibleCount,
+      totalCount,
+      sort: _sort,
+      sortOptions: [
+        { value: 'newest', labelKey: 'catalog_newest' },
+        { value: 'oldest', labelKey: 'catalog_oldest' },
+        { value: 'name', labelKey: 'catalog_name' },
+      ],
+      onQueryChange: value => {
+        _query = value;
+        this._render();
+        focusCatalogSearch(_container);
+      },
+      onSortChange: value => {
+        _sort = value;
+        this._render();
+      },
+    }));
+
     let anyItems = false;
-    for (const { type, titleKey } of sections) {
-      const list = CaseDataStore.getCaseList(type);
+    for (const { titleKey, list } of visibleLists) {
       if (list.length) {
         _container.appendChild(_makeSection(i18n.t(titleKey), list));
         anyItems = true;
@@ -76,11 +112,21 @@ export const CaseBrowserUI = {
     if (!anyItems) {
       const msg = document.createElement('div');
       msg.className   = 'browser-empty';
-      msg.textContent = i18n.t('no_cases');
+      msg.textContent = totalCount ? i18n.t('catalog_no_results') : i18n.t('no_cases');
       _container.appendChild(msg);
     }
   },
 };
+
+function _caseSort(a, b) {
+  const byName = i18n.caseName(a.name).localeCompare(i18n.caseName(b.name), i18n.getLocale());
+  if (_sort === 'name') return byName;
+  if (!a.release_date && !b.release_date) return byName;
+  if (!a.release_date) return 1;
+  if (!b.release_date) return -1;
+  const direction = _sort === 'oldest' ? 1 : -1;
+  return direction * a.release_date.localeCompare(b.release_date) || byName;
+}
 
 function _makeSection(title, caseList) {
   const section = document.createElement('div');
@@ -103,7 +149,8 @@ function _makeCard(caseData, onSelect) {
   const hashName  = PriceAPILayer.buildCaseHashName(caseData.name ?? caseData.id);
   const livePrice = PriceAPILayer.getCachedPrice(hashName);
 
-  const card = document.createElement('div');
+  const card = document.createElement('button');
+  card.type = 'button';
   card.className = 'case-card';
 
   card.addEventListener('click', () => {
@@ -117,6 +164,8 @@ function _makeCard(caseData, onSelect) {
     img.src       = caseData.image_url;
     img.alt       = caseData.name ?? '';
     img.className = 'case-card-image';
+    img.loading   = 'lazy';
+    img.decoding  = 'async';
     card.appendChild(img);
   } else {
     const ph = document.createElement('div');

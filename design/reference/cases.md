@@ -1,1093 +1,3037 @@
-## Rarities / Grades Key
-* **Covert** (Red) - Extremely Rare
-* **Classified** (Pink) - Legendary
-* **Restricted** (Purple) - Mythical
-* **Mil-Spec** (Blue) - Rare
-* **Rare Special Item** (Gold) - Knives / Gloves
-
----
-
-## CS:GO Weapon Case
-
-* **Covert**
-  * AWP | Lightning Strike
-* **Classified**
-  * AK-47 | Case Hardened
-  * Desert Eagle | Hypnotic
-* **Restricted**
-  * Glock-18 | Dragon Tattoo
-  * M4A1-S | Dark Water
-  * USP-S | Dark Water
-* **Mil-Spec**
-  * AUG | Wings
-  * MP7 | Skulls
-  * SG 553 | Ultraviolet
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## eSports 2013 Case
-
-* **Covert**
-  * P90 | Death by Kitty
-* **Classified**
-  * AK-47 | Red Laminate
-  * AWP | BOOM
-* **Restricted**
-  * Galil AR | Orange DDPAT
-  * P250 | Splash
-  * Sawed-Off | Orange DDPAT
-* **Mil-Spec**
-  * FAMAS | Doomkitty
-  * M4A4 | Faded Zebra
-  * MAG-7 | Memento
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Operation Bravo Case
-
-* **Covert**
-  * AK-47 | Fire Serpent
-  * Desert Eagle | Golden Koi
-* **Classified**
-  * AWP | Graphite
-  * P2000 | Ocean Foam
-  * P90 | Emerald Dragon
-* **Restricted**
-  * M4A1-S | Bright Water
-  * M4A4 | Zirka
-  * MAC-10 | Graven
-  * USP-S | Overgrowth
-* **Mil-Spec**
-  * Dual Berettas | Black Limba
-  * G3SG1 | Demeter
-  * Galil AR | Shattered
-  * Nova | Tempest
-  * SG 553 | Wave Spray
-  * UMP-45 | Bone Pile
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## CS:GO Weapon Case 2
-
-* **Covert**
-  * SSG 08 | Blood in the Water
-* **Classified**
-  * P90 | Cold Blooded
-  * USP-S | Serum
-* **Restricted**
-  * Dual Berettas | Hemoglobin
-  * Five-SeveN | Case Hardened
-  * MP9 | Hypnotic
-  * Nova | Graphite
-* **Mil-Spec**
-  * FAMAS | Hexane
-  * M4A1-S | Blood Tiger
-  * P250 | Hive
-  * SCAR-20 | Crimson Web
-  * Tec-9 | Blue Titanium
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## eSports 2013 Winter Case
-
-* **Covert**
-  * M4A4 | X-Ray
-* **Classified**
-  * AWP | Electric Hive
-  * Desert Eagle | Cobalt Disruption
-  * FAMAS | Afterimage
-* **Restricted**
-  * AK-47 | Blue Laminate
-  * P90 | Blind Spot
-* **Mil-Spec**
-  * Five-SeveN | Nightshade
-  * G3SG1 | Azure Zebra
-  * Galil AR | Blue Titanium
-  * Nova | Ghost Camo
-  * P250 | Steel Disruption
-  * PP-Bizon | Water Sigil
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Winter Offensive Weapon Case
-
-* **Covert**
-  * M4A4 | Asiimov
-  * Sawed-Off | The Kraken
-* **Classified**
-  * AWP | Redline
-  * M4A1-S | Guardian
-  * P250 | Mehndi
-* **Restricted**
-  * Dual Berettas | Marina
-  * FAMAS | Pulse
-  * MP9 | Rose Iron
-  * Nova | Rising Skull
-* **Mil-Spec**
-  * Five-SeveN | Kami
-  * Galil AR | Sandstorm
-  * M249 | Magma
-  * PP-Bizon | Cobalt Halftone
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## CS:GO Weapon Case 3
-
-* **Covert**
-  * CZ75-Auto | Victoria
-* **Classified**
-  * CZ75-Auto | The Fuschia Is Now
-  * P250 | Undertow
-* **Restricted**
-  * CZ75-Auto | Tread Plate
-  * Desert Eagle | Heirloom
-  * Five-SeveN | Copper Galaxy
-  * Tec-9 | Titanium Bit
-* **Mil-Spec**
-  * CZ75-Auto | Crimson Web
-  * Dual Berettas | Panther
-  * Glock-18 | Blue Fissure
-  * P2000 | Red FragCam
-  * USP-S | Stainless
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Operation Phoenix Weapon Case
-
-* **Covert**
-  * AUG | Chameleon
-  * AWP | Asiimov
-* **Classified**
-  * AK-47 | Redline
-  * Nova | Antique
-  * P90 | Trigon
-* **Restricted**
-  * FAMAS | Sergeant
-  * MAC-10 | Heat
-  * SG 553 | Pulse
-  * USP-S | Guardian
-* **Mil-Spec**
-  * MAG-7 | Heaven Guard
-  * Negev | Terrain
-  * Tec-9 | Sandstorm
-  * UMP-45 | Corporal
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Huntsman Weapon Case
-
-* **Covert**
-  * AK-47 | Vulcan
-  * M4A4 | Desert-Strike
-* **Classified**
-  * M4A1-S | Atomic Alloy
-  * SCAR-20 | Cyrex
-  * USP-S | Caiman
-* **Restricted**
-  * AUG | Torque
-  * MAC-10 | Tatter
-  * PP-Bizon | Antique
-  * XM1014 | Heaven Guard
-* **Mil-Spec**
-  * CZ75-Auto | Twist
-  * Galil AR | Kami
-  * P2000 | Pulse
-  * P90 | Desert Warfare
-  * SSG 08 | Slashed
-  * Tec-9 | Isaac
-* **Rare Special Item**
-  * Huntsman Knife (Original Finishes)
-
----
-
-## Operation Breakout Weapon Case
-
-* **Covert**
-  * M4A1-S | Cyrex
-  * P90 | Asiimov
-* **Classified**
-  * Desert Eagle | Conspiracy
-  * Five-SeveN | Fowl Play
-  * Glock-18 | Water Elemental
-* **Restricted**
-  * CZ75-Auto | Tigris
-  * Nova | Koi
-  * P250 | Supernova
-  * PP-Bizon | Osiris
-* **Mil-Spec**
-  * MP7 | Urban Hazard
-  * Negev | Desert-Strike
-  * P2000 | Ivory
-  * SSG 08 | Abyss
-  * UMP-45 | Labyrinth
-* **Rare Special Item**
-  * Butterfly Knife (Original Finishes)
-
----
-
-## eSports 2014 Summer Case
-
-* **Covert**
-  * AK-47 | Jaguar
-  * M4A4 | Bullet Rain
-* **Classified**
-  * AUG | Bengal Tiger
-  * AWP | Corticera
-  * Nova | Bloomstick
-  * P2000 | Corticera
-* **Restricted**
-  * Desert Eagle | Crimson Web
-  * Glock-18 | Steel Disruption
-  * MAC-10 | Ultraviolet
-  * MP7 | Ocean Foam
-  * P90 | Virus
-  * PP-Bizon | Blue Streak
-* **Mil-Spec**
-  * CZ75-Auto | Hexane
-  * Negev | Bratatat
-  * SSG 08 | Dark Water
-  * USP-S | Blood Tiger
-  * XM1014 | Red Python
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Operation Vanguard Weapon Case
-
-* **Covert**
-  * AK-47 | Wasteland Rebel
-  * P2000 | Fire Elemental
-* **Classified**
-  * M4A4 | Griffin
-  * P250 | Cartel
-  * XM1014 | Tranquility
-* **Restricted**
-  * G3SG1 | Murky
-  * Glock-18 | Grinder
-  * M4A1-S | Basilisk
-  * SCAR-20 | Cardiac
-* **Mil-Spec**
-  * Five-SeveN | Urban Hazard
-  * MAG-7 | Firestarter
-  * MP9 | Dart
-  * Sawed-Off | Highwayman
-  * UMP-45 | Delusion
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-  
----
-
-## Chroma Case
-
-* **Covert**
-  * AWP | Man-o'-war
-  * Galil AR | Chatterbox
-* **Classified**
-  * AK-47 | Cartel
-  * M4A4 | 🐉 (Dragon King)
-  * P250 | Muertos
-* **Restricted**
-  * Desert Eagle | Naga
-  * Dual Berettas | Urban Shock
-  * MAC-10 | Malachite
-  * Sawed-Off | Serenity
-* **Mil-Spec**
-  * Glock-18 | Catacombs
-  * M249 | System Lock
-  * MP9 | Deadly Poison
-  * SCAR-20 | Grotto
-  * XM1014 | Quicksilver
-* **Rare Special Item**
-  * Knives (Chroma Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Chroma 2 Case
-
-* **Covert**
-  * M4A1-S | Hyper Beast
-  * MAC-10 | Neon Rider
-* **Classified**
-  * FAMAS | Djinn
-  * Five-SeveN | Monkey Business
-  * Galil AR | Eco
-* **Restricted**
-  * AWP | Worm God
-  * CZ75-Auto | Pole Position
-  * MAG-7 | Heat
-  * UMP-45 | Grand Prix
-* **Mil-Spec**
-  * AK-47 | Elite Build
-  * Desert Eagle | Bronze Deco
-  * MP7 | Armor Core
-  * Negev | Man-o'-war
-  * P250 | Valence
-  * Sawed-Off | Origami
-* **Rare Special Item**
-  * Knives (Chroma Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Falchion Case
-
-* **Covert**
-  * AK-47 | Aquamarine Revenge
-  * AWP | Hyper Beast
-* **Classified**
-  * CZ75-Auto | Yellow Jacket
-  * MP7 | Nemesis
-  * SG 553 | Cyrex
-* **Restricted**
-  * FAMAS | Neural Net
-  * M4A4 | Evil Daimyo
-  * MP9 | Ruby Poison Dart
-  * Negev | Loudmouth
-  * P2000 | Handgun
-* **Mil-Spec**
-  * Galil AR | Rocket Pop
-  * Glock-18 | Bunsen Burner
-  * Nova | Ranger
-  * P90 | Elite Build
-  * UMP-45 | Riot
-  * USP-S | Torque
-* **Rare Special Item**
-  * Falchion Knife (Original Finishes)
-
----
-
-## Shadow Case
-
-* **Covert**
-  * M4A1-S | Golden Coil
-  * USP-S | Kill Confirmed
-* **Classified**
-  * AK-47 | Frontside Misty
-  * G3SG1 | Flux
-  * SSG 08 | Big Iron
-* **Restricted**
-  * Galil AR | Stone Cold
-  * M249 | Nebula Crusader
-  * MP7 | Special Delivery
-  * P250 | Wingshot
-* **Mil-Spec**
-  * Dual Berettas | Dualing Dragons
-  * FAMAS | Survivor Z
-  * Glock-18 | Wraiths
-  * MAC-10 | Rangeen
-  * MAG-7 | Cobalt Core
-  * SCAR-20 | Green Marine
-  * XM1014 | Scumbria
-* **Rare Special Item**
-  * Shadow Daggers (Original Finishes)
-
----
-
-## Revolver Case
-
-* **Covert**
-  * M4A4 | Royal Paladin
-  * R8 Revolver | Fade
-* **Classified**
-  * AK-47 | Point Disarray
-  * Five-SeveN | Retrobution
-  * P90 | Shapewood
-* **Restricted**
-  * Negev | Power Loader
-  * PP-Bizon | Fuel Rod
-  * SG 553 | Tiger Moth
-  * Tec-9 | Avalanche
-  * XM1014 | Teclu Burner
-* **Mil-Spec**
-  * AUG | Ricochet
-  * Desert Eagle | Corinthian
-  * P2000 | Imperial
-  * R8 Revolver | Crimson Web
-  * Sawed-Off | Yorick
-  * SCAR-20 | Outbreak
-* **Rare Special Item**
-  * Knives (Original Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Operation Wildfire Case
-
-* **Covert**
-  * AK-47 | Fuel Injector
-  * M4A4 | The Battlestar
-* **Classified**
-  * AWP | Elite Build
-  * Desert Eagle | Kumicho Dragon
-  * Nova | Hyper Beast
-* **Restricted**
-  * FAMAS | Valence
-  * Five-SeveN | Triumvirate
-  * Glock-18 | Royal Legion
-  * MAG-7 | Praetorian
-  * MP7 | Impire
-* **Mil-Spec**
-  * Dual Berettas | Cartel
-  * MAC-10 | Lapis Gator
-  * PP-Bizon | Photic Zone
-  * SSG 08 | Necropos
-  * Tec-9 | Jambiya
-  * USP-S | Lead Conduit
-* **Rare Special Item**
-  * Bowie Knife (Original Finishes)
-
----
-
-## Chroma 3 Case
-
-* **Covert**
-  * M4A1-S | Chantico's Fire
-  * PP-Bizon | Judgement of Anubis
-* **Classified**
-  * AUG | Fleet Flock
-  * P250 | Asiimov
-  * UMP-45 | Primal Saber
-* **Restricted**
-  * CZ75-Auto | Red Astor
-  * Galil AR | Firefight
-  * SSG 08 | Ghost Crusader
-  * Tec-9 | Re-Entry
-  * XM1014 | Black Tie
-* **Mil-Spec**
-  * Dual Berettas | Ventilators
-  * G3SG1 | Orange Crash
-  * M249 | Spectre
-  * MP9 | Bioleak
-  * P2000 | Oceanic
-  * Sawed-Off | Fubar
-  * SG 553 | Atlas
-* **Rare Special Item**
-  * Knives (Chroma Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Gamma Case
-
-* **Covert**
-  * Glock-18 | Wasteland Rebel
-  * M4A1-S | Mecha Industries
-* **Classified**
-  * M4A4 | Desolate Space
-  * P2000 | Imperial Dragon
-  * SCAR-20 | Bloodsport
-* **Restricted**
-  * AWP | Phobos
-  * Nova | Exo
-  * P250 | Iron Clad
-  * R8 Revolver | Reboot
-  * Sawed-Off | Limelight
-* **Mil-Spec**
-  * AUG | Aristocrat
-  * Five-SeveN | Scumbria
-  * MAC-10 | Carnivore
-  * P90 | Chopper
-  * PP-Bizon | Harvester
-  * SG 553 | Aerial
-  * Tec-9 | Ice Cap
-* **Rare Special Item**
-  * Knives (Gamma Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Gamma 2 Case
-
-* **Covert**
-  * AK-47 | Neon Revolution
-  * FAMAS | Roll Cage
-* **Classified**
-  * AUG | Syd Mead
-  * MP9 | Airlock
-  * Tec-9 | Fuel Injector
-* **Restricted**
-  * Desert Eagle | Directive
-  * Glock-18 | Weasel
-  * MAG-7 | Petroglyph
-  * SCAR-20 | Powercore
-  * SG 553 | Triarch
-* **Mil-Spec**
-  * CZ75-Auto | Imprint
-  * G3SG1 | Ventilator
-  * Negev | Dazzle
-  * P90 | Grim
-  * UMP-45 | Briefing
-  * XM1014 | Slipstream
-* **Rare Special Item**
-  * Knives (Gamma Finishes: Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet)
-
----
-
-## Glove Case
-
-* **Covert**
-  * M4A4 | Buzz Kill
-  * SSG 08 | Dragonfire
-* **Classified**
-  * FAMAS | Mecha Industries
-  * P90 | Shallow Grave
-  * Sawed-Off | Wasteland Princess
-* **Restricted**
-  * Dual Berettas | Royal Consorts
-  * Glock-18 | Ironwork
-  * M4A1-S | Flashback
-  * Nova | Gila
-  * USP-S | Cyrex
-* **Mil-Spec**
-  * CZ75-Auto | Polymer
-  * Galil AR | Black Sand
-  * M249 | Emerald Poison Dart
-  * MAG-7 | Sonar
-  * MP7 | Cirrus
-  * MP9 | Sand Scale
-  * P2000 | Turf
-* **Rare Special Item**
-  * Gloves (Original Finishes: Bloodhound, Driver, Hand Wraps, Moto, Specialist, Sport)
-
----
-
-## Spectrum Case
-
-* **Covert**
-  * AK-47 | Bloodsport
-  * USP-S | Neo-Noir
-* **Classified**
-  * AWP | Fever Dream
-  * CZ75-Auto | Xiangliu
-  * M4A1-S | Decimator
-* **Restricted**
-  * Galil AR | Crimson Tsunami
-  * MAC-10 | Last Dive
-  * SG 553 | Phantom
-  * UMP-45 | Scaffold
-  * XM1014 | Seasons
-* **Mil-Spec**
-  * Desert Eagle | Oxide Blaze
-  * Five-SeveN | Capillary
-  * MP7 | Akoben
-  * P250 | Ripple
-  * PP-Bizon | Jungle Slipstream
-  * Sawed-Off | Zander
-  * SCAR-20 | Blueprint
-* **Rare Special Item**
-  * Knives (Spectrum Finishes: Butterfly, Huntsman, Falchion, Bowie, Shadow Daggers)
-
----
-
-## Operation Hydra Case
-
-* **Covert**
-  * AWP | Oni Taiji
-  * Five-SeveN | Hyper Beast
-* **Classified**
-  * Dual Berettas | Cobra Strike
-  * Galil AR | Sugar Rush
-  * M4A4 | Hellfire
-* **Restricted**
-  * AK-47 | Orbit Mk01
-  * P2000 | Woodsman
-  * P250 | Red Rock
-  * P90 | Death Grip
-  * SSG 08 | Death's Head
-* **Mil-Spec**
-  * FAMAS | Macabre
-  * M4A1-S | Briefing
-  * MAC-10 | Aloha
-  * MAG-7 | Hard Water
-  * Tec-9 | Cut
-  * UMP-45 | Metal Flowers
-  * USP-S | Blueprint
-* **Rare Special Item**
-  * Gloves (Original Finishes: Bloodhound, Driver, Hand Wraps, Moto, Specialist, Sport)
-
----
-
-## Spectrum 2 Case
-
-* **Covert**
-  * AK-47 | The Empress
-  * P250 | See Ya Later
-* **Classified**
-  * M4A1-S | Leaded Glass
-  * PP-Bizon | High Roller
-  * R8 Revolver | Llama Cannon
-* **Restricted**
-  * CZ75-Auto | Tacticat
-  * MP9 | Goo
-  * SG 553 | Aloha
-  * UMP-45 | Exposure
-  * XM1014 | Ziggy
-* **Mil-Spec**
-  * AUG | Triqua
-  * G3SG1 | Hunter
-  * Glock-18 | Off World
-  * MAC-10 | Oceanic
-  * Sawed-Off | Morris
-  * SCAR-20 | Jungle Slipstream
-  * Tec-9 | Cracked Opal
-* **Rare Special Item**
-  * Knives (Spectrum Finishes: Butterfly, Huntsman, Falchion, Bowie, Shadow Daggers)
-
----
-
-## Clutch Case
-
-* **Covert**
-  * M4A4 | Neo-Noir
-  * MP7 | Bloodsport
-* **Classified**
-  * AUG | Stymphalian
-  * AWP | Mortis
-  * USP-S | Cortex
-* **Restricted**
-  * Glock-18 | Moonrise
-  * MAG-7 | SWAG-7
-  * Negev | Lionfish
-  * Nova | Wild Six
-  * UMP-45 | Arctic Wolf
-* **Mil-Spec**
-  * Five-SeveN | Flame Test
-  * MP9 | Black Sand
-  * P2000 | Urban Hazard
-  * PP-Bizon | Night Riot
-  * R8 Revolver | Grip
-  * SG 553 | Aloha
-  * XM1014 | Oxide Blaze
-* **Rare Special Item**
-  * Gloves (Clutch Case Collection: Hydra, Moto, Specialist, Sport, Hand Wraps, Driver)
-
----
-
-## Horizon Case
-
-* **Covert**
-  * AK-47 | Neon Rider
-  * Desert Eagle | Code Red
-* **Classified**
-  * FAMAS | Eye of Athena
-  * M4A1-S | Nightmare
-  * Sawed-Off | Devourer
-* **Restricted**
-  * AWP | PAW
-  * CZ75-Auto | Eco
-  * G3SG1 | High Seas
-  * MP7 | Powercore
-  * Nova | Toy Soldier
-* **Mil-Spec**
-  * AUG | Amber Slipstream
-  * Dual Berettas | Shred
-  * Glock-18 | Warhawk
-  * MP9 | Capillary
-  * P90 | Traction
-  * R8 Revolver | Survivalist
-  * Tec-9 | Snek-9
-* **Rare Special Item**
-  * Knives (Original Finishes: Navaja, Stiletto, Talon, Ursus)
-
----
-
-## Danger Zone Case
-
-* **Covert**
-  * AK-47 | Asiimov
-  * AWP | Neo-Noir
-* **Classified**
-  * Desert Eagle | Mecha Industries
-  * MP5-SD | Phosphor
-  * UMP-45 | Momentum
-* **Restricted**
-  * G3SG1 | Scavenger
-  * Galil AR | Signal
-  * MAC-10 | Pipe Down
-  * P250 | Nevermore
-  * USP-S | Flashback
-* **Mil-Spec**
-  * Glock-18 | Oxide Blaze
-  * M4A4 | Magnesium
-  * Nova | Wood Fired
-  * P90 | Off World
-  * Sawed-Off | Black Sand
-  * SG 553 | Danger Close
-  * Tec-9 | FNC
-* **Rare Special Item**
-  * Knives (Original Finishes: Navaja, Stiletto, Talon, Ursus)
-
----
-
-## Prisma Case
-
-* **Covert**
-  * Five-SeveN | Angry Mob
-  * M4A4 | The Emperor
-* **Classified**
-  * AUG | Momentum
-  * AWP | Atheris
-  * XM1014 | Incinegator
-* **Restricted**
-  * Desert Eagle | Light Rail
-  * MP5-SD | Gauss
-  * R8 Revolver | Skull Crusher
-  * Tec-9 | Bamboozle
-  * UMP-45 | Moonrise
-* **Mil-Spec**
-  * AK-47 | Uncharted
-  * FAMAS | Crypsis
-  * Galil AR | Akoben
-  * MAC-10 | Whitefish
-  * MP7 | Mischief
-  * P250 | Verdigris
-* **Rare Special Item**
-  * Knives (Chroma Finishes: Navaja, Stiletto, Talon, Ursus)
-
----
-
-## CS20 Case
-
-* **Covert**
-  * AWP | Wildfire
-  * FAMAS | Commemoration
-* **Classified**
-  * AUG | Death by Puppy
-  * MP9 | Hydra
-  * P90 | Nostalgia
-* **Restricted**
-  * Five-SeveN | Buddy
-  * M249 | Aztec
-  * MP5-SD | Agent
-  * P250 | Inferno
-  * UMP-45 | Plastique
-* **Mil-Spec**
-  * Dual Berettas | Elite 1.6
-  * FAMAS | Decommissioned
-  * Glock-18 | Sacrifice
-  * MAC-10 | Classic Crate
-  * MAG-7 | Popdog
-  * SCAR-20 | Assault
-  * Tec-9 | Flash Out
-* **Rare Special Item**
-  * Classic Knife (Original Finishes)
-
----
-
-## Shattered Web Case
-
-* **Covert**
-  * AWP | Containment Breach
-  * MAC-10 | Stalker
-* **Classified**
-  * SG 553 | Colony IV
-  * SSG 08 | Bloodshot
-  * Tec-9 | Decimator
-* **Restricted**
-  * AK-47 | Rat Rod
-  * AUG | Arctic Wolf
-  * MP7 | Neon Ply
-  * P2000 | Obsidian
-  * PP-Bizon | Embargo
-* **Mil-Spec**
-  * Dual Berettas | Balance
-  * G3SG1 | Black Sand
-  * M249 | Warbird
-  * MP5-SD | Acid Wash
-  * Nova | Plume
-  * R8 Revolver | Memento
-  * SCAR-20 | Torn
-* **Rare Special Item**
-  * Knives (Original Finishes: Paracord, Survival, Nomad, Skeleton)
-
----
-
-## Prisma 2 Case
-
-* **Covert**
-  * Glock-18 | Bullet Queen
-  * M4A1-S | Player Two
-* **Classified**
-  * AK-47 | Phantom Disruptor
-  * MAC-10 | Disco Tech
-  * MAG-7 | Justice
-* **Restricted**
-  * P2000 | Acid Etched
-  * Sawed-Off | Apocalypto
-  * SCAR-20 | Enforcer
-  * SG 553 | Darkwing
-  * SSG 08 | Fever Dream
-* **Mil-Spec**
-  * AUG | Tom Cat
-  * AWP | Capillary
-  * CZ75-Auto | Distressed
-  * Desert Eagle | Blue Ply
-  * MP5-SD | Desert Strike
-  * Negev | Prototype
-  * R8 Revolver | Bone Forged
-* **Rare Special Item**
-  * Knives (Chroma Finishes: Navaja, Stiletto, Talon, Ursus)
-
----
-
-## Fracture Case
-
-* **Covert**
-  * AK-47 | Legion of Anubis
-  * Desert Eagle | Printstream
-* **Classified**
-  * Glock-18 | Vogue
-  * M4A4 | Tooth Fairy
-  * XM1014 | Entombed
-* **Restricted**
-  * Galil AR | Connexion
-  * MAC-10 | Allure
-  * MAG-7 | Monster Call
-  * MP5-SD | Kitbash
-  * Tec-9 | Brother
-* **Mil-Spec**
-  * Negev | Ultralight
-  * P2000 | Gnarled
-  * P250 | Cassette
-  * P90 | Freight
-  * PP-Bizon | Runic
-  * SG 553 | Ol' Rusty
-  * SSG 08 | Mainframe 001
-* **Rare Special Item**
-  * Knives (Shattered Web Finishes: Paracord, Survival, Nomad, Skeleton)
-
----
-
-## Operation Broken Fang Case
-
-* **Covert**
-  * Glock-18 | Neo-Noir
-  * M4A1-S | Printstream
-* **Classified**
-  * Five-SeveN | Fairy Tale
-  * M4A4 | Cyber Security
-  * USP-S | Monster Mashup
-* **Restricted**
-  * AWP | Exoskeleton
-  * Dual Berettas | Dezastre
-  * Nova | Clear Polymer
-  * SSG 08 | Parallax
-  * UMP-45 | Gold Bismuth
-* **Mil-Spec**
-  * CZ75-Auto | Vendetta
-  * G3SG1 | Digital Mesh
-  * Galil AR | Vandal
-  * M249 | Deep Relief
-  * MP5-SD | Condition Zero
-  * P250 | Contaminant
-  * P90 | Cocoa Rampage
-* **Rare Special Item**
-  * Gloves (Broken Fang Collection)
-
----
-
-## Snakebite Case
-
-* **Covert**
-  * M4A4 | In Living Color
-  * USP-S | The Traitor
-* **Classified**
-  * Galil AR | Chromatic Aberration
-  * MP9 | Food Chain
-  * XM1014 | XOXO
-* **Restricted**
-  * AK-47 | Slate
-  * Desert Eagle | Trigger Discipline
-  * MAC-10 | Button Masher
-  * Negev | dev_texture
-  * P250 | Cyber Shell
-* **Mil-Spec**
-  * CZ75-Auto | Circaetus
-  * Glock-18 | Clear Catch
-  * M249 | O.S.I.P.R.
-  * Nova | Windblown
-  * P2000 | Dispatch
-  * SG 553 | Heavy Metal
-  * UMP-45 | Oscillator
-* **Rare Special Item**
-  * Gloves (Broken Fang Collection)
-
----
-
-## Operation Riptide Case
-
-* **Covert**
-  * AK-47 | Leet Museo
-  * Desert Eagle | Ocean Drive
-* **Classified**
-  * Glock-18 | Snack Attack
-  * MAC-10 | Toybox
-  * SSG 08 | Turbo Peek
-* **Restricted**
-  * FAMAS | ZX Spectron
-  * M4A4 | Spider Lily
-  * MAG-7 | BI83 Spectrum
-  * MP9 | Mount Fuji
-  * XM1014 | Watchdog
-* **Mil-Spec**
-  * AUG | Plague
-  * Dual Berettas | Tread
-  * G3SG1 | Keeping Tabs
-  * MP7 | Guerrilla
-  * PP-Bizon | Lumen
-  * USP-S | Black Lotus
-* **Rare Special Item**
-  * Knives (Gamma Finishes: Butterfly, Huntsman, Falchion, Bowie, Shadow Daggers)
-
----
-
-## Dreams & Nightmares Case
-
-* **Covert**
-  * AK-47 | Nightwish
-  * MP9 | Starlight Protector
-* **Classified**
-  * Dual Berettas | Melondrama
-  * FAMAS | Rapid Eye Movement
-  * MP7 | Abyssal Apparition
-* **Restricted**
-  * G3SG1 | Dream Glade
-  * M4A1-S | Night Terror
-  * PP-Bizon | Space Cat
-  * USP-S | Ticket to Hell
-  * XM1014 | Zombie Offensive
-* **Mil-Spec**
-  * Five-SeveN | Scrawl
-  * MAC-10 | Ensnared
-  * MAG-7 | Foresight
-  * MP5-SD | Necro Jr.
-  * P2000 | Lifted Spirits
-  * Sawed-Off | Spirit Board
-  * SCAR-20 | Poultrygeist
-* **Rare Special Item**
-  * Knives (Gamma Finishes: Butterfly, Huntsman, Falchion, Bowie, Shadow Daggers)
-
----
-
-## Recoil Case
-
-* **Covert**
-  * AWP | Chromatic Aberration
-  * USP-S | Printstream
-* **Classified**
-  * AK-47 | Ice Coaled
-  * P250 | Visions
-  * Sawed-Off | Kiss♥Love
-* **Restricted**
-  * Dual Berettas | Flora Carnivora
-  * M249 | Downtown
-  * P90 | Vent Rush
-  * R8 Revolver | Crazy 8
-  * SG 553 | Dragon Tech
-* **Mil-Spec**
-  * FAMAS | Meow 36
-  * Galil AR | Destroyer
-  * Glock-18 | Winterized
-  * M4A4 | Poly Mag
-  * MAC-10 | Monkeyflage
-  * Negev | Drop Me
-  * UMP-45 | Roadblock
-* **Rare Special Item**
-  * Gloves (Broken Fang Collection)
-
----
-
-## Revolution Case
-
-* **Covert**
-  * AK-47 | Head Shot
-  * M4A4 | Temukau
-* **Classified**
-  * MAC-10 | Sakkaku
-  * P90 | Neoqueen
-  * UMP-45 | Wild Child
-* **Restricted**
-  * Glock-18 | Umbral Rabbit
-  * M4A1-S | Emphorosaur-S
-  * P2000 | Wicked Sick
-  * R8 Revolver | Banana Cannon
-  * SG 553 | Cyberforce
-* **Mil-Spec**
-  * MAG-7 | Insomnia
-  * MP5-SD | Liquidation
-  * MP9 | Featherweight
-  * P250 | Re.built
-  * PP-Bizon | Synergist
-  * SCAR-20 | Fragments
-  * Tec-9 | Rebel
-* **Rare Special Item**
-  * Gloves (Clutch Case Collection: Hydra, Moto, Specialist, Sport, Hand Wraps, Driver)
-
----
-
-## Kilowatt Case
-
-* **Covert**
-  * AK-47 | Inheritance
-  * AWP | Chrome Cannon
-* **Classified**
-  * M4A1-S | Black Lotus
-  * USP-S | Jawbreaker
-  * Zeus x27 | Olympus
-* **Restricted**
-  * Five-SeveN | Hybrid
-  * Glock-18 | Block-18
-  * M4A4 | Etch Lord
-  * MAC-10 | Light Box
-  * Sawed-Off | Analog Input
-* **Mil-Spec**
-  * Dual Berettas | Hideout
-  * MP7 | Just Smile
-  * Nova | Dark Water
-  * SSG 08 | Dezastre
-  * Tec-9 | Slag
-  * UMP-45 | Motorized
-  * XM1014 | Irezumi
-* **Rare Special Item**
-  * Kukri Knife (Original Finishes: Vanilla, Fade, Slaughter, Crimson Web, etc.)
-  
-  ---
-  
-  ## Fever Case
-
-* **Covert**
-  * AWP | Printstream
-  * FAMAS | Bad Trip
-* **Classified**
-  * AK-47 | Searing Rage
-  * Glock-18 | Shinobu
-  * UMP-45 | K.O. Factory
-* **Restricted**
-  * Desert Eagle | Serpent Strike
-  * Galil AR | Control
-  * Nova | Rising Sun
-  * P90 | Wave Breaker
-  * Zeus x27 | Tosai
-* **Mil-Spec**
-  * M4A4 | Choppa
-  * MAG-7 | Resupply
-  * MP9 | Nexus
-  * P2000 | Sure Grip
-  * SSG 08 | Memorial
-  * USP-S | PC-GRN
-  * XM1014 | Mockingbird
-* **Rare Special Item**
-  * Knives (Shattered Web Knives with Chroma Finishes: Nomad, Paracord, Skeleton, Survival / Finishes: Doppler, Marble Fade, Tiger Tooth, etc.)
+# Weapon Case Contents
+
+> Generated from [cases.json](../../public/data/cases.json). Do not edit this file manually.
+> Catalogue verified: 2026-09-20.
+
+Complete simulator contents for 42 containers.
+
+## Rarity key
+
+- **Rare Special**
+- **Covert**
+- **Classified**
+- **Restricted**
+- **Mil-Spec**
+- **Industrial Grade**
+- **Consumer Grade**
+
+## Containers
+
+### Fever Case
+
+- Release date: 2025-03-31
+- Fallback price: $1.10
+- Items: 45
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (28)
+
+- ★ Survival Knife
+- ★ Survival Knife | Rust Coat
+- ★ Survival Knife | Doppler
+- ★ Survival Knife | Damascus Steel
+- ★ Survival Knife | Marble Fade
+- ★ Survival Knife | Ultraviolet
+- ★ Survival Knife | Tiger Tooth
+- ★ Nomad Knife
+- ★ Nomad Knife | Rust Coat
+- ★ Nomad Knife | Doppler
+- ★ Nomad Knife | Damascus Steel
+- ★ Nomad Knife | Marble Fade
+- ★ Nomad Knife | Ultraviolet
+- ★ Nomad Knife | Tiger Tooth
+- ★ Paracord Knife
+- ★ Paracord Knife | Rust Coat
+- ★ Paracord Knife | Doppler
+- ★ Paracord Knife | Damascus Steel
+- ★ Paracord Knife | Marble Fade
+- ★ Paracord Knife | Ultraviolet
+- ★ Paracord Knife | Tiger Tooth
+- ★ Skeleton Knife
+- ★ Skeleton Knife | Rust Coat
+- ★ Skeleton Knife | Doppler
+- ★ Skeleton Knife | Damascus Steel
+- ★ Skeleton Knife | Marble Fade
+- ★ Skeleton Knife | Ultraviolet
+- ★ Skeleton Knife | Tiger Tooth
+
+#### Covert (2)
+
+- FAMAS | Bad Trip
+- AWP | Printstream
+
+#### Classified (3)
+
+- AK-47 | Searing Rage
+- Glock-18 | Shinobu
+- UMP-45 | K.O. Factory
+
+#### Restricted (5)
+
+- Desert Eagle | Serpent Strike
+- Zeus x27 | Tosai
+- Nova | Rising Sun
+- Galil AR | Control
+- P90 | Wave Breaker
+
+#### Mil-Spec (7)
+
+- M4A4 | Choppa
+- MAG-7 | Resupply
+- SSG 08 | Memorial
+- P2000 | Sure Grip
+- USP-S | PC-GRN
+- MP9 | Nexus
+- XM1014 | Mockingbird
+
+### Gallery Case
+
+- Release date: 2024-10-02
+- Fallback price: $0.64
+- Items: 30
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Kukri Knife
+- ★ Kukri Knife | Fade
+- ★ Kukri Knife | Slaughter
+- ★ Kukri Knife | Blue Steel
+- ★ Kukri Knife | Stained
+- ★ Kukri Knife | Case Hardened
+- ★ Kukri Knife | Forest DDPAT
+- ★ Kukri Knife | Boreal Forest
+- ★ Kukri Knife | Crimson Web
+- ★ Kukri Knife | Scorched
+- ★ Kukri Knife | Safari Mesh
+- ★ Kukri Knife | Night Stripe
+- ★ Kukri Knife | Urban Masked
+
+#### Covert (2)
+
+- Glock-18 | Gold Toof
+- M4A1-S | Vaporwave
+
+#### Classified (3)
+
+- AK-47 | The Outsiders
+- P250 | Epicenter
+- UMP-45 | Neo-Noir
+
+#### Restricted (5)
+
+- M4A4 | Turbine
+- Dual Berettas | Hydro Strike
+- MAC-10 | Saibā Oni
+- P90 | Randy Rush
+- SSG 08 | Rapid Transit
+
+#### Mil-Spec (7)
+
+- USP-S | 27
+- Desert Eagle | Calligraffiti
+- MP5-SD | Statics
+- AUG | Luxe Trim
+- M249 | Hypnosis
+- R8 Revolver | Tango
+- SCAR-20 | Trail Blazer
+
+### Kilowatt Case
+
+- Release date: 2024-02-06
+- Fallback price: $0.65
+- Items: 30
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Kukri Knife
+- ★ Kukri Knife | Stained
+- ★ Kukri Knife | Boreal Forest
+- ★ Kukri Knife | Night Stripe
+- ★ Kukri Knife | Slaughter
+- ★ Kukri Knife | Scorched
+- ★ Kukri Knife | Forest DDPAT
+- ★ Kukri Knife | Crimson Web
+- ★ Kukri Knife | Fade
+- ★ Kukri Knife | Safari Mesh
+- ★ Kukri Knife | Blue Steel
+- ★ Kukri Knife | Case Hardened
+- ★ Kukri Knife | Urban Masked
+
+#### Covert (2)
+
+- AWP | Chrome Cannon
+- AK-47 | Inheritance
+
+#### Classified (3)
+
+- M4A1-S | Black Lotus
+- Zeus x27 | Olympus
+- USP-S | Jawbreaker
+
+#### Restricted (5)
+
+- Glock-18 | Block-18
+- M4A4 | Etch Lord
+- Five-SeveN | Hybrid
+- MP7 | Just Smile
+- Sawed-Off | Analog Input
+
+#### Mil-Spec (7)
+
+- Dual Berettas | Hideout
+- MAC-10 | Light Box
+- Nova | Dark Sigil
+- SSG 08 | Dezastre
+- Tec-9 | Slag
+- UMP-45 | Motorized
+- XM1014 | Irezumi
+
+### Revolution Case
+
+- Release date: 2023-02-09
+- Fallback price: $0.25
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Mogul
+- ★ Specialist Gloves | Crimson Web
+- ★ Specialist Gloves | Fade
+- ★ Specialist Gloves | Buckshot
+- ★ Hydra Gloves | Rattler
+- ★ Hydra Gloves | Mangrove
+- ★ Hydra Gloves | Emerald
+- ★ Hydra Gloves | Case Hardened
+- ★ Moto Gloves | Transport
+- ★ Moto Gloves | POW!
+- ★ Moto Gloves | Polygon
+- ★ Moto Gloves | Turtle
+- ★ Hand Wraps | Overprint
+- ★ Hand Wraps | Arboreal
+- ★ Hand Wraps | Cobalt Skulls
+- ★ Hand Wraps | Duct Tape
+- ★ Sport Gloves | Amphibious
+- ★ Sport Gloves | Omega
+- ★ Sport Gloves | Vice
+- ★ Sport Gloves | Bronze Morph
+- ★ Driver Gloves | Racing Green
+- ★ Driver Gloves | King Snake
+- ★ Driver Gloves | Imperial Plaid
+- ★ Driver Gloves | Overtake
+
+#### Covert (2)
+
+- M4A4 | Temukau
+- AK-47 | Head Shot
+
+#### Classified (3)
+
+- AWP | Duality
+- UMP-45 | Wild Child
+- P2000 | Wicked Sick
+
+#### Restricted (5)
+
+- M4A1-S | Emphorosaur-S
+- Glock-18 | Umbral Rabbit
+- MAC-10 | Sakkaku
+- R8 Revolver | Banana Cannon
+- P90 | Neoqueen
+
+#### Mil-Spec (7)
+
+- MAG-7 | Insomnia
+- MP9 | Featherweight
+- SCAR-20 | Fragments
+- P250 | Re.built
+- MP5-SD | Liquidation
+- SG 553 | Cyberforce
+- Tec-9 | Rebel
+
+### Recoil Case
+
+- Release date: 2022-07-01
+- Fallback price: $0.18
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Field Agent
+- ★ Specialist Gloves | Marble Fade
+- ★ Specialist Gloves | Tiger Strike
+- ★ Specialist Gloves | Lt. Commander
+- ★ Moto Gloves | Smoke Out
+- ★ Moto Gloves | 3rd Commando Company
+- ★ Moto Gloves | Finish Line
+- ★ Moto Gloves | Blood Pressure
+- ★ Broken Fang Gloves | Unhinged
+- ★ Broken Fang Gloves | Jade
+- ★ Broken Fang Gloves | Needle Point
+- ★ Broken Fang Gloves | Yellow-banded
+- ★ Hand Wraps | Desert Shamagh
+- ★ Hand Wraps | Constrictor
+- ★ Hand Wraps | CAUTION!
+- ★ Hand Wraps | Giraffe
+- ★ Sport Gloves | Nocts
+- ★ Sport Gloves | Big Game
+- ★ Sport Gloves | Slingshot
+- ★ Sport Gloves | Scarlet Shamagh
+- ★ Driver Gloves | Rezan the Red
+- ★ Driver Gloves | Queen Jaguar
+- ★ Driver Gloves | Black Tie
+- ★ Driver Gloves | Snow Leopard
+
+#### Covert (2)
+
+- USP-S | Printstream
+- AWP | Chromatic Aberration
+
+#### Classified (3)
+
+- AK-47 | Ice Coaled
+- P250 | Visions
+- Sawed-Off | Kiss♥Love
+
+#### Restricted (5)
+
+- R8 Revolver | Crazy 8
+- M249 | Downtown
+- SG 553 | Dragon Tech
+- P90 | Vent Rush
+- Dual Berettas | Flora Carnivora
+
+#### Mil-Spec (7)
+
+- FAMAS | Meow 36
+- Galil AR | Destroyer
+- M4A4 | Poly Mag
+- MAC-10 | Monkeyflage
+- Negev | Drop Me
+- UMP-45 | Roadblock
+- Glock-18 | Winterized
+
+### Dreams & Nightmares Case
+
+- Release date: 2022-01-20
+- Fallback price: $0.40
+- Items: 30
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Falchion Knife | Lore
+- ★ Falchion Knife | Gamma Doppler
+- ★ Falchion Knife | Bright Water
+- ★ Falchion Knife | Autotronic
+- ★ Falchion Knife | Freehand
+- ★ Falchion Knife | Black Laminate
+- ★ Shadow Daggers | Lore
+- ★ Shadow Daggers | Gamma Doppler
+- ★ Shadow Daggers | Bright Water
+- ★ Shadow Daggers | Autotronic
+- ★ Shadow Daggers | Freehand
+- ★ Shadow Daggers | Black Laminate
+- ★ Huntsman Knife | Lore
+
+#### Covert (2)
+
+- AK-47 | Nightwish
+- MP9 | Starlight Protector
+
+#### Classified (3)
+
+- Dual Berettas | Melondrama
+- FAMAS | Rapid Eye Movement
+- MP7 | Abyssal Apparition
+
+#### Restricted (5)
+
+- PP-Bizon | Space Cat
+- G3SG1 | Dream Glade
+- M4A1-S | Night Terror
+- XM1014 | Zombie Offensive
+- USP-S | Ticket to Hell
+
+#### Mil-Spec (7)
+
+- Five-SeveN | Scrawl
+- MAC-10 | Ensnared
+- MAG-7 | Foresight
+- MP5-SD | Necro Jr.
+- P2000 | Lifted Spirits
+- SCAR-20 | Poultrygeist
+- Sawed-Off | Spirit Board
+
+### Operation Riptide Case
+
+- Release date: 2021-09-21
+- Fallback price: $5.50
+- Items: 30
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Falchion Knife | Lore
+- ★ Falchion Knife | Gamma Doppler
+- ★ Falchion Knife | Bright Water
+- ★ Falchion Knife | Autotronic
+- ★ Falchion Knife | Freehand
+- ★ Falchion Knife | Black Laminate
+- ★ Shadow Daggers | Lore
+- ★ Shadow Daggers | Gamma Doppler
+- ★ Shadow Daggers | Bright Water
+- ★ Shadow Daggers | Autotronic
+- ★ Shadow Daggers | Freehand
+- ★ Shadow Daggers | Black Laminate
+- ★ Huntsman Knife | Lore
+
+#### Covert (2)
+
+- AK-47 | Leet Museo
+- Desert Eagle | Ocean Drive
+
+#### Classified (3)
+
+- MAC-10 | Toybox
+- Glock-18 | Snack Attack
+- SSG 08 | Turbo Peek
+
+#### Restricted (5)
+
+- MAG-7 | BI83 Spectrum
+- FAMAS | ZX Spectron
+- Five-SeveN | Boost Protocol
+- MP9 | Mount Fuji
+- M4A4 | Spider Lily
+
+#### Mil-Spec (7)
+
+- AUG | Plague
+- Dual Berettas | Tread
+- G3SG1 | Keeping Tabs
+- MP7 | Guerrilla
+- PP-Bizon | Lumen
+- USP-S | Black Lotus
+- XM1014 | Watchdog
+
+### Snakebite Case
+
+- Release date: 2021-05-03
+- Fallback price: $0.40
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Field Agent
+- ★ Specialist Gloves | Marble Fade
+- ★ Specialist Gloves | Tiger Strike
+- ★ Specialist Gloves | Lt. Commander
+- ★ Moto Gloves | Smoke Out
+- ★ Moto Gloves | 3rd Commando Company
+- ★ Moto Gloves | Finish Line
+- ★ Moto Gloves | Blood Pressure
+- ★ Broken Fang Gloves | Unhinged
+- ★ Broken Fang Gloves | Jade
+- ★ Broken Fang Gloves | Needle Point
+- ★ Broken Fang Gloves | Yellow-banded
+- ★ Hand Wraps | Desert Shamagh
+- ★ Hand Wraps | Constrictor
+- ★ Hand Wraps | CAUTION!
+- ★ Hand Wraps | Giraffe
+- ★ Sport Gloves | Nocts
+- ★ Sport Gloves | Big Game
+- ★ Sport Gloves | Slingshot
+- ★ Sport Gloves | Scarlet Shamagh
+- ★ Driver Gloves | Rezan the Red
+- ★ Driver Gloves | Queen Jaguar
+- ★ Driver Gloves | Black Tie
+- ★ Driver Gloves | Snow Leopard
+
+#### Covert (2)
+
+- USP-S | The Traitor
+- M4A4 | In Living Color
+
+#### Classified (3)
+
+- MP9 | Food Chain
+- XM1014 | XOXO
+- Galil AR | Chromatic Aberration
+
+#### Restricted (5)
+
+- P250 | Cyber Shell
+- Negev | dev_texture
+- MAC-10 | Button Masher
+- Desert Eagle | Trigger Discipline
+- AK-47 | Slate
+
+#### Mil-Spec (7)
+
+- SG 553 | Heavy Metal
+- Glock-18 | Clear Polymer
+- M249 | O.S.I.P.R.
+- CZ75-Auto | Circaetus
+- UMP-45 | Oscillator
+- R8 Revolver | Junk Yard
+- Nova | Windblown
+
+### Operation Broken Fang Case
+
+- Release date: 2020-12-03
+- Fallback price: $4.10
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Field Agent
+- ★ Specialist Gloves | Marble Fade
+- ★ Specialist Gloves | Tiger Strike
+- ★ Specialist Gloves | Lt. Commander
+- ★ Moto Gloves | Smoke Out
+- ★ Moto Gloves | 3rd Commando Company
+- ★ Moto Gloves | Finish Line
+- ★ Moto Gloves | Blood Pressure
+- ★ Broken Fang Gloves | Unhinged
+- ★ Broken Fang Gloves | Jade
+- ★ Broken Fang Gloves | Needle Point
+- ★ Broken Fang Gloves | Yellow-banded
+- ★ Hand Wraps | Desert Shamagh
+- ★ Hand Wraps | Constrictor
+- ★ Hand Wraps | CAUTION!
+- ★ Hand Wraps | Giraffe
+- ★ Sport Gloves | Nocts
+- ★ Sport Gloves | Big Game
+- ★ Sport Gloves | Slingshot
+- ★ Sport Gloves | Scarlet Shamagh
+- ★ Driver Gloves | Rezan the Red
+- ★ Driver Gloves | Queen Jaguar
+- ★ Driver Gloves | Black Tie
+- ★ Driver Gloves | Snow Leopard
+
+#### Covert (2)
+
+- M4A1-S | Printstream
+- Glock-18 | Neo-Noir
+
+#### Classified (3)
+
+- Five-SeveN | Fairy Tale
+- M4A4 | Cyber Security
+- USP-S | Monster Mashup
+
+#### Restricted (5)
+
+- AWP | Exoskeleton
+- Dual Berettas | Dezastre
+- Nova | Clear Polymer
+- SSG 08 | Parallax
+- UMP-45 | Gold Bismuth
+
+#### Mil-Spec (7)
+
+- CZ75-Auto | Vendetta
+- P90 | Cocoa Rampage
+- G3SG1 | Digital Mesh
+- Galil AR | Vandal
+- P250 | Contaminant
+- M249 | Deep Relief
+- MP5-SD | Condition Zero
+
+### Fracture Case
+
+- Release date: 2020-07-01
+- Fallback price: $0.60
+- Items: 21
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (4)
+
+- ★ Paracord Knife
+- ★ Survival Knife
+- ★ Nomad Knife
+- ★ Skeleton Knife
+
+#### Covert (2)
+
+- Desert Eagle | Printstream
+- AK-47 | Legion of Anubis
+
+#### Classified (3)
+
+- M4A4 | Tooth Fairy
+- Glock-18 | Vogue
+- XM1014 | Entombed
+
+#### Restricted (5)
+
+- MAG-7 | Monster Call
+- Tec-9 | Brother
+- MAC-10 | Allure
+- Galil AR | Connexion
+- MP5-SD | Kitbash
+
+#### Mil-Spec (7)
+
+- Negev | Ultralight
+- P2000 | Gnarled
+- SG 553 | Ol' Rusty
+- SSG 08 | Mainframe 001
+- P250 | Cassette
+- P90 | Freight
+- PP-Bizon | Runic
+
+### Prisma 2 Case
+
+- Release date: 2020-03-31
+- Fallback price: $0.70
+- Items: 45
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (28)
+
+- ★ Navaja Knife
+- ★ Navaja Knife | Rust Coat
+- ★ Navaja Knife | Doppler
+- ★ Navaja Knife | Damascus Steel
+- ★ Navaja Knife | Marble Fade
+- ★ Navaja Knife | Ultraviolet
+- ★ Navaja Knife | Tiger Tooth
+- ★ Ursus Knife
+- ★ Ursus Knife | Rust Coat
+- ★ Ursus Knife | Doppler
+- ★ Ursus Knife | Damascus Steel
+- ★ Ursus Knife | Marble Fade
+- ★ Ursus Knife | Ultraviolet
+- ★ Ursus Knife | Tiger Tooth
+- ★ Stiletto Knife
+- ★ Stiletto Knife | Rust Coat
+- ★ Stiletto Knife | Doppler
+- ★ Stiletto Knife | Damascus Steel
+- ★ Stiletto Knife | Marble Fade
+- ★ Stiletto Knife | Ultraviolet
+- ★ Stiletto Knife | Tiger Tooth
+- ★ Talon Knife
+- ★ Talon Knife | Rust Coat
+- ★ Talon Knife | Doppler
+- ★ Talon Knife | Damascus Steel
+- ★ Talon Knife | Marble Fade
+- ★ Talon Knife | Ultraviolet
+- ★ Talon Knife | Tiger Tooth
+
+#### Covert (2)
+
+- M4A1-S | Player Two
+- Glock-18 | Bullet Queen
+
+#### Classified (3)
+
+- AK-47 | Phantom Disruptor
+- MAC-10 | Disco Tech
+- MAG-7 | Justice
+
+#### Restricted (5)
+
+- P2000 | Acid Etched
+- Sawed-Off | Apocalypto
+- SCAR-20 | Enforcer
+- SG 553 | Darkwing
+- SSG 08 | Fever Dream
+
+#### Mil-Spec (7)
+
+- AUG | Tom Cat
+- AWP | Capillary
+- CZ75-Auto | Distressed
+- Desert Eagle | Blue Ply
+- MP5-SD | Desert Strike
+- Negev | Prototype
+- R8 Revolver | Bone Forged
+
+### Shattered Web Case
+
+- Release date: 2019-11-18
+- Fallback price: $3.40
+- Items: 40
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (23)
+
+- ★ Survival Knife
+- ★ Survival Knife | Stained
+- ★ Survival Knife | Boreal Forest
+- ★ Survival Knife | Night Stripe
+- ★ Survival Knife | Slaughter
+- ★ Survival Knife | Scorched
+- ★ Survival Knife | Forest DDPAT
+- ★ Survival Knife | Crimson Web
+- ★ Survival Knife | Fade
+- ★ Survival Knife | Safari Mesh
+- ★ Survival Knife | Blue Steel
+- ★ Survival Knife | Case Hardened
+- ★ Survival Knife | Urban Masked
+- ★ Nomad Knife
+- ★ Nomad Knife | Stained
+- ★ Nomad Knife | Boreal Forest
+- ★ Nomad Knife | Night Stripe
+- ★ Nomad Knife | Slaughter
+- ★ Nomad Knife | Scorched
+- ★ Nomad Knife | Forest DDPAT
+- ★ Nomad Knife | Crimson Web
+- ★ Nomad Knife | Fade
+- ★ Nomad Knife | Safari Mesh
+
+#### Covert (2)
+
+- AWP | Containment Breach
+- MAC-10 | Stalker
+
+#### Classified (3)
+
+- Tec-9 | Decimator
+- SG 553 | Colony IV
+- SSG 08 | Bloodshot
+
+#### Restricted (5)
+
+- PP-Bizon | Embargo
+- AK-47 | Rat Rod
+- AUG | Arctic Wolf
+- MP7 | Neon Ply
+- P2000 | Obsidian
+
+#### Mil-Spec (7)
+
+- MP5-SD | Acid Wash
+- Nova | Plume
+- G3SG1 | Black Sand
+- R8 Revolver | Memento
+- Dual Berettas | Balance
+- SCAR-20 | Torn
+- M249 | Warbird
+
+### CS20 Case
+
+- Release date: 2019-10-18
+- Fallback price: $0.80
+- Items: 30
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Nomad Knife
+- ★ Nomad Knife | Stained
+- ★ Nomad Knife | Boreal Forest
+- ★ Nomad Knife | Night Stripe
+- ★ Nomad Knife | Slaughter
+- ★ Nomad Knife | Scorched
+- ★ Nomad Knife | Forest DDPAT
+- ★ Nomad Knife | Crimson Web
+- ★ Nomad Knife | Fade
+- ★ Nomad Knife | Safari Mesh
+- ★ Nomad Knife | Blue Steel
+- ★ Nomad Knife | Case Hardened
+- ★ Nomad Knife | Urban Masked
+
+#### Covert (2)
+
+- AWP | Wildfire
+- FAMAS | Commemoration
+
+#### Classified (3)
+
+- MP9 | Hydra
+- P90 | Nostalgia
+- AUG | Death by Puppy
+
+#### Restricted (5)
+
+- M249 | Aztec
+- MP5-SD | Agent
+- Five-SeveN | Buddy
+- P250 | Inferno
+- UMP-45 | Plastique
+
+#### Mil-Spec (7)
+
+- Dual Berettas | Elite 1.6
+- Tec-9 | Flash Out
+- MAC-10 | Classic Crate
+- MAG-7 | Popdog
+- SCAR-20 | Assault
+- FAMAS | Decommissioned
+- Glock-18 | Sacrifice
+
+### Prisma Case
+
+- Release date: 2019-03-13
+- Fallback price: $0.65
+- Items: 45
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (28)
+
+- ★ Navaja Knife
+- ★ Navaja Knife | Rust Coat
+- ★ Navaja Knife | Doppler
+- ★ Navaja Knife | Damascus Steel
+- ★ Navaja Knife | Marble Fade
+- ★ Navaja Knife | Ultraviolet
+- ★ Navaja Knife | Tiger Tooth
+- ★ Ursus Knife
+- ★ Ursus Knife | Rust Coat
+- ★ Ursus Knife | Doppler
+- ★ Ursus Knife | Damascus Steel
+- ★ Ursus Knife | Marble Fade
+- ★ Ursus Knife | Ultraviolet
+- ★ Ursus Knife | Tiger Tooth
+- ★ Stiletto Knife
+- ★ Stiletto Knife | Rust Coat
+- ★ Stiletto Knife | Doppler
+- ★ Stiletto Knife | Damascus Steel
+- ★ Stiletto Knife | Marble Fade
+- ★ Stiletto Knife | Ultraviolet
+- ★ Stiletto Knife | Tiger Tooth
+- ★ Talon Knife
+- ★ Talon Knife | Rust Coat
+- ★ Talon Knife | Doppler
+- ★ Talon Knife | Damascus Steel
+- ★ Talon Knife | Marble Fade
+- ★ Talon Knife | Ultraviolet
+- ★ Talon Knife | Tiger Tooth
+
+#### Covert (2)
+
+- Five-SeveN | Angry Mob
+- M4A4 | The Emperor
+
+#### Classified (3)
+
+- R8 Revolver | Skull Crusher
+- AUG | Momentum
+- XM1014 | Incinegator
+
+#### Restricted (5)
+
+- AWP | Atheris
+- Tec-9 | Bamboozle
+- Desert Eagle | Light Rail
+- MP5-SD | Gauss
+- UMP-45 | Moonrise
+
+#### Mil-Spec (7)
+
+- FAMAS | Crypsis
+- AK-47 | Uncharted
+- MAC-10 | Whitefish
+- Galil AR | Akoben
+- MP7 | Mischief
+- P250 | Verdigris
+- P90 | Off World
+
+### Danger Zone Case
+
+- Release date: 2018-12-06
+- Fallback price: $0.70
+- Items: 69
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (52)
+
+- ★ Navaja Knife
+- ★ Navaja Knife | Stained
+- ★ Navaja Knife | Boreal Forest
+- ★ Navaja Knife | Night Stripe
+- ★ Navaja Knife | Slaughter
+- ★ Navaja Knife | Scorched
+- ★ Navaja Knife | Forest DDPAT
+- ★ Navaja Knife | Crimson Web
+- ★ Navaja Knife | Fade
+- ★ Navaja Knife | Safari Mesh
+- ★ Navaja Knife | Blue Steel
+- ★ Navaja Knife | Case Hardened
+- ★ Navaja Knife | Urban Masked
+- ★ Ursus Knife
+- ★ Ursus Knife | Stained
+- ★ Ursus Knife | Boreal Forest
+- ★ Ursus Knife | Night Stripe
+- ★ Ursus Knife | Slaughter
+- ★ Ursus Knife | Scorched
+- ★ Ursus Knife | Forest DDPAT
+- ★ Ursus Knife | Crimson Web
+- ★ Ursus Knife | Fade
+- ★ Ursus Knife | Safari Mesh
+- ★ Ursus Knife | Blue Steel
+- ★ Ursus Knife | Case Hardened
+- ★ Ursus Knife | Urban Masked
+- ★ Stiletto Knife
+- ★ Stiletto Knife | Stained
+- ★ Stiletto Knife | Boreal Forest
+- ★ Stiletto Knife | Night Stripe
+- ★ Stiletto Knife | Slaughter
+- ★ Stiletto Knife | Scorched
+- ★ Stiletto Knife | Forest DDPAT
+- ★ Stiletto Knife | Crimson Web
+- ★ Stiletto Knife | Fade
+- ★ Stiletto Knife | Safari Mesh
+- ★ Stiletto Knife | Blue Steel
+- ★ Stiletto Knife | Case Hardened
+- ★ Stiletto Knife | Urban Masked
+- ★ Talon Knife
+- ★ Talon Knife | Stained
+- ★ Talon Knife | Boreal Forest
+- ★ Talon Knife | Night Stripe
+- ★ Talon Knife | Slaughter
+- ★ Talon Knife | Scorched
+- ★ Talon Knife | Forest DDPAT
+- ★ Talon Knife | Crimson Web
+- ★ Talon Knife | Fade
+- ★ Talon Knife | Safari Mesh
+- ★ Talon Knife | Blue Steel
+- ★ Talon Knife | Case Hardened
+- ★ Talon Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Asiimov
+- AWP | Neo-Noir
+
+#### Classified (3)
+
+- UMP-45 | Momentum
+- Desert Eagle | Mecha Industries
+- MP5-SD | Phosphor
+
+#### Restricted (5)
+
+- G3SG1 | Scavenger
+- Galil AR | Signal
+- MAC-10 | Pipe Down
+- P250 | Nevermore
+- USP-S | Flashback
+
+#### Mil-Spec (7)
+
+- MP9 | Modest Threat
+- Glock-18 | Oxide Blaze
+- Nova | Wood Fired
+- M4A4 | Magnesium
+- Sawed-Off | Black Sand
+- SG 553 | Danger Close
+- Tec-9 | Fubar
+
+### Horizon Case
+
+- Release date: 2018-08-02
+- Fallback price: $0.75
+- Items: 69
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (52)
+
+- ★ Navaja Knife
+- ★ Navaja Knife | Stained
+- ★ Navaja Knife | Boreal Forest
+- ★ Navaja Knife | Night Stripe
+- ★ Navaja Knife | Slaughter
+- ★ Navaja Knife | Scorched
+- ★ Navaja Knife | Forest DDPAT
+- ★ Navaja Knife | Crimson Web
+- ★ Navaja Knife | Fade
+- ★ Navaja Knife | Safari Mesh
+- ★ Navaja Knife | Blue Steel
+- ★ Navaja Knife | Case Hardened
+- ★ Navaja Knife | Urban Masked
+- ★ Ursus Knife
+- ★ Ursus Knife | Stained
+- ★ Ursus Knife | Boreal Forest
+- ★ Ursus Knife | Night Stripe
+- ★ Ursus Knife | Slaughter
+- ★ Ursus Knife | Scorched
+- ★ Ursus Knife | Forest DDPAT
+- ★ Ursus Knife | Crimson Web
+- ★ Ursus Knife | Fade
+- ★ Ursus Knife | Safari Mesh
+- ★ Ursus Knife | Blue Steel
+- ★ Ursus Knife | Case Hardened
+- ★ Ursus Knife | Urban Masked
+- ★ Stiletto Knife
+- ★ Stiletto Knife | Stained
+- ★ Stiletto Knife | Boreal Forest
+- ★ Stiletto Knife | Night Stripe
+- ★ Stiletto Knife | Slaughter
+- ★ Stiletto Knife | Scorched
+- ★ Stiletto Knife | Forest DDPAT
+- ★ Stiletto Knife | Crimson Web
+- ★ Stiletto Knife | Fade
+- ★ Stiletto Knife | Safari Mesh
+- ★ Stiletto Knife | Blue Steel
+- ★ Stiletto Knife | Case Hardened
+- ★ Stiletto Knife | Urban Masked
+- ★ Talon Knife
+- ★ Talon Knife | Stained
+- ★ Talon Knife | Boreal Forest
+- ★ Talon Knife | Night Stripe
+- ★ Talon Knife | Slaughter
+- ★ Talon Knife | Scorched
+- ★ Talon Knife | Forest DDPAT
+- ★ Talon Knife | Crimson Web
+- ★ Talon Knife | Fade
+- ★ Talon Knife | Safari Mesh
+- ★ Talon Knife | Blue Steel
+- ★ Talon Knife | Case Hardened
+- ★ Talon Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Neon Rider
+- Desert Eagle | Code Red
+
+#### Classified (3)
+
+- M4A1-S | Nightmare
+- Sawed-Off | Devourer
+- FAMAS | Eye of Athena
+
+#### Restricted (5)
+
+- CZ75-Auto | Eco
+- G3SG1 | High Seas
+- Nova | Toy Soldier
+- AWP | PAW
+- MP7 | Powercore
+
+#### Mil-Spec (7)
+
+- AUG | Amber Slipstream
+- Dual Berettas | Shred
+- Glock-18 | Warhawk
+- MP9 | Capillary
+- P90 | Traction
+- R8 Revolver | Survivalist
+- Tec-9 | Snek-9
+
+### Clutch Case
+
+- Release date: 2018-02-15
+- Fallback price: $0.45
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Mogul
+- ★ Specialist Gloves | Crimson Web
+- ★ Specialist Gloves | Fade
+- ★ Specialist Gloves | Buckshot
+- ★ Hydra Gloves | Rattler
+- ★ Hydra Gloves | Mangrove
+- ★ Hydra Gloves | Emerald
+- ★ Hydra Gloves | Case Hardened
+- ★ Moto Gloves | Transport
+- ★ Moto Gloves | POW!
+- ★ Moto Gloves | Polygon
+- ★ Moto Gloves | Turtle
+- ★ Hand Wraps | Overprint
+- ★ Hand Wraps | Arboreal
+- ★ Hand Wraps | Cobalt Skulls
+- ★ Hand Wraps | Duct Tape
+- ★ Sport Gloves | Amphibious
+- ★ Sport Gloves | Omega
+- ★ Sport Gloves | Vice
+- ★ Sport Gloves | Bronze Morph
+- ★ Driver Gloves | Racing Green
+- ★ Driver Gloves | King Snake
+- ★ Driver Gloves | Imperial Plaid
+- ★ Driver Gloves | Overtake
+
+#### Covert (2)
+
+- M4A4 | Neo-Noir
+- MP7 | Bloodsport
+
+#### Classified (3)
+
+- AUG | Stymphalian
+- AWP | Mortis
+- USP-S | Cortex
+
+#### Restricted (5)
+
+- Glock-18 | Moonrise
+- Negev | Lionfish
+- Nova | Wild Six
+- MAG-7 | SWAG-7
+- UMP-45 | Arctic Wolf
+
+#### Mil-Spec (7)
+
+- PP-Bizon | Night Riot
+- Five-SeveN | Flame Test
+- MP9 | Black Sand
+- P2000 | Urban Hazard
+- R8 Revolver | Grip
+- SG 553 | Aloha
+- XM1014 | Oxide Blaze
+
+### Spectrum 2 Case
+
+- Release date: 2017-09-14
+- Fallback price: $2.45
+- Items: 47
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ Falchion Knife | Rust Coat
+- ★ Falchion Knife | Doppler
+- ★ Falchion Knife | Damascus Steel
+- ★ Falchion Knife | Marble Fade
+- ★ Falchion Knife | Ultraviolet
+- ★ Falchion Knife | Tiger Tooth
+- ★ Shadow Daggers | Rust Coat
+- ★ Shadow Daggers | Doppler
+- ★ Shadow Daggers | Damascus Steel
+- ★ Shadow Daggers | Marble Fade
+- ★ Shadow Daggers | Ultraviolet
+- ★ Shadow Daggers | Tiger Tooth
+- ★ Huntsman Knife | Rust Coat
+- ★ Huntsman Knife | Doppler
+- ★ Huntsman Knife | Damascus Steel
+- ★ Huntsman Knife | Marble Fade
+- ★ Huntsman Knife | Ultraviolet
+- ★ Huntsman Knife | Tiger Tooth
+- ★ Butterfly Knife | Rust Coat
+- ★ Butterfly Knife | Doppler
+- ★ Butterfly Knife | Damascus Steel
+- ★ Butterfly Knife | Marble Fade
+- ★ Butterfly Knife | Ultraviolet
+- ★ Butterfly Knife | Tiger Tooth
+- ★ Bowie Knife | Rust Coat
+- ★ Bowie Knife | Doppler
+- ★ Bowie Knife | Damascus Steel
+- ★ Bowie Knife | Marble Fade
+- ★ Bowie Knife | Ultraviolet
+- ★ Bowie Knife | Tiger Tooth
+
+#### Covert (2)
+
+- AK-47 | The Empress
+- P250 | See Ya Later
+
+#### Classified (3)
+
+- PP-Bizon | High Roller
+- M4A1-S | Leaded Glass
+- R8 Revolver | Llama Cannon
+
+#### Restricted (5)
+
+- MP9 | Goo
+- SG 553 | Phantom
+- CZ75-Auto | Tacticat
+- UMP-45 | Exposure
+- XM1014 | Ziggy
+
+#### Mil-Spec (7)
+
+- Sawed-Off | Morris
+- AUG | Triqua
+- G3SG1 | Hunter
+- Glock-18 | Off World
+- MAC-10 | Oceanic
+- Tec-9 | Cracked Opal
+- SCAR-20 | Jungle Slipstream
+
+### Operation Hydra Case
+
+- Release date: 2017-05-23
+- Fallback price: $18.50
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Foundation
+- ★ Specialist Gloves | Forest DDPAT
+- ★ Specialist Gloves | Crimson Kimono
+- ★ Specialist Gloves | Emerald Web
+- ★ Moto Gloves | BOOM!
+- ★ Moto Gloves | Eclipse
+- ★ Moto Gloves | Cool Mint
+- ★ Moto Gloves | Spearmint
+- ★ Bloodhound Gloves | Bronzed
+- ★ Bloodhound Gloves | Guerrilla
+- ★ Bloodhound Gloves | Charred
+- ★ Bloodhound Gloves | Snakebite
+- ★ Hand Wraps | Spruce DDPAT
+- ★ Hand Wraps | Slaughter
+- ★ Hand Wraps | Badlands
+- ★ Hand Wraps | Leather
+- ★ Sport Gloves | Arid
+- ★ Sport Gloves | Hedge Maze
+- ★ Sport Gloves | Pandora's Box
+- ★ Sport Gloves | Superconductor
+- ★ Driver Gloves | Convoy
+- ★ Driver Gloves | Lunar Weave
+- ★ Driver Gloves | Crimson Weave
+- ★ Driver Gloves | Diamondback
+
+#### Covert (2)
+
+- Five-SeveN | Hyper Beast
+- AWP | Oni Taiji
+
+#### Classified (3)
+
+- Dual Berettas | Cobra Strike
+- Galil AR | Sugar Rush
+- M4A4 | Hellfire
+
+#### Restricted (5)
+
+- AK-47 | Orbit Mk01
+- P2000 | Woodsman
+- P250 | Red Rock
+- P90 | Death Grip
+- SSG 08 | Death's Head
+
+#### Mil-Spec (7)
+
+- USP-S | Blueprint
+- FAMAS | Macabre
+- M4A1-S | Briefing
+- MAC-10 | Aloha
+- MAG-7 | Hard Water
+- Tec-9 | Cut Out
+- UMP-45 | Metal Flowers
+
+### Spectrum Case
+
+- Release date: 2017-03-15
+- Fallback price: $3.40
+- Items: 47
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ Falchion Knife | Rust Coat
+- ★ Falchion Knife | Doppler
+- ★ Falchion Knife | Damascus Steel
+- ★ Falchion Knife | Marble Fade
+- ★ Falchion Knife | Ultraviolet
+- ★ Falchion Knife | Tiger Tooth
+- ★ Shadow Daggers | Rust Coat
+- ★ Shadow Daggers | Doppler
+- ★ Shadow Daggers | Damascus Steel
+- ★ Shadow Daggers | Marble Fade
+- ★ Shadow Daggers | Ultraviolet
+- ★ Shadow Daggers | Tiger Tooth
+- ★ Huntsman Knife | Rust Coat
+- ★ Huntsman Knife | Doppler
+- ★ Huntsman Knife | Damascus Steel
+- ★ Huntsman Knife | Marble Fade
+- ★ Huntsman Knife | Ultraviolet
+- ★ Huntsman Knife | Tiger Tooth
+- ★ Butterfly Knife | Rust Coat
+- ★ Butterfly Knife | Doppler
+- ★ Butterfly Knife | Damascus Steel
+- ★ Butterfly Knife | Marble Fade
+- ★ Butterfly Knife | Ultraviolet
+- ★ Butterfly Knife | Tiger Tooth
+- ★ Bowie Knife | Rust Coat
+- ★ Bowie Knife | Doppler
+- ★ Bowie Knife | Damascus Steel
+- ★ Bowie Knife | Marble Fade
+- ★ Bowie Knife | Ultraviolet
+- ★ Bowie Knife | Tiger Tooth
+
+#### Covert (2)
+
+- AK-47 | Bloodsport
+- USP-S | Neo-Noir
+
+#### Classified (3)
+
+- AWP | Fever Dream
+- CZ75-Auto | Xiangliu
+- M4A1-S | Decimator
+
+#### Restricted (5)
+
+- Galil AR | Crimson Tsunami
+- M249 | Emerald Poison Dart
+- MAC-10 | Last Dive
+- UMP-45 | Scaffold
+- XM1014 | Seasons
+
+#### Mil-Spec (7)
+
+- PP-Bizon | Jungle Slipstream
+- SCAR-20 | Blueprint
+- Desert Eagle | Oxide Blaze
+- Five-SeveN | Capillary
+- MP7 | Akoben
+- P250 | Ripple
+- Sawed-Off | Zander
+
+### Glove Case
+
+- Release date: 2016-11-28
+- Fallback price: $5.30
+- Items: 41
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (24)
+
+- ★ Specialist Gloves | Foundation
+- ★ Specialist Gloves | Forest DDPAT
+- ★ Specialist Gloves | Crimson Kimono
+- ★ Specialist Gloves | Emerald Web
+- ★ Moto Gloves | BOOM!
+- ★ Moto Gloves | Eclipse
+- ★ Moto Gloves | Cool Mint
+- ★ Moto Gloves | Spearmint
+- ★ Bloodhound Gloves | Bronzed
+- ★ Bloodhound Gloves | Guerrilla
+- ★ Bloodhound Gloves | Charred
+- ★ Bloodhound Gloves | Snakebite
+- ★ Hand Wraps | Spruce DDPAT
+- ★ Hand Wraps | Slaughter
+- ★ Hand Wraps | Badlands
+- ★ Hand Wraps | Leather
+- ★ Sport Gloves | Arid
+- ★ Sport Gloves | Hedge Maze
+- ★ Sport Gloves | Pandora's Box
+- ★ Sport Gloves | Superconductor
+- ★ Driver Gloves | Convoy
+- ★ Driver Gloves | Lunar Weave
+- ★ Driver Gloves | Crimson Weave
+- ★ Driver Gloves | Diamondback
+
+#### Covert (2)
+
+- SSG 08 | Dragonfire
+- M4A4 | Buzz Kill
+
+#### Classified (3)
+
+- FAMAS | Mecha Industries
+- P90 | Shallow Grave
+- Sawed-Off | Wasteland Princess
+
+#### Restricted (5)
+
+- Dual Berettas | Royal Consorts
+- G3SG1 | Stinger
+- M4A1-S | Flashback
+- Nova | Gila
+- USP-S | Cyrex
+
+#### Mil-Spec (7)
+
+- CZ75-Auto | Polymer
+- Glock-18 | Ironwork
+- MP7 | Cirrus
+- Galil AR | Black Sand
+- MP9 | Sand Scale
+- MAG-7 | Sonar
+- P2000 | Turf
+
+### Gamma 2 Case
+
+- Release date: 2016-08-18
+- Fallback price: $2.20
+- Items: 47
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ M9 Bayonet | Lore
+- ★ M9 Bayonet | Gamma Doppler
+- ★ M9 Bayonet | Bright Water
+- ★ M9 Bayonet | Autotronic
+- ★ M9 Bayonet | Freehand
+- ★ M9 Bayonet | Black Laminate
+- ★ Bayonet | Lore
+- ★ Bayonet | Gamma Doppler
+- ★ Bayonet | Bright Water
+- ★ Bayonet | Autotronic
+- ★ Bayonet | Freehand
+- ★ Bayonet | Black Laminate
+- ★ Flip Knife | Lore
+- ★ Flip Knife | Gamma Doppler
+- ★ Flip Knife | Bright Water
+- ★ Flip Knife | Autotronic
+- ★ Flip Knife | Freehand
+- ★ Flip Knife | Black Laminate
+- ★ Karambit | Lore
+- ★ Karambit | Gamma Doppler
+- ★ Karambit | Bright Water
+- ★ Karambit | Autotronic
+- ★ Karambit | Freehand
+- ★ Karambit | Black Laminate
+- ★ Gut Knife | Lore
+- ★ Gut Knife | Gamma Doppler
+- ★ Gut Knife | Bright Water
+- ★ Gut Knife | Autotronic
+- ★ Gut Knife | Freehand
+- ★ Gut Knife | Black Laminate
+
+#### Covert (2)
+
+- AK-47 | Neon Revolution
+- FAMAS | Roll Cage
+
+#### Classified (3)
+
+- AUG | Syd Mead
+- MP9 | Airlock
+- Tec-9 | Fuel Injector
+
+#### Restricted (5)
+
+- Desert Eagle | Directive
+- Glock-18 | Weasel
+- MAG-7 | Petroglyph
+- SCAR-20 | Powercore
+- SG 553 | Triarch
+
+#### Mil-Spec (7)
+
+- CZ75-Auto | Imprint
+- Five-SeveN | Scumbria
+- G3SG1 | Ventilator
+- Negev | Dazzle
+- P90 | Grim
+- UMP-45 | Briefing
+- XM1014 | Slipstream
+
+### Gamma Case
+
+- Release date: 2016-06-15
+- Fallback price: $2.30
+- Items: 47
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ M9 Bayonet | Lore
+- ★ M9 Bayonet | Gamma Doppler
+- ★ M9 Bayonet | Bright Water
+- ★ M9 Bayonet | Autotronic
+- ★ M9 Bayonet | Freehand
+- ★ M9 Bayonet | Black Laminate
+- ★ Bayonet | Lore
+- ★ Bayonet | Gamma Doppler
+- ★ Bayonet | Bright Water
+- ★ Bayonet | Autotronic
+- ★ Bayonet | Freehand
+- ★ Bayonet | Black Laminate
+- ★ Flip Knife | Lore
+- ★ Flip Knife | Gamma Doppler
+- ★ Flip Knife | Bright Water
+- ★ Flip Knife | Autotronic
+- ★ Flip Knife | Freehand
+- ★ Flip Knife | Black Laminate
+- ★ Karambit | Lore
+- ★ Karambit | Gamma Doppler
+- ★ Karambit | Bright Water
+- ★ Karambit | Autotronic
+- ★ Karambit | Freehand
+- ★ Karambit | Black Laminate
+- ★ Gut Knife | Lore
+- ★ Gut Knife | Gamma Doppler
+- ★ Gut Knife | Bright Water
+- ★ Gut Knife | Autotronic
+- ★ Gut Knife | Freehand
+- ★ Gut Knife | Black Laminate
+
+#### Covert (2)
+
+- Glock-18 | Wasteland Rebel
+- M4A1-S | Mecha Industries
+
+#### Classified (3)
+
+- M4A4 | Desolate Space
+- P2000 | Imperial Dragon
+- SCAR-20 | Bloodsport
+
+#### Restricted (5)
+
+- AUG | Aristocrat
+- AWP | Phobos
+- P90 | Chopper
+- R8 Revolver | Reboot
+- Sawed-Off | Limelight
+
+#### Mil-Spec (7)
+
+- Five-SeveN | Violent Daimyo
+- MAC-10 | Carnivore
+- Nova | Exo
+- P250 | Iron Clad
+- PP-Bizon | Harvester
+- SG 553 | Aerial
+- Tec-9 | Ice Cap
+
+### Chroma 3 Case
+
+- Release date: 2016-04-27
+- Fallback price: $2.10
+- Items: 47
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ M9 Bayonet | Rust Coat
+- ★ M9 Bayonet | Doppler
+- ★ M9 Bayonet | Damascus Steel
+- ★ M9 Bayonet | Marble Fade
+- ★ M9 Bayonet | Ultraviolet
+- ★ M9 Bayonet | Tiger Tooth
+- ★ Bayonet | Rust Coat
+- ★ Bayonet | Doppler
+- ★ Bayonet | Damascus Steel
+- ★ Bayonet | Marble Fade
+- ★ Bayonet | Ultraviolet
+- ★ Bayonet | Tiger Tooth
+- ★ Flip Knife | Rust Coat
+- ★ Flip Knife | Doppler
+- ★ Flip Knife | Damascus Steel
+- ★ Flip Knife | Marble Fade
+- ★ Flip Knife | Ultraviolet
+- ★ Flip Knife | Tiger Tooth
+- ★ Karambit | Rust Coat
+- ★ Karambit | Doppler
+- ★ Karambit | Damascus Steel
+- ★ Karambit | Marble Fade
+- ★ Karambit | Ultraviolet
+- ★ Karambit | Tiger Tooth
+- ★ Gut Knife | Rust Coat
+- ★ Gut Knife | Doppler
+- ★ Gut Knife | Damascus Steel
+- ★ Gut Knife | Marble Fade
+- ★ Gut Knife | Ultraviolet
+- ★ Gut Knife | Tiger Tooth
+
+#### Covert (2)
+
+- PP-Bizon | Judgement of Anubis
+- M4A1-S | Chantico's Fire
+
+#### Classified (3)
+
+- AUG | Fleet Flock
+- P250 | Asiimov
+- UMP-45 | Primal Saber
+
+#### Restricted (5)
+
+- CZ75-Auto | Red Astor
+- Galil AR | Firefight
+- SSG 08 | Ghost Crusader
+- Tec-9 | Re-Entry
+- XM1014 | Black Tie
+
+#### Mil-Spec (7)
+
+- Dual Berettas | Ventilators
+- G3SG1 | Orange Crash
+- M249 | Spectre
+- MP9 | Bioleak
+- P2000 | Oceanic
+- Sawed-Off | Fubar
+- SG 553 | Atlas
+
+### Operation Wildfire Case
+
+- Release date: 2016-02-17
+- Fallback price: $2.15
+- Items: 29
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Bowie Knife
+- ★ Bowie Knife | Stained
+- ★ Bowie Knife | Boreal Forest
+- ★ Bowie Knife | Night
+- ★ Bowie Knife | Slaughter
+- ★ Bowie Knife | Scorched
+- ★ Bowie Knife | Forest DDPAT
+- ★ Bowie Knife | Crimson Web
+- ★ Bowie Knife | Fade
+- ★ Bowie Knife | Safari Mesh
+- ★ Bowie Knife | Blue Steel
+- ★ Bowie Knife | Case Hardened
+- ★ Bowie Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Fuel Injector
+- M4A4 | The Battlestar
+
+#### Classified (3)
+
+- AWP | Elite Build
+- Desert Eagle | Kumicho Dragon
+- Nova | Hyper Beast
+
+#### Restricted (5)
+
+- FAMAS | Valence
+- Five-SeveN | Triumvirate
+- Glock-18 | Royal Legion
+- MAG-7 | Praetorian
+- MP7 | Impire
+
+#### Mil-Spec (6)
+
+- PP-Bizon | Photic Zone
+- Dual Berettas | Cartel
+- MAC-10 | Lapis Gator
+- SSG 08 | Necropos
+- Tec-9 | Jambiya
+- USP-S | Lead Conduit
+
+### Revolver Case
+
+- Release date: 2015-12-08
+- Fallback price: $1.70
+- Items: 82
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (2)
+
+- M4A4 | Royal Paladin
+- R8 Revolver | Fade
+
+#### Classified (3)
+
+- AK-47 | Point Disarray
+- G3SG1 | The Executioner
+- P90 | Shapewood
+
+#### Restricted (6)
+
+- PP-Bizon | Fuel Rod
+- Five-SeveN | Retrobution
+- Negev | Power Loader
+- SG 553 | Tiger Moth
+- Tec-9 | Avalanche
+- XM1014 | Teclu Burner
+
+#### Mil-Spec (6)
+
+- R8 Revolver | Crimson Web
+- AUG | Ricochet
+- Desert Eagle | Corinthian
+- P2000 | Imperial
+- Sawed-Off | Yorick
+- SCAR-20 | Outbreak
+
+### Chroma 2 Case
+
+- Release date: 2015-09-17
+- Fallback price: $2.40
+- Items: 45
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ M9 Bayonet | Rust Coat
+- ★ M9 Bayonet | Doppler
+- ★ M9 Bayonet | Damascus Steel
+- ★ M9 Bayonet | Marble Fade
+- ★ M9 Bayonet | Ultraviolet
+- ★ M9 Bayonet | Tiger Tooth
+- ★ Bayonet | Rust Coat
+- ★ Bayonet | Doppler
+- ★ Bayonet | Damascus Steel
+- ★ Bayonet | Marble Fade
+- ★ Bayonet | Ultraviolet
+- ★ Bayonet | Tiger Tooth
+- ★ Flip Knife | Rust Coat
+- ★ Flip Knife | Doppler
+- ★ Flip Knife | Damascus Steel
+- ★ Flip Knife | Marble Fade
+- ★ Flip Knife | Ultraviolet
+- ★ Flip Knife | Tiger Tooth
+- ★ Karambit | Rust Coat
+- ★ Karambit | Doppler
+- ★ Karambit | Damascus Steel
+- ★ Karambit | Marble Fade
+- ★ Karambit | Ultraviolet
+- ★ Karambit | Tiger Tooth
+- ★ Gut Knife | Rust Coat
+- ★ Gut Knife | Doppler
+- ★ Gut Knife | Damascus Steel
+- ★ Gut Knife | Marble Fade
+- ★ Gut Knife | Ultraviolet
+- ★ Gut Knife | Tiger Tooth
+
+#### Covert (2)
+
+- M4A1-S | Hyper Beast
+- MAC-10 | Neon Rider
+
+#### Classified (3)
+
+- Five-SeveN | Monkey Business
+- Galil AR | Eco
+- FAMAS | Djinn
+
+#### Restricted (4)
+
+- AWP | Worm God
+- MAG-7 | Heat
+- CZ75-Auto | Pole Position
+- UMP-45 | Grand Prix
+
+#### Mil-Spec (6)
+
+- AK-47 | Elite Build
+- MP7 | Armor Core
+- Desert Eagle | Bronze Deco
+- P250 | Valence
+- Negev | Man-o'-war
+- Sawed-Off | Origami
+
+### Shadow Case
+
+- Release date: 2015-09-17
+- Fallback price: $0.85
+- Items: 29
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Shadow Daggers
+- ★ Shadow Daggers | Stained
+- ★ Shadow Daggers | Boreal Forest
+- ★ Shadow Daggers | Night
+- ★ Shadow Daggers | Slaughter
+- ★ Shadow Daggers | Scorched
+- ★ Shadow Daggers | Forest DDPAT
+- ★ Shadow Daggers | Crimson Web
+- ★ Shadow Daggers | Fade
+- ★ Shadow Daggers | Safari Mesh
+- ★ Shadow Daggers | Blue Steel
+- ★ Shadow Daggers | Case Hardened
+- ★ Shadow Daggers | Urban Masked
+
+#### Covert (2)
+
+- M4A1-S | Golden Coil
+- USP-S | Kill Confirmed
+
+#### Classified (3)
+
+- AK-47 | Frontside Misty
+- G3SG1 | Flux
+- SSG 08 | Big Iron
+
+#### Restricted (4)
+
+- Galil AR | Stone Cold
+- M249 | Nebula Crusader
+- MP7 | Special Delivery
+- P250 | Wingshot
+
+#### Mil-Spec (7)
+
+- Dual Berettas | Dualing Dragons
+- FAMAS | Survivor Z
+- Glock-18 | Wraiths
+- MAC-10 | Rangeen
+- MAG-7 | Cobalt Core
+- SCAR-20 | Green Marine
+- XM1014 | Scumbria
+
+### Falchion Case
+
+- Release date: 2015-05-26
+- Fallback price: $0.90
+- Items: 29
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Falchion Knife
+- ★ Falchion Knife | Stained
+- ★ Falchion Knife | Boreal Forest
+- ★ Falchion Knife | Night
+- ★ Falchion Knife | Slaughter
+- ★ Falchion Knife | Scorched
+- ★ Falchion Knife | Forest DDPAT
+- ★ Falchion Knife | Crimson Web
+- ★ Falchion Knife | Fade
+- ★ Falchion Knife | Safari Mesh
+- ★ Falchion Knife | Blue Steel
+- ★ Falchion Knife | Case Hardened
+- ★ Falchion Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Aquamarine Revenge
+- AWP | Hyper Beast
+
+#### Classified (3)
+
+- CZ75-Auto | Yellow Jacket
+- MP7 | Nemesis
+- SG 553 | Cyrex
+
+#### Restricted (5)
+
+- FAMAS | Neural Net
+- M4A4 | Evil Daimyo
+- MP9 | Ruby Poison Dart
+- Negev | Loudmouth
+- P2000 | Handgun
+
+#### Mil-Spec (6)
+
+- Galil AR | Rocket Pop
+- Glock-18 | Bunsen Burner
+- Nova | Ranger
+- P90 | Elite Build
+- UMP-45 | Riot
+- USP-S | Torque
+
+### Chroma Case
+
+- Release date: 2015-02-09
+- Fallback price: $2.80
+- Items: 44
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (30)
+
+- ★ M9 Bayonet | Rust Coat
+- ★ M9 Bayonet | Doppler
+- ★ M9 Bayonet | Damascus Steel
+- ★ M9 Bayonet | Marble Fade
+- ★ M9 Bayonet | Ultraviolet
+- ★ M9 Bayonet | Tiger Tooth
+- ★ Bayonet | Rust Coat
+- ★ Bayonet | Doppler
+- ★ Bayonet | Damascus Steel
+- ★ Bayonet | Marble Fade
+- ★ Bayonet | Ultraviolet
+- ★ Bayonet | Tiger Tooth
+- ★ Flip Knife | Rust Coat
+- ★ Flip Knife | Doppler
+- ★ Flip Knife | Damascus Steel
+- ★ Flip Knife | Marble Fade
+- ★ Flip Knife | Ultraviolet
+- ★ Flip Knife | Tiger Tooth
+- ★ Karambit | Rust Coat
+- ★ Karambit | Doppler
+- ★ Karambit | Damascus Steel
+- ★ Karambit | Marble Fade
+- ★ Karambit | Ultraviolet
+- ★ Karambit | Tiger Tooth
+- ★ Gut Knife | Rust Coat
+- ★ Gut Knife | Doppler
+- ★ Gut Knife | Damascus Steel
+- ★ Gut Knife | Marble Fade
+- ★ Gut Knife | Ultraviolet
+- ★ Gut Knife | Tiger Tooth
+
+#### Covert (2)
+
+- AWP | Man-o'-war
+- Galil AR | Chatterbox
+
+#### Classified (3)
+
+- AK-47 | Cartel
+- M4A4 | 龍王 (Dragon King)
+- P250 | Muertos
+
+#### Restricted (4)
+
+- Dual Berettas | Urban Shock
+- Desert Eagle | Naga
+- MAC-10 | Malachite
+- Sawed-Off | Serenity
+
+#### Mil-Spec (5)
+
+- Glock-18 | Catacombs
+- M249 | System Lock
+- MP9 | Deadly Poison
+- SCAR-20 | Grotto
+- XM1014 | Quicksilver
+
+### CS:GO Weapon Case 3
+
+- Release date: 2015-01-08
+- Fallback price: $6.20
+- Items: 77
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (1)
+
+- CZ75-Auto | Victoria
+
+#### Classified (2)
+
+- CZ75-Auto | The Fuschia Is Now
+- P250 | Undertow
+
+#### Restricted (4)
+
+- CZ75-Auto | Tread Plate
+- Tec-9 | Titanium Bit
+- Desert Eagle | Heirloom
+- Five-SeveN | Copper Galaxy
+
+#### Mil-Spec (5)
+
+- CZ75-Auto | Crimson Web
+- P2000 | Red FragCam
+- Dual Berettas | Panther
+- USP-S | Stainless
+- Glock-18 | Blue Fissure
+
+### Winter Offensive Weapon Case
+
+- Release date: 2014-12-18
+- Fallback price: $6.80
+- Items: 78
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (2)
+
+- M4A4 | Asiimov
+- Sawed-Off | The Kraken
+
+#### Classified (3)
+
+- M4A1-S | Guardian
+- P250 | Mehndi
+- AWP | Redline
+
+#### Restricted (4)
+
+- FAMAS | Pulse
+- Dual Berettas | Marina
+- MP9 | Rose Iron
+- Nova | Rising Skull
+
+#### Mil-Spec (4)
+
+- Galil AR | Sandstorm
+- Five-SeveN | Kami
+- M249 | Magma
+- PP-Bizon | Cobalt Halftone
+
+### Operation Vanguard Weapon Case
+
+- Release date: 2014-11-11
+- Fallback price: $2.90
+- Items: 79
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Wasteland Rebel
+- P2000 | Fire Elemental
+
+#### Classified (3)
+
+- P250 | Cartel
+- SCAR-20 | Cardiac
+- XM1014 | Tranquility
+
+#### Restricted (4)
+
+- Glock-18 | Grinder
+- M4A1-S | Basilisk
+- M4A4 | Griffin
+- Sawed-Off | Highwayman
+
+#### Mil-Spec (5)
+
+- G3SG1 | Murky
+- MAG-7 | Firestarter
+- MP9 | Dart
+- Five-SeveN | Urban Hazard
+- UMP-45 | Delusion
+
+### eSports 2014 Summer Case
+
+- Release date: 2014-07-10
+- Fallback price: $11.00
+- Items: 82
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (2)
+
+- M4A4 | Bullet Rain
+- AK-47 | Jaguar
+
+#### Classified (4)
+
+- AUG | Bengal Tiger
+- Nova | Bloomstick
+- AWP | Corticera
+- P2000 | Corticera
+
+#### Restricted (5)
+
+- PP-Bizon | Blue Streak
+- P90 | Virus
+- MP7 | Ocean Foam
+- Glock-18 | Steel Disruption
+- Desert Eagle | Crimson Web
+
+#### Mil-Spec (6)
+
+- SSG 08 | Dark Water
+- MAC-10 | Ultraviolet
+- USP-S | Blood Tiger
+- CZ75-Auto | Hexane
+- Negev | Bratatat
+- XM1014 | Red Python
+
+### Operation Breakout Weapon Case
+
+- Release date: 2014-07-01
+- Fallback price: $6.20
+- Items: 27
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Butterfly Knife
+- ★ Butterfly Knife | Stained
+- ★ Butterfly Knife | Boreal Forest
+- ★ Butterfly Knife | Night
+- ★ Butterfly Knife | Slaughter
+- ★ Butterfly Knife | Scorched
+- ★ Butterfly Knife | Forest DDPAT
+- ★ Butterfly Knife | Crimson Web
+- ★ Butterfly Knife | Fade
+- ★ Butterfly Knife | Safari Mesh
+- ★ Butterfly Knife | Blue Steel
+- ★ Butterfly Knife | Case Hardened
+- ★ Butterfly Knife | Urban Masked
+
+#### Covert (2)
+
+- P90 | Asiimov
+- M4A1-S | Cyrex
+
+#### Classified (3)
+
+- Desert Eagle | Conspiracy
+- Five-SeveN | Fowl Play
+- Glock-18 | Water Elemental
+
+#### Restricted (4)
+
+- PP-Bizon | Osiris
+- CZ75-Auto | Tigris
+- Nova | Koi
+- P250 | Supernova
+
+#### Mil-Spec (5)
+
+- MP7 | Urban Hazard
+- Negev | Desert-Strike
+- P2000 | Ivory
+- SSG 08 | Abyss
+- UMP-45 | Labyrinth
+
+### Huntsman Weapon Case
+
+- Release date: 2014-05-01
+- Fallback price: $8.50
+- Items: 28
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (13)
+
+- ★ Huntsman Knife
+- ★ Huntsman Knife | Stained
+- ★ Huntsman Knife | Boreal Forest
+- ★ Huntsman Knife | Night
+- ★ Huntsman Knife | Slaughter
+- ★ Huntsman Knife | Scorched
+- ★ Huntsman Knife | Forest DDPAT
+- ★ Huntsman Knife | Crimson Web
+- ★ Huntsman Knife | Fade
+- ★ Huntsman Knife | Safari Mesh
+- ★ Huntsman Knife | Blue Steel
+- ★ Huntsman Knife | Case Hardened
+- ★ Huntsman Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Vulcan
+- M4A4 | Desert-Strike
+
+#### Classified (3)
+
+- M4A1-S | Atomic Alloy
+- SCAR-20 | Cyrex
+- USP-S | Caiman
+
+#### Restricted (4)
+
+- AUG | Torque
+- PP-Bizon | Antique
+- XM1014 | Heaven Guard
+- MAC-10 | Tatter
+
+#### Mil-Spec (6)
+
+- Tec-9 | Isaac
+- SSG 08 | Slashed
+- Galil AR | Kami
+- CZ75-Auto | Twist
+- P90 | Module
+- P2000 | Pulse
+
+### Operation Phoenix Weapon Case
+
+- Release date: 2014-02-20
+- Fallback price: $3.10
+- Items: 78
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (2)
+
+- AWP | Asiimov
+- AUG | Chameleon
+
+#### Classified (3)
+
+- AK-47 | Redline
+- P90 | Trigon
+- Nova | Antique
+
+#### Restricted (4)
+
+- MAC-10 | Heat
+- SG 553 | Pulse
+- FAMAS | Sergeant
+- USP-S | Guardian
+
+#### Mil-Spec (4)
+
+- UMP-45 | Corporal
+- Negev | Terrain
+- Tec-9 | Sandstorm
+- MAG-7 | Heaven Guard
+
+### eSports 2013 Winter Case
+
+- Release date: 2013-12-18
+- Fallback price: $9.50
+- Items: 77
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (1)
+
+- M4A4 | X-Ray
+
+#### Classified (3)
+
+- FAMAS | Afterimage
+- AWP | Electric Hive
+- Desert Eagle | Cobalt Disruption
+
+#### Restricted (2)
+
+- AK-47 | Blue Laminate
+- P90 | Blind Spot
+
+#### Mil-Spec (6)
+
+- Galil AR | Blue Titanium
+- Five-SeveN | Nightshade
+- PP-Bizon | Water Sigil
+- Nova | Ghost Camo
+- G3SG1 | Azure Zebra
+- P250 | Steel Disruption
+
+### CS:GO Weapon Case 2
+
+- Release date: 2013-11-08
+- Fallback price: $12.50
+- Items: 77
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (1)
+
+- SSG 08 | Blood in the Water
+
+#### Classified (2)
+
+- P90 | Cold Blooded
+- USP-S | Serum
+
+#### Restricted (4)
+
+- Five-SeveN | Case Hardened
+- MP9 | Hypnotic
+- Nova | Graphite
+- Dual Berettas | Hemoglobin
+
+#### Mil-Spec (5)
+
+- Tec-9 | Blue Titanium
+- M4A1-S | Blood Tiger
+- FAMAS | Hexane
+- P250 | Hive
+- SCAR-20 | Crimson Web
+
+### eSports 2013 Case
+
+- Release date: 2013-10-09
+- Fallback price: $45.00
+- Items: 74
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (1)
+
+- P90 | Death by Kitty
+
+#### Classified (2)
+
+- AK-47 | Red Laminate
+- AWP | BOOM
+
+#### Restricted (3)
+
+- Galil AR | Orange DDPAT
+- Sawed-Off | Orange DDPAT
+- P250 | Splash
+
+#### Mil-Spec (3)
+
+- M4A4 | Faded Zebra
+- MAG-7 | Memento
+- FAMAS | Doomkitty
+
+### Operation Bravo Case
+
+- Release date: 2013-09-19
+- Fallback price: $42.00
+- Items: 80
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (2)
+
+- AK-47 | Fire Serpent
+- Desert Eagle | Golden Koi
+
+#### Classified (3)
+
+- P90 | Emerald Dragon
+- P2000 | Ocean Foam
+- AWP | Graphite
+
+#### Restricted (4)
+
+- USP-S | Overgrowth
+- M4A4 | Zirka
+- MAC-10 | Graven
+- M4A1-S | Bright Water
+
+#### Mil-Spec (6)
+
+- SG 553 | Wave Spray
+- Dual Berettas | Black Limba
+- Nova | Tempest
+- Galil AR | Shattered
+- UMP-45 | Bone Pile
+- G3SG1 | Demeter
+
+### CS:GO Weapon Case
+
+- Release date: 2013-08-14
+- Fallback price: $85.00
+- Items: 74
+- Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
+
+#### Rare Special (65)
+
+- ★ M9 Bayonet
+- ★ M9 Bayonet | Stained
+- ★ M9 Bayonet | Boreal Forest
+- ★ M9 Bayonet | Night
+- ★ M9 Bayonet | Slaughter
+- ★ M9 Bayonet | Scorched
+- ★ M9 Bayonet | Forest DDPAT
+- ★ M9 Bayonet | Crimson Web
+- ★ M9 Bayonet | Fade
+- ★ M9 Bayonet | Safari Mesh
+- ★ M9 Bayonet | Blue Steel
+- ★ M9 Bayonet | Case Hardened
+- ★ M9 Bayonet | Urban Masked
+- ★ Bayonet
+- ★ Bayonet | Stained
+- ★ Bayonet | Boreal Forest
+- ★ Bayonet | Night
+- ★ Bayonet | Slaughter
+- ★ Bayonet | Scorched
+- ★ Bayonet | Forest DDPAT
+- ★ Bayonet | Crimson Web
+- ★ Bayonet | Fade
+- ★ Bayonet | Safari Mesh
+- ★ Bayonet | Blue Steel
+- ★ Bayonet | Case Hardened
+- ★ Bayonet | Urban Masked
+- ★ Flip Knife
+- ★ Flip Knife | Stained
+- ★ Flip Knife | Boreal Forest
+- ★ Flip Knife | Night
+- ★ Flip Knife | Slaughter
+- ★ Flip Knife | Scorched
+- ★ Flip Knife | Forest DDPAT
+- ★ Flip Knife | Crimson Web
+- ★ Flip Knife | Fade
+- ★ Flip Knife | Safari Mesh
+- ★ Flip Knife | Blue Steel
+- ★ Flip Knife | Case Hardened
+- ★ Flip Knife | Urban Masked
+- ★ Karambit
+- ★ Karambit | Stained
+- ★ Karambit | Boreal Forest
+- ★ Karambit | Night
+- ★ Karambit | Slaughter
+- ★ Karambit | Scorched
+- ★ Karambit | Forest DDPAT
+- ★ Karambit | Crimson Web
+- ★ Karambit | Fade
+- ★ Karambit | Safari Mesh
+- ★ Karambit | Blue Steel
+- ★ Karambit | Case Hardened
+- ★ Karambit | Urban Masked
+- ★ Gut Knife
+- ★ Gut Knife | Stained
+- ★ Gut Knife | Boreal Forest
+- ★ Gut Knife | Night
+- ★ Gut Knife | Slaughter
+- ★ Gut Knife | Scorched
+- ★ Gut Knife | Forest DDPAT
+- ★ Gut Knife | Crimson Web
+- ★ Gut Knife | Fade
+- ★ Gut Knife | Safari Mesh
+- ★ Gut Knife | Blue Steel
+- ★ Gut Knife | Case Hardened
+- ★ Gut Knife | Urban Masked
+
+#### Covert (1)
+
+- AWP | Lightning Strike
+
+#### Classified (2)
+
+- AK-47 | Case Hardened
+- Desert Eagle | Hypnotic
+
+#### Restricted (3)
+
+- Glock-18 | Dragon Tattoo
+- USP-S | Dark Water
+- M4A1-S | Dark Water
+
+#### Mil-Spec (3)
+
+- MP7 | Skulls
+- AUG | Wings
+- SG 553 | Ultraviolet

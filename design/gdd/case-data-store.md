@@ -1,7 +1,6 @@
 # Case Data Store
 
 > **Status**: In Design
-> **Author**: User + Claude Code
 > **Last Updated**: 2026-05-18
 > **Implements Pillar**: Every Case Counts · Faithful Over Flashy
 

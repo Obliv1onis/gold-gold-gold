@@ -1,27 +1,20 @@
 ## Summary
 
-Brief description of what this PR does.
+Describe the user-facing or maintenance change.
 
-## Type of Change
+## Validation
 
-- [ ] New agent
-- [ ] New skill
-- [ ] New hook or rule
-- [ ] Bug fix
-- [ ] Documentation improvement
-- [ ] Other:
+- [ ] `npm run data:audit`
+- [ ] `npm run docs:reference:check`
+- [ ] `npm test`
+- [ ] `npm run build`
 
-## Changes
+## Catalogue changes
 
--
--
--
+- [ ] Not applicable
+- [ ] Runtime JSON was regenerated with the catalogue tools
+- [ ] Reference Markdown was regenerated with `npm run docs:reference`
 
-## Checklist
+## Additional context
 
-- [ ] I've tested this in a Claude Code session
-- [ ] New agents include the Collaboration Protocol section
-- [ ] New skills use the subdirectory format (`.claude/skills/<name>/SKILL.md`)
-- [ ] Reference docs are updated (agent-roster, skills-reference, hooks-reference, rules-reference)
-- [ ] Hooks use `grep -E` (POSIX) and fail gracefully without jq/python
-- [ ] No hardcoded paths or platform-specific assumptions
+Include screenshots for visual changes and source links for catalogue changes.

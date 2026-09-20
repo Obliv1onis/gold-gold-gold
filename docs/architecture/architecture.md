@@ -36,12 +36,6 @@
 | Image loading | HTMLImageElement, onload/onerror, Canvas 2D for placeholders | LOW |
 | Fetch | fetch(), Promise.allSettled() | LOW |
 
-### Note on CLAUDE.md Engine Placeholder
-
-`CLAUDE.md` currently lists Godot 4.6 as the engine. This is a stale placeholder — the project is a web app. The `docs/engine-reference/godot/` directory should be quarantined (carry-over advisory from gate-check 2026-05-21). No Godot APIs are used anywhere in the GDDs.
-
----
-
 ## System Layer Map
 
 ```

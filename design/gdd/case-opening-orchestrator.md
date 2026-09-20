@@ -1,7 +1,6 @@
 # Case Opening Orchestrator
 
 > **Status**: Complete
-> **Author**: User + Claude Code
 > **Last Updated**: 2026-05-20
 > **Implements Pillar**: Zero Friction · Faithful Over Flashy
 

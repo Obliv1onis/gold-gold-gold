@@ -1,970 +1,5686 @@
-# Early-Era Souvenir Package Skin Database (2013-2015)
-
-## The Dust II Collection
-*Associated Packages:*
-*   `DreamHack 2013 Dust II Souvenir Package`
-*   `EMS One Katowice 2014 Dust II Souvenir Package`
-*   `ESL One Cologne 2014 Dust II Souvenir Package`
-*   `DreamHack Winter 2014 Dust II Souvenir Package`
-*   `ESL One Katowice 2015 Dust II Souvenir Package`
-*   `ESL One Cologne 2015 Dust II Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Dust II Souvenir Package`
-
-*   **Restricted**
-    *   M4A1-S | Nitro
-*   **Mil-Spec**
-    *   AK-47 | Safari Mesh
-    *   Five-SeveN | Candy Apple
-    *   P250 | Metallic DDPAT
-*   **Industrial Grade**
-    *   AWP | Pit Viper
-    *   Desert Eagle | Mudder
-    *   Glock-18 | Groundwater
-    *   P2000 | Grassland
-*   **Consumer Grade**
-    *   AUG | Condemned
-    *   Dual Berettas | Colony
-    *   FAMAS | Colony
-    *   G3SG1 | Desert Storm
-    *   Galil AR | Hunting Blind
-    *   M249 | Gator Mesh
-    *   MAC-10 | Palm
-    *   MP7 | Groundwater
-    *   Nova | Sand Dune
-    *   SCAR-20 | Sand Mesh
-    *   SG 553 | Gator Mesh
-    *   SSG 08 | Sand Dune
-    *   Tec-9 | Groundwater
-    *   XM1014 | Cali Camo
-
----
-
-## The Mirage Collection
-*Associated Packages:*
-*   `DreamHack 2013 Mirage Souvenir Package`
-*   `EMS One Katowice 2014 Mirage Souvenir Package`
-*   `ESL One Cologne 2014 Mirage Souvenir Package`
-*   `DreamHack Winter 2014 Mirage Souvenir Package`
-*   `ESL One Katowice 2015 Mirage Souvenir Package`
-*   `ESL One Cologne 2015 Mirage Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Mirage Souvenir Package`
-
-*   **Classified**
-    *   MAG-7 | Bulldozer
-*   **Restricted**
-    *   MP9 | Hot Rod
-*   **Mil-Spec**
-    *   Glock-18 | Candy Apple
-    *   UMP-45 | Gunsmoke
-*   **Industrial Grade**
-    *   AWP | Safari Mesh
-    *   Desert Eagle | Urban DDPAT
-    *   Mac-10 | Silver
-    *   P250 | Gunsmoke
-*   **Consumer Grade**
-    *   AUG | Colony
-    *   Dual Berettas | Colony
-    *   FAMAS | Colony
-    *   G3SG1 | Safari Mesh
-    *   Galil AR | Hunting Blind
-    *   P2000 | Safari Mesh
-    *   SG 553 | Waves Perforated
-    *   SSG 08 | Tropical Storm
-
----
-
-## The Inferno Collection
-*Associated Packages:*
-*   `DreamHack 2013 Inferno Souvenir Package`
-*   `EMS One Katowice 2014 Inferno Souvenir Package`
-*   `ESL One Cologne 2014 Inferno Souvenir Package`
-*   `DreamHack Winter 2014 Inferno Souvenir Package`
-*   `ESL One Katowice 2015 Inferno Souvenir Package`
-*   `ESL One Cologne 2015 Inferno Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Inferno Souvenir Package`
-
-*   **Classified**
-    *   Tec-9 | Nuclear Threat
-*   **Restricted**
-    *   P250 | Nuclear Threat
-*   **Mil-Spec**
-    *   M4A4 | Radiation Hazard
-*   **Industrial Grade**
-    *   Glock-18 | Candy Apple
-    *   MAG-7 | Sand Dune
-    *   P2000 | Granite Marbleized
-    *   XM1014 | Blaze Orange
-*   **Consumer Grade**
-    *   Dual Berettas | Colony
-    *   MAC-10 | Candy Apple
-    *   MP7 | Gunsmoke
-    *   Nova | Walnut
-
----
-
-## The Nuke Collection
-*Associated Packages:*
-*   `DreamHack 2013 Nuke Souvenir Package`
-*   `EMS One Katowice 2014 Nuke Souvenir Package`
-*   `ESL One Cologne 2014 Nuke Souvenir Package`
-*   `DreamHack Winter 2014 Nuke Souvenir Package`
-*   `ESL One Katowice 2015 Nuke Souvenir Package`
-*   `ESL One Cologne 2015 Nuke Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Nuke Souvenir Package`
-
-*   **Classified**
-    *   M4A4 | Radiation Hazard
-*   **Restricted**
-    *   P250 | Nuclear Threat
-    *   Tec-9 | Nuclear Threat
-*   **Mil-Spec**
-    *   P2000 | Radioactive
-    *   XM1014 | Fallout Warning
-*   **Industrial Grade**
-    *   Bizon | Irradiated Alert
-    *   MAG-7 | Irradiated Alert
-    *   MP9 | Setting Sun
-    *   P90 | Fallout Warning
-*   **Consumer Grade**
-    *   Dual Berettas | Colony
-    *   G3SG1 | Desert Storm
-    *   Galil AR | Hunting Blind
-    *   M249 | MAG-7 | Sand Dune
-
----
-
-## The Train Collection
-*Associated Packages:*
-*   `DreamHack 2013 Train Souvenir Package`
-*   `EMS One Katowice 2014 Train Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Train Souvenir Package`
-
-*   **Restricted**
-    *   P250 | Metallic DDPAT
-    *   Tec-9 | Brass
-*   **Mil-Spec**
-    *   Desert Eagle | Urban DDPAT
-    *   MAC-10 | Candy Apple
-*   **Industrial Grade**
-    *   MAG-7 | Metallic DDPAT
-    *   P2000 | Silver
-    *   SCAR-20 | Carbon Fiber
-*   **Consumer Grade**
-    *   Dual Berettas | Colony
-    *   G3SG1 | Desert Storm
-    *   M249 | MAG-7 | Sand Dune
-    *   Nova | Polar Mesh
-    *   P90 | Sand Spray
-    *   UMP-45 | Urban DDPAT
-
----
-
-## The Cache Collection
-*Associated Packages:*
-*   `ESL One Cologne 2014 Cache Souvenir Package`
-*   `DreamHack Winter 2014 Cache Souvenir Package`
-*   `ESL One Katowice 2015 Cache Souvenir Package`
-*   `ESL One Cologne 2015 Cache Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Cache Souvenir Package`
-
-*   **Covert**
-    *   FAMAS | Styx
-*   **Classified**
-    *   Glock-18 | Reactor
-    *   MP9 | Setting Sun
-*   **Restricted**
-    *   Bizon | Chemical Green
-    *   Mac-10 | Nuclear Garden
-    *   XM1014 | Bone Machine
-*   **Mil-Spec**
-    *   AUG | Radiation Hazard
-    *   Galil AR | Cerberus
-    *   P250 | Contamination
-    *   Tec-9 | Toxic
-*   **Consumer Grade**
-    *   Five-SeveN | Hot Shot
-    *   G3SG1 | Green Apple
-    *   P2000 | Amber Fade
-    *   SG 553 | Fallout Warning
-
----
-
-## The Cobblestone Collection
-*Associated Packages:*
-*   `ESL One Cologne 2014 Cobblestone Souvenir Package`
-*   `DreamHack Winter 2014 Cobblestone Souvenir Package`
-*   `ESL One Katowice 2015 Cobblestone Souvenir Package`
-*   `ESL One Cologne 2015 Cobblestone Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package`
-
-*   **Covert**
-    *   AWP | Dragon Lore
-*   **Classified**
-    *   M4A1-S | Knight
-*   **Restricted**
-    *   Desert Eagle | Hand Cannon
-    *   MP9 | Dark Age
-*   **Mil-Spec**
-    *   CZ75-Auto | Chalice
-    *   P2000 | Chainmail
-*   **Industrial Grade**
-    *   MAG-7 | Silver
-    *   Nova | Green Apple
-    *   Sawed-Off | Rust Coat
-    *   XM1014 | Red Leather
-*   **Consumer Grade**
-    *   Dual Berettas | Briar
-    *   G3SG1 | Orange Kimono
-    *   Mac-10 | Indigo
-    *   P90 | Storm
-    *   SCAR-20 | Storm
-    *   USP-S | Royal Blue
-
----
-
-## The Overpass Collection
-*Associated Packages:*
-*   `ESL One Cologne 2015 Overpass Souvenir Package`
-*   `DreamHack Cluj-Napoca 2015 Overpass Souvenir Package`
-
-*   **Covert**
-    *   M4A1-S | Master Piece
-*   **Classified**
-    *   AWP | Pink DDPAT
-*   **Restricted**
-    *   SSG 08 | Detour
-    *   XM1014 | VariCamo Blue
-*   **Mil-Spec**
-    *   CZ75-Auto | Nitro
-    *   Glock-18 | Night
-    *   USP-S | Road Rash
-*   **Industrial Grade**
-    *   Desert Eagle | Urban DDPAT
-    *   M249 | Contrast Spray
-    *   MP9 | Storm
-    *   P2000 | Grassland
-*   **Consumer Grade**
-    *   AUG | Storm
-    *   Dual Berettas | Colony
-    *   G3SG1 | VariCamo
-    *   MP7 | Gunsmoke
-    *   P90 | Scorched
-    *   SCAR-20 | Contractor
-    *   SG 553 | Waves Perforated
-    
-    
-    # Mid-Era Souvenir Package Skin Database (2016-2017)
-
-## The Dust II Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Dust II Souvenir Package`
-*   `ESL One Cologne 2016 Dust II Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Dust II Souvenir Package`
-
-*   **Restricted**
-    *   M4A1-S | Nitro
-*   **Mil-Spec**
-    *   AK-47 | Safari Mesh
-    *   Five-SeveN | Candy Apple
-    *   P250 | Metallic DDPAT
-*   **Industrial Grade**
-    *   AWP | Pit Viper
-    *   Desert Eagle | Mudder
-    *   Glock-18 | Groundwater
-    *   P2000 | Grassland
-*   **Consumer Grade**
-    *   AUG | Condemned
-    *   Dual Berettas | Colony
-    *   FAMAS | Colony
-    *   G3SG1 | Desert Storm
-    *   Galil AR | Hunting Blind
-    *   M249 | Gator Mesh
-    *   MAC-10 | Palm
-    *   MP7 | Groundwater
-    *   Nova | Sand Dune
-    *   SCAR-20 | Sand Mesh
-    *   SG 553 | Gator Mesh
-    *   SSG 08 | Sand Dune
-    *   Tec-9 | Groundwater
-    *   XM1014 | Cali Camo
-
----
-
-## The Mirage Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Mirage Souvenir Package`
-*   `ESL One Cologne 2016 Mirage Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Mirage Souvenir Package`
-*   `PGL Krakow 2017 Mirage Souvenir Package`
-
-*   **Classified**
-    *   MAG-7 | Bulldozer
-*   **Restricted**
-    *   MP9 | Hot Rod
-*   **Mil-Spec**
-    *   Glock-18 | Candy Apple
-    *   UMP-45 | Gunsmoke
-*   **Industrial Grade**
-    *   AWP | Safari Mesh
-    *   Desert Eagle | Urban DDPAT
-    *   MAC-10 | Silver
-    *   P250 | Gunsmoke
-*   **Consumer Grade**
-    *   AUG | Colony
-    *   Dual Berettas | Colony
-    *   FAMAS | Colony
-    *   G3SG1 | Safari Mesh
-    *   Galil AR | Hunting Blind
-    *   P2000 | Safari Mesh
-    *   SG 553 | Waves Perforated
-    *   SSG 08 | Tropical Storm
-
----
-
-## The Inferno Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Inferno Souvenir Package`
-*   `PGL Krakow 2017 Inferno Souvenir Package`
-
-*   **Classified**
-    *   Tec-9 | Nuclear Threat
-*   **Restricted**
-    *   P250 | Nuclear Threat
-*   **Mil-Spec**
-    *   M4A4 | Radiation Hazard
-*   **Industrial Grade**
-    *   Glock-18 | Candy Apple
-    *   MAG-7 | Sand Dune
-    *   P2000 | Granite Marbleized
-    *   XM1014 | Blaze Orange
-*   **Consumer Grade**
-    *   Dual Berettas | Colony
-    *   MAC-10 | Candy Apple
-    *   MP7 | Gunsmoke
-    *   Nova | Walnut
-
----
-
-## The Nuke 2016 Collection
-*Associated Packages (Features the updated 2016 rework pool):*
-*   `MLG Columbus 2016 Nuke Souvenir Package`
-*   `ESL One Cologne 2016 Nuke Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Nuke Souvenir Package`
-*   `PGL Krakow 2017 Nuke Souvenir Package`
-
-*   **Classified**
-    *   M4A4 | Radiation Hazard
-*   **Restricted**
-    *   P250 | Nuclear Threat
-    *   Tec-9 | Nuclear Threat
-*   **Mil-Spec**
-    *   Glock-18 | Reactor
-    *   MP9 | Setting Sun
-    *   P2000 | Radioactive
-    *   XM1014 | Fallout Warning
-*   **Industrial Grade**
-    *   AUG | Radiation Hazard
-    *   Bizon | Irradiated Alert
-    *   MAG-7 | Irradiated Alert
-    *   P90 | Fallout Warning
-    *   SG 553 | Fallout Warning
-    *   Tec-9 | Toxic
-*   **Consumer Grade**
-    *   CZ75-Auto | Army Sheen
-    *   G3SG1 | Ventilator
-    *   Galil AR | Vandal
-    *   M249 | Warbird
-    *   MAC-10 | Carnivore
-    *   MP7 | Asterion
-    *   PP-Bizon | Chemical Green
-    *   SCAR-20 | Powercore
-    *   UMP-45 | Briefing
-
----
-
-## The Cache Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Cache Souvenir Package`
-*   `ESL One Cologne 2016 Cache Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Cache Souvenir Package`
-*   `PGL Krakow 2017 Cache Souvenir Package`
-
-*   **Covert**
-    *   FAMAS | Styx
-*   **Classified**
-    *   Glock-18 | Reactor
-    *   MP9 | Setting Sun
-*   **Restricted**
-    *   PP-Bizon | Chemical Green
-    *   MAC-10 | Nuclear Garden
-    *   XM1014 | Bone Machine
-*   **Mil-Spec**
-    *   AUG | Radiation Hazard
-    *   Galil AR | Cerberus
-    *   P250 | Contamination
-    *   Tec-9 | Toxic
-*   **Consumer Grade**
-    *   Five-SeveN | Hot Shot
-    *   G3SG1 | Green Apple
-    *   P2000 | Amber Fade
-    *   SG 553 | Fallout Warning
-
----
-
-## The Cobblestone Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Cobblestone Souvenir Package`
-*   `ESL One Cologne 2016 Cobblestone Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Cobblestone Souvenir Package`
-*   `PGL Krakow 2017 Cobblestone Souvenir Package`
-
-*   **Covert**
-    *   AWP | Dragon Lore
-*   **Classified**
-    *   M4A1-S | Knight
-*   **Restricted**
-    *   Desert Eagle | Hand Cannon
-    *   MP9 | Dark Age
-*   **Mil-Spec**
-    *   CZ75-Auto | Chalice
-    *   P2000 | Chainmail
-*   **Industrial Grade**
-    *   MAG-7 | Silver
-    *   Nova | Green Apple
-    *   Sawed-Off | Rust Coat
-    *   XM1014 | Red Leather
-*   **Consumer Grade**
-    *   Dual Berettas | Briar
-    *   G3SG1 | Orange Kimono
-    *   MAC-10 | Indigo
-    *   P90 | Storm
-    *   SCAR-20 | Storm
-    *   USP-S | Royal Blue
-
----
-
-## The Overpass Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Overpass Souvenir Package`
-*   `ESL One Cologne 2016 Overpass Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Overpass Souvenir Package`
-*   `PGL Krakow 2017 Overpass Souvenir Package`
-
-*   **Covert**
-    *   M4A1-S | Master Piece
-*   **Classified**
-    *   AWP | Pink DDPAT
-*   **Restricted**
-    *   SSG 08 | Detour
-    *   XM1014 | VariCamo Blue
-*   **Mil-Spec**
-    *   CZ75-Auto | Nitro
-    *   Glock-18 | Night
-    *   USP-S | Road Rash
-*   **Industrial Grade**
-    *   Desert Eagle | Urban DDPAT
-    *   M249 | Contrast Spray
-    *   MP9 | Storm
-    *   P2000 | Grassland
-*   **Consumer Grade**
-    *   AUG | Storm
-    *   Dual Berettas | Colony
-    *   G3SG1 | VariCamo
-    *   MP7 | Gunsmoke
-    *   P90 | Scorched
-    *   SCAR-20 | Contractor
-    *   SG 553 | Waves Perforated
-
----
-
-## The Train Collection
-*Associated Packages:*
-*   `MLG Columbus 2016 Train Souvenir Package`
-*   `ESL One Cologne 2016 Train Souvenir Package`
-*   `ELEAGUE Atlanta 2017 Train Souvenir Package`
-*   `PGL Krakow 2017 Train Souvenir Package`
-
-*   **Restricted**
-    *   P250 | Metallic DDPAT
-    *   Tec-9 | Brass
-*   **Mil-Spec**
-    *   Desert Eagle | Urban DDPAT
-    *   MAC-10 | Candy Apple
-*   **Industrial Grade**
-    *   MAG-7 | Metallic DDPAT
-    *   P2000 | Silver
-    *   SCAR-20 | Carbon Fiber
-*   **Consumer Grade**
-    *   Dual Berettas | Colony
-    *   G3SG1 | Desert Storm
-    *   M249 | MAG-7 | Sand Dune
-    *   Nova | Polar Mesh
-    *   P90 | Sand Spray
-    *   UMP-45 | Urban DDPAT
-    
-    
-    # Late-Era & Rework Souvenir Package Skin Database (2018-2019)
-
-## The Dust II Collection (Original Classic Pool)
-*Associated Packages:*
-*   `FACEIT London 2018 Dust II Souvenir Package`
-*   `IEM Katowice 2019 Dust II Souvenir Package`
-*   `StarLadder Berlin 2019 Dust II Souvenir Package`
-
-*   **Restricted**
-    *   M4A1-S | Nitro
-*   **Mil-Spec**
-    *   AK-47 | Safari Mesh
-    *   Five-SeveN | Candy Apple
-    *   P250 | Metallic DDPAT
-*   **Industrial Grade**
-    *   AWP | Pit Viper
-    *   Desert Eagle | Mudder
-    *   Glock-18 | Groundwater
-    *   P2000 | Grassland
-*   **Consumer Grade**
-    *   AUG | Condemned
-    *   Dual Berettas | Colony
-    *   FAMAS | Colony
-    *   G3SG1 | Desert Storm
-    *   Galil AR | Hunting Blind
-    *   M249 | Gator Mesh
-    *   MAC-10 | Palm
-    *   MP7 | Groundwater
-    *   Nova | Sand Dune
-    *   SCAR-20 | Sand Mesh
-    *   SG 553 | Gator Mesh
-    *   SSG 08 | Sand Dune
-    *   Tec-9 | Groundwater
-    *   XM1014 | Cali Camo
-
----
-
-## The Mirage Collection (Original Classic Pool)
-*Associated Packages:*
-*   `ELEAGUE Boston 2018 Mirage Souvenir Package`
-*   `FACEIT London 2018 Mirage Souvenir Package`
-*   `IEM Katowice 2019 Mirage Souvenir Package`
-*   `StarLadder Berlin 2019 Mirage Souvenir Package`
-
-*   **Classified**
-    *   MAG-7 | Bulldozer
-*   **Restricted**
-    *   MP9 | Hot Rod
-*   **Mil-Spec**
-    *   Glock-18 | Candy Apple
-    *   UMP-45 | Gunsmoke
-*   **Industrial Grade**
-    *   AWP | Safari Mesh
-    *   Desert Eagle | Urban DDPAT
-    *   MAC-10 | Silver
-    *   P250 | Gunsmoke
-*   **Consumer Grade**
-    *   AUG | Colony
-    *   Dual Berettas | Colony
-    *   FAMAS | Colony
-    *   G3SG1 | Safari Mesh
-    *   Galil AR | Hunting Blind
-    *   P2000 | Safari Mesh
-    *   SG 553 | Waves Perforated
-    *   SSG 08 | Tropical Storm
-
----
-
-## The Inferno 2018 Collection (Complete Rework Pool)
-*Associated Packages:*
-*   `FACEIT London 2018 Inferno 2018 Souvenir Package`
-*   `IEM Katowice 2019 Inferno 2018 Souvenir Package`
-*   `StarLadder Berlin 2019 Inferno 2018 Souvenir Package`
-
-*   **Classified**
-    *   SG 553 | Integrale
-    *   Dual Berettas | Twin Turbo
-*   **Restricted**
-    *   MP7 | Fade
-    *   AK-47 | Safety Net
-    *   P250 | Vino Primo
-*   **Mil-Spec**
-    *   M4A4 | Converter
-    *   USP-S | Check Engine
-    *   SSG 08 | Hand Brake
-    *   Sawed-Off | Brake Light
-*   **Industrial Grade**
-    *   Glock-18 | High Beam
-    *   MAC-10 | Calf Skin
-    *   R8 Revolver | Nitro
-    *   PP-Bizon | Candy Apple
-*   **Consumer Grade**
-    *   MAG-7 | Rust Coat
-    *   MP5-SD | Dirt Drop
-    *   AUG | Sweeper
-    *   UMP-45 | Mudder
-    *   MP9 | Slide
-
----
-
-## The Nuke 2018 Collection (Complete Rework Pool)
-*Associated Packages:*
-*   `FACEIT London 2018 Nuke 2018 Souvenir Package`
-*   `IEM Katowice 2019 Nuke 2018 Souvenir Package`
-*   `StarLadder Berlin 2019 Nuke 2018 Souvenir Package`
-
-*   **Classified**
-    *   M4A1-S | Control Panel
-    *   Tec-9 | Remote Control
-*   **Restricted**
-    *   Glock-18 | Nuclear Garden
-    *   MAG-7 | Core Breach
-    *   AUG | Random Access
-*   **Mil-Spec**
-    *   AWP | Acheron
-    *   MP5-SD | Co-Processor
-    *   P90 | Facility Negative
-    *   P250 | Exchanger
-*   **Industrial Grade**
-    *   Galil AR | Cold Fusion
-    *   Negev | Bulkhead
-    *   M4A4 | Mainframe
-    *   MP7 | Motherboard
-*   **Consumer Grade**
-    *   PP-Bizon | Facility Sketch
-    *   Five-SeveN | Coolant
-    *   Nova | Mandrel
-    *   P250 | Facility Draft
-    *   UMP-45 | Facility Dark
-
----
-
-## The Vertigo Collection (Unique Compact Pool)
-*Associated Packages:*
-*   `StarLadder Berlin 2019 Vertical/Vertigo Souvenir Package`
-
-*   **Restricted**
-    *   Dual Berettas | Demolition
-*   **Mil-Spec**
-    *   AK-47 | Black Laminate
-    *   P90 | Glacier Mesh
-*   **Industrial Grade**
-    *   PP-Bizon | Carbon Fiber
-*   **Consumer Grade**
-    *   XM1014 | Urban Perforated
-    *   MAC-10 | Urban DDPAT
-
----
-
-## The Cache Collection (Classic Pool)
-*Associated Packages:*
-*   `ELEAGUE Boston 2018 Cache Souvenir Package`
-*   `FACEIT London 2018 Cache Souvenir Package`
-*   `IEM Katowice 2019 Cache Souvenir Package`
-
-*   **Covert**
-    *   FAMAS | Styx
-*   **Classified**
-    *   Glock-18 | Reactor
-    *   MP9 | Setting Sun
-*   **Restricted**
-    *   PP-Bizon | Chemical Green
-    *   MAC-10 | Nuclear Garden
-    *   XM1014 | Bone Machine
-*   **Mil-Spec**
-    *   AUG | Radiation Hazard
-    *   Galil AR | Cerberus
-    *   P250 | Contamination
-    *   Tec-9 | Toxic
-*   **Consumer Grade**
-    *   Five-SeveN | Hot Shot
-    *   G3SG1 | Green Apple
-    *   P2000 | Amber Fade
-    *   SG 553 | Fallout Warning
-
----
-
-## The Cobblestone Collection (Final Legacy Renders)
-*Associated Packages:*
-*   `ELEAGUE Boston 2018 Cobblestone Souvenir Package`
-
-*   **Covert**
-    *   AWP | Dragon Lore
-*   **Classified**
-    *   M4A1-S | Knight
-*   **Restricted**
-    *   Desert Eagle | Hand Cannon
-    *   MP9 | Dark Age
-*   **Mil-Spec**
-    *   CZ75-Auto | Chalice
-    *   P2000 | Chainmail
-*   **Industrial Grade**
-    *   MAG-7 | Silver
-    *   Nova | Green Apple
-    *   Sawed-Off | Rust Coat
-    *   XM1014 | Red Leather
-*   **Consumer Grade**
-    *   Dual Berettas | Briar
-    *   G3SG1 | Orange Kimono
-    *   MAC-10 | Indigo
-    *   P90 | Storm
-    *   SCAR-20 | Storm
-    *   USP-S | Royal Blue
-
----
-
-## The Overpass Collection (Classic Pool)
-*Associated Packages:*
-*   `ELEAGUE Boston 2018 Overpass Souvenir Package`
-*   `FACEIT London 2018 Overpass Souvenir Package`
-*   `IEM Katowice 2019 Overpass Souvenir Package`
-*   `StarLadder Berlin 2019 Overpass Souvenir Package`
-
-*   **Covert**
-    *   M4A1-S | Master Piece
-*   **Classified**
-    *   AWP | Pink DDPAT
-*   **Restricted**
-    *   SSG 08 | Detour
-    *   XM1014 | VariCamo Blue
-*   **Mil-Spec**
-    *   CZ75-Auto | Nitro
-    *   Glock-18 | Night
-    *   USP-S | Road Rash
-*   **Industrial Grade**
-    *   Desert Eagle | Urban DDPAT
-    *   M249 | Contrast Spray
-    *   MP9 | Storm
-    *   P2000 | Grassland
-*   **Consumer Grade**
-    *   AUG | Storm
-    *   Dual Berettas | Colony
-    *   G3SG1 | VariCamo
-    *   MP7 | Gunsmoke
-    *   P90 | Scorched
-    *   SCAR-20 | Contractor
-    *   SG 553 | Waves Perforated
-
----
-
-## The Train Collection (Classic Pool)
-*Associated Packages:*
-*   `ELEAGUE Boston 2018 Train Souvenir Package`
-*   `FACEIT London 2018 Train Souvenir Package`
-*   `IEM Katowice 2019 Train Souvenir Package`
-*   `StarLadder Berlin 2019 Train Souvenir Package`
-
-*   **Restricted**
-    *   P250 | Metallic DDPAT
-    *   Tec-9 | Brass
-*   **Mil-Spec**
-    *   Desert Eagle | Urban DDPAT
-    *   MAC-10 | Candy Apple
-*   **Industrial Grade**
-    *   MAG-7 | Metallic DDPAT
-    *   P2000 | Silver
-    *   SCAR-20 | Carbon Fiber
-*   **Consumer Grade**
-    *   Dual Berettas | Colony
-    *   G3SG1 | Desert Storm
-    *   M249 | MAG-7 | Sand Dune
-    *   Nova | Polar Mesh
-    *   P90 | Sand Spray
-    *   UMP-45 | Urban DDPAT
-    
-    
-    # 2021-2023 Era Souvenir Package Skin Database
-
-## The 2021 Mirage Collection
-*Associated Packages:*
-*   `PGL Stockholm 2021 Mirage 2021 Souvenir Package`
-*   `PGL Antwerp 2022 Mirage 2021 Souvenir Package`
-*   `IEM Rio 2022 Mirage 2021 Souvenir Package`
-*   `BLAST.tv Paris 2023 Mirage 2021 Souvenir Package`
-
-*   **Covert**
-    *   AWP | Desert Hydra
-*   **Classified**
-    *   Desert Eagle | Fennec Fox
-    *   MP5-SD | Oxide Oasis
-*   **Restricted**
-    *   Glock-18 | Pink DDPAT
-    *   XM1014 | Elegant Vines
-    *   AUG | Sand Storm
-*   **Mil-Spec**
-    *   USP-S | Purple DDPAT
-    *   M249 | Humidor
-    *   SG 553 | Desert Blossom
-    *   MP9 | Music Box
-*   **Industrial Grade**
-    *   FAMAS | CaliCamo
-    *   Dual Berettas | Drift Wood
-    *   P90 | Verdant Growth
-    *   CZ75-Auto | Midnight Palm
-*   **Consumer Grade**
-    *   P250 | Drought
-    *   MAG-7 | Navy Sheen
-    *   PP-Bizon | Anolis
-    *   SSG 08 | Prey
-    *   MAC-10 | Sienna Damask
-
----
-
-## The 2021 Dust 2 Collection
-*Associated Packages:*
-*   `PGL Stockholm 2021 Dust II 2021 Souvenir Package`
-*   `PGL Antwerp 2022 Dust II 2021 Souvenir Package`
-*   `IEM Rio 2022 Dust II 2021 Souvenir Package`
-
-*   **Covert**
-    *   AK-47 | Gold Arabesque
-*   **Classified**
-    *   SSG 08 | Death Strike
-    *   UMP-45 | Fade
-*   **Restricted**
-    *   M4A4 | Red DDPAT
-    *   USP-S | Orange Anolis
-    *   MAC-10 | Case Hardened
-*   **Mil-Spec**
-    *   Galil AR | Amber Fade
-    *   G3SG1 | New Roots
-    *   Nova | Quick Sand
-    *   P250 | Black & Tan
-*   **Industrial Grade**
-    *   Five-SeveN | Withered Vine
-    *   AUG | Spalted Wood
-    *   MP9 | Old Roots
-    *   M249 | Midnight Palm
-*   **Consumer Grade**
-    *   MP7 | Prey
-    *   R8 Revolver | Desert Brush
-    *   P90 | Desert DDPAT
-    *   Sawed-Off | Parched
-    *   SG 553 | Bleached
-
----
-
-## The Ancient Collection
-*Associated Packages:*
-*   `PGL Stockholm 2021 Ancient Souvenir Package`
-*   `PGL Antwerp 2022 Ancient Souvenir Package`
-*   `IEM Rio 2022 Ancient Souvenir Package`
-*   `BLAST.tv Paris 2023 Ancient Souvenir Package`
-
-*   **Covert**
-    *   M4A1-S | Welcome to the Jungle
-*   **Classified**
-    *   AK-47 | Panthera onca
-    *   P90 | Run and Hide
-*   **Restricted**
-    *   MAC-10 | Gold Brick
-    *   XM1014 | Ancient Lore
-    *   USP-S | Ancient Visions
-*   **Mil-Spec**
-    *   AUG | Carved Jade
-    *   Galil AR | Dusk Ruins
-    *   FAMAS | Dark Water
-    *   Tec-9 | Blast From the Past
-*   **Industrial Grade**
-    *   CZ75-Auto | Silver
-    *   MP7 | Tall Grass
-    *   P2000 | Panther Camo
-    *   G3SG1 | Ancient Ritual
-*   **Consumer Grade**
-    *   SSG 08 | Jungle Dashed
-    *   R8 Revolver | Night
-    *   P90 | Ancient Earth
-    *   SG 553 | Lush Ruins
-    *   Nova | Army Sheen
-
----
-
-## The 2021 Vertigo Collection
-*Associated Packages:*
-*   `PGL Stockholm 2021 Vertigo 2021 Souvenir Package`
-*   `PGL Antwerp 2022 Vertigo 2021 Souvenir Package`
-*   `IEM Rio 2022 Vertigo 2021 Souvenir Package`
-*   `BLAST.tv Paris 2023 Vertigo 2021 Souvenir Package`
-
-*   **Covert**
-    *   M4A1-S | Imminent Danger
-*   **Classified**
-    *   SG 553 | Hazard Pay
-    *   Five-SeveN | Fall Hazard
-*   **Restricted**
-    *   Galil AR | CAUTION!
-    *   MAG-7 | Prism Terrace
-    *   P250 | Digital Architect
-*   **Mil-Spec**
-    *   AK-47 | Green Laminate
-    *   Negev | Infrastructure
-    *   Nova | Interlock
-    *   P90 | Schematic
-*   **Industrial Grade**
-    *   Glock-18 | Red Tire
-    *   SSG 08 | Carbon Fiber
-    *   UMP-45 | Mechanism
-    *   PP-Bizon | Breaker Box
-*   **Consumer Grade**
-    *   XM1014 | Blue Tire
-    *   FAMAS | Faulty Wiring
-    *   CZ75-Auto | Framework
-    *   MAC-10 | Strats
-    *   Dual Berettas | Oil Change
-
----
-
-## The Anubis Collection
-*Associated Packages:*
-*   `BLAST.tv Paris 2023 Anubis Souvenir Package`
-
-*   **Covert**
-    *   M4A4 | Eye of Horus
-*   **Classified**
-    *   P250 | Apep's Curse
-    *   FAMAS | Waters of Nephthys
-*   **Restricted**
-    *   Glock-18 | Ramese's Reach
-    *   P90 | ScaraB Rush
-    *   Nova | Sobek's Bite
-*   **Mil-Spec**
-    *   AWP | Black Nile
-    *   AK-47 | Steel Delta
-    *   MAG-7 | Copper Coated
-    *   Tec-9 | Mummy's Rot
-*   **Industrial Grade**
-    *   M4A1-S | Mud-Spec
-    *   USP-S | Desert Tactical
-    *   SSG 08 | Azure Glyph
-    *   MAC-10 | Echoing Sands
-*   **Consumer Grade**
-    *   MP7 | Sunbaked
-    *   AUG | Snake Pit
-    *   XM1014 | Hieroglyph
-    *   R8 Revolver | Inlay
-    *   M249 | Submerged
-    
-    
-    # Modern CS2 Era Souvenir Package Skin Database (2024-2026)
-
-## The Train 2025 Collection (Referenced as Train 2024)
-*Associated Packages:*
-*   `BLAST Austin 2025 Train 2024 Souvenir Package`
-
-*   **Covert**
-    *   AWP | LongDog
-*   **Classified**
-    *   M4A4 | Hellish
-    *   MP9 | Latte Rush
-*   **Restricted**
-    *   Tec-9 | Whiteout
-    *   Zeus x27 | Charged Up
-    *   MAC-10 | Derailment
-*   **Mil-Spec**
-    *   Glock-18 | Green Line
-    *   FAMAS | 2A2F
-    *   UMP-45 | Late Night Transit
-    *   XM1014 | Run Run Run
-*   **Industrial Grade**
-    *   P90 | Straight Dimes
-    *   AUG | Steel Sentinel
-    *   Galil AR | Green Apple
-    *   CZ75-Auto | Copper Fiber
-    *   P250 | Constructivist
-    *   Nova | Rain Station
+# Souvenir Package Contents
+
+> Generated from [souvenirs.json](../../public/data/souvenirs.json). Do not edit this file manually.
+> Catalogue verified: 2026-09-20.
+
+Complete simulator contents for 150 containers.
+
+## Rarity key
+
+- **Rare Special**
+- **Covert**
+- **Classified**
+- **Restricted**
+- **Mil-Spec**
+- **Industrial Grade**
+- **Consumer Grade**
+
+## Containers
+
+### Budapest 2025 Ancient Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### Budapest 2025 Dust II Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AK-47 | Gold Arabesque
+
+#### Classified (2)
+
+- UMP-45 | Fade
+- SSG 08 | Death Strike
+
+#### Restricted (3)
+
+- USP-S | Orange Anolis
+- M4A4 | Red DDPAT
+- MAC-10 | Case Hardened
+
+#### Mil-Spec (4)
+
+- P250 | Black & Tan
+- Nova | Quick Sand
+- G3SG1 | New Roots
+- Galil AR | Amber Fade
+
+#### Industrial Grade (4)
+
+- AUG | Spalted Wood
+- MP9 | Old Roots
+- Five-SeveN | Withered Vine
+- M249 | Midnight Palm
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Desert Brush
+- P90 | Desert DDPAT
+- SG 553 | Bleached
+- MP7 | Prey
+- Sawed-Off | Parched
+
+### Budapest 2025 Inferno Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### Budapest 2025 Mirage Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### Budapest 2025 Nuke Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### Budapest 2025 Overpass Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 16
+- Drop weights: Covert 0.1277% · Classified 0.6394% · Restricted 3.2014% · Mil-Spec 16.0061% · Industrial Grade 80.0254%
+
+#### Covert (1)
+
+- AK-47 | B the Monster
+
+#### Classified (2)
+
+- AWP | Crakow!
+- Zeus x27 | Dragon Snore
+
+#### Restricted (3)
+
+- Dual Berettas | Sweet Little Angels
+- XM1014 | Monster Melt
+- AUG | Eye of Zapems
+
+#### Mil-Spec (4)
+
+- Galil AR | Metallic Squeezer
+- MAC-10 | Pipsqueak
+- Nova | Wurst Hölle
+- Glock-18 | Teal Graf
+
+#### Industrial Grade (6)
+
+- Five-SeveN | Midnight Paintover
+- P90 | Wash me
+- MP5-SD | Neon Squeezer
+- M4A1-S | Wash me plz
+- Desert Eagle | Tilted
+- Negev | Wall Bang
+
+### Budapest 2025 Train Souvenir Package
+
+- Release date: 2025-11-12
+- Fallback price: $3.50
+- Items: 16
+- Drop weights: Covert 0.1277% · Classified 0.6394% · Restricted 3.2014% · Mil-Spec 16.0061% · Industrial Grade 80.0254%
+
+#### Covert (1)
+
+- AWP | LongDog
+
+#### Classified (2)
+
+- M4A4 | Hellish
+- MP9 | Latte Rush
+
+#### Restricted (3)
+
+- Tec-9 | Whiteout
+- MAC-10 | Derailment
+- Zeus x27 | Charged Up
+
+#### Mil-Spec (4)
+
+- UMP-45 | Late Night Transit
+- XM1014 | Run Run Run
+- Glock-18 | Green Line
+- FAMAS | 2A2F
+
+#### Industrial Grade (6)
+
+- Galil AR | Green Apple
+- P250 | Constructivist
+- P90 | Straight Dimes
+- CZ75-Auto | Copper Fiber
+- AUG | Steel Sentinel
+- Nova | Rain Station
+
+### Austin 2025 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AK-47 | Gold Arabesque
+
+#### Classified (2)
+
+- UMP-45 | Fade
+- SSG 08 | Death Strike
+
+#### Restricted (3)
+
+- USP-S | Orange Anolis
+- M4A4 | Red DDPAT
+- MAC-10 | Case Hardened
+
+#### Mil-Spec (4)
+
+- P250 | Black & Tan
+- Nova | Quick Sand
+- G3SG1 | New Roots
+- Galil AR | Amber Fade
+
+#### Industrial Grade (4)
+
+- AUG | Spalted Wood
+- MP9 | Old Roots
+- Five-SeveN | Withered Vine
+- M249 | Midnight Palm
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Desert Brush
+- P90 | Desert DDPAT
+- SG 553 | Bleached
+- MP7 | Prey
+- Sawed-Off | Parched
+
+### BLAST Austin 2025 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $3.60
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### BLAST Austin 2025 Anubis Souvenir Package
+
+- Release date: —
+- Fallback price: $4.20
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A4 | Eye of Horus
+
+#### Classified (2)
+
+- FAMAS | Waters of Nephthys
+- P250 | Apep's Curse
+
+#### Restricted (3)
+
+- Glock-18 | Ramese's Reach
+- Nova | Sobek's Bite
+- P90 | ScaraB Rush
+
+#### Mil-Spec (4)
+
+- Tec-9 | Mummy's Rot
+- AK-47 | Steel Delta
+- AWP | Black Nile
+- MAG-7 | Copper Coated
+
+#### Industrial Grade (4)
+
+- M4A1-S | Mud-Spec
+- SSG 08 | Azure Glyph
+- USP-S | Desert Tactical
+- MAC-10 | Echoing Sands
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Inlay
+- M249 | Submerged
+- XM1014 | Hieroglyph
+- MP7 | Sunbaked
+- AUG | Snake Pit
+
+### BLAST Austin 2025 Inferno 2023 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### BLAST Austin 2025 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.80
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### BLAST Austin 2025 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.20
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### BLAST Austin 2025 Train 2024 Souvenir Package
+
+- Release date: —
+- Fallback price: $6.00
+- Items: 16
+- Drop weights: Covert 0.1277% · Classified 0.6394% · Restricted 3.2014% · Mil-Spec 16.0061% · Industrial Grade 80.0254%
+
+#### Covert (1)
+
+- AWP | LongDog
+
+#### Classified (2)
+
+- M4A4 | Hellish
+- MP9 | Latte Rush
+
+#### Restricted (3)
+
+- Tec-9 | Whiteout
+- MAC-10 | Derailment
+- Zeus x27 | Charged Up
+
+#### Mil-Spec (4)
+
+- UMP-45 | Late Night Transit
+- XM1014 | Run Run Run
+- Glock-18 | Green Line
+- FAMAS | 2A2F
+
+#### Industrial Grade (6)
+
+- Galil AR | Green Apple
+- P250 | Constructivist
+- P90 | Straight Dimes
+- CZ75-Auto | Copper Fiber
+- AUG | Steel Sentinel
+- Nova | Rain Station
+
+### BLAST.tv Paris 2023 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $5.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### BLAST.tv Paris 2023 Anubis Souvenir Package
+
+- Release date: —
+- Fallback price: $6.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A4 | Eye of Horus
+
+#### Classified (2)
+
+- FAMAS | Waters of Nephthys
+- P250 | Apep's Curse
+
+#### Restricted (3)
+
+- Glock-18 | Ramese's Reach
+- Nova | Sobek's Bite
+- P90 | ScaraB Rush
+
+#### Mil-Spec (4)
+
+- Tec-9 | Mummy's Rot
+- AK-47 | Steel Delta
+- AWP | Black Nile
+- MAG-7 | Copper Coated
+
+#### Industrial Grade (4)
+
+- M4A1-S | Mud-Spec
+- SSG 08 | Azure Glyph
+- USP-S | Desert Tactical
+- MAC-10 | Echoing Sands
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Inlay
+- M249 | Submerged
+- XM1014 | Hieroglyph
+- MP7 | Sunbaked
+- AUG | Snake Pit
+
+### BLAST.tv Paris 2023 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $4.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### BLAST.tv Paris 2023 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $5.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### BLAST.tv Paris 2023 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $4.00
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### BLAST.tv Paris 2023 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $4.80
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### BLAST.tv Paris 2023 Vertigo 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $4.20
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Imminent Danger
+
+#### Classified (2)
+
+- Five-SeveN | Fall Hazard
+- SG 553 | Hazard Pay
+
+#### Restricted (3)
+
+- Galil AR | CAUTION!
+- MAG-7 | Prism Terrace
+- P250 | Digital Architect
+
+#### Mil-Spec (4)
+
+- AK-47 | Green Laminate
+- P90 | Schematic
+- Nova | Interlock
+- Negev | Infrastructure
+
+#### Industrial Grade (4)
+
+- Glock-18 | Red Tire
+- UMP-45 | Mechanism
+- SSG 08 | Carbon Fiber
+- PP-Bizon | Breaker Box
+
+#### Consumer Grade (5)
+
+- MAC-10 | Strats
+- FAMAS | Faulty Wiring
+- XM1014 | Blue Tire
+- CZ75-Auto | Framework
+- Dual Berettas | Oil Change
+
+### DreamHack 2013 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 92
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (6)
+
+- P2000 | Amber Fade
+- M4A1-S | Nitro
+- AWP | Pit Viper
+- Dual Berettas | Cobalt Quartz
+- Tec-9 | Red Quartz
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (17)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+- FAMAS | Teardown
+- Five-SeveN | Silver Quartz
+- SSG 08 | Acid Fade
+- Glock-18 | Candy Apple
+- MP7 | Anodized Navy
+- Sawed-Off | Full Stop
+- SG 553 | Anodized Navy
+- USP-S | Night Ops
+- P90 | Teardown
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (33)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+- USP-S | Forest Leaves
+- AUG | Condemned
+- MP9 | Orange Peel
+- G3SG1 | VariCamo
+- Galil AR | VariCamo
+- M249 | Gator Mesh
+- Nova | Candy Apple
+- UMP-45 | Gunsmoke
+- P2000 | Granite Marbleized
+- Dual Berettas | Stained
+- M4A1-S | Boreal Forest
+- XM1014 | CaliCamo
+- XM1014 | Blue Steel
+- AWP | Safari Mesh
+- Desert Eagle | Mudder
+- FAMAS | Cyanospatter
+- PP-Bizon | Night Ops
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (35)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+- Dual Berettas | Contractor
+- SCAR-20 | Contractor
+- SSG 08 | Blue Spruce
+- Tec-9 | Army Mesh
+- MP7 | Army Recon
+- Tec-9 | Groundwater
+- AUG | Contractor
+- FAMAS | Colony
+- Nova | Sand Dune
+- PP-Bizon | Sand Dashed
+- P250 | Boreal Forest
+- XM1014 | Blue Spruce
+- AUG | Storm
+- Galil AR | Sage Spray
+- SG 553 | Waves Perforated
+- G3SG1 | Jungle Dashed
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+- R8 Revolver | Bone Mask
+
+### DreamHack 2014 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### DreamHack Cluj-Napoca 2015 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $700.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### DreamHack Cluj-Napoca 2015 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $30.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### DreamHack Cluj-Napoca 2015 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $40.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### DreamHack Cluj-Napoca 2015 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $35.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### DreamHack Cluj-Napoca 2015 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $55.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### DreamHack Cluj-Napoca 2015 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $35.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### DreamHack Winter 2014 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $75.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### DreamHack Winter 2014 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $850.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### DreamHack Winter 2014 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $40.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### DreamHack Winter 2014 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $55.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### DreamHack Winter 2014 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $50.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### DreamHack Winter 2014 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $70.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### ELEAGUE Atlanta 2017 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### ELEAGUE Atlanta 2017 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $680.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### ELEAGUE Atlanta 2017 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $35.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### ELEAGUE Atlanta 2017 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $42.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ELEAGUE Atlanta 2017 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $52.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### ELEAGUE Atlanta 2017 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $48.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### ELEAGUE Atlanta 2017 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $32.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### ELEAGUE Boston 2018 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $60.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### ELEAGUE Boston 2018 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $900.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### ELEAGUE Boston 2018 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $55.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### ELEAGUE Boston 2018 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $50.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ELEAGUE Boston 2018 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $65.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### ELEAGUE Boston 2018 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $70.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### ELEAGUE Boston 2018 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $42.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### EMS One 2014 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 91
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (6)
+
+- P2000 | Amber Fade
+- M4A1-S | Nitro
+- AWP | Pit Viper
+- Dual Berettas | Cobalt Quartz
+- Tec-9 | Red Quartz
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (17)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+- FAMAS | Teardown
+- Five-SeveN | Silver Quartz
+- SSG 08 | Acid Fade
+- Glock-18 | Candy Apple
+- MP7 | Anodized Navy
+- Sawed-Off | Full Stop
+- SG 553 | Anodized Navy
+- USP-S | Night Ops
+- P90 | Teardown
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (33)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+- USP-S | Forest Leaves
+- AUG | Condemned
+- MP9 | Orange Peel
+- G3SG1 | VariCamo
+- Galil AR | VariCamo
+- M249 | Gator Mesh
+- Nova | Candy Apple
+- UMP-45 | Gunsmoke
+- P2000 | Granite Marbleized
+- Dual Berettas | Stained
+- M4A1-S | Boreal Forest
+- XM1014 | CaliCamo
+- XM1014 | Blue Steel
+- AWP | Safari Mesh
+- Desert Eagle | Mudder
+- FAMAS | Cyanospatter
+- PP-Bizon | Night Ops
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (34)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+- Dual Berettas | Contractor
+- SCAR-20 | Contractor
+- SSG 08 | Blue Spruce
+- Tec-9 | Army Mesh
+- MP7 | Army Recon
+- Tec-9 | Groundwater
+- AUG | Contractor
+- FAMAS | Colony
+- Nova | Sand Dune
+- PP-Bizon | Sand Dashed
+- P250 | Boreal Forest
+- XM1014 | Blue Spruce
+- AUG | Storm
+- Galil AR | Sage Spray
+- SG 553 | Waves Perforated
+- G3SG1 | Jungle Dashed
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ESL One Cologne 2014 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $90.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### ESL One Cologne 2014 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $950.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### ESL One Cologne 2014 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### ESL One Cologne 2014 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $65.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### ESL One Cologne 2014 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $55.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ESL One Cologne 2014 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $80.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### ESL One Cologne 2014 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### ESL One Cologne 2015 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $50.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### ESL One Cologne 2015 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $750.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### ESL One Cologne 2015 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $35.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### ESL One Cologne 2015 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### ESL One Cologne 2015 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $40.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ESL One Cologne 2015 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $65.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### ESL One Cologne 2015 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### ESL One Cologne 2016 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $42.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### ESL One Cologne 2016 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $600.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### ESL One Cologne 2016 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $32.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### ESL One Cologne 2016 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $38.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ESL One Cologne 2016 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $48.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### ESL One Cologne 2016 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $42.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### ESL One Cologne 2016 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $28.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### ESL One Katowice 2015 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $85.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### ESL One Katowice 2015 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $1100.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### ESL One Katowice 2015 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $55.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### ESL One Katowice 2015 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $75.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### ESL One Katowice 2015 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $70.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### ESL One Katowice 2015 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $95.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### ESL One Katowice 2015 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### FACEIT London 2018 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $18.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### FACEIT London 2018 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $15.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### FACEIT London 2018 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $15.00
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### FACEIT London 2018 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $14.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### FACEIT London 2018 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $13.00
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### FACEIT London 2018 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $16.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### FACEIT London 2018 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $12.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### IEM Katowice 2019 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $16.50
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### IEM Katowice 2019 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $13.50
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### IEM Katowice 2019 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $13.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### IEM Katowice 2019 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $12.50
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### IEM Katowice 2019 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $11.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### IEM Katowice 2019 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $14.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### IEM Katowice 2019 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $11.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### IEM Rio 2022 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $11.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### IEM Rio 2022 Dust II 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $16.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AK-47 | Gold Arabesque
+
+#### Classified (2)
+
+- UMP-45 | Fade
+- SSG 08 | Death Strike
+
+#### Restricted (3)
+
+- USP-S | Orange Anolis
+- M4A4 | Red DDPAT
+- MAC-10 | Case Hardened
+
+#### Mil-Spec (4)
+
+- P250 | Black & Tan
+- Nova | Quick Sand
+- G3SG1 | New Roots
+- Galil AR | Amber Fade
+
+#### Industrial Grade (4)
+
+- AUG | Spalted Wood
+- MP9 | Old Roots
+- Five-SeveN | Withered Vine
+- M249 | Midnight Palm
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Desert Brush
+- P90 | Desert DDPAT
+- SG 553 | Bleached
+- MP7 | Prey
+- Sawed-Off | Parched
+
+### IEM Rio 2022 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $6.00
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### IEM Rio 2022 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $13.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### IEM Rio 2022 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $5.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### IEM Rio 2022 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $7.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### IEM Rio 2022 Vertigo 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $6.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Imminent Danger
+
+#### Classified (2)
+
+- Five-SeveN | Fall Hazard
+- SG 553 | Hazard Pay
+
+#### Restricted (3)
+
+- Galil AR | CAUTION!
+- MAG-7 | Prism Terrace
+- P250 | Digital Architect
+
+#### Mil-Spec (4)
+
+- AK-47 | Green Laminate
+- P90 | Schematic
+- Nova | Interlock
+- Negev | Infrastructure
+
+#### Industrial Grade (4)
+
+- Glock-18 | Red Tire
+- UMP-45 | Mechanism
+- SSG 08 | Carbon Fiber
+- PP-Bizon | Breaker Box
+
+#### Consumer Grade (5)
+
+- MAC-10 | Strats
+- FAMAS | Faulty Wiring
+- XM1014 | Blue Tire
+- CZ75-Auto | Framework
+- Dual Berettas | Oil Change
+
+### MLG Columbus 2016 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### MLG Columbus 2016 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $650.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### MLG Columbus 2016 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $35.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### MLG Columbus 2016 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### MLG Columbus 2016 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $40.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### MLG Columbus 2016 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $50.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### MLG Columbus 2016 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### MLG Columbus 2016 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $30.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### Perfect World Shanghai 2024 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $3.80
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### Perfect World Shanghai 2024 Anubis Souvenir Package
+
+- Release date: —
+- Fallback price: $4.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A4 | Eye of Horus
+
+#### Classified (2)
+
+- FAMAS | Waters of Nephthys
+- P250 | Apep's Curse
+
+#### Restricted (3)
+
+- Glock-18 | Ramese's Reach
+- Nova | Sobek's Bite
+- P90 | ScaraB Rush
+
+#### Mil-Spec (4)
+
+- Tec-9 | Mummy's Rot
+- AK-47 | Steel Delta
+- AWP | Black Nile
+- MAG-7 | Copper Coated
+
+#### Industrial Grade (4)
+
+- M4A1-S | Mud-Spec
+- SSG 08 | Azure Glyph
+- USP-S | Desert Tactical
+- MAC-10 | Echoing Sands
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Inlay
+- M249 | Submerged
+- XM1014 | Hieroglyph
+- MP7 | Sunbaked
+- AUG | Snake Pit
+
+### Perfect World Shanghai 2024 Inferno 2023 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.80
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### Perfect World Shanghai 2024 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $4.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### Perfect World Shanghai 2024 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.20
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### Perfect World Shanghai 2024 Vertigo 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Imminent Danger
+
+#### Classified (2)
+
+- Five-SeveN | Fall Hazard
+- SG 553 | Hazard Pay
+
+#### Restricted (3)
+
+- Galil AR | CAUTION!
+- MAG-7 | Prism Terrace
+- P250 | Digital Architect
+
+#### Mil-Spec (4)
+
+- AK-47 | Green Laminate
+- P90 | Schematic
+- Nova | Interlock
+- Negev | Infrastructure
+
+#### Industrial Grade (4)
+
+- Glock-18 | Red Tire
+- UMP-45 | Mechanism
+- SSG 08 | Carbon Fiber
+- PP-Bizon | Breaker Box
+
+#### Consumer Grade (5)
+
+- MAC-10 | Strats
+- FAMAS | Faulty Wiring
+- XM1014 | Blue Tire
+- CZ75-Auto | Framework
+- Dual Berettas | Oil Change
+
+### PGL Antwerp 2022 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $10.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### PGL Antwerp 2022 Dust II 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $18.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AK-47 | Gold Arabesque
+
+#### Classified (2)
+
+- UMP-45 | Fade
+- SSG 08 | Death Strike
+
+#### Restricted (3)
+
+- USP-S | Orange Anolis
+- M4A4 | Red DDPAT
+- MAC-10 | Case Hardened
+
+#### Mil-Spec (4)
+
+- P250 | Black & Tan
+- Nova | Quick Sand
+- G3SG1 | New Roots
+- Galil AR | Amber Fade
+
+#### Industrial Grade (4)
+
+- AUG | Spalted Wood
+- MP9 | Old Roots
+- Five-SeveN | Withered Vine
+- M249 | Midnight Palm
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Desert Brush
+- P90 | Desert DDPAT
+- SG 553 | Bleached
+- MP7 | Prey
+- Sawed-Off | Parched
+
+### PGL Antwerp 2022 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $6.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### PGL Antwerp 2022 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $14.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### PGL Antwerp 2022 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $6.00
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### PGL Antwerp 2022 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $7.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### PGL Antwerp 2022 Vertigo 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $7.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Imminent Danger
+
+#### Classified (2)
+
+- Five-SeveN | Fall Hazard
+- SG 553 | Hazard Pay
+
+#### Restricted (3)
+
+- Galil AR | CAUTION!
+- MAG-7 | Prism Terrace
+- P250 | Digital Architect
+
+#### Mil-Spec (4)
+
+- AK-47 | Green Laminate
+- P90 | Schematic
+- Nova | Interlock
+- Negev | Infrastructure
+
+#### Industrial Grade (4)
+
+- Glock-18 | Red Tire
+- UMP-45 | Mechanism
+- SSG 08 | Carbon Fiber
+- PP-Bizon | Breaker Box
+
+#### Consumer Grade (5)
+
+- MAC-10 | Strats
+- FAMAS | Faulty Wiring
+- XM1014 | Blue Tire
+- CZ75-Auto | Framework
+- Dual Berettas | Oil Change
+
+### PGL Copenhagen 2024 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $4.20
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### PGL Copenhagen 2024 Anubis Souvenir Package
+
+- Release date: —
+- Fallback price: $5.20
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A4 | Eye of Horus
+
+#### Classified (2)
+
+- FAMAS | Waters of Nephthys
+- P250 | Apep's Curse
+
+#### Restricted (3)
+
+- Glock-18 | Ramese's Reach
+- Nova | Sobek's Bite
+- P90 | ScaraB Rush
+
+#### Mil-Spec (4)
+
+- Tec-9 | Mummy's Rot
+- AK-47 | Steel Delta
+- AWP | Black Nile
+- MAG-7 | Copper Coated
+
+#### Industrial Grade (4)
+
+- M4A1-S | Mud-Spec
+- SSG 08 | Azure Glyph
+- USP-S | Desert Tactical
+- MAC-10 | Echoing Sands
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Inlay
+- M249 | Submerged
+- XM1014 | Hieroglyph
+- MP7 | Sunbaked
+- AUG | Snake Pit
+
+### PGL Copenhagen 2024 Inferno 2023 Souvenir Package
+
+- Release date: —
+- Fallback price: $4.80
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### PGL Copenhagen 2024 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $4.80
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### PGL Copenhagen 2024 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.80
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### PGL Copenhagen 2024 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $4.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### PGL Copenhagen 2024 Vertigo 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Imminent Danger
+
+#### Classified (2)
+
+- Five-SeveN | Fall Hazard
+- SG 553 | Hazard Pay
+
+#### Restricted (3)
+
+- Galil AR | CAUTION!
+- MAG-7 | Prism Terrace
+- P250 | Digital Architect
+
+#### Mil-Spec (4)
+
+- AK-47 | Green Laminate
+- P90 | Schematic
+- Nova | Interlock
+- Negev | Infrastructure
+
+#### Industrial Grade (4)
+
+- Glock-18 | Red Tire
+- UMP-45 | Mechanism
+- SSG 08 | Carbon Fiber
+- PP-Bizon | Breaker Box
+
+#### Consumer Grade (5)
+
+- MAC-10 | Strats
+- FAMAS | Faulty Wiring
+- XM1014 | Blue Tire
+- CZ75-Auto | Framework
+- Dual Berettas | Oil Change
+
+### PGL Krakow 2017 Cache Souvenir Package
+
+- Release date: —
+- Fallback price: $55.00
+- Items: 13
+- Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
+
+#### Restricted (2)
+
+- FAMAS | Styx
+- Galil AR | Cerberus
+
+#### Mil-Spec (5)
+
+- Glock-18 | Reactor
+- MP9 | Setting Sun
+- XM1014 | Bone Machine
+- MAC-10 | Nuclear Garden
+- Tec-9 | Toxic
+
+#### Industrial Grade (6)
+
+- Negev | Nuclear Waste
+- P250 | Contamination
+- AUG | Radiation Hazard
+- PP-Bizon | Chemical Green
+- Five-SeveN | Hot Shot
+- SG 553 | Fallout Warning
+
+### PGL Krakow 2017 Cobblestone Souvenir Package
+
+- Release date: —
+- Fallback price: $800.00
+- Items: 15
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Dragon Lore
+
+#### Classified (1)
+
+- M4A1-S | Knight
+
+#### Restricted (2)
+
+- CZ75-Auto | Chalice
+- Desert Eagle | Hand Cannon
+
+#### Mil-Spec (2)
+
+- P2000 | Chainmail
+- MP9 | Dark Age
+
+#### Industrial Grade (4)
+
+- MAG-7 | Silver
+- Nova | Green Apple
+- Sawed-Off | Rust Coat
+- USP-S | Royal Blue
+
+#### Consumer Grade (5)
+
+- P90 | Storm
+- SCAR-20 | Storm
+- Dual Berettas | Briar
+- MAC-10 | Indigo
+- UMP-45 | Indigo
+
+### PGL Krakow 2017 Inferno Souvenir Package
+
+- Release date: —
+- Fallback price: $50.00
+- Items: 6
+- Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
+
+#### Mil-Spec (2)
+
+- Dual Berettas | Anodized Navy
+- Tec-9 | Brass
+
+#### Industrial Grade (2)
+
+- P250 | Gunsmoke
+- M4A4 | Tornado
+
+#### Consumer Grade (2)
+
+- MAG-7 | Sand Dune
+- Nova | Walnut
+
+### PGL Krakow 2017 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $45.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### PGL Krakow 2017 Nuke Souvenir Package
+
+- Release date: —
+- Fallback price: $60.00
+- Items: 9
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (2)
+
+- P250 | Nuclear Threat
+- Tec-9 | Nuclear Threat
+
+#### Mil-Spec (1)
+
+- M4A4 | Radiation Hazard
+
+#### Industrial Grade (3)
+
+- P90 | Fallout Warning
+- UMP-45 | Fallout Warning
+- XM1014 | Fallout Warning
+
+#### Consumer Grade (3)
+
+- PP-Bizon | Irradiated Alert
+- MAG-7 | Irradiated Alert
+- Sawed-Off | Irradiated Alert
+
+### PGL Krakow 2017 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $58.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### PGL Krakow 2017 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $38.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### PGL Stockholm 2021 Ancient Souvenir Package
+
+- Release date: —
+- Fallback price: $18.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Welcome to the Jungle
+
+#### Classified (2)
+
+- P90 | Run and Hide
+- AK-47 | Panthera onca
+
+#### Restricted (3)
+
+- XM1014 | Ancient Lore
+- MAC-10 | Gold Brick
+- USP-S | Ancient Visions
+
+#### Mil-Spec (4)
+
+- Tec-9 | Blast From the Past
+- AUG | Carved Jade
+- Galil AR | Dusk Ruins
+- FAMAS | Dark Water
+
+#### Industrial Grade (4)
+
+- P2000 | Panther Camo
+- MP7 | Tall Grass
+- G3SG1 | Ancient Ritual
+- CZ75-Auto | Silver
+
+#### Consumer Grade (5)
+
+- P90 | Ancient Earth
+- SG 553 | Lush Ruins
+- Nova | Army Sheen
+- SSG 08 | Jungle Dashed
+- R8 Revolver | Night
+
+### PGL Stockholm 2021 Dust II 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $32.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AK-47 | Gold Arabesque
+
+#### Classified (2)
+
+- UMP-45 | Fade
+- SSG 08 | Death Strike
+
+#### Restricted (3)
+
+- USP-S | Orange Anolis
+- M4A4 | Red DDPAT
+- MAC-10 | Case Hardened
+
+#### Mil-Spec (4)
+
+- P250 | Black & Tan
+- Nova | Quick Sand
+- G3SG1 | New Roots
+- Galil AR | Amber Fade
+
+#### Industrial Grade (4)
+
+- AUG | Spalted Wood
+- MP9 | Old Roots
+- Five-SeveN | Withered Vine
+- M249 | Midnight Palm
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Desert Brush
+- P90 | Desert DDPAT
+- SG 553 | Bleached
+- MP7 | Prey
+- Sawed-Off | Parched
+
+### PGL Stockholm 2021 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $9.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### PGL Stockholm 2021 Mirage 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $24.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AWP | Desert Hydra
+
+#### Classified (2)
+
+- MP5-SD | Oxide Oasis
+- Desert Eagle | Fennec Fox
+
+#### Restricted (3)
+
+- XM1014 | Elegant Vines
+- Glock-18 | Pink DDPAT
+- AUG | Sand Storm
+
+#### Mil-Spec (4)
+
+- USP-S | Purple DDPAT
+- MP9 | Music Box
+- M249 | Humidor
+- SG 553 | Desert Blossom
+
+#### Industrial Grade (4)
+
+- Dual Berettas | Drift Wood
+- FAMAS | CaliCamo
+- CZ75-Auto | Midnight Palm
+- P90 | Verdant Growth
+
+#### Consumer Grade (5)
+
+- P250 | Drought
+- PP-Bizon | Anolis
+- MAG-7 | Navy Sheen
+- MAC-10 | Sienna Damask
+- SSG 08 | Prey
+
+### PGL Stockholm 2021 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $9.00
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### PGL Stockholm 2021 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $11.50
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### PGL Stockholm 2021 Vertigo 2021 Souvenir Package
+
+- Release date: —
+- Fallback price: $12.00
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- M4A1-S | Imminent Danger
+
+#### Classified (2)
+
+- Five-SeveN | Fall Hazard
+- SG 553 | Hazard Pay
+
+#### Restricted (3)
+
+- Galil AR | CAUTION!
+- MAG-7 | Prism Terrace
+- P250 | Digital Architect
+
+#### Mil-Spec (4)
+
+- AK-47 | Green Laminate
+- P90 | Schematic
+- Nova | Interlock
+- Negev | Infrastructure
+
+#### Industrial Grade (4)
+
+- Glock-18 | Red Tire
+- UMP-45 | Mechanism
+- SSG 08 | Carbon Fiber
+- PP-Bizon | Breaker Box
+
+#### Consumer Grade (5)
+
+- MAC-10 | Strats
+- FAMAS | Faulty Wiring
+- XM1014 | Blue Tire
+- CZ75-Auto | Framework
+- Dual Berettas | Oil Change
+
+### Shanghai 2024 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $3.50
+- Items: 19
+- Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
+
+#### Covert (1)
+
+- AK-47 | Gold Arabesque
+
+#### Classified (2)
+
+- UMP-45 | Fade
+- SSG 08 | Death Strike
+
+#### Restricted (3)
+
+- USP-S | Orange Anolis
+- M4A4 | Red DDPAT
+- MAC-10 | Case Hardened
+
+#### Mil-Spec (4)
+
+- P250 | Black & Tan
+- Nova | Quick Sand
+- G3SG1 | New Roots
+- Galil AR | Amber Fade
+
+#### Industrial Grade (4)
+
+- AUG | Spalted Wood
+- MP9 | Old Roots
+- Five-SeveN | Withered Vine
+- M249 | Midnight Palm
+
+#### Consumer Grade (5)
+
+- R8 Revolver | Desert Brush
+- P90 | Desert DDPAT
+- SG 553 | Bleached
+- MP7 | Prey
+- Sawed-Off | Parched
+
+### StarLadder Berlin 2019 Dust II Souvenir Package
+
+- Release date: —
+- Fallback price: $12.00
+- Items: 16
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- R8 Revolver | Amber Fade
+
+#### Restricted (1)
+
+- P2000 | Amber Fade
+
+#### Mil-Spec (3)
+
+- PP-Bizon | Brass
+- M4A1-S | VariCamo
+- SG 553 | Damascus Steel
+
+#### Industrial Grade (5)
+
+- Sawed-Off | Snake Camo
+- AK-47 | Safari Mesh
+- Five-SeveN | Orange Peel
+- MAC-10 | Palm
+- Tec-9 | VariCamo
+
+#### Consumer Grade (6)
+
+- G3SG1 | Desert Storm
+- P250 | Sand Dune
+- SCAR-20 | Sand Mesh
+- P90 | Sand Spray
+- MP9 | Sand Dashed
+- Nova | Predator
+
+### StarLadder Berlin 2019 Inferno 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $12.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Dual Berettas | Twin Turbo
+- SG 553 | Integrale
+
+#### Restricted (3)
+
+- P250 | Vino Primo
+- MP7 | Fade
+- AK-47 | Safety Net
+
+#### Mil-Spec (4)
+
+- SSG 08 | Hand Brake
+- M4A4 | Converter
+- USP-S | Check Engine
+- Sawed-Off | Brake Light
+
+#### Industrial Grade (4)
+
+- PP-Bizon | Candy Apple
+- MAC-10 | Calf Skin
+- R8 Revolver | Nitro
+- Glock-18 | High Beam
+
+#### Consumer Grade (5)
+
+- UMP-45 | Mudder
+- MP5-SD | Dirt Drop
+- MP9 | Slide
+- AUG | Sweeper
+- MAG-7 | Rust Coat
+
+### StarLadder Berlin 2019 Mirage Souvenir Package
+
+- Release date: —
+- Fallback price: $11.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- MAG-7 | Bulldozer
+
+#### Mil-Spec (3)
+
+- MP9 | Hot Rod
+- UMP-45 | Blaze
+- MAC-10 | Amber Fade
+
+#### Industrial Grade (5)
+
+- Glock-18 | Groundwater
+- MP7 | Orange Peel
+- SSG 08 | Tropical Storm
+- Negev | CaliCamo
+- SG 553 | Gator Mesh
+
+#### Consumer Grade (6)
+
+- P250 | Bone Mask
+- Five-SeveN | Contractor
+- AUG | Colony
+- G3SG1 | Safari Mesh
+- P90 | Scorched
+- Galil AR | Hunting Blind
+
+### StarLadder Berlin 2019 Nuke 2018 Souvenir Package
+
+- Release date: —
+- Fallback price: $10.50
+- Items: 18
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (2)
+
+- Tec-9 | Remote Control
+- M4A1-S | Control Panel
+
+#### Restricted (3)
+
+- AUG | Random Access
+- MAG-7 | Core Breach
+- Glock-18 | Nuclear Garden
+
+#### Mil-Spec (4)
+
+- P90 | Facility Negative
+- MP5-SD | Co-Processor
+- P250 | Exchanger
+- AWP | Acheron
+
+#### Industrial Grade (4)
+
+- M4A4 | Mainframe
+- MP7 | Motherboard
+- Negev | Bulkhead
+- Galil AR | Cold Fusion
+
+#### Consumer Grade (5)
+
+- PP-Bizon | Facility Sketch
+- P250 | Facility Draft
+- UMP-45 | Facility Dark
+- Five-SeveN | Coolant
+- Nova | Mandrel
+
+### StarLadder Berlin 2019 Overpass Souvenir Package
+
+- Release date: —
+- Fallback price: $13.00
+- Items: 15
+- Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
+
+#### Classified (1)
+
+- M4A1-S | Master Piece
+
+#### Restricted (2)
+
+- AWP | Pink DDPAT
+- USP-S | Road Rash
+
+#### Mil-Spec (3)
+
+- XM1014 | VariCamo Blue
+- SSG 08 | Detour
+- CZ75-Auto | Nitro
+
+#### Industrial Grade (4)
+
+- MP7 | Gunsmoke
+- Desert Eagle | Urban DDPAT
+- Glock-18 | Night
+- P2000 | Grassland
+
+#### Consumer Grade (5)
+
+- M249 | Contrast Spray
+- MAG-7 | Storm
+- MP9 | Storm
+- Sawed-Off | Sage Spray
+- UMP-45 | Scorched
+
+### StarLadder Berlin 2019 Train Souvenir Package
+
+- Release date: —
+- Fallback price: $10.00
+- Items: 15
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Tec-9 | Red Quartz
+
+#### Mil-Spec (2)
+
+- Desert Eagle | Urban Rubble
+- Sawed-Off | Amber Fade
+
+#### Industrial Grade (6)
+
+- MAC-10 | Candy Apple
+- M4A4 | Urban DDPAT
+- MAG-7 | Metallic DDPAT
+- P250 | Metallic DDPAT
+- SCAR-20 | Carbon Fiber
+- P90 | Ash Wood
+
+#### Consumer Grade (6)
+
+- UMP-45 | Urban DDPAT
+- Dual Berettas | Colony
+- G3SG1 | Polar Camo
+- Five-SeveN | Forest Night
+- Nova | Polar Mesh
+- PP-Bizon | Urban Dashed
+
+### StarLadder Berlin 2019 Vertigo Souvenir Package
+
+- Release date: —
+- Fallback price: $14.00
+- Items: 6
+- Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
+
+#### Restricted (1)
+
+- Dual Berettas | Demolition
+
+#### Mil-Spec (2)
+
+- P90 | Glacier Mesh
+- AK-47 | Black Laminate
+
+#### Industrial Grade (1)
+
+- PP-Bizon | Carbon Fiber
+
+#### Consumer Grade (2)
+
+- MAC-10 | Urban DDPAT
+- XM1014 | Urban Perforated
