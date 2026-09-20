@@ -5,6 +5,7 @@ import zhCN from '../../src/foundation/languages/zh-CN.js';
 
 const containers = ['public/data/cases.json', 'public/data/souvenirs.json']
   .flatMap(file => JSON.parse(fs.readFileSync(file, 'utf8')).cases ?? []);
+const marketItems = JSON.parse(fs.readFileSync('public/data/market-items.json', 'utf8')).items ?? [];
 
 describe('Chinese translation coverage', () => {
   it('covers every English interface key', () => {
@@ -30,5 +31,10 @@ describe('Chinese translation coverage', () => {
       }
     }
     expect([...new Set(missing)]).toEqual([]);
+  });
+
+  it('covers every standalone market item', () => {
+    const missing = marketItems.filter(item => !zhCN[`item_name.${item.market_hash_name}`]);
+    expect(missing.map(item => item.market_hash_name)).toEqual([]);
   });
 });

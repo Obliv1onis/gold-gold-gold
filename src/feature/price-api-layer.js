@@ -3,8 +3,10 @@ import { Events } from '../foundation/events.js';
 /**
  * Live skin price layer.
  *
- * Primary source: Skinport public bulk API — one request loads prices for every
- * CS2 item and populates the local cache. No API key required.
+ * Primary source for the legacy catalogue: Skinport public bulk API — one
+ * request loads prices for every CS2 item and populates the local cache.
+ * Items marked with `price_source: "steam"` bypass that cache through
+ * prefetchSteam(), so their displayed price remains Steam-sourced.
  * Fallback: Steam Community Market priceoverview, one item at a time, for anything
  * Skinport doesn't cover (very rare).
  *
@@ -55,7 +57,10 @@ async function _loadSkinportBulk() {
     for (const item of items) {
       const price = item.suggested_price ?? item.mean_price ?? item.min_price;
       if (item.market_hash_name && price > 0) {
-        _cache.set(item.market_hash_name, { price, fetchedAt: now });
+        const cached = _cache.get(item.market_hash_name);
+        if (cached?.source !== 'steam') {
+          _cache.set(item.market_hash_name, { price, fetchedAt: now, source: 'skinport' });
+        }
         count++;
       }
     }
@@ -101,9 +106,9 @@ async function _runSteamQueue() {
     _steamPending.delete(hashName);
     try {
       const price = await _fetchSteam(hashName);
-      _cache.set(hashName, { price, fetchedAt: Date.now() });
+      _cache.set(hashName, { price, fetchedAt: Date.now(), source: 'steam' });
       document.dispatchEvent(new CustomEvent(Events.PRICE_UPDATED, {
-        detail: { hashName, price },
+        detail: { hashName, price, source: 'steam' },
       }));
       resolve(price);
     } catch (err) {
@@ -139,8 +144,10 @@ export const PriceAPILayer = {
    * @param {string} hashName
    * @returns {number|null}
    */
-  getCachedPrice(hashName) {
-    return _cache.get(hashName)?.price ?? null;
+  getCachedPrice(hashName, source = null) {
+    const entry = _cache.get(hashName);
+    if (source && entry?.source !== source) return null;
+    return entry?.price ?? null;
   },
 
   /**
@@ -169,7 +176,7 @@ export const PriceAPILayer = {
         // Bulk cache hit — notify immediately (next microtask so DOM is ready)
         Promise.resolve().then(() => {
           document.dispatchEvent(new CustomEvent(Events.PRICE_UPDATED, {
-            detail: { hashName, price: entry.price },
+            detail: { hashName, price: entry.price, source: entry.source },
           }));
         });
       } else {
@@ -177,6 +184,20 @@ export const PriceAPILayer = {
         _enqueueSteam(hashName).catch(() => {});
       }
     });
+  },
+
+  /** Fetches directly from Steam, bypassing the Skinport bulk catalogue. */
+  prefetchSteam(hashName) {
+    const entry = _cache.get(hashName);
+    if (entry?.source === 'steam' && Date.now() - entry.fetchedAt < CACHE_TTL) {
+      Promise.resolve().then(() => {
+        document.dispatchEvent(new CustomEvent(Events.PRICE_UPDATED, {
+          detail: { hashName, price: entry.price, source: 'steam' },
+        }));
+      });
+      return;
+    }
+    _enqueueSteam(hashName).catch(() => {});
   },
 
   /**

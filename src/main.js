@@ -23,7 +23,7 @@ async function main() {
 
   // 1. Fetch and validate case + capsule data
   await CaseDataStore.init('/data/cases.json');
-  await CapsuleDataStore.init('/data/capsules.json', '/data/others.json');
+  await CapsuleDataStore.init('/data/capsules.json', '/data/others.json', '/data/market-items.json');
   SkinInventory.migrateMissingCaseIds(id => CaseDataStore.findCaseForItem(id));
 
   // 2. Web Audio — context resumed on first user gesture

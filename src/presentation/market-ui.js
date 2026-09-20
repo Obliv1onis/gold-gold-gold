@@ -158,9 +158,10 @@ export const MarketUI = {
     });
 
     document.addEventListener(Events.PRICE_UPDATED, event => {
-      const { hashName, price } = event.detail;
+      const { hashName, price, source } = event.detail;
       _listEl?.querySelectorAll('[data-hash-name]').forEach(element => {
         if (element.dataset.hashName !== hashName) return;
+        if (element.dataset.priceSource && element.dataset.priceSource !== source) return;
         if (element.classList.contains('market-row-price')) {
           element.textContent = `$${price.toFixed(2)}`;
           element.classList.remove('market-row-price--loading');
@@ -216,7 +217,7 @@ export const MarketUI = {
     _allItems = [...skins.values()];
 
     const cosmetics = new Map();
-    for (const source of CapsuleDataStore.getAllItems()) {
+    for (const source of [...CapsuleDataStore.getAllItems(), ...CapsuleDataStore.getMarketItems()]) {
       const key = source.market_hash_name ?? `${source.capsuleType}|${source.name}`;
       if (!cosmetics.has(key)) cosmetics.set(key, { ...source, isCapsuleItem: true });
     }
@@ -258,7 +259,11 @@ export const MarketUI = {
     _refreshBtn.toggleAttribute('hidden', !discoveryMode);
     this._render(listings);
     this._renderPager(totalPages);
-    listings.forEach(listing => listing.hashName && PriceAPILayer.prefetch(listing.hashName));
+    listings.forEach(listing => {
+      if (!listing.hashName) return;
+      if (listing.item.price_source === 'steam') PriceAPILayer.prefetchSteam(listing.hashName);
+      else PriceAPILayer.prefetch(listing.hashName);
+    });
   },
 
   _listingFor(item) {
@@ -355,11 +360,12 @@ export const MarketUI = {
       floatBlock.classList.add('market-float-block--empty');
     }
 
-    const livePrice = PriceAPILayer.getCachedPrice(hashName);
+    const livePrice = PriceAPILayer.getCachedPrice(hashName, item.price_source ?? null);
     const displayPrice = livePrice ?? localPrice;
     const price = document.createElement('div');
     price.className = 'market-row-price';
     price.dataset.hashName = hashName;
+    if (item.price_source) price.dataset.priceSource = item.price_source;
     price.textContent = displayPrice === null ? '—' : `$${displayPrice.toFixed(2)}`;
     if (livePrice !== null) {
       price.classList.add('market-row-price--live');
@@ -375,6 +381,7 @@ export const MarketUI = {
     buy.textContent = i18n.t('buy_btn');
     buy.disabled = displayPrice === null;
     buy.dataset.hashName = hashName;
+    if (item.price_source) buy.dataset.priceSource = item.price_source;
     buy.addEventListener('click', () => this._handleBuy(listing, buy, row));
 
     row.append(img, info, floatBlock, price, buy);
@@ -394,7 +401,7 @@ export const MarketUI = {
 
   _handleBuy(listing, button, row) {
     const { item, statTrak, hashName, wearTier, localPrice } = listing;
-    const buyPrice = PriceAPILayer.getCachedPrice(hashName) ?? localPrice;
+    const buyPrice = PriceAPILayer.getCachedPrice(hashName, item.price_source ?? null) ?? localPrice;
     if (buyPrice === null || !VirtualEconomy.canAfford(buyPrice)) {
       row.classList.add('market-row--no-funds');
       button.textContent = i18n.t('market_no_funds');

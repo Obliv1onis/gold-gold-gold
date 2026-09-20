@@ -7,6 +7,7 @@ const PATHS = {
   capsules: 'public/data/capsules.json',
   souvenirs: 'public/data/souvenirs.json',
   others: 'public/data/others.json',
+  market: 'public/data/market-items.json',
 };
 
 const EXPECTED_COUNTS = {
@@ -45,7 +46,7 @@ const REQUIRED_CONTAINERS = [
   'Budapest 2025 Train Souvenir Package',
 ];
 
-const [caseData, capsuleData, souvenirData, otherData] = await Promise.all(
+const [caseData, capsuleData, souvenirData, otherData, marketData] = await Promise.all(
   Object.values(PATHS).map(path => readFile(path, 'utf8').then(JSON.parse)),
 );
 
@@ -101,6 +102,10 @@ const cases = caseData.cases ?? [];
 const capsules = capsuleData.capsules ?? [];
 const souvenirs = souvenirData.cases ?? [];
 const others = otherData.capsules ?? [];
+const marketItems = marketData.items ?? [];
+if (!marketData.catalog?.price_source?.includes('Steam Community Market')) {
+  errors.push('Standalone market catalogue must use Steam Community Market prices');
+}
 
 auditContainerIds([...cases, ...souvenirs], 'case catalogue');
 auditContainerIds([...capsules, ...others], 'capsule catalogue');
@@ -141,6 +146,24 @@ if (forbiddenCologneContainers.length) {
   errors.push('Cologne 2026 must not be modelled as a capsule or traditional souvenir package');
 }
 
+if (marketItems.length !== 1371) {
+  errors.push(`Expected 1371 Cologne 2026 market stickers, found ${marketItems.length}`);
+}
+const marketNames = new Set();
+for (const item of marketItems) {
+  if (!item.id || !item.market_hash_name || !item.image_url) errors.push('Incomplete standalone market item');
+  if (!item.market_hash_name.endsWith('| Cologne 2026')) errors.push(`Unexpected standalone market item: ${item.market_hash_name}`);
+  if (!['high_grade', 'remarkable', 'exotic', 'extraordinary'].includes(item.rarity)) {
+    errors.push(`${item.market_hash_name}: invalid rarity ${item.rarity}`);
+  }
+  if (item.price_source !== 'steam') errors.push(`${item.market_hash_name}: price source is not Steam`);
+  if (item.market_price !== null && !(item.market_price > 0)) {
+    errors.push(`${item.market_hash_name}: invalid Steam market price`);
+  }
+  if (marketNames.has(item.market_hash_name)) errors.push(`Duplicate standalone market item: ${item.market_hash_name}`);
+  marketNames.add(item.market_hash_name);
+}
+
 if (errors.length) {
   console.error(`Catalogue audit failed (${errors.length}):\n- ${errors.join('\n- ')}`);
   process.exitCode = 1;
@@ -148,6 +171,6 @@ if (errors.length) {
   console.log(
     `Catalogue audit passed: ${counts.weapon_case} weapon cases, ${counts.terminal} terminals, `
     + `${counts.souvenir_package} souvenir packages, ${counts.sticker_capsule} sticker capsules, `
-    + `${counts.other} other containers.`,
+    + `${counts.other} other containers, ${marketItems.length} standalone market items.`,
   );
 }

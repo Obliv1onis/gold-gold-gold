@@ -28,6 +28,9 @@ const cratesEn = await readSource(source('crates', 'en'));
 const cratesZh = await readSource(source('crates', 'zh'));
 const localCapsules = ['public/data/capsules.json', 'public/data/others.json']
   .flatMap(file => readJson(file).capsules ?? []);
+const localMarketItems = fs.existsSync('public/data/market-items.json')
+  ? readJson('public/data/market-items.json').items ?? []
+  : [];
 
 function pairedMap(english, chinese) {
   const chineseById = new Map(chinese.map(item => [item.id, item]));
@@ -91,6 +94,7 @@ for (const capsule of localCapsules) {
     }
   }
 }
+for (const item of localMarketItems) runtimeItems.add(item.market_hash_name ?? item.name);
 for (const name of [...runtimeItems].sort()) {
   const translated = officialItems.get(name) ?? normalizedOfficialItems.get(normalizedName(name));
   if (translated) translations[`item_name.${name}`] = translated;

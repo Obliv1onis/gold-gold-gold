@@ -1,6 +1,7 @@
 const VALID_RARITIES = ['high_grade', 'remarkable', 'exotic', 'extraordinary'];
 
 let _capsules = new Map();
+let _marketItems = [];
 let _state    = 'unloaded';
 
 function _validate(entry) {
@@ -40,11 +41,22 @@ export const CapsuleDataStore = {
    * @param {string} capsulesUrl   - URL for capsules.json  (required)
    * @param {string} [othersUrl]   - URL for others.json    (optional)
    */
-  async init(capsulesUrl, othersUrl) {
+  async init(capsulesUrl, othersUrl, marketItemsUrl = null) {
     if (_state === 'loaded') return;
     _state = 'loading';
+    _marketItems = [];
     await _loadUrl(capsulesUrl, 'capsules');
     if (othersUrl) await _loadUrl(othersUrl, 'others');
+    if (marketItemsUrl) {
+      try {
+        const response = await fetch(marketItemsUrl);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        _marketItems = (data.items ?? []).filter(item => item.name && item.market_hash_name);
+      } catch (error) {
+        console.warn(`[CapsuleDataStore] Failed to load market items (${marketItemsUrl}): ${error.message}`);
+      }
+    }
     _state = 'loaded';
   },
 
@@ -78,5 +90,9 @@ export const CapsuleDataStore = {
       }
     }
     return result;
+  },
+
+  getMarketItems() {
+    return _marketItems.map(item => ({ ...item, isMarketOnly: true }));
   },
 };

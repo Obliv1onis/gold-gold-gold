@@ -17,7 +17,9 @@
     "docs:reference:check": "node tools/catalog/generate-reference-docs.mjs --check",
     "data:sync:cases": "node tools/catalog/sync-cases.mjs",
     "data:sync:containers": "node tools/catalog/sync-containers.mjs",
-    "data:sync:translations": "node tools/catalog/sync-translations.mjs"
+    "data:sync:translations": "node tools/catalog/sync-translations.mjs",
+    "data:fetch:cologne-2026": "node tools/catalog/fetch-cologne-2026-reference.mjs",
+    "data:sync:market": "node tools/catalog/sync-market-reference.mjs"
   },
   "devDependencies": {
     "vite": "^6.0.0",
