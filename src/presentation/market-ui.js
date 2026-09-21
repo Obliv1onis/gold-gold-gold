@@ -9,6 +9,7 @@ import { VirtualEconomy }   from '../core/virtual-economy.js';
 import { SkinInventory }    from '../core/skin-inventory.js';
 import { Events }           from '../foundation/events.js';
 import { visualRarity }     from '../foundation/visual-rarity.js';
+import { getCatalogMarketPrice } from '../foundation/market-price.js';
 
 const WEAR_TIERS = ['fn', 'mw', 'ft', 'ww', 'bs'];
 const SKIN_RARITIES = [
@@ -18,6 +19,7 @@ const SKIN_RARITIES = [
 const ITEMS_PER_PAGE = 24;
 const RECOMMENDED_SKINS = 8;
 const RECOMMENDED_COSMETICS = 4;
+export const DEFAULT_MARKET_WEAR = 'fn';
 
 const CONTRABAND_ITEMS = [{
   id: 'm4a4_howl',
@@ -62,10 +64,12 @@ let _searchQuery = '';
 let _category = 'all';
 let _rarity = 'all';
 let _sort = 'name';
-let _wear = 'ft';
+let _wear = DEFAULT_MARKET_WEAR;
 let _statTrak = false;
 let _currentPage = 1;
 let _visibleSourceItems = [];
+const _displayNameCache = new WeakMap();
+const _searchTextCache = new WeakMap();
 
 export const MarketUI = {
   init(container) {
@@ -112,6 +116,7 @@ export const MarketUI = {
     _labelEl = container.querySelector('.market-section-label');
     _pagerEl = container.querySelector('.market-pager');
     _refreshBtn = container.querySelector('.market-refresh');
+    _wear = container.querySelector('.market-wear').value;
 
     _searchEl.addEventListener('input', () => {
       clearTimeout(_searchTimer);
@@ -260,8 +265,7 @@ export const MarketUI = {
     this._renderPager(totalPages);
     listings.forEach(listing => {
       if (!listing.hashName) return;
-      if (listing.item.price_source === 'steam') PriceAPILayer.prefetchSteam(listing.hashName);
-      else PriceAPILayer.prefetch(listing.hashName);
+      PriceAPILayer.prefetch(listing.hashName);
     });
   },
 
@@ -375,6 +379,8 @@ export const MarketUI = {
       price.title = i18n.t('market_live_price');
     } else if (displayPrice === null) {
       price.classList.add('market-row-price--loading');
+    } else if (item.market_prices || item.price_source === 'steam') {
+      price.title = i18n.t('market_snapshot_price');
     } else {
       price.title = i18n.t('market_fallback_price');
     }
@@ -389,7 +395,7 @@ export const MarketUI = {
 
     row.append(img, info, floatBlock, price, buy);
     const isMusicKit = isCosmetic && item.capsuleType === 'music_kit_box';
-    if (isMusicKit) {
+    if (isMusicKit && MusicKitPlayer.hasPreview(item.name, item.youtube_id)) {
       row.classList.add('market-row--has-play');
       const play = document.createElement('button');
       play.className = 'btn-market-play';
@@ -441,9 +447,17 @@ export function marketItemCategory(item) {
 }
 
 export function marketItemDisplayName(item, locale = i18n.getLocale()) {
-  return item.isCapsuleItem
+  let names = _displayNameCache.get(item);
+  if (!names) {
+    names = new Map();
+    _displayNameCache.set(item, names);
+  }
+  if (names.has(locale)) return names.get(locale);
+  const name = item.isCapsuleItem
     ? i18n.itemName(_marketItemTranslationName(item), locale, item.capsuleType)
     : i18n.skinName(item.weapon, item.skin, locale);
+  names.set(locale, name);
+  return name;
 }
 
 export function marketItemMatches(item, { query = '', category = 'all', rarity = 'all' } = {}) {
@@ -451,6 +465,12 @@ export function marketItemMatches(item, { query = '', category = 'all', rarity =
   if (rarity !== 'all' && item.rarity !== rarity) return false;
   const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   if (!words.length) return true;
+  const text = _marketSearchText(item);
+  return words.every(word => text.includes(word));
+}
+
+function _marketSearchText(item) {
+  if (_searchTextCache.has(item)) return _searchTextCache.get(item);
   const sources = item.case_names ?? [item.case_name ?? item.capsuleName].filter(Boolean);
   const variants = Object.values(item.musicKitVariants ?? {});
   const text = [
@@ -465,7 +485,8 @@ export function marketItemMatches(item, { query = '', category = 'all', rarity =
     ...sources,
     ...sources.map(name => i18n.caseName(name, 'zh-CN')),
   ].filter(Boolean).join(' ').toLocaleLowerCase();
-  return words.every(word => text.includes(word));
+  _searchTextCache.set(item, text);
+  return text;
 }
 
 export function sortMarketItems(items, sort = 'name', variant = { wear: 'ft', statTrak: false }) {
@@ -535,21 +556,11 @@ function _makeListing(item, forceTier = null, statTrak = false) {
   return { item, floatVal, wearTier, statTrak, hashName, localPrice: _localPrice(item, wearTier, statTrak) };
 }
 
-const WEAR_MULTIPLIERS = { fn: 3, mw: 1.5, ft: 1, ww: 0.65, bs: 0.45 };
-const SOUVENIR_RARITY_ESTIMATE = {
-  covert: 1200,
-  classified: 80,
-  restricted: 12,
-  mil_spec: 2,
-  consumer_grade: 0.5,
-  industrial_grade: 0.5,
-};
-
 function _localPrice(item, wearTier, statTrak) {
-  let base = item.market_price ?? null;
-  if (base === null) return null;
-  if (item.isSouvenir && base < 20) base = SOUVENIR_RARITY_ESTIMATE[item.rarity] ?? 5;
-  return Math.round(base * (WEAR_MULTIPLIERS[wearTier] ?? 1) * (statTrak ? 1.5 : 1) * 100) / 100;
+  return getCatalogMarketPrice(item, wearTier, {
+    statTrak,
+    souvenir: item.isSouvenir,
+  });
 }
 
 function _estimatedPrice(item, { wear, statTrak }) {
@@ -557,7 +568,7 @@ function _estimatedPrice(item, { wear, statTrak }) {
     return selectMusicKitVariant(item, statTrak).market_price ?? Number.POSITIVE_INFINITY;
   }
   if (item.isCapsuleItem) return item.market_price ?? Number.POSITIVE_INFINITY;
-  return _localPrice(item, wear, statTrak) ?? Number.POSITIVE_INFINITY;
+  return _localPrice(item, wear, statTrak) ?? item.market_price ?? Number.POSITIVE_INFINITY;
 }
 
 function _rarityRank(rarity) {

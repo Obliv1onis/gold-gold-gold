@@ -14,7 +14,11 @@ globalThis.AudioContext = class {
   createOscillator() {
     return {
       type: '',
-      frequency: { value: 0 },
+      frequency: {
+        value: 0,
+        setValueAtTime:               () => {},
+        exponentialRampToValueAtTime: () => {},
+      },
       connect:   () => this,
       start:     () => {},
       stop:      () => {},

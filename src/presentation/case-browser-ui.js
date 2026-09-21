@@ -9,6 +9,7 @@ let _onSelect       = null;
 let _activeFilter   = null; // 'weapon_case' | 'souvenir_package' | null (all)
 let _query          = '';
 let _sort           = 'newest';
+let _hasRendered    = false;
 
 /**
  * Grid of all available cases. Clicking a card fires onSelect(caseId, casePrice).
@@ -27,9 +28,11 @@ export const CaseBrowserUI = {
   init(container, { onSelect }) {
     _container = container;
     _onSelect  = onSelect;
-    this._render();
+    _hasRendered = false;
 
-    document.addEventListener('locale-changed', () => this._render());
+    document.addEventListener('locale-changed', () => {
+      if (_hasRendered) this._render();
+    });
 
     // When a live price arrives, replace the placeholder with the real Steam price
     document.addEventListener(Events.PRICE_UPDATED, e => {
@@ -48,11 +51,8 @@ export const CaseBrowserUI = {
   show(filter = null) {
     if (!_container) return;
     _activeFilter = filter;
+    _hasRendered = true;
     this._render();
-    const cases = filter ? CaseDataStore.getCaseList(filter) : CaseDataStore.getCaseList();
-    cases.forEach(c => {
-      PriceAPILayer.prefetch(PriceAPILayer.buildCaseHashName(c.name ?? c.id));
-    });
   },
 
   hide() { /* no teardown needed */ },

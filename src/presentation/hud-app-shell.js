@@ -3,7 +3,8 @@ import { CaseInventory }               from '../core/case-inventory.js';
 import { SkinInventory }               from '../core/skin-inventory.js';
 import { Events }                      from '../foundation/events.js';
 import { i18n }                        from '../foundation/i18n.js';
-import { DailyBonus }                  from '../feature/daily-bonus.js';
+import { DailyBonus, formatDailyBonusCountdown } from '../feature/daily-bonus.js';
+import { Theme }                       from '../foundation/theme.js';
 
 // ─── Module-level state ───────────────────────────────────────────────────────
 
@@ -39,6 +40,7 @@ let _backBtn        = null;
 let _appEl          = null;
 let _bonusBtn       = null;
 let _bonusTimer     = null;
+let _themeBtn       = null;
 
 /**
  * Top-level layout shell. Manages three views:
@@ -95,6 +97,10 @@ export const HudAppShell = {
         </div>
         <div class="hud-actions">
           <button class="btn-daily-bonus" data-i18n="daily_bonus_btn">${i18n.t('daily_bonus_btn')}</button>
+          <button type="button" class="btn-theme">
+            <span class="theme-icon" aria-hidden="true"></span>
+            <span class="theme-label"></span>
+          </button>
           <div class="lang-wrap">
             <button class="btn-language" data-i18n="language">Language</button>
             <div class="lang-dropdown" hidden>
@@ -220,6 +226,12 @@ export const HudAppShell = {
 
     // Daily bonus
     _bonusBtn = rootEl.querySelector('.btn-daily-bonus');
+    _themeBtn = rootEl.querySelector('.btn-theme');
+    this._refreshThemeButton();
+    _themeBtn.addEventListener('click', () => {
+      Theme.toggle();
+      this._refreshThemeButton();
+    });
     _bonusBtn.addEventListener('click', () => {
       if (DailyBonus.claim()) {
         this._refreshBonusBar();
@@ -227,6 +239,7 @@ export const HudAppShell = {
       }
     });
     this._refreshBonusBar();
+    if (_bonusTimer) clearInterval(_bonusTimer);
     _bonusTimer = setInterval(() => this._refreshBonusBar(), 1000);
 
     // Language button + dropdown
@@ -256,6 +269,8 @@ export const HudAppShell = {
         el.textContent = i18n.t(el.dataset.subtitleKey, { n: Number(el.dataset.subtitleN) });
       });
       this._refreshCaseCount();
+      this._refreshBonusBar();
+      this._refreshThemeButton();
       if (_currentView === 'reel' && _selectedCaseId) {
         _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
       }
@@ -533,7 +548,33 @@ export const HudAppShell = {
 
   _refreshBonusBar() {
     if (!_bonusBtn) return;
-    _bonusBtn.disabled = !DailyBonus.isAvailable();
+    const remaining = DailyBonus.msUntilNext();
+    const available = remaining === 0;
+    _bonusBtn.disabled = !available;
+    if (available) {
+      _bonusBtn.dataset.i18n = 'daily_bonus_btn';
+      _bonusBtn.textContent = i18n.t('daily_bonus_btn');
+      _bonusBtn.title = i18n.t('daily_bonus_ready');
+      _bonusBtn.setAttribute('aria-label', i18n.t('daily_bonus_ready'));
+      return;
+    }
+    _bonusBtn.removeAttribute('data-i18n');
+    const countdown = formatDailyBonusCountdown(remaining);
+    _bonusBtn.textContent = countdown;
+    const nextLabel = i18n.t('daily_bonus_next', { time: countdown });
+    _bonusBtn.title = nextLabel;
+    _bonusBtn.setAttribute('aria-label', nextLabel);
+  },
+
+  _refreshThemeButton() {
+    if (!_themeBtn) return;
+    const switchToLight = Theme.getTheme() === 'dark';
+    const actionKey = switchToLight ? 'theme_switch_to_light' : 'theme_switch_to_dark';
+    _themeBtn.dataset.i18nAria = actionKey;
+    _themeBtn.setAttribute('aria-label', i18n.t(actionKey));
+    _themeBtn.title = i18n.t(actionKey);
+    _themeBtn.querySelector('.theme-icon').textContent = switchToLight ? '☀' : '☾';
+    _themeBtn.querySelector('.theme-label').textContent = i18n.t(switchToLight ? 'theme_light' : 'theme_dark');
   },
 };
 

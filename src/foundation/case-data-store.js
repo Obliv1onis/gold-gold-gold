@@ -7,6 +7,11 @@ const ALL_RARITIES = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restric
 
 let _cases = new Map();
 let _state = 'unloaded'; // 'unloaded' | 'loaded' | 'error'
+let _caseLists = new Map();
+let _allItemsByCase = new Map();
+let _itemById = new Map();
+let _caseByItemId = new Map();
+let _allSkins = [];
 
 function _validateEntry(entry) {
   const type = entry.type ?? 'weapon_case';
@@ -102,33 +107,57 @@ export const CaseDataStore = {
   async init(caseUrl = '/data/cases.json', souvenirUrl = '/data/souvenirs.json') {
     _state = 'unloaded';
     _cases.clear();
-
-    let allEntries = [];
+    _caseLists.clear();
+    _allItemsByCase.clear();
+    _itemById.clear();
+    _caseByItemId.clear();
+    _allSkins = [];
 
     try {
-      allEntries.push(...await _loadFile(caseUrl, true));
+      const [caseEntries, souvenirEntries] = await Promise.all([
+        _loadFile(caseUrl, true),
+        souvenirUrl
+          ? _loadFile(souvenirUrl, false).catch(err => {
+              console.warn(`[CDS] Failed to load ${souvenirUrl}: ${err.message}`);
+              return [];
+            })
+          : Promise.resolve([]),
+      ]);
+      const allEntries = [...caseEntries, ...souvenirEntries];
+
+      const seenIds = new Set();
+      for (const entry of allEntries) {
+        if (seenIds.has(entry.id)) {
+          console.error(`[CDS] Duplicate id "${entry.id}". Keeping first, skipping duplicate.`);
+          continue;
+        }
+        if (!_validateEntry(entry)) continue;
+        seenIds.add(entry.id);
+        const normalized = _normalizeEntry(entry);
+        _cases.set(entry.id, normalized);
+
+        const flattened = [];
+        for (const rarity of ALL_RARITIES) {
+          for (const item of normalized.items[rarity] ?? []) {
+            _allSkins.push(item);
+            flattened.push({ ...item, rarity });
+            if (!_itemById.has(item.item_id)) {
+              _itemById.set(item.item_id, item);
+              _caseByItemId.set(item.item_id, entry.id);
+            }
+          }
+        }
+        _allItemsByCase.set(entry.id, flattened);
+      }
+
+      const allMetadata = [..._cases.values()].map(({ items, ...meta }) => meta);
+      _caseLists.set('all', allMetadata);
+      for (const type of ['weapon_case', 'souvenir_package', 'terminal']) {
+        _caseLists.set(type, allMetadata.filter(entry => entry.type === type));
+      }
     } catch (err) {
       _state = 'error';
       throw err;
-    }
-
-    if (souvenirUrl) {
-      try {
-        allEntries.push(...await _loadFile(souvenirUrl, false));
-      } catch (err) {
-        console.warn(`[CDS] Failed to load ${souvenirUrl}: ${err.message}`);
-      }
-    }
-
-    const seenIds = new Set();
-    for (const entry of allEntries) {
-      if (seenIds.has(entry.id)) {
-        console.error(`[CDS] Duplicate id "${entry.id}". Keeping first, skipping duplicate.`);
-        continue;
-      }
-      if (!_validateEntry(entry)) continue;
-      seenIds.add(entry.id);
-      _cases.set(entry.id, _normalizeEntry(entry));
     }
 
     _state = 'loaded';
@@ -143,9 +172,7 @@ export const CaseDataStore = {
    * @param {string|null} type - 'weapon_case' | 'souvenir_package' | null (all)
    */
   getCaseList(type = null) {
-    return Array.from(_cases.values())
-      .filter(e => type === null || e.type === type)
-      .map(({ items, ...meta }) => meta);
+    return [...(_caseLists.get(type ?? 'all') ?? [])];
   },
 
   getItems(id, rarity) {
@@ -155,36 +182,19 @@ export const CaseDataStore = {
   },
 
   getAllItems(id) {
-    const c = _cases.get(id);
-    if (!c) return [];
-    return ALL_RARITIES.flatMap(r => (c.items[r] ?? []).map(item => ({ ...item, rarity: r })));
+    return _allItemsByCase.get(id) ?? [];
   },
 
   getAllSkins() {
-    const result = [];
-    for (const c of _cases.values()) {
-      for (const r of ALL_RARITIES) result.push(...(c.items[r] ?? []));
-    }
-    return result;
+    return [..._allSkins];
   },
 
   getItem(itemId) {
-    for (const c of _cases.values()) {
-      for (const r of ALL_RARITIES) {
-        const item = (c.items[r] ?? []).find(i => i.item_id === itemId);
-        if (item) return item;
-      }
-    }
-    return null;
+    return _itemById.get(itemId) ?? null;
   },
 
   /** Returns the case id that contains the given item_id, or null if not found. */
   findCaseForItem(itemId) {
-    for (const [caseId, c] of _cases) {
-      for (const r of ALL_RARITIES) {
-        if ((c.items[r] ?? []).some(it => it.item_id === itemId)) return caseId;
-      }
-    }
-    return null;
+    return _caseByItemId.get(itemId) ?? null;
   },
 };

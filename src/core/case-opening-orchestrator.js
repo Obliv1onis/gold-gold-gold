@@ -6,6 +6,7 @@ import { ReelAnimationEngine }          from './reel-animation-engine.js';
 import { AudioSystem }                  from './audio-system.js';
 import { FloatService }                 from '../foundation/float-service.js';
 import { CaseDataStore }                from '../foundation/case-data-store.js';
+import { getCatalogMarketPrice }        from '../foundation/market-price.js';
 
 /** How long the Open button stays locked after the reveal chord starts (ms). */
 export const CHORD_DECAY_MS = 800;
@@ -75,10 +76,15 @@ export const CaseOpeningOrchestrator = {
       // Attach float, wear tier, and float-adjusted market price
       const floatVal    = FloatService.generateFloat();
       const wearTier    = FloatService.getWearTier(floatVal);
+      const isStatTrak  = !isSouvenirCase && !_isGlove(rolled.weapon) && Math.random() < STAT_TRAK_CHANCE;
+      const exactPrice  = getCatalogMarketPrice(rolled, wearTier, {
+        statTrak: isStatTrak,
+        souvenir: isSouvenirCase,
+      });
       const basePrice   = rolled.market_price ?? 0;
       const adjPrice    = _round(basePrice * FloatService.getPriceMultiplier(floatVal));
-      const isStatTrak  = !isSouvenirCase && !_isGlove(rolled.weapon) && Math.random() < STAT_TRAK_CHANCE;
-      const finalPrice  = isStatTrak ? _round(adjPrice * STAT_TRAK_MULTIPLIER) : adjPrice;
+      const fallback    = isStatTrak ? _round(adjPrice * STAT_TRAK_MULTIPLIER) : adjPrice;
+      const finalPrice  = exactPrice ?? fallback;
       selectedItem = { ...rolled, case_id: caseId, float: floatVal, wear_tier: wearTier, market_price: finalPrice, stat_trak: isStatTrak };
     } catch (err) {
       if (err instanceof RollError) {

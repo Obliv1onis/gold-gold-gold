@@ -19,6 +19,9 @@
     "data:sync:containers": "node tools/catalog/sync-containers.mjs",
     "data:sync:translations": "node tools/catalog/sync-translations.mjs",
     "data:fetch:cologne-2026": "node tools/catalog/fetch-cologne-2026-reference.mjs",
+    "data:fetch:music-kits": "node tools/catalog/fetch-music-kit-reference.mjs",
+    "data:fetch:steam-prices": "node tools/catalog/fetch-steam-price-reference.mjs",
+    "data:sync:steam-prices": "node tools/catalog/sync-steam-price-reference.mjs --write",
     "data:sync:market": "node tools/catalog/sync-market-reference.mjs"
   },
   "devDependencies": {

@@ -5,6 +5,7 @@ vi.mock('../../../src/core/virtual-economy.js', () => ({
     getBalance:  vi.fn(),
     canAfford:   vi.fn(),
     reset:       vi.fn(),
+    earn:        vi.fn(),
   },
   KEY_COST_USD: 2.49,
 }));
@@ -28,6 +29,7 @@ import { VirtualEconomy } from '../../../src/core/virtual-economy.js';
 import { CaseInventory }  from '../../../src/core/case-inventory.js';
 import { SkinInventory }  from '../../../src/core/skin-inventory.js';
 import { Events }         from '../../../src/foundation/events.js';
+import { Theme }          from '../../../src/foundation/theme.js';
 
 // Test case constants (stand-in for real case data)
 const TEST_CASE_ID    = 'recoil_case';
@@ -65,6 +67,8 @@ let _appEl = null;
 
 beforeEach(() => {
   vi.clearAllMocks();
+  localStorage.clear();
+  Theme.setTheme('dark');
   if (_appEl) teardown(_appEl);
   _appEl = makeApp();
   setupMocks();
@@ -86,6 +90,33 @@ describe('HudAppShell — DOM structure', () => {
   it('test_hud_init_creates_balance_display', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
     expect(_appEl.querySelector('.balance-value')).toBeTruthy();
+  });
+
+  it('test_hud_theme_button_toggles_to_light_mode', () => {
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    const button = _appEl.querySelector('.btn-theme');
+    expect(button).toBeTruthy();
+    expect(button.getAttribute('aria-label')).toBe('Switch to light mode');
+    button.click();
+    expect(document.documentElement.dataset.theme).toBe('light');
+    expect(button.getAttribute('aria-label')).toBe('Switch to dark mode');
+  });
+
+  it('test_hud_daily_bonus_changes_to_a_24_hour_countdown_after_claim', () => {
+    const now = vi.spyOn(Date, 'now').mockReturnValue(100_000_000);
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    const button = _appEl.querySelector('.btn-daily-bonus');
+
+    expect(button.textContent).toBe('Daily $200');
+    button.click();
+    expect(VirtualEconomy.earn).toHaveBeenCalledWith(200);
+    expect(button.disabled).toBe(true);
+    expect(button.textContent).toBe('24:00:00');
+
+    now.mockReturnValue(100_001_000);
+    HudAppShell._refreshBonusBar();
+    expect(button.textContent).toBe('23:59:59');
+    now.mockRestore();
   });
 
   it('test_hud_init_creates_reel_container', () => {

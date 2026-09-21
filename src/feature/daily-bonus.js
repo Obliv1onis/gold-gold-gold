@@ -5,6 +5,14 @@ const BONUS_AMOUNT    = 200;
 const COOLDOWN_MS     = 24 * 60 * 60 * 1000;
 const PERSISTENCE_KEY = 'daily_bonus_last_claim';
 
+export function formatDailyBonusCountdown(milliseconds) {
+  const totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  return [hours, minutes, seconds].map(value => String(value).padStart(2, '0')).join(':');
+}
+
 export const DailyBonus = {
   isAvailable() {
     const last = Persistence.load(PERSISTENCE_KEY, 0);

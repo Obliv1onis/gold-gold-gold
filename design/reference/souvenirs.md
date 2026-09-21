@@ -20,7 +20,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Ancient Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -64,7 +64,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Dust II Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -108,7 +108,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Inferno Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -148,7 +148,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Mirage Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -192,7 +192,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Nuke Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -232,7 +232,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Overpass Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 16
 - Drop weights: Covert 0.1277% · Classified 0.6394% · Restricted 3.2014% · Mil-Spec 16.0061% · Industrial Grade 80.0254%
 
@@ -270,7 +270,7 @@ Complete simulator contents for 150 containers.
 ### Budapest 2025 Train Souvenir Package
 
 - Release date: 2025-11-12
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 16
 - Drop weights: Covert 0.1277% · Classified 0.6394% · Restricted 3.2014% · Mil-Spec 16.0061% · Industrial Grade 80.0254%
 
@@ -308,7 +308,7 @@ Complete simulator contents for 150 containers.
 ### Austin 2025 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -352,7 +352,7 @@ Complete simulator contents for 150 containers.
 ### BLAST Austin 2025 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $3.60
+- Steam market price: $3.60
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -396,7 +396,7 @@ Complete simulator contents for 150 containers.
 ### BLAST Austin 2025 Anubis Souvenir Package
 
 - Release date: —
-- Fallback price: $4.20
+- Steam market price: $4.20
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -440,7 +440,7 @@ Complete simulator contents for 150 containers.
 ### BLAST Austin 2025 Inferno 2023 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -480,7 +480,7 @@ Complete simulator contents for 150 containers.
 ### BLAST Austin 2025 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.80
+- Steam market price: $3.80
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -524,7 +524,7 @@ Complete simulator contents for 150 containers.
 ### BLAST Austin 2025 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.20
+- Steam market price: $3.20
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -564,7 +564,7 @@ Complete simulator contents for 150 containers.
 ### BLAST Austin 2025 Train 2024 Souvenir Package
 
 - Release date: —
-- Fallback price: $6.00
+- Steam market price: $6.00
 - Items: 16
 - Drop weights: Covert 0.1277% · Classified 0.6394% · Restricted 3.2014% · Mil-Spec 16.0061% · Industrial Grade 80.0254%
 
@@ -602,7 +602,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $5.00
+- Steam market price: $5.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -646,7 +646,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Anubis Souvenir Package
 
 - Release date: —
-- Fallback price: $6.50
+- Steam market price: $6.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -690,7 +690,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $4.50
+- Steam market price: $4.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -730,7 +730,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $5.50
+- Steam market price: $5.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -774,7 +774,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $4.00
+- Steam market price: $4.00
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -814,7 +814,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $4.80
+- Steam market price: $4.80
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -851,7 +851,7 @@ Complete simulator contents for 150 containers.
 ### BLAST.tv Paris 2023 Vertigo 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $4.20
+- Steam market price: $4.20
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -895,7 +895,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack 2013 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $920.00
 - Items: 92
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1009,7 +1009,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack 2014 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1046,7 +1046,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $83.49
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -1075,7 +1075,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $700.00
+- Steam market price: $1150.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -1115,7 +1115,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $30.00
+- Steam market price: $80.40
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1153,7 +1153,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $40.00
+- Steam market price: $59.16
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -1175,7 +1175,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $35.00
+- Steam market price: $174.20
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1209,7 +1209,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $55.00
+- Steam market price: $160.02
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1246,7 +1246,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Cluj-Napoca 2015 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $35.00
+- Steam market price: $80.40
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1280,7 +1280,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Winter 2014 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $75.00
+- Steam market price: $75.00
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -1309,7 +1309,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Winter 2014 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $850.00
+- Steam market price: $850.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -1349,7 +1349,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Winter 2014 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $40.00
+- Steam market price: $40.00
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1387,7 +1387,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Winter 2014 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $55.00
+- Steam market price: $55.00
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -1409,7 +1409,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Winter 2014 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $50.00
+- Steam market price: $50.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1443,7 +1443,7 @@ Complete simulator contents for 150 containers.
 ### DreamHack Winter 2014 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $70.00
+- Steam market price: $70.00
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1471,7 +1471,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $45.00
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -1500,7 +1500,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $680.00
+- Steam market price: $680.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -1540,7 +1540,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $35.00
+- Steam market price: $35.00
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1578,7 +1578,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $42.00
+- Steam market price: $42.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1612,7 +1612,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $52.00
+- Steam market price: $52.00
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1640,7 +1640,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $48.00
+- Steam market price: $48.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1677,7 +1677,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Atlanta 2017 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $32.00
+- Steam market price: $32.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1711,7 +1711,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $60.00
+- Steam market price: $60.00
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -1740,7 +1740,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $900.00
+- Steam market price: $900.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -1780,7 +1780,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $55.00
+- Steam market price: $55.00
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -1802,7 +1802,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $50.00
+- Steam market price: $50.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1836,7 +1836,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $65.00
+- Steam market price: $65.00
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1864,7 +1864,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $70.00
+- Steam market price: $70.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -1901,7 +1901,7 @@ Complete simulator contents for 150 containers.
 ### ELEAGUE Boston 2018 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $42.00
+- Steam market price: $42.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -1935,7 +1935,7 @@ Complete simulator contents for 150 containers.
 ### EMS One 2014 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $1333.60
 - Items: 91
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2048,7 +2048,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $90.00
+- Steam market price: $1333.60
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -2077,7 +2077,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $950.00
+- Steam market price: $950.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -2117,7 +2117,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $463.86
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2155,7 +2155,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $65.00
+- Steam market price: $279.33
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -2177,7 +2177,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $55.00
+- Steam market price: $719.28
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2211,7 +2211,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $80.00
+- Steam market price: $999.00
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2239,7 +2239,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2014 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2276,7 +2276,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $50.00
+- Steam market price: $129.23
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -2305,7 +2305,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $750.00
+- Steam market price: $956.71
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -2345,7 +2345,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $35.00
+- Steam market price: $81.19
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2383,7 +2383,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $53.33
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -2405,7 +2405,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $40.00
+- Steam market price: $66.67
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2439,7 +2439,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $65.00
+- Steam market price: $134.97
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2476,7 +2476,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2015 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $70.45
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2510,7 +2510,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $42.00
+- Steam market price: $42.00
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -2539,7 +2539,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $600.00
+- Steam market price: $600.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -2579,7 +2579,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $32.00
+- Steam market price: $32.00
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2617,7 +2617,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $38.00
+- Steam market price: $38.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2651,7 +2651,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $48.00
+- Steam market price: $48.00
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2679,7 +2679,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $42.00
+- Steam market price: $42.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2716,7 +2716,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Cologne 2016 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $28.00
+- Steam market price: $28.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2750,7 +2750,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $85.00
+- Steam market price: $162.45
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -2779,7 +2779,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $1100.00
+- Steam market price: $1066.88
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -2819,7 +2819,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $55.00
+- Steam market price: $77.71
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2857,7 +2857,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $75.00
+- Steam market price: $112.15
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -2879,7 +2879,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $70.00
+- Steam market price: $146.69
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2913,7 +2913,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $95.00
+- Steam market price: $144.09
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -2941,7 +2941,7 @@ Complete simulator contents for 150 containers.
 ### ESL One Katowice 2015 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $217.37
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -2978,7 +2978,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $18.00
+- Steam market price: $18.00
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -3007,7 +3007,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $15.00
+- Steam market price: $15.00
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3045,7 +3045,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $15.00
+- Steam market price: $15.00
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3085,7 +3085,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $14.00
+- Steam market price: $14.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -3119,7 +3119,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $13.00
+- Steam market price: $13.00
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3159,7 +3159,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $16.00
+- Steam market price: $16.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3196,7 +3196,7 @@ Complete simulator contents for 150 containers.
 ### FACEIT London 2018 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $12.00
+- Steam market price: $12.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -3230,7 +3230,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $16.50
+- Steam market price: $16.50
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -3259,7 +3259,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $13.50
+- Steam market price: $13.50
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3297,7 +3297,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $13.50
+- Steam market price: $13.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3337,7 +3337,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $12.50
+- Steam market price: $12.50
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -3371,7 +3371,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $11.50
+- Steam market price: $11.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3411,7 +3411,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $14.50
+- Steam market price: $14.50
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3448,7 +3448,7 @@ Complete simulator contents for 150 containers.
 ### IEM Katowice 2019 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $11.00
+- Steam market price: $11.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -3482,7 +3482,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $11.00
+- Steam market price: $11.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -3526,7 +3526,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Dust II 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $16.50
+- Steam market price: $16.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -3570,7 +3570,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $6.00
+- Steam market price: $6.00
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3610,7 +3610,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $13.00
+- Steam market price: $13.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -3654,7 +3654,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $5.50
+- Steam market price: $5.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3694,7 +3694,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $7.00
+- Steam market price: $7.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3731,7 +3731,7 @@ Complete simulator contents for 150 containers.
 ### IEM Rio 2022 Vertigo 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $6.50
+- Steam market price: $6.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -3775,7 +3775,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $86.98
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -3804,7 +3804,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $650.00
+- Steam market price: $1333.60
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -3844,7 +3844,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $35.00
+- Steam market price: $185.55
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -3882,7 +3882,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $69.60
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -3904,7 +3904,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $40.00
+- Steam market price: $77.68
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -3938,7 +3938,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $50.00
+- Steam market price: $405.80
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -3966,7 +3966,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $127.57
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4003,7 +4003,7 @@ Complete simulator contents for 150 containers.
 ### MLG Columbus 2016 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $30.00
+- Steam market price: $308.37
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -4037,7 +4037,7 @@ Complete simulator contents for 150 containers.
 ### Perfect World Shanghai 2024 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $3.80
+- Steam market price: $3.80
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4081,7 +4081,7 @@ Complete simulator contents for 150 containers.
 ### Perfect World Shanghai 2024 Anubis Souvenir Package
 
 - Release date: —
-- Fallback price: $4.50
+- Steam market price: $4.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4125,7 +4125,7 @@ Complete simulator contents for 150 containers.
 ### Perfect World Shanghai 2024 Inferno 2023 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.80
+- Steam market price: $3.80
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4165,7 +4165,7 @@ Complete simulator contents for 150 containers.
 ### Perfect World Shanghai 2024 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $4.00
+- Steam market price: $4.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4209,7 +4209,7 @@ Complete simulator contents for 150 containers.
 ### Perfect World Shanghai 2024 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.20
+- Steam market price: $3.20
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4249,7 +4249,7 @@ Complete simulator contents for 150 containers.
 ### Perfect World Shanghai 2024 Vertigo 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.00
+- Steam market price: $3.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4293,7 +4293,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $10.50
+- Steam market price: $10.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4337,7 +4337,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Dust II 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $18.00
+- Steam market price: $18.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4381,7 +4381,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $6.50
+- Steam market price: $6.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4421,7 +4421,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $14.00
+- Steam market price: $14.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4465,7 +4465,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $6.00
+- Steam market price: $6.00
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4505,7 +4505,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $7.50
+- Steam market price: $7.50
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4542,7 +4542,7 @@ Complete simulator contents for 150 containers.
 ### PGL Antwerp 2022 Vertigo 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $7.00
+- Steam market price: $7.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4586,7 +4586,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $4.20
+- Steam market price: $4.20
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4630,7 +4630,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Anubis Souvenir Package
 
 - Release date: —
-- Fallback price: $5.20
+- Steam market price: $5.20
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4674,7 +4674,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Inferno 2023 Souvenir Package
 
 - Release date: —
-- Fallback price: $4.80
+- Steam market price: $4.80
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4714,7 +4714,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $4.80
+- Steam market price: $4.80
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4758,7 +4758,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.80
+- Steam market price: $3.80
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4798,7 +4798,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $4.50
+- Steam market price: $4.50
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -4835,7 +4835,7 @@ Complete simulator contents for 150 containers.
 ### PGL Copenhagen 2024 Vertigo 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $3.50
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4879,7 +4879,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Cache Souvenir Package
 
 - Release date: —
-- Fallback price: $55.00
+- Steam market price: $55.00
 - Items: 13
 - Drop weights: Restricted 3.2262% · Mil-Spec 16.1298% · Industrial Grade 80.644%
 
@@ -4908,7 +4908,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Cobblestone Souvenir Package
 
 - Release date: —
-- Fallback price: $800.00
+- Steam market price: $800.00
 - Items: 15
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -4948,7 +4948,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Inferno Souvenir Package
 
 - Release date: —
-- Fallback price: $50.00
+- Steam market price: $50.00
 - Items: 6
 - Drop weights: Mil-Spec 3.2257% · Industrial Grade 16.1274% · Consumer Grade 80.6469%
 
@@ -4970,7 +4970,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $45.00
+- Steam market price: $45.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -5004,7 +5004,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Nuke Souvenir Package
 
 - Release date: —
-- Fallback price: $60.00
+- Steam market price: $60.00
 - Items: 9
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -5032,7 +5032,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $58.00
+- Steam market price: $58.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5069,7 +5069,7 @@ Complete simulator contents for 150 containers.
 ### PGL Krakow 2017 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $38.00
+- Steam market price: $38.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -5103,7 +5103,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Ancient Souvenir Package
 
 - Release date: —
-- Fallback price: $18.00
+- Steam market price: $18.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -5147,7 +5147,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Dust II 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $32.00
+- Steam market price: $32.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -5191,7 +5191,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $9.50
+- Steam market price: $9.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5231,7 +5231,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Mirage 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $24.00
+- Steam market price: $24.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -5275,7 +5275,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $9.00
+- Steam market price: $9.00
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5315,7 +5315,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $11.50
+- Steam market price: $11.50
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5352,7 +5352,7 @@ Complete simulator contents for 150 containers.
 ### PGL Stockholm 2021 Vertigo 2021 Souvenir Package
 
 - Release date: —
-- Fallback price: $12.00
+- Steam market price: $12.00
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -5396,7 +5396,7 @@ Complete simulator contents for 150 containers.
 ### Shanghai 2024 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $3.50
+- Steam market price: $4.73
 - Items: 19
 - Drop weights: Covert 0.0255% · Classified 0.1278% · Restricted 0.6401% · Mil-Spec 3.2001% · Industrial Grade 15.9994% · Consumer Grade 80.0071%
 
@@ -5440,7 +5440,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Dust II Souvenir Package
 
 - Release date: —
-- Fallback price: $12.00
+- Steam market price: $12.00
 - Items: 16
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5478,7 +5478,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Inferno 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $12.50
+- Steam market price: $12.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5518,7 +5518,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Mirage Souvenir Package
 
 - Release date: —
-- Fallback price: $11.00
+- Steam market price: $11.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -5552,7 +5552,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Nuke 2018 Souvenir Package
 
 - Release date: —
-- Fallback price: $10.50
+- Steam market price: $10.50
 - Items: 18
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5592,7 +5592,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Overpass Souvenir Package
 
 - Release date: —
-- Fallback price: $13.00
+- Steam market price: $13.00
 - Items: 15
 - Drop weights: Classified 0.1279% · Restricted 0.6402% · Mil-Spec 3.2009% · Industrial Grade 16.0035% · Consumer Grade 80.0275%
 
@@ -5629,7 +5629,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Train Souvenir Package
 
 - Release date: —
-- Fallback price: $10.00
+- Steam market price: $10.00
 - Items: 15
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 
@@ -5663,7 +5663,7 @@ Complete simulator contents for 150 containers.
 ### StarLadder Berlin 2019 Vertigo Souvenir Package
 
 - Release date: —
-- Fallback price: $14.00
+- Steam market price: $14.00
 - Items: 6
 - Drop weights: Restricted 0.641% · Mil-Spec 3.205% · Industrial Grade 16.024% · Consumer Grade 80.13%
 

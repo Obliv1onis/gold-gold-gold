@@ -53,23 +53,32 @@ export const AudioSystem = {
   },
 
   /**
-   * Plays a short tick at the given frequency. Silent if context is not active.
-   * @param {number} pitch - Frequency in Hz (220–880 for reel ticks)
-   * @example AudioSystem.playTick(440);
+   * Plays a soft mechanical reel tick. Silent if context is not active.
+   * @param {number} pitch - Frequency in Hz (170–430 for reel ticks)
+   * @example AudioSystem.playTick(300);
    */
   playTick(pitch) {
     if (!_ctx || _ctx.state !== 'running') return;
     const osc  = _ctx.createOscillator();
     const gain = _ctx.createGain();
-    osc.type            = 'square';
-    osc.frequency.value = Math.max(1, pitch);
-    gain.gain.value     = 0.3;
+    const now      = _ctx.currentTime;
+    const safePitch = Math.min(Math.max(Number(pitch) || 170, 170), 430);
+    const speedMix  = (safePitch - 170) / (430 - 170);
+    const peakGain  = 0.12 - speedMix * 0.035;
+
+    // A triangle wave and a short downward pitch sweep sound less electronic
+    // than the previous square-wave beep while retaining a clear reel click.
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(safePitch * 1.12, now);
+    osc.frequency.exponentialRampToValueAtTime(safePitch * 0.72, now + 0.038);
+
+    gain.gain.setValueAtTime(0.0001, now);
+    gain.gain.exponentialRampToValueAtTime(peakGain, now + 0.002);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.042);
     osc.connect(gain);
     gain.connect(_master);
-    const now = _ctx.currentTime;
-    gain.gain.setTargetAtTime(0, now + 0.01, 0.005);
     osc.start(now);
-    osc.stop(now + 0.03);
+    osc.stop(now + 0.045);
   },
 
   /**

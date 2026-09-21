@@ -8,6 +8,7 @@ const PATHS = {
   souvenirs: 'public/data/souvenirs.json',
   others: 'public/data/others.json',
   market: 'public/data/market-items.json',
+  steamPrices: 'public/data/steam-prices.json',
 };
 
 const EXPECTED_COUNTS = {
@@ -46,7 +47,7 @@ const REQUIRED_CONTAINERS = [
   'Budapest 2025 Train Souvenir Package',
 ];
 
-const [caseData, capsuleData, souvenirData, otherData, marketData] = await Promise.all(
+const [caseData, capsuleData, souvenirData, otherData, marketData, steamPriceData] = await Promise.all(
   Object.values(PATHS).map(path => readFile(path, 'utf8').then(JSON.parse)),
 );
 
@@ -103,8 +104,31 @@ const capsules = capsuleData.capsules ?? [];
 const souvenirs = souvenirData.cases ?? [];
 const others = otherData.capsules ?? [];
 const marketItems = marketData.items ?? [];
+const steamPrices = steamPriceData.prices ?? {};
 if (!marketData.catalog?.price_source?.includes('Steam Community Market')) {
   errors.push('Standalone market catalogue must use Steam Community Market prices');
+}
+if (caseData.catalog?.price_source !== 'Steam Community Market') {
+  errors.push('Case catalogue must use Steam Community Market prices');
+}
+if (souvenirData.catalog?.price_source !== 'Steam Community Market') {
+  errors.push('Souvenir catalogue must use Steam Community Market prices');
+}
+if (Object.keys(steamPrices).length < 10000) {
+  errors.push(`Expected at least 10000 Steam skin prices, found ${Object.keys(steamPrices).length}`);
+}
+
+for (const entry of [...cases, ...souvenirs]) {
+  if (steamPrices[entry.name] && entry.market_price !== steamPrices[entry.name].price) {
+    errors.push(`${entry.name}: container price is not synchronized with Steam reference`);
+  }
+  for (const item of Object.values(entry.items ?? {}).flat()) {
+    for (const [group, variants] of Object.entries(item.market_prices ?? {})) {
+      for (const [wear, price] of Object.entries(variants)) {
+        if (!(price > 0)) errors.push(`${item.item_id}: invalid ${group}/${wear} Steam price`);
+      }
+    }
+  }
 }
 
 auditContainerIds([...cases, ...souvenirs], 'case catalogue');
@@ -146,13 +170,22 @@ if (forbiddenCologneContainers.length) {
   errors.push('Cologne 2026 must not be modelled as a capsule or traditional souvenir package');
 }
 
-if (marketItems.length !== 1371) {
-  errors.push(`Expected 1371 Cologne 2026 market stickers, found ${marketItems.length}`);
-}
+const marketStickers = marketItems.filter(item => item.capsuleType === 'sticker_capsule');
+const marketMusicKits = marketItems.filter(item => item.capsuleType === 'music_kit_box');
+if (marketStickers.length !== 1371) errors.push(`Expected 1371 Cologne 2026 market stickers, found ${marketStickers.length}`);
+if (marketMusicKits.length !== 90) errors.push(`Expected 90 direct music-kit variants, found ${marketMusicKits.length}`);
 const marketNames = new Set();
 for (const item of marketItems) {
   if (!item.id || !item.market_hash_name || !item.image_url) errors.push('Incomplete standalone market item');
-  if (!item.market_hash_name.endsWith('| Cologne 2026')) errors.push(`Unexpected standalone market item: ${item.market_hash_name}`);
+  if (item.capsuleType === 'sticker_capsule' && !item.market_hash_name.endsWith('| Cologne 2026')) {
+    errors.push(`Unexpected standalone sticker: ${item.market_hash_name}`);
+  }
+  if (item.capsuleType === 'music_kit_box' && !/^(?:StatTrak™\s+)?Music Kit \|/.test(item.market_hash_name)) {
+    errors.push(`Unexpected standalone music kit: ${item.market_hash_name}`);
+  }
+  if (!['sticker_capsule', 'music_kit_box'].includes(item.capsuleType)) {
+    errors.push(`Unsupported standalone market category: ${item.capsuleType}`);
+  }
   if (!['high_grade', 'remarkable', 'exotic', 'extraordinary'].includes(item.rarity)) {
     errors.push(`${item.market_hash_name}: invalid rarity ${item.rarity}`);
   }
@@ -163,6 +196,14 @@ for (const item of marketItems) {
   if (marketNames.has(item.market_hash_name)) errors.push(`Duplicate standalone market item: ${item.market_hash_name}`);
   marketNames.add(item.market_hash_name);
 }
+for (const name of [
+  'Music Kit | The Verkkars, EZ4ENCE',
+  'StatTrak™ Music Kit | The Verkkars, EZ4ENCE',
+  'Music Kit | ALRT, DOPAMINE HIT',
+  'StatTrak™ Music Kit | ALRT, DOPAMINE HIT',
+]) {
+  if (!marketNames.has(name)) errors.push(`Missing direct music kit: ${name}`);
+}
 
 if (errors.length) {
   console.error(`Catalogue audit failed (${errors.length}):\n- ${errors.join('\n- ')}`);
@@ -171,6 +212,7 @@ if (errors.length) {
   console.log(
     `Catalogue audit passed: ${counts.weapon_case} weapon cases, ${counts.terminal} terminals, `
     + `${counts.souvenir_package} souvenir packages, ${counts.sticker_capsule} sticker capsules, `
-    + `${counts.other} other containers, ${marketItems.length} standalone market items.`,
+    + `${counts.other} other containers, ${marketStickers.length} standalone stickers, `
+    + `${marketMusicKits.length} direct music-kit variants.`,
   );
 }

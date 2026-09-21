@@ -20,7 +20,7 @@ Complete simulator contents for 2 containers.
 ### Sealed Dead Hand Terminal
 
 - Release date: 2026-03-11
-- Fallback price: $1.84
+- Steam market price: $0.63
 - Items: 39
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -81,7 +81,7 @@ Complete simulator contents for 2 containers.
 ### Sealed Genesis Terminal
 
 - Release date: 2025-09-17
-- Fallback price: $0.38
+- Steam market price: $0.09
 - Items: 17
 - Drop weights: Covert 0.64% · Classified 3.21% · Restricted 16.02% · Mil-Spec 80.13%
 

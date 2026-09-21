@@ -17,13 +17,17 @@ import { PriceAPILayer }          from './feature/price-api-layer.js';
 import { TradeUpUI }               from './presentation/trade-up-ui.js';
 import { TerminalUI }              from './presentation/terminal-ui.js';
 import { initDevConsole }          from './dev/console.js';
+import { Theme }                   from './foundation/theme.js';
 
 async function main() {
+  Theme.init();
   const appEl = document.getElementById('app');
 
   // 1. Fetch and validate case + capsule data
-  await CaseDataStore.init('/data/cases.json');
-  await CapsuleDataStore.init('/data/capsules.json', '/data/others.json', '/data/market-items.json');
+  await Promise.all([
+    CaseDataStore.init('/data/cases.json'),
+    CapsuleDataStore.init('/data/capsules.json', '/data/others.json', '/data/market-items.json'),
+  ]);
   SkinInventory.migrateMissingCaseIds(id => CaseDataStore.findCaseForItem(id));
 
   // 2. Web Audio — context resumed on first user gesture

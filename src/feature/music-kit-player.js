@@ -67,6 +67,10 @@ function _open(kitName, youtubeId) {
 }
 
 export const MusicKitPlayer = {
+  hasPreview(kitName, youtubeId = '') {
+    return Boolean(youtubeId || _lookupId(kitName));
+  },
+
   toggle(kitName, youtubeId) {
     const id = youtubeId || _lookupId(kitName);
     if (!id) return;

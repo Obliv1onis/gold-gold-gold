@@ -8,8 +8,8 @@ export const CARD_WIDTH       = 250;
 const STRIP_LENGTH     = 60;
 const SELECTED_INDEX   = 55;
 export const SPIN_DURATION_MS = 7800;
-const PITCH_LOW        = 220;
-const PITCH_HIGH       = 880;
+export const TICK_PITCH_LOW  = 170;
+export const TICK_PITCH_HIGH = 430;
 const STOP_OFFSET_RANGE = 30; // px — random variance on final landing position
 
 function easeOutQuint(t) { return 1 - Math.pow(1 - t, 5); }
@@ -70,36 +70,28 @@ export const ReelAnimationEngine = {
     const { onFrame, onTick, onComplete } = callbacks;
 
     let startTime    = null;
-    let prevTime     = null;
-    let prevOffset   = 0;
     let lastTickCard = 0;
 
     function frame(now) {
-      if (startTime === null) { startTime = now; prevTime = now; }
+      if (startTime === null) startTime = now;
 
       const elapsed       = Math.min(now - startTime, SPIN_DURATION_MS);
       const t             = elapsed / SPIN_DURATION_MS;
       const currentOffset = easeOutQuint(t) * targetOffset;
 
       // Tick detection — fires each time a card boundary is crossed
-      const frameDeltaMs  = now - prevTime;
       const cardsCrossed  = Math.floor(currentOffset / CARD_WIDTH);
       if (cardsCrossed > lastTickCard) {
-        let pitch = PITCH_LOW;
-        if (frameDeltaMs > 0) {
-          const velocity    = (currentOffset - prevOffset) / (frameDeltaMs / 1000);
-          const maxVelocity = (targetOffset / (SPIN_DURATION_MS / 1000)) * 5;
-          const norm        = Math.min(Math.max(velocity / maxVelocity, 0), 1);
-          pitch             = PITCH_LOW + norm * (PITCH_HIGH - PITCH_LOW);
-        }
+        // Match pitch to the easing curve rather than frame-to-frame velocity.
+        // This prevents timing jitter from producing audible pitch spikes.
+        const speed = Math.pow(1 - t, 4);
+        const pitch = TICK_PITCH_LOW
+                    + Math.pow(speed, 0.75) * (TICK_PITCH_HIGH - TICK_PITCH_LOW);
         onTick(pitch);
         lastTickCard = cardsCrossed;
       }
 
       onFrame(currentOffset, strip);
-
-      prevOffset = currentOffset;
-      prevTime   = now;
 
       if (t >= 1) {
         _state = 'idle';

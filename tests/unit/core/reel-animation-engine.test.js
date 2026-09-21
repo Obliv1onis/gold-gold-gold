@@ -4,7 +4,14 @@ vi.mock('../../../src/foundation/case-data-store.js', () => ({
   CaseDataStore: { getCase: vi.fn(), getItems: vi.fn() },
 }));
 
-import { ReelAnimationEngine, ReelError, CARD_WIDTH, SPIN_DURATION_MS } from '../../../src/core/reel-animation-engine.js';
+import {
+  ReelAnimationEngine,
+  ReelError,
+  CARD_WIDTH,
+  SPIN_DURATION_MS,
+  TICK_PITCH_LOW,
+  TICK_PITCH_HIGH,
+} from '../../../src/core/reel-animation-engine.js';
 import { CaseDataStore }                                                  from '../../../src/foundation/case-data-store.js';
 
 // ─── RAF harness ─────────────────────────────────────────────────────────────
@@ -204,8 +211,21 @@ describe('ReelAnimationEngine — onTick', () => {
     runFrames(8500, 16, 0);
 
     for (const [pitch] of cb.onTick.mock.calls) {
-      expect(pitch).toBeGreaterThanOrEqual(220);
-      expect(pitch).toBeLessThanOrEqual(880);
+      expect(pitch).toBeGreaterThanOrEqual(TICK_PITCH_LOW);
+      expect(pitch).toBeLessThanOrEqual(TICK_PITCH_HIGH);
+    }
+  });
+
+  it('test_rae_onTick_pitch_descends_smoothly_as_reel_slows', () => {
+    const cb = CALLBACKS();
+    ReelAnimationEngine.spin('recoil_case', SELECTED, VIEWPORT, cb);
+    advanceFrame(0);
+    runFrames(8500, 16, 0);
+
+    const pitches = cb.onTick.mock.calls.map(([pitch]) => pitch);
+    expect(pitches[0]).toBeGreaterThan(pitches[pitches.length - 1]);
+    for (let i = 1; i < pitches.length; i++) {
+      expect(pitches[i]).toBeLessThanOrEqual(pitches[i - 1]);
     }
   });
 

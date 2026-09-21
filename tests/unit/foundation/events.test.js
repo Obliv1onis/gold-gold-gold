@@ -22,8 +22,12 @@ describe('Events constants', () => {
     expect(Events.REEL_READY).toBe('reel-ready');
   });
 
-  it('test_events_has_exactly_five_constants', () => {
-    expect(Object.keys(Events)).toHaveLength(5);
+  it('test_events_theme_changed_is_correct_string', () => {
+    expect(Events.THEME_CHANGED).toBe('theme-changed');
+  });
+
+  it('test_events_has_exactly_six_constants', () => {
+    expect(Object.keys(Events)).toHaveLength(6);
   });
 
   it('test_events_all_values_are_unique_strings', () => {

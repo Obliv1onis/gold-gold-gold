@@ -3,6 +3,7 @@ import { VirtualEconomy }            from './virtual-economy.js';
 import { SkinInventory }             from './skin-inventory.js';
 import { FloatService }              from '../foundation/float-service.js';
 import { AudioSystem }               from './audio-system.js';
+import { getCatalogMarketPrice }     from '../foundation/market-price.js';
 
 const MAX_OFFERS = 5;
 
@@ -93,7 +94,9 @@ export const TerminalOrchestrator = {
     const floatVal      = FloatService.generateFloat();
     const wearTier      = FloatService.getWearTier(floatVal);
     const terminalMult  = 0.60 + Math.random() * 0.50; // [0.60, 1.10]
-    const adjPrice      = _round((rolled.market_price ?? 0) * FloatService.getPriceMultiplier(floatVal) * terminalMult);
+    const steamPrice    = getCatalogMarketPrice(rolled, wearTier)
+      ?? _round((rolled.market_price ?? 0) * FloatService.getPriceMultiplier(floatVal));
+    const adjPrice      = _round(steamPrice * terminalMult);
     const skin          = { ...rolled, float: floatVal, wear_tier: wearTier, market_price: adjPrice };
     AudioSystem.playReveal();
     _onOffer(skin, _offerCount, _offerCount >= MAX_OFFERS);

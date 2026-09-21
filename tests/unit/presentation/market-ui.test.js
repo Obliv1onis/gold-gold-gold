@@ -7,6 +7,7 @@ import {
   collapseMusicKitVariants,
   selectMusicKitVariant,
   sortMarketItems,
+  DEFAULT_MARKET_WEAR,
 } from '../../../src/presentation/market-ui.js';
 
 const skin = {
@@ -29,6 +30,10 @@ const sticker = {
 afterEach(() => i18n.setLocale('en-US'));
 
 describe('Market item helpers', () => {
+  it('keeps the initial market filter and generated listings on Factory New', () => {
+    expect(DEFAULT_MARKET_WEAR).toBe('fn');
+  });
+
   it('classifies skins, souvenir skins, and capsule items', () => {
     expect(marketItemCategory(skin)).toBe('skin');
     expect(marketItemCategory(souvenir)).toBe('souvenir');

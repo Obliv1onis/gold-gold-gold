@@ -46,7 +46,11 @@ function marketSkinName(runtimeName) {
 }
 
 function normalizedName(name) {
-  return name.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('en-US');
+  return name
+    .normalize('NFKD')
+    .replace(/\p{Diacritic}/gu, '')
+    .toLocaleLowerCase('en-US')
+    .replace(/[^\p{Letter}\p{Number}]+/gu, '');
 }
 
 const officialSkins = pairedMap(skinsEn, skinsZh);

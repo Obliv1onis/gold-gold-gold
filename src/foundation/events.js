@@ -9,6 +9,7 @@ export const Events = {
 
   // Feature layer — async data
   PRICE_UPDATED:          'price-updated',
+  THEME_CHANGED:          'theme-changed',
 
   // Presentation layer — UI readiness
   REEL_READY:             'reel-ready',

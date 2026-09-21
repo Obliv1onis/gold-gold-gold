@@ -20,7 +20,7 @@ Complete simulator contents for 42 containers.
 ### Fever Case
 
 - Release date: 2025-03-31
-- Fallback price: $1.10
+- Steam market price: $0.93
 - Items: 45
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -87,7 +87,7 @@ Complete simulator contents for 42 containers.
 ### Gallery Case
 
 - Release date: 2024-10-02
-- Fallback price: $0.64
+- Steam market price: $0.99
 - Items: 30
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -139,7 +139,7 @@ Complete simulator contents for 42 containers.
 ### Kilowatt Case
 
 - Release date: 2024-02-06
-- Fallback price: $0.65
+- Steam market price: $0.18
 - Items: 30
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -191,7 +191,7 @@ Complete simulator contents for 42 containers.
 ### Revolution Case
 
 - Release date: 2023-02-09
-- Fallback price: $0.25
+- Steam market price: $0.29
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -254,7 +254,7 @@ Complete simulator contents for 42 containers.
 ### Recoil Case
 
 - Release date: 2022-07-01
-- Fallback price: $0.18
+- Steam market price: $0.40
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -317,7 +317,7 @@ Complete simulator contents for 42 containers.
 ### Dreams & Nightmares Case
 
 - Release date: 2022-01-20
-- Fallback price: $0.40
+- Steam market price: $1.63
 - Items: 30
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -369,7 +369,7 @@ Complete simulator contents for 42 containers.
 ### Operation Riptide Case
 
 - Release date: 2021-09-21
-- Fallback price: $5.50
+- Steam market price: $12.14
 - Items: 30
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -421,7 +421,7 @@ Complete simulator contents for 42 containers.
 ### Snakebite Case
 
 - Release date: 2021-05-03
-- Fallback price: $0.40
+- Steam market price: $0.57
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -484,7 +484,7 @@ Complete simulator contents for 42 containers.
 ### Operation Broken Fang Case
 
 - Release date: 2020-12-03
-- Fallback price: $4.10
+- Steam market price: $8.43
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -547,7 +547,7 @@ Complete simulator contents for 42 containers.
 ### Fracture Case
 
 - Release date: 2020-07-01
-- Fallback price: $0.60
+- Steam market price: $0.71
 - Items: 21
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -590,7 +590,7 @@ Complete simulator contents for 42 containers.
 ### Prisma 2 Case
 
 - Release date: 2020-03-31
-- Fallback price: $0.70
+- Steam market price: $1.68
 - Items: 45
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -657,7 +657,7 @@ Complete simulator contents for 42 containers.
 ### Shattered Web Case
 
 - Release date: 2019-11-18
-- Fallback price: $3.40
+- Steam market price: $6.34
 - Items: 40
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -719,7 +719,7 @@ Complete simulator contents for 42 containers.
 ### CS20 Case
 
 - Release date: 2019-10-18
-- Fallback price: $0.80
+- Steam market price: $1.23
 - Items: 30
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -771,7 +771,7 @@ Complete simulator contents for 42 containers.
 ### Prisma Case
 
 - Release date: 2019-03-13
-- Fallback price: $0.65
+- Steam market price: $1.72
 - Items: 45
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -838,7 +838,7 @@ Complete simulator contents for 42 containers.
 ### Danger Zone Case
 
 - Release date: 2018-12-06
-- Fallback price: $0.70
+- Steam market price: $1.62
 - Items: 69
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -929,7 +929,7 @@ Complete simulator contents for 42 containers.
 ### Horizon Case
 
 - Release date: 2018-08-02
-- Fallback price: $0.75
+- Steam market price: $2.13
 - Items: 69
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1020,7 +1020,7 @@ Complete simulator contents for 42 containers.
 ### Clutch Case
 
 - Release date: 2018-02-15
-- Fallback price: $0.45
+- Steam market price: $0.78
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1083,7 +1083,7 @@ Complete simulator contents for 42 containers.
 ### Spectrum 2 Case
 
 - Release date: 2017-09-14
-- Fallback price: $2.45
+- Steam market price: $4.11
 - Items: 47
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1152,7 +1152,7 @@ Complete simulator contents for 42 containers.
 ### Operation Hydra Case
 
 - Release date: 2017-05-23
-- Fallback price: $18.50
+- Steam market price: $41.92
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1215,7 +1215,7 @@ Complete simulator contents for 42 containers.
 ### Spectrum Case
 
 - Release date: 2017-03-15
-- Fallback price: $3.40
+- Steam market price: $5.12
 - Items: 47
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1284,7 +1284,7 @@ Complete simulator contents for 42 containers.
 ### Glove Case
 
 - Release date: 2016-11-28
-- Fallback price: $5.30
+- Steam market price: $14.08
 - Items: 41
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1347,7 +1347,7 @@ Complete simulator contents for 42 containers.
 ### Gamma 2 Case
 
 - Release date: 2016-08-18
-- Fallback price: $2.20
+- Steam market price: $4.39
 - Items: 47
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1416,7 +1416,7 @@ Complete simulator contents for 42 containers.
 ### Gamma Case
 
 - Release date: 2016-06-15
-- Fallback price: $2.30
+- Steam market price: $4.43
 - Items: 47
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1485,7 +1485,7 @@ Complete simulator contents for 42 containers.
 ### Chroma 3 Case
 
 - Release date: 2016-04-27
-- Fallback price: $2.10
+- Steam market price: $4.56
 - Items: 47
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1554,7 +1554,7 @@ Complete simulator contents for 42 containers.
 ### Operation Wildfire Case
 
 - Release date: 2016-02-17
-- Fallback price: $2.15
+- Steam market price: $4.06
 - Items: 29
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1605,7 +1605,7 @@ Complete simulator contents for 42 containers.
 ### Revolver Case
 
 - Release date: 2015-12-08
-- Fallback price: $1.70
+- Steam market price: $4.00
 - Items: 82
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1709,7 +1709,7 @@ Complete simulator contents for 42 containers.
 ### Chroma 2 Case
 
 - Release date: 2015-09-17
-- Fallback price: $2.40
+- Steam market price: $5.31
 - Items: 45
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1776,7 +1776,7 @@ Complete simulator contents for 42 containers.
 ### Shadow Case
 
 - Release date: 2015-09-17
-- Fallback price: $0.85
+- Steam market price: $2.30
 - Items: 29
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1827,7 +1827,7 @@ Complete simulator contents for 42 containers.
 ### Falchion Case
 
 - Release date: 2015-05-26
-- Fallback price: $0.90
+- Steam market price: $2.23
 - Items: 29
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1878,7 +1878,7 @@ Complete simulator contents for 42 containers.
 ### Chroma Case
 
 - Release date: 2015-02-09
-- Fallback price: $2.80
+- Steam market price: $6.59
 - Items: 44
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -1944,7 +1944,7 @@ Complete simulator contents for 42 containers.
 ### CS:GO Weapon Case 3
 
 - Release date: 2015-01-08
-- Fallback price: $6.20
+- Steam market price: $17.76
 - Items: 77
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2043,7 +2043,7 @@ Complete simulator contents for 42 containers.
 ### Winter Offensive Weapon Case
 
 - Release date: 2014-12-18
-- Fallback price: $6.80
+- Steam market price: $13.91
 - Items: 78
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2143,7 +2143,7 @@ Complete simulator contents for 42 containers.
 ### Operation Vanguard Weapon Case
 
 - Release date: 2014-11-11
-- Fallback price: $2.90
+- Steam market price: $6.74
 - Items: 79
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2244,7 +2244,7 @@ Complete simulator contents for 42 containers.
 ### eSports 2014 Summer Case
 
 - Release date: 2014-07-10
-- Fallback price: $11.00
+- Steam market price: $17.36
 - Items: 82
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2348,7 +2348,7 @@ Complete simulator contents for 42 containers.
 ### Operation Breakout Weapon Case
 
 - Release date: 2014-07-01
-- Fallback price: $6.20
+- Steam market price: $11.16
 - Items: 27
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2397,7 +2397,7 @@ Complete simulator contents for 42 containers.
 ### Huntsman Weapon Case
 
 - Release date: 2014-05-01
-- Fallback price: $8.50
+- Steam market price: $10.88
 - Items: 28
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2447,7 +2447,7 @@ Complete simulator contents for 42 containers.
 ### Operation Phoenix Weapon Case
 
 - Release date: 2014-02-20
-- Fallback price: $3.10
+- Steam market price: $4.85
 - Items: 78
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2547,7 +2547,7 @@ Complete simulator contents for 42 containers.
 ### eSports 2013 Winter Case
 
 - Release date: 2013-12-18
-- Fallback price: $9.50
+- Steam market price: $18.06
 - Items: 77
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2646,7 +2646,7 @@ Complete simulator contents for 42 containers.
 ### CS:GO Weapon Case 2
 
 - Release date: 2013-11-08
-- Fallback price: $12.50
+- Steam market price: $28.29
 - Items: 77
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2745,7 +2745,7 @@ Complete simulator contents for 42 containers.
 ### eSports 2013 Case
 
 - Release date: 2013-10-09
-- Fallback price: $45.00
+- Steam market price: $65.59
 - Items: 74
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2841,7 +2841,7 @@ Complete simulator contents for 42 containers.
 ### Operation Bravo Case
 
 - Release date: 2013-09-19
-- Fallback price: $42.00
+- Steam market price: $80.00
 - Items: 80
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 
@@ -2943,7 +2943,7 @@ Complete simulator contents for 42 containers.
 ### CS:GO Weapon Case
 
 - Release date: 2013-08-14
-- Fallback price: $85.00
+- Steam market price: $154.99
 - Items: 74
 - Drop weights: Rare Special 0.26% · Covert 0.64% · Classified 3.2% · Restricted 15.98% · Mil-Spec 79.92%
 

@@ -3,6 +3,8 @@ const VALID_RARITIES = ['high_grade', 'remarkable', 'exotic', 'extraordinary'];
 let _capsules = new Map();
 let _marketItems = [];
 let _state    = 'unloaded';
+let _capsuleLists = new Map();
+let _allItemsCache = new Map();
 
 function _validate(entry) {
   const weights = entry.rarity_weights ?? {};
@@ -25,14 +27,30 @@ async function _loadUrl(url, label) {
     const res  = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
-    let valid = 0, invalid = 0;
+    let invalid = 0;
+    const entries = [];
     for (const entry of json.capsules ?? []) {
-      if (_validate(entry)) { _capsules.set(entry.id, entry); valid++; }
+      if (_validate(entry)) entries.push(entry);
       else invalid++;
     }
-    console.log(`[CapsuleDataStore] ${label}: ${valid} loaded, ${invalid} invalid`);
+    console.log(`[CapsuleDataStore] ${label}: ${entries.length} loaded, ${invalid} invalid`);
+    return entries;
   } catch (err) {
     console.warn(`[CapsuleDataStore] Failed to load ${label} (${url}): ${err.message}`);
+    return [];
+  }
+}
+
+async function _loadMarketItems(url) {
+  if (!url) return [];
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    return (data.items ?? []).filter(item => item.name && item.market_hash_name);
+  } catch (error) {
+    console.warn(`[CapsuleDataStore] Failed to load market items (${url}): ${error.message}`);
+    return [];
   }
 }
 
@@ -44,19 +62,17 @@ export const CapsuleDataStore = {
   async init(capsulesUrl, othersUrl, marketItemsUrl = null) {
     if (_state === 'loaded') return;
     _state = 'loading';
+    _capsules.clear();
+    _capsuleLists.clear();
+    _allItemsCache.clear();
     _marketItems = [];
-    await _loadUrl(capsulesUrl, 'capsules');
-    if (othersUrl) await _loadUrl(othersUrl, 'others');
-    if (marketItemsUrl) {
-      try {
-        const response = await fetch(marketItemsUrl);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
-        _marketItems = (data.items ?? []).filter(item => item.name && item.market_hash_name);
-      } catch (error) {
-        console.warn(`[CapsuleDataStore] Failed to load market items (${marketItemsUrl}): ${error.message}`);
-      }
-    }
+    const [capsules, others, marketItems] = await Promise.all([
+      _loadUrl(capsulesUrl, 'capsules'),
+      othersUrl ? _loadUrl(othersUrl, 'others') : Promise.resolve([]),
+      _loadMarketItems(marketItemsUrl),
+    ]);
+    for (const entry of [...capsules, ...others]) _capsules.set(entry.id, entry);
+    _marketItems = marketItems;
     _state = 'loaded';
   },
 
@@ -66,10 +82,15 @@ export const CapsuleDataStore = {
    * @param {string|string[]|null} type - filter by type(s), or null for all
    */
   getCapsuleList(type = null) {
-    const all = [..._capsules.values()];
-    if (!type) return all;
-    const types = Array.isArray(type) ? type : [type];
-    return all.filter(c => types.includes(c.type ?? 'sticker_capsule'));
+    const types = type ? (Array.isArray(type) ? type : [type]) : null;
+    const key = types ? [...types].sort().join('|') : 'all';
+    if (!_capsuleLists.has(key)) {
+      const all = [..._capsules.values()];
+      _capsuleLists.set(key, types
+        ? all.filter(c => types.includes(c.type ?? 'sticker_capsule'))
+        : all);
+    }
+    return [..._capsuleLists.get(key)];
   },
 
   /**
@@ -79,6 +100,8 @@ export const CapsuleDataStore = {
    */
   getAllItems(type = null) {
     const typesArr = type ? (Array.isArray(type) ? type : [type]) : null;
+    const cacheKey = typesArr ? [...typesArr].sort().join('|') : 'all';
+    if (_allItemsCache.has(cacheKey)) return _allItemsCache.get(cacheKey);
     const result = [];
     for (const cap of _capsules.values()) {
       const capType = cap.type ?? 'sticker_capsule';
@@ -89,6 +112,7 @@ export const CapsuleDataStore = {
         }
       }
     }
+    _allItemsCache.set(cacheKey, result);
     return result;
   },
 
