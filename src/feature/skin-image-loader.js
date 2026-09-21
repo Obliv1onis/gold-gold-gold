@@ -7,7 +7,9 @@ const PLACEHOLDER_COLORS = {
   restricted:   '#8847FF',
   classified:   '#D32EE6',
   covert:       '#EB4B4B',
-  rare_special: '#E4AE39',
+  rare_special: '#EB4B4B',
+  extraordinary: '#EB4B4B',
+  contraband:   '#E4AE39',
   unknown:      '#808080',
 };
 

@@ -62,7 +62,7 @@ Each card is exactly **250px wide** (matches `reel_card_width` registry constant
 | `.rarity-restricted` | `#8847FF` |
 | `.rarity-classified` | `#D32EE6` |
 | `.rarity-covert` | `#EB4B4B` |
-| `.rarity-rare_special` | `#E4AE39` |
+| `.rarity-rare_special` | `#EB4B4B` |
 
 **Lifecycle:**
 

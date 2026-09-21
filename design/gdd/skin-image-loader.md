@@ -10,7 +10,7 @@ The Skin Image Loader is a stateful cache layer that wraps browser image loading
 
 Its contract is: by the time the Reel UI or Inventory UI needs to display a skin, the image is already loaded and ready. It does this through a `preloadCase(caseId)` call that fires all image fetches for a case's item pool in parallel and resolves when all settle. The Reel UI calls `preloadCase()` before enabling the Open button; every subsequent `getImage()` call during the animation is synchronous and hit-from-cache.
 
-The placeholder strategy is the system's key resilience feature. Steam CDN image URLs are provided by the community-maintained `cases.json` data file. If any URL is stale, rate-limited, or missing, the loader substitutes a flat rarity-color card (Mil-Spec blue, Restricted purple, Classified pink, Covert red, Rare Special gold). Downstream systems receive the same `HTMLImageElement` interface regardless of whether the image is a real weapon render or a placeholder — they do not need to handle either case explicitly.
+The placeholder strategy is the system's key resilience feature. Steam CDN image URLs are provided by the community-maintained `cases.json` data file. If any URL is stale, rate-limited, or missing, the loader substitutes a flat rarity-color card (Mil-Spec blue, Restricted purple, Classified pink, Covert red, Rare Special red, Contraband gold). Downstream systems receive the same `HTMLImageElement` interface regardless of whether the image is a real weapon render or a placeholder — they do not need to handle either case explicitly.
 
 ## Player Fantasy
 
@@ -18,7 +18,7 @@ The Skin Image Loader has no direct player-facing interface. Players never inter
 
 When it fails gracefully (network error, stale CDN URL), the player sees a flat rarity-colored card in place of the weapon art. This is not a fantasy in itself, but it is the system's contribution to the game's feel: a saturated red card during a covert reveal still conveys the rarity tier. The player may not get the authentic render, but they get a coherent signal. The placeholder is designed to be "obviously a fallback" rather than confusing or broken.
 
-The fantasy this system *enables* lives in the Reel UI and Inventory UI — the crisp weapon renders scrolling past, the golden glow of a rare item locked center-screen. The Skin Image Loader makes that possible without surfacing itself.
+The fantasy this system *enables* lives in the Reel UI and Inventory UI — the crisp weapon renders scrolling past, the red glow of a rare item locked center-screen. The Skin Image Loader makes that possible without surfacing itself.
 
 ## Detailed Design
 
@@ -42,7 +42,9 @@ The fantasy this system *enables* lives in the Reel UI and Inventory UI — the 
    | `restricted` | `#8847FF` |
    | `classified` | `#D32EE6` |
    | `covert` | `#EB4B4B` |
-   | `rare_special` | `#E4AE39` |
+   | `rare_special` | `#EB4B4B` |
+   | `extraordinary` | `#EB4B4B` |
+   | `contraband` | `#E4AE39` |
    | `unknown` | `#808080` |
 
 7. **One instance shared across the app**: The Skin Image Loader is a single module-level instance. Reel UI and Inventory UI both reference the same loader — they share the cache.
@@ -178,6 +180,6 @@ No behavior-changing tuning knobs exist. The image loading strategy (parallel pr
 | AC-SIL-06 | `getImage(url, rarity)` called before preload resolves | Returns the rarity placeholder (not null, not an error) | BLOCKING |
 | AC-SIL-07 | `preloadCase()` called twice for the same case | Second call resolves immediately with same counts; no duplicate fetch requests | BLOCKING |
 | AC-SIL-08 | `preloadCase("unknown_case")` called | Resolves with `{ loaded: 0, failed: 0, skipped: 0 }`; no error thrown | BLOCKING |
-| AC-SIL-09 | `getPlaceholder("rare_special")` called | Returns an `HTMLImageElement` with the Rare Special gold color (`#E4AE39`) | BLOCKING |
+| AC-SIL-09 | `getPlaceholder("rare_special")` called | Returns an `HTMLImageElement` with the Rare Special red color (`#EB4B4B`) | BLOCKING |
 | AC-SIL-10 | `getPlaceholder("rare_special")` called twice | Second call returns the same cached element (not a new canvas render) | ADVISORY |
 | AC-SIL-11 | `getImage(url, rarity)` for an unknown URL (not preloaded) | Returns the rarity placeholder; no network request fired | BLOCKING |

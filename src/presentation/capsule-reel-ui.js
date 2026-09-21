@@ -2,6 +2,7 @@ import { Events }          from '../foundation/events.js';
 import { CapsuleDataStore }  from '../foundation/capsule-data-store.js';
 import { makePlaceholder }   from '../feature/item-placeholder.js';
 import { i18n }              from '../foundation/i18n.js';
+import { visualRarity }      from '../foundation/visual-rarity.js';
 
 const CARD_WIDTH_PX     = 250;
 const IDLE_CENTER_INDEX = 30;
@@ -110,7 +111,7 @@ function _buildIdleStrip(capsuleId) {
 
 function _makeCard(item) {
   const div = document.createElement('div');
-  div.className = `reel-card rarity-${item.rarity ?? 'high_grade'}`;
+  div.className = `reel-card rarity-${visualRarity(item, 'high_grade')}`;
 
   if (item.image_url) {
     const img = document.createElement('img');

@@ -11,6 +11,7 @@
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { getMusicKitPreviewId } from '../../src/foundation/music-kit-previews.js';
 
 const API_URL = 'https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/crates.json';
 const PATHS = {
@@ -163,11 +164,17 @@ function syncOther(crate, existing) {
   const type = crate.type === 'Music Kit Box' ? 'music_kit_box'
     : crate.type === 'Patch Capsule' ? 'patch_pack'
       : 'pin_capsule';
+  const oldMusicItems = existingItemMap(existing);
   const entry = syncCapsule(crate, existing, type);
 
   for (const items of Object.values(entry.tiers)) {
     for (const item of items) {
       item.market_hash_name = item.name;
+      if (type === 'music_kit_box') {
+        item.youtube_id = getMusicKitPreviewId(item.name)
+          || oldMusicItems.get(normalize(item.name))?.youtube_id
+          || undefined;
+      }
     }
   }
   return entry;

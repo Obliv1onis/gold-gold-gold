@@ -14,7 +14,7 @@ The Reveal UI does not own the reveal sound — `playReveal()` is called by the 
 
 ## Player Fantasy
 
-The reveal is the emotional payoff of the entire case opening loop. The reel stops, the chord fires, and then — the overlay. That transition from reel to reveal is the moment. The item fills more of the screen: a larger image, the rarity glow around it, the name appearing. For a rare drop, the gold or red glow amplifies what the reel already showed. For a common drop, the clean, honest presentation of a blue-bordered item says "you got a blue — that's what it is."
+The reveal is the emotional payoff of the entire case opening loop. The reel stops, the chord fires, and then — the overlay. That transition from reel to reveal is the moment. The item fills more of the screen: a larger image, the rarity glow around it, the name appearing. Rare Special items use red; Contraband uses gold. For a common drop, the clean, honest presentation of a blue-bordered item says "you got a blue — that's what it is."
 
 The Keep / Sell decision is a micro-moment of engagement on top of the reveal. Players don't agonize long — they either know they want the skin (Keep) or they don't (Sell). Showing the net proceeds on the Sell button (`Sell ($X.XX)`) makes that decision instant: no math required, no need to check the market, just a yes or no. The balance ticking up after a Sell is its own small reward — recouping even partial cost from a common drop keeps the economic loop satisfying.
 
@@ -120,7 +120,7 @@ Displayed on the Sell button as `"Sell ($[display_net_proceeds.toFixed(2)])"`. M
 *Handling*: Reveal card shows the rarity-colored placeholder. Name and rarity labels still display correctly. Keep and Sell still work.
 
 **E5: Reveal shown for a `rare_special` item (knife/gloves)**
-*Handling*: CSS class `rarity-rare_special` applies the gold glow at `RARE_SPECIAL_GLOW_MULTIPLIER` (2×) radius. No special logic beyond CSS.
+*Handling*: CSS class `rarity-rare_special` applies the red glow at `RARE_SPECIAL_GLOW_MULTIPLIER` (2×) radius. No special logic beyond CSS.
 
 **E6: Player opens the next case while Reveal overlay is visible**
 *Handling*: The App Shell must not call `openCase()` while `revealVisible === true`. The overlay covers the interface physically (pointer-events), and the App Shell enforces this as a state guard.

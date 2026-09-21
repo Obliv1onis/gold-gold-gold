@@ -41,7 +41,7 @@ Skins are displayed in a scrollable grid. **Default sort: price ascending (cheap
 - Skin image (lazy-loaded — see Rule 5)
 - Weapon + skin name (`"[item.weapon] | [item.skin]"`)
 - Market price from Price API Layer (see Rule 6 for price display)
-- Rarity-colored border (`#4B69FF` Mil-Spec → `#E4AE39` Rare Special)
+- Rarity-colored border (`#4B69FF` Mil-Spec → `#EB4B4B` Rare Special; `#E4AE39` Contraband)
 - Affordability indicator: full color if `VirtualEconomy.canAfford(price)` is true; 50% opacity and greyed if false
 - **"Buy ($X.XX)"** button — enabled if affordable; disabled if not
 
@@ -235,8 +235,9 @@ Price API Layer refreshes and the price for this item changes from $12.50 to $14
 The Market Browser UI follows the same visual language as the Case Browser UI:
 - Background: `#1b2838` (Steam dark) for the modal backdrop
 - Card surfaces: `#2a475e` (Steam mid-dark)
-- Rarity-colored borders per skin card (exact CS2 hex values from Skin Image Loader):
-  - Mil-Spec `#4B69FF`, Restricted `#8847FF`, Classified `#D32EE6`, Covert `#EB4B4B`, Rare Special `#E4AE39`
+- Rarity-colored borders per item card (project palette from Skin Image Loader):
+  - Mil-Spec `#4B69FF`, Restricted `#8847FF`, Classified `#D32EE6`, Covert `#EB4B4B`, Rare Special `#EB4B4B`, Contraband `#E4AE39`
+  - Stickers whose names contain `(Gold)` use the red Extraordinary presentation color even when their official drop rarity is Exotic; drop odds are not rewritten.
 - Unaffordable cards: full card at 50% opacity (not just the border)
 - Price text: white full-color for `live`; muted grey for `stale`/`fallback` with prefix indicator
 - Buy button: rarity-tinted background (same rarity color as card border) when affordable; grey when disabled

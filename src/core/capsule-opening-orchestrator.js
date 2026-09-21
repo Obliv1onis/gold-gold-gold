@@ -71,7 +71,7 @@ export const CapsuleOpeningOrchestrator = {
   },
 };
 
-// extraordinary (Gold) excluded from background — same principle as rare_special in cases
+// extraordinary excluded from background — same principle as rare_special in cases
 const BACKGROUND_TIERS = ['high_grade', 'remarkable', 'exotic'];
 
 function _buildStrip(capsuleId, selectedItem) {

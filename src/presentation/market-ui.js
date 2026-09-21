@@ -8,6 +8,7 @@ import { i18n }             from '../foundation/i18n.js';
 import { VirtualEconomy }   from '../core/virtual-economy.js';
 import { SkinInventory }    from '../core/skin-inventory.js';
 import { Events }           from '../foundation/events.js';
+import { visualRarity }     from '../foundation/visual-rarity.js';
 
 const WEAR_TIERS = ['fn', 'mw', 'ft', 'ww', 'bs'];
 const SKIN_RARITIES = [
@@ -216,12 +217,10 @@ export const MarketUI = {
     }
     _allItems = [...skins.values()];
 
-    const cosmetics = new Map();
-    for (const source of [...CapsuleDataStore.getAllItems(), ...CapsuleDataStore.getMarketItems()]) {
-      const key = source.market_hash_name ?? `${source.capsuleType}|${source.name}`;
-      if (!cosmetics.has(key)) cosmetics.set(key, { ...source, isCapsuleItem: true });
-    }
-    _capsuleItems = [...cosmetics.values()];
+    _capsuleItems = collapseMusicKitVariants([
+      ...CapsuleDataStore.getAllItems(),
+      ...CapsuleDataStore.getMarketItems(),
+    ]);
   },
 
   _pickRecommended() {
@@ -267,6 +266,9 @@ export const MarketUI = {
   },
 
   _listingFor(item) {
+    if (item.musicKitVariants) {
+      return _makeCapsuleListing(selectMusicKitVariant(item, _statTrak), item);
+    }
     if (item.isCapsuleItem) return _makeCapsuleListing(item);
     const tiers = item.wear_tiers?.length ? item.wear_tiers : WEAR_TIERS;
     const tier = _isVanilla(item) ? null : (tiers.includes(_wear) ? _wear : (tiers.includes('ft') ? 'ft' : tiers[0]));
@@ -318,9 +320,10 @@ export const MarketUI = {
     const hasFloat = !isCosmetic && floatVal !== null && wearTier !== null;
 
     const row = document.createElement('article');
-    row.className = `market-row rarity-${item.rarity ?? 'unknown'}${statTrak ? ' market-row--st' : ''}`;
+    const displayRarity = visualRarity(item);
+    row.className = `market-row rarity-${displayRarity}${statTrak ? ' market-row--st' : ''}`;
 
-    const img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
+    const img = SkinImageLoader.getLazyImage(item.image_url ?? null, displayRarity);
     img.className = 'market-row-img';
     img.alt = displayName;
 
@@ -332,7 +335,7 @@ export const MarketUI = {
       const prefix = document.createElement('span');
       prefix.className = 'stat-trak-prefix';
       prefix.textContent = 'StatTrak™ ';
-      name.append(prefix, document.createTextNode(displayName.replace(/^StatTrak™ /, '')));
+      name.append(prefix, document.createTextNode(displayName.replace(/^StatTrak™\s*/, '')));
     } else {
       name.textContent = displayName;
     }
@@ -428,7 +431,7 @@ export const MarketUI = {
     }
     button.textContent = i18n.t('bought');
     button.classList.add('btn-market-buy--done');
-    setTimeout(() => row.replaceWith(this._makeRow(this._listingFor(item))), 1000);
+    setTimeout(() => row.replaceWith(this._makeRow(this._listingFor(listing.sourceItem ?? item))), 1000);
   },
 };
 
@@ -449,10 +452,16 @@ export function marketItemMatches(item, { query = '', category = 'all', rarity =
   const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   if (!words.length) return true;
   const sources = item.case_names ?? [item.case_name ?? item.capsuleName].filter(Boolean);
+  const variants = Object.values(item.musicKitVariants ?? {});
   const text = [
     marketItemDisplayName(item, 'en-US'),
     marketItemDisplayName(item, 'zh-CN'),
     item.market_hash_name,
+    ...variants.flatMap(variant => [
+      marketItemDisplayName(variant, 'en-US'),
+      marketItemDisplayName(variant, 'zh-CN'),
+      variant.market_hash_name,
+    ]),
     ...sources,
     ...sources.map(name => i18n.caseName(name, 'zh-CN')),
   ].filter(Boolean).join(' ').toLocaleLowerCase();
@@ -544,6 +553,9 @@ function _localPrice(item, wearTier, statTrak) {
 }
 
 function _estimatedPrice(item, { wear, statTrak }) {
+  if (item.musicKitVariants) {
+    return selectMusicKitVariant(item, statTrak).market_price ?? Number.POSITIVE_INFINITY;
+  }
   if (item.isCapsuleItem) return item.market_price ?? Number.POSITIVE_INFINITY;
   return _localPrice(item, wear, statTrak) ?? Number.POSITIVE_INFINITY;
 }
@@ -573,13 +585,63 @@ function _isVanilla(item) {
   return item.skin?.startsWith('★') && item.skin.slice(1).trim().toLowerCase() === 'vanilla';
 }
 
-function _makeCapsuleListing(item) {
+function _makeCapsuleListing(item, sourceItem = item) {
   return {
     item,
+    sourceItem,
     floatVal: null,
     wearTier: null,
-    statTrak: !!item.stat_trak,
+    statTrak: !!item.stat_trak || /^StatTrak™\s+Music Kit \|/.test(item.market_hash_name ?? item.name ?? ''),
     hashName: item.market_hash_name ?? item.name,
     localPrice: item.market_price ?? null,
   };
+}
+
+function _isMusicKit(item) {
+  return item.capsuleType === 'music_kit_box'
+    || /^(?:StatTrak™\s+)?Music Kit \|/.test(item.market_hash_name ?? item.name ?? '');
+}
+
+function _musicKitGroupKey(item) {
+  return (item.market_hash_name ?? item.name ?? '')
+    .replace(/^StatTrak™\s+/, '')
+    .replace('TWERL and Ekko & Sidetrack, Under Bright Lights', 'TWERL, Ekko & Sidetrack, Under Bright Lights');
+}
+
+/** Collapse normal and StatTrak music kits into one market row. */
+export function collapseMusicKitVariants(items) {
+  const cosmetics = new Map();
+  for (const source of items) {
+    if (!_isMusicKit(source)) {
+      const key = source.market_hash_name ?? `${source.capsuleType}|${source.name}`;
+      if (!cosmetics.has(key)) cosmetics.set(key, { ...source, isCapsuleItem: true });
+      continue;
+    }
+
+    const key = `music|${_musicKitGroupKey(source)}`;
+    const statTrak = /^StatTrak™\s+/.test(source.market_hash_name ?? source.name ?? '');
+    const variant = { ...source, isCapsuleItem: true, stat_trak: statTrak };
+    let group = cosmetics.get(key);
+    if (!group) {
+      group = { ...variant, musicKitVariants: {} };
+      cosmetics.set(key, group);
+    }
+    group.musicKitVariants[statTrak ? 'stattrak' : 'normal'] = variant;
+
+    // Prefer the normal item as the neutral row/search representation.
+    if (!statTrak) {
+      const variants = group.musicKitVariants;
+      Object.assign(group, variant, { musicKitVariants: variants });
+    }
+  }
+  return [...cosmetics.values()];
+}
+
+/** Pick the requested music-kit variant, falling back for StatTrak-only kits. */
+export function selectMusicKitVariant(item, statTrak) {
+  const variants = item.musicKitVariants ?? {};
+  return (statTrak ? variants.stattrak : variants.normal)
+    ?? variants.normal
+    ?? variants.stattrak
+    ?? item;
 }

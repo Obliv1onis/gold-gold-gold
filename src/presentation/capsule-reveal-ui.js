@@ -2,6 +2,7 @@ import { SkinInventory }       from '../core/skin-inventory.js';
 import { StickerImageService }  from '../feature/sticker-image-service.js';
 import { makePlaceholder }      from '../feature/item-placeholder.js';
 import { i18n }                 from '../foundation/i18n.js';
+import { visualRarity }         from '../foundation/visual-rarity.js';
 
 const SELL_FEE_RATE          = 0.15;
 const SELL_FEEDBACK_DURATION = 1800;
@@ -33,7 +34,7 @@ export const CapsuleRevealUI = {
     _overlay.innerHTML = '';
 
     const card = document.createElement('div');
-    card.className = `reveal-card rarity-${rarity}`;
+    card.className = `reveal-card rarity-${visualRarity(item, 'high_grade')}`;
 
     let imgEl;
     if (item.image_url) {

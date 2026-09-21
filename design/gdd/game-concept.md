@@ -56,7 +56,7 @@ You can play as a case opener, a skin trader, or both.
 
 - **Mood**: Cinematic dark UI, high-contrast item cards, weapon skin glow on reveal
 - **Shape language**: Sharp, rectangular, military-utilitarian — matching CS2's UI geometry
-- **Color philosophy**: Dark background (#1b2838 Steam dark), rarity colors are exact CS2 rarity hex values (Consumer grey → Contraband gold). Rarity color IS the primary visual feedback system.
+- **Color philosophy**: Dark background (#1b2838 Steam dark), with a project-specific rarity palette: knives/gloves and Gold-named stickers are red, while Contraband (M4A4 | Howl) is the only gold item tier. Rarity color IS the primary visual feedback system.
 - **Animation language**: Smooth deceleration curves matching CS2's reel easing; no bouncy or cartoony motion
 
 ---

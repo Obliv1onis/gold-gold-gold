@@ -210,7 +210,7 @@ The following upstream GDDs must be verified to list Case Browser UI as a depend
   - Restricted: `#8847ff`
   - Classified: `#d32ce6`
   - Covert: `#eb4b4b`
-  - Rare Special (knife/glove): `#e4ae39`
+  - Rare Special (knife/glove): `#eb4b4b`
 
 **Sort controls:**
 - Minimal dark-UI tabs or a dropdown above the grid; no prominent styling — must not compete with case art for attention

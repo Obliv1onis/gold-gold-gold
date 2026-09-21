@@ -232,24 +232,33 @@ function renderMusicKits(entries) {
   for (const box of boxes) {
     for (const [rarity, items] of Object.entries(box.tiers ?? {})) {
       for (const item of items) {
-        const current = kits.get(item.market_hash_name) ?? { name: item.name, rarities: new Set(), boxes: new Set() };
+        const statTrak = item.name.startsWith('StatTrak™ ');
+        const name = item.name
+          .replace(/^StatTrak™\s+/, '')
+          .replace('TWERL and Ekko & Sidetrack, Under Bright Lights', 'TWERL, Ekko & Sidetrack, Under Bright Lights');
+        const current = kits.get(name) ?? { name, variants: new Set(), rarities: new Set(), boxes: new Set() };
+        current.variants.add(statTrak ? 'StatTrak™' : 'Normal');
         current.rarities.add(LABELS[rarity] ?? rarity);
         current.boxes.add(box.name);
-        kits.set(item.market_hash_name, current);
+        kits.set(name, current);
       }
     }
   }
+  const paired = [...kits.values()].filter(kit => kit.variants.size === 2).length;
+  const statTrakOnly = [...kits.values()].filter(kit => kit.variants.size === 1 && kit.variants.has('StatTrak™')).length;
   const lines = generatedHeader(
     'Music Kits',
     'others',
     otherData.catalog,
-    `${kits.size} unique music kits available through ${boxes.length} simulator music-kit boxes.`,
+    `${kits.size} unique music kits available through ${boxes.length} simulator music-kit boxes. `
+      + `${paired} have Normal and StatTrak™ variants; ${statTrakOnly} are StatTrak™-only.`,
   );
-  lines.push('| Music kit | Rarity | Available from |');
-  lines.push('| --- | --- | --- |');
+  lines.push('| Music kit | Variants | Rarity | Available from |');
+  lines.push('| --- | --- | --- | --- |');
   for (const kit of [...kits.values()].sort((a, b) => a.name.localeCompare(b.name))) {
     lines.push(
-      `| ${escapeTable(kit.name)} | ${escapeTable([...kit.rarities].join(', '))} | `
+      `| ${escapeTable(kit.name)} | ${escapeTable([...kit.variants].join(' + '))} | `
+      + `${escapeTable([...kit.rarities].join(', '))} | `
       + `${escapeTable([...kit.boxes].join(', '))} |`,
     );
   }

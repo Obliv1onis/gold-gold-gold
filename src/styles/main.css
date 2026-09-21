@@ -229,14 +229,14 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 .rarity-restricted      { --rarity-color: #8847FF; }
 .rarity-classified      { --rarity-color: #D32EE6; }
 .rarity-covert          { --rarity-color: #EB4B4B; }
-.rarity-rare_special    { --rarity-color: #E4AE39; }
+.rarity-rare_special    { --rarity-color: #EB4B4B; }
 .rarity-contraband      { --rarity-color: #E4AE39; }
 
 /* Sticker capsule rarities */
 .rarity-high_grade      { --rarity-color: #4B69FF; }
 .rarity-remarkable      { --rarity-color: #8847FF; }
 .rarity-exotic          { --rarity-color: #D32EE6; }
-.rarity-extraordinary   { --rarity-color: #E4AE39; }
+.rarity-extraordinary   { --rarity-color: #EB4B4B; }
 
 /* ─── Home ───────────────────────────────────────────────────────────────── */
 #home-view { overflow: hidden; }
@@ -601,6 +601,10 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   height: 200px;
   object-fit: contain;
   flex-shrink: 0;
+}
+
+.reel-card .rare-special-mask {
+  filter: hue-rotate(315deg) saturate(1.65);
 }
 
 .reel-card .card-name {

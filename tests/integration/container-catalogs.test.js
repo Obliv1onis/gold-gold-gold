@@ -53,6 +53,14 @@ describe('secondary container catalogues', () => {
     }
   });
 
+  it('gives every music kit variant a playable preview', () => {
+    const kits = others.entries
+      .filter(entry => entry.type === 'music_kit_box')
+      .flatMap(entry => Object.values(entry.tiers).flat());
+    expect(kits).toHaveLength(93);
+    expect(kits.filter(item => !item.youtube_id)).toEqual([]);
+  });
+
   it('does not model Cologne 2026 as legacy random containers', () => {
     expect(allContainers.some(entry => /Cologne 2026/i.test(entry.name))).toBe(false);
   });

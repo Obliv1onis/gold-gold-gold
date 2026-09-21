@@ -12,6 +12,7 @@ YOUTUBE_IDS = {
     "Knock2, Make U SWEAT!":                        "vekNwu9_VD4",
     "Rad Cat, Reason":                              "IYMhhpg2nho",
     "TWERL and Ekko & Sidetrack, Under Bright Lights": "9fg9ic46ik0",
+    "TWERL, Ekko & Sidetrack, Under Bright Lights":     "9fg9ic46ik0",
     "Adam Beyer, Red Room":                         "GIf50k8j270",
     "Ghost, Skeletá":                               "6ZDG_mlKq4I",
     "HEALTH, RAT WARS":                             "5VSVvT9EQXI",
@@ -23,6 +24,7 @@ YOUTUBE_IDS = {
     "Selective Response, No Love Only Pleasure":    "69XPnu1TI0Q",
     "Tigercub, The Perfume of Decay":               "i9sgCEI4KUg",
     "Laura Shigihara, Work Hard, Play Hard":        "CJVr7wVRL70",
+    "Laura Shigihara: Work Hard, Play Hard":        "CJVr7wVRL70",
     "Freaky DNA, Vici":                             "PAmQ6Xl6NkI",
     "Chipzel, ~Yellow Magic~":                      "THChLWmCEA4",
     "Austin Wintory, Mocha Petal":                  "mwHTecB638E",
@@ -48,6 +50,14 @@ YOUTUBE_IDS = {
     "Hundredth, FREE":                              "RKGAUvW96fo",
     "Skog, III-Arena":                              "vr7nfZsuucI",
     "Twin Atlantic, GLA":                           "POXMI1ZfImM",
+    "Matt Levine, Agency":                          "Na5KWN7aSk8",
+    "Tree Adams, Seventh Moon":                     "N0s3boMhN64",
+    "Ben Bromfield, Rabbit Hole":                   "t2GeRR6CuXw",
+    "Tim Huling, Devil's Paintbrush":               "9z_zEZgXXqc",
+    "Dren McDonald, Coffee! Kofe! Kahveh!":         "JFtmNfZIi_Q",
+    "Sam Marshall, Clutch":                         "VFdLHeQnTyw",
+    "Austin Wintory, The Devil Went Clubbing In Georgia": "BHYmeJJeIhM",
+    "Daniel Sadowski, Dead Shot":                   "xzTe_0y77O4",
 }
 
 with open(OTHERS_PATH) as f:

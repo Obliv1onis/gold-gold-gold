@@ -1,9 +1,12 @@
 import { CapsuleDataStore } from '../foundation/capsule-data-store.js';
+import { getMusicKitPreviewId } from '../foundation/music-kit-previews.js';
 
 let _activeName = null;
 let _idCache    = null; // lazily built: kit name → youtube_id
 
 function _lookupId(kitName) {
+  const bundledId = getMusicKitPreviewId(kitName);
+  if (bundledId) return bundledId;
   if (!_idCache) {
     _idCache = new Map();
     for (const item of CapsuleDataStore.getAllItems()) {

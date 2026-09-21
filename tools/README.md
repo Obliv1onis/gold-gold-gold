@@ -26,10 +26,10 @@ containers such as Gallery Case and Dead Hand Terminal.
 
 `tools/catalog/sync-containers.mjs` refreshes sticker contents, rebuilds the
 souvenir catalogue, and synchronizes music boxes, patch collections, and pin
-capsules. Local prices and stable IDs are retained when a source container can
-be matched. Cologne 2026 is deliberately excluded because Valve replaced
-traditional capsules/packages with direct sticker purchases and crafted
-souvenirs for that event.
+capsules. Local prices, stable IDs, and bundled music-kit preview IDs are
+retained when a source container can be matched. Cologne 2026 is deliberately
+excluded because Valve replaced traditional capsules/packages with direct
+sticker purchases and crafted souvenirs for that event.
 
 ## Legacy scripts
 

@@ -4,6 +4,7 @@ import { FloatService }    from '../foundation/float-service.js';
 import { Events }          from '../foundation/events.js';
 import { i18n }            from '../foundation/i18n.js';
 import { MusicKitPlayer }  from '../feature/music-kit-player.js';
+import { visualRarity }    from '../foundation/visual-rarity.js';
 
 let _container = null;
 let _visible   = false;
@@ -99,7 +100,8 @@ export const InventoryUI = {
       : _formatItemName(item.weapon, item.skin);
 
     const card = document.createElement('div');
-    card.className = `inventory-card rarity-${item.rarity ?? 'unknown'}`;
+    const displayRarity = visualRarity(item);
+    card.className = `inventory-card rarity-${displayRarity}`;
     if (isMusicKit) card.classList.add('music-kit-card');
 
     let img;
@@ -108,7 +110,7 @@ export const InventoryUI = {
       img.src = item.image_url ?? '';
       img.onerror = () => { img.src = ''; img.className = 'card-image card-image--missing'; };
     } else {
-      img = SkinImageLoader.getLazyImage(item.image_url ?? null, item.rarity);
+      img = SkinImageLoader.getLazyImage(item.image_url ?? null, displayRarity);
     }
     img.className = 'card-image';
     img.alt       = displayName;

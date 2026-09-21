@@ -2,7 +2,7 @@ import { SkinImageLoader } from '../feature/skin-image-loader.js';
 import { Events }          from '../foundation/events.js';
 import { CaseDataStore }   from '../foundation/case-data-store.js';
 import { i18n }            from '../foundation/i18n.js';
-import goldUrl             from '../gold.png';
+import rareMaskUrl         from '../gold.png';
 
 const CARD_WIDTH_PX      = 250;
 const IDLE_CENTER_INDEX  = 30;
@@ -89,7 +89,7 @@ export const ReelUI = {
   },
 
   /**
-   * Swaps the masked gold card with the actual rare_special item visuals.
+   * Swaps the masked rare-special card with the actual item visuals.
    * Called by the orchestrator when the reveal overlay appears.
    *
    * @param {object} item - InventorySkinEntry with image_url, weapon, skin
@@ -98,7 +98,11 @@ export const ReelUI = {
     if (!_rareWinningCard) return;
     const imgEl  = _rareWinningCard.querySelector('.card-image');
     const nameEl = _rareWinningCard.querySelector('.card-name');
-    if (imgEl)  { imgEl.src = item.image_url ?? ''; imgEl.alt = i18n.skinName(item.weapon, item.skin); }
+    if (imgEl)  {
+      imgEl.src = item.image_url ?? '';
+      imgEl.alt = i18n.skinName(item.weapon, item.skin);
+      imgEl.classList.remove('rare-special-mask');
+    }
     if (nameEl) nameEl.textContent = i18n.skinName(item.weapon, item.skin);
   },
 };
@@ -153,12 +157,13 @@ function _makeCard(item) {
   let img;
   if (isRare) {
     img = document.createElement('img');
-    img.src = goldUrl;
+    img.src = rareMaskUrl;
     img.alt = 'Rare Special Item';
   } else {
     img = SkinImageLoader.getImage(item.image_url ?? null, item.rarity);
   }
   img.className = 'card-image';
+  if (isRare) img.classList.add('rare-special-mask');
 
   const name = document.createElement('span');
   name.className   = 'card-name';
@@ -171,4 +176,3 @@ function _makeCard(item) {
 
   return div;
 }
-
