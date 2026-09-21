@@ -2048,6 +2048,21 @@ html[data-theme="light"] body {
   color: #1f2933;
 }
 
+/* The dark palette uses luminous rarity colours. Darker equivalents retain
+   each rarity's identity without looking washed out against light surfaces. */
+html[data-theme="light"] .rarity-consumer_grade   { --rarity-color: #667585; }
+html[data-theme="light"] .rarity-industrial_grade { --rarity-color: #356fae; }
+html[data-theme="light"] .rarity-mil_spec         { --rarity-color: #3157d5; }
+html[data-theme="light"] .rarity-high_grade       { --rarity-color: #3157d5; }
+html[data-theme="light"] .rarity-restricted       { --rarity-color: #7038c8; }
+html[data-theme="light"] .rarity-remarkable       { --rarity-color: #7038c8; }
+html[data-theme="light"] .rarity-classified       { --rarity-color: #a627ad; }
+html[data-theme="light"] .rarity-exotic           { --rarity-color: #a627ad; }
+html[data-theme="light"] .rarity-covert,
+html[data-theme="light"] .rarity-rare_special,
+html[data-theme="light"] .rarity-extraordinary    { --rarity-color: #b4232c; }
+html[data-theme="light"] .rarity-contraband       { --rarity-color: #946200; }
+
 html[data-theme="light"] .hud-bar,
 html[data-theme="light"] .nav-tabs {
   background: #ffffff;
@@ -2150,7 +2165,7 @@ html[data-theme="light"] .home-tile {
   border-color: #d6dde6;
 }
 html[data-theme="light"] .home-tile__gradient {
-  background: linear-gradient(to top, rgba(244,246,248,0.98) 0%, rgba(244,246,248,0.62) 40%, rgba(244,246,248,0.08) 68%, transparent 100%);
+  display: none;
 }
 html[data-theme="light"] .home-tile__title { color: #182230; }
 html[data-theme="light"] .home-tile__count { color: rgba(24, 34, 48, 0.58); }
@@ -2283,6 +2298,38 @@ html[data-theme="light"] .market-row-img { background: #edf1f5; }
 html[data-theme="light"] .market-row-name { color: #24303f; }
 html[data-theme="light"] .market-row-price--loading,
 html[data-theme="light"] .market-pager-btn:disabled { color: #98a2b3; }
+
+/* Accent text needs stronger, less luminous tones on light backgrounds. */
+html[data-theme="light"] .stat-trak-prefix,
+html[data-theme="light"] .market-stattrak-toggle {
+  color: #9a4f00;
+}
+html[data-theme="light"] .market-stattrak-toggle input { accent-color: #9a4f00; }
+html[data-theme="light"] .reveal-feedback,
+html[data-theme="light"] .terminal-price {
+  color: #287a43;
+}
+html[data-theme="light"] .music-kit-playing,
+html[data-theme="light"] .btn-market-play {
+  color: #1769aa;
+}
+html[data-theme="light"] .btn-market-play {
+  background: #e8f2fb;
+  border-color: #8db9dc;
+}
+html[data-theme="light"] .btn-market-play:hover {
+  color: #ffffff;
+  background: #1769aa;
+}
+html[data-theme="light"] .hud-error-msg,
+html[data-theme="light"] .terminal-error,
+html[data-theme="light"] .tradeup-error {
+  color: #b42318;
+}
+html[data-theme="light"] .item-placeholder--charm svg { color: #287a60; }
+html[data-theme="light"] .item-placeholder--patch svg { color: #356fae; }
+html[data-theme="light"] .item-placeholder--pin svg { color: #946200; }
+html[data-theme="light"] .item-placeholder--mk svg { color: #7038a8; }
 
 @media (max-width: 640px) {
   html[data-theme="light"] .home-tile,
