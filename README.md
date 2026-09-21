@@ -4,16 +4,6 @@ A modern, fast, web-based **Counter-Strike 2 (CS2) Case Opening Simulator** that
 
 ---
 
-## 🚀 Credits & Acknowledgments
-
-This project was built and accelerated using AI-powered development tools and community templates:
-* **AI Collaboration:** Co-developed and optimized using **Claude Code**.
-* **Base Foundation:** Built upon and customized from the excellent starting template provided by **[Claude Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)**. 
-
-Special thanks to the open-source contributors for making this framework available!
-
----
-
 ## ✨ Features
 
 * **Authentic Unboxing Experience:** Realistic simulated rolling animations for a wide variety of weapon cases and sticker capsules.
