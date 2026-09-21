@@ -1,52 +1,40 @@
-# The Vault — CS2 Case Simulator
+# CS2 Case Simulator 🎮✨
 
-A bilingual, browser-based Counter-Strike 2 case-opening simulator built with
-vanilla JavaScript and Vite.
+A modern, fast, web-based **Counter-Strike 2 (CS2) Case Opening Simulator** that recreates the thrill of unboxing your favorite weapon cases and sticker capsules directly in your browser.
 
-## What is included
+---
 
-- 42 weapon cases and 2 terminals, including Gallery, Genesis, and Dead Hand
-- 150 souvenir packages, 122 sticker capsules, and 26 other cosmetic containers
-- Case reels, terminal offers, inventory, market, trade-up, live price fallbacks,
-  daily bonuses, StatTrak™ items, wear, and float simulation
-- English and Simplified Chinese UI
-- Search and sorting for large container catalogues
+## 🚀 Credits & Acknowledgments
 
-## Development
+This project was built and accelerated using AI-powered development tools and community templates:
+* **AI Collaboration:** Co-developed and optimized using **Claude Code**.
+* **Base Foundation:** Built upon and customized from the excellent starting template provided by **[Claude Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)**. 
 
-```bash
-npm install
-npm run dev
-```
+Special thanks to the open-source contributors for making this framework available!
 
-Quality checks:
+---
 
-```bash
-npm run data:audit
-npm run docs:reference:check
-npm test
-npm run build
-```
+## ✨ Features
 
-The application is split by responsibility under `src/`:
+* **Authentic Unboxing Experience:** Realistic simulated rolling animations for a wide variety of weapon cases and sticker capsules.
+* **Dynamic Item Database:** Fully configured with accurate CS2 skin data, rarity tiers (from Mil-Spec all the way to Covert and Special Rares/Knives), and market fallbacks.
+* **Special Item Types:** Built-in support for StatTrak™ drops, Souvenir packages, and sticker wear conditions.
+* **Optimized Architecture:** Blazing fast local development and build times powered by Vite.
 
-- `foundation/` — data stores, persistence, float generation, and i18n
-- `core/` — economy and opening/trade-up rules
-- `feature/` — pricing, images, audio-adjacent features, and bonuses
-- `presentation/` — DOM rendering and user interaction
+---
 
-## Updating the catalogue
+## 🛠️ Tech Stack
 
-Case data is generated rather than maintained by hand. See
-[`tools/README.md`](tools/README.md) for the repeatable sync and audit workflow.
-The catalogue is cross-checked against
-[ByMykel/CSGO-API](https://github.com/ByMykel/CSGO-API), with recent release
-details verified against official Counter-Strike announcements.
+* **Core Framework:** Vanilla JavaScript (ES6+), HTML5, CSS3
+* **Bundler & Build Tool:** Vite
+* **Deployment:** [Netifly](https://enchanting-donut-550b47.netlify.app/)
 
-## Disclaimer
+---
 
-Counter-Strike, CS2, item names, and imagery are property of Valve.
-This is an independent simulator and is not affiliated with or endorsed by
-Valve. It does not award real items or involve real-money transactions.
+<a href="https://ibb.co/KRY4yQ6"><img src="https://i.ibb.co/6V29spY/2026-05-28-6-36-34.png" alt="2026-05-28-6-36-34" border="0"></a>
 
-Released under the [MIT License](LICENSE).
+初祥99
+
+---
+
+广告位招租
