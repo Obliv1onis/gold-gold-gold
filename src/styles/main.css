@@ -2045,7 +2045,7 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 /* ─── Light theme ─────────────────────────────────────────────────────────── */
 html[data-theme="light"] body {
   background: #f4f6f8;
-  color: #1f2933;
+  color: #626c7c;
 }
 
 /* The dark palette uses luminous rarity colours. Darker equivalents retain
@@ -2094,7 +2094,7 @@ html[data-theme="light"] .tradeup-result-heading,
 html[data-theme="light"] .tradeup-result-case,
 html[data-theme="light"] .credits-section-title,
 html[data-theme="light"] .credits-text--muted {
-  color: #667085;
+  color: #8992a1;
 }
 
 html[data-theme="light"] .balance-value,
@@ -2105,7 +2105,7 @@ html[data-theme="light"] .market-row-price,
 html[data-theme="light"] .inventory-card .card-price,
 html[data-theme="light"] .tradeup-result-price,
 html[data-theme="light"] .credits-link {
-  color: #2f7d45;
+  color: #5f9d6d;
 }
 
 html[data-theme="light"] .case-count-badge,
@@ -2115,7 +2115,7 @@ html[data-theme="light"] .btn-back,
 html[data-theme="light"] .btn-reset-cancel,
 html[data-theme="light"] .btn-keep,
 html[data-theme="light"] .sell-confirm .btn-cancel {
-  color: #344054;
+  color: #737d8d;
   background: #eef1f5;
   border-color: #cbd3dd;
 }
@@ -2124,7 +2124,7 @@ html[data-theme="light"] .btn-theme:hover,
 html[data-theme="light"] .btn-back:hover,
 html[data-theme="light"] .btn-reset-cancel:hover,
 html[data-theme="light"] .btn-keep:hover {
-  color: #111827;
+  color: #596273;
   background: #e1e6ec;
   border-color: #98a2b3;
 }
@@ -2138,8 +2138,8 @@ html[data-theme="light"] .music-kit-dialog {
   border-color: #d0d7e0;
   box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
 }
-html[data-theme="light"] .lang-option { color: #475467; }
-html[data-theme="light"] .lang-option:hover { color: #111827; background: #eef2f6; }
+html[data-theme="light"] .lang-option { color: #737d8d; }
+html[data-theme="light"] .lang-option:hover { color: #596273; background: #eef2f6; }
 html[data-theme="light"] .lang-option.active { color: #175cd3; background: #e8f1ff; }
 html[data-theme="light"] .lang-option + .lang-option { border-color: #e4e7ec; }
 html[data-theme="light"] .reset-modal-title,
@@ -2148,17 +2148,17 @@ html[data-theme="light"] .terminal-skin-name,
 html[data-theme="light"] .music-kit-dialog-title,
 html[data-theme="light"] .tradeup-result-name,
 html[data-theme="light"] .credits-title {
-  color: #182230;
+  color: #626c7c;
 }
 html[data-theme="light"] .reset-modal-body,
 html[data-theme="light"] .terminal-offer-counter,
 html[data-theme="light"] .terminal-float-val {
-  color: #667085;
+  color: #8992a1;
 }
 
-html[data-theme="light"] .nav-tab { color: #667085; }
-html[data-theme="light"] .nav-tab.active { color: #182230; }
-html[data-theme="light"] .nav-tab:hover:not(.active) { color: #344054; }
+html[data-theme="light"] .nav-tab { color: #808999; }
+html[data-theme="light"] .nav-tab.active { color: #626c7c; }
+html[data-theme="light"] .nav-tab:hover:not(.active) { color: #737d8d; }
 
 html[data-theme="light"] .home-tile {
   background: #e9edf2;
@@ -2167,10 +2167,10 @@ html[data-theme="light"] .home-tile {
 html[data-theme="light"] .home-tile__gradient {
   display: none;
 }
-html[data-theme="light"] .home-tile__title { color: #182230; }
-html[data-theme="light"] .home-tile__count { color: rgba(24, 34, 48, 0.58); }
+html[data-theme="light"] .home-tile__title { color: #626c7c; }
+html[data-theme="light"] .home-tile__count { color: #8992a1; }
 html[data-theme="light"] .home-tile__badge {
-  color: #667085;
+  color: #8992a1;
   background: rgba(255,255,255,0.7);
   border-color: rgba(71,84,103,0.2);
 }
@@ -2189,11 +2189,11 @@ html[data-theme="light"] .catalog-sort,
 html[data-theme="light"] .market-search,
 html[data-theme="light"] .market-filter select,
 html[data-theme="light"] .market-stattrak-toggle {
-  color: #24303f;
+  color: #697386;
   background: #ffffff;
   border-color: #cfd6df;
 }
-html[data-theme="light"] .catalog-search__input { color: #24303f; }
+html[data-theme="light"] .catalog-search__input { color: #697386; }
 html[data-theme="light"] .catalog-search__input::placeholder,
 html[data-theme="light"] .market-search::placeholder { color: #98a2b3; }
 html[data-theme="light"] .section-header { border-color: #d8dee6; }
@@ -2207,7 +2207,7 @@ html[data-theme="light"] .tradeup-result-card,
 html[data-theme="light"] .market-row,
 html[data-theme="light"] .market-pager-btn,
 html[data-theme="light"] .item-placeholder {
-  color: #1f2933;
+  color: #626c7c;
   background: #ffffff;
   border-color: #d8dee6;
 }
@@ -2230,7 +2230,7 @@ html[data-theme="light"] .tradeup-count,
 html[data-theme="light"] .tradeup-inv-name,
 html[data-theme="light"] .credits-text,
 html[data-theme="light"] .credits-link--email {
-  color: #344054;
+  color: #737d8d;
 }
 html[data-theme="light"] .browser-empty,
 html[data-theme="light"] .inventory-empty,
@@ -2249,21 +2249,21 @@ html[data-theme="light"] .reel-center-marker::after { border-bottom-color: rgba(
 
 html[data-theme="light"] .terminal-skip,
 html[data-theme="light"] .btn-terminal-skip {
-  color: #475467;
+  color: #737d8d;
   background: #eef1f5;
   border-color: #cbd3dd;
 }
 html[data-theme="light"] .btn-terminal-skip:hover { background: #e1e6ec; }
 html[data-theme="light"] .music-kit-dialog-header { background: #eaf3f9; }
-html[data-theme="light"] .music-kit-dialog-close { color: #667085; }
-html[data-theme="light"] .music-kit-dialog-close:hover { color: #182230; }
+html[data-theme="light"] .music-kit-dialog-close { color: #8992a1; }
+html[data-theme="light"] .music-kit-dialog-close:hover { color: #626c7c; }
 
 html[data-theme="light"] .inventory-header,
 html[data-theme="light"] .credits-section-title { border-color: #d8dee6; }
 html[data-theme="light"] .inventory-card .btn-sell,
 html[data-theme="light"] .btn-tradeup,
 html[data-theme="light"] .btn-tradeup-accept {
-  color: #176b3a;
+  color: #559765;
   background: #e4f4e9;
   border-color: #a9d7b7;
 }
@@ -2278,28 +2278,28 @@ html[data-theme="light"] .tradeup-contract {
 html[data-theme="light"] .tradeup-slot--empty { border-color: #cbd3dd; }
 html[data-theme="light"] .tradeup-slot--empty:hover { border-color: #98a2b3; }
 html[data-theme="light"] .tradeup-slot-num { color: #b1bac6; }
-html[data-theme="light"] .tradeup-slot-name { color: #475467; }
-html[data-theme="light"] .tradeup-slot-remove { color: #667085; background: #e8edf2; }
+html[data-theme="light"] .tradeup-slot-name { color: #737d8d; }
+html[data-theme="light"] .tradeup-slot-remove { color: #8992a1; background: #e8edf2; }
 
 html[data-theme="light"] .market-toolbar {
   background: linear-gradient(#f4f6f8 88%, transparent);
 }
-html[data-theme="light"] .market-search-clear { color: #667085; }
-html[data-theme="light"] .market-search-clear:hover { color: #182230; background: #e5e9ef; }
+html[data-theme="light"] .market-search-clear { color: #8992a1; }
+html[data-theme="light"] .market-search-clear:hover { color: #626c7c; background: #e5e9ef; }
 html[data-theme="light"] .market-refresh {
-  color: #276b3d;
+  color: #559765;
   background: #e9f5ec;
   border-color: #b5d9bf;
 }
 html[data-theme="light"] .market-refresh:hover { background: #dceddf; }
-html[data-theme="light"] .market-empty { color: #667085; border-color: #cbd3dd; }
-html[data-theme="light"] .market-empty strong { color: #344054; }
+html[data-theme="light"] .market-empty { color: #8992a1; border-color: #cbd3dd; }
+html[data-theme="light"] .market-empty strong { color: #737d8d; }
 html[data-theme="light"] .market-row-img { background: #edf1f5; }
-html[data-theme="light"] .market-row-name { color: #24303f; }
+html[data-theme="light"] .market-row-name { color: #697386; }
 html[data-theme="light"] .market-row-price--loading,
 html[data-theme="light"] .market-pager-btn:disabled { color: #98a2b3; }
 
-/* Accent text needs stronger, less luminous tones on light backgrounds. */
+/* Accent text uses softer medium tones on light backgrounds. */
 html[data-theme="light"] .stat-trak-prefix,
 html[data-theme="light"] .market-stattrak-toggle {
   color: #9a4f00;
@@ -2307,7 +2307,7 @@ html[data-theme="light"] .market-stattrak-toggle {
 html[data-theme="light"] .market-stattrak-toggle input { accent-color: #9a4f00; }
 html[data-theme="light"] .reveal-feedback,
 html[data-theme="light"] .terminal-price {
-  color: #287a43;
+  color: #5f9d6d;
 }
 html[data-theme="light"] .music-kit-playing,
 html[data-theme="light"] .btn-market-play {
