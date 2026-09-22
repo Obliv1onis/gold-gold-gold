@@ -68,12 +68,18 @@ async function main() {
       onShowTradeUp:   () => TradeUpUI.show(),
       onHideTradeUp:   () => TradeUpUI.hide(),
       onOpenClick: async (itemId, price, category) => {
-        if (category === 'sticker_capsule' || category === 'other') {
+        if (CaseDataStore.getCase(itemId)?.type === 'terminal') {
+          TerminalUI.show(itemId, price);
+        } else if (category === 'sticker_capsule' || category === 'other') {
+          await CapsuleReelUI.transitionToRoll();
           CapsuleOpeningOrchestrator.open(itemId, price, CapsuleReelUI.viewportWidth, {
             onFrame:   (offset, strip) => CapsuleReelUI.render(offset, strip),
-            onReveal:  (entry)         => CapsuleRevealUI.show(entry),
-            onBlocked: (reason)        => HudAppShell.onBlocked(reason),
-            onReady:   ()              => { CapsuleReelUI.resetSpin(); HudAppShell.onReady(); },
+            onReveal:  (entry)         => {
+              CapsuleRevealUI.show(entry);
+              CapsuleReelUI.returnToPreview();
+            },
+            onBlocked: (reason)        => { CapsuleReelUI.returnToPreview(); HudAppShell.onBlocked(reason); },
+            onReady:   ()              => { CapsuleReelUI.resetSpin(); CapsuleReelUI.returnToPreview(); HudAppShell.onReady(); },
           });
         } else {
           await ReelUI.transitionToRoll();
@@ -94,11 +100,8 @@ async function main() {
   // 4. Case + capsule browsers share the same container
   CaseBrowserUI.init(caseBrowserContainer, {
     onSelect: async (caseId, casePrice) => {
-      if (CaseDataStore.getCase(caseId)?.type === 'terminal') {
-        TerminalUI.show(caseId, casePrice);
-        return;
-      }
-      HudAppShell.showCaseOpening(caseId, casePrice);
+      const isTerminal = CaseDataStore.getCase(caseId)?.type === 'terminal';
+      HudAppShell.showCaseOpening(caseId, casePrice, { isTerminal });
       await ReelUI.initialize(reelContainer, caseId);
     },
   });
@@ -116,7 +119,7 @@ async function main() {
   // 6. Reveal overlays, terminal overlay, market, and inventory
   RevealUI.init(overlayContainer, () => HudAppShell.onRevealDismissed());
   CapsuleRevealUI.init(overlayContainer, () => HudAppShell.onReady());
-  TerminalUI.init(overlayContainer);
+  TerminalUI.init(overlayContainer, () => HudAppShell.onReady());
   MarketUI.init(marketContainer);
   TradeUpUI.init(tradeUpContainer);
   InventoryUI.init(inventoryContainer);

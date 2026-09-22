@@ -12,6 +12,7 @@ let _isAnimating      = false;
 let _revealVisible    = false;
 let _reelReady        = false;
 let _selectedCaseId   = null;
+let _selectedIsTerminal = false;
 let _caseMarketPrice  = 0;
 let _openCost         = 0;
 let _currentView      = 'home'; // 'home' | 'browser' | 'reel' | 'market' | 'tradeup' | 'inventory' | 'credits'
@@ -31,7 +32,6 @@ let _onHideTradeUp   = null;
 let _balanceEl      = null;
 let _invValueEl     = null;
 let _openBtn        = null;
-let _caseCountEl    = null;
 let _resetBtn       = null;
 let _resetOverlay   = null;
 let _errorEl        = null;
@@ -91,7 +91,6 @@ export const HudAppShell = {
           <span class="inv-value-amount">$0.00</span>
         </div>
         <div class="hud-open-section" hidden>
-          <span class="case-count-badge">0 owned</span>
           <button class="btn-open" disabled>Open</button>
           <span class="hud-error-msg" hidden></span>
         </div>
@@ -201,7 +200,6 @@ export const HudAppShell = {
     _balanceEl    = rootEl.querySelector('.balance-value');
     _invValueEl   = rootEl.querySelector('.inv-value-amount');
     _openBtn      = rootEl.querySelector('.btn-open');
-    _caseCountEl  = rootEl.querySelector('.case-count-badge');
     _resetBtn     = rootEl.querySelector('.btn-reset');
     _resetOverlay = rootEl.querySelector('.reset-modal-overlay');
     _errorEl      = rootEl.querySelector('.hud-error-msg');
@@ -252,7 +250,6 @@ export const HudAppShell = {
       rootEl.querySelectorAll('.home-tile__count[data-subtitle-key]').forEach(el => {
         el.textContent = i18n.t(el.dataset.subtitleKey, { n: Number(el.dataset.subtitleN) });
       });
-      this._refreshCaseCount();
       this._refreshBonusBar();
       this._refreshThemeButton();
       if (_currentView === 'reel' && _selectedCaseId) {
@@ -273,7 +270,7 @@ export const HudAppShell = {
     _openBtn.addEventListener('click', () => {
       if (_openBtn.disabled || !_selectedCaseId) return;
       _isAnimating = true;
-      CaseInventory.addCase(_selectedCaseId);
+      if (!_selectedIsTerminal) CaseInventory.addCase(_selectedCaseId);
       this._evaluateOpenButton();
       if (_currentCategory === null) onOpenClick(_selectedCaseId, _caseMarketPrice);
       else onOpenClick(_selectedCaseId, _caseMarketPrice, _currentCategory);
@@ -302,7 +299,6 @@ export const HudAppShell = {
 
     // DOM events
     document.addEventListener(Events.BALANCE_CHANGED,        e  => this._onBalanceChanged(e));
-    document.addEventListener(Events.CASE_INVENTORY_CHANGED, () => this._refreshCaseCount());
     document.addEventListener(Events.SKIN_INVENTORY_CHANGED, () => {
       this._refreshInvValue();
       this._refreshResetVisibility();
@@ -329,6 +325,7 @@ export const HudAppShell = {
   showHome() {
     this._leaveCurrentView();
     _selectedCaseId  = null;
+    _selectedIsTerminal = false;
     _currentCategory = null;
     _reelReady       = false;
     _isAnimating     = false;
@@ -341,6 +338,7 @@ export const HudAppShell = {
   showBrowser() {
     this._leaveCurrentView();
     _selectedCaseId  = null;
+    _selectedIsTerminal = false;
     _reelReady       = false;
     _isAnimating     = false;
     _revealVisible   = false;
@@ -352,12 +350,14 @@ export const HudAppShell = {
    * Switch to the case-opening screen for a specific case.
    * @param {string} caseId
    * @param {number} casePrice - market price of the case (USD)
+   * @param {{ isTerminal?: boolean }} [options]
    */
-  showCaseOpening(caseId, casePrice) {
+  showCaseOpening(caseId, casePrice, { isTerminal = false } = {}) {
     this._leaveCurrentView();
     _selectedCaseId  = caseId;
+    _selectedIsTerminal = isTerminal;
     _caseMarketPrice = casePrice;
-    const isKeyless  = _currentCategory === 'souvenir_package' || _currentCategory === 'sticker_capsule';
+    const isKeyless  = isTerminal || _currentCategory === 'souvenir_package' || _currentCategory === 'sticker_capsule';
     _openCost        = Math.round((isKeyless ? casePrice : casePrice + KEY_COST_USD) * 100) / 100;
     _reelReady       = false;
     _isAnimating     = false;
@@ -366,7 +366,6 @@ export const HudAppShell = {
     this._applyView();
 
     _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
-    this._refreshCaseCount();
     this._evaluateOpenButton();
   },
 
@@ -485,13 +484,6 @@ export const HudAppShell = {
     this._evaluateOpenButton();
   },
 
-  _refreshCaseCount() {
-    if (!_selectedCaseId || !_caseCountEl) return;
-    const count = CaseInventory.getCaseCount(_selectedCaseId);
-    _caseCountEl.textContent = i18n.t('n_owned', { n: count });
-    this._evaluateOpenButton();
-  },
-
   _evaluateOpenButton() {
     if (!_openBtn) return;
     const enabled = !_isAnimating
@@ -518,7 +510,6 @@ export const HudAppShell = {
     VirtualEconomy.reset();
     try { CaseInventory.clearInventory(); } catch (e) { console.error(e); }
     try { SkinInventory.clearInventory(); } catch (e) { console.error(e); }
-    if (_selectedCaseId) this._refreshCaseCount();
     this._refreshResetVisibility();
     this._evaluateOpenButton();
   },

@@ -36,6 +36,7 @@ import { i18n }           from '../../../src/foundation/i18n.js';
 const TEST_CASE_ID    = 'recoil_case';
 const TEST_CASE_PRICE = 0.50;
 const TEST_OPEN_COST  = 2.99; // 0.50 + 2.49
+const TEST_TERMINAL_ID = 'terminal_genesis';
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -276,24 +277,26 @@ describe('HudAppShell — Open button state', () => {
     const label = _appEl.querySelector('.btn-open').textContent;
     expect(label).toContain(`$${TEST_OPEN_COST.toFixed(2)}`);
   });
-});
 
-// ─── Case count badge ─────────────────────────────────────────────────────────
-
-describe('HudAppShell — case count badge', () => {
-  it('test_hud_case_count_shows_count_when_case_selected', () => {
-    CaseInventory.getCaseCount.mockReturnValue(3);
+  it('uses the terminal price without adding a key cost', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
-    HudAppShell.showCaseOpening(TEST_CASE_ID, TEST_CASE_PRICE);
-    expect(_appEl.querySelector('.case-count-badge').textContent).toBe('3 owned');
+    HudAppShell.showCaseOpening(TEST_TERMINAL_ID, TEST_CASE_PRICE, { isTerminal: true });
+
+    expect(_appEl.querySelector('.btn-open').textContent).toContain(`$${TEST_CASE_PRICE.toFixed(2)}`);
+    expect(_appEl.querySelector('.case-count-badge')).toBeNull();
   });
 
-  it('test_hud_case_count_updates_on_case_inventory_changed', () => {
-    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
-    HudAppShell.showCaseOpening(TEST_CASE_ID, TEST_CASE_PRICE);
-    CaseInventory.getCaseCount.mockReturnValue(2);
-    document.dispatchEvent(new CustomEvent(Events.CASE_INVENTORY_CHANGED));
-    expect(_appEl.querySelector('.case-count-badge').textContent).toBe('2 owned');
+  it('starts a terminal without adding it to the case inventory', () => {
+    const onOpenClick = vi.fn();
+    HudAppShell.init(_appEl, { onOpenClick });
+    setupMocks({ canAfford: true });
+    HudAppShell.showCaseOpening(TEST_TERMINAL_ID, TEST_CASE_PRICE, { isTerminal: true });
+    document.dispatchEvent(new CustomEvent(Events.REEL_READY));
+
+    _appEl.querySelector('.btn-open').click();
+
+    expect(CaseInventory.addCase).not.toHaveBeenCalled();
+    expect(onOpenClick).toHaveBeenCalledWith(TEST_TERMINAL_ID, TEST_CASE_PRICE);
   });
 });
 
