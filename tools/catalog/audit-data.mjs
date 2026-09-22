@@ -119,15 +119,25 @@ if (Object.keys(steamPrices).length < 10000) {
 }
 
 for (const entry of [...cases, ...souvenirs]) {
+  if (!(entry.market_price > 0)) errors.push(`${entry.name}: container price is missing or invalid`);
   if (steamPrices[entry.name] && entry.market_price !== steamPrices[entry.name].price) {
     errors.push(`${entry.name}: container price is not synchronized with Steam reference`);
   }
   for (const item of Object.values(entry.items ?? {}).flat()) {
+    if (!(item.market_price > 0)) errors.push(`${item.item_id}: item price is missing or invalid`);
+    if (!Object.keys(item.market_prices ?? {}).length) errors.push(`${item.item_id}: variant prices are missing`);
     for (const [group, variants] of Object.entries(item.market_prices ?? {})) {
       for (const [wear, price] of Object.entries(variants)) {
         if (!(price > 0)) errors.push(`${item.item_id}: invalid ${group}/${wear} Steam price`);
       }
     }
+  }
+}
+
+for (const entry of [...capsules, ...others]) {
+  if (!(entry.price > 0)) errors.push(`${entry.name}: container price is missing or invalid`);
+  for (const item of Object.values(entry.tiers ?? {}).flat()) {
+    if (!(item.market_price > 0)) errors.push(`${item.market_hash_name}: item price is missing or invalid`);
   }
 }
 
@@ -190,7 +200,7 @@ for (const item of marketItems) {
     errors.push(`${item.market_hash_name}: invalid rarity ${item.rarity}`);
   }
   if (item.price_source !== 'steam') errors.push(`${item.market_hash_name}: price source is not Steam`);
-  if (item.market_price !== null && !(item.market_price > 0)) {
+  if (!(item.market_price > 0)) {
     errors.push(`${item.market_hash_name}: invalid Steam market price`);
   }
   if (marketNames.has(item.market_hash_name)) errors.push(`Duplicate standalone market item: ${item.market_hash_name}`);

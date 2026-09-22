@@ -1,0 +1,72 @@
+{
+  "format_version": "1.0",
+  "verified_at": "2026-09-21",
+  "description": "Current third-party market-comparison quotes used only when Steam Community Market has no usable sell listing.",
+  "items": {
+    "Butterfly Knife | ★ Doppler": {
+      "source": "Pricempire",
+      "source_url": "https://pricempire.com/cs2-items/skin/butterfly-knife-doppler?variant=factory-new",
+      "market_prices": {
+        "normal": { "fn": 1981.15, "mw": 2199.90 },
+        "stattrak": { "fn": 2049.99, "mw": 2388.74 }
+      }
+    },
+    "Butterfly Knife | ★ Fade": {
+      "source": "CS2.io",
+      "source_url": "https://cs2.io/en/skins/knives/butterfly-knife-fade-factory-new",
+      "market_prices": {
+        "normal": { "fn": 2168.00, "mw": 2200.00 },
+        "stattrak": { "fn": 2085.48, "mw": 2869.90 }
+      }
+    },
+    "Specialist Gloves | ★ Crimson Kimono": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/specialist-gloves-crimson-kimono/field-tested",
+      "market_prices": {
+        "normal": { "fn": 8356.86, "mw": 2548.17, "ft": 1648.79, "ww": 1446.33, "bs": 1094.00 }
+      }
+    },
+    "Moto Gloves | ★ BOOM!": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/moto-gloves-boom/field-tested",
+      "market_prices": {
+        "normal": { "fn": 848.05, "mw": 527.58, "ft": 500.85, "ww": 155.62, "bs": 80.93 }
+      }
+    },
+    "Sport Gloves | ★ Hedge Maze": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/sport-gloves-hedge-maze/field-tested",
+      "market_prices": {
+        "normal": { "fn": 26096.03, "mw": 7050.00, "ft": 4085.89, "ww": 3121.79, "bs": 2070.96 }
+      }
+    },
+    "Sport Gloves | ★ Pandora's Box": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/sport-gloves-pandora-s-box/field-tested",
+      "market_prices": {
+        "normal": { "fn": 22200.00, "mw": 5320.01, "ft": 3280.00, "ww": 2938.81, "bs": 1927.79 }
+      }
+    },
+    "M4A1-S | Knight": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/souvenir-m4a1-s-knight/factory-new",
+      "market_prices": {
+        "souvenir": { "fn": 2385.92, "mw": 2191.19 }
+      }
+    },
+    "AWP | Dragon Lore": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/souvenir-awp-dragon-lore/field-tested",
+      "market_prices": {
+        "souvenir": { "fn": 11665.92, "mw": 8792.85, "ft": 6095.51, "ww": 6486.18, "bs": 6987.24 }
+      }
+    },
+    "AK-47 | Gold Arabesque": {
+      "source": "CSMarketCap",
+      "source_url": "https://csmarketcap.com/item/souvenir-ak-47-gold-arabesque/factory-new",
+      "market_prices": {
+        "souvenir": { "fn": 2162.24, "mw": 1468.83, "ft": 1149.49, "ww": 1085.00, "bs": 918.75 }
+      }
+    }
+  }
+}

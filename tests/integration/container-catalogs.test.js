@@ -78,4 +78,14 @@ describe('secondary container catalogues', () => {
       }
     }
   });
+
+  it('assigns a price to every container and contained item', () => {
+    for (const entry of allContainers) {
+      expect(entry.market_price ?? entry.price, entry.name).toBeGreaterThan(0);
+      expect(
+        Object.values(entry.tiers ?? entry.items ?? {}).flat().every(item => item.market_price > 0),
+        entry.name,
+      ).toBe(true);
+    }
+  });
 });

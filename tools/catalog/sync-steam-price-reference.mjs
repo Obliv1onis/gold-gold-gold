@@ -4,6 +4,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const REFERENCE = resolve('design/reference/skin-price.md');
+const FALLBACK_REFERENCE = resolve('design/reference/market-price-fallbacks.json');
 const CASES = resolve('public/data/cases.json');
 const SOUVENIRS = resolve('public/data/souvenirs.json');
 const OUTPUT = resolve('public/data/steam-prices.json');
@@ -63,10 +64,51 @@ function fallbackPrice(marketPrices, preferredGroup) {
   return variants.ft ?? variants.fn ?? variants.mw ?? variants.ww ?? variants.bs ?? variants.vanilla ?? null;
 }
 
+function skinKey(item) {
+  return `${item.weapon} | ${item.skin}`;
+}
+
+function mergePriceMaps(fallback = {}, steam = {}) {
+  const result = {};
+  for (const group of new Set([...Object.keys(fallback), ...Object.keys(steam)])) {
+    result[group] = { ...(fallback[group] ?? {}), ...(steam[group] ?? {}) };
+  }
+  return result;
+}
+
+function wearTiers(marketPrices) {
+  const available = new Set(Object.values(marketPrices).flatMap(variants => Object.keys(variants)));
+  return [...WEAR_KEYS.values()].filter(wear => available.has(wear));
+}
+
+function applyItemPrices(item, groups, prices, preferredGroup, fallbackData) {
+  const fallback = fallbackData.items?.[skinKey(item)] ?? null;
+  const marketPrices = mergePriceMaps(fallback?.market_prices, priceMapFor(item, groups, prices));
+  if (!Object.keys(marketPrices).length) return false;
+
+  item.market_prices = marketPrices;
+  item.market_price = fallbackPrice(marketPrices, preferredGroup) ?? item.market_price;
+  const tiers = wearTiers(marketPrices);
+  if (tiers.length && tiers.length < WEAR_KEYS.size) item.wear_tiers = tiers;
+  else delete item.wear_tiers;
+
+  if (fallback) {
+    item.price_basis = fallback.source;
+    item.price_source_url = fallback.source_url;
+    item.price_verified_at = fallbackData.verified_at;
+  } else {
+    delete item.price_basis;
+    delete item.price_source_url;
+    delete item.price_verified_at;
+  }
+  return !!fallback;
+}
+
 const args = new Set(process.argv.slice(2));
 if ([...args].some(arg => arg !== '--write')) throw new Error(`Unknown argument: ${[...args][0]}`);
-const [markdown, caseData, souvenirData] = await Promise.all([
+const [markdown, fallbackData, caseData, souvenirData] = await Promise.all([
   readFile(REFERENCE, 'utf8'),
+  readFile(FALLBACK_REFERENCE, 'utf8').then(JSON.parse),
   readFile(CASES, 'utf8').then(JSON.parse),
   readFile(SOUVENIRS, 'utf8').then(JSON.parse),
 ]);
@@ -83,15 +125,14 @@ const prices = new Map(markdown.split('\n')
   }]));
 if (!prices.size) throw new Error(`No Steam price rows found in ${REFERENCE}`);
 
+let fallbackItems = 0;
+
 for (const entry of caseData.cases) {
   const containerQuote = prices.get(entry.name);
   if (containerQuote) entry.market_price = containerQuote.price;
   for (const items of Object.values(entry.items ?? {})) {
     for (const item of items) {
-      const marketPrices = priceMapFor(item, ['normal', 'stattrak'], prices);
-      if (!Object.keys(marketPrices).length) continue;
-      item.market_prices = marketPrices;
-      item.market_price = fallbackPrice(marketPrices, 'normal') ?? item.market_price;
+      if (applyItemPrices(item, ['normal', 'stattrak'], prices, 'normal', fallbackData)) fallbackItems++;
     }
   }
 }
@@ -101,18 +142,17 @@ for (const entry of souvenirData.cases) {
   if (containerQuote) entry.market_price = containerQuote.price;
   for (const items of Object.values(entry.items ?? {})) {
     for (const item of items) {
-      const marketPrices = priceMapFor(item, ['souvenir'], prices);
-      if (!Object.keys(marketPrices).length) continue;
-      item.market_prices = marketPrices;
-      item.market_price = fallbackPrice(marketPrices, 'souvenir') ?? item.market_price;
+      if (applyItemPrices(item, ['souvenir'], prices, 'souvenir', fallbackData)) fallbackItems++;
     }
   }
 }
 
 caseData.catalog.price_source = 'Steam Community Market';
 caseData.catalog.price_verified_at = verifiedAt;
+caseData.catalog.fallback_price_reference = 'design/reference/market-price-fallbacks.json';
 souvenirData.catalog.price_source = 'Steam Community Market';
 souvenirData.catalog.price_verified_at = verifiedAt;
+souvenirData.catalog.fallback_price_reference = 'design/reference/market-price-fallbacks.json';
 
 const output = {
   format_version: '1.0',
@@ -134,5 +174,8 @@ if (!args.has('--write')) {
     writeFile(SOUVENIRS, `${JSON.stringify(souvenirData, null, 2)}\n`),
     writeFile(OUTPUT, `${JSON.stringify(output, null, 2)}\n`),
   ]);
-  console.log(`Wrote ${prices.size} Steam prices and updated case/souvenir catalogues.`);
+    console.log(
+      `Wrote ${prices.size} Steam prices and updated case/souvenir catalogues `
+      + `(${fallbackItems} container-item rows used verified fallback quotes).`,
+    );
 }

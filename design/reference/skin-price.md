@@ -5,9 +5,9 @@
 > Direct checks: Steam Community Market priceoverview, lowest sell listing in USD.
 > Prices are snapshots and are refreshed from Steam at runtime when an item is visible.
 > Bulk snapshot: 2026-09-12T02:36:30Z.
-> Verified at: 2026-09-21T02:46:44.605Z.
+> Verified at: 2026-09-21T23:34:52.302Z.
 
-Priced market variants: 10468. Directly refreshed entries: 146.
+Priced market variants: 10480. Directly refreshed entries: 158.
 
 | Market hash name | Steam price (USD) | Listings | Updated at | Source |
 | --- | ---: | ---: | --- | --- |
@@ -241,6 +241,8 @@ Priced market variants: 10468. Directly refreshed entries: 146.
 | ★ Butterfly Knife \| Scorched (Minimal Wear) | 836.30 | 3 | 2026-09-11T22:09:51.175Z | steam-bulk |
 | ★ Butterfly Knife \| Scorched (Well-Worn) | 650.15 | 8 | 2026-09-11T22:09:51.143Z | steam-bulk |
 | ★ Butterfly Knife \| Slaughter (Factory New) | 1800.00 | — | 2026-09-21T02:19:26.297Z | steam-direct |
+| ★ Butterfly Knife \| Slaughter (Field-Tested) | 1800.00 | — | 2026-09-21T23:32:43.475Z | steam-direct |
+| ★ Butterfly Knife \| Slaughter (Minimal Wear) | 1721.49 | — | 2026-09-21T23:32:43.104Z | steam-direct |
 | ★ Butterfly Knife \| Stained (Battle-Scarred) | 886.25 | 5 | 2026-09-11T22:09:51.190Z | steam-bulk |
 | ★ Butterfly Knife \| Stained (Factory New) | 1287.10 | 2 | 2026-09-11T22:09:51.207Z | steam-bulk |
 | ★ Butterfly Knife \| Stained (Field-Tested) | 917.25 | 12 | 2026-09-11T22:09:51.190Z | steam-bulk |
@@ -803,6 +805,7 @@ Priced market variants: 10468. Directly refreshed entries: 146.
 | ★ Karambit \| Freehand (Factory New) | 998.24 | 6 | 2026-09-11T22:09:51.191Z | steam-bulk |
 | ★ Karambit \| Freehand (Field-Tested) | 826.27 | 9 | 2026-09-11T22:09:51.175Z | steam-bulk |
 | ★ Karambit \| Freehand (Minimal Wear) | 830.15 | 6 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| ★ Karambit \| Gamma Doppler (Factory New) | 1753.63 | — | 2026-09-21T23:31:38.618Z | steam-direct |
 | ★ Karambit \| Lore (Battle-Scarred) | 801.64 | 5 | 2026-09-11T22:09:51.174Z | steam-bulk |
 | ★ Karambit \| Lore (Field-Tested) | 857.98 | 14 | 2026-09-11T22:09:51.175Z | steam-bulk |
 | ★ Karambit \| Lore (Minimal Wear) | 1276.25 | 2 | 2026-09-11T22:09:51.207Z | steam-bulk |
@@ -1555,6 +1558,7 @@ Priced market variants: 10468. Directly refreshed entries: 146.
 | ★ StatTrak™ Butterfly Knife \| Safari Mesh (Minimal Wear) | 798.61 | 2 | 2026-09-11T22:09:46.097Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Scorched (Field-Tested) | 730.31 | 9 | 2026-09-11T22:09:46.097Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Scorched (Well-Worn) | 804.70 | 2 | 2026-09-11T22:09:46.097Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Slaughter (Field-Tested) | 1800.00 | — | 2026-09-21T23:32:43.475Z | steam-direct |
 | ★ StatTrak™ Butterfly Knife \| Stained (Battle-Scarred) | 843.03 | 2 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Stained (Well-Worn) | 1056.76 | 2 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Ultraviolet (Battle-Scarred) | 874.42 | 2 | 2026-09-11T11:39:46.458Z | steam-bulk |
@@ -5469,8 +5473,11 @@ Priced market variants: 10468. Directly refreshed entries: 146.
 | Shanghai 2024 Dust II Souvenir Package | 4.73 | 405 | 2026-09-11T22:09:49.006Z | steam-bulk |
 | Shattered Web Case | 6.34 | — | 2026-09-21T02:14:06.956Z | steam-direct |
 | Snakebite Case | 0.57 | — | 2026-09-21T02:14:05.368Z | steam-direct |
+| Souvenir AK-47 \| B the Monster (Battle-Scarred) | 126.24 | — | 2026-09-21T23:34:52.009Z | steam-direct |
 | Souvenir AK-47 \| B the Monster (Factory New) | 1006.10 | — | 2026-09-21T02:46:23.473Z | steam-direct |
+| Souvenir AK-47 \| B the Monster (Field-Tested) | 204.90 | — | 2026-09-21T23:34:51.928Z | steam-direct |
 | Souvenir AK-47 \| B the Monster (Minimal Wear) | 342.71 | — | 2026-09-21T02:46:23.556Z | steam-direct |
+| Souvenir AK-47 \| B the Monster (Well-Worn) | 236.00 | — | 2026-09-21T23:34:51.924Z | steam-direct |
 | Souvenir AK-47 \| Black Laminate (Battle-Scarred) | 47.49 | 8 | 2026-09-11T22:09:50.305Z | steam-bulk |
 | Souvenir AK-47 \| Black Laminate (Field-Tested) | 46.57 | 17 | 2026-09-11T22:09:50.304Z | steam-bulk |
 | Souvenir AK-47 \| Black Laminate (Minimal Wear) | 67.46 | 13 | 2026-09-11T22:09:50.468Z | steam-bulk |
@@ -5675,8 +5682,11 @@ Priced market variants: 10468. Directly refreshed entries: 146.
 | Souvenir Dual Berettas \| Stained (Field-Tested) | 5.93 | 9 | 2026-09-11T22:09:49.176Z | steam-bulk |
 | Souvenir Dual Berettas \| Stained (Minimal Wear) | 8.49 | 6 | 2026-09-11T22:09:49.415Z | steam-bulk |
 | Souvenir Dual Berettas \| Stained (Well-Worn) | 9.87 | 7 | 2026-09-11T22:09:49.495Z | steam-bulk |
+| Souvenir Dual Berettas \| Sweet Little Angels (Battle-Scarred) | 3.47 | — | 2026-09-21T23:34:51.589Z | steam-direct |
 | Souvenir Dual Berettas \| Sweet Little Angels (Factory New) | 30.84 | — | 2026-09-21T02:23:48.257Z | steam-direct |
 | Souvenir Dual Berettas \| Sweet Little Angels (Field-Tested) | 3.49 | — | 2026-09-21T02:23:48.660Z | steam-direct |
+| Souvenir Dual Berettas \| Sweet Little Angels (Minimal Wear) | 6.92 | — | 2026-09-21T23:34:51.484Z | steam-direct |
+| Souvenir Dual Berettas \| Sweet Little Angels (Well-Worn) | 4.34 | — | 2026-09-21T23:34:51.550Z | steam-direct |
 | Souvenir Dual Berettas \| Twin Turbo (Battle-Scarred) | 25.80 | 5 | 2026-09-11T22:09:50.024Z | steam-bulk |
 | Souvenir Dual Berettas \| Twin Turbo (Factory New) | 135.81 | 5 | 2026-09-11T22:09:50.770Z | steam-bulk |
 | Souvenir Dual Berettas \| Twin Turbo (Field-Tested) | 25.76 | 6 | 2026-09-11T22:09:50.024Z | steam-bulk |
@@ -6824,7 +6834,9 @@ Priced market variants: 10468. Directly refreshed entries: 146.
 | Souvenir XM1014 \| Hieroglyph (Minimal Wear) | 0.27 | 139 | 2026-09-11T22:09:47.219Z | steam-bulk |
 | Souvenir XM1014 \| Hieroglyph (Well-Worn) | 0.07 | 313 | 2026-09-11T22:09:46.724Z | steam-bulk |
 | Souvenir XM1014 \| Monster Melt (Battle-Scarred) | 2.72 | — | 2026-09-21T02:46:21.844Z | steam-direct |
+| Souvenir XM1014 \| Monster Melt (Factory New) | 16.06 | — | 2026-09-21T23:34:51.559Z | steam-direct |
 | Souvenir XM1014 \| Monster Melt (Field-Tested) | 2.96 | — | 2026-09-21T02:46:21.730Z | steam-direct |
+| Souvenir XM1014 \| Monster Melt (Minimal Wear) | 8.60 | — | 2026-09-21T23:34:51.926Z | steam-direct |
 | Souvenir XM1014 \| Monster Melt (Well-Worn) | 4.63 | — | 2026-09-21T02:46:21.746Z | steam-direct |
 | Souvenir XM1014 \| Run Run Run (Battle-Scarred) | 0.32 | — | 2026-09-21T02:21:36.045Z | steam-direct |
 | Souvenir XM1014 \| Run Run Run (Factory New) | 3.65 | — | 2026-09-21T02:21:35.700Z | steam-direct |

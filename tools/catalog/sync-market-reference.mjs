@@ -41,12 +41,13 @@ const musicVerifiedAt = musicMarkdown.match(/^> Verified at: (.+)\.$/m)?.[1] ?? 
 const rows = markdown.split('\n')
   .filter(line => /^\| sticker-/.test(line))
   .map(splitRow)
-  .map(([id, marketHashName, rarity, price, listings]) => ({
+  .map(([id, marketHashName, rarity, price, listings, priceBasis]) => ({
     id,
     marketHashName,
     rarity,
     marketPrice: price === '—' ? null : Number(price),
     listings: listings === '—' ? null : Number(listings),
+    priceBasis: priceBasis || 'Steam listing',
   }));
 const musicRows = musicMarkdown.split('\n')
   .filter(line => /^\| music_kit-/.test(line))
@@ -79,6 +80,7 @@ const stickerItems = rows.map(row => {
     rarity: row.rarity,
     market_price: row.marketPrice,
     price_source: 'steam',
+    price_basis: row.priceBasis,
     steam_listings: row.listings,
     capsuleType: 'sticker_capsule',
     capsuleName: 'Cologne 2026 Direct Sticker Market',
@@ -118,6 +120,7 @@ const output = {
     music_kit_items: musicItems.length,
     direct_music_kits: new Set(musicItems.map(item => item.market_hash_name.replace(/^StatTrak™\s+/, ''))).size,
     priced_items: items.filter(item => item.market_price !== null).length,
+    estimated_items: items.filter(item => item.price_basis && item.price_basis !== 'Steam listing').length,
     missing_images: items.filter(item => !item.image_url).length,
   },
   items,

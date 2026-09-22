@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 const caseData = JSON.parse(readFileSync('public/data/cases.json', 'utf8'));
 const souvenirData = JSON.parse(readFileSync('public/data/souvenirs.json', 'utf8'));
 const steamData = JSON.parse(readFileSync('public/data/steam-prices.json', 'utf8'));
+const fallbackData = JSON.parse(readFileSync('design/reference/market-price-fallbacks.json', 'utf8'));
 
 const WEARS = { fn: 'Factory New', mw: 'Minimal Wear', ft: 'Field-Tested', ww: 'Well-Worn', bs: 'Battle-Scarred' };
 
@@ -43,11 +44,18 @@ describe('Steam price catalogue', () => {
       for (const [group, prices] of Object.entries(item.market_prices ?? {})) {
         for (const [wear, price] of Object.entries(prices)) {
           const name = hashName(item, group, wear);
-          expect(steamData.prices[name]?.price, name).toBe(price);
+          const fallback = fallbackData.items[`${item.weapon} | ${item.skin}`]?.market_prices?.[group]?.[wear];
+          expect(steamData.prices[name]?.price ?? fallback, name).toBe(price);
           variants++;
         }
       }
     }
     expect(variants).toBeGreaterThan(25000);
+  });
+
+  it('gives every case and souvenir item a complete usable price record', () => {
+    const items = [...allItems(caseData.cases), ...allItems(souvenirData.cases)];
+    expect(items.every(item => item.market_price > 0)).toBe(true);
+    expect(items.every(item => Object.keys(item.market_prices ?? {}).length > 0)).toBe(true);
   });
 });

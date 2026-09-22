@@ -28,8 +28,9 @@ describe('Standalone market catalogue', () => {
   it('contains complete market metadata and Steam prices', () => {
     expect(data.catalog.price_source).toContain('Steam Community Market');
     expect(items.every(item => item.id && item.image_url && item.rarity)).toBe(true);
-    expect(items.every(item => item.market_price === null || item.market_price > 0)).toBe(true);
+    expect(items.every(item => item.market_price > 0)).toBe(true);
     expect(musicKits.every(item => item.market_price > 0)).toBe(true);
+    expect(data.catalog.estimated_items).toBe(35);
   });
 
   it('uses only supported sticker rarities', () => {

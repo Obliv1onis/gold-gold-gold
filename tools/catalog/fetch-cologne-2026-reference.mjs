@@ -92,27 +92,59 @@ for (let start = PAGE_SIZE; start < total; start += PAGE_SIZE) {
 }
 
 const verifiedAt = new Date().toISOString();
+const median = values => {
+  const sorted = [...values].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+};
+const rarityMedians = new Map();
+for (const rarity of Object.values(rarityMap)) {
+  const values = stickers
+    .filter(item => (rarityMap[item.rarity?.id] ?? 'high_grade') === rarity)
+    .map(item => steamPrices.get(item.name)?.price)
+    .filter(Number.isFinite);
+  if (values.length) rarityMedians.set(rarity, median(values));
+}
+const comparableName = name => name.includes(', Ranked)')
+  ? name.replace(', Ranked)', ')')
+  : name.replace(/\) \| Cologne 2026$/, ', Ranked) | Cologne 2026');
+const quotes = new Map(stickers.map(item => {
+  const direct = steamPrices.get(item.name);
+  if (Number.isFinite(direct?.price)) return [item.name, { ...direct, basis: 'Steam listing' }];
+  const comparable = steamPrices.get(comparableName(item.name));
+  if (Number.isFinite(comparable?.price)) {
+    return [item.name, { price: comparable.price, listings: null, basis: 'Steam comparable' }];
+  }
+  const rarity = rarityMap[item.rarity?.id] ?? 'high_grade';
+  return [item.name, {
+    price: rarityMedians.get(rarity),
+    listings: null,
+    basis: 'Steam rarity median',
+  }];
+}));
+const directCount = [...quotes.values()].filter(quote => quote.basis === 'Steam listing').length;
+const estimatedCount = quotes.size - directCount;
 const lines = [
   '# Cologne 2026 Sticker Market Reference',
   '',
   '> Canonical input for the simulator\'s standalone Cologne 2026 market catalogue.',
   `> Sticker metadata: [ByMykel/CSGO-API](${STICKERS_URL}).`,
-  '> Prices: Steam Community Market lowest sell listing in USD; prices are snapshots and may change.',
+  '> Prices: Steam Community Market lowest sell listing in USD. Items without an active listing use the closest ranked/unranked Steam comparable, then the current Steam rarity median.',
   `> Verified at: ${verifiedAt}.`,
   '',
-  `Items: ${stickers.length}. Steam-priced items: ${steamPrices.size}.`,
+  `Items: ${stickers.length}. Direct Steam listings: ${directCount}. Estimated from Steam comparables: ${estimatedCount}.`,
   '',
-  '| API ID | Market hash name | Rarity | Steam price (USD) | Listings |',
-  '| --- | --- | --- | ---: | ---: |',
+  '| API ID | Market hash name | Rarity | Steam price (USD) | Listings | Price basis |',
+  '| --- | --- | --- | ---: | ---: | --- |',
 ];
 for (const item of stickers) {
-  const quote = steamPrices.get(item.name);
+  const quote = quotes.get(item.name);
   lines.push(
     `| ${escapeCell(item.id)} | ${escapeCell(item.name)} | ${rarityMap[item.rarity?.id] ?? 'high_grade'} | `
-    + `${quote?.price?.toFixed(2) ?? '—'} | ${quote?.listings ?? '—'} |`,
+    + `${quote.price.toFixed(2)} | ${quote.listings ?? '—'} | ${quote.basis} |`,
   );
 }
 lines.push('');
 
 await writeFile(OUTPUT, `${lines.join('\n')}\n`);
-console.log(`Wrote ${stickers.length} stickers (${steamPrices.size} priced) to ${OUTPUT}`);
+console.log(`Wrote ${stickers.length} stickers (${directCount} direct, ${estimatedCount} estimated) to ${OUTPUT}`);

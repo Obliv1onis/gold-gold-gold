@@ -4,8 +4,8 @@
     "source_reference": "design/reference/skin-price.md",
     "price_source": "Steam Community Market",
     "bulk_snapshot": "2026-09-12T02:36:30Z",
-    "verified_at": "2026-09-21T02:46:44.605Z",
-    "items": 10468
+    "verified_at": "2026-09-21T23:34:52.302Z",
+    "items": 10480
   },
   "prices": {
     "★ Bayonet": {
@@ -1386,6 +1386,18 @@
       "price": 1800,
       "listings": null,
       "updated_at": "2026-09-21T02:19:26.297Z",
+      "source": "steam-direct"
+    },
+    "★ Butterfly Knife | Slaughter (Field-Tested)": {
+      "price": 1800,
+      "listings": null,
+      "updated_at": "2026-09-21T23:32:43.475Z",
+      "source": "steam-direct"
+    },
+    "★ Butterfly Knife | Slaughter (Minimal Wear)": {
+      "price": 1721.49,
+      "listings": null,
+      "updated_at": "2026-09-21T23:32:43.104Z",
       "source": "steam-direct"
     },
     "★ Butterfly Knife | Stained (Battle-Scarred)": {
@@ -4759,6 +4771,12 @@
       "listings": 6,
       "updated_at": "2026-09-11T22:09:51.175Z",
       "source": "steam-bulk"
+    },
+    "★ Karambit | Gamma Doppler (Factory New)": {
+      "price": 1753.63,
+      "listings": null,
+      "updated_at": "2026-09-21T23:31:38.618Z",
+      "source": "steam-direct"
     },
     "★ Karambit | Lore (Battle-Scarred)": {
       "price": 801.64,
@@ -9271,6 +9289,12 @@
       "listings": 2,
       "updated_at": "2026-09-11T22:09:46.097Z",
       "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Slaughter (Field-Tested)": {
+      "price": 1800,
+      "listings": null,
+      "updated_at": "2026-09-21T23:32:43.475Z",
+      "source": "steam-direct"
     },
     "★ StatTrak™ Butterfly Knife | Stained (Battle-Scarred)": {
       "price": 843.03,
@@ -32756,16 +32780,34 @@
       "updated_at": "2026-09-21T02:14:05.368Z",
       "source": "steam-direct"
     },
+    "Souvenir AK-47 | B the Monster (Battle-Scarred)": {
+      "price": 126.24,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:52.009Z",
+      "source": "steam-direct"
+    },
     "Souvenir AK-47 | B the Monster (Factory New)": {
       "price": 1006.1,
       "listings": null,
       "updated_at": "2026-09-21T02:46:23.473Z",
       "source": "steam-direct"
     },
+    "Souvenir AK-47 | B the Monster (Field-Tested)": {
+      "price": 204.9,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.928Z",
+      "source": "steam-direct"
+    },
     "Souvenir AK-47 | B the Monster (Minimal Wear)": {
       "price": 342.71,
       "listings": null,
       "updated_at": "2026-09-21T02:46:23.556Z",
+      "source": "steam-direct"
+    },
+    "Souvenir AK-47 | B the Monster (Well-Worn)": {
+      "price": 236,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.924Z",
       "source": "steam-direct"
     },
     "Souvenir AK-47 | Black Laminate (Battle-Scarred)": {
@@ -33992,6 +34034,12 @@
       "updated_at": "2026-09-11T22:09:49.495Z",
       "source": "steam-bulk"
     },
+    "Souvenir Dual Berettas | Sweet Little Angels (Battle-Scarred)": {
+      "price": 3.47,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.589Z",
+      "source": "steam-direct"
+    },
     "Souvenir Dual Berettas | Sweet Little Angels (Factory New)": {
       "price": 30.84,
       "listings": null,
@@ -34002,6 +34050,18 @@
       "price": 3.49,
       "listings": null,
       "updated_at": "2026-09-21T02:23:48.660Z",
+      "source": "steam-direct"
+    },
+    "Souvenir Dual Berettas | Sweet Little Angels (Minimal Wear)": {
+      "price": 6.92,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.484Z",
+      "source": "steam-direct"
+    },
+    "Souvenir Dual Berettas | Sweet Little Angels (Well-Worn)": {
+      "price": 4.34,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.550Z",
       "source": "steam-direct"
     },
     "Souvenir Dual Berettas | Twin Turbo (Battle-Scarred)": {
@@ -40886,10 +40946,22 @@
       "updated_at": "2026-09-21T02:46:21.844Z",
       "source": "steam-direct"
     },
+    "Souvenir XM1014 | Monster Melt (Factory New)": {
+      "price": 16.06,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.559Z",
+      "source": "steam-direct"
+    },
     "Souvenir XM1014 | Monster Melt (Field-Tested)": {
       "price": 2.96,
       "listings": null,
       "updated_at": "2026-09-21T02:46:21.730Z",
+      "source": "steam-direct"
+    },
+    "Souvenir XM1014 | Monster Melt (Minimal Wear)": {
+      "price": 8.6,
+      "listings": null,
+      "updated_at": "2026-09-21T23:34:51.926Z",
       "source": "steam-direct"
     },
     "Souvenir XM1014 | Monster Melt (Well-Worn)": {

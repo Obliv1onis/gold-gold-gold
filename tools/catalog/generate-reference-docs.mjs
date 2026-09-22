@@ -104,92 +104,67 @@ function generatedHeader(title, dataKey, catalog, description) {
   ];
 }
 
-function renderWeights(weights, order) {
-  const parts = order
-    .filter(rarity => (weights?.[rarity] ?? 0) > 0)
-    .map(rarity => `${LABELS[rarity]} ${weights[rarity]}%`);
-  return parts.join(' · ');
+function itemPriceSource(item, catalog) {
+  return item.price_basis ?? item.price_source ?? catalog?.price_source ?? 'Catalogue reference';
 }
 
-function renderCaseContents(entries, title, dataKey, catalog) {
+function containerType(entry, fallback) {
+  if (entry.type === 'weapon_case') return 'Weapon Case';
+  if (entry.type === 'terminal') return 'Terminal';
+  if (entry.type === 'souvenir_package') return 'Souvenir Package';
+  return LABELS[entry.type] ?? fallback;
+}
+
+function renderContentsTable({ entries, title, dataKey, catalog, poolKey, rarityOrder, fallbackType, itemName, itemFilter }) {
   const lines = generatedHeader(
     title,
     dataKey,
     catalog,
-    `Complete simulator contents for ${entries.length} containers.`,
+    `Complete priced simulator contents for ${entries.length} containers.`,
   );
-  lines.push('## Rarity key', '');
-  for (const rarity of CASE_RARITIES) lines.push(`- **${LABELS[rarity]}**`);
-  lines.push('', '## Containers', '');
-
+  lines.push('| Container | Container type | Release date | Container price | Rarity | Drop weight | Item | Item price | Price source |');
+  lines.push('| --- | --- | --- | ---: | --- | ---: | --- | ---: | --- |');
   for (const entry of sortByNewest(entries)) {
-    lines.push(`### ${entry.name}`, '');
-    lines.push(`- Release date: ${date(entry.release_date)}`);
-    lines.push(`- ${catalog?.price_source ? 'Steam market price' : 'Fallback price'}: ${money(entry.market_price)}`);
-    lines.push(`- Items: ${itemCount(entry, 'items')}`);
-    lines.push(`- Drop weights: ${renderWeights(entry.rarity_weights, CASE_RARITIES)}`, '');
-    for (const rarity of CASE_RARITIES) {
-      const items = entry.items?.[rarity] ?? [];
-      if (!items.length) continue;
-      lines.push(`#### ${LABELS[rarity]} (${items.length})`, '');
-      for (const item of items) lines.push(`- ${caseItemName(item)}`);
-      lines.push('');
-    }
-  }
-  return lines;
-}
-
-function renderCapsuleContents(entries) {
-  const lines = generatedHeader(
-    'Sticker Capsule and Autograph Contents',
-    'capsules',
-    capsuleData.catalog,
-    `Complete simulator contents for ${entries.length} sticker and autograph capsules.`,
-  );
-  lines.push('## Containers', '');
-  for (const entry of sortByNewest(entries)) {
-    lines.push(`### ${entry.name}`, '');
-    lines.push(`- Release date: ${date(entry.release_date)}`);
-    lines.push(`- Fallback price: ${money(entry.price)}`);
-    lines.push(`- Items: ${itemCount(entry, 'tiers')}`);
-    lines.push(`- Drop weights: ${renderWeights(entry.rarity_weights, CAPSULE_RARITIES)}`, '');
-    for (const rarity of CAPSULE_RARITIES) {
-      const items = entry.tiers?.[rarity] ?? [];
-      if (!items.length) continue;
-      lines.push(`#### ${LABELS[rarity]} (${items.length})`, '');
-      for (const item of items) lines.push(`- ${item.name}`);
-      lines.push('');
-    }
-  }
-  return lines;
-}
-
-function renderOtherContents(entries) {
-  const lines = generatedHeader(
-    'Other Cosmetic Container Contents',
-    'others',
-    otherData.catalog,
-    `Complete simulator contents for ${entries.length} charm, patch, pin, and music-kit containers.`,
-  );
-  for (const type of ['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box']) {
-    const group = sortByNewest(entries.filter(entry => entry.type === type));
-    lines.push(`## ${LABELS[type]} (${group.length})`, '');
-    for (const entry of group) {
-      lines.push(`### ${entry.name}`, '');
-      lines.push(`- Release date: ${date(entry.release_date)}`);
-      lines.push(`- Fallback price: ${money(entry.price)}`);
-      lines.push(`- Items: ${itemCount(entry, 'tiers')}`);
-      lines.push(`- Drop weights: ${renderWeights(entry.rarity_weights, CAPSULE_RARITIES)}`, '');
-      for (const rarity of CAPSULE_RARITIES) {
-        const items = entry.tiers?.[rarity] ?? [];
-        if (!items.length) continue;
-        lines.push(`#### ${LABELS[rarity]} (${items.length})`, '');
-        for (const item of items) lines.push(`- ${item.name}`);
-        lines.push('');
+    for (const rarity of rarityOrder) {
+      const items = (entry[poolKey]?.[rarity] ?? []).filter(item => !itemFilter || itemFilter(item, entry));
+      for (const item of items) {
+        if (!Number.isFinite(item.market_price)) {
+          throw new Error(`${entry.name} / ${itemName(item)} has no item price`);
+        }
+        lines.push(
+          `| ${escapeTable(entry.name)} | ${escapeTable(containerType(entry, fallbackType))} | ${date(entry.release_date)} | `
+          + `${money(entry.market_price ?? entry.price)} | ${escapeTable(LABELS[rarity] ?? rarity)} | `
+          + `${entry.rarity_weights?.[rarity] ?? '—'}% | ${escapeTable(itemName(item))} | ${money(item.market_price)} | `
+          + `${escapeTable(itemPriceSource(item, catalog))} |`,
+        );
       }
     }
   }
+  lines.push('');
   return lines;
+}
+
+function renderCaseContents(entries, title, dataKey, catalog) {
+  return renderContentsTable({
+    entries, title, dataKey, catalog, poolKey: 'items', rarityOrder: CASE_RARITIES,
+    fallbackType: 'Weapon Case', itemName: caseItemName,
+  });
+}
+
+function renderCapsuleContents(entries) {
+  return renderContentsTable({
+    entries, title: 'Sticker Capsule and Autograph Contents', dataKey: 'capsules',
+    catalog: capsuleData.catalog, poolKey: 'tiers', rarityOrder: CAPSULE_RARITIES,
+    fallbackType: 'Sticker / Autograph Capsule', itemName: item => item.name,
+  });
+}
+
+function renderOtherContents(entries) {
+  return renderContentsTable({
+    entries, title: 'Other Cosmetic Container Contents', dataKey: 'others',
+    catalog: otherData.catalog, poolKey: 'tiers', rarityOrder: CAPSULE_RARITIES,
+    fallbackType: 'Other Cosmetic Container', itemName: item => item.name,
+  });
 }
 
 function renderPriceIndex(title, dataKey, catalog, entries, typeLabel, priceKey, poolKey) {
@@ -216,20 +191,11 @@ function renderPriceIndex(title, dataKey, catalog, entries, typeLabel, priceKey,
 
 function renderRareSpecials(entries) {
   const withSpecials = entries.filter(entry => entry.items?.rare_special?.length);
-  const lines = generatedHeader(
-    'Rare Special Item Pools',
-    'cases',
-    caseData.catalog,
-    `Rare-special pools for ${withSpecials.length} cases and terminals.`,
-  );
-  lines.push('## Containers', '');
-  for (const entry of sortByNewest(withSpecials)) {
-    lines.push(`### ${entry.name} (${entry.items.rare_special.length})`, '');
-    lines.push(`- Drop weight: ${entry.rarity_weights.rare_special}%`, '');
-    for (const item of entry.items.rare_special) lines.push(`- ${caseItemName(item)}`);
-    lines.push('');
-  }
-  return lines;
+  return renderContentsTable({
+    entries: withSpecials, title: 'Rare Special Item Pools', dataKey: 'cases',
+    catalog: caseData.catalog, poolKey: 'items', rarityOrder: ['rare_special'],
+    fallbackType: 'Weapon Case', itemName: caseItemName,
+  });
 }
 
 function renderMusicKits(entries, standaloneItems) {
