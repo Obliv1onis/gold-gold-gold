@@ -128,13 +128,11 @@ describe('SkinInventory — sellItem', () => {
     expect(VirtualEconomy.earn).not.toHaveBeenCalled();
   });
 
-  it('test_si_sellItem_allows_zero_sale_price_removes_item_earns_nothing', () => {
+  it('test_si_sellItem_rejects_zero_sale_price_without_removing_item', () => {
     const entry = SkinInventory.addItem(ITEM());
-    const ok = SkinInventory.sellItem(entry.instanceId, 0);
-    expect(ok).toBe(true);
-    expect(SkinInventory.hasItem(entry.instanceId)).toBe(false);
-    // Earn is called with 0 * 0.85 = 0
-    expect(VirtualEconomy.earn).toHaveBeenCalledWith(0);
+    expect(() => SkinInventory.sellItem(entry.instanceId, 0)).toThrow(InventoryError);
+    expect(SkinInventory.hasItem(entry.instanceId)).toBe(true);
+    expect(VirtualEconomy.earn).not.toHaveBeenCalled();
   });
 
   it('test_si_sellItem_throws_inventory_error_for_negative_sale_price', () => {

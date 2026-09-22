@@ -60,11 +60,15 @@ export const SkinInventory = {
   hasItem(instanceId) { return _inventory.some(e => e.instanceId === instanceId); },
 
   sellItem(instanceId, salePrice) {
-    if (salePrice < 0) throw new InventoryError('salePrice cannot be negative');
+    if (!Number.isFinite(salePrice) || salePrice <= 0) {
+      throw new InventoryError('salePrice must be a positive finite number');
+    }
     const idx = _inventory.findIndex(e => e.instanceId === instanceId);
     if (idx === -1) return false;
+    const proceeds = _round(salePrice * (1 - SELL_FEE_RATE));
+    if (proceeds <= 0) throw new InventoryError('sale proceeds must be positive');
     _inventory.splice(idx, 1);
-    VirtualEconomy.earn(_round(salePrice * (1 - SELL_FEE_RATE)));
+    VirtualEconomy.earn(proceeds);
     _persist();
     _emit();
     return true;

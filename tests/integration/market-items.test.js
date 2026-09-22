@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import { describe, expect, it } from 'vitest';
+import { getMusicKitPreviewId } from '../../src/foundation/music-kit-previews.js';
 
 const data = JSON.parse(fs.readFileSync('public/data/market-items.json', 'utf8'));
 const items = data.items ?? [];
@@ -23,6 +24,10 @@ describe('Standalone market catalogue', () => {
       'Music Kit | ALRT, DOPAMINE HIT',
       'StatTrak™ Music Kit | ALRT, DOPAMINE HIT',
     ]));
+  });
+
+  it('provides a playable preview for every direct-market music kit', () => {
+    expect(musicKits.filter(item => !getMusicKitPreviewId(item.name))).toEqual([]);
   });
 
   it('contains complete market metadata and Steam prices', () => {

@@ -13,6 +13,8 @@ describe('MusicKitPlayer', () => {
     expect(getMusicKitPreviewId('StatTrak™ Music Kit | Matt Levine, Agency')).toBe('Na5KWN7aSk8');
     expect(getMusicKitPreviewId('Music Kit | TWERL, Ekko & Sidetrack, Under Bright Lights')).toBe('9fg9ic46ik0');
     expect(getMusicKitPreviewId('StatTrak™ Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights')).toBe('9fg9ic46ik0');
+    expect(getMusicKitPreviewId('Music Kit | ALRT, DOPAMINE HIT')).toBe('fehhzTMUvQ0');
+    expect(getMusicKitPreviewId('StatTrak™ Music Kit | The Verkkars, EZ4ENCE')).toBe('IUPv-ZNaMLM');
   });
 
   it('opens a playable modal even when an old inventory item has no youtube_id', () => {
