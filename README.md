@@ -17,7 +17,7 @@ A modern, fast, web-based **Counter-Strike 2 (CS2) Case Opening Simulator** that
 
 * **Core Framework:** Vanilla JavaScript (ES6+), HTML5, CSS3
 * **Bundler & Build Tool:** Vite
-* **Deployment:** [Netifly](https://enchanting-donut-550b47.netlify.app/)
+* **Deployment:** [Vercel](https://goldgoldgold.online/)
 
 ---
 
