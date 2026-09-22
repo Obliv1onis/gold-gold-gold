@@ -26,6 +26,17 @@ export default {
   nav_inventory:    'Inventory',
   nav_credits:      'Credits',
 
+  // Credits
+  credits_title:               'Credits',
+  credits_license:             'License',
+  credits_license_body:        'This project is released under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided the original copyright notice and permission notice are included in all copies or substantial portions of the software.',
+  credits_license_disclaimer:  'THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+  credits_links:               'Links',
+  credits_github:              'GitHub Repository',
+  credits_bilibili:            'Bilibili',
+  credits_steam:               'Steam Profile',
+  credits_contact:             'Contact',
+
   // Home tiles
   coming_soon:      'Coming Soon',
   tile_weapon_case:       'Weapon Cases',

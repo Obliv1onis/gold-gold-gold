@@ -152,47 +152,31 @@ export const HudAppShell = {
         </div>
         <div class="view" id="credits-view">
           <div class="credits-page">
-            <h2 class="credits-title">Credits</h2>
+            <h2 class="credits-title" data-i18n="credits_title">Credits</h2>
 
             <section class="credits-section">
-              <h3 class="credits-section-title">License</h3>
-              <p class="credits-text">
-                This project is released under the
-                <strong>MIT License</strong>.
-                You are free to use, copy, modify, merge, publish, distribute,
-                sublicense, and/or sell copies of the software, provided the
-                original copyright notice and permission notice are included in
-                all copies or substantial portions of the software.
-              </p>
-              <p class="credits-text credits-text--muted">
-                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-                MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-                NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-                HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-                WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-                DEALINGS IN THE SOFTWARE.
-              </p>
+              <h3 class="credits-section-title" data-i18n="credits_license">License</h3>
+              <p class="credits-text" data-i18n="credits_license_body">This project is released under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided the original copyright notice and permission notice are included in all copies or substantial portions of the software.</p>
+              <p class="credits-text credits-text--muted" data-i18n="credits_license_disclaimer">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
             </section>
 
             <section class="credits-section">
-              <h3 class="credits-section-title">Links</h3>
+              <h3 class="credits-section-title" data-i18n="credits_links">Links</h3>
               <ul class="credits-links">
                 <li>
-                  <a class="credits-link" href="https://github.com/Obliv1onis/gold-gold-gold" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                  <a class="credits-link" href="https://github.com/Obliv1onis/gold-gold-gold" target="_blank" rel="noopener noreferrer" data-i18n="credits_github">GitHub Repository</a>
                 </li>
                 <li>
-                  <a class="credits-link" href="https://space.bilibili.com/646730673?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer">Bilibili</a>
+                  <a class="credits-link" href="https://space.bilibili.com/646730673?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer" data-i18n="credits_bilibili">Bilibili</a>
                 </li>
                 <li>
-                  <a class="credits-link" href="https://steamcommunity.com/id/obliv1onis_/" target="_blank" rel="noopener noreferrer">Steam Profile</a>
+                  <a class="credits-link" href="https://steamcommunity.com/id/obliv1onis_/" target="_blank" rel="noopener noreferrer" data-i18n="credits_steam">Steam Profile</a>
                 </li>
               </ul>
             </section>
 
             <section class="credits-section">
-              <h3 class="credits-section-title">Contact</h3>
+              <h3 class="credits-section-title" data-i18n="credits_contact">Contact</h3>
               <p class="credits-text">
                 <a class="credits-link credits-link--email" href="mailto:tomori.tkmt@gmail.com">tomori.tkmt@gmail.com</a>
               </p>

@@ -30,6 +30,7 @@ import { CaseInventory }  from '../../../src/core/case-inventory.js';
 import { SkinInventory }  from '../../../src/core/skin-inventory.js';
 import { Events }         from '../../../src/foundation/events.js';
 import { Theme }          from '../../../src/foundation/theme.js';
+import { i18n }           from '../../../src/foundation/i18n.js';
 
 // Test case constants (stand-in for real case data)
 const TEST_CASE_ID    = 'recoil_case';
@@ -69,6 +70,7 @@ beforeEach(() => {
   vi.clearAllMocks();
   localStorage.clear();
   Theme.setTheme('dark');
+  i18n.setLocale('en-US');
   if (_appEl) teardown(_appEl);
   _appEl = makeApp();
   setupMocks();
@@ -127,6 +129,18 @@ describe('HudAppShell — DOM structure', () => {
   it('test_hud_init_creates_case_browser_container', () => {
     HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
     expect(_appEl.querySelector('.case-browser-container')).toBeTruthy();
+  });
+
+  it('test_hud_credits_content_updates_to_simplified_chinese', () => {
+    HudAppShell.init(_appEl, { onOpenClick: vi.fn() });
+    i18n.setLocale('zh-CN');
+
+    const credits = _appEl.querySelector('#credits-view');
+    expect(credits.querySelector('.credits-title').textContent).toBe('鸣谢');
+    expect(credits.querySelector('.credits-section-title').textContent).toBe('许可证');
+    expect(credits.querySelector('.credits-text').textContent).toContain('本项目采用 MIT 许可证发布');
+    expect(credits.querySelector('[data-i18n="credits_github"]').textContent).toBe('GitHub 仓库');
+    expect(credits.querySelector('[data-i18n="credits_steam"]').textContent).toBe('Steam 个人资料');
   });
 
   it('test_hud_init_home_view_is_active_by_default', () => {

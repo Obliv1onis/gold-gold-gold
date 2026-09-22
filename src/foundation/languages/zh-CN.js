@@ -28,6 +28,17 @@ export default {
   nav_inventory:    '库存',
   nav_credits:      '鸣谢',
 
+  // Credits
+  credits_title:               '鸣谢',
+  credits_license:             '许可证',
+  credits_license_body:        '本项目采用 MIT 许可证发布。您可以自由使用、复制、修改、合并、发布、分发、再许可和/或出售本软件的副本，但所有副本或软件的重要部分中必须保留原始版权声明和许可声明。',
+  credits_license_disclaimer:  '本软件按“原样”提供，不附带任何形式的明示或默示保证，包括但不限于适销性、特定用途适用性和不侵权保证。在任何情况下，作者或版权所有者均不对因本软件、本软件的使用或其他相关交易而产生、引起或与之相关的任何索赔、损害或其他责任承担责任，无论其源于合同、侵权行为还是其他行为。',
+  credits_links:               '链接',
+  credits_github:              'GitHub 仓库',
+  credits_bilibili:            '哔哩哔哩',
+  credits_steam:               'Steam 个人资料',
+  credits_contact:             '联系方式',
+
   // Home tiles
   coming_soon:      '即将推出',
   tile_weapon_case:       '武器箱',
