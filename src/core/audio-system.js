@@ -64,7 +64,7 @@ export const AudioSystem = {
     const now      = _ctx.currentTime;
     const safePitch = Math.min(Math.max(Number(pitch) || 170, 170), 430);
     const speedMix  = (safePitch - 170) / (430 - 170);
-    const peakGain  = 0.14 - speedMix * 0.04;
+    const peakGain  = 0.18 - speedMix * 0.05;
 
     // A triangle wave and a short downward pitch sweep sound less electronic
     // than the previous square-wave beep while retaining a clear reel click.
@@ -92,7 +92,7 @@ export const AudioSystem = {
       const gain = _ctx.createGain();
       osc.type            = 'sine';
       osc.frequency.value = freq;
-      gain.gain.value     = 0.24;
+      gain.gain.value     = 0.16;
       osc.connect(gain);
       gain.connect(_master);
       const now = _ctx.currentTime;
