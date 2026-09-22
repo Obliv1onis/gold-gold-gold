@@ -14,6 +14,7 @@ export default {
   back:             '← 返回',
   open_btn:         '开启',
   n_owned:          '已拥有 {n}',
+  case_contents:    '可能开出的物品',
 
   // Reset modal
   reset_title:      '重置账户？',

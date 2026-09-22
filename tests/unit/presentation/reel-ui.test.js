@@ -34,12 +34,18 @@ function makeContainer() {
 }
 
 beforeEach(() => {
+  vi.useRealTimers();
   vi.clearAllMocks();
   SkinImageLoader.preloadCase.mockResolvedValue({ loaded: 10, failed: 0, skipped: 0 });
   SkinImageLoader.getImage.mockImplementation(() => document.createElement('img'));
   // Use mil_spec: 100 so _pickTier always picks mil_spec — deterministic for DOM tests
-  CaseDataStore.getCase.mockReturnValue({ id: 'recoil_case', rarity_weights: { mil_spec: 100 } });
-  CaseDataStore.getItems.mockReturnValue([...POOL]);
+  CaseDataStore.getCase.mockReturnValue({
+    id: 'recoil_case',
+    name: 'Recoil Case',
+    image_url: 'https://cdn/recoil-case.png',
+    rarity_weights: { mil_spec: 100 },
+  });
+  CaseDataStore.getItems.mockImplementation((_caseId, rarity) => rarity === 'mil_spec' ? [...POOL] : []);
 });
 
 // ─── initialize ───────────────────────────────────────────────────────────────
@@ -80,6 +86,56 @@ describe('ReelUI — initialize', () => {
     await ReelUI.initialize(container, 'recoil_case');
     expect(handler).toHaveBeenCalledTimes(1);
     document.removeEventListener('reel-ready', handler);
+    container.remove();
+  });
+
+  it('shows the case and contents preview before the reel', async () => {
+    const container = makeContainer();
+    await ReelUI.initialize(container, 'recoil_case');
+
+    expect(container.querySelector('.case-opening-hero__title').textContent).toBe('Recoil Case');
+    expect(container.querySelectorAll('.case-content-card')).toHaveLength(POOL.length);
+    expect(container.querySelector('.reel-roll-stage').getAttribute('aria-hidden')).toBe('true');
+    expect(container.classList.contains('is-roll-mode')).toBe(false);
+    container.remove();
+  });
+
+  it('orders preview contents from low to high rarity', async () => {
+    const byRarity = {
+      consumer_grade: [{ ...POOL[0], weapon: 'Nova', skin: 'Low' }],
+      mil_spec: [{ ...POOL[1], weapon: 'P250', skin: 'Middle' }],
+      covert: [{ ...POOL[2], weapon: 'AK-47', skin: 'High' }],
+      rare_special: [{ ...POOL[3], weapon: 'Knife', skin: '★ Rare' }],
+    };
+    CaseDataStore.getItems.mockImplementation((_caseId, rarity) => byRarity[rarity] ?? []);
+    const container = makeContainer();
+    await ReelUI.initialize(container, 'recoil_case');
+
+    const rarities = [...container.querySelectorAll('.case-content-card')]
+      .map(card => [...card.classList].find(name => name.startsWith('rarity-')));
+    expect(rarities).toEqual([
+      'rarity-consumer_grade',
+      'rarity-mil_spec',
+      'rarity-covert',
+      'rarity-rare_special',
+    ]);
+    container.remove();
+  });
+
+  it('smoothly switches from preview mode to roll mode', async () => {
+    vi.useFakeTimers();
+    const container = makeContainer();
+    await ReelUI.initialize(container, 'recoil_case');
+
+    const transition = ReelUI.transitionToRoll();
+    await Promise.resolve();
+    await Promise.resolve();
+    expect(container.classList.contains('is-roll-mode')).toBe(true);
+    expect(container.querySelector('.reel-roll-stage').getAttribute('aria-hidden')).toBe('false');
+
+    vi.advanceTimersByTime(420);
+    await transition;
+    expect(container.querySelector('.case-opening-preview').getAttribute('aria-hidden')).toBe('true');
     container.remove();
   });
 });

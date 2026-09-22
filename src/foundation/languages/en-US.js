@@ -12,6 +12,7 @@ export default {
   back:             '← Back',
   open_btn:         'Open',
   n_owned:          '{n} owned',
+  case_contents:    'Possible Contents',
 
   // Reset modal
   reset_title:      'Reset Account?',

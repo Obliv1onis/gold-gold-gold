@@ -67,7 +67,7 @@ async function main() {
       onHideMarket:    () => MarketUI.hide(),
       onShowTradeUp:   () => TradeUpUI.show(),
       onHideTradeUp:   () => TradeUpUI.hide(),
-      onOpenClick: (itemId, price, category) => {
+      onOpenClick: async (itemId, price, category) => {
         if (category === 'sticker_capsule' || category === 'other') {
           CapsuleOpeningOrchestrator.open(itemId, price, CapsuleReelUI.viewportWidth, {
             onFrame:   (offset, strip) => CapsuleReelUI.render(offset, strip),
@@ -76,6 +76,7 @@ async function main() {
             onReady:   ()              => { CapsuleReelUI.resetSpin(); HudAppShell.onReady(); },
           });
         } else {
+          await ReelUI.transitionToRoll();
           CaseOpeningOrchestrator.open(itemId, price, ReelUI.viewportWidth, {
             onFrame:   (offset, strip) => ReelUI.render(offset, strip),
             onReveal:  (entry)         => { if (entry.rarity === 'rare_special') ReelUI.revealRareCard(entry); RevealUI.show(entry); },

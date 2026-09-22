@@ -7,10 +7,18 @@ import rareMaskUrl         from '../gold.png';
 const CARD_WIDTH_PX      = 250;
 const IDLE_CENTER_INDEX  = 30;
 const VIEWPORT_FALLBACK  = 800; // px — used when container is not in DOM (E4)
+const PREVIEW_TRANSITION_MS = 420;
+const PREVIEW_RARITIES = [
+  'consumer_grade', 'industrial_grade', 'mil_spec', 'restricted',
+  'classified', 'covert', 'rare_special',
+];
 
 let _container        = null;  // outer element passed to initialize()
 let _viewport         = null;  // .reel-viewport element
 let _strip            = null;  // .reel-strip element
+let _preview          = null;  // pre-opening case and contents panel
+let _rollStage        = null;  // reel panel revealed after Open is clicked
+let _transitionPromise = null;
 let _spinActive       = false; // true from first render() call until next initialize()
 let _rareWinningCard  = null;  // DOM card element for a rare_special winning item
 
@@ -43,17 +51,25 @@ export const ReelUI = {
   async initialize(container, caseId) {
     _container = container;
     _spinActive = false;
+    _transitionPromise = null;
+    container.classList.remove('is-roll-mode');
 
     container.innerHTML = `
-      <div class="reel-viewport">
-        <div class="reel-strip"></div>
-        <div class="reel-center-marker"></div>
+      <section class="case-opening-preview" aria-live="polite"></section>
+      <div class="reel-roll-stage" aria-hidden="true">
+        <div class="reel-viewport">
+          <div class="reel-strip"></div>
+          <div class="reel-center-marker"></div>
+        </div>
       </div>
     `;
+    _preview  = container.querySelector('.case-opening-preview');
+    _rollStage = container.querySelector('.reel-roll-stage');
     _viewport = container.querySelector('.reel-viewport');
     _strip    = container.querySelector('.reel-strip');
 
     await SkinImageLoader.preloadCase(caseId);
+    _buildCasePreview(caseId);
 
     // Build idle strip using all items from the image loader cache
     // (items array already available via SkinImageLoader internals — we
@@ -61,6 +77,27 @@ export const ReelUI = {
     _buildIdleStrip(caseId);
 
     document.dispatchEvent(new CustomEvent(Events.REEL_READY, { detail: { caseId } }));
+  },
+
+  /** Smoothly replaces the case contents preview with the roll viewport. */
+  transitionToRoll() {
+    if (!_container || !_rollStage || _container.classList.contains('is-roll-mode')) {
+      return Promise.resolve();
+    }
+    if (_transitionPromise) return _transitionPromise;
+
+    _rollStage.setAttribute('aria-hidden', 'false');
+    _transitionPromise = new Promise(resolve => {
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        _container.classList.add('is-roll-mode');
+      }));
+      setTimeout(() => {
+        if (_preview) _preview.setAttribute('aria-hidden', 'true');
+        _transitionPromise = null;
+        resolve();
+      }, PREVIEW_TRANSITION_MS);
+    });
+    return _transitionPromise;
   },
 
   /**
@@ -114,6 +151,79 @@ function _buildCards(strip) {
   const frag = document.createDocumentFragment();
   strip.forEach(item => frag.appendChild(_makeCard(item)));
   _strip.appendChild(frag);
+}
+
+function _buildCasePreview(caseId) {
+  if (!_preview) return;
+  const caseEntry = CaseDataStore.getCase(caseId);
+  if (!caseEntry) return;
+
+  _preview.innerHTML = '';
+  const hero = document.createElement('div');
+  hero.className = 'case-opening-hero';
+  if (caseEntry.image_url) {
+    const image = document.createElement('img');
+    image.className = 'case-opening-hero__image';
+    image.src = caseEntry.image_url;
+    image.alt = i18n.caseName(caseEntry.name ?? '');
+    hero.appendChild(image);
+  }
+  const title = document.createElement('h1');
+  title.className = 'case-opening-hero__title';
+  title.textContent = i18n.caseName(caseEntry.name ?? '');
+  hero.appendChild(title);
+
+  const contents = document.createElement('section');
+  contents.className = 'case-contents-preview';
+  const heading = document.createElement('h2');
+  heading.className = 'case-contents-preview__title';
+  heading.textContent = i18n.t('case_contents');
+  contents.appendChild(heading);
+
+  const grid = document.createElement('div');
+  grid.className = 'case-contents-grid';
+  for (const rarity of PREVIEW_RARITIES) {
+    const items = CaseDataStore.getItems(caseId, rarity);
+    if (!items.length) continue;
+    if (rarity === 'rare_special') {
+      grid.appendChild(_makePreviewCard(null, rarity));
+      continue;
+    }
+    [...items]
+      .sort((a, b) => i18n.skinName(a.weapon, a.skin).localeCompare(i18n.skinName(b.weapon, b.skin), i18n.getLocale()))
+      .forEach(item => grid.appendChild(_makePreviewCard(item, rarity)));
+  }
+  contents.appendChild(grid);
+  _preview.append(hero, contents);
+}
+
+function _makePreviewCard(item, rarity) {
+  const card = document.createElement('article');
+  card.className = `case-content-card rarity-${rarity}`;
+
+  let image;
+  if (rarity === 'rare_special') {
+    image = document.createElement('img');
+    image.src = rareMaskUrl;
+    image.alt = i18n.t('rare_special_label');
+    image.className = 'case-content-card__image rare-special-mask';
+  } else {
+    image = SkinImageLoader.getImage(item?.image_url ?? null, rarity);
+    image.className = 'case-content-card__image';
+    image.alt = i18n.skinName(item.weapon, item.skin);
+  }
+
+  const name = document.createElement('span');
+  name.className = 'case-content-card__name';
+  name.textContent = rarity === 'rare_special'
+    ? i18n.t('rare_special_label')
+    : i18n.skinName(item.weapon, item.skin);
+
+  const rarityLabel = document.createElement('span');
+  rarityLabel.className = 'case-content-card__rarity';
+  rarityLabel.textContent = i18n.rarityLabel(rarity);
+  card.append(image, name, rarityLabel);
+  return card;
 }
 
 const BACKGROUND_TIERS = ['mil_spec', 'restricted', 'classified', 'covert'];
