@@ -6,8 +6,6 @@ import { CaseDataStore }  from '../foundation/case-data-store.js';
 import { i18n }           from '../foundation/i18n.js';
 import { Events }         from '../foundation/events.js';
 
-const ELIGIBLE_RARITIES = new Set(['mil_spec', 'restricted', 'classified', 'covert']);
-
 // ─── Module state ─────────────────────────────────────────────────────────────
 
 let _container  = null;
@@ -119,8 +117,7 @@ export const TradeUpUI = {
 
   _isCompatible(entry) {
     const item    = entry.item;
-    if (!item.case_id) return false;
-    if (!ELIGIBLE_RARITIES.has(item.rarity)) return false;
+    if (!TradeUpEngine.isEligibleItem(item)) return false;
 
     const lr = this._lockedRarity();
     if (lr !== null && item.rarity !== lr) return false;
@@ -366,6 +363,7 @@ export const TradeUpUI = {
       ineligible_rarity:'Rare Special (knife/glove) skins cannot be traded up.',
       mixed_rarity:     'All skins must be the same rarity.',
       missing_case_id:  'Some skins are missing case data — try re-opening those cases.',
+      no_higher_tier:   'These skins do not have a higher-tier trade-up outcome.',
       mixed_stat_trak:  'Cannot mix StatTrak™ and standard skins.',
       empty_pool:       'No higher-tier skins found for these cases.',
     };

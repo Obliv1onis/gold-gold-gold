@@ -29,6 +29,7 @@ function _isVanilla(item) {
  * Rules enforced:
  *  - Mil-Spec / Restricted / Classified: exactly 10 skins, all same rarity
  *  - Covert (red): exactly 5 skins → one Rare Special Item (knife / glove)
+ *  - Every input must belong to a source that contains the next rarity tier
  *  - All StatTrak™ or all non-StatTrak™ — no mixing
  *  - Output skin: randomly pick one input skin, look up its case, then pick
  *    one skin of the next rarity from that case (uniform distribution)
@@ -40,6 +41,13 @@ function _isVanilla(item) {
  * SkinInventory.consumeItems(fiveCovertItems.map(it => it.instanceId));
  */
 export const TradeUpEngine = {
+
+  /** Returns whether an inventory item has a valid higher-tier outcome pool. */
+  isEligibleItem(item) {
+    const nextRarity = NEXT_RARITY[item?.rarity];
+    if (!nextRarity || !item?.case_id) return false;
+    return (CaseDataStore.getItems(item.case_id, nextRarity)?.length ?? 0) > 0;
+  },
 
   /**
    * Validates input items for a trade-up contract.
@@ -66,6 +74,9 @@ export const TradeUpEngine = {
     }
     if (items.some(it => !it.case_id)) {
       return { ok: false, reason: 'missing_case_id' };
+    }
+    if (items.some(it => !this.isEligibleItem(it))) {
+      return { ok: false, reason: 'no_higher_tier' };
     }
 
     const hasST  = items.some(it => !!it.stat_trak);

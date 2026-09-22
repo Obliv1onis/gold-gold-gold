@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeAll } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 
 vi.mock('../../../src/foundation/case-data-store.js', () => ({
   CaseDataStore: {
@@ -41,9 +41,24 @@ const NEXT_ITEM = {
   image_url:    null,
 };
 
+beforeEach(() => {
+  CaseDataStore.getItems.mockReturnValue([NEXT_ITEM]);
+  CaseDataStore.getCase.mockReturnValue({ id: CASE_A, name: 'Recoil Case' });
+});
+
 // ─── validate ─────────────────────────────────────────────────────────────────
 
 describe('TradeUpEngine — validate', () => {
+  it('test_tue_item_is_ineligible_without_a_higher_tier_pool', () => {
+    CaseDataStore.getItems.mockReturnValue([]);
+    expect(TradeUpEngine.isEligibleItem(makeItem({ rarity: 'covert' }))).toBe(false);
+  });
+
+  it('test_tue_item_is_eligible_with_a_higher_tier_pool', () => {
+    expect(TradeUpEngine.isEligibleItem(makeItem())).toBe(true);
+    expect(CaseDataStore.getItems).toHaveBeenCalledWith(CASE_A, 'restricted');
+  });
+
   it('test_tue_validate_ok_for_ten_matching_mil_spec', () => {
     expect(TradeUpEngine.validate(makeTen())).toEqual({ ok: true });
   });
@@ -94,6 +109,13 @@ describe('TradeUpEngine — validate', () => {
     expect(TradeUpEngine.validate(items)).toEqual({ ok: false, reason: 'missing_case_id' });
   });
 
+  it('test_tue_validate_fails_when_any_item_has_no_higher_tier_pool', () => {
+    CaseDataStore.getItems.mockImplementation(caseId => caseId === CASE_A ? [NEXT_ITEM] : []);
+    const items = makeTen();
+    items[9] = makeItem({ case_id: CASE_B });
+    expect(TradeUpEngine.validate(items)).toEqual({ ok: false, reason: 'no_higher_tier' });
+  });
+
   it('test_tue_validate_fails_for_mixed_stat_trak', () => {
     const items = makeTen();
     items[0] = makeItem({ stat_trak: true });
@@ -132,7 +154,7 @@ describe('TradeUpEngine — calcOutputFloat', () => {
 // ─── buildPool ────────────────────────────────────────────────────────────────
 
 describe('TradeUpEngine — buildPool', () => {
-  beforeAll(() => {
+  beforeEach(() => {
     CaseDataStore.getItems.mockImplementation((caseId, rarity) => {
       if (rarity !== 'restricted') return [];
       if (caseId === CASE_A) return [NEXT_ITEM, { ...NEXT_ITEM, item_id: 'res_002' }];
@@ -200,7 +222,7 @@ describe('TradeUpEngine — rollFromPool', () => {
 // ─── execute ──────────────────────────────────────────────────────────────────
 
 describe('TradeUpEngine — execute', () => {
-  beforeAll(() => {
+  beforeEach(() => {
     CaseDataStore.getItems.mockReturnValue([NEXT_ITEM]);
     CaseDataStore.getCase.mockReturnValue({ id: CASE_A, name: 'Recoil Case' });
   });
