@@ -4,8 +4,8 @@
     "source_reference": "design/reference/skin-price.md",
     "price_source": "Steam Community Market",
     "bulk_snapshot": "2026-09-12T02:36:30Z",
-    "verified_at": "2026-09-21T23:34:52.302Z",
-    "items": 10480
+    "verified_at": "2026-09-22T15:21:16.755Z",
+    "items": 10892
   },
   "prices": {
     "★ Bayonet": {
@@ -638,6 +638,66 @@
       "updated_at": "2026-09-11T22:09:50.702Z",
       "source": "steam-bulk"
     },
+    "★ Bowie Knife | Autotronic (Battle-Scarred)": {
+      "price": 105.5,
+      "listings": 33,
+      "updated_at": "2026-09-11T22:09:50.683Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Autotronic (Factory New)": {
+      "price": 202.53,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:50.921Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Autotronic (Field-Tested)": {
+      "price": 114.93,
+      "listings": 114,
+      "updated_at": "2026-09-11T22:09:50.702Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Autotronic (Minimal Wear)": {
+      "price": 130.04,
+      "listings": 49,
+      "updated_at": "2026-09-11T22:09:50.753Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Autotronic (Well-Worn)": {
+      "price": 111.01,
+      "listings": 17,
+      "updated_at": "2026-09-11T22:09:50.701Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Black Laminate (Battle-Scarred)": {
+      "price": 69.09,
+      "listings": 40,
+      "updated_at": "2026-09-11T22:09:50.483Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Black Laminate (Factory New)": {
+      "price": 132.77,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.754Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Black Laminate (Field-Tested)": {
+      "price": 63.21,
+      "listings": 93,
+      "updated_at": "2026-09-11T22:09:50.436Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Black Laminate (Minimal Wear)": {
+      "price": 76.29,
+      "listings": 54,
+      "updated_at": "2026-09-11T22:09:50.517Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Black Laminate (Well-Worn)": {
+      "price": 68.86,
+      "listings": 48,
+      "updated_at": "2026-09-11T22:09:50.469Z",
+      "source": "steam-bulk"
+    },
     "★ Bowie Knife | Blue Steel (Battle-Scarred)": {
       "price": 139.91,
       "listings": 11,
@@ -690,6 +750,36 @@
       "price": 61.45,
       "listings": 4,
       "updated_at": "2026-09-11T22:09:50.421Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Bright Water (Battle-Scarred)": {
+      "price": 91.39,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.601Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Bright Water (Factory New)": {
+      "price": 84.01,
+      "listings": 64,
+      "updated_at": "2026-09-11T22:09:50.567Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Bright Water (Field-Tested)": {
+      "price": 70.26,
+      "listings": 129,
+      "updated_at": "2026-09-11T22:09:50.498Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Bright Water (Minimal Wear)": {
+      "price": 70.77,
+      "listings": 68,
+      "updated_at": "2026-09-11T22:09:50.499Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Bright Water (Well-Worn)": {
+      "price": 70.02,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.498Z",
       "source": "steam-bulk"
     },
     "★ Bowie Knife | Case Hardened (Battle-Scarred)": {
@@ -822,6 +912,78 @@
       "price": 73.62,
       "listings": 9,
       "updated_at": "2026-09-11T22:09:50.515Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Freehand (Battle-Scarred)": {
+      "price": 89.83,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.584Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Freehand (Factory New)": {
+      "price": 103.31,
+      "listings": 66,
+      "updated_at": "2026-09-11T22:09:50.652Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Freehand (Field-Tested)": {
+      "price": 88.5,
+      "listings": 106,
+      "updated_at": "2026-09-11T22:09:50.584Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Freehand (Minimal Wear)": {
+      "price": 96.02,
+      "listings": 56,
+      "updated_at": "2026-09-11T22:09:50.634Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Freehand (Well-Worn)": {
+      "price": 93.4,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.617Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Gamma Doppler (Factory New)": {
+      "price": 237.74,
+      "listings": 326,
+      "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Gamma Doppler (Minimal Wear)": {
+      "price": 303.65,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:51.015Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Lore (Battle-Scarred)": {
+      "price": 95.12,
+      "listings": 38,
+      "updated_at": "2026-09-11T22:09:50.633Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Lore (Factory New)": {
+      "price": 246.84,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Lore (Field-Tested)": {
+      "price": 118.16,
+      "listings": 95,
+      "updated_at": "2026-09-11T22:09:50.719Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Lore (Minimal Wear)": {
+      "price": 162.43,
+      "listings": 56,
+      "updated_at": "2026-09-11T22:09:50.840Z",
+      "source": "steam-bulk"
+    },
+    "★ Bowie Knife | Lore (Well-Worn)": {
+      "price": 106.81,
+      "listings": 50,
+      "updated_at": "2026-09-11T22:09:50.684Z",
       "source": "steam-bulk"
     },
     "★ Bowie Knife | Marble Fade (Factory New)": {
@@ -1166,6 +1328,54 @@
       "updated_at": "2026-09-21T02:19:26.148Z",
       "source": "steam-direct"
     },
+    "★ Butterfly Knife | Autotronic (Battle-Scarred)": {
+      "price": 994.03,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:51.191Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Autotronic (Field-Tested)": {
+      "price": 1150.28,
+      "listings": 17,
+      "updated_at": "2026-09-11T22:09:51.206Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Autotronic (Minimal Wear)": {
+      "price": 1380.33,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:51.207Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Black Laminate (Battle-Scarred)": {
+      "price": 816.7,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Black Laminate (Factory New)": {
+      "price": 1697.83,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:51.223Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Black Laminate (Field-Tested)": {
+      "price": 850.22,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Black Laminate (Minimal Wear)": {
+      "price": 986.6,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:51.191Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Black Laminate (Well-Worn)": {
+      "price": 875.21,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:51.190Z",
+      "source": "steam-bulk"
+    },
     "★ Butterfly Knife | Blue Steel (Battle-Scarred)": {
       "price": 1165.58,
       "listings": 6,
@@ -1212,6 +1422,30 @@
       "price": 736.48,
       "listings": 5,
       "updated_at": "2026-09-11T22:09:51.159Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Bright Water (Battle-Scarred)": {
+      "price": 750.19,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:51.159Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Bright Water (Factory New)": {
+      "price": 861.21,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:51.190Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Bright Water (Field-Tested)": {
+      "price": 747.66,
+      "listings": 28,
+      "updated_at": "2026-09-11T22:09:51.159Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Bright Water (Minimal Wear)": {
+      "price": 810.21,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:51.175Z",
       "source": "steam-bulk"
     },
     "★ Butterfly Knife | Case Hardened (Battle-Scarred)": {
@@ -1296,6 +1530,54 @@
       "price": 662.15,
       "listings": 2,
       "updated_at": "2026-09-11T22:09:51.143Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Freehand (Factory New)": {
+      "price": 1000.7,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:51.191Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Freehand (Field-Tested)": {
+      "price": 799.41,
+      "listings": 28,
+      "updated_at": "2026-09-11T22:09:51.174Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Freehand (Minimal Wear)": {
+      "price": 998.7,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:51.191Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Freehand (Well-Worn)": {
+      "price": 813.39,
+      "listings": 2,
+      "updated_at": "2026-09-11T08:39:52.056Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Lore (Battle-Scarred)": {
+      "price": 786.86,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:51.174Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Lore (Field-Tested)": {
+      "price": 951.39,
+      "listings": 31,
+      "updated_at": "2026-09-11T22:09:51.191Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Lore (Minimal Wear)": {
+      "price": 1460.33,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:51.222Z",
+      "source": "steam-bulk"
+    },
+    "★ Butterfly Knife | Lore (Well-Worn)": {
+      "price": 822.58,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:51.175Z",
       "source": "steam-bulk"
     },
     "★ Butterfly Knife | Marble Fade (Factory New)": {
@@ -1482,6 +1764,312 @@
       "price": 955.23,
       "listings": 7,
       "updated_at": "2026-09-11T22:09:51.191Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife": {
+      "price": 274.09,
+      "listings": 27,
+      "updated_at": "2026-09-11T22:09:50.999Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Blue Steel (Battle-Scarred)": {
+      "price": 149.6,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.821Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Blue Steel (Factory New)": {
+      "price": 339.36,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:51.046Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Blue Steel (Field-Tested)": {
+      "price": 157.14,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.839Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Blue Steel (Minimal Wear)": {
+      "price": 189.19,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.905Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Blue Steel (Well-Worn)": {
+      "price": 145.04,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.804Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Boreal Forest (Battle-Scarred)": {
+      "price": 99.88,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.650Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Boreal Forest (Factory New)": {
+      "price": 379.95,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.063Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Boreal Forest (Field-Tested)": {
+      "price": 89.06,
+      "listings": 14,
+      "updated_at": "2026-09-11T21:39:51.605Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Boreal Forest (Minimal Wear)": {
+      "price": 112.64,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:50.701Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Boreal Forest (Well-Worn)": {
+      "price": 91.2,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.601Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Case Hardened (Battle-Scarred)": {
+      "price": 148.44,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.805Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Case Hardened (Factory New)": {
+      "price": 768.18,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.174Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Case Hardened (Field-Tested)": {
+      "price": 180.72,
+      "listings": 31,
+      "updated_at": "2026-09-11T22:09:50.889Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Case Hardened (Minimal Wear)": {
+      "price": 253.82,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Case Hardened (Well-Worn)": {
+      "price": 169.38,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.856Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Crimson Web (Battle-Scarred)": {
+      "price": 210.05,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:50.936Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Crimson Web (Field-Tested)": {
+      "price": 197.23,
+      "listings": 34,
+      "updated_at": "2026-09-11T22:09:50.906Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Crimson Web (Minimal Wear)": {
+      "price": 333.57,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Crimson Web (Well-Worn)": {
+      "price": 252.77,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Fade (Factory New)": {
+      "price": 368.87,
+      "listings": 34,
+      "updated_at": "2026-09-11T22:09:51.062Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Fade (Minimal Wear)": {
+      "price": 481.4,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:51.110Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Forest DDPAT (Battle-Scarred)": {
+      "price": 83.97,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.567Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Forest DDPAT (Field-Tested)": {
+      "price": 98.75,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.650Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Forest DDPAT (Minimal Wear)": {
+      "price": 120.08,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:50.720Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Forest DDPAT (Well-Worn)": {
+      "price": 100.36,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:50.651Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Night Stripe (Battle-Scarred)": {
+      "price": 145.39,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.804Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Night Stripe (Field-Tested)": {
+      "price": 133.43,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:50.755Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Night Stripe (Minimal Wear)": {
+      "price": 149.05,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.821Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Night Stripe (Well-Worn)": {
+      "price": 152.05,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.822Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Safari Mesh (Battle-Scarred)": {
+      "price": 89.01,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.584Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Safari Mesh (Factory New)": {
+      "price": 361.49,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.047Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Safari Mesh (Field-Tested)": {
+      "price": 88.79,
+      "listings": 31,
+      "updated_at": "2026-09-11T22:09:50.584Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Safari Mesh (Minimal Wear)": {
+      "price": 97.9,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.634Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Safari Mesh (Well-Worn)": {
+      "price": 87.08,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.583Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Scorched (Battle-Scarred)": {
+      "price": 118.17,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.719Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Scorched (Field-Tested)": {
+      "price": 112.95,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.702Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Scorched (Minimal Wear)": {
+      "price": 120.69,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:50.720Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Scorched (Well-Worn)": {
+      "price": 118.36,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.719Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Slaughter (Factory New)": {
+      "price": 255.25,
+      "listings": 25,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Slaughter (Field-Tested)": {
+      "price": 252.37,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Slaughter (Minimal Wear)": {
+      "price": 232.05,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Stained (Battle-Scarred)": {
+      "price": 108.04,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.684Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Stained (Factory New)": {
+      "price": 197.24,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:50.906Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Stained (Field-Tested)": {
+      "price": 143.58,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.803Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Stained (Minimal Wear)": {
+      "price": 171.54,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.857Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Stained (Well-Worn)": {
+      "price": 116.72,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.719Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Urban Masked (Battle-Scarred)": {
+      "price": 103.91,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.652Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Urban Masked (Field-Tested)": {
+      "price": 125.44,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.737Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Urban Masked (Minimal Wear)": {
+      "price": 173.11,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.872Z",
+      "source": "steam-bulk"
+    },
+    "★ Classic Knife | Urban Masked (Well-Worn)": {
+      "price": 128.37,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.753Z",
       "source": "steam-bulk"
     },
     "★ Driver Gloves | Black Tie (Battle-Scarred)": {
@@ -4010,6 +4598,66 @@
       "updated_at": "2026-09-11T22:09:50.889Z",
       "source": "steam-bulk"
     },
+    "★ Huntsman Knife | Autotronic (Battle-Scarred)": {
+      "price": 127.39,
+      "listings": 33,
+      "updated_at": "2026-09-11T22:09:50.737Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Autotronic (Factory New)": {
+      "price": 250.41,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Autotronic (Field-Tested)": {
+      "price": 133.43,
+      "listings": 73,
+      "updated_at": "2026-09-11T22:09:50.755Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Autotronic (Minimal Wear)": {
+      "price": 171.11,
+      "listings": 39,
+      "updated_at": "2026-09-11T22:09:50.857Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Autotronic (Well-Worn)": {
+      "price": 133.33,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:50.754Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Black Laminate (Battle-Scarred)": {
+      "price": 79.68,
+      "listings": 29,
+      "updated_at": "2026-09-11T22:09:50.534Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Black Laminate (Factory New)": {
+      "price": 179.82,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.889Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Black Laminate (Field-Tested)": {
+      "price": 84.7,
+      "listings": 69,
+      "updated_at": "2026-09-11T22:09:50.567Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Black Laminate (Minimal Wear)": {
+      "price": 92.01,
+      "listings": 47,
+      "updated_at": "2026-09-11T22:09:50.616Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Black Laminate (Well-Worn)": {
+      "price": 83.32,
+      "listings": 38,
+      "updated_at": "2026-09-11T22:09:50.552Z",
+      "source": "steam-bulk"
+    },
     "★ Huntsman Knife | Blue Steel (Battle-Scarred)": {
       "price": 147.35,
       "listings": 6,
@@ -4062,6 +4710,36 @@
       "price": 94.33,
       "listings": 2,
       "updated_at": "2026-09-11T22:09:50.633Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Bright Water (Battle-Scarred)": {
+      "price": 80.06,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.535Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Bright Water (Factory New)": {
+      "price": 95.12,
+      "listings": 43,
+      "updated_at": "2026-09-11T22:09:50.633Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Bright Water (Field-Tested)": {
+      "price": 70.63,
+      "listings": 95,
+      "updated_at": "2026-09-11T22:09:50.498Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Bright Water (Minimal Wear)": {
+      "price": 78.93,
+      "listings": 55,
+      "updated_at": "2026-09-11T22:09:50.534Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Bright Water (Well-Worn)": {
+      "price": 77.06,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:50.533Z",
       "source": "steam-bulk"
     },
     "★ Huntsman Knife | Case Hardened (Battle-Scarred)": {
@@ -4188,6 +4866,48 @@
       "price": 80.75,
       "listings": 8,
       "updated_at": "2026-09-11T22:09:50.550Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Freehand (Battle-Scarred)": {
+      "price": 98.18,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.634Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Freehand (Factory New)": {
+      "price": 112.35,
+      "listings": 43,
+      "updated_at": "2026-09-11T22:09:50.701Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Freehand (Field-Tested)": {
+      "price": 91.47,
+      "listings": 113,
+      "updated_at": "2026-09-11T22:09:50.601Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Freehand (Minimal Wear)": {
+      "price": 102.01,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:50.651Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Freehand (Well-Worn)": {
+      "price": 86.61,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.583Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Gamma Doppler (Factory New)": {
+      "price": 294.78,
+      "listings": 207,
+      "updated_at": "2026-09-11T22:09:51.015Z",
+      "source": "steam-bulk"
+    },
+    "★ Huntsman Knife | Gamma Doppler (Minimal Wear)": {
+      "price": 400,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:51.063Z",
       "source": "steam-bulk"
     },
     "★ Huntsman Knife | Lore (Battle-Scarred)": {
@@ -5804,6 +6524,30 @@
       "updated_at": "2026-09-11T22:09:50.855Z",
       "source": "steam-bulk"
     },
+    "★ Moto Gloves | Boom! (Battle-Scarred)": {
+      "price": 132.8,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.754Z",
+      "source": "steam-bulk"
+    },
+    "★ Moto Gloves | Boom! (Field-Tested)": {
+      "price": 835.27,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "★ Moto Gloves | Boom! (Minimal Wear)": {
+      "price": 890.52,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.190Z",
+      "source": "steam-bulk"
+    },
+    "★ Moto Gloves | Boom! (Well-Worn)": {
+      "price": 255.06,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
     "★ Moto Gloves | Cool Mint (Battle-Scarred)": {
       "price": 192.05,
       "listings": 6,
@@ -6878,6 +7622,120 @@
       "updated_at": "2026-09-11T22:09:50.498Z",
       "source": "steam-bulk"
     },
+    "★ Paracord Knife | Blue Steel (Battle-Scarred)": {
+      "price": 88.69,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:50.584Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Blue Steel (Factory New)": {
+      "price": 214.64,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.951Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Blue Steel (Field-Tested)": {
+      "price": 95.02,
+      "listings": 30,
+      "updated_at": "2026-09-11T22:09:50.633Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Blue Steel (Minimal Wear)": {
+      "price": 117.52,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:50.719Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Blue Steel (Well-Worn)": {
+      "price": 96.01,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:50.634Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Boreal Forest (Battle-Scarred)": {
+      "price": 61.55,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:50.421Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Boreal Forest (Factory New)": {
+      "price": 163.07,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:50.840Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Boreal Forest (Field-Tested)": {
+      "price": 61.69,
+      "listings": 43,
+      "updated_at": "2026-09-11T22:09:50.421Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Boreal Forest (Minimal Wear)": {
+      "price": 80.51,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.550Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Boreal Forest (Well-Worn)": {
+      "price": 61.89,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:50.421Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Case Hardened (Battle-Scarred)": {
+      "price": 127.11,
+      "listings": 25,
+      "updated_at": "2026-09-11T22:09:50.737Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Case Hardened (Factory New)": {
+      "price": 286.97,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:51.014Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Case Hardened (Field-Tested)": {
+      "price": 126.53,
+      "listings": 56,
+      "updated_at": "2026-09-11T22:09:50.737Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Case Hardened (Minimal Wear)": {
+      "price": 153.44,
+      "listings": 45,
+      "updated_at": "2026-09-11T22:09:50.823Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Case Hardened (Well-Worn)": {
+      "price": 135.74,
+      "listings": 34,
+      "updated_at": "2026-09-11T22:09:50.770Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Crimson Web (Battle-Scarred)": {
+      "price": 112.58,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.701Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Crimson Web (Field-Tested)": {
+      "price": 122.89,
+      "listings": 31,
+      "updated_at": "2026-09-11T22:09:50.736Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Crimson Web (Minimal Wear)": {
+      "price": 173.03,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.872Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Crimson Web (Well-Worn)": {
+      "price": 126.79,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.737Z",
+      "source": "steam-bulk"
+    },
     "★ Paracord Knife | Damascus Steel (Battle-Scarred)": {
       "price": 90.02,
       "listings": 6,
@@ -6920,6 +7778,48 @@
       "updated_at": "2026-09-11T22:09:51.063Z",
       "source": "steam-bulk"
     },
+    "★ Paracord Knife | Fade (Factory New)": {
+      "price": 196.32,
+      "listings": 69,
+      "updated_at": "2026-09-11T22:09:50.906Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Fade (Minimal Wear)": {
+      "price": 330.1,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Forest DDPAT (Battle-Scarred)": {
+      "price": 53.21,
+      "listings": 23,
+      "updated_at": "2026-09-11T22:09:50.354Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Forest DDPAT (Factory New)": {
+      "price": 126.53,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.737Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Forest DDPAT (Field-Tested)": {
+      "price": 54.54,
+      "listings": 37,
+      "updated_at": "2026-09-11T22:09:50.370Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Forest DDPAT (Minimal Wear)": {
+      "price": 69.01,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.483Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Forest DDPAT (Well-Worn)": {
+      "price": 58.52,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.404Z",
+      "source": "steam-bulk"
+    },
     "★ Paracord Knife | Marble Fade (Factory New)": {
       "price": 173.49,
       "listings": 112,
@@ -6932,6 +7832,30 @@
       "updated_at": "2026-09-11T22:09:50.967Z",
       "source": "steam-bulk"
     },
+    "★ Paracord Knife | Night Stripe (Battle-Scarred)": {
+      "price": 60.66,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:50.420Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Night Stripe (Field-Tested)": {
+      "price": 65.08,
+      "listings": 48,
+      "updated_at": "2026-09-11T22:09:50.451Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Night Stripe (Minimal Wear)": {
+      "price": 80.34,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.550Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Night Stripe (Well-Worn)": {
+      "price": 64.37,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.451Z",
+      "source": "steam-bulk"
+    },
     "★ Paracord Knife | Rust Coat (Battle-Scarred)": {
       "price": 57.32,
       "listings": 126,
@@ -6942,6 +7866,114 @@
       "price": 68.05,
       "listings": 4,
       "updated_at": "2026-09-11T22:09:50.468Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Safari Mesh (Battle-Scarred)": {
+      "price": 54.32,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.355Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Safari Mesh (Factory New)": {
+      "price": 112.8,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.701Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Safari Mesh (Field-Tested)": {
+      "price": 55.02,
+      "listings": 61,
+      "updated_at": "2026-09-11T22:09:50.371Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Safari Mesh (Minimal Wear)": {
+      "price": 58.77,
+      "listings": 26,
+      "updated_at": "2026-09-11T22:09:50.404Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Safari Mesh (Well-Worn)": {
+      "price": 59.82,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.405Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Scorched (Battle-Scarred)": {
+      "price": 59.37,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.404Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Scorched (Factory New)": {
+      "price": 189.93,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:50.905Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Scorched (Field-Tested)": {
+      "price": 59.87,
+      "listings": 68,
+      "updated_at": "2026-09-11T22:09:50.405Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Scorched (Minimal Wear)": {
+      "price": 78.9,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:50.534Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Scorched (Well-Worn)": {
+      "price": 60.29,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:50.420Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Slaughter (Factory New)": {
+      "price": 191.46,
+      "listings": 36,
+      "updated_at": "2026-09-11T22:09:50.906Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Slaughter (Field-Tested)": {
+      "price": 176.12,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:50.873Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Slaughter (Minimal Wear)": {
+      "price": 171.46,
+      "listings": 27,
+      "updated_at": "2026-09-11T22:09:50.857Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Stained (Battle-Scarred)": {
+      "price": 74.77,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:50.516Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Stained (Factory New)": {
+      "price": 136.29,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.771Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Stained (Field-Tested)": {
+      "price": 70.72,
+      "listings": 32,
+      "updated_at": "2026-09-11T22:09:50.499Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Stained (Minimal Wear)": {
+      "price": 83.19,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:50.552Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Stained (Well-Worn)": {
+      "price": 72.55,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.499Z",
       "source": "steam-bulk"
     },
     "★ Paracord Knife | Tiger Tooth (Factory New)": {
@@ -6984,6 +8016,36 @@
       "price": 84.67,
       "listings": 17,
       "updated_at": "2026-09-11T22:09:50.567Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Urban Masked (Battle-Scarred)": {
+      "price": 60.39,
+      "listings": 26,
+      "updated_at": "2026-09-11T22:09:50.420Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Urban Masked (Factory New)": {
+      "price": 280.2,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:51.000Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Urban Masked (Field-Tested)": {
+      "price": 64.71,
+      "listings": 62,
+      "updated_at": "2026-09-11T22:09:50.451Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Urban Masked (Minimal Wear)": {
+      "price": 90.11,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.600Z",
+      "source": "steam-bulk"
+    },
+    "★ Paracord Knife | Urban Masked (Well-Worn)": {
+      "price": 67.68,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.468Z",
       "source": "steam-bulk"
     },
     "★ Shadow Daggers": {
@@ -7568,6 +8630,114 @@
       "updated_at": "2026-09-11T22:09:51.031Z",
       "source": "steam-bulk"
     },
+    "★ Skeleton Knife | Blue Steel (Battle-Scarred)": {
+      "price": 320.08,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Blue Steel (Factory New)": {
+      "price": 609.06,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:51.142Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Blue Steel (Field-Tested)": {
+      "price": 320.06,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Blue Steel (Minimal Wear)": {
+      "price": 376.29,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:51.063Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Blue Steel (Well-Worn)": {
+      "price": 310.24,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:51.030Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Boreal Forest (Battle-Scarred)": {
+      "price": 165.48,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.855Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Boreal Forest (Field-Tested)": {
+      "price": 155.05,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:50.823Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Boreal Forest (Minimal Wear)": {
+      "price": 184.6,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.890Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Boreal Forest (Well-Worn)": {
+      "price": 166.31,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.855Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Case Hardened (Battle-Scarred)": {
+      "price": 314.25,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Case Hardened (Factory New)": {
+      "price": 774.19,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:51.174Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Case Hardened (Field-Tested)": {
+      "price": 354.13,
+      "listings": 55,
+      "updated_at": "2026-09-11T22:09:51.047Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Case Hardened (Minimal Wear)": {
+      "price": 482,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:51.110Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Case Hardened (Well-Worn)": {
+      "price": 347.91,
+      "listings": 32,
+      "updated_at": "2026-09-11T22:09:51.047Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Crimson Web (Battle-Scarred)": {
+      "price": 324.6,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Crimson Web (Field-Tested)": {
+      "price": 381.6,
+      "listings": 24,
+      "updated_at": "2026-09-11T22:09:51.063Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Crimson Web (Minimal Wear)": {
+      "price": 588.1,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:51.127Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Crimson Web (Well-Worn)": {
+      "price": 460.11,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:51.109Z",
+      "source": "steam-bulk"
+    },
     "★ Skeleton Knife | Damascus Steel (Battle-Scarred)": {
       "price": 275.86,
       "listings": 6,
@@ -7604,6 +8774,42 @@
       "updated_at": "2026-09-11T22:09:51.175Z",
       "source": "steam-bulk"
     },
+    "★ Skeleton Knife | Fade (Factory New)": {
+      "price": 760.57,
+      "listings": 36,
+      "updated_at": "2026-09-11T22:09:51.159Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Fade (Minimal Wear)": {
+      "price": 874.21,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.190Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Forest DDPAT (Battle-Scarred)": {
+      "price": 159.36,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.839Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Forest DDPAT (Field-Tested)": {
+      "price": 163.59,
+      "listings": 25,
+      "updated_at": "2026-09-11T22:09:50.840Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Forest DDPAT (Minimal Wear)": {
+      "price": 174.03,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:50.873Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Forest DDPAT (Well-Worn)": {
+      "price": 156.61,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.838Z",
+      "source": "steam-bulk"
+    },
     "★ Skeleton Knife | Marble Fade (Factory New)": {
       "price": 555.18,
       "listings": 57,
@@ -7616,6 +8822,36 @@
       "updated_at": "2026-09-11T22:09:51.158Z",
       "source": "steam-bulk"
     },
+    "★ Skeleton Knife | Night Stripe (Battle-Scarred)": {
+      "price": 216.9,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.951Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Night Stripe (Factory New)": {
+      "price": 812.16,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Night Stripe (Field-Tested)": {
+      "price": 207.03,
+      "listings": 23,
+      "updated_at": "2026-09-11T22:09:50.922Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Night Stripe (Minimal Wear)": {
+      "price": 224.61,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:50.952Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Night Stripe (Well-Worn)": {
+      "price": 197.8,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.906Z",
+      "source": "steam-bulk"
+    },
     "★ Skeleton Knife | Rust Coat (Battle-Scarred)": {
       "price": 177.06,
       "listings": 60,
@@ -7626,6 +8862,108 @@
       "price": 213.48,
       "listings": 10,
       "updated_at": "2026-09-11T22:09:50.951Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Safari Mesh (Battle-Scarred)": {
+      "price": 156.05,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.823Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Safari Mesh (Field-Tested)": {
+      "price": 159.66,
+      "listings": 27,
+      "updated_at": "2026-09-11T22:09:50.839Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Safari Mesh (Minimal Wear)": {
+      "price": 167.64,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.856Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Safari Mesh (Well-Worn)": {
+      "price": 165.27,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:50.855Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Scorched (Battle-Scarred)": {
+      "price": 174.03,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:50.873Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Scorched (Factory New)": {
+      "price": 501.65,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.110Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Scorched (Field-Tested)": {
+      "price": 181.37,
+      "listings": 26,
+      "updated_at": "2026-09-11T22:09:50.889Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Scorched (Minimal Wear)": {
+      "price": 206.57,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.922Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Scorched (Well-Worn)": {
+      "price": 180.13,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.889Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Slaughter (Factory New)": {
+      "price": 662.49,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:51.143Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Slaughter (Field-Tested)": {
+      "price": 598.68,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:51.142Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Slaughter (Minimal Wear)": {
+      "price": 540.81,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:51.126Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Stained (Battle-Scarred)": {
+      "price": 235.68,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Stained (Factory New)": {
+      "price": 426.25,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:51.079Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Stained (Field-Tested)": {
+      "price": 254.84,
+      "listings": 23,
+      "updated_at": "2026-09-11T22:09:50.983Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Stained (Minimal Wear)": {
+      "price": 315.07,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Stained (Well-Worn)": {
+      "price": 249.16,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:50.983Z",
       "source": "steam-bulk"
     },
     "★ Skeleton Knife | Tiger Tooth (Factory New)": {
@@ -7668,6 +9006,36 @@
       "price": 258.8,
       "listings": 8,
       "updated_at": "2026-09-11T22:09:50.998Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Urban Masked (Battle-Scarred)": {
+      "price": 175.09,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:50.873Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Urban Masked (Factory New)": {
+      "price": 526.57,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.125Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Urban Masked (Field-Tested)": {
+      "price": 182.85,
+      "listings": 36,
+      "updated_at": "2026-09-11T22:09:50.890Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Urban Masked (Minimal Wear)": {
+      "price": 231.98,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "★ Skeleton Knife | Urban Masked (Well-Worn)": {
+      "price": 191.15,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:50.905Z",
       "source": "steam-bulk"
     },
     "★ Specialist Gloves | Big Swell (Battle-Scarred)": {
@@ -8846,6 +10214,66 @@
       "updated_at": "2026-09-11T22:09:50.890Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Bowie Knife | Autotronic (Battle-Scarred)": {
+      "price": 127.58,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Autotronic (Factory New)": {
+      "price": 415.11,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Autotronic (Field-Tested)": {
+      "price": 133.83,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Autotronic (Minimal Wear)": {
+      "price": 189.34,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Autotronic (Well-Worn)": {
+      "price": 160.04,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Black Laminate (Battle-Scarred)": {
+      "price": 83.04,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Black Laminate (Factory New)": {
+      "price": 207.47,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Black Laminate (Field-Tested)": {
+      "price": 80.06,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Black Laminate (Minimal Wear)": {
+      "price": 86.82,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Black Laminate (Well-Worn)": {
+      "price": 87.21,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Bowie Knife | Blue Steel (Battle-Scarred)": {
       "price": 261.05,
       "listings": 2,
@@ -8891,6 +10319,36 @@
     "★ StatTrak™ Bowie Knife | Boreal Forest (Well-Worn)": {
       "price": 105.45,
       "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Bright Water (Battle-Scarred)": {
+      "price": 135.35,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Bright Water (Factory New)": {
+      "price": 107.74,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Bright Water (Field-Tested)": {
+      "price": 75.28,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Bright Water (Minimal Wear)": {
+      "price": 95,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Bright Water (Well-Worn)": {
+      "price": 76.98,
+      "listings": 5,
       "updated_at": "2026-09-11T22:09:46.274Z",
       "source": "steam-bulk"
     },
@@ -8987,6 +10445,72 @@
     "★ StatTrak™ Bowie Knife | Forest DDPAT (Field-Tested)": {
       "price": 82.01,
       "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Freehand (Battle-Scarred)": {
+      "price": 112.23,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.259Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Freehand (Factory New)": {
+      "price": 143.37,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:46.259Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Freehand (Field-Tested)": {
+      "price": 94.41,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:46.259Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Freehand (Minimal Wear)": {
+      "price": 105.02,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:46.259Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Freehand (Well-Worn)": {
+      "price": 106.87,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.259Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Gamma Doppler (Factory New)": {
+      "price": 278.32,
+      "listings": 55,
+      "updated_at": "2026-09-11T22:09:46.259Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Lore (Battle-Scarred)": {
+      "price": 120.18,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Lore (Factory New)": {
+      "price": 417.68,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Lore (Field-Tested)": {
+      "price": 135.8,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Lore (Minimal Wear)": {
+      "price": 198.89,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.274Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Bowie Knife | Lore (Well-Worn)": {
+      "price": 127.59,
+      "listings": 10,
       "updated_at": "2026-09-11T22:09:46.274Z",
       "source": "steam-bulk"
     },
@@ -9146,6 +10670,36 @@
       "updated_at": "2026-09-21T02:19:26.272Z",
       "source": "steam-direct"
     },
+    "★ StatTrak™ Butterfly Knife | Autotronic (Field-Tested)": {
+      "price": 1196.27,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.081Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Black Laminate (Battle-Scarred)": {
+      "price": 912.57,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Black Laminate (Field-Tested)": {
+      "price": 1015.07,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Black Laminate (Minimal Wear)": {
+      "price": 1100.27,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Black Laminate (Well-Worn)": {
+      "price": 936.13,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Butterfly Knife | Blue Steel (Field-Tested)": {
       "price": 1450.37,
       "listings": 4,
@@ -9179,6 +10733,24 @@
     "★ StatTrak™ Butterfly Knife | Boreal Forest (Well-Worn)": {
       "price": 764.19,
       "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Bright Water (Factory New)": {
+      "price": 1000.25,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Bright Water (Field-Tested)": {
+      "price": 798.99,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Bright Water (Minimal Wear)": {
+      "price": 850.22,
+      "listings": 5,
       "updated_at": "2026-09-11T22:09:46.096Z",
       "source": "steam-bulk"
     },
@@ -9228,6 +10800,48 @@
       "price": 933.99,
       "listings": 3,
       "updated_at": "2026-09-11T22:09:46.096Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Freehand (Factory New)": {
+      "price": 1212.44,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.080Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Freehand (Field-Tested)": {
+      "price": 899.22,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.080Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Freehand (Minimal Wear)": {
+      "price": 1160.09,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.080Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Lore (Battle-Scarred)": {
+      "price": 853.89,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.081Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Lore (Field-Tested)": {
+      "price": 965.53,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.081Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Lore (Minimal Wear)": {
+      "price": 1765.42,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.081Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Butterfly Knife | Lore (Well-Worn)": {
+      "price": 900.22,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.081Z",
       "source": "steam-bulk"
     },
     "★ StatTrak™ Butterfly Knife | Night (Battle-Scarred)": {
@@ -9330,6 +10944,252 @@
       "price": 812.16,
       "listings": 2,
       "updated_at": "2026-09-11T22:09:46.097Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife": {
+      "price": 312.71,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:51.030Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Blue Steel (Battle-Scarred)": {
+      "price": 180.04,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Blue Steel (Factory New)": {
+      "price": 439.69,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Blue Steel (Minimal Wear)": {
+      "price": 184.44,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Blue Steel (Well-Worn)": {
+      "price": 197.24,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Boreal Forest (Battle-Scarred)": {
+      "price": 123.48,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Boreal Forest (Field-Tested)": {
+      "price": 105.49,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Boreal Forest (Minimal Wear)": {
+      "price": 125.23,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Boreal Forest (Well-Worn)": {
+      "price": 95.07,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Case Hardened (Battle-Scarred)": {
+      "price": 273.08,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.130Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Case Hardened (Factory New)": {
+      "price": 1237.07,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Case Hardened (Field-Tested)": {
+      "price": 233.33,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.130Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Case Hardened (Minimal Wear)": {
+      "price": 299.98,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Case Hardened (Well-Worn)": {
+      "price": 253.64,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.130Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Crimson Web (Field-Tested)": {
+      "price": 277.37,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Crimson Web (Minimal Wear)": {
+      "price": 300.82,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Crimson Web (Well-Worn)": {
+      "price": 411.86,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Fade (Factory New)": {
+      "price": 572.41,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Forest DDPAT (Battle-Scarred)": {
+      "price": 156.36,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Forest DDPAT (Field-Tested)": {
+      "price": 111.82,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Forest DDPAT (Minimal Wear)": {
+      "price": 135.02,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.130Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Night Stripe (Battle-Scarred)": {
+      "price": 166.3,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Night Stripe (Field-Tested)": {
+      "price": 160.11,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Night Stripe (Minimal Wear)": {
+      "price": 230.06,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Safari Mesh (Battle-Scarred)": {
+      "price": 114.85,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Safari Mesh (Field-Tested)": {
+      "price": 106.61,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Safari Mesh (Well-Worn)": {
+      "price": 133.58,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Scorched (Battle-Scarred)": {
+      "price": 121.8,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Scorched (Field-Tested)": {
+      "price": 165.23,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Scorched (Minimal Wear)": {
+      "price": 229.81,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Slaughter (Factory New)": {
+      "price": 405.55,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Slaughter (Field-Tested)": {
+      "price": 435.97,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Slaughter (Minimal Wear)": {
+      "price": 308.24,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Stained (Battle-Scarred)": {
+      "price": 146.83,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Stained (Field-Tested)": {
+      "price": 172.46,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Stained (Minimal Wear)": {
+      "price": 212.09,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Stained (Well-Worn)": {
+      "price": 154.04,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Urban Masked (Battle-Scarred)": {
+      "price": 118.75,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Urban Masked (Field-Tested)": {
+      "price": 156.61,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Urban Masked (Minimal Wear)": {
+      "price": 191.76,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.131Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Classic Knife | Urban Masked (Well-Worn)": {
+      "price": 128.62,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.131Z",
       "source": "steam-bulk"
     },
     "★ StatTrak™ Falchion Knife": {
@@ -10532,6 +12392,60 @@
       "updated_at": "2026-09-11T22:09:51.000Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Huntsman Knife | Autotronic (Battle-Scarred)": {
+      "price": 140.11,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Autotronic (Factory New)": {
+      "price": 773.87,
+      "listings": 2,
+      "updated_at": "2026-09-11T11:39:46.638Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Autotronic (Field-Tested)": {
+      "price": 149.53,
+      "listings": 23,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Autotronic (Minimal Wear)": {
+      "price": 199.7,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Black Laminate (Battle-Scarred)": {
+      "price": 89.77,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Black Laminate (Factory New)": {
+      "price": 289.07,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Black Laminate (Field-Tested)": {
+      "price": 97.38,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Black Laminate (Minimal Wear)": {
+      "price": 110.96,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Black Laminate (Well-Worn)": {
+      "price": 90.73,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Huntsman Knife | Blue Steel (Field-Tested)": {
       "price": 226.95,
       "listings": 3,
@@ -10570,6 +12484,30 @@
     },
     "★ StatTrak™ Huntsman Knife | Boreal Forest (Well-Worn)": {
       "price": 106.87,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Bright Water (Factory New)": {
+      "price": 116.72,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Bright Water (Field-Tested)": {
+      "price": 89.57,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Bright Water (Minimal Wear)": {
+      "price": 110.02,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Bright Water (Well-Worn)": {
+      "price": 87.05,
       "listings": 2,
       "updated_at": "2026-09-11T22:09:46.290Z",
       "source": "steam-bulk"
@@ -10656,6 +12594,42 @@
       "price": 126.4,
       "listings": 3,
       "updated_at": "2026-09-11T22:09:46.290Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Freehand (Factory New)": {
+      "price": 152.14,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.275Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Freehand (Field-Tested)": {
+      "price": 93.03,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:46.275Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Freehand (Minimal Wear)": {
+      "price": 120.08,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.275Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Freehand (Well-Worn)": {
+      "price": 177.05,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.275Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Gamma Doppler (Factory New)": {
+      "price": 333.5,
+      "listings": 28,
+      "updated_at": "2026-09-11T22:09:46.275Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Huntsman Knife | Gamma Doppler (Minimal Wear)": {
+      "price": 400.08,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.275Z",
       "source": "steam-bulk"
     },
     "★ StatTrak™ Huntsman Knife | Lore (Battle-Scarred)": {
@@ -12272,6 +14246,102 @@
       "updated_at": "2026-09-11T22:09:50.551Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Paracord Knife | Blue Steel (Battle-Scarred)": {
+      "price": 130.6,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Blue Steel (Factory New)": {
+      "price": 439.32,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Blue Steel (Field-Tested)": {
+      "price": 120.69,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Blue Steel (Minimal Wear)": {
+      "price": 145.03,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Blue Steel (Well-Worn)": {
+      "price": 132.79,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Boreal Forest (Battle-Scarred)": {
+      "price": 77.68,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Boreal Forest (Field-Tested)": {
+      "price": 68.6,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Boreal Forest (Minimal Wear)": {
+      "price": 92.16,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Boreal Forest (Well-Worn)": {
+      "price": 70.1,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Case Hardened (Battle-Scarred)": {
+      "price": 173.05,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Case Hardened (Factory New)": {
+      "price": 450.11,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Case Hardened (Field-Tested)": {
+      "price": 165.91,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Case Hardened (Minimal Wear)": {
+      "price": 255.25,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Case Hardened (Well-Worn)": {
+      "price": 163.86,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Crimson Web (Battle-Scarred)": {
+      "price": 150.99,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Crimson Web (Field-Tested)": {
+      "price": 160.11,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Paracord Knife | Damascus Steel (Battle-Scarred)": {
       "price": 142.45,
       "listings": 3,
@@ -12314,6 +14384,36 @@
       "updated_at": "2026-09-11T22:09:46.113Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Paracord Knife | Fade (Factory New)": {
+      "price": 232.05,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Forest DDPAT (Battle-Scarred)": {
+      "price": 68.69,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Forest DDPAT (Field-Tested)": {
+      "price": 68.45,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Forest DDPAT (Minimal Wear)": {
+      "price": 83.83,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Forest DDPAT (Well-Worn)": {
+      "price": 85.83,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Paracord Knife | Marble Fade (Factory New)": {
       "price": 207.1,
       "listings": 21,
@@ -12326,6 +14426,30 @@
       "updated_at": "2026-09-11T22:09:46.113Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Paracord Knife | Night Stripe (Battle-Scarred)": {
+      "price": 82.33,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Night Stripe (Field-Tested)": {
+      "price": 81.22,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Night Stripe (Minimal Wear)": {
+      "price": 110.02,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Night Stripe (Well-Worn)": {
+      "price": 85.86,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Paracord Knife | Rust Coat (Battle-Scarred)": {
       "price": 66.76,
       "listings": 21,
@@ -12335,6 +14459,96 @@
     "★ StatTrak™ Paracord Knife | Rust Coat (Well-Worn)": {
       "price": 99.2,
       "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Safari Mesh (Battle-Scarred)": {
+      "price": 63.74,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Safari Mesh (Field-Tested)": {
+      "price": 63.93,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Safari Mesh (Minimal Wear)": {
+      "price": 108.98,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Safari Mesh (Well-Worn)": {
+      "price": 84.67,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Scorched (Battle-Scarred)": {
+      "price": 86.09,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Scorched (Field-Tested)": {
+      "price": 77.41,
+      "listings": 12,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Scorched (Minimal Wear)": {
+      "price": 108.67,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Scorched (Well-Worn)": {
+      "price": 78.49,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Slaughter (Factory New)": {
+      "price": 300.08,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Slaughter (Field-Tested)": {
+      "price": 307.68,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Slaughter (Minimal Wear)": {
+      "price": 214.03,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Stained (Battle-Scarred)": {
+      "price": 89.05,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Stained (Field-Tested)": {
+      "price": 102.69,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Stained (Minimal Wear)": {
+      "price": 111.61,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.113Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Stained (Well-Worn)": {
+      "price": 98.62,
+      "listings": 3,
       "updated_at": "2026-09-11T22:09:46.113Z",
       "source": "steam-bulk"
     },
@@ -12365,6 +14579,30 @@
     "★ StatTrak™ Paracord Knife | Ultraviolet (Well-Worn)": {
       "price": 104.36,
       "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Urban Masked (Battle-Scarred)": {
+      "price": 92.02,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Urban Masked (Field-Tested)": {
+      "price": 87.41,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Urban Masked (Minimal Wear)": {
+      "price": 119.35,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.114Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Paracord Knife | Urban Masked (Well-Worn)": {
+      "price": 138.68,
+      "listings": 2,
       "updated_at": "2026-09-11T22:09:46.114Z",
       "source": "steam-bulk"
     },
@@ -12860,6 +15098,90 @@
       "updated_at": "2026-09-11T22:09:51.047Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Skeleton Knife | Blue Steel (Battle-Scarred)": {
+      "price": 357.94,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Blue Steel (Field-Tested)": {
+      "price": 340.08,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Blue Steel (Minimal Wear)": {
+      "price": 682.74,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Blue Steel (Well-Worn)": {
+      "price": 297.42,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Boreal Forest (Battle-Scarred)": {
+      "price": 170.67,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Boreal Forest (Field-Tested)": {
+      "price": 179.82,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Boreal Forest (Minimal Wear)": {
+      "price": 213.41,
+      "listings": 2,
+      "updated_at": "2026-09-11T21:39:47.234Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Boreal Forest (Well-Worn)": {
+      "price": 207.79,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Case Hardened (Battle-Scarred)": {
+      "price": 415.04,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Case Hardened (Field-Tested)": {
+      "price": 412.01,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Case Hardened (Minimal Wear)": {
+      "price": 642.65,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Case Hardened (Well-Worn)": {
+      "price": 436.94,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Crimson Web (Field-Tested)": {
+      "price": 433.87,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Crimson Web (Well-Worn)": {
+      "price": 461.48,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Skeleton Knife | Damascus Steel (Battle-Scarred)": {
       "price": 431.8,
       "listings": 2,
@@ -12890,15 +15212,141 @@
       "updated_at": "2026-09-11T22:09:46.242Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Skeleton Knife | Fade (Factory New)": {
+      "price": 965.53,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Forest DDPAT (Battle-Scarred)": {
+      "price": 175.52,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Forest DDPAT (Field-Tested)": {
+      "price": 168.22,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Forest DDPAT (Minimal Wear)": {
+      "price": 201.85,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Forest DDPAT (Well-Worn)": {
+      "price": 186.41,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Skeleton Knife | Marble Fade (Factory New)": {
       "price": 615.92,
       "listings": 14,
       "updated_at": "2026-09-11T22:09:46.242Z",
       "source": "steam-bulk"
     },
+    "★ StatTrak™ Skeleton Knife | Night Stripe (Field-Tested)": {
+      "price": 249.42,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Night Stripe (Minimal Wear)": {
+      "price": 315.95,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Night Stripe (Well-Worn)": {
+      "price": 206.6,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
     "★ StatTrak™ Skeleton Knife | Rust Coat (Battle-Scarred)": {
       "price": 198.75,
       "listings": 14,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Safari Mesh (Field-Tested)": {
+      "price": 154.71,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Safari Mesh (Minimal Wear)": {
+      "price": 195.73,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Safari Mesh (Well-Worn)": {
+      "price": 163.45,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Scorched (Battle-Scarred)": {
+      "price": 214.64,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Scorched (Field-Tested)": {
+      "price": 208.55,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Scorched (Minimal Wear)": {
+      "price": 254.51,
+      "listings": 5,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Slaughter (Factory New)": {
+      "price": 814.96,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Slaughter (Field-Tested)": {
+      "price": 684.54,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Slaughter (Minimal Wear)": {
+      "price": 712.42,
+      "listings": 6,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Stained (Battle-Scarred)": {
+      "price": 272.85,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Stained (Field-Tested)": {
+      "price": 322.85,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Stained (Minimal Wear)": {
+      "price": 336.44,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:46.242Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Stained (Well-Worn)": {
+      "price": 310.08,
+      "listings": 4,
       "updated_at": "2026-09-11T22:09:46.242Z",
       "source": "steam-bulk"
     },
@@ -12929,6 +15377,30 @@
     "★ StatTrak™ Skeleton Knife | Ultraviolet (Well-Worn)": {
       "price": 464.09,
       "listings": 4,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Urban Masked (Battle-Scarred)": {
+      "price": 202.99,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Urban Masked (Field-Tested)": {
+      "price": 221.93,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Urban Masked (Minimal Wear)": {
+      "price": 310.43,
+      "listings": 3,
+      "updated_at": "2026-09-11T22:09:46.258Z",
+      "source": "steam-bulk"
+    },
+    "★ StatTrak™ Skeleton Knife | Urban Masked (Well-Worn)": {
+      "price": 206.81,
+      "listings": 3,
       "updated_at": "2026-09-11T22:09:46.258Z",
       "source": "steam-bulk"
     },

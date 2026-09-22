@@ -1,6 +1,6 @@
 {
   "format_version": "1.0",
-  "verified_at": "2026-09-21",
+  "verified_at": "2026-09-22",
   "description": "Current third-party market-comparison quotes used only when Steam Community Market has no usable sell listing.",
   "items": {
     "Butterfly Knife | ★ Doppler": {
@@ -17,6 +17,14 @@
       "market_prices": {
         "normal": { "fn": 2168.00, "mw": 2200.00 },
         "stattrak": { "fn": 2085.48, "mw": 2869.90 }
+      }
+    },
+    "Butterfly Knife | ★ Gamma Doppler": {
+      "source": "CS2.io",
+      "source_url": "https://cs2.io/en/skins/knives/butterfly-knife-gamma-doppler",
+      "market_prices": {
+        "normal": { "fn": 1708.35, "mw": 1777.95 },
+        "stattrak": { "fn": 1737.59 }
       }
     },
     "Specialist Gloves | ★ Crimson Kimono": {

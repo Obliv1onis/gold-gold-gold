@@ -14,13 +14,13 @@ Prices below are Steam Community Market snapshots verified 2026-09-21T23:34:52.3
 | Kilowatt Case | Weapon Case | 2024-02-06 | 30 | $0.18 |
 | Revolution Case | Weapon Case | 2023-02-09 | 41 | $0.29 |
 | Recoil Case | Weapon Case | 2022-07-01 | 41 | $0.40 |
-| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | 30 | $1.63 |
-| Operation Riptide Case | Weapon Case | 2021-09-21 | 30 | $12.14 |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | 47 | $1.63 |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | 47 | $12.14 |
 | Snakebite Case | Weapon Case | 2021-05-03 | 41 | $0.57 |
 | Operation Broken Fang Case | Weapon Case | 2020-12-03 | 41 | $8.43 |
-| Fracture Case | Weapon Case | 2020-07-01 | 21 | $0.71 |
+| Fracture Case | Weapon Case | 2020-07-01 | 69 | $0.71 |
 | Prisma 2 Case | Weapon Case | 2020-03-31 | 45 | $1.68 |
-| Shattered Web Case | Weapon Case | 2019-11-18 | 40 | $6.34 |
+| Shattered Web Case | Weapon Case | 2019-11-18 | 69 | $6.34 |
 | CS20 Case | Weapon Case | 2019-10-18 | 30 | $1.23 |
 | Prisma Case | Weapon Case | 2019-03-13 | 45 | $1.72 |
 | Danger Zone Case | Weapon Case | 2018-12-06 | 69 | $1.62 |

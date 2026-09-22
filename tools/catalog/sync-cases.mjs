@@ -3,12 +3,12 @@
 /**
  * Synchronise weapon-case and terminal contents with ByMykel's CS2 item API.
  *
- * The repository keeps prices and compact rare-special pools locally, while the
- * upstream catalogue is the source of truth for container names, normal skin
- * pools, and images. New containers keep their upstream rare-special pool.
+ * The repository keeps prices locally, while the upstream catalogue is the
+ * source of truth for container names, complete item pools, and images.
  *
  * Usage:
  *   node tools/catalog/sync-cases.mjs --source /path/to/crates.json --write
+ *   node tools/catalog/sync-cases.mjs --source /path/to/crates.json --rare-only --write
  *   node tools/catalog/sync-cases.mjs --write
  */
 
@@ -63,14 +63,14 @@ const IDS = {
   'Gallery Case': 'gallery_case',
 };
 
-const NEW_RARE_POOLS = new Set(['Gallery Case', 'Sealed Dead Hand Terminal']);
 const TERMINALS = new Set(['Sealed Genesis Terminal', 'Sealed Dead Hand Terminal']);
 
 function parseArgs(argv) {
-  const args = { source: null, write: false };
+  const args = { source: null, write: false, rareOnly: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--source') args.source = argv[++i];
     else if (argv[i] === '--write') args.write = true;
+    else if (argv[i] === '--rare-only') args.rareOnly = true;
     else throw new Error(`Unknown argument: ${argv[i]}`);
   }
   return args;
@@ -110,21 +110,47 @@ function itemKey({ weapon, skin }) {
 function buildItems(apiItems, caseId, existingItems, rarity, rareSpecial = false) {
   const existingByName = new Map(existingItems.map(item => [itemKey(item), item]));
 
-  return apiItems.map((apiItem, index) => {
+  return apiItems.map(apiItem => {
     const parsed = splitName(apiItem.name, rareSpecial);
     const exact = existingByName.get(itemKey(parsed));
-    const priceSource = exact ?? existingItems[index];
-    const phaseSuffix = apiItem.phase ? `_${slug(apiItem.phase)}` : '';
 
     return {
+      ...exact,
       weapon: parsed.weapon,
       skin: parsed.skin,
-      item_id: exact?.item_id ?? `${caseId}_${slug(parsed.weapon)}_${slug(parsed.skin)}${phaseSuffix}`,
-      image_url: apiItem.image ?? exact?.image_url ?? null,
-      market_price: priceSource?.market_price ?? FALLBACK_PRICE[rarity],
-      stattrak: false,
+      item_id: exact?.item_id ?? `${caseId}_${slug(parsed.weapon)}_${slug(parsed.skin)}`,
+      image_url: exact?.image_url ?? apiItem.image ?? null,
+      market_price: exact?.market_price ?? FALLBACK_PRICE[rarity],
+      stattrak: exact?.stattrak ?? false,
     };
   });
+}
+
+function compactRareItems(items = []) {
+  const byName = new Map();
+  for (const item of items) {
+    if (!byName.has(item.name) || item.phase === 'Phase 1') byName.set(item.name, item);
+  }
+  return [...byName.values()];
+}
+
+function mergeInExistingOrder(existingItems, syncedItems) {
+  const syncedByName = new Map(syncedItems.map(item => [itemKey(item), item]));
+  const merged = [];
+  const used = new Set();
+  for (const item of existingItems) {
+    const key = itemKey(item);
+    if (!syncedByName.has(key) || used.has(key)) continue;
+    merged.push(item);
+    used.add(key);
+  }
+  for (const item of syncedItems) {
+    const key = itemKey(item);
+    if (used.has(key)) continue;
+    merged.push(item);
+    used.add(key);
+  }
+  return merged;
 }
 
 function groupedNormalItems(crate) {
@@ -159,9 +185,9 @@ function syncEntry(crate, existing) {
     );
   }
 
-  if (NEW_RARE_POOLS.has(crate.name)) {
+  if (crate.contains_rare?.length) {
     items.rare_special = buildItems(
-      crate.contains_rare ?? [],
+      compactRareItems(crate.contains_rare),
       id,
       existing?.items?.rare_special ?? [],
       'rare_special',
@@ -197,8 +223,34 @@ async function main() {
 
   const caseCrates = upstream.filter(entry => entry.type === 'Case');
   const terminalCrates = [...TERMINALS].map(name => upstreamByName.get(name)).filter(Boolean);
-  const syncedNames = new Set([...caseCrates, ...terminalCrates].map(entry => entry.name));
-  const synced = [...caseCrates, ...terminalCrates]
+  const allCrates = [...caseCrates, ...terminalCrates];
+
+  if (args.rareOnly) {
+    for (const existing of data.cases) {
+      const crate = upstreamByName.get(existing.name);
+      if (!crate?.contains_rare?.length) continue;
+      const currentItems = existing.items?.rare_special ?? [];
+      const syncedItems = buildItems(
+        compactRareItems(crate.contains_rare),
+        existing.id,
+        currentItems,
+        'rare_special',
+        true,
+      );
+      existing.items.rare_special = mergeInExistingOrder(currentItems, syncedItems);
+    }
+    const summary = `${caseCrates.length} weapon cases and ${terminalCrates.length} terminals checked for complete rare-special pools`;
+    if (!args.write) {
+      console.log(`Dry run: ${summary}. Pass --write to update ${DATA_PATH}.`);
+      return;
+    }
+    await writeFile(DATA_PATH, `${JSON.stringify(data, null, 2)}\n`);
+    console.log(`Updated ${DATA_PATH}: ${summary}.`);
+    return;
+  }
+
+  const syncedNames = new Set(allCrates.map(entry => entry.name));
+  const synced = allCrates
     .map(crate => syncEntry(crate, existingByName.get(crate.name)))
     .sort(compareNewestFirst);
 

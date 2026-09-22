@@ -144,6 +144,23 @@ Complete priced simulator contents for 43 containers.
 | Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Shadow Daggers \| Freehand | $57.58 | Steam Community Market |
 | Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Shadow Daggers \| Black Laminate | $49.45 | Steam Community Market |
 | Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Huntsman Knife \| Lore | $128.03 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Bowie Knife \| Gamma Doppler | $237.74 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Bowie Knife \| Lore | $118.16 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Bowie Knife \| Autotronic | $114.93 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Bowie Knife \| Black Laminate | $63.21 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Bowie Knife \| Freehand | $88.50 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Bowie Knife \| Bright Water | $70.26 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Butterfly Knife \| Gamma Doppler | $1708.35 | CS2.io |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Butterfly Knife \| Lore | $951.39 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Butterfly Knife \| Autotronic | $1150.28 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Butterfly Knife \| Black Laminate | $850.22 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Butterfly Knife \| Freehand | $799.41 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Butterfly Knife \| Bright Water | $747.66 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Huntsman Knife \| Gamma Doppler | $294.78 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Huntsman Knife \| Autotronic | $133.43 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Huntsman Knife \| Black Laminate | $84.70 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Huntsman Knife \| Freehand | $91.47 | Steam Community Market |
+| Dreams & Nightmares Case | Weapon Case | 2022-01-20 | $1.63 | Rare Special | 0.26% | ★ Huntsman Knife \| Bright Water | $70.63 | Steam Community Market |
 | Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Falchion Knife \| Lore | $129.98 | Steam Community Market |
 | Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Falchion Knife \| Gamma Doppler | $277.40 | Steam Community Market |
 | Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Falchion Knife \| Bright Water | $91.70 | Steam Community Market |
@@ -157,6 +174,23 @@ Complete priced simulator contents for 43 containers.
 | Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Shadow Daggers \| Freehand | $57.58 | Steam Community Market |
 | Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Shadow Daggers \| Black Laminate | $49.45 | Steam Community Market |
 | Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Huntsman Knife \| Lore | $128.03 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Bowie Knife \| Gamma Doppler | $237.74 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Bowie Knife \| Lore | $118.16 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Bowie Knife \| Autotronic | $114.93 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Bowie Knife \| Black Laminate | $63.21 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Bowie Knife \| Freehand | $88.50 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Bowie Knife \| Bright Water | $70.26 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Butterfly Knife \| Gamma Doppler | $1708.35 | CS2.io |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Butterfly Knife \| Lore | $951.39 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Butterfly Knife \| Autotronic | $1150.28 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Butterfly Knife \| Black Laminate | $850.22 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Butterfly Knife \| Freehand | $799.41 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Butterfly Knife \| Bright Water | $747.66 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Huntsman Knife \| Gamma Doppler | $294.78 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Huntsman Knife \| Autotronic | $133.43 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Huntsman Knife \| Black Laminate | $84.70 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Huntsman Knife \| Freehand | $91.47 | Steam Community Market |
+| Operation Riptide Case | Weapon Case | 2021-09-21 | $12.14 | Rare Special | 0.26% | ★ Huntsman Knife \| Bright Water | $70.63 | Steam Community Market |
 | Snakebite Case | Weapon Case | 2021-05-03 | $0.57 | Rare Special | 0.26% | ★ Specialist Gloves \| Field Agent | $175.54 | Steam Community Market |
 | Snakebite Case | Weapon Case | 2021-05-03 | $0.57 | Rare Special | 0.26% | ★ Specialist Gloves \| Marble Fade | $180.59 | Steam Community Market |
 | Snakebite Case | Weapon Case | 2021-05-03 | $0.57 | Rare Special | 0.26% | ★ Specialist Gloves \| Tiger Strike | $213.25 | Steam Community Market |
@@ -209,6 +243,54 @@ Complete priced simulator contents for 43 containers.
 | Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife | $66.71 | Steam Community Market |
 | Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife | $186.02 | Steam Community Market |
 | Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife | $322.06 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Fade | $399.91 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Crimson Web | $214.21 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Slaughter | $339.94 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Case Hardened | $213.41 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Urban Masked | $139.03 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Blue Steel | $187.24 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Night Stripe | $121.08 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Stained | $169.68 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Forest DDPAT | $107.90 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Boreal Forest | $109.64 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Scorched | $118.75 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Nomad Knife \| Safari Mesh | $96.94 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Fade | $196.32 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Crimson Web | $122.89 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Slaughter | $176.12 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Case Hardened | $126.53 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Urban Masked | $64.71 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Blue Steel | $95.02 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Night Stripe | $65.08 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Stained | $70.72 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Forest DDPAT | $54.54 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Boreal Forest | $61.69 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Scorched | $59.87 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Paracord Knife \| Safari Mesh | $55.02 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Fade | $760.57 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Crimson Web | $381.60 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Slaughter | $598.68 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Case Hardened | $354.13 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Urban Masked | $182.85 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Blue Steel | $320.06 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Night Stripe | $207.03 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Stained | $254.84 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Forest DDPAT | $163.59 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Boreal Forest | $155.05 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Scorched | $181.37 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Skeleton Knife \| Safari Mesh | $159.66 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Fade | $179.39 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Crimson Web | $127.63 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Slaughter | $170.25 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Case Hardened | $125.04 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Urban Masked | $61.45 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Blue Steel | $88.50 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Night Stripe | $61.96 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Stained | $73.67 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Forest DDPAT | $57.07 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Boreal Forest | $55.99 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Scorched | $61.96 | Steam Community Market |
+| Fracture Case | Weapon Case | 2020-07-01 | $0.71 | Rare Special | 0.26% | ★ Survival Knife \| Safari Mesh | $53.43 | Steam Community Market |
 | Prisma 2 Case | Weapon Case | 2020-03-31 | $1.68 | Rare Special | 0.26% | ★ Navaja Knife | $54.59 | Steam Community Market |
 | Prisma 2 Case | Weapon Case | 2020-03-31 | $1.68 | Rare Special | 0.26% | ★ Navaja Knife \| Rust Coat | $64.35 | Steam Community Market |
 | Prisma 2 Case | Weapon Case | 2020-03-31 | $1.68 | Rare Special | 0.26% | ★ Navaja Knife \| Doppler | $147.52 | Steam Community Market |
@@ -260,19 +342,48 @@ Complete priced simulator contents for 43 containers.
 | Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Nomad Knife \| Crimson Web | $214.21 | Steam Community Market |
 | Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Nomad Knife \| Fade | $399.91 | Steam Community Market |
 | Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Nomad Knife \| Safari Mesh | $96.94 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife | $186.02 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Stained | $169.68 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Boreal Forest | $109.64 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Night Stripe | $121.08 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Slaughter | $339.94 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Scorched | $118.75 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Forest DDPAT | $107.90 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Crimson Web | $214.21 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Fade | $399.91 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Safari Mesh | $96.94 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Blue Steel | $187.24 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Case Hardened | $213.41 | Steam Community Market |
-| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Nomad Knife \| Urban Masked | $139.03 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Nomad Knife \| Case Hardened | $213.41 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Nomad Knife \| Urban Masked | $139.03 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Nomad Knife \| Blue Steel | $187.24 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife | $69.60 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Fade | $196.32 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Crimson Web | $122.89 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Slaughter | $176.12 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Case Hardened | $126.53 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Urban Masked | $64.71 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Blue Steel | $95.02 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Night Stripe | $65.08 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Stained | $70.72 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Forest DDPAT | $54.54 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Boreal Forest | $61.69 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Scorched | $59.87 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Paracord Knife \| Safari Mesh | $55.02 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife | $322.06 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Fade | $760.57 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Crimson Web | $381.60 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Slaughter | $598.68 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Case Hardened | $354.13 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Urban Masked | $182.85 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Blue Steel | $320.06 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Night Stripe | $207.03 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Stained | $254.84 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Forest DDPAT | $163.59 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Boreal Forest | $155.05 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Scorched | $181.37 | Steam Community Market |
+| Shattered Web Case | Weapon Case | 2019-11-18 | $6.34 | Rare Special | 0.26% | ★ Skeleton Knife \| Safari Mesh | $159.66 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife | $274.09 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Fade | $368.87 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Crimson Web | $197.23 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Slaughter | $252.37 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Case Hardened | $180.72 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Urban Masked | $125.44 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Blue Steel | $157.14 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Night Stripe | $133.43 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Stained | $143.58 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Forest DDPAT | $98.75 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Boreal Forest | $89.06 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Scorched | $112.95 | Steam Community Market |
+| CS20 Case | Weapon Case | 2019-10-18 | $1.23 | Rare Special | 0.26% | ★ Classic Knife \| Safari Mesh | $88.79 | Steam Community Market |
 | Prisma Case | Weapon Case | 2019-03-13 | $1.72 | Rare Special | 0.26% | ★ Navaja Knife | $54.59 | Steam Community Market |
 | Prisma Case | Weapon Case | 2019-03-13 | $1.72 | Rare Special | 0.26% | ★ Navaja Knife \| Rust Coat | $64.35 | Steam Community Market |
 | Prisma Case | Weapon Case | 2019-03-13 | $1.72 | Rare Special | 0.26% | ★ Navaja Knife \| Doppler | $147.52 | Steam Community Market |

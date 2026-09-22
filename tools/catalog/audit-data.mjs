@@ -24,6 +24,7 @@ const REQUIRED_CASE_ITEMS = {
   terminal_genesis: ['AK-47 | The Oligarch', 'M4A4 | Full Throttle'],
   terminal_dead_hand: ["AWP | Queen's Gambit", 'Glock-18 | Fully Tuned'],
   revolution_case: ['AWP | Duality'],
+  dreams_nightmares_case: ['Butterfly Knife | Bright Water', 'Bowie Knife | Gamma Doppler'],
 };
 
 const REQUIRED_CONTAINERS = [

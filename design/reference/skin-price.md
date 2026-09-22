@@ -5,9 +5,9 @@
 > Direct checks: Steam Community Market priceoverview, lowest sell listing in USD.
 > Prices are snapshots and are refreshed from Steam at runtime when an item is visible.
 > Bulk snapshot: 2026-09-12T02:36:30Z.
-> Verified at: 2026-09-21T23:34:52.302Z.
+> Verified at: 2026-09-22T15:21:16.755Z.
 
-Priced market variants: 10480. Directly refreshed entries: 158.
+Priced market variants: 10892. Directly refreshed entries: 158.
 
 | Market hash name | Steam price (USD) | Listings | Updated at | Source |
 | --- | ---: | ---: | --- | --- |
@@ -116,6 +116,16 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Bloodhound Gloves \| Snakebite (Minimal Wear) | 371.64 | 5 | 2026-09-11T22:09:51.063Z | steam-bulk |
 | ★ Bloodhound Gloves \| Snakebite (Well-Worn) | 142.51 | 4 | 2026-09-11T22:09:50.803Z | steam-bulk |
 | ★ Bowie Knife | 115.59 | 26 | 2026-09-11T22:09:50.702Z | steam-bulk |
+| ★ Bowie Knife \| Autotronic (Battle-Scarred) | 105.50 | 33 | 2026-09-11T22:09:50.683Z | steam-bulk |
+| ★ Bowie Knife \| Autotronic (Factory New) | 202.53 | 19 | 2026-09-11T22:09:50.921Z | steam-bulk |
+| ★ Bowie Knife \| Autotronic (Field-Tested) | 114.93 | 114 | 2026-09-11T22:09:50.702Z | steam-bulk |
+| ★ Bowie Knife \| Autotronic (Minimal Wear) | 130.04 | 49 | 2026-09-11T22:09:50.753Z | steam-bulk |
+| ★ Bowie Knife \| Autotronic (Well-Worn) | 111.01 | 17 | 2026-09-11T22:09:50.701Z | steam-bulk |
+| ★ Bowie Knife \| Black Laminate (Battle-Scarred) | 69.09 | 40 | 2026-09-11T22:09:50.483Z | steam-bulk |
+| ★ Bowie Knife \| Black Laminate (Factory New) | 132.77 | 15 | 2026-09-11T22:09:50.754Z | steam-bulk |
+| ★ Bowie Knife \| Black Laminate (Field-Tested) | 63.21 | 93 | 2026-09-11T22:09:50.436Z | steam-bulk |
+| ★ Bowie Knife \| Black Laminate (Minimal Wear) | 76.29 | 54 | 2026-09-11T22:09:50.517Z | steam-bulk |
+| ★ Bowie Knife \| Black Laminate (Well-Worn) | 68.86 | 48 | 2026-09-11T22:09:50.469Z | steam-bulk |
 | ★ Bowie Knife \| Blue Steel (Battle-Scarred) | 139.91 | 11 | 2026-09-11T22:09:50.787Z | steam-bulk |
 | ★ Bowie Knife \| Blue Steel (Factory New) | 368.87 | 2 | 2026-09-11T22:09:51.062Z | steam-bulk |
 | ★ Bowie Knife \| Blue Steel (Field-Tested) | 145.04 | 11 | 2026-09-11T22:09:50.804Z | steam-bulk |
@@ -125,6 +135,11 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Bowie Knife \| Boreal Forest (Field-Tested) | 60.99 | 20 | 2026-09-11T22:09:50.420Z | steam-bulk |
 | ★ Bowie Knife \| Boreal Forest (Minimal Wear) | 91.18 | 9 | 2026-09-11T22:09:50.601Z | steam-bulk |
 | ★ Bowie Knife \| Boreal Forest (Well-Worn) | 61.45 | 4 | 2026-09-11T22:09:50.421Z | steam-bulk |
+| ★ Bowie Knife \| Bright Water (Battle-Scarred) | 91.39 | 10 | 2026-09-11T22:09:50.601Z | steam-bulk |
+| ★ Bowie Knife \| Bright Water (Factory New) | 84.01 | 64 | 2026-09-11T22:09:50.567Z | steam-bulk |
+| ★ Bowie Knife \| Bright Water (Field-Tested) | 70.26 | 129 | 2026-09-11T22:09:50.498Z | steam-bulk |
+| ★ Bowie Knife \| Bright Water (Minimal Wear) | 70.77 | 68 | 2026-09-11T22:09:50.499Z | steam-bulk |
+| ★ Bowie Knife \| Bright Water (Well-Worn) | 70.02 | 11 | 2026-09-11T22:09:50.498Z | steam-bulk |
 | ★ Bowie Knife \| Case Hardened (Battle-Scarred) | 188.67 | 16 | 2026-09-11T22:09:50.905Z | steam-bulk |
 | ★ Bowie Knife \| Case Hardened (Factory New) | 516.41 | 2 | 2026-09-11T22:09:51.110Z | steam-bulk |
 | ★ Bowie Knife \| Case Hardened (Field-Tested) | 199.04 | 25 | 2026-09-11T22:09:50.921Z | steam-bulk |
@@ -147,6 +162,18 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Bowie Knife \| Forest DDPAT (Field-Tested) | 66.71 | 20 | 2026-09-11T22:09:50.467Z | steam-bulk |
 | ★ Bowie Knife \| Forest DDPAT (Minimal Wear) | 89.34 | 6 | 2026-09-11T22:09:50.584Z | steam-bulk |
 | ★ Bowie Knife \| Forest DDPAT (Well-Worn) | 73.62 | 9 | 2026-09-11T22:09:50.515Z | steam-bulk |
+| ★ Bowie Knife \| Freehand (Battle-Scarred) | 89.83 | 12 | 2026-09-11T22:09:50.584Z | steam-bulk |
+| ★ Bowie Knife \| Freehand (Factory New) | 103.31 | 66 | 2026-09-11T22:09:50.652Z | steam-bulk |
+| ★ Bowie Knife \| Freehand (Field-Tested) | 88.50 | 106 | 2026-09-11T22:09:50.584Z | steam-bulk |
+| ★ Bowie Knife \| Freehand (Minimal Wear) | 96.02 | 56 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| ★ Bowie Knife \| Freehand (Well-Worn) | 93.40 | 8 | 2026-09-11T22:09:50.617Z | steam-bulk |
+| ★ Bowie Knife \| Gamma Doppler (Factory New) | 237.74 | 326 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| ★ Bowie Knife \| Gamma Doppler (Minimal Wear) | 303.65 | 8 | 2026-09-11T22:09:51.015Z | steam-bulk |
+| ★ Bowie Knife \| Lore (Battle-Scarred) | 95.12 | 38 | 2026-09-11T22:09:50.633Z | steam-bulk |
+| ★ Bowie Knife \| Lore (Factory New) | 246.84 | 15 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Bowie Knife \| Lore (Field-Tested) | 118.16 | 95 | 2026-09-11T22:09:50.719Z | steam-bulk |
+| ★ Bowie Knife \| Lore (Minimal Wear) | 162.43 | 56 | 2026-09-11T22:09:50.840Z | steam-bulk |
+| ★ Bowie Knife \| Lore (Well-Worn) | 106.81 | 50 | 2026-09-11T22:09:50.684Z | steam-bulk |
 | ★ Bowie Knife \| Marble Fade (Factory New) | 207.17 | 99 | 2026-09-11T22:09:50.922Z | steam-bulk |
 | ★ Bowie Knife \| Marble Fade (Minimal Wear) | 276.07 | 11 | 2026-09-11T22:09:50.999Z | steam-bulk |
 | ★ Bowie Knife \| Night (Battle-Scarred) | 92.52 | 8 | 2026-09-11T22:09:50.616Z | steam-bulk |
@@ -204,6 +231,14 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Broken Fang Gloves \| Yellow-banded (Minimal Wear) | 113.60 | 38 | 2026-09-11T22:09:50.702Z | steam-bulk |
 | ★ Broken Fang Gloves \| Yellow-banded (Well-Worn) | 64.52 | 17 | 2026-09-11T22:09:50.451Z | steam-bulk |
 | ★ Butterfly Knife | 1559.29 | — | 2026-09-21T02:19:26.148Z | steam-direct |
+| ★ Butterfly Knife \| Autotronic (Battle-Scarred) | 994.03 | 12 | 2026-09-11T22:09:51.191Z | steam-bulk |
+| ★ Butterfly Knife \| Autotronic (Field-Tested) | 1150.28 | 17 | 2026-09-11T22:09:51.206Z | steam-bulk |
+| ★ Butterfly Knife \| Autotronic (Minimal Wear) | 1380.33 | 6 | 2026-09-11T22:09:51.207Z | steam-bulk |
+| ★ Butterfly Knife \| Black Laminate (Battle-Scarred) | 816.70 | 9 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| ★ Butterfly Knife \| Black Laminate (Factory New) | 1697.83 | 3 | 2026-09-11T22:09:51.223Z | steam-bulk |
+| ★ Butterfly Knife \| Black Laminate (Field-Tested) | 850.22 | 12 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| ★ Butterfly Knife \| Black Laminate (Minimal Wear) | 986.60 | 7 | 2026-09-11T22:09:51.191Z | steam-bulk |
+| ★ Butterfly Knife \| Black Laminate (Well-Worn) | 875.21 | 10 | 2026-09-11T22:09:51.190Z | steam-bulk |
 | ★ Butterfly Knife \| Blue Steel (Battle-Scarred) | 1165.58 | 6 | 2026-09-11T22:09:51.206Z | steam-bulk |
 | ★ Butterfly Knife \| Blue Steel (Field-Tested) | 1236.54 | 6 | 2026-09-11T22:09:51.207Z | steam-bulk |
 | ★ Butterfly Knife \| Blue Steel (Minimal Wear) | 1356.65 | 10 | 2026-09-11T22:09:51.207Z | steam-bulk |
@@ -212,6 +247,10 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Butterfly Knife \| Boreal Forest (Field-Tested) | 643.58 | 15 | 2026-09-11T22:09:51.143Z | steam-bulk |
 | ★ Butterfly Knife \| Boreal Forest (Minimal Wear) | 799.19 | 4 | 2026-09-11T22:09:51.174Z | steam-bulk |
 | ★ Butterfly Knife \| Boreal Forest (Well-Worn) | 736.48 | 5 | 2026-09-11T22:09:51.159Z | steam-bulk |
+| ★ Butterfly Knife \| Bright Water (Battle-Scarred) | 750.19 | 3 | 2026-09-11T22:09:51.159Z | steam-bulk |
+| ★ Butterfly Knife \| Bright Water (Factory New) | 861.21 | 14 | 2026-09-11T22:09:51.190Z | steam-bulk |
+| ★ Butterfly Knife \| Bright Water (Field-Tested) | 747.66 | 28 | 2026-09-11T22:09:51.159Z | steam-bulk |
+| ★ Butterfly Knife \| Bright Water (Minimal Wear) | 810.21 | 20 | 2026-09-11T22:09:51.175Z | steam-bulk |
 | ★ Butterfly Knife \| Case Hardened (Battle-Scarred) | 1093.42 | 12 | 2026-09-11T22:09:51.206Z | steam-bulk |
 | ★ Butterfly Knife \| Case Hardened (Field-Tested) | 1041.42 | 19 | 2026-09-11T22:09:51.191Z | steam-bulk |
 | ★ Butterfly Knife \| Case Hardened (Minimal Wear) | 1334.26 | 11 | 2026-09-11T22:09:51.207Z | steam-bulk |
@@ -226,6 +265,14 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Butterfly Knife \| Forest DDPAT (Field-Tested) | 680.16 | 15 | 2026-09-11T22:09:51.158Z | steam-bulk |
 | ★ Butterfly Knife \| Forest DDPAT (Minimal Wear) | 733.59 | 12 | 2026-09-11T22:09:51.159Z | steam-bulk |
 | ★ Butterfly Knife \| Forest DDPAT (Well-Worn) | 662.15 | 2 | 2026-09-11T22:09:51.143Z | steam-bulk |
+| ★ Butterfly Knife \| Freehand (Factory New) | 1000.70 | 21 | 2026-09-11T22:09:51.191Z | steam-bulk |
+| ★ Butterfly Knife \| Freehand (Field-Tested) | 799.41 | 28 | 2026-09-11T22:09:51.174Z | steam-bulk |
+| ★ Butterfly Knife \| Freehand (Minimal Wear) | 998.70 | 20 | 2026-09-11T22:09:51.191Z | steam-bulk |
+| ★ Butterfly Knife \| Freehand (Well-Worn) | 813.39 | 2 | 2026-09-11T08:39:52.056Z | steam-bulk |
+| ★ Butterfly Knife \| Lore (Battle-Scarred) | 786.86 | 21 | 2026-09-11T22:09:51.174Z | steam-bulk |
+| ★ Butterfly Knife \| Lore (Field-Tested) | 951.39 | 31 | 2026-09-11T22:09:51.191Z | steam-bulk |
+| ★ Butterfly Knife \| Lore (Minimal Wear) | 1460.33 | 7 | 2026-09-11T22:09:51.222Z | steam-bulk |
+| ★ Butterfly Knife \| Lore (Well-Worn) | 822.58 | 22 | 2026-09-11T22:09:51.175Z | steam-bulk |
 | ★ Butterfly Knife \| Marble Fade (Factory New) | 1800.01 | — | 2026-09-21T02:17:14.271Z | steam-direct |
 | ★ Butterfly Knife \| Night (Battle-Scarred) | 801.20 | 6 | 2026-09-11T22:09:51.174Z | steam-bulk |
 | ★ Butterfly Knife \| Night (Field-Tested) | 741.92 | 20 | 2026-09-11T22:09:51.159Z | steam-bulk |
@@ -257,6 +304,57 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Butterfly Knife \| Urban Masked (Field-Tested) | 741.18 | 8 | 2026-09-11T22:09:51.159Z | steam-bulk |
 | ★ Butterfly Knife \| Urban Masked (Minimal Wear) | 863.61 | 11 | 2026-09-11T22:09:51.190Z | steam-bulk |
 | ★ Butterfly Knife \| Urban Masked (Well-Worn) | 955.23 | 7 | 2026-09-11T22:09:51.191Z | steam-bulk |
+| ★ Classic Knife | 274.09 | 27 | 2026-09-11T22:09:50.999Z | steam-bulk |
+| ★ Classic Knife \| Blue Steel (Battle-Scarred) | 149.60 | 7 | 2026-09-11T22:09:50.821Z | steam-bulk |
+| ★ Classic Knife \| Blue Steel (Factory New) | 339.36 | 3 | 2026-09-11T22:09:51.046Z | steam-bulk |
+| ★ Classic Knife \| Blue Steel (Field-Tested) | 157.14 | 14 | 2026-09-11T22:09:50.839Z | steam-bulk |
+| ★ Classic Knife \| Blue Steel (Minimal Wear) | 189.19 | 9 | 2026-09-11T22:09:50.905Z | steam-bulk |
+| ★ Classic Knife \| Blue Steel (Well-Worn) | 145.04 | 10 | 2026-09-11T22:09:50.804Z | steam-bulk |
+| ★ Classic Knife \| Boreal Forest (Battle-Scarred) | 99.88 | 9 | 2026-09-11T22:09:50.650Z | steam-bulk |
+| ★ Classic Knife \| Boreal Forest (Factory New) | 379.95 | 2 | 2026-09-11T22:09:51.063Z | steam-bulk |
+| ★ Classic Knife \| Boreal Forest (Field-Tested) | 89.06 | 14 | 2026-09-11T21:39:51.605Z | steam-bulk |
+| ★ Classic Knife \| Boreal Forest (Minimal Wear) | 112.64 | 5 | 2026-09-11T22:09:50.701Z | steam-bulk |
+| ★ Classic Knife \| Boreal Forest (Well-Worn) | 91.20 | 10 | 2026-09-11T22:09:50.601Z | steam-bulk |
+| ★ Classic Knife \| Case Hardened (Battle-Scarred) | 148.44 | 14 | 2026-09-11T22:09:50.805Z | steam-bulk |
+| ★ Classic Knife \| Case Hardened (Factory New) | 768.18 | 2 | 2026-09-11T22:09:51.174Z | steam-bulk |
+| ★ Classic Knife \| Case Hardened (Field-Tested) | 180.72 | 31 | 2026-09-11T22:09:50.889Z | steam-bulk |
+| ★ Classic Knife \| Case Hardened (Minimal Wear) | 253.82 | 19 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Classic Knife \| Case Hardened (Well-Worn) | 169.38 | 15 | 2026-09-11T22:09:50.856Z | steam-bulk |
+| ★ Classic Knife \| Crimson Web (Battle-Scarred) | 210.05 | 5 | 2026-09-11T22:09:50.936Z | steam-bulk |
+| ★ Classic Knife \| Crimson Web (Field-Tested) | 197.23 | 34 | 2026-09-11T22:09:50.906Z | steam-bulk |
+| ★ Classic Knife \| Crimson Web (Minimal Wear) | 333.57 | 4 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Classic Knife \| Crimson Web (Well-Worn) | 252.77 | 10 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Classic Knife \| Fade (Factory New) | 368.87 | 34 | 2026-09-11T22:09:51.062Z | steam-bulk |
+| ★ Classic Knife \| Fade (Minimal Wear) | 481.40 | 6 | 2026-09-11T22:09:51.110Z | steam-bulk |
+| ★ Classic Knife \| Forest DDPAT (Battle-Scarred) | 83.97 | 8 | 2026-09-11T22:09:50.567Z | steam-bulk |
+| ★ Classic Knife \| Forest DDPAT (Field-Tested) | 98.75 | 10 | 2026-09-11T22:09:50.650Z | steam-bulk |
+| ★ Classic Knife \| Forest DDPAT (Minimal Wear) | 120.08 | 3 | 2026-09-11T22:09:50.720Z | steam-bulk |
+| ★ Classic Knife \| Forest DDPAT (Well-Worn) | 100.36 | 5 | 2026-09-11T22:09:50.651Z | steam-bulk |
+| ★ Classic Knife \| Night Stripe (Battle-Scarred) | 145.39 | 10 | 2026-09-11T22:09:50.804Z | steam-bulk |
+| ★ Classic Knife \| Night Stripe (Field-Tested) | 133.43 | 19 | 2026-09-11T22:09:50.755Z | steam-bulk |
+| ★ Classic Knife \| Night Stripe (Minimal Wear) | 149.05 | 7 | 2026-09-11T22:09:50.821Z | steam-bulk |
+| ★ Classic Knife \| Night Stripe (Well-Worn) | 152.05 | 7 | 2026-09-11T22:09:50.822Z | steam-bulk |
+| ★ Classic Knife \| Safari Mesh (Battle-Scarred) | 89.01 | 7 | 2026-09-11T22:09:50.584Z | steam-bulk |
+| ★ Classic Knife \| Safari Mesh (Factory New) | 361.49 | 2 | 2026-09-11T22:09:51.047Z | steam-bulk |
+| ★ Classic Knife \| Safari Mesh (Field-Tested) | 88.79 | 31 | 2026-09-11T22:09:50.584Z | steam-bulk |
+| ★ Classic Knife \| Safari Mesh (Minimal Wear) | 97.90 | 8 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| ★ Classic Knife \| Safari Mesh (Well-Worn) | 87.08 | 10 | 2026-09-11T22:09:50.583Z | steam-bulk |
+| ★ Classic Knife \| Scorched (Battle-Scarred) | 118.17 | 8 | 2026-09-11T22:09:50.719Z | steam-bulk |
+| ★ Classic Knife \| Scorched (Field-Tested) | 112.95 | 16 | 2026-09-11T22:09:50.702Z | steam-bulk |
+| ★ Classic Knife \| Scorched (Minimal Wear) | 120.69 | 13 | 2026-09-11T22:09:50.720Z | steam-bulk |
+| ★ Classic Knife \| Scorched (Well-Worn) | 118.36 | 10 | 2026-09-11T22:09:50.719Z | steam-bulk |
+| ★ Classic Knife \| Slaughter (Factory New) | 255.25 | 25 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Classic Knife \| Slaughter (Field-Tested) | 252.37 | 7 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Classic Knife \| Slaughter (Minimal Wear) | 232.05 | 16 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| ★ Classic Knife \| Stained (Battle-Scarred) | 108.04 | 8 | 2026-09-11T22:09:50.684Z | steam-bulk |
+| ★ Classic Knife \| Stained (Factory New) | 197.24 | 3 | 2026-09-11T22:09:50.906Z | steam-bulk |
+| ★ Classic Knife \| Stained (Field-Tested) | 143.58 | 9 | 2026-09-11T22:09:50.803Z | steam-bulk |
+| ★ Classic Knife \| Stained (Minimal Wear) | 171.54 | 6 | 2026-09-11T22:09:50.857Z | steam-bulk |
+| ★ Classic Knife \| Stained (Well-Worn) | 116.72 | 12 | 2026-09-11T22:09:50.719Z | steam-bulk |
+| ★ Classic Knife \| Urban Masked (Battle-Scarred) | 103.91 | 11 | 2026-09-11T22:09:50.652Z | steam-bulk |
+| ★ Classic Knife \| Urban Masked (Field-Tested) | 125.44 | 16 | 2026-09-11T22:09:50.737Z | steam-bulk |
+| ★ Classic Knife \| Urban Masked (Minimal Wear) | 173.11 | 6 | 2026-09-11T22:09:50.872Z | steam-bulk |
+| ★ Classic Knife \| Urban Masked (Well-Worn) | 128.37 | 6 | 2026-09-11T22:09:50.753Z | steam-bulk |
 | ★ Driver Gloves \| Black Tie (Battle-Scarred) | 129.92 | 9 | 2026-09-11T22:09:50.753Z | steam-bulk |
 | ★ Driver Gloves \| Black Tie (Field-Tested) | 160.11 | 93 | 2026-09-11T22:09:50.839Z | steam-bulk |
 | ★ Driver Gloves \| Black Tie (Minimal Wear) | 435.15 | 21 | 2026-09-11T22:09:51.094Z | steam-bulk |
@@ -678,6 +776,16 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Hand Wraps \| Spruce DDPAT (Minimal Wear) | 787.15 | 8 | 2026-09-11T22:09:51.174Z | steam-bulk |
 | ★ Hand Wraps \| Spruce DDPAT (Well-Worn) | 219.31 | 5 | 2026-09-11T22:09:50.951Z | steam-bulk |
 | ★ Huntsman Knife | 179.15 | 19 | 2026-09-11T22:09:50.889Z | steam-bulk |
+| ★ Huntsman Knife \| Autotronic (Battle-Scarred) | 127.39 | 33 | 2026-09-11T22:09:50.737Z | steam-bulk |
+| ★ Huntsman Knife \| Autotronic (Factory New) | 250.41 | 12 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Huntsman Knife \| Autotronic (Field-Tested) | 133.43 | 73 | 2026-09-11T22:09:50.755Z | steam-bulk |
+| ★ Huntsman Knife \| Autotronic (Minimal Wear) | 171.11 | 39 | 2026-09-11T22:09:50.857Z | steam-bulk |
+| ★ Huntsman Knife \| Autotronic (Well-Worn) | 133.33 | 13 | 2026-09-11T22:09:50.754Z | steam-bulk |
+| ★ Huntsman Knife \| Black Laminate (Battle-Scarred) | 79.68 | 29 | 2026-09-11T22:09:50.534Z | steam-bulk |
+| ★ Huntsman Knife \| Black Laminate (Factory New) | 179.82 | 12 | 2026-09-11T22:09:50.889Z | steam-bulk |
+| ★ Huntsman Knife \| Black Laminate (Field-Tested) | 84.70 | 69 | 2026-09-11T22:09:50.567Z | steam-bulk |
+| ★ Huntsman Knife \| Black Laminate (Minimal Wear) | 92.01 | 47 | 2026-09-11T22:09:50.616Z | steam-bulk |
+| ★ Huntsman Knife \| Black Laminate (Well-Worn) | 83.32 | 38 | 2026-09-11T22:09:50.552Z | steam-bulk |
 | ★ Huntsman Knife \| Blue Steel (Battle-Scarred) | 147.35 | 6 | 2026-09-11T22:09:50.805Z | steam-bulk |
 | ★ Huntsman Knife \| Blue Steel (Factory New) | 650.15 | 2 | 2026-09-11T22:09:51.143Z | steam-bulk |
 | ★ Huntsman Knife \| Blue Steel (Field-Tested) | 188.43 | 11 | 2026-09-11T22:09:50.905Z | steam-bulk |
@@ -687,6 +795,11 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Huntsman Knife \| Boreal Forest (Field-Tested) | 73.08 | 22 | 2026-09-11T22:09:50.500Z | steam-bulk |
 | ★ Huntsman Knife \| Boreal Forest (Minimal Wear) | 92.82 | 6 | 2026-09-11T22:09:50.616Z | steam-bulk |
 | ★ Huntsman Knife \| Boreal Forest (Well-Worn) | 94.33 | 2 | 2026-09-11T22:09:50.633Z | steam-bulk |
+| ★ Huntsman Knife \| Bright Water (Battle-Scarred) | 80.06 | 10 | 2026-09-11T22:09:50.535Z | steam-bulk |
+| ★ Huntsman Knife \| Bright Water (Factory New) | 95.12 | 43 | 2026-09-11T22:09:50.633Z | steam-bulk |
+| ★ Huntsman Knife \| Bright Water (Field-Tested) | 70.63 | 95 | 2026-09-11T22:09:50.498Z | steam-bulk |
+| ★ Huntsman Knife \| Bright Water (Minimal Wear) | 78.93 | 55 | 2026-09-11T22:09:50.534Z | steam-bulk |
+| ★ Huntsman Knife \| Bright Water (Well-Worn) | 77.06 | 18 | 2026-09-11T22:09:50.533Z | steam-bulk |
 | ★ Huntsman Knife \| Case Hardened (Battle-Scarred) | 199.79 | 8 | 2026-09-11T22:09:50.921Z | steam-bulk |
 | ★ Huntsman Knife \| Case Hardened (Factory New) | 600.16 | 3 | 2026-09-11T22:09:51.142Z | steam-bulk |
 | ★ Huntsman Knife \| Case Hardened (Field-Tested) | 215.58 | 21 | 2026-09-11T22:09:50.951Z | steam-bulk |
@@ -708,6 +821,13 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Huntsman Knife \| Forest DDPAT (Field-Tested) | 71.12 | 19 | 2026-09-11T22:09:50.499Z | steam-bulk |
 | ★ Huntsman Knife \| Forest DDPAT (Minimal Wear) | 96.26 | 8 | 2026-09-11T22:09:50.634Z | steam-bulk |
 | ★ Huntsman Knife \| Forest DDPAT (Well-Worn) | 80.75 | 8 | 2026-09-11T22:09:50.550Z | steam-bulk |
+| ★ Huntsman Knife \| Freehand (Battle-Scarred) | 98.18 | 6 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| ★ Huntsman Knife \| Freehand (Factory New) | 112.35 | 43 | 2026-09-11T22:09:50.701Z | steam-bulk |
+| ★ Huntsman Knife \| Freehand (Field-Tested) | 91.47 | 113 | 2026-09-11T22:09:50.601Z | steam-bulk |
+| ★ Huntsman Knife \| Freehand (Minimal Wear) | 102.01 | 53 | 2026-09-11T22:09:50.651Z | steam-bulk |
+| ★ Huntsman Knife \| Freehand (Well-Worn) | 86.61 | 12 | 2026-09-11T22:09:50.583Z | steam-bulk |
+| ★ Huntsman Knife \| Gamma Doppler (Factory New) | 294.78 | 207 | 2026-09-11T22:09:51.015Z | steam-bulk |
+| ★ Huntsman Knife \| Gamma Doppler (Minimal Wear) | 400.00 | 8 | 2026-09-11T22:09:51.063Z | steam-bulk |
 | ★ Huntsman Knife \| Lore (Battle-Scarred) | 106.88 | 22 | 2026-09-11T22:09:50.684Z | steam-bulk |
 | ★ Huntsman Knife \| Lore (Factory New) | 185.06 | 33 | 2026-09-11T22:09:50.890Z | steam-bulk |
 | ★ Huntsman Knife \| Lore (Field-Tested) | 128.03 | 106 | 2026-09-11T22:09:50.752Z | steam-bulk |
@@ -977,6 +1097,10 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Moto Gloves \| Blood Pressure (Field-Tested) | 172.86 | 96 | 2026-09-11T22:09:50.872Z | steam-bulk |
 | ★ Moto Gloves \| Blood Pressure (Minimal Wear) | 318.09 | 28 | 2026-09-11T22:09:51.031Z | steam-bulk |
 | ★ Moto Gloves \| Blood Pressure (Well-Worn) | 165.90 | 11 | 2026-09-11T22:09:50.855Z | steam-bulk |
+| ★ Moto Gloves \| Boom! (Battle-Scarred) | 132.80 | 8 | 2026-09-11T22:09:50.754Z | steam-bulk |
+| ★ Moto Gloves \| Boom! (Field-Tested) | 835.27 | 6 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| ★ Moto Gloves \| Boom! (Minimal Wear) | 890.52 | 2 | 2026-09-11T22:09:51.190Z | steam-bulk |
+| ★ Moto Gloves \| Boom! (Well-Worn) | 255.06 | 3 | 2026-09-11T22:09:50.983Z | steam-bulk |
 | ★ Moto Gloves \| Cool Mint (Battle-Scarred) | 192.05 | 6 | 2026-09-11T22:09:50.906Z | steam-bulk |
 | ★ Moto Gloves \| Cool Mint (Well-Worn) | 535.12 | 5 | 2026-09-11T22:09:51.126Z | steam-bulk |
 | ★ Moto Gloves \| Eclipse (Battle-Scarred) | 114.87 | 8 | 2026-09-11T22:09:50.702Z | steam-bulk |
@@ -1156,6 +1280,25 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Nomad Knife \| Urban Masked (Minimal Wear) | 187.74 | 11 | 2026-09-11T22:09:50.905Z | steam-bulk |
 | ★ Nomad Knife \| Urban Masked (Well-Worn) | 138.08 | 15 | 2026-09-11T22:09:50.771Z | steam-bulk |
 | ★ Paracord Knife | 69.60 | 111 | 2026-09-11T22:09:50.498Z | steam-bulk |
+| ★ Paracord Knife \| Blue Steel (Battle-Scarred) | 88.69 | 18 | 2026-09-11T22:09:50.584Z | steam-bulk |
+| ★ Paracord Knife \| Blue Steel (Factory New) | 214.64 | 6 | 2026-09-11T22:09:50.951Z | steam-bulk |
+| ★ Paracord Knife \| Blue Steel (Field-Tested) | 95.02 | 30 | 2026-09-11T22:09:50.633Z | steam-bulk |
+| ★ Paracord Knife \| Blue Steel (Minimal Wear) | 117.52 | 19 | 2026-09-11T22:09:50.719Z | steam-bulk |
+| ★ Paracord Knife \| Blue Steel (Well-Worn) | 96.01 | 21 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| ★ Paracord Knife \| Boreal Forest (Battle-Scarred) | 61.55 | 22 | 2026-09-11T22:09:50.421Z | steam-bulk |
+| ★ Paracord Knife \| Boreal Forest (Factory New) | 163.07 | 3 | 2026-09-11T22:09:50.840Z | steam-bulk |
+| ★ Paracord Knife \| Boreal Forest (Field-Tested) | 61.69 | 43 | 2026-09-11T22:09:50.421Z | steam-bulk |
+| ★ Paracord Knife \| Boreal Forest (Minimal Wear) | 80.51 | 11 | 2026-09-11T22:09:50.550Z | steam-bulk |
+| ★ Paracord Knife \| Boreal Forest (Well-Worn) | 61.89 | 21 | 2026-09-11T22:09:50.421Z | steam-bulk |
+| ★ Paracord Knife \| Case Hardened (Battle-Scarred) | 127.11 | 25 | 2026-09-11T22:09:50.737Z | steam-bulk |
+| ★ Paracord Knife \| Case Hardened (Factory New) | 286.97 | 7 | 2026-09-11T22:09:51.014Z | steam-bulk |
+| ★ Paracord Knife \| Case Hardened (Field-Tested) | 126.53 | 56 | 2026-09-11T22:09:50.737Z | steam-bulk |
+| ★ Paracord Knife \| Case Hardened (Minimal Wear) | 153.44 | 45 | 2026-09-11T22:09:50.823Z | steam-bulk |
+| ★ Paracord Knife \| Case Hardened (Well-Worn) | 135.74 | 34 | 2026-09-11T22:09:50.770Z | steam-bulk |
+| ★ Paracord Knife \| Crimson Web (Battle-Scarred) | 112.58 | 12 | 2026-09-11T22:09:50.701Z | steam-bulk |
+| ★ Paracord Knife \| Crimson Web (Field-Tested) | 122.89 | 31 | 2026-09-11T22:09:50.736Z | steam-bulk |
+| ★ Paracord Knife \| Crimson Web (Minimal Wear) | 173.03 | 14 | 2026-09-11T22:09:50.872Z | steam-bulk |
+| ★ Paracord Knife \| Crimson Web (Well-Worn) | 126.79 | 8 | 2026-09-11T22:09:50.737Z | steam-bulk |
 | ★ Paracord Knife \| Damascus Steel (Battle-Scarred) | 90.02 | 6 | 2026-09-11T22:09:50.600Z | steam-bulk |
 | ★ Paracord Knife \| Damascus Steel (Factory New) | 102.02 | 37 | 2026-09-11T22:09:50.651Z | steam-bulk |
 | ★ Paracord Knife \| Damascus Steel (Field-Tested) | 76.42 | 41 | 2026-09-11T22:09:50.532Z | steam-bulk |
@@ -1163,10 +1306,39 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Paracord Knife \| Damascus Steel (Well-Worn) | 77.23 | 9 | 2026-09-11T22:09:50.533Z | steam-bulk |
 | ★ Paracord Knife \| Doppler (Factory New) | 270.25 | 173 | 2026-09-11T22:09:50.999Z | steam-bulk |
 | ★ Paracord Knife \| Doppler (Minimal Wear) | 390.00 | 7 | 2026-09-11T22:09:51.063Z | steam-bulk |
+| ★ Paracord Knife \| Fade (Factory New) | 196.32 | 69 | 2026-09-11T22:09:50.906Z | steam-bulk |
+| ★ Paracord Knife \| Fade (Minimal Wear) | 330.10 | 5 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Paracord Knife \| Forest DDPAT (Battle-Scarred) | 53.21 | 23 | 2026-09-11T22:09:50.354Z | steam-bulk |
+| ★ Paracord Knife \| Forest DDPAT (Factory New) | 126.53 | 7 | 2026-09-11T22:09:50.737Z | steam-bulk |
+| ★ Paracord Knife \| Forest DDPAT (Field-Tested) | 54.54 | 37 | 2026-09-11T22:09:50.370Z | steam-bulk |
+| ★ Paracord Knife \| Forest DDPAT (Minimal Wear) | 69.01 | 16 | 2026-09-11T22:09:50.483Z | steam-bulk |
+| ★ Paracord Knife \| Forest DDPAT (Well-Worn) | 58.52 | 8 | 2026-09-11T22:09:50.404Z | steam-bulk |
 | ★ Paracord Knife \| Marble Fade (Factory New) | 173.49 | 112 | 2026-09-11T22:09:50.873Z | steam-bulk |
 | ★ Paracord Knife \| Marble Fade (Minimal Wear) | 232.05 | 5 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| ★ Paracord Knife \| Night Stripe (Battle-Scarred) | 60.66 | 20 | 2026-09-11T22:09:50.420Z | steam-bulk |
+| ★ Paracord Knife \| Night Stripe (Field-Tested) | 65.08 | 48 | 2026-09-11T22:09:50.451Z | steam-bulk |
+| ★ Paracord Knife \| Night Stripe (Minimal Wear) | 80.34 | 16 | 2026-09-11T22:09:50.550Z | steam-bulk |
+| ★ Paracord Knife \| Night Stripe (Well-Worn) | 64.37 | 15 | 2026-09-11T22:09:50.451Z | steam-bulk |
 | ★ Paracord Knife \| Rust Coat (Battle-Scarred) | 57.32 | 126 | 2026-09-11T22:09:50.373Z | steam-bulk |
 | ★ Paracord Knife \| Rust Coat (Well-Worn) | 68.05 | 4 | 2026-09-11T22:09:50.468Z | steam-bulk |
+| ★ Paracord Knife \| Safari Mesh (Battle-Scarred) | 54.32 | 16 | 2026-09-11T22:09:50.355Z | steam-bulk |
+| ★ Paracord Knife \| Safari Mesh (Factory New) | 112.80 | 7 | 2026-09-11T22:09:50.701Z | steam-bulk |
+| ★ Paracord Knife \| Safari Mesh (Field-Tested) | 55.02 | 61 | 2026-09-11T22:09:50.371Z | steam-bulk |
+| ★ Paracord Knife \| Safari Mesh (Minimal Wear) | 58.77 | 26 | 2026-09-11T22:09:50.404Z | steam-bulk |
+| ★ Paracord Knife \| Safari Mesh (Well-Worn) | 59.82 | 9 | 2026-09-11T22:09:50.405Z | steam-bulk |
+| ★ Paracord Knife \| Scorched (Battle-Scarred) | 59.37 | 16 | 2026-09-11T22:09:50.404Z | steam-bulk |
+| ★ Paracord Knife \| Scorched (Factory New) | 189.93 | 4 | 2026-09-11T22:09:50.905Z | steam-bulk |
+| ★ Paracord Knife \| Scorched (Field-Tested) | 59.87 | 68 | 2026-09-11T22:09:50.405Z | steam-bulk |
+| ★ Paracord Knife \| Scorched (Minimal Wear) | 78.90 | 18 | 2026-09-11T22:09:50.534Z | steam-bulk |
+| ★ Paracord Knife \| Scorched (Well-Worn) | 60.29 | 13 | 2026-09-11T22:09:50.420Z | steam-bulk |
+| ★ Paracord Knife \| Slaughter (Factory New) | 191.46 | 36 | 2026-09-11T22:09:50.906Z | steam-bulk |
+| ★ Paracord Knife \| Slaughter (Field-Tested) | 176.12 | 12 | 2026-09-11T22:09:50.873Z | steam-bulk |
+| ★ Paracord Knife \| Slaughter (Minimal Wear) | 171.46 | 27 | 2026-09-11T22:09:50.857Z | steam-bulk |
+| ★ Paracord Knife \| Stained (Battle-Scarred) | 74.77 | 13 | 2026-09-11T22:09:50.516Z | steam-bulk |
+| ★ Paracord Knife \| Stained (Factory New) | 136.29 | 9 | 2026-09-11T22:09:50.771Z | steam-bulk |
+| ★ Paracord Knife \| Stained (Field-Tested) | 70.72 | 32 | 2026-09-11T22:09:50.499Z | steam-bulk |
+| ★ Paracord Knife \| Stained (Minimal Wear) | 83.19 | 20 | 2026-09-11T22:09:50.552Z | steam-bulk |
+| ★ Paracord Knife \| Stained (Well-Worn) | 72.55 | 11 | 2026-09-11T22:09:50.499Z | steam-bulk |
 | ★ Paracord Knife \| Tiger Tooth (Factory New) | 145.03 | 77 | 2026-09-11T22:09:50.804Z | steam-bulk |
 | ★ Paracord Knife \| Tiger Tooth (Minimal Wear) | 161.61 | 5 | 2026-09-11T22:09:50.840Z | steam-bulk |
 | ★ Paracord Knife \| Ultraviolet (Battle-Scarred) | 74.02 | 10 | 2026-09-11T22:09:50.516Z | steam-bulk |
@@ -1174,6 +1346,11 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Paracord Knife \| Ultraviolet (Field-Tested) | 80.06 | 66 | 2026-09-11T22:09:50.535Z | steam-bulk |
 | ★ Paracord Knife \| Ultraviolet (Minimal Wear) | 127.93 | 18 | 2026-09-11T22:09:50.752Z | steam-bulk |
 | ★ Paracord Knife \| Ultraviolet (Well-Worn) | 84.67 | 17 | 2026-09-11T22:09:50.567Z | steam-bulk |
+| ★ Paracord Knife \| Urban Masked (Battle-Scarred) | 60.39 | 26 | 2026-09-11T22:09:50.420Z | steam-bulk |
+| ★ Paracord Knife \| Urban Masked (Factory New) | 280.20 | 4 | 2026-09-11T22:09:51.000Z | steam-bulk |
+| ★ Paracord Knife \| Urban Masked (Field-Tested) | 64.71 | 62 | 2026-09-11T22:09:50.451Z | steam-bulk |
+| ★ Paracord Knife \| Urban Masked (Minimal Wear) | 90.11 | 14 | 2026-09-11T22:09:50.600Z | steam-bulk |
+| ★ Paracord Knife \| Urban Masked (Well-Worn) | 67.68 | 15 | 2026-09-11T22:09:50.468Z | steam-bulk |
 | ★ Shadow Daggers | 89.86 | 25 | 2026-09-11T22:09:50.584Z | steam-bulk |
 | ★ Shadow Daggers \| Autotronic (Battle-Scarred) | 63.21 | 39 | 2026-09-11T22:09:50.436Z | steam-bulk |
 | ★ Shadow Daggers \| Autotronic (Factory New) | 117.48 | 12 | 2026-09-11T22:09:50.719Z | steam-bulk |
@@ -1271,16 +1448,62 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Shadow Daggers \| Urban Masked (Minimal Wear) | 71.04 | 8 | 2026-09-11T22:09:50.499Z | steam-bulk |
 | ★ Shadow Daggers \| Urban Masked (Well-Worn) | 58.01 | 10 | 2026-09-11T22:09:50.388Z | steam-bulk |
 | ★ Skeleton Knife | 322.06 | 50 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Skeleton Knife \| Blue Steel (Battle-Scarred) | 320.08 | 9 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Skeleton Knife \| Blue Steel (Factory New) | 609.06 | 6 | 2026-09-11T22:09:51.142Z | steam-bulk |
+| ★ Skeleton Knife \| Blue Steel (Field-Tested) | 320.06 | 18 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Skeleton Knife \| Blue Steel (Minimal Wear) | 376.29 | 13 | 2026-09-11T22:09:51.063Z | steam-bulk |
+| ★ Skeleton Knife \| Blue Steel (Well-Worn) | 310.24 | 18 | 2026-09-11T22:09:51.030Z | steam-bulk |
+| ★ Skeleton Knife \| Boreal Forest (Battle-Scarred) | 165.48 | 6 | 2026-09-11T22:09:50.855Z | steam-bulk |
+| ★ Skeleton Knife \| Boreal Forest (Field-Tested) | 155.05 | 22 | 2026-09-11T22:09:50.823Z | steam-bulk |
+| ★ Skeleton Knife \| Boreal Forest (Minimal Wear) | 184.60 | 16 | 2026-09-11T22:09:50.890Z | steam-bulk |
+| ★ Skeleton Knife \| Boreal Forest (Well-Worn) | 166.31 | 15 | 2026-09-11T22:09:50.855Z | steam-bulk |
+| ★ Skeleton Knife \| Case Hardened (Battle-Scarred) | 314.25 | 22 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Skeleton Knife \| Case Hardened (Factory New) | 774.19 | 3 | 2026-09-11T22:09:51.174Z | steam-bulk |
+| ★ Skeleton Knife \| Case Hardened (Field-Tested) | 354.13 | 55 | 2026-09-11T22:09:51.047Z | steam-bulk |
+| ★ Skeleton Knife \| Case Hardened (Minimal Wear) | 482.00 | 21 | 2026-09-11T22:09:51.110Z | steam-bulk |
+| ★ Skeleton Knife \| Case Hardened (Well-Worn) | 347.91 | 32 | 2026-09-11T22:09:51.047Z | steam-bulk |
+| ★ Skeleton Knife \| Crimson Web (Battle-Scarred) | 324.60 | 9 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Skeleton Knife \| Crimson Web (Field-Tested) | 381.60 | 24 | 2026-09-11T22:09:51.063Z | steam-bulk |
+| ★ Skeleton Knife \| Crimson Web (Minimal Wear) | 588.10 | 18 | 2026-09-11T22:09:51.127Z | steam-bulk |
+| ★ Skeleton Knife \| Crimson Web (Well-Worn) | 460.11 | 5 | 2026-09-11T22:09:51.109Z | steam-bulk |
 | ★ Skeleton Knife \| Damascus Steel (Battle-Scarred) | 275.86 | 6 | 2026-09-11T22:09:50.999Z | steam-bulk |
 | ★ Skeleton Knife \| Damascus Steel (Factory New) | 322.95 | 16 | 2026-09-11T22:09:51.031Z | steam-bulk |
 | ★ Skeleton Knife \| Damascus Steel (Field-Tested) | 277.03 | 31 | 2026-09-11T22:09:50.999Z | steam-bulk |
 | ★ Skeleton Knife \| Damascus Steel (Minimal Wear) | 307.81 | 21 | 2026-09-11T22:09:51.016Z | steam-bulk |
 | ★ Skeleton Knife \| Damascus Steel (Well-Worn) | 292.38 | 10 | 2026-09-11T22:09:51.015Z | steam-bulk |
 | ★ Skeleton Knife \| Doppler (Factory New) | 828.13 | 54 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| ★ Skeleton Knife \| Fade (Factory New) | 760.57 | 36 | 2026-09-11T22:09:51.159Z | steam-bulk |
+| ★ Skeleton Knife \| Fade (Minimal Wear) | 874.21 | 2 | 2026-09-11T22:09:51.190Z | steam-bulk |
+| ★ Skeleton Knife \| Forest DDPAT (Battle-Scarred) | 159.36 | 14 | 2026-09-11T22:09:50.839Z | steam-bulk |
+| ★ Skeleton Knife \| Forest DDPAT (Field-Tested) | 163.59 | 25 | 2026-09-11T22:09:50.840Z | steam-bulk |
+| ★ Skeleton Knife \| Forest DDPAT (Minimal Wear) | 174.03 | 20 | 2026-09-11T22:09:50.873Z | steam-bulk |
+| ★ Skeleton Knife \| Forest DDPAT (Well-Worn) | 156.61 | 6 | 2026-09-11T22:09:50.838Z | steam-bulk |
 | ★ Skeleton Knife \| Marble Fade (Factory New) | 555.18 | 57 | 2026-09-11T22:09:51.126Z | steam-bulk |
 | ★ Skeleton Knife \| Marble Fade (Minimal Wear) | 696.42 | 12 | 2026-09-11T22:09:51.158Z | steam-bulk |
+| ★ Skeleton Knife \| Night Stripe (Battle-Scarred) | 216.90 | 11 | 2026-09-11T22:09:50.951Z | steam-bulk |
+| ★ Skeleton Knife \| Night Stripe (Factory New) | 812.16 | 2 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| ★ Skeleton Knife \| Night Stripe (Field-Tested) | 207.03 | 23 | 2026-09-11T22:09:50.922Z | steam-bulk |
+| ★ Skeleton Knife \| Night Stripe (Minimal Wear) | 224.61 | 13 | 2026-09-11T22:09:50.952Z | steam-bulk |
+| ★ Skeleton Knife \| Night Stripe (Well-Worn) | 197.80 | 9 | 2026-09-11T22:09:50.906Z | steam-bulk |
 | ★ Skeleton Knife \| Rust Coat (Battle-Scarred) | 177.06 | 60 | 2026-09-11T22:09:50.874Z | steam-bulk |
 | ★ Skeleton Knife \| Rust Coat (Well-Worn) | 213.48 | 10 | 2026-09-11T22:09:50.951Z | steam-bulk |
+| ★ Skeleton Knife \| Safari Mesh (Battle-Scarred) | 156.05 | 14 | 2026-09-11T22:09:50.823Z | steam-bulk |
+| ★ Skeleton Knife \| Safari Mesh (Field-Tested) | 159.66 | 27 | 2026-09-11T22:09:50.839Z | steam-bulk |
+| ★ Skeleton Knife \| Safari Mesh (Minimal Wear) | 167.64 | 9 | 2026-09-11T22:09:50.856Z | steam-bulk |
+| ★ Skeleton Knife \| Safari Mesh (Well-Worn) | 165.27 | 6 | 2026-09-11T22:09:50.855Z | steam-bulk |
+| ★ Skeleton Knife \| Scorched (Battle-Scarred) | 174.03 | 14 | 2026-09-11T22:09:50.873Z | steam-bulk |
+| ★ Skeleton Knife \| Scorched (Factory New) | 501.65 | 2 | 2026-09-11T22:09:51.110Z | steam-bulk |
+| ★ Skeleton Knife \| Scorched (Field-Tested) | 181.37 | 26 | 2026-09-11T22:09:50.889Z | steam-bulk |
+| ★ Skeleton Knife \| Scorched (Minimal Wear) | 206.57 | 11 | 2026-09-11T22:09:50.922Z | steam-bulk |
+| ★ Skeleton Knife \| Scorched (Well-Worn) | 180.13 | 10 | 2026-09-11T22:09:50.889Z | steam-bulk |
+| ★ Skeleton Knife \| Slaughter (Factory New) | 662.49 | 16 | 2026-09-11T22:09:51.143Z | steam-bulk |
+| ★ Skeleton Knife \| Slaughter (Field-Tested) | 598.68 | 6 | 2026-09-11T22:09:51.142Z | steam-bulk |
+| ★ Skeleton Knife \| Slaughter (Minimal Wear) | 540.81 | 15 | 2026-09-11T22:09:51.126Z | steam-bulk |
+| ★ Skeleton Knife \| Stained (Battle-Scarred) | 235.68 | 11 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| ★ Skeleton Knife \| Stained (Factory New) | 426.25 | 6 | 2026-09-11T22:09:51.079Z | steam-bulk |
+| ★ Skeleton Knife \| Stained (Field-Tested) | 254.84 | 23 | 2026-09-11T22:09:50.983Z | steam-bulk |
+| ★ Skeleton Knife \| Stained (Minimal Wear) | 315.07 | 14 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| ★ Skeleton Knife \| Stained (Well-Worn) | 249.16 | 15 | 2026-09-11T22:09:50.983Z | steam-bulk |
 | ★ Skeleton Knife \| Tiger Tooth (Factory New) | 446.33 | 53 | 2026-09-11T22:09:51.094Z | steam-bulk |
 | ★ Skeleton Knife \| Tiger Tooth (Minimal Wear) | 540.72 | 3 | 2026-09-11T22:09:51.126Z | steam-bulk |
 | ★ Skeleton Knife \| Ultraviolet (Battle-Scarred) | 237.95 | 11 | 2026-09-11T22:09:50.967Z | steam-bulk |
@@ -1288,6 +1511,11 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ Skeleton Knife \| Ultraviolet (Field-Tested) | 266.34 | 31 | 2026-09-11T22:09:50.999Z | steam-bulk |
 | ★ Skeleton Knife \| Ultraviolet (Minimal Wear) | 400.28 | 11 | 2026-09-11T22:09:51.064Z | steam-bulk |
 | ★ Skeleton Knife \| Ultraviolet (Well-Worn) | 258.80 | 8 | 2026-09-11T22:09:50.998Z | steam-bulk |
+| ★ Skeleton Knife \| Urban Masked (Battle-Scarred) | 175.09 | 4 | 2026-09-11T22:09:50.873Z | steam-bulk |
+| ★ Skeleton Knife \| Urban Masked (Factory New) | 526.57 | 2 | 2026-09-11T22:09:51.125Z | steam-bulk |
+| ★ Skeleton Knife \| Urban Masked (Field-Tested) | 182.85 | 36 | 2026-09-11T22:09:50.890Z | steam-bulk |
+| ★ Skeleton Knife \| Urban Masked (Minimal Wear) | 231.98 | 16 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| ★ Skeleton Knife \| Urban Masked (Well-Worn) | 191.15 | 10 | 2026-09-11T22:09:50.905Z | steam-bulk |
 | ★ Specialist Gloves \| Big Swell (Battle-Scarred) | 177.39 | 23 | 2026-09-11T22:09:50.874Z | steam-bulk |
 | ★ Specialist Gloves \| Big Swell (Field-Tested) | 286.97 | 34 | 2026-09-11T22:09:51.014Z | steam-bulk |
 | ★ Specialist Gloves \| Big Swell (Minimal Wear) | 635.17 | 7 | 2026-09-11T22:09:51.142Z | steam-bulk |
@@ -1484,6 +1712,16 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Bayonet \| Urban Masked (Field-Tested) | 207.44 | 3 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Bayonet \| Urban Masked (Minimal Wear) | 367.09 | 4 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife | 184.04 | 11 | 2026-09-11T22:09:50.890Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Autotronic (Battle-Scarred) | 127.58 | 8 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Autotronic (Factory New) | 415.11 | 3 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Autotronic (Field-Tested) | 133.83 | 13 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Autotronic (Minimal Wear) | 189.34 | 13 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Autotronic (Well-Worn) | 160.04 | 3 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Black Laminate (Battle-Scarred) | 83.04 | 7 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Black Laminate (Factory New) | 207.47 | 5 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Black Laminate (Field-Tested) | 80.06 | 11 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Black Laminate (Minimal Wear) | 86.82 | 9 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Black Laminate (Well-Worn) | 87.21 | 13 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Blue Steel (Battle-Scarred) | 261.05 | 2 | 2026-09-11T22:09:46.259Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Blue Steel (Factory New) | 517.61 | 2 | 2026-09-11T22:09:46.259Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Blue Steel (Field-Tested) | 208.80 | 7 | 2026-09-11T22:09:46.259Z | steam-bulk |
@@ -1492,6 +1730,11 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Bowie Knife \| Boreal Forest (Battle-Scarred) | 134.57 | 2 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Boreal Forest (Field-Tested) | 92.34 | 5 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Boreal Forest (Well-Worn) | 105.45 | 3 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Bright Water (Battle-Scarred) | 135.35 | 4 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Bright Water (Factory New) | 107.74 | 16 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Bright Water (Field-Tested) | 75.28 | 20 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Bright Water (Minimal Wear) | 95.00 | 19 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Bright Water (Well-Worn) | 76.98 | 5 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Case Hardened (Battle-Scarred) | 314.25 | 3 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Case Hardened (Field-Tested) | 487.30 | 6 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Case Hardened (Minimal Wear) | 451.33 | 4 | 2026-09-11T22:09:46.274Z | steam-bulk |
@@ -1508,6 +1751,17 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Bowie Knife \| Fade (Factory New) | 345.09 | 9 | 2026-09-11T22:09:46.259Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Forest DDPAT (Battle-Scarred) | 130.60 | 3 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Forest DDPAT (Field-Tested) | 82.01 | 7 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Freehand (Battle-Scarred) | 112.23 | 4 | 2026-09-11T22:09:46.259Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Freehand (Factory New) | 143.37 | 18 | 2026-09-11T22:09:46.259Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Freehand (Field-Tested) | 94.41 | 19 | 2026-09-11T22:09:46.259Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Freehand (Minimal Wear) | 105.02 | 16 | 2026-09-11T22:09:46.259Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Freehand (Well-Worn) | 106.87 | 5 | 2026-09-11T22:09:46.259Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Gamma Doppler (Factory New) | 278.32 | 55 | 2026-09-11T22:09:46.259Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Lore (Battle-Scarred) | 120.18 | 8 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Lore (Factory New) | 417.68 | 4 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Lore (Field-Tested) | 135.80 | 21 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Lore (Minimal Wear) | 198.89 | 8 | 2026-09-11T22:09:46.274Z | steam-bulk |
+| ★ StatTrak™ Bowie Knife \| Lore (Well-Worn) | 127.59 | 10 | 2026-09-11T22:09:46.274Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Marble Fade (Factory New) | 266.85 | 17 | 2026-09-11T22:09:46.259Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Marble Fade (Minimal Wear) | 645.82 | 2 | 2026-09-11T22:09:46.259Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Night (Field-Tested) | 150.19 | 4 | 2026-09-11T22:09:46.275Z | steam-bulk |
@@ -1534,12 +1788,20 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Bowie Knife \| Urban Masked (Battle-Scarred) | 253.06 | 2 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Bowie Knife \| Urban Masked (Field-Tested) | 109.24 | 3 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife | 1579.80 | — | 2026-09-21T02:19:26.272Z | steam-direct |
+| ★ StatTrak™ Butterfly Knife \| Autotronic (Field-Tested) | 1196.27 | 8 | 2026-09-11T22:09:46.081Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Black Laminate (Battle-Scarred) | 912.57 | 5 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Black Laminate (Field-Tested) | 1015.07 | 7 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Black Laminate (Minimal Wear) | 1100.27 | 4 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Black Laminate (Well-Worn) | 936.13 | 3 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Blue Steel (Field-Tested) | 1450.37 | 4 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Blue Steel (Minimal Wear) | 1755.23 | 3 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Blue Steel (Well-Worn) | 986.99 | 2 | 2026-09-11T02:39:44.480Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Boreal Forest (Field-Tested) | 703.52 | 7 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Boreal Forest (Minimal Wear) | 914.37 | 2 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Boreal Forest (Well-Worn) | 764.19 | 2 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Bright Water (Factory New) | 1000.25 | 4 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Bright Water (Field-Tested) | 798.99 | 5 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Bright Water (Minimal Wear) | 850.22 | 5 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Case Hardened (Battle-Scarred) | 1282.68 | 3 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Case Hardened (Field-Tested) | 1341.20 | 6 | 2026-09-11T22:09:46.080Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Case Hardened (Well-Worn) | 1224.02 | 2 | 2026-09-11T22:09:46.080Z | steam-bulk |
@@ -1548,6 +1810,13 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Butterfly Knife \| Forest DDPAT (Battle-Scarred) | 665.81 | 2 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Forest DDPAT (Field-Tested) | 749.08 | 7 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Forest DDPAT (Minimal Wear) | 933.99 | 3 | 2026-09-11T22:09:46.096Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Freehand (Factory New) | 1212.44 | 4 | 2026-09-11T22:09:46.080Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Freehand (Field-Tested) | 899.22 | 9 | 2026-09-11T22:09:46.080Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Freehand (Minimal Wear) | 1160.09 | 4 | 2026-09-11T22:09:46.080Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Lore (Battle-Scarred) | 853.89 | 6 | 2026-09-11T22:09:46.081Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Lore (Field-Tested) | 965.53 | 5 | 2026-09-11T22:09:46.081Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Lore (Minimal Wear) | 1765.42 | 3 | 2026-09-11T22:09:46.081Z | steam-bulk |
+| ★ StatTrak™ Butterfly Knife \| Lore (Well-Worn) | 900.22 | 5 | 2026-09-11T22:09:46.081Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Night (Battle-Scarred) | 796.06 | 3 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Night (Field-Tested) | 985.62 | 3 | 2026-09-11T22:09:46.096Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Night (Minimal Wear) | 1265.30 | 4 | 2026-09-11T22:09:46.096Z | steam-bulk |
@@ -1565,6 +1834,47 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Butterfly Knife \| Urban Masked (Field-Tested) | 747.66 | 4 | 2026-09-11T22:09:46.097Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Urban Masked (Minimal Wear) | 1053.13 | 5 | 2026-09-11T22:09:46.097Z | steam-bulk |
 | ★ StatTrak™ Butterfly Knife \| Urban Masked (Well-Worn) | 812.16 | 2 | 2026-09-11T22:09:46.097Z | steam-bulk |
+| ★ StatTrak™ Classic Knife | 312.71 | 7 | 2026-09-11T22:09:51.030Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Blue Steel (Battle-Scarred) | 180.04 | 4 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Blue Steel (Factory New) | 439.69 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Blue Steel (Minimal Wear) | 184.44 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Blue Steel (Well-Worn) | 197.24 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Boreal Forest (Battle-Scarred) | 123.48 | 5 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Boreal Forest (Field-Tested) | 105.49 | 5 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Boreal Forest (Minimal Wear) | 125.23 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Boreal Forest (Well-Worn) | 95.07 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Case Hardened (Battle-Scarred) | 273.08 | 2 | 2026-09-11T22:09:46.130Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Case Hardened (Factory New) | 1237.07 | 2 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Case Hardened (Field-Tested) | 233.33 | 7 | 2026-09-11T22:09:46.130Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Case Hardened (Minimal Wear) | 299.98 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Case Hardened (Well-Worn) | 253.64 | 7 | 2026-09-11T22:09:46.130Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Crimson Web (Field-Tested) | 277.37 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Crimson Web (Minimal Wear) | 300.82 | 4 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Crimson Web (Well-Worn) | 411.86 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Fade (Factory New) | 572.41 | 11 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Forest DDPAT (Battle-Scarred) | 156.36 | 4 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Forest DDPAT (Field-Tested) | 111.82 | 6 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Forest DDPAT (Minimal Wear) | 135.02 | 3 | 2026-09-11T22:09:46.130Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Night Stripe (Battle-Scarred) | 166.30 | 4 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Night Stripe (Field-Tested) | 160.11 | 11 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Night Stripe (Minimal Wear) | 230.06 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Safari Mesh (Battle-Scarred) | 114.85 | 2 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Safari Mesh (Field-Tested) | 106.61 | 5 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Safari Mesh (Well-Worn) | 133.58 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Scorched (Battle-Scarred) | 121.80 | 2 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Scorched (Field-Tested) | 165.23 | 4 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Scorched (Minimal Wear) | 229.81 | 5 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Slaughter (Factory New) | 405.55 | 4 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Slaughter (Field-Tested) | 435.97 | 2 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Slaughter (Minimal Wear) | 308.24 | 6 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Stained (Battle-Scarred) | 146.83 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Stained (Field-Tested) | 172.46 | 4 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Stained (Minimal Wear) | 212.09 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Stained (Well-Worn) | 154.04 | 2 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Urban Masked (Battle-Scarred) | 118.75 | 4 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Urban Masked (Field-Tested) | 156.61 | 6 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Urban Masked (Minimal Wear) | 191.76 | 3 | 2026-09-11T22:09:46.131Z | steam-bulk |
+| ★ StatTrak™ Classic Knife \| Urban Masked (Well-Worn) | 128.62 | 2 | 2026-09-11T22:09:46.131Z | steam-bulk |
 | ★ StatTrak™ Falchion Knife | 201.85 | 11 | 2026-09-11T22:09:50.921Z | steam-bulk |
 | ★ StatTrak™ Falchion Knife \| Autotronic (Battle-Scarred) | 142.14 | 6 | 2026-09-11T22:09:46.132Z | steam-bulk |
 | ★ StatTrak™ Falchion Knife \| Autotronic (Factory New) | 444.08 | 4 | 2026-09-11T22:09:46.132Z | steam-bulk |
@@ -1765,6 +2075,15 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Gut Knife \| Urban Masked (Field-Tested) | 89.77 | 6 | 2026-09-11T22:09:46.166Z | steam-bulk |
 | ★ StatTrak™ Gut Knife \| Urban Masked (Minimal Wear) | 156.60 | 5 | 2026-09-11T22:09:46.166Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife | 277.63 | 7 | 2026-09-11T22:09:51.000Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Autotronic (Battle-Scarred) | 140.11 | 7 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Autotronic (Factory New) | 773.87 | 2 | 2026-09-11T11:39:46.638Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Autotronic (Field-Tested) | 149.53 | 23 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Autotronic (Minimal Wear) | 199.70 | 15 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Black Laminate (Battle-Scarred) | 89.77 | 8 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Black Laminate (Factory New) | 289.07 | 2 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Black Laminate (Field-Tested) | 97.38 | 15 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Black Laminate (Minimal Wear) | 110.96 | 12 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Black Laminate (Well-Worn) | 90.73 | 9 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Blue Steel (Field-Tested) | 226.95 | 3 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Blue Steel (Minimal Wear) | 268.19 | 3 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Blue Steel (Well-Worn) | 186.59 | 3 | 2026-09-11T22:09:46.275Z | steam-bulk |
@@ -1772,6 +2091,10 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Huntsman Knife \| Boreal Forest (Field-Tested) | 173.06 | 4 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Boreal Forest (Minimal Wear) | 172.54 | 3 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Boreal Forest (Well-Worn) | 106.87 | 2 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Bright Water (Factory New) | 116.72 | 13 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Bright Water (Field-Tested) | 89.57 | 15 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Bright Water (Minimal Wear) | 110.02 | 13 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Bright Water (Well-Worn) | 87.05 | 2 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Case Hardened (Field-Tested) | 396.82 | 3 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Case Hardened (Minimal Wear) | 466.99 | 4 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Case Hardened (Well-Worn) | 343.66 | 4 | 2026-09-11T22:09:46.290Z | steam-bulk |
@@ -1786,6 +2109,12 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Huntsman Knife \| Fade (Factory New) | 401.57 | 7 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Forest DDPAT (Field-Tested) | 121.51 | 2 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Forest DDPAT (Minimal Wear) | 126.40 | 3 | 2026-09-11T22:09:46.290Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Freehand (Factory New) | 152.14 | 7 | 2026-09-11T22:09:46.275Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Freehand (Field-Tested) | 93.03 | 21 | 2026-09-11T22:09:46.275Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Freehand (Minimal Wear) | 120.08 | 13 | 2026-09-11T22:09:46.275Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Freehand (Well-Worn) | 177.05 | 3 | 2026-09-11T22:09:46.275Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Gamma Doppler (Factory New) | 333.50 | 28 | 2026-09-11T22:09:46.275Z | steam-bulk |
+| ★ StatTrak™ Huntsman Knife \| Gamma Doppler (Minimal Wear) | 400.08 | 3 | 2026-09-11T22:09:46.275Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Lore (Battle-Scarred) | 135.81 | 4 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Lore (Factory New) | 275.07 | 7 | 2026-09-11T22:09:46.290Z | steam-bulk |
 | ★ StatTrak™ Huntsman Knife \| Lore (Field-Tested) | 135.74 | 16 | 2026-09-11T22:09:46.290Z | steam-bulk |
@@ -2055,6 +2384,22 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Nomad Knife \| Urban Masked (Minimal Wear) | 206.78 | 4 | 2026-09-11T22:09:46.215Z | steam-bulk |
 | ★ StatTrak™ Nomad Knife \| Urban Masked (Well-Worn) | 199.56 | 3 | 2026-09-11T22:09:46.215Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife | 83.04 | 24 | 2026-09-11T22:09:50.551Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Blue Steel (Battle-Scarred) | 130.60 | 7 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Blue Steel (Factory New) | 439.32 | 2 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Blue Steel (Field-Tested) | 120.69 | 7 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Blue Steel (Minimal Wear) | 145.03 | 11 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Blue Steel (Well-Worn) | 132.79 | 3 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Boreal Forest (Battle-Scarred) | 77.68 | 5 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Boreal Forest (Field-Tested) | 68.60 | 13 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Boreal Forest (Minimal Wear) | 92.16 | 4 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Boreal Forest (Well-Worn) | 70.10 | 5 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Case Hardened (Battle-Scarred) | 173.05 | 2 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Case Hardened (Factory New) | 450.11 | 3 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Case Hardened (Field-Tested) | 165.91 | 10 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Case Hardened (Minimal Wear) | 255.25 | 5 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Case Hardened (Well-Worn) | 163.86 | 11 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Crimson Web (Battle-Scarred) | 150.99 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Crimson Web (Field-Tested) | 160.11 | 11 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Damascus Steel (Battle-Scarred) | 142.45 | 3 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Damascus Steel (Factory New) | 128.99 | 8 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Damascus Steel (Field-Tested) | 94.33 | 12 | 2026-09-11T22:09:46.113Z | steam-bulk |
@@ -2062,15 +2407,43 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Paracord Knife \| Damascus Steel (Well-Worn) | 102.96 | 4 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Doppler (Factory New) | 328.99 | 19 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Doppler (Minimal Wear) | 681.98 | 2 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Fade (Factory New) | 232.05 | 14 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Forest DDPAT (Battle-Scarred) | 68.69 | 8 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Forest DDPAT (Field-Tested) | 68.45 | 9 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Forest DDPAT (Minimal Wear) | 83.83 | 6 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Forest DDPAT (Well-Worn) | 85.83 | 5 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Marble Fade (Factory New) | 207.10 | 21 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Marble Fade (Minimal Wear) | 580.10 | 2 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Night Stripe (Battle-Scarred) | 82.33 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Night Stripe (Field-Tested) | 81.22 | 8 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Night Stripe (Minimal Wear) | 110.02 | 8 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Night Stripe (Well-Worn) | 85.86 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Rust Coat (Battle-Scarred) | 66.76 | 21 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Rust Coat (Well-Worn) | 99.20 | 2 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Safari Mesh (Battle-Scarred) | 63.74 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Safari Mesh (Field-Tested) | 63.93 | 7 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Safari Mesh (Minimal Wear) | 108.98 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Safari Mesh (Well-Worn) | 84.67 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Scorched (Battle-Scarred) | 86.09 | 7 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Scorched (Field-Tested) | 77.41 | 12 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Scorched (Minimal Wear) | 108.67 | 9 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Scorched (Well-Worn) | 78.49 | 5 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Slaughter (Factory New) | 300.08 | 7 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Slaughter (Field-Tested) | 307.68 | 3 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Slaughter (Minimal Wear) | 214.03 | 10 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Stained (Battle-Scarred) | 89.05 | 6 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Stained (Field-Tested) | 102.69 | 7 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Stained (Minimal Wear) | 111.61 | 5 | 2026-09-11T22:09:46.113Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Stained (Well-Worn) | 98.62 | 3 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Tiger Tooth (Factory New) | 151.04 | 25 | 2026-09-11T22:09:46.113Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Ultraviolet (Battle-Scarred) | 101.78 | 6 | 2026-09-11T22:09:46.114Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Ultraviolet (Field-Tested) | 105.34 | 14 | 2026-09-11T22:09:46.114Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Ultraviolet (Minimal Wear) | 168.21 | 13 | 2026-09-11T22:09:46.114Z | steam-bulk |
 | ★ StatTrak™ Paracord Knife \| Ultraviolet (Well-Worn) | 104.36 | 7 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Urban Masked (Battle-Scarred) | 92.02 | 9 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Urban Masked (Field-Tested) | 87.41 | 9 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Urban Masked (Minimal Wear) | 119.35 | 3 | 2026-09-11T22:09:46.114Z | steam-bulk |
+| ★ StatTrak™ Paracord Knife \| Urban Masked (Well-Worn) | 138.68 | 2 | 2026-09-11T22:09:46.114Z | steam-bulk |
 | ★ StatTrak™ Shadow Daggers | 134.53 | 6 | 2026-09-11T22:09:50.770Z | steam-bulk |
 | ★ StatTrak™ Shadow Daggers \| Autotronic (Battle-Scarred) | 70.02 | 11 | 2026-09-11T22:09:46.241Z | steam-bulk |
 | ★ StatTrak™ Shadow Daggers \| Autotronic (Factory New) | 139.23 | 8 | 2026-09-11T22:09:46.241Z | steam-bulk |
@@ -2153,18 +2526,57 @@ Priced market variants: 10480. Directly refreshed entries: 158.
 | ★ StatTrak™ Shadow Daggers \| Urban Masked (Minimal Wear) | 112.80 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Shadow Daggers \| Urban Masked (Well-Worn) | 87.37 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife | 361.59 | 12 | 2026-09-11T22:09:51.047Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Blue Steel (Battle-Scarred) | 357.94 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Blue Steel (Field-Tested) | 340.08 | 6 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Blue Steel (Minimal Wear) | 682.74 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Blue Steel (Well-Worn) | 297.42 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Boreal Forest (Battle-Scarred) | 170.67 | 5 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Boreal Forest (Field-Tested) | 179.82 | 8 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Boreal Forest (Minimal Wear) | 213.41 | 2 | 2026-09-11T21:39:47.234Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Boreal Forest (Well-Worn) | 207.79 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Case Hardened (Battle-Scarred) | 415.04 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Case Hardened (Field-Tested) | 412.01 | 7 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Case Hardened (Minimal Wear) | 642.65 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Case Hardened (Well-Worn) | 436.94 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Crimson Web (Field-Tested) | 433.87 | 7 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Crimson Web (Well-Worn) | 461.48 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Damascus Steel (Battle-Scarred) | 431.80 | 2 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Damascus Steel (Factory New) | 453.95 | 9 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Damascus Steel (Field-Tested) | 271.46 | 12 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Damascus Steel (Minimal Wear) | 360.74 | 5 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Doppler (Factory New) | 962.51 | 5 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Fade (Factory New) | 965.53 | 6 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Forest DDPAT (Battle-Scarred) | 175.52 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Forest DDPAT (Field-Tested) | 168.22 | 8 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Forest DDPAT (Minimal Wear) | 201.85 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Forest DDPAT (Well-Worn) | 186.41 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Marble Fade (Factory New) | 615.92 | 14 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Night Stripe (Field-Tested) | 249.42 | 4 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Night Stripe (Minimal Wear) | 315.95 | 3 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Night Stripe (Well-Worn) | 206.60 | 2 | 2026-09-11T22:09:46.258Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Rust Coat (Battle-Scarred) | 198.75 | 14 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Safari Mesh (Field-Tested) | 154.71 | 5 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Safari Mesh (Minimal Wear) | 195.73 | 6 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Safari Mesh (Well-Worn) | 163.45 | 3 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Scorched (Battle-Scarred) | 214.64 | 5 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Scorched (Field-Tested) | 208.55 | 11 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Scorched (Minimal Wear) | 254.51 | 5 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Slaughter (Factory New) | 814.96 | 7 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Slaughter (Field-Tested) | 684.54 | 3 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Slaughter (Minimal Wear) | 712.42 | 6 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Stained (Battle-Scarred) | 272.85 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Stained (Field-Tested) | 322.85 | 11 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Stained (Minimal Wear) | 336.44 | 9 | 2026-09-11T22:09:46.242Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Stained (Well-Worn) | 310.08 | 4 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Tiger Tooth (Factory New) | 435.07 | 9 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Ultraviolet (Battle-Scarred) | 290.60 | 2 | 2026-09-11T22:09:46.258Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Ultraviolet (Field-Tested) | 322.10 | 11 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Ultraviolet (Minimal Wear) | 447.50 | 6 | 2026-09-11T22:09:46.242Z | steam-bulk |
 | ★ StatTrak™ Skeleton Knife \| Ultraviolet (Well-Worn) | 464.09 | 4 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Urban Masked (Battle-Scarred) | 202.99 | 2 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Urban Masked (Field-Tested) | 221.93 | 7 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Urban Masked (Minimal Wear) | 310.43 | 3 | 2026-09-11T22:09:46.258Z | steam-bulk |
+| ★ StatTrak™ Skeleton Knife \| Urban Masked (Well-Worn) | 206.81 | 3 | 2026-09-11T22:09:46.258Z | steam-bulk |
 | ★ StatTrak™ Stiletto Knife | 340.25 | 11 | 2026-09-11T22:09:51.046Z | steam-bulk |
 | ★ StatTrak™ Stiletto Knife \| Blue Steel (Battle-Scarred) | 406.08 | 2 | 2026-09-11T22:09:46.259Z | steam-bulk |
 | ★ StatTrak™ Stiletto Knife \| Blue Steel (Minimal Wear) | 464.08 | 3 | 2026-09-11T22:09:46.258Z | steam-bulk |

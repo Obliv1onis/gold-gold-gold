@@ -6282,6 +6282,414 @@
                 "ww": 136.54
               }
             }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Gamma Doppler",
+            "item_id": "dreams_nightmares_case_bowie_knife_gamma_doppler",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5uTiS-lCIjvC2VlorrHjvPP0V1C_0sHLBS9g67l9G0Mu_q5ATZ3t1BxSn6in5B6yc9t7kHBaFw_aPQ3QiTNLQ_ssICOr_5Gko8dFgH",
+            "market_price": 237.74,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 237.74,
+                "mw": 303.65
+              },
+              "stattrak": {
+                "fn": 278.32
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Lore",
+            "item_id": "dreams_nightmares_case_bowie_knife_lore",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF1pd5rQD66kCIrvC-ApYPwJiPTcAJyAsZ3FrINuhK-l9O2Yei35wTago9NyCj4iHtP5n5itbsGA6FwqaTJz1aWiYxmw3g",
+            "market_price": 118.16,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 95.12,
+                "fn": 246.84,
+                "ft": 118.16,
+                "mw": 162.43,
+                "ww": 106.81
+              },
+              "stattrak": {
+                "bs": 120.18,
+                "fn": 417.68,
+                "ft": 135.8,
+                "mw": 198.89,
+                "ww": 127.59
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Autotronic",
+            "item_id": "dreams_nightmares_case_bowie_knife_autotronic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNFxo95rQD66kCImpimKjp32LyLEAVp5Xco0W-cIsEW9xty1Zb-z7gHd3o8UzSv3hypNvX0-tu5QWKMk-6XUjAiUYLAjoc5UIuuJ8AY",
+            "market_price": 114.93,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 105.5,
+                "fn": 202.53,
+                "ft": 114.93,
+                "mw": 130.04,
+                "ww": 111.01
+              },
+              "stattrak": {
+                "bs": 127.58,
+                "fn": 415.11,
+                "ft": 133.83,
+                "mw": 189.34,
+                "ww": 160.04
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Black Laminate",
+            "item_id": "dreams_nightmares_case_bowie_knife_black_laminate",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNFxo95rQD66kCIlvzyGkbD1ICbOMFdkX_0sHLBS9g7qx9HhMuyxtA3b3o0Tyij92H4fuy5q675XAPBxrvHVh1nBOeFo5ZYAOr_5Gl4TXifL",
+            "market_price": 63.21,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 69.09,
+                "fn": 132.77,
+                "ft": 63.21,
+                "mw": 76.29,
+                "ww": 68.86
+              },
+              "stattrak": {
+                "bs": 83.04,
+                "fn": 207.47,
+                "ft": 80.06,
+                "mw": 86.82,
+                "ww": 87.21
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Freehand",
+            "item_id": "dreams_nightmares_case_bowie_knife_freehand",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5kTju4kBkYpi26w9_GLSLANkI-CcFyQbResEbuxIa0Nunr7wSMj95GxH77i39N6Hlitu4LB6oj8vHfjxaBb-PSbjYTRA",
+            "market_price": 88.5,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 89.83,
+                "fn": 103.31,
+                "ft": 88.5,
+                "mw": 96.02,
+                "ww": 93.4
+              },
+              "stattrak": {
+                "bs": 112.23,
+                "fn": 143.37,
+                "ft": 94.41,
+                "mw": 105.02,
+                "ww": 106.87
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Bright Water",
+            "item_id": "dreams_nightmares_case_bowie_knife_bright_water",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF-qd5mTCyymyIsvTSDn7CgcRTLN1F4Tox3E7RY4BW8l4CyMLvq5gSL2oMXzCyqin5I5nttsrsGA_Ihq6LX2lnAL_Rjtv1VSd_s",
+            "market_price": 70.26,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 91.39,
+                "fn": 84.01,
+                "ft": 70.26,
+                "mw": 70.77,
+                "ww": 70.02
+              },
+              "stattrak": {
+                "bs": 135.35,
+                "fn": 107.74,
+                "ft": 75.28,
+                "mw": 95,
+                "ww": 76.98
+              }
+            }
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Gamma Doppler",
+            "item_id": "dreams_nightmares_case_butterfly_knife_gamma_doppler",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxu97veBWSyajhREioQKVko7qJHr4Ml93UtZuF7EMshHumoXnY76w4wLe2IxAn3r3iXhO6Sxj6rkBAvZ3-KOBjV2TNqp9v8eAgEBjpg",
+            "market_price": 1708.35,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 1708.35,
+                "mw": 1777.95
+              },
+              "stattrak": {
+                "fn": 1737.59
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ],
+            "price_basis": "CS2.io",
+            "price_source_url": "https://cs2.io/en/skins/knives/butterfly-knife-gamma-doppler",
+            "price_verified_at": "2026-09-22"
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Lore",
+            "item_id": "dreams_nightmares_case_butterfly_knife_lore",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsDXKvw_tipOR7SSWqqhEooTi6lob-KT-JZw90XJMiTO8PukW4wIXmN-zq5gXf2tpBm37_2y4auylv5exUAKAi_7qX0V8Ly4BE2w",
+            "market_price": 951.39,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 786.86,
+                "ft": 951.39,
+                "mw": 1460.33,
+                "ww": 822.58
+              },
+              "stattrak": {
+                "bs": 853.89,
+                "ft": 965.53,
+                "mw": 1765.42,
+                "ww": 900.22
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Autotronic",
+            "item_id": "dreams_nightmares_case_butterfly_knife_autotronic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsCXSvw_tipOR7SSWqqhwypzKRiID3KCj4Ml93UtZuROIDtUawltG1N-Pj4gaMg98Xyy2q2CxN63k54uwHBfd0-_GEhwHBOap9v8dVISN0PQ",
+            "market_price": 1150.28,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 994.03,
+                "ft": 1150.28,
+                "mw": 1380.33
+              },
+              "stattrak": {
+                "ft": 1196.27
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Black Laminate",
+            "item_id": "dreams_nightmares_case_butterfly_knife_black_laminate",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsCXSvw_tipOR7SSWqqh8rsj6OpYP4LCLJP0J1Zc4pEr9OrBC7xtOyN-vjtFDZjYNAnH6qiS9J73s56u4BWPJxqK3U2gDDYLU-t5YdZKHw7iAX8js",
+            "market_price": 850.22,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 816.7,
+                "fn": 1697.83,
+                "ft": 850.22,
+                "mw": 986.6,
+                "ww": 875.21
+              },
+              "stattrak": {
+                "bs": 912.57,
+                "ft": 1015.07,
+                "mw": 1100.27,
+                "ww": 936.13
+              }
+            }
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Freehand",
+            "item_id": "dreams_nightmares_case_butterfly_knife_freehand",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvzO9ku-RtcDyjqkR3jDGMnYftbyqSZlcgCMd5RLEItBe9koXhZbzi4AyK34tNmXn4i3hO6SxttuoBAKI7uvqA0_B7rlE",
+            "market_price": 799.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 1000.7,
+                "ft": 799.41,
+                "mw": 998.7,
+                "ww": 813.39
+              },
+              "stattrak": {
+                "fn": 1212.44,
+                "ft": 899.22,
+                "mw": 1160.09
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft",
+              "ww"
+            ]
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Bright Water",
+            "item_id": "dreams_nightmares_case_butterfly_knife_bright_water",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsBn6vzu1zse9WRCe6kxgY6m26lob-KT-JbgckDsR5TeRftkKwxN3mY7nq7wbci4hBzy783X5P7iZp67sEWaV0qbqX0V8sk0fSOA",
+            "market_price": 747.66,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 750.19,
+                "fn": 861.21,
+                "ft": 747.66,
+                "mw": 810.21
+              },
+              "stattrak": {
+                "fn": 1000.25,
+                "ft": 798.99,
+                "mw": 850.22
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Gamma Doppler",
+            "item_id": "dreams_nightmares_case_huntsman_knife_gamma_doppler",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cBTLN1F4Tox4R7JZs0bsldLnMurg5VfWg4wUyyn72yhIuiY6tu1UBaAlrKDT2Q3HL_Rjtkcw7QQm",
+            "market_price": 294.78,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 294.78,
+                "mw": 400
+              },
+              "stattrak": {
+                "fn": 333.5,
+                "mw": 400.08
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Autotronic",
+            "item_id": "dreams_nightmares_case_huntsman_knife_autotronic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-UHViY1OBio-xoQRaygAkopy-KlIb6HifOOV5kFMF1QrMNu0Puw4DvYbnk5Qfc2d5Azyv_3C1O7Hlq4ulRAvcn_qKBiFvfcepq3JPpPWw",
+            "market_price": 133.43,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 127.39,
+                "fn": 250.41,
+                "ft": 133.43,
+                "mw": 171.11,
+                "ww": 133.33
+              },
+              "stattrak": {
+                "bs": 140.11,
+                "fn": 773.87,
+                "ft": 149.53,
+                "mw": 199.7
+              }
+            }
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Black Laminate",
+            "item_id": "dreams_nightmares_case_huntsman_knife_black_laminate",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-UHViY1OBio-xoQRaxmRwkuAKJm4LwLyrTO2l8U8UoAfkJ5kTsmtfvNe7mswOL3YNByX_9338Y7ig44-cEV_Yk_PGBjgnCZeY7_9Bdc4dD_RHM",
+            "market_price": 84.7,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 79.68,
+                "fn": 179.82,
+                "ft": 84.7,
+                "mw": 92.01,
+                "ww": 83.32
+              },
+              "stattrak": {
+                "bs": 89.77,
+                "fn": 289.07,
+                "ft": 97.38,
+                "mw": 110.96,
+                "ww": 90.73
+              }
+            }
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Freehand",
+            "item_id": "dreams_nightmares_case_huntsman_knife_freehand",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1idwPx9teVWWjmMzE0YvzSCkpu3cC-Wald2A5tyFu9esxDpktO2Nrzq4wzaiYlGzXmo3SxIuHw65bsLU71lpPPkJkZySA",
+            "market_price": 91.47,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 98.18,
+                "fn": 112.35,
+                "ft": 91.47,
+                "mw": 102.01,
+                "ww": 86.61
+              },
+              "stattrak": {
+                "fn": 152.14,
+                "ft": 93.03,
+                "mw": 120.08,
+                "ww": 177.05
+              }
+            }
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Bright Water",
+            "item_id": "dreams_nightmares_case_huntsman_knife_bright_water",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-bF1ifwut3vt5iQSC1kCJ-4wKJk4jxNWWVOA4hA5MjQONbtRGwkYHlP77l5FaLj9gTxS76hn4avXo-t-tTV_Uk5OSJ2DtQY32N",
+            "market_price": 70.63,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 80.06,
+                "fn": 95.12,
+                "ft": 70.63,
+                "mw": 78.93,
+                "ww": 77.06
+              },
+              "stattrak": {
+                "fn": 116.72,
+                "ft": 89.57,
+                "mw": 110.02,
+                "ww": 87.05
+              }
+            }
           }
         ]
       }
@@ -7024,6 +7432,414 @@
                 "ft": 135.74,
                 "mw": 200.05,
                 "ww": 136.54
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Gamma Doppler",
+            "item_id": "operation_riptide_case_bowie_knife_gamma_doppler",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5uTiS-lCIjvC2VlorrHjvPP0V1C_0sHLBS9g67l9G0Mu_q5ATZ3t1BxSn6in5B6yc9t7kHBaFw_aPQ3QiTNLQ_ssICOr_5Gko8dFgH",
+            "market_price": 237.74,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 237.74,
+                "mw": 303.65
+              },
+              "stattrak": {
+                "fn": 278.32
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Lore",
+            "item_id": "operation_riptide_case_bowie_knife_lore",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF1pd5rQD66kCIrvC-ApYPwJiPTcAJyAsZ3FrINuhK-l9O2Yei35wTago9NyCj4iHtP5n5itbsGA6FwqaTJz1aWiYxmw3g",
+            "market_price": 118.16,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 95.12,
+                "fn": 246.84,
+                "ft": 118.16,
+                "mw": 162.43,
+                "ww": 106.81
+              },
+              "stattrak": {
+                "bs": 120.18,
+                "fn": 417.68,
+                "ft": 135.8,
+                "mw": 198.89,
+                "ww": 127.59
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Autotronic",
+            "item_id": "operation_riptide_case_bowie_knife_autotronic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNFxo95rQD66kCImpimKjp32LyLEAVp5Xco0W-cIsEW9xty1Zb-z7gHd3o8UzSv3hypNvX0-tu5QWKMk-6XUjAiUYLAjoc5UIuuJ8AY",
+            "market_price": 114.93,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 105.5,
+                "fn": 202.53,
+                "ft": 114.93,
+                "mw": 130.04,
+                "ww": 111.01
+              },
+              "stattrak": {
+                "bs": 127.58,
+                "fn": 415.11,
+                "ft": 133.83,
+                "mw": 189.34,
+                "ww": 160.04
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Black Laminate",
+            "item_id": "operation_riptide_case_bowie_knife_black_laminate",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNFxo95rQD66kCIlvzyGkbD1ICbOMFdkX_0sHLBS9g7qx9HhMuyxtA3b3o0Tyij92H4fuy5q675XAPBxrvHVh1nBOeFo5ZYAOr_5Gl4TXifL",
+            "market_price": 63.21,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 69.09,
+                "fn": 132.77,
+                "ft": 63.21,
+                "mw": 76.29,
+                "ww": 68.86
+              },
+              "stattrak": {
+                "bs": 83.04,
+                "fn": 207.47,
+                "ft": 80.06,
+                "mw": 86.82,
+                "ww": 87.21
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Freehand",
+            "item_id": "operation_riptide_case_bowie_knife_freehand",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF3vd5kTju4kBkYpi26w9_GLSLANkI-CcFyQbResEbuxIa0Nunr7wSMj95GxH77i39N6Hlitu4LB6oj8vHfjxaBb-PSbjYTRA",
+            "market_price": 88.5,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 89.83,
+                "fn": 103.31,
+                "ft": 88.5,
+                "mw": 96.02,
+                "ww": 93.4
+              },
+              "stattrak": {
+                "bs": 112.23,
+                "fn": 143.37,
+                "ft": 94.41,
+                "mw": 105.02,
+                "ww": 106.87
+              }
+            }
+          },
+          {
+            "weapon": "Bowie Knife",
+            "skin": "★ Bright Water",
+            "item_id": "operation_riptide_case_bowie_knife_bright_water",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I-uC4YbJsLM-RAXCZxNF-qd5mTCyymyIsvTSDn7CgcRTLN1F4Tox3E7RY4BW8l4CyMLvq5gSL2oMXzCyqin5I5nttsrsGA_Ihq6LX2lnAL_Rjtv1VSd_s",
+            "market_price": 70.26,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 91.39,
+                "fn": 84.01,
+                "ft": 70.26,
+                "mw": 70.77,
+                "ww": 70.02
+              },
+              "stattrak": {
+                "bs": 135.35,
+                "fn": 107.74,
+                "ft": 75.28,
+                "mw": 95,
+                "ww": 76.98
+              }
+            }
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Gamma Doppler",
+            "item_id": "operation_riptide_case_butterfly_knife_gamma_doppler",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvxu97veBWSyajhREioQKVko7qJHr4Ml93UtZuF7EMshHumoXnY76w4wLe2IxAn3r3iXhO6Sxj6rkBAvZ3-KOBjV2TNqp9v8eAgEBjpg",
+            "market_price": 1708.35,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 1708.35,
+                "mw": 1777.95
+              },
+              "stattrak": {
+                "fn": 1737.59
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ],
+            "price_basis": "CS2.io",
+            "price_source_url": "https://cs2.io/en/skins/knives/butterfly-knife-gamma-doppler",
+            "price_verified_at": "2026-09-22"
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Lore",
+            "item_id": "operation_riptide_case_butterfly_knife_lore",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsDXKvw_tipOR7SSWqqhEooTi6lob-KT-JZw90XJMiTO8PukW4wIXmN-zq5gXf2tpBm37_2y4auylv5exUAKAi_7qX0V8Ly4BE2w",
+            "market_price": 951.39,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 786.86,
+                "ft": 951.39,
+                "mw": 1460.33,
+                "ww": 822.58
+              },
+              "stattrak": {
+                "bs": 853.89,
+                "ft": 965.53,
+                "mw": 1765.42,
+                "ww": 900.22
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Autotronic",
+            "item_id": "operation_riptide_case_butterfly_knife_autotronic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsCXSvw_tipOR7SSWqqhwypzKRiID3KCj4Ml93UtZuROIDtUawltG1N-Pj4gaMg98Xyy2q2CxN63k54uwHBfd0-_GEhwHBOap9v8dVISN0PQ",
+            "market_price": 1150.28,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 994.03,
+                "ft": 1150.28,
+                "mw": 1380.33
+              },
+              "stattrak": {
+                "ft": 1196.27
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Black Laminate",
+            "item_id": "operation_riptide_case_butterfly_knife_black_laminate",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsCXSvw_tipOR7SSWqqh8rsj6OpYP4LCLJP0J1Zc4pEr9OrBC7xtOyN-vjtFDZjYNAnH6qiS9J73s56u4BWPJxqK3U2gDDYLU-t5YdZKHw7iAX8js",
+            "market_price": 850.22,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 816.7,
+                "fn": 1697.83,
+                "ft": 850.22,
+                "mw": 986.6,
+                "ww": 875.21
+              },
+              "stattrak": {
+                "bs": 912.57,
+                "ft": 1015.07,
+                "mw": 1100.27,
+                "ww": 936.13
+              }
+            }
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Freehand",
+            "item_id": "operation_riptide_case_butterfly_knife_freehand",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsD2qvzO9ku-RtcDyjqkR3jDGMnYftbyqSZlcgCMd5RLEItBe9koXhZbzi4AyK34tNmXn4i3hO6SxttuoBAKI7uvqA0_B7rlE",
+            "market_price": 799.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 1000.7,
+                "ft": 799.41,
+                "mw": 998.7,
+                "ww": 813.39
+              },
+              "stattrak": {
+                "fn": 1212.44,
+                "ft": 899.22,
+                "mw": 1160.09
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft",
+              "ww"
+            ]
+          },
+          {
+            "weapon": "Butterfly Knife",
+            "skin": "★ Bright Water",
+            "item_id": "operation_riptide_case_butterfly_knife_bright_water",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Z-ua6bbZrLOmsBn6vzu1zse9WRCe6kxgY6m26lob-KT-JbgckDsR5TeRftkKwxN3mY7nq7wbci4hBzy783X5P7iZp67sEWaV0qbqX0V8sk0fSOA",
+            "market_price": 747.66,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 750.19,
+                "fn": 861.21,
+                "ft": 747.66,
+                "mw": 810.21
+              },
+              "stattrak": {
+                "fn": 1000.25,
+                "ft": 798.99,
+                "mw": 850.22
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Gamma Doppler",
+            "item_id": "operation_riptide_case_huntsman_knife_gamma_doppler",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1iXwON7sd5tQDmjmRg1jC2Nm5z8cBTLN1F4Tox4R7JZs0bsldLnMurg5VfWg4wUyyn72yhIuiY6tu1UBaAlrKDT2Q3HL_Rjtkcw7QQm",
+            "market_price": 294.78,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 294.78,
+                "mw": 400
+              },
+              "stattrak": {
+                "fn": 333.5,
+                "mw": 400.08
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Autotronic",
+            "item_id": "operation_riptide_case_huntsman_knife_autotronic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-UHViY1OBio-xoQRaygAkopy-KlIb6HifOOV5kFMF1QrMNu0Puw4DvYbnk5Qfc2d5Azyv_3C1O7Hlq4ulRAvcn_qKBiFvfcepq3JPpPWw",
+            "market_price": 133.43,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 127.39,
+                "fn": 250.41,
+                "ft": 133.43,
+                "mw": 171.11,
+                "ww": 133.33
+              },
+              "stattrak": {
+                "bs": 140.11,
+                "fn": 773.87,
+                "ft": 149.53,
+                "mw": 199.7
+              }
+            }
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Black Laminate",
+            "item_id": "operation_riptide_case_huntsman_knife_black_laminate",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-UHViY1OBio-xoQRaxmRwkuAKJm4LwLyrTO2l8U8UoAfkJ5kTsmtfvNe7mswOL3YNByX_9338Y7ig44-cEV_Yk_PGBjgnCZeY7_9Bdc4dD_RHM",
+            "market_price": 84.7,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 79.68,
+                "fn": 179.82,
+                "ft": 84.7,
+                "mw": 92.01,
+                "ww": 83.32
+              },
+              "stattrak": {
+                "bs": 89.77,
+                "fn": 289.07,
+                "ft": 97.38,
+                "mw": 110.96,
+                "ww": 90.73
+              }
+            }
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Freehand",
+            "item_id": "operation_riptide_case_huntsman_knife_freehand",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-SA1idwPx9teVWWjmMzE0YvzSCkpu3cC-Wald2A5tyFu9esxDpktO2Nrzq4wzaiYlGzXmo3SxIuHw65bsLU71lpPPkJkZySA",
+            "market_price": 91.47,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 98.18,
+                "fn": 112.35,
+                "ft": 91.47,
+                "mw": 102.01,
+                "ww": 86.61
+              },
+              "stattrak": {
+                "fn": 152.14,
+                "ft": 93.03,
+                "mw": 120.08,
+                "ww": 177.05
+              }
+            }
+          },
+          {
+            "weapon": "Huntsman Knife",
+            "skin": "★ Bright Water",
+            "item_id": "operation_riptide_case_huntsman_knife_bright_water",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1P7vG6YadsLM-bF1ifwut3vt5iQSC1kCJ-4wKJk4jxNWWVOA4hA5MjQONbtRGwkYHlP77l5FaLj9gTxS76hn4avXo-t-tTV_Uk5OSJ2DtQY32N",
+            "market_price": 70.63,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 80.06,
+                "fn": 95.12,
+                "ft": 70.63,
+                "mw": 78.93,
+                "ww": 77.06
+              },
+              "stattrak": {
+                "fn": 116.72,
+                "ft": 89.57,
+                "mw": 110.02,
+                "ww": 87.05
               }
             }
           }
@@ -9320,6 +10136,1145 @@
                 "vanilla": 361.59
               }
             }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Fade",
+            "item_id": "fracture_case_nomad_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GSMWGRxetJvOhuRz39wUUksW7Vm4n7d3yUO1InXsdxTeQDukO4l9zuN7_j5QzYjIlFy3n6jDQJsHjNMoy1vA",
+            "market_price": 399.91,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 399.91,
+                "mw": 533.13
+              },
+              "stattrak": {
+                "fn": 420.1
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Crimson Web",
+            "item_id": "fracture_case_nomad_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_iKMXCVw_1JvOhuRz39xEV_sT6Bn9mueX3EP1QjApd4QbZe5EW6wIDmNO7islfW391EzCWt3TQJsHib9FqZhg",
+            "market_price": 214.21,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 208.84,
+                "ft": 214.21,
+                "mw": 344.33,
+                "ww": 232.06
+              },
+              "stattrak": {
+                "bs": 234.82,
+                "ft": 230.06,
+                "ww": 280.45
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Slaughter",
+            "item_id": "fracture_case_nomad_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMX2Vw_x3j-1gSCGn20R15TyGnNv_cS3GZlUnA5smTLEM4xDpx4bmY77h51OMiIJNziX53SJXrnE8R49sMsc",
+            "market_price": 339.94,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 371.05,
+                "ft": 339.94,
+                "mw": 334.49
+              },
+              "stattrak": {
+                "fn": 492.14,
+                "ft": 447.28,
+                "mw": 356.2
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "fracture_case_nomad_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWiZzetyj-1gSCGn2xhz5GyHwtr_dS7EOlR1DZtyEe8MsBO-xNKyNbnq7w3b2d8WzC7-jSNXrnE8rdGSE7w",
+            "market_price": 213.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 206.54,
+                "fn": 525.38,
+                "ft": 213.41,
+                "mw": 266.85,
+                "ww": 207.03
+              },
+              "stattrak": {
+                "bs": 269.48,
+                "ft": 328.81,
+                "mw": 362.33,
+                "ww": 269.95
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "fracture_case_nomad_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMXOR0etJpfNrTieMmRQguynLm96uciqSawMgX8Z1RrEIs0G8wN3nYbvjs1fZ2I1GmC-o3CofvSdi4PFCD_SLffhL6Q",
+            "market_price": 139.03,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 124.68,
+                "fn": 273.08,
+                "ft": 139.03,
+                "mw": 187.74,
+                "ww": 138.08
+              },
+              "stattrak": {
+                "bs": 146.4,
+                "ft": 150.68,
+                "mw": 206.78,
+                "ww": 199.56
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "fracture_case_nomad_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWWc1Otyj-1gSCGn2011smSEyIz6eH2XaAIkDpt3TLQDtEXpwdHmYe_itgTd3o9DySr8hihXrnE81fc4CIg",
+            "market_price": 187.24,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 174.03,
+                "fn": 406.42,
+                "ft": 187.24,
+                "mw": 231.84,
+                "ww": 172.22
+              },
+              "stattrak": {
+                "bs": 266.79,
+                "ft": 246.75,
+                "mw": 290.03,
+                "ww": 246.89
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "fracture_case_nomad_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMWmZxuZio_V7Rjm2qhEutDWR1N__eS6WbFMmD5MhFOJZ4xjswYHhMbzktFPYi45BmS3_2yJO6Cppt-4cEf1yoG4tbbU",
+            "market_price": 121.08,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 127.52,
+                "fn": 232.12,
+                "ft": 121.08,
+                "mw": 159.37,
+                "ww": 133.93
+              },
+              "stattrak": {
+                "bs": 154.04,
+                "ft": 142.71,
+                "mw": 185.59,
+                "ww": 178.1
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Stained",
+            "item_id": "fracture_case_nomad_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWGf0-1ztN5lRi67gVMh6mjXwo6ud3rEOgVyA5ZxQeFZtBDpk9e0MrzmslDW2d5GzSit338a8G81tHbrR9Yc",
+            "market_price": 169.68,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 154.35,
+                "fn": 344.33,
+                "ft": 169.68,
+                "mw": 200.04,
+                "ww": 157.96
+              },
+              "stattrak": {
+                "bs": 208.84,
+                "ft": 178.91,
+                "mw": 219.53,
+                "ww": 166.83
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "fracture_case_nomad_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_iKMWOU0e9ij-1gSCGn20x_5jnRnN37dH-TO1MgXsAhTeUPt0XskYLiN7-24AaPiIoRniX_2HxXrnE8-aG-K_E",
+            "market_price": 107.9,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 98.42,
+                "fn": 308.42,
+                "ft": 107.9,
+                "mw": 125.04,
+                "ww": 107.9
+              },
+              "stattrak": {
+                "bs": 110.02,
+                "ft": 124.12,
+                "mw": 128.7,
+                "ww": 178.19
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "fracture_case_nomad_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_iKMWGf0-tlpN5rQDu2lBEYvzSCkpu3IC_EawN1WJMjRrMIsBiwlYXiPr7h5VOKgoJAyi37hy0f6Chp5egFVr1lpPOSgy8u-g",
+            "market_price": 109.64,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 103.24,
+                "fn": 172.57,
+                "ft": 109.64,
+                "mw": 119.35,
+                "ww": 110.96
+              },
+              "stattrak": {
+                "bs": 109.99,
+                "ft": 116.02,
+                "mw": 128.79,
+                "ww": 113.41
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Scorched",
+            "item_id": "fracture_case_nomad_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMWOR0f56td5lRi67gVN252yBy4uteS7FaQ4kA5B5Q7EMthW6wdO0Zu7m5VTXgthFzy__ji1L8G81tIOO-uWD",
+            "market_price": 118.75,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 110.78,
+                "fn": 266.85,
+                "ft": 118.75,
+                "mw": 145.04,
+                "ww": 119.74
+              },
+              "stattrak": {
+                "bs": 120.49,
+                "ft": 126.81,
+                "mw": 184.63,
+                "ww": 116.16
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "fracture_case_nomad_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMWqV0uZJpOBncCW6khUz_WzWm9esdXOfbwRyWZR0ROACthDulYeyM-m34AeL3doXxX-s2Hwb7311o7FVDfDKraI",
+            "market_price": 96.94,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 97.03,
+                "fn": 219.04,
+                "ft": 96.94,
+                "mw": 114.19,
+                "ww": 99.76
+              },
+              "stattrak": {
+                "bs": 115.16,
+                "ft": 105.46,
+                "mw": 139.05,
+                "ww": 110.02
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Fade",
+            "item_id": "fracture_case_paracord_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VsH_aSCmKvzedxuPUnHSixkUl-4mqEnNj8IH3BOgUjX5RzFOMDthewlN3iYu-27gHcio1DmTK-0H2HlTMq_Q",
+            "market_price": 196.32,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 196.32,
+                "mw": 330.1
+              },
+              "stattrak": {
+                "fn": 232.05
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Crimson Web",
+            "item_id": "fracture_case_paracord_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6x0H-eWDHSvzedxuPUnGH_gx0pxtT-Dm9uvdXrGbAFzCsZ5Ee9YtkTpx9LgYuPjtA3djotByDK-0H0Jjl4AqA",
+            "market_price": 122.89,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 112.58,
+                "ft": 122.89,
+                "mw": 173.03,
+                "ww": 126.79
+              },
+              "stattrak": {
+                "bs": 150.99,
+                "ft": 160.11
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Slaughter",
+            "item_id": "fracture_case_paracord_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH-qWDHWR_uJ_t-l9AXjik0x362yDyIr8eHKUPQQnD5B4F-MKtxjrlNfnMu-04gDY2IlFnH7gznQeNL2G-UI",
+            "market_price": 176.12,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 191.46,
+                "ft": 176.12,
+                "mw": 171.46
+              },
+              "stattrak": {
+                "fn": 300.08,
+                "ft": 307.68,
+                "mw": 214.03
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "fracture_case_paracord_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6V8H_-aAmKU_uJ_t-l9ASrglh8l5DjWz479d3iTOwYlX5UhFrYMsRnrltWxNrzl5QHYjYJCyX_gznQeOO_KAyk",
+            "market_price": 126.53,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 127.11,
+                "fn": 286.97,
+                "ft": 126.53,
+                "mw": 153.44,
+                "ww": 135.74
+              },
+              "stattrak": {
+                "bs": 173.05,
+                "fn": 450.11,
+                "ft": 165.91,
+                "mw": 255.25,
+                "ww": 163.86
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "fracture_case_paracord_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H-SSHmKv1Px0se9WQyC0nQlptm3Tw9aseHKeagAgDcMjEOIPtBSxwNHmMerlsQLYgoIRxHmv3ygcvzErvbijdLAgow",
+            "market_price": 64.71,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 60.39,
+                "fn": 280.2,
+                "ft": 64.71,
+                "mw": 90.11,
+                "ww": 67.68
+              },
+              "stattrak": {
+                "bs": 92.02,
+                "ft": 87.41,
+                "mw": 119.35,
+                "ww": 138.68
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "fracture_case_paracord_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6V8H_KfG2KU_uJ_t-l9ASu2zEkjsm6HytytcHnBPQ90XMNxE-VYsUK_m9TlN7nl7gHag48WmyngznQeOvn5VbM",
+            "market_price": 95.02,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 88.69,
+                "fn": 214.64,
+                "ft": 95.02,
+                "mw": 117.52,
+                "ww": 96.01
+              },
+              "stattrak": {
+                "bs": 130.6,
+                "fn": 439.32,
+                "ft": 120.69,
+                "mw": 145.03,
+                "ww": 132.79
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "fracture_case_paracord_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H_6aCW-E0vpkufFscCW6khUz_WvQm9v4cy-XaAIiXpshQ7QDsBLpktO2Nbnn4gfY2oxGmSmr3SwdvC91o7FVXhfCwdw",
+            "market_price": 65.08,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 60.66,
+                "ft": 65.08,
+                "mw": 80.34,
+                "ww": 64.37
+              },
+              "stattrak": {
+                "bs": 82.33,
+                "ft": 81.22,
+                "mw": 110.02,
+                "ww": 85.86
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Stained",
+            "item_id": "fracture_case_paracord_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6V8H_acHGSVxdF6ueZhW2ewxU9wsDjXm9yrJXvCbAUiCsByF-RY4xfrk4CxZr605VTbj49GyC_3kGoXuZB2l8Tw",
+            "market_price": 70.72,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 74.77,
+                "fn": 136.29,
+                "ft": 70.72,
+                "mw": 83.19,
+                "ww": 72.55
+              },
+              "stattrak": {
+                "bs": 89.05,
+                "ft": 102.69,
+                "mw": 111.61,
+                "ww": 98.62
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "fracture_case_paracord_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6x0H_SXHmaE_uJ_t-l9AS3gkB4m5myGyo6sciifPQdzD8RzR-JctBjsl9bvMOzjslPYgopAyi_gznQexg-GN_M",
+            "market_price": 54.54,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 53.21,
+                "fn": 126.53,
+                "ft": 54.54,
+                "mw": 69.01,
+                "ww": 58.52
+              },
+              "stattrak": {
+                "bs": 68.69,
+                "ft": 68.45,
+                "mw": 83.83,
+                "ww": 85.83
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "fracture_case_paracord_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6x0H_acHGKD1dF0v_NsTiWMmRQguynLztutd3qfaFMlDcZwQbYIsUGwlILlYuzi4wGMi4MWyyusjnxJ7nk-5vFCD_TajkSe4A",
+            "market_price": 61.69,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 61.55,
+                "fn": 163.07,
+                "ft": 61.69,
+                "mw": 80.51,
+                "ww": 61.89
+              },
+              "stattrak": {
+                "bs": 77.68,
+                "ft": 68.6,
+                "mw": 92.16,
+                "ww": 70.1
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Scorched",
+            "item_id": "fracture_case_paracord_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H_SSHnecxNF6ueZhW2fqzEl_sT7QwtegdCnEa1QnXsckEbIIt0TpxIWzZr7g5QPag4sXzXr8kGoXuabkrFHY",
+            "market_price": 59.87,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 59.37,
+                "fn": 189.93,
+                "ft": 59.87,
+                "mw": 78.9,
+                "ww": 60.29
+              },
+              "stattrak": {
+                "bs": 86.09,
+                "ft": 77.41,
+                "mw": 108.67,
+                "ww": 78.49
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "fracture_case_paracord_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H_2WHW-v1e94j-1gSCGn20t35z6HzdagcnmQPAMmD5V5Q7Rf5hLtwIK0MO-24wSM2YkXnnr_iiNXrnE8Zdgcdss",
+            "market_price": 55.02,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 54.32,
+                "fn": 112.8,
+                "ft": 55.02,
+                "mw": 58.77,
+                "ww": 59.82
+              },
+              "stattrak": {
+                "bs": 63.74,
+                "ft": 63.93,
+                "mw": 108.98,
+                "ww": 84.67
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Fade",
+            "item_id": "fracture_case_skeleton_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SD1iWwOpzj-1gSCGn20kjt2-En9mpcCmQag8hXsciQeJYthW9kILkMLji4g3Ygo8Uznj6jX9XrnE8raC5r1M",
+            "market_price": 760.57,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 760.57,
+                "mw": 874.21
+              },
+              "stattrak": {
+                "fn": 965.53
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Crimson Web",
+            "item_id": "fracture_case_skeleton_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-bF1iHxOxlj-1gSCGn2011t26Bytr_cn-VZwciXJskRLQKuka9k4ezYrnqtQXf2YhGzC6viXxXrnE8k9yhp-k",
+            "market_price": 381.6,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 324.6,
+                "ft": 381.6,
+                "mw": 588.1,
+                "ww": 460.11
+              },
+              "stattrak": {
+                "ft": 433.87,
+                "ww": 461.48
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Slaughter",
+            "item_id": "fracture_case_skeleton_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iKxOxksd5lRi67gVMh62_RzdygJHORZlAlDpZwQOYM4Ri5k4HhNezg4wOLg49Nyy772y9J8G81tBUopZdW",
+            "market_price": 598.68,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 662.49,
+                "ft": 598.68,
+                "mw": 540.81
+              },
+              "stattrak": {
+                "fn": 814.96,
+                "ft": 684.54,
+                "mw": 712.42
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "fracture_case_skeleton_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SH1ifyOJztN5lRi67gVMj6m3Rnt2sdnOUZwIgWJAkTLUJ4xbrx9buYuywsgCLjItBmC79jiNN8G81tGbdgHHm",
+            "market_price": 354.13,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 314.25,
+                "fn": 774.19,
+                "ft": 354.13,
+                "mw": 482,
+                "ww": 347.91
+              },
+              "stattrak": {
+                "bs": 415.04,
+                "ft": 412.01,
+                "mw": 642.65,
+                "ww": 436.94
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "fracture_case_skeleton_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHliEwP5zj_R7TSi9qhEutDWR1N3_cnmWOAJzXJVwF-AO4xW8ld3iY-mz4lff399Mzi_7i39M6Cc947wcEf1y1H02ID0",
+            "market_price": 182.85,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 175.09,
+                "fn": 526.57,
+                "ft": 182.85,
+                "mw": 231.98,
+                "ww": 191.15
+              },
+              "stattrak": {
+                "bs": 202.99,
+                "ft": 221.93,
+                "mw": 310.43,
+                "ww": 206.81
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "fracture_case_skeleton_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SH1iSzftztN5lRi67gVMj4ziDz9-hc3vGbVAgCpB4RbQNu0G4lNHgPuqw4QfXi45BnHmtiixM8G81tDT9ezBU",
+            "market_price": 320.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 320.08,
+                "fn": 609.06,
+                "ft": 320.06,
+                "mw": 376.29,
+                "ww": 310.24
+              },
+              "stattrak": {
+                "bs": 357.94,
+                "ft": 340.08,
+                "mw": 682.74,
+                "ww": 297.42
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "fracture_case_skeleton_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHlieyOl-pPJ9XSCjkCIrujqNjsH8dX2VbVJ1X5Z0RbVZtEO5mtPhY77qtlbc34IQxC_6jy0f7C0457wLT-N7rW2ankyk",
+            "market_price": 207.03,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 216.9,
+                "fn": 812.16,
+                "ft": 207.03,
+                "mw": 224.61,
+                "ww": 197.8
+              },
+              "stattrak": {
+                "ft": 249.42,
+                "mw": 315.95,
+                "ww": 206.6
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Stained",
+            "item_id": "fracture_case_skeleton_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SH1iWzvx1teVWQyC0nQlpsGjRw9_8cn6QPAd2DZN1TbJYtxjumtGzZLyw4wSIjN4Uzin3iyNPujErvbgnFqUCGg",
+            "market_price": 254.84,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 235.68,
+                "fn": 426.25,
+                "ft": 254.84,
+                "mw": 315.07,
+                "ww": 249.16
+              },
+              "stattrak": {
+                "bs": 272.85,
+                "ft": 322.85,
+                "mw": 336.44,
+                "ww": 310.08
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "fracture_case_skeleton_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-bF1iUxf53pN5lRi67gVMh5z-Hy4z9IniUZlR1DZVzRrUMsUPpwNPuNuLn4QCL34xAznmt3Ssd8G81tIt2ow-p",
+            "market_price": 163.59,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 159.36,
+                "ft": 163.59,
+                "mw": 174.03,
+                "ww": 156.61
+              },
+              "stattrak": {
+                "bs": 175.52,
+                "ft": 168.22,
+                "mw": 201.85,
+                "ww": 186.41
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "fracture_case_skeleton_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-bF1iWzvxzo_VWTSahkBwrjDGMnYftb32fPFIkDZV4EeJbskTpxt2yN-6wtQCIjY1GnyWriyIauCxv4LtQAvY7uvqAMerubhQ",
+            "market_price": 155.05,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 165.48,
+                "ft": 155.05,
+                "mw": 184.6,
+                "ww": 166.31
+              },
+              "stattrak": {
+                "bs": 170.67,
+                "ft": 179.82,
+                "mw": 213.41,
+                "ww": 207.79
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Scorched",
+            "item_id": "fracture_case_skeleton_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHliUwP5mvORWQyC0nQlp42zQydivIn_EaQFzXpRyFLIDuhe-ldXmZOLg7lSP3dlAmC79hn5N5zErvbgU3gnTIw",
+            "market_price": 181.37,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 174.03,
+                "fn": 501.65,
+                "ft": 181.37,
+                "mw": 206.57,
+                "ww": 180.13
+              },
+              "stattrak": {
+                "bs": 214.64,
+                "ft": 208.55,
+                "mw": 254.51
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "fracture_case_skeleton_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHlidxP1-j_VoQRa_nBovp3PSyd6qdSqePQEhDpJ5E-cI5kK5kIe2Zrzh4Qza2I9Fyiys2i1N7Xpv_a9cBuq3CrbI",
+            "market_price": 159.66,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 156.05,
+                "ft": 159.66,
+                "mw": 167.64,
+                "ww": 165.27
+              },
+              "stattrak": {
+                "ft": 154.71,
+                "mw": 195.73,
+                "ww": 163.45
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Fade",
+            "item_id": "fracture_case_survival_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsIc-VD2OV_uJ_t-l9AXuwwBh0sT-BydarInPGPQUpCMcjELJY5xm4xIG0NLy241Dag9hNzirgznQeOQeAleU",
+            "market_price": 179.39,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 179.39,
+                "mw": 233.21
+              },
+              "stattrak": {
+                "fn": 272.65
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Crimson Web",
+            "item_id": "fracture_case_survival_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tlOc-EC2WD_uJ_t-l9AXqxlEtytzzXwo2pJSnBb1InC5dzQrVYsRK5ktOzNenn7gXdi95FzX3gznQeN2X8HrE",
+            "market_price": 127.63,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 118.4,
+                "fn": 1128.25,
+                "ft": 127.63,
+                "mw": 165.99,
+                "ww": 116.02
+              },
+              "stattrak": {
+                "bs": 188.01,
+                "ft": 170.04,
+                "mw": 206.22,
+                "ww": 171.62
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Slaughter",
+            "item_id": "fracture_case_survival_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsLc-JC2WCwNF6ueZhW2fglEt-5jmDytn_InKRPwQkAsQhE-UJu0a4lYflNO7k41bc34sTyH76kGoXuTxGW3zC",
+            "market_price": 170.25,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 166.73,
+                "ft": 170.25,
+                "mw": 156.45
+              },
+              "stattrak": {
+                "fn": 234.48,
+                "ft": 197.24,
+                "mw": 184.33
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "fracture_case_survival_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsMc-cB2uVxdF6ueZhW2fmx0gi4jzQm9qhdSqSPVRzDJR2FOEKsha4xtbgPuy04QON3YJEyyr_kGoXuQK6HIuK",
+            "market_price": 125.04,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 117.94,
+                "fn": 245.48,
+                "ft": 125.04,
+                "mw": 140.42,
+                "ww": 116.08
+              },
+              "stattrak": {
+                "bs": 146.26,
+                "ft": 184.29,
+                "mw": 164.75,
+                "ww": 150.77
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "fracture_case_survival_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5t-MM-HD3eV_vtksuBncCW6khUz_WnTwo2vIHrEO1UpCcRwTe4MtEO-wNXnZOm2sw2Pgo5GxHr7j35I6y11o7FVtOoVFFs",
+            "market_price": 61.45,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 59.37,
+                "fn": 224.18,
+                "ft": 61.45,
+                "mw": 83.1,
+                "ww": 77.39
+              },
+              "stattrak": {
+                "bs": 86.48,
+                "ft": 82.05,
+                "mw": 99.44,
+                "ww": 85.01
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "fracture_case_survival_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsMc-RAnKVxdF6ueZhW2fqxBh1tWXVm4v9c3iTawUnDpsjQeMMshW6ld2xP-_q5w3bjoNCyHn2kGoXucNZoqIn",
+            "market_price": 88.5,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 78.58,
+                "fn": 185.06,
+                "ft": 88.5,
+                "mw": 106.87,
+                "ww": 80.46
+              },
+              "stattrak": {
+                "bs": 101.53,
+                "ft": 97.81,
+                "mw": 139.33,
+                "ww": 106.85
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "fracture_case_survival_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5t-MM-dB2CY1f1iouh5Sha_nBovp3PVnN6uIn2VPQEiA5ZzR-BfuhS5loCxNO7gtFTa34hEyS75iS4duHk6_a9cBmI-JI41",
+            "market_price": 61.96,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 63.53,
+                "fn": 149.59,
+                "ft": 61.96,
+                "mw": 73.67,
+                "ww": 68.24
+              },
+              "stattrak": {
+                "bs": 83.04,
+                "ft": 82.28,
+                "mw": 114.97,
+                "ww": 99.5
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Stained",
+            "item_id": "fracture_case_survival_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tsMc-VAXWTxOpJvOhuRz39kEkjtjmGydmhdi-TbVNyDJNwTbRf4BjpwILhNe7k4wzW2otCyn72jzQJsHhv3Am88A",
+            "market_price": 73.67,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 72.27,
+                "fn": 139.26,
+                "ft": 73.67,
+                "mw": 96.43,
+                "ww": 73.08
+              },
+              "stattrak": {
+                "bs": 100.93,
+                "fn": 239.91,
+                "ft": 93.14,
+                "mw": 100.01,
+                "ww": 140.33
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "fracture_case_survival_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tlOc-XCneR1dF6ueZhW2frxE106zzQztb6Jy2TaQYoCpQiEO5Y4xOwldfjZurg5QTdid5GxCj-kGoXucz3RTaX",
+            "market_price": 57.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 55.68,
+                "ft": 57.07,
+                "mw": 64.17,
+                "ww": 58.71
+              },
+              "stattrak": {
+                "bs": 73.73,
+                "ft": 59.01,
+                "mw": 96.95,
+                "ww": 78.25
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "fracture_case_survival_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5tlOc-VAXWV0vpJsu57Sii_qhEutDWR1Ir9d3KSbgFxDJQiRe8O4ESxm9HiZu_k4lCP2NhBz3-tji1N6Hlv470cEf1yxrD6pCc",
+            "market_price": 55.99,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 55.02,
+                "fn": 271.03,
+                "ft": 55.99,
+                "mw": 64.04,
+                "ww": 60.09
+              },
+              "stattrak": {
+                "bs": 65.11,
+                "ft": 66.49,
+                "mw": 92.06,
+                "ww": 76.05
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Scorched",
+            "item_id": "fracture_case_survival_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5t-MM-XD3eAzetJvOhuRz39k09w5WnVyI34cnqUb1R2AsN5FuAPtha-m4CyMejitlfYiYpNmH392jQJsHiJvqHvqQ",
+            "market_price": 61.96,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 56,
+                "fn": 371.22,
+                "ft": 61.96,
+                "mw": 64.33,
+                "ww": 57.51
+              },
+              "stattrak": {
+                "bs": 75.09,
+                "ft": 72.35,
+                "mw": 90.01,
+                "ww": 80.14
+              }
+            }
+          },
+          {
+            "weapon": "Survival Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "fracture_case_survival_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y7vyne5t-MM-eC3SY_vp3vt5lRi67gVNztTmBydj4I32fZ1UpDMAiEecMuxXqxN2zN7zi5Abdg4hDxSj5iywf8G81tEchNhm2",
+            "market_price": 53.43,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 55.08,
+                "fn": 130.6,
+                "ft": 53.43,
+                "mw": 59.37,
+                "ww": 55.66
+              },
+              "stattrak": {
+                "bs": 65.3,
+                "ft": 65.54,
+                "mw": 76.15,
+                "ww": 79.56
+              }
+            }
           }
         ]
       }
@@ -11326,6 +13281,684 @@
                 "ww": 110.02
               }
             }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "shattered_web_case_nomad_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWiZzetyj-1gSCGn2xhz5GyHwtr_dS7EOlR1DZtyEe8MsBO-xNKyNbnq7w3b2d8WzC7-jSNXrnE8rdGSE7w",
+            "market_price": 213.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 206.54,
+                "fn": 525.38,
+                "ft": 213.41,
+                "mw": 266.85,
+                "ww": 207.03
+              },
+              "stattrak": {
+                "bs": 269.48,
+                "ft": 328.81,
+                "mw": 362.33,
+                "ww": 269.95
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "shattered_web_case_nomad_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMXOR0etJpfNrTieMmRQguynLm96uciqSawMgX8Z1RrEIs0G8wN3nYbvjs1fZ2I1GmC-o3CofvSdi4PFCD_SLffhL6Q",
+            "market_price": 139.03,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 124.68,
+                "fn": 273.08,
+                "ft": 139.03,
+                "mw": 187.74,
+                "ww": 138.08
+              },
+              "stattrak": {
+                "bs": 146.4,
+                "ft": 150.68,
+                "mw": 206.78,
+                "ww": 199.56
+              }
+            }
+          },
+          {
+            "weapon": "Nomad Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "shattered_web_case_nomad_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWWc1Otyj-1gSCGn2011smSEyIz6eH2XaAIkDpt3TLQDtEXpwdHmYe_itgTd3o9DySr8hihXrnE81fc4CIg",
+            "market_price": 187.24,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 174.03,
+                "fn": 406.42,
+                "ft": 187.24,
+                "mw": 231.84,
+                "ww": 172.22
+              },
+              "stattrak": {
+                "bs": 266.79,
+                "ft": 246.75,
+                "mw": 290.03,
+                "ww": 246.89
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Vanilla",
+            "item_id": "shattered_web_case_paracord_knife_vanilla",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2tZ7ZpbqWRXmWTmbsm5bU5TXu3lkR_5j_Swor8JC_BPFVxWJd1FuID4RW7w9b5d7S1z-U4Rao",
+            "market_price": 69.6,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "vanilla": 69.6
+              },
+              "stattrak": {
+                "vanilla": 83.04
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Fade",
+            "item_id": "shattered_web_case_paracord_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VsH_aSCmKvzedxuPUnHSixkUl-4mqEnNj8IH3BOgUjX5RzFOMDthewlN3iYu-27gHcio1DmTK-0H2HlTMq_Q",
+            "market_price": 196.32,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 196.32,
+                "mw": 330.1
+              },
+              "stattrak": {
+                "fn": 232.05
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Crimson Web",
+            "item_id": "shattered_web_case_paracord_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6x0H-eWDHSvzedxuPUnGH_gx0pxtT-Dm9uvdXrGbAFzCsZ5Ee9YtkTpx9LgYuPjtA3djotByDK-0H0Jjl4AqA",
+            "market_price": 122.89,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 112.58,
+                "ft": 122.89,
+                "mw": 173.03,
+                "ww": 126.79
+              },
+              "stattrak": {
+                "bs": 150.99,
+                "ft": 160.11
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Slaughter",
+            "item_id": "shattered_web_case_paracord_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6VgH-qWDHWR_uJ_t-l9AXjik0x362yDyIr8eHKUPQQnD5B4F-MKtxjrlNfnMu-04gDY2IlFnH7gznQeNL2G-UI",
+            "market_price": 176.12,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 191.46,
+                "ft": 176.12,
+                "mw": 171.46
+              },
+              "stattrak": {
+                "fn": 300.08,
+                "ft": 307.68,
+                "mw": 214.03
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "shattered_web_case_paracord_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6V8H_-aAmKU_uJ_t-l9ASrglh8l5DjWz479d3iTOwYlX5UhFrYMsRnrltWxNrzl5QHYjYJCyX_gznQeOO_KAyk",
+            "market_price": 126.53,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 127.11,
+                "fn": 286.97,
+                "ft": 126.53,
+                "mw": 153.44,
+                "ww": 135.74
+              },
+              "stattrak": {
+                "bs": 173.05,
+                "fn": 450.11,
+                "ft": 165.91,
+                "mw": 255.25,
+                "ww": 163.86
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "shattered_web_case_paracord_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H-SSHmKv1Px0se9WQyC0nQlptm3Tw9aseHKeagAgDcMjEOIPtBSxwNHmMerlsQLYgoIRxHmv3ygcvzErvbijdLAgow",
+            "market_price": 64.71,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 60.39,
+                "fn": 280.2,
+                "ft": 64.71,
+                "mw": 90.11,
+                "ww": 67.68
+              },
+              "stattrak": {
+                "bs": 92.02,
+                "ft": 87.41,
+                "mw": 119.35,
+                "ww": 138.68
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "shattered_web_case_paracord_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6V8H_KfG2KU_uJ_t-l9ASu2zEkjsm6HytytcHnBPQ90XMNxE-VYsUK_m9TlN7nl7gHag48WmyngznQeOvn5VbM",
+            "market_price": 95.02,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 88.69,
+                "fn": 214.64,
+                "ft": 95.02,
+                "mw": 117.52,
+                "ww": 96.01
+              },
+              "stattrak": {
+                "bs": 130.6,
+                "fn": 439.32,
+                "ft": 120.69,
+                "mw": 145.03,
+                "ww": 132.79
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "shattered_web_case_paracord_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H_6aCW-E0vpkufFscCW6khUz_WvQm9v4cy-XaAIiXpshQ7QDsBLpktO2Nbnn4gfY2oxGmSmr3SwdvC91o7FVXhfCwdw",
+            "market_price": 65.08,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 60.66,
+                "ft": 65.08,
+                "mw": 80.34,
+                "ww": 64.37
+              },
+              "stattrak": {
+                "bs": 82.33,
+                "ft": 81.22,
+                "mw": 110.02,
+                "ww": 85.86
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Stained",
+            "item_id": "shattered_web_case_paracord_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6V8H_acHGSVxdF6ueZhW2ewxU9wsDjXm9yrJXvCbAUiCsByF-RY4xfrk4CxZr605VTbj49GyC_3kGoXuZB2l8Tw",
+            "market_price": 70.72,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 74.77,
+                "fn": 136.29,
+                "ft": 70.72,
+                "mw": 83.19,
+                "ww": 72.55
+              },
+              "stattrak": {
+                "bs": 89.05,
+                "ft": 102.69,
+                "mw": 111.61,
+                "ww": 98.62
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "shattered_web_case_paracord_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6x0H_SXHmaE_uJ_t-l9AS3gkB4m5myGyo6sciifPQdzD8RzR-JctBjsl9bvMOzjslPYgopAyi_gznQexg-GN_M",
+            "market_price": 54.54,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 53.21,
+                "fn": 126.53,
+                "ft": 54.54,
+                "mw": 69.01,
+                "ww": 58.52
+              },
+              "stattrak": {
+                "bs": 68.69,
+                "ft": 68.45,
+                "mw": 83.83,
+                "ww": 85.83
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "shattered_web_case_paracord_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV6x0H_acHGKD1dF0v_NsTiWMmRQguynLztutd3qfaFMlDcZwQbYIsUGwlILlYuzi4wGMi4MWyyusjnxJ7nk-5vFCD_TajkSe4A",
+            "market_price": 61.69,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 61.55,
+                "fn": 163.07,
+                "ft": 61.69,
+                "mw": 80.51,
+                "ww": 61.89
+              },
+              "stattrak": {
+                "bs": 77.68,
+                "ft": 68.6,
+                "mw": 92.16,
+                "ww": 70.1
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Scorched",
+            "item_id": "shattered_web_case_paracord_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H_SSHnecxNF6ueZhW2fqzEl_sT7QwtegdCnEa1QnXsckEbIIt0TpxIWzZr7g5QPag4sXzXr8kGoXuabkrFHY",
+            "market_price": 59.87,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 59.37,
+                "fn": 189.93,
+                "ft": 59.87,
+                "mw": 78.9,
+                "ww": 60.29
+              },
+              "stattrak": {
+                "bs": 86.09,
+                "ft": 77.41,
+                "mw": 108.67,
+                "ww": 78.49
+              }
+            }
+          },
+          {
+            "weapon": "Paracord Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "shattered_web_case_paracord_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y4OCqV7d9H_2WHW-v1e94j-1gSCGn20t35z6HzdagcnmQPAMmD5V5Q7Rf5hLtwIK0MO-24wSM2YkXnnr_iiNXrnE8Zdgcdss",
+            "market_price": 55.02,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 54.32,
+                "fn": 112.8,
+                "ft": 55.02,
+                "mw": 58.77,
+                "ww": 59.82
+              },
+              "stattrak": {
+                "bs": 63.74,
+                "ft": 63.93,
+                "mw": 108.98,
+                "ww": 84.67
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Vanilla",
+            "item_id": "shattered_web_case_skeleton_knife_vanilla",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29Y6FhJeScACnDkL8j6LU8GS3mwUh24G-Bno2tIymeblMgC5R3F-ECsBK6k4XuN-Lh-UWA3P3GyEv9",
+            "market_price": 322.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "vanilla": 322.06
+              },
+              "stattrak": {
+                "vanilla": 361.59
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Fade",
+            "item_id": "shattered_web_case_skeleton_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SD1iWwOpzj-1gSCGn20kjt2-En9mpcCmQag8hXsciQeJYthW9kILkMLji4g3Ygo8Uznj6jX9XrnE8raC5r1M",
+            "market_price": 760.57,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 760.57,
+                "mw": 874.21
+              },
+              "stattrak": {
+                "fn": 965.53
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Crimson Web",
+            "item_id": "shattered_web_case_skeleton_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-bF1iHxOxlj-1gSCGn2011t26Bytr_cn-VZwciXJskRLQKuka9k4ezYrnqtQXf2YhGzC6viXxXrnE8k9yhp-k",
+            "market_price": 381.6,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 324.6,
+                "ft": 381.6,
+                "mw": 588.1,
+                "ww": 460.11
+              },
+              "stattrak": {
+                "ft": 433.87,
+                "ww": 461.48
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Slaughter",
+            "item_id": "shattered_web_case_skeleton_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SA1iKxOxksd5lRi67gVMh62_RzdygJHORZlAlDpZwQOYM4Ri5k4HhNezg4wOLg49Nyy772y9J8G81tBUopZdW",
+            "market_price": 598.68,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 662.49,
+                "ft": 598.68,
+                "mw": 540.81
+              },
+              "stattrak": {
+                "fn": 814.96,
+                "ft": 684.54,
+                "mw": 712.42
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Case Hardened",
+            "item_id": "shattered_web_case_skeleton_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SH1ifyOJztN5lRi67gVMj6m3Rnt2sdnOUZwIgWJAkTLUJ4xbrx9buYuywsgCLjItBmC79jiNN8G81tGbdgHHm",
+            "market_price": 354.13,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 314.25,
+                "fn": 774.19,
+                "ft": 354.13,
+                "mw": 482,
+                "ww": 347.91
+              },
+              "stattrak": {
+                "bs": 415.04,
+                "ft": 412.01,
+                "mw": 642.65,
+                "ww": 436.94
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Urban Masked",
+            "item_id": "shattered_web_case_skeleton_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHliEwP5zj_R7TSi9qhEutDWR1N3_cnmWOAJzXJVwF-AO4xW8ld3iY-mz4lff399Mzi_7i39M6Cc947wcEf1y1H02ID0",
+            "market_price": 182.85,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 175.09,
+                "fn": 526.57,
+                "ft": 182.85,
+                "mw": 231.98,
+                "ww": 191.15
+              },
+              "stattrak": {
+                "bs": 202.99,
+                "ft": 221.93,
+                "mw": 310.43,
+                "ww": 206.81
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "shattered_web_case_skeleton_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SH1iSzftztN5lRi67gVMj4ziDz9-hc3vGbVAgCpB4RbQNu0G4lNHgPuqw4QfXi45BnHmtiixM8G81tDT9ezBU",
+            "market_price": 320.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 320.08,
+                "fn": 609.06,
+                "ft": 320.06,
+                "mw": 376.29,
+                "ww": 310.24
+              },
+              "stattrak": {
+                "bs": 357.94,
+                "ft": 340.08,
+                "mw": 682.74,
+                "ww": 297.42
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "shattered_web_case_skeleton_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHlieyOl-pPJ9XSCjkCIrujqNjsH8dX2VbVJ1X5Z0RbVZtEO5mtPhY77qtlbc34IQxC_6jy0f7C0457wLT-N7rW2ankyk",
+            "market_price": 207.03,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 216.9,
+                "fn": 812.16,
+                "ft": 207.03,
+                "mw": 224.61,
+                "ww": 197.8
+              },
+              "stattrak": {
+                "ft": 249.42,
+                "mw": 315.95,
+                "ww": 206.6
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Stained",
+            "item_id": "shattered_web_case_skeleton_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-SH1iWzvx1teVWQyC0nQlpsGjRw9_8cn6QPAd2DZN1TbJYtxjumtGzZLyw4wSIjN4Uzin3iyNPujErvbgnFqUCGg",
+            "market_price": 254.84,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 235.68,
+                "fn": 426.25,
+                "ft": 254.84,
+                "mw": 315.07,
+                "ww": 249.16
+              },
+              "stattrak": {
+                "bs": 272.85,
+                "ft": 322.85,
+                "mw": 336.44,
+                "ww": 310.08
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "shattered_web_case_skeleton_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-bF1iUxf53pN5lRi67gVMh5z-Hy4z9IniUZlR1DZVzRrUMsUPpwNPuNuLn4QCL34xAznmt3Ssd8G81tIt2ow-p",
+            "market_price": 163.59,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 159.36,
+                "ft": 163.59,
+                "mw": 174.03,
+                "ww": 156.61
+              },
+              "stattrak": {
+                "bs": 175.52,
+                "ft": 168.22,
+                "mw": 201.85,
+                "ww": 186.41
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "shattered_web_case_skeleton_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-bF1iWzvxzo_VWTSahkBwrjDGMnYftb32fPFIkDZV4EeJbskTpxt2yN-6wtQCIjY1GnyWriyIauCxv4LtQAvY7uvqAMerubhQ",
+            "market_price": 155.05,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 165.48,
+                "ft": 155.05,
+                "mw": 184.6,
+                "ww": 166.31
+              },
+              "stattrak": {
+                "bs": 170.67,
+                "ft": 179.82,
+                "mw": 213.41,
+                "ww": 207.79
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Scorched",
+            "item_id": "shattered_web_case_skeleton_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHliUwP5mvORWQyC0nQlp42zQydivIn_EaQFzXpRyFLIDuhe-ldXmZOLg7lSP3dlAmC79hn5N5zErvbgU3gnTIw",
+            "market_price": 181.37,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 174.03,
+                "fn": 501.65,
+                "ft": 181.37,
+                "mw": 206.57,
+                "ww": 180.13
+              },
+              "stattrak": {
+                "bs": 214.64,
+                "ft": 208.55,
+                "mw": 254.51
+              }
+            }
+          },
+          {
+            "weapon": "Skeleton Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "shattered_web_case_skeleton_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1I5PeibbBiLs-AHlidxP1-j_VoQRa_nBovp3PSyd6qdSqePQEhDpJ5E-cI5kK5kIe2Zrzh4Qza2I9Fyiys2i1N7Xpv_a9cBuq3CrbI",
+            "market_price": 159.66,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 156.05,
+                "ft": 159.66,
+                "mw": 167.64,
+                "ww": 165.27
+              },
+              "stattrak": {
+                "ft": 154.71,
+                "mw": 195.73,
+                "ww": 163.45
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
           }
         ]
       }
@@ -11767,179 +14400,60 @@
         ],
         "rare_special": [
           {
-            "weapon": "Nomad Knife",
+            "weapon": "Classic Knife",
             "skin": "★ Vanilla",
-            "item_id": "cs20_nomad_knife_vanilla",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2hfbBpL_-BQDPEw-hz57cxTnCxkEh_5jnVzor8dymXbgAiAsFyEOEMsBW8l9O1Ne38p1uJmh0Kkm0",
-            "market_price": 186.02,
+            "item_id": "cs20_case_classic_knife_vanilla",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2te7cjd6HHXmHBxep157VtTi_rzUR-5WiHnt39c3_EZg4pW5UjQOZbsBCxw8qnab32FBG7RA",
+            "market_price": 274.09,
             "stattrak": false,
             "market_prices": {
               "normal": {
-                "vanilla": 186.02
+                "vanilla": 274.09
               },
               "stattrak": {
-                "vanilla": 198.29
+                "vanilla": 312.71
               }
             }
           },
           {
-            "weapon": "Nomad Knife",
-            "skin": "★ Stained",
-            "item_id": "cs20_nomad_knife_stained",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWGf0-1ztN5lRi67gVMh6mjXwo6ud3rEOgVyA5ZxQeFZtBDpk9e0MrzmslDW2d5GzSit338a8G81tHbrR9Yc",
-            "market_price": 169.68,
+            "weapon": "Classic Knife",
+            "skin": "★ Fade",
+            "item_id": "cs20_case_classic_knife_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRaaVSJvGXC1icyOl-pK9tHn-yxhkltmTVnon4IHqUbgInWcN1ELIK5hS9xIbkZumx4wONjd9H02yg2Yau6XG6",
+            "market_price": 368.87,
             "stattrak": false,
             "market_prices": {
               "normal": {
-                "bs": 154.35,
-                "fn": 344.33,
-                "ft": 169.68,
-                "mw": 200.04,
-                "ww": 157.96
+                "fn": 368.87,
+                "mw": 481.4
               },
               "stattrak": {
-                "bs": 208.84,
-                "ft": 178.91,
-                "mw": 219.53,
-                "ww": 166.83
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
-            "skin": "★ Boreal Forest",
-            "item_id": "cs20_nomad_knife_boreal_forest",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_iKMWGf0-tlpN5rQDu2lBEYvzSCkpu3IC_EawN1WJMjRrMIsBiwlYXiPr7h5VOKgoJAyi37hy0f6Chp5egFVr1lpPOSgy8u-g",
-            "market_price": 109.64,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "bs": 103.24,
-                "fn": 172.57,
-                "ft": 109.64,
-                "mw": 119.35,
-                "ww": 110.96
-              },
-              "stattrak": {
-                "bs": 109.99,
-                "ft": 116.02,
-                "mw": 128.79,
-                "ww": 113.41
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
-            "skin": "★ Night Stripe",
-            "item_id": "cs20_nomad_knife_night_stripe",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMWmZxuZio_V7Rjm2qhEutDWR1N__eS6WbFMmD5MhFOJZ4xjswYHhMbzktFPYi45BmS3_2yJO6Cppt-4cEf1yoG4tbbU",
-            "market_price": 121.08,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "bs": 127.52,
-                "fn": 232.12,
-                "ft": 121.08,
-                "mw": 159.37,
-                "ww": 133.93
-              },
-              "stattrak": {
-                "bs": 154.04,
-                "ft": 142.71,
-                "mw": 185.59,
-                "ww": 178.1
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
-            "skin": "★ Slaughter",
-            "item_id": "cs20_nomad_knife_slaughter",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GeMX2Vw_x3j-1gSCGn20R15TyGnNv_cS3GZlUnA5smTLEM4xDpx4bmY77h51OMiIJNziX53SJXrnE8R49sMsc",
-            "market_price": 339.94,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "fn": 371.05,
-                "ft": 339.94,
-                "mw": 334.49
-              },
-              "stattrak": {
-                "fn": 492.14,
-                "ft": 447.28,
-                "mw": 356.2
+                "fn": 572.41
               }
             },
             "wear_tiers": [
               "fn",
-              "mw",
-              "ft"
+              "mw"
             ]
           },
           {
-            "weapon": "Nomad Knife",
-            "skin": "★ Scorched",
-            "item_id": "cs20_nomad_knife_scorched",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMWOR0f56td5lRi67gVN252yBy4uteS7FaQ4kA5B5Q7EMthW6wdO0Zu7m5VTXgthFzy__ji1L8G81tIOO-uWD",
-            "market_price": 118.75,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "bs": 110.78,
-                "fn": 266.85,
-                "ft": 118.75,
-                "mw": 145.04,
-                "ww": 119.74
-              },
-              "stattrak": {
-                "bs": 120.49,
-                "ft": 126.81,
-                "mw": 184.63,
-                "ww": 116.16
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
-            "skin": "★ Forest DDPAT",
-            "item_id": "cs20_nomad_knife_forest_ddpat",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_iKMWOU0e9ij-1gSCGn20x_5jnRnN37dH-TO1MgXsAhTeUPt0XskYLiN7-24AaPiIoRniX_2HxXrnE8-aG-K_E",
-            "market_price": 107.9,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "bs": 98.42,
-                "fn": 308.42,
-                "ft": 107.9,
-                "mw": 125.04,
-                "ww": 107.9
-              },
-              "stattrak": {
-                "bs": 110.02,
-                "ft": 124.12,
-                "mw": 128.7,
-                "ww": 178.19
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
+            "weapon": "Classic Knife",
             "skin": "★ Crimson Web",
-            "item_id": "cs20_nomad_knife_crimson_web",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_iKMXCVw_1JvOhuRz39xEV_sT6Bn9mueX3EP1QjApd4QbZe5EW6wIDmNO7islfW391EzCWt3TQJsHib9FqZhg",
-            "market_price": 214.21,
+            "item_id": "cs20_case_classic_knife_crimson_web",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRYL1SN_WRHVicyOl-pK8-HnHlwUkh62SGyd_6IHrCP1IlXJt1FuQPshXuk4fiMO2w5VGI34IU02yg2SQnu4I0",
+            "market_price": 197.23,
             "stattrak": false,
             "market_prices": {
               "normal": {
-                "bs": 208.84,
-                "ft": 214.21,
-                "mw": 344.33,
-                "ww": 232.06
+                "bs": 210.05,
+                "ft": 197.23,
+                "mw": 333.57,
+                "ww": 252.77
               },
               "stattrak": {
-                "bs": 234.82,
-                "ft": 230.06,
-                "ww": 280.45
+                "ft": 277.37,
+                "mw": 300.82,
+                "ww": 411.86
               }
             },
             "wear_tiers": [
@@ -11950,115 +14464,251 @@
             ]
           },
           {
-            "weapon": "Nomad Knife",
-            "skin": "★ Fade",
-            "item_id": "cs20_nomad_knife_fade",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GSMWGRxetJvOhuRz39wUUksW7Vm4n7d3yUO1InXsdxTeQDukO4l9zuN7_j5QzYjIlFy3n6jDQJsHjNMoy1vA",
-            "market_price": 399.91,
+            "weapon": "Classic Knife",
+            "skin": "★ Slaughter",
+            "item_id": "cs20_case_classic_knife_slaughter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRaalSOvWRHGavzedxuPUnGiy1xxkk6z_Tn4mucH2UOAUmCZZ1RLQJuhbrx9O0M-ji71OK34oTzDK-0H1Px6MwvA",
+            "market_price": 252.37,
             "stattrak": false,
             "market_prices": {
               "normal": {
-                "fn": 399.91,
-                "mw": 533.13
+                "fn": 255.25,
+                "ft": 252.37,
+                "mw": 232.05
               },
               "stattrak": {
-                "fn": 420.1
+                "fn": 405.55,
+                "ft": 435.97,
+                "mw": 308.24
               }
             },
             "wear_tiers": [
               "fn",
-              "mw"
+              "mw",
+              "ft"
             ]
           },
           {
-            "weapon": "Nomad Knife",
-            "skin": "★ Safari Mesh",
-            "item_id": "cs20_nomad_knife_safari_mesh",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMWqV0uZJpOBncCW6khUz_WzWm9esdXOfbwRyWZR0ROACthDulYeyM-m34AeL3doXxX-s2Hwb7311o7FVDfDKraI",
-            "market_price": 96.94,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "bs": 97.03,
-                "fn": 219.04,
-                "ft": 96.94,
-                "mw": 114.19,
-                "ww": 99.76
-              },
-              "stattrak": {
-                "bs": 115.16,
-                "ft": 105.46,
-                "mw": 139.05,
-                "ww": 110.02
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
-            "skin": "★ Blue Steel",
-            "item_id": "cs20_nomad_knife_blue_steel",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWWc1Otyj-1gSCGn2011smSEyIz6eH2XaAIkDpt3TLQDtEXpwdHmYe_itgTd3o9DySr8hihXrnE81fc4CIg",
-            "market_price": 187.24,
-            "stattrak": false,
-            "market_prices": {
-              "normal": {
-                "bs": 174.03,
-                "fn": 406.42,
-                "ft": 187.24,
-                "mw": 231.84,
-                "ww": 172.22
-              },
-              "stattrak": {
-                "bs": 266.79,
-                "ft": 246.75,
-                "mw": 290.03,
-                "ww": 246.89
-              }
-            }
-          },
-          {
-            "weapon": "Nomad Knife",
+            "weapon": "Classic Knife",
             "skin": "★ Case Hardened",
-            "item_id": "cs20_nomad_knife_case_hardened",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H_GCMWiZzetyj-1gSCGn2xhz5GyHwtr_dS7EOlR1DZtyEe8MsBO-xNKyNbnq7w3b2d8WzC7-jSNXrnE8rdGSE7w",
-            "market_price": 213.41,
+            "item_id": "cs20_case_classic_knife_case_hardened",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRabVSL_mfC2OvzedxuPUnSSjlxxsi627cyNevdnOWbAFyAsEmRbZesRSxlNXlNOm051aK34JAmDK-0H1p4FgDwA",
+            "market_price": 180.72,
             "stattrak": false,
             "market_prices": {
               "normal": {
-                "bs": 206.54,
-                "fn": 525.38,
-                "ft": 213.41,
-                "mw": 266.85,
-                "ww": 207.03
+                "bs": 148.44,
+                "fn": 768.18,
+                "ft": 180.72,
+                "mw": 253.82,
+                "ww": 169.38
               },
               "stattrak": {
-                "bs": 269.48,
-                "ft": 328.81,
-                "mw": 362.33,
-                "ww": 269.95
+                "bs": 273.08,
+                "fn": 1237.07,
+                "ft": 233.33,
+                "mw": 299.98,
+                "ww": 253.64
               }
             }
           },
           {
-            "weapon": "Nomad Knife",
+            "weapon": "Classic Knife",
             "skin": "★ Urban Masked",
-            "item_id": "cs20_nomad_knife_urban_masked",
-            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1U-uaqZ6t_H-ODMXOR0etJpfNrTieMmRQguynLm96uciqSawMgX8Z1RrEIs0G8wN3nYbvjs1fZ2I1GmC-o3CofvSdi4PFCD_SLffhL6Q",
-            "market_price": 139.03,
+            "item_id": "cs20_case_classic_knife_urban_masked",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRe7RSNPGDC1iF0-x3vt5lRi67gVNxsWWAytqqIHLBP1MlXMckQrMI50O4wIexM7u25gLcjN8UmCX22Cgd8G81tNnT-P6o",
+            "market_price": 125.44,
             "stattrak": false,
             "market_prices": {
               "normal": {
-                "bs": 124.68,
-                "fn": 273.08,
-                "ft": 139.03,
-                "mw": 187.74,
-                "ww": 138.08
+                "bs": 103.91,
+                "ft": 125.44,
+                "mw": 173.11,
+                "ww": 128.37
               },
               "stattrak": {
-                "bs": 146.4,
-                "ft": 150.68,
-                "mw": 206.78,
-                "ww": 199.56
+                "bs": 118.75,
+                "ft": 156.61,
+                "mw": 191.76,
+                "ww": 128.62
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Blue Steel",
+            "item_id": "cs20_case_classic_knife_blue_steel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRabVSIvyGC2OvzedxuPUnGiuyw0x34jyDz9-tcX-XblVxCsElEeQLtxa_ltLnN-LhtVfd2d9MyDK-0H3ReQavbA",
+            "market_price": 157.14,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 149.6,
+                "fn": 339.36,
+                "ft": 157.14,
+                "mw": 189.19,
+                "ww": 145.04
+              },
+              "stattrak": {
+                "bs": 180.04,
+                "fn": 439.69,
+                "mw": 184.44,
+                "ww": 197.24
+              }
+            }
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Night Stripe",
+            "item_id": "cs20_case_classic_knife_night_stripe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRe7RSLvmUBnOD1fx_oORWQyC0nQlp52TVyIv7Ii_Cb1ckCsR0EOVf5xm7xIWxNr6x5QWL2dpDnniojntKuDErvbhtcklsTw",
+            "market_price": 133.43,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 145.39,
+                "ft": 133.43,
+                "mw": 149.05,
+                "ww": 152.05
+              },
+              "stattrak": {
+                "bs": 166.3,
+                "ft": 160.11,
+                "mw": 230.06
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Stained",
+            "item_id": "cs20_case_classic_knife_stained",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRabVSJv-BDWKU_uJ_t-l9AXziwkV362nUzNj7dS2Sawd1A5p3TLQC5Bfrlt3nP-rh4wWPjYwXmy_gznQeaAH0jRU",
+            "market_price": 143.58,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 108.04,
+                "fn": 197.24,
+                "ft": 143.58,
+                "mw": 171.54,
+                "ww": 116.72
+              },
+              "stattrak": {
+                "bs": 146.83,
+                "ft": 172.46,
+                "mw": 212.09,
+                "ww": 154.04
+              }
+            }
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Forest DDPAT",
+            "item_id": "cs20_case_classic_knife_forest_ddpat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRYL1SJPSDD3OvzedxuPUnHyjhwx505T7Vwoyhc37BPQ8hXpd4RLQItBTukdPlZrmxtgaP3oNExDK-0H1P5hZEjg",
+            "market_price": 98.75,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 83.97,
+                "ft": 98.75,
+                "mw": 120.08,
+                "ww": 100.36
+              },
+              "stattrak": {
+                "bs": 156.36,
+                "ft": 111.82,
+                "mw": 135.02
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Boreal Forest",
+            "item_id": "cs20_case_classic_knife_boreal_forest",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRYL1SJv-BC3SE_ux5ouRoQxa_nBovp3OHytj4IH7FOldyXMAmFuRftxG6xIWxZOux7lOLjoJBzCj92i5N6H5s_a9cBvSJSM6F",
+            "market_price": 89.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 99.88,
+                "fn": 379.95,
+                "ft": 89.06,
+                "mw": 112.64,
+                "ww": 91.2
+              },
+              "stattrak": {
+                "bs": 123.48,
+                "ft": 105.49,
+                "mw": 125.23,
+                "ww": 95.07
+              }
+            }
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Scorched",
+            "item_id": "cs20_case_classic_knife_scorched",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRe7RSJPGDHmuV_uJ_t-l9AXrhxR4h5mvdzoyhJS2VbAQoC5ZwTOYL5xmxxtXvZOmxtFTZg45FmC7gznQeWPC0gg0",
+            "market_price": 112.95,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 118.17,
+                "ft": 112.95,
+                "mw": 120.69,
+                "ww": 118.36
+              },
+              "stattrak": {
+                "bs": 121.8,
+                "ft": 165.23,
+                "mw": 229.81
+              }
+            },
+            "wear_tiers": [
+              "mw",
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Classic Knife",
+            "skin": "★ Safari Mesh",
+            "item_id": "cs20_case_classic_knife_safari_mesh",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL6kJ_m-B1Y_OGRe7RSLfWABliEwOBJvOhuRz39kUx0tmWHno6geHLEbld1W5skFOII4RO6mtPiPr_i4wbfjI9Dyyn53DQJsHgORFidlg",
+            "market_price": 88.79,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 89.01,
+                "fn": 361.49,
+                "ft": 88.79,
+                "mw": 97.9,
+                "ww": 87.08
+              },
+              "stattrak": {
+                "bs": 114.85,
+                "ft": 106.61,
+                "ww": 133.58
               }
             }
           }

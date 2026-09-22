@@ -30,6 +30,20 @@ describe('case catalogue', () => {
     expect(deadHand.rarity_weights.rare_special).toBe(0.26);
   });
 
+  it('includes the complete restored rare-special knife pools', () => {
+    const dreams = byId.get('dreams_nightmares_case');
+    const riptide = byId.get('operation_riptide_case');
+    const fracture = byId.get('fracture_case');
+    const shatteredWeb = byId.get('shattered_web_case');
+
+    expect(itemNames(dreams)).toContain('Butterfly Knife | Bright Water');
+    expect(itemNames(dreams)).toContain('Bowie Knife | Gamma Doppler');
+    expect(dreams.items.rare_special).toHaveLength(30);
+    expect(riptide.items.rare_special).toHaveLength(30);
+    expect(fracture.items.rare_special).toHaveLength(52);
+    expect(shatteredWeb.items.rare_special).toHaveLength(52);
+  });
+
   it('has unique container ids and valid rarity totals', () => {
     expect(new Set(cases.map(entry => entry.id)).size).toBe(cases.length);
     for (const entry of cases) {
