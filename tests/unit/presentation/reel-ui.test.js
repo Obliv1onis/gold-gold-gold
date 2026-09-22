@@ -13,6 +13,7 @@ vi.mock('../../../src/foundation/case-data-store.js', () => ({
 import { ReelUI }          from '../../../src/presentation/reel-ui.js';
 import { SkinImageLoader } from '../../../src/feature/skin-image-loader.js';
 import { CaseDataStore }   from '../../../src/foundation/case-data-store.js';
+import { i18n }            from '../../../src/foundation/i18n.js';
 
 // ─── Fixtures ─────────────────────────────────────────────────────────────────
 
@@ -34,6 +35,7 @@ function makeContainer() {
 }
 
 beforeEach(() => {
+  i18n.setLocale('en-US');
   vi.useRealTimers();
   vi.clearAllMocks();
   SkinImageLoader.preloadCase.mockResolvedValue({ loaded: 10, failed: 0, skipped: 0 });
@@ -155,6 +157,21 @@ describe('ReelUI — initialize', () => {
     expect(container.classList.contains('is-roll-mode')).toBe(false);
     expect(container.querySelector('.case-opening-preview').getAttribute('aria-hidden')).toBe('false');
     expect(container.querySelector('.reel-roll-stage').getAttribute('aria-hidden')).toBe('true');
+    container.remove();
+  });
+
+  it('immediately retranslates the visible preview after a locale change', async () => {
+    const translatedItem = { ...POOL[0], weapon: 'P250', skin: 'Asiimov' };
+    CaseDataStore.getItems.mockImplementation((_caseId, rarity) => rarity === 'mil_spec' ? [translatedItem] : []);
+    const container = makeContainer();
+    await ReelUI.initialize(container, 'recoil_case');
+
+    i18n.setLocale('zh-CN');
+
+    expect(container.querySelector('.case-opening-hero__title').textContent).toBe('反冲武器箱');
+    expect(container.querySelector('.case-contents-preview__title').textContent).toBe('可能开出的物品');
+    expect(container.querySelector('.case-content-card__name').textContent).toBe('P250 | 二西莫夫');
+    expect(container.querySelector('.case-content-card__rarity').textContent).toBe('军规级');
     container.remove();
   });
 });

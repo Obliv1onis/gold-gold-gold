@@ -21,6 +21,7 @@ let _rollStage        = null;  // reel panel revealed after Open is clicked
 let _transitionPromise = null;
 let _spinActive       = false; // true from first render() call until next initialize()
 let _rareWinningCard  = null;  // DOM card element for a rare_special winning item
+let _caseId           = null;
 
 /**
  * DOM rendering layer for the case opening reel animation.
@@ -50,6 +51,7 @@ export const ReelUI = {
    */
   async initialize(container, caseId) {
     _container = container;
+    _caseId = caseId;
     _spinActive = false;
     _transitionPromise = null;
     container.classList.remove('is-roll-mode');
@@ -77,6 +79,12 @@ export const ReelUI = {
     _buildIdleStrip(caseId);
 
     document.dispatchEvent(new CustomEvent(Events.REEL_READY, { detail: { caseId } }));
+  },
+
+  /** Rebuilds only the static preview text after a locale change. */
+  refreshPreview() {
+    if (!_caseId || !_preview || !_container?.contains(_preview)) return;
+    _buildCasePreview(_caseId);
   },
 
   /** Smoothly replaces the case contents preview with the roll viewport. */
@@ -151,6 +159,8 @@ export const ReelUI = {
     if (nameEl) nameEl.textContent = i18n.skinName(item.weapon, item.skin);
   },
 };
+
+document.addEventListener('locale-changed', () => ReelUI.refreshPreview());
 
 // ─── Internal helpers ─────────────────────────────────────────────────────────
 

@@ -17,6 +17,7 @@ let _preview           = null;
 let _rollStage         = null;
 let _transitionPromise = null;
 let _spinActive        = false;
+let _capsuleId         = null;
 
 /**
  * DOM rendering layer for the capsule opening reel animation.
@@ -38,6 +39,7 @@ export const CapsuleReelUI = {
 
   initialize(container, capsuleId) {
     _container = container;
+    _capsuleId = capsuleId;
     _spinActive = false;
     _transitionPromise = null;
     container.classList.remove('is-roll-mode');
@@ -60,6 +62,11 @@ export const CapsuleReelUI = {
     _buildIdleStrip(capsuleId);
 
     document.dispatchEvent(new CustomEvent(Events.REEL_READY, { detail: { capsuleId } }));
+  },
+
+  refreshPreview() {
+    if (!_capsuleId || !_preview || !_container?.contains(_preview)) return;
+    _buildCapsulePreview(_capsuleId);
   },
 
   transitionToRoll() {
@@ -104,6 +111,8 @@ export const CapsuleReelUI = {
     _spinActive = false;
   },
 };
+
+document.addEventListener('locale-changed', () => CapsuleReelUI.refreshPreview());
 
 // ─── Internal helpers ─────────────────────────────────────────────────────────
 

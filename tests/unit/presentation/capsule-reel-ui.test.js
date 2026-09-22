@@ -6,6 +6,7 @@ vi.mock('../../../src/foundation/capsule-data-store.js', () => ({
 
 import { CapsuleDataStore } from '../../../src/foundation/capsule-data-store.js';
 import { CapsuleReelUI } from '../../../src/presentation/capsule-reel-ui.js';
+import { i18n } from '../../../src/foundation/i18n.js';
 
 const ITEMS = {
   high_grade: [{ name: 'Blue', market_hash_name: 'Sticker | Blue', image_url: 'blue.png' }],
@@ -21,6 +22,7 @@ function makeContainer() {
 }
 
 beforeEach(() => {
+  i18n.setLocale('en-US');
   vi.useRealTimers();
   vi.clearAllMocks();
   CapsuleDataStore.getCapsule.mockReturnValue({
@@ -79,6 +81,18 @@ describe('CapsuleReelUI preview flow', () => {
     expect(container.classList.contains('is-roll-mode')).toBe(false);
     expect(container.querySelector('.case-opening-preview').getAttribute('aria-hidden')).toBe('false');
     expect(container.querySelector('.reel-roll-stage').getAttribute('aria-hidden')).toBe('true');
+    container.remove();
+  });
+
+  it('immediately retranslates preview labels and item prefixes', () => {
+    const container = makeContainer();
+    CapsuleReelUI.initialize(container, 'test_capsule');
+
+    i18n.setLocale('zh-CN');
+
+    expect(container.querySelector('.case-contents-preview__title').textContent).toBe('可能开出的物品');
+    expect(container.querySelector('.case-content-card__name').textContent).toBe('印花 | Blue');
+    expect(container.querySelector('.case-content-card__rarity').textContent).toBe('高级');
     container.remove();
   });
 });
