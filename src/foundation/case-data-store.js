@@ -1,6 +1,4 @@
 // Static case data store. Loads cases.json + souvenirs.json once at startup; read-only for the session.
-// See GDD: design/gdd/case-data-store.md for schema, validation rules, and edge cases.
-
 const WEAPON_CASE_RARITIES = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 const TERMINAL_RARITIES    = ['mil_spec', 'restricted', 'classified', 'covert'];
 const ALL_RARITIES = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];

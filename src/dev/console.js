@@ -7,8 +7,6 @@
  *   game.devMode(0|false) — turn dev mode off           (always accessible)
  *   game.help()           — list commands               (always accessible)
  *   game.setBalance(num)  — set balance to num          (dev mode only)
- *   game.prototype(1|0)   — jump to / from prototype    (dev mode only)
- *   game.confirm()        — confirm a pending action    (dev mode only)
  */
 
 import { VirtualEconomy }  from '../core/virtual-economy.js';
@@ -18,7 +16,6 @@ let _devMode  = false;
 let _goldMode = false;
 let _badge    = null;
 let _goldBadge = null;
-let _pending  = null; // stores a queued action waiting for game.confirm()
 
 function _applyDevMode(on) {
   document.body.classList.toggle('dev-mode', on);
@@ -81,8 +78,6 @@ const _commands = {
     console.log('%c  game.help()          %c  show this list',                                    'color: #ffd54f', 'color: #aaa');
     console.log('%c  game.setBalance(num) %c  set balance to num (up to 2 decimals)  [dev]',      'color: #ffd54f', 'color: #aaa');
     console.log('%c  game.alwaysGold(1|0) %c  force rare special drops, or toggle    [dev]',      'color: #ffd54f', 'color: #aaa');
-    console.log('%c  game.prototype(1|0)  %c  jump to / from the prototype page      [dev]',      'color: #ffd54f', 'color: #aaa');
-    console.log('%c  game.confirm()       %c  confirm a pending action               [dev]',      'color: #ffd54f', 'color: #aaa');
   },
 
   // ── Add custom dev commands below this line ───────────────────────────────
@@ -97,49 +92,6 @@ const _commands = {
     } else {
       console.warn('%c[game] alwaysGold accepts: 1, 0, true, false, or nothing.', 'color: #e57373');
     }
-  },
-
-  prototype(val) {
-    const PROTO_PATH = '/prototypes/vault-concept/prototype.html';
-    const onProto    = window.location.pathname === PROTO_PATH;
-
-    let goTo;
-    if (val === undefined) {
-      goTo = !onProto;
-    } else if (val === 1 || val === true) {
-      goTo = true;
-    } else if (val === 0 || val === false) {
-      goTo = false;
-    } else {
-      console.warn('%c[game] prototype accepts: 1, 0, true, false, or nothing.', 'color: #e57373');
-      return;
-    }
-
-    // Navigating away from prototype needs no confirmation
-    if (!goTo) {
-      window.location.href = '/';
-      return;
-    }
-
-    // Navigating TO prototype — require confirmation first
-    _pending = () => { window.location.href = PROTO_PATH; };
-    console.log(
-      '%c[game] ⚠ This command is only to turn on the early dev stage prototype.\n' +
-      '        Are you sure you want to proceed? Type %cgame.confirm()%c to confirm.',
-      'color: #f9a825; font-weight: bold',
-      'color: #ffd54f; font-weight: bold',
-      'color: #f9a825; font-weight: bold',
-    );
-  },
-
-  confirm() {
-    if (!_pending) {
-      console.warn('%c[game] Nothing to confirm.', 'color: #e57373');
-      return;
-    }
-    const action = _pending;
-    _pending = null;
-    action();
   },
 
   noWayYouFoundThis() {
