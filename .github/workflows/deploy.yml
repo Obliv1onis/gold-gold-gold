@@ -1,7 +1,6 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
   push:
     branches: 'main' # 当你推送到 main 分支时触发
 
@@ -18,7 +17,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps: deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -40,8 +39,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
