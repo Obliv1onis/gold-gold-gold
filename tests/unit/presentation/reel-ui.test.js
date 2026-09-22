@@ -138,6 +138,25 @@ describe('ReelUI — initialize', () => {
     expect(container.querySelector('.case-opening-preview').getAttribute('aria-hidden')).toBe('true');
     container.remove();
   });
+
+  it('restores the contents preview after a roll', async () => {
+    vi.useFakeTimers();
+    const container = makeContainer();
+    await ReelUI.initialize(container, 'recoil_case');
+
+    const transition = ReelUI.transitionToRoll();
+    await Promise.resolve();
+    await Promise.resolve();
+    vi.advanceTimersByTime(420);
+    await transition;
+
+    ReelUI.returnToPreview();
+
+    expect(container.classList.contains('is-roll-mode')).toBe(false);
+    expect(container.querySelector('.case-opening-preview').getAttribute('aria-hidden')).toBe('false');
+    expect(container.querySelector('.reel-roll-stage').getAttribute('aria-hidden')).toBe('true');
+    container.remove();
+  });
 });
 
 // ─── render ───────────────────────────────────────────────────────────────────

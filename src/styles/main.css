@@ -580,6 +580,10 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   display: grid;
 }
 
+.reel-container.is-roll-mode {
+  margin-block: auto;
+}
+
 .case-opening-preview,
 .reel-roll-stage {
   grid-area: 1 / 1;
@@ -682,8 +686,8 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   object-fit: contain;
 }
 
-.case-content-card__image.rare-special-mask {
-  filter: hue-rotate(315deg) saturate(1.65);
+.case-content-card.rarity-rare_special {
+  --rarity-color: #E4AE39;
 }
 
 .case-content-card__name {
@@ -748,10 +752,6 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
   height: 200px;
   object-fit: contain;
   flex-shrink: 0;
-}
-
-.reel-card .rare-special-mask {
-  filter: hue-rotate(315deg) saturate(1.65);
 }
 
 .reel-card .card-name {
@@ -2197,6 +2197,9 @@ html[data-theme="light"] .rarity-covert,
 html[data-theme="light"] .rarity-rare_special,
 html[data-theme="light"] .rarity-extraordinary    { --rarity-color: #b4232c; }
 html[data-theme="light"] .rarity-contraband       { --rarity-color: #946200; }
+html[data-theme="light"] .case-content-card.rarity-rare_special {
+  --rarity-color: #946200;
+}
 
 html[data-theme="light"] .hud-bar,
 html[data-theme="light"] .nav-tabs {

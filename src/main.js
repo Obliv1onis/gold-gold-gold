@@ -79,9 +79,13 @@ async function main() {
           await ReelUI.transitionToRoll();
           CaseOpeningOrchestrator.open(itemId, price, ReelUI.viewportWidth, {
             onFrame:   (offset, strip) => ReelUI.render(offset, strip),
-            onReveal:  (entry)         => { if (entry.rarity === 'rare_special') ReelUI.revealRareCard(entry); RevealUI.show(entry); },
-            onBlocked: (reason)        => HudAppShell.onBlocked(reason),
-            onReady:   ()              => { ReelUI.resetSpin(); HudAppShell.onReady(); },
+            onReveal:  (entry)         => {
+              if (entry.item?.rarity === 'rare_special') ReelUI.revealRareCard(entry.item);
+              RevealUI.show(entry);
+              ReelUI.returnToPreview();
+            },
+            onBlocked: (reason)        => { ReelUI.returnToPreview(); HudAppShell.onBlocked(reason); },
+            onReady:   ()              => { ReelUI.resetSpin(); ReelUI.returnToPreview(); HudAppShell.onReady(); },
           });
         }
       },

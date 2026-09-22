@@ -100,6 +100,14 @@ export const ReelUI = {
     return _transitionPromise;
   },
 
+  /** Restores the case and contents preview after the result is revealed. */
+  returnToPreview() {
+    if (!_container || !_preview || !_rollStage) return;
+    _preview.setAttribute('aria-hidden', 'false');
+    _rollStage.setAttribute('aria-hidden', 'true');
+    _container.classList.remove('is-roll-mode');
+  },
+
   /**
    * Per-frame callback wired via Orchestrator into ReelAnimationEngine.spin().
    * On the first call of a spin, rebuilds card DOM elements.
