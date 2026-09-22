@@ -2177,24 +2177,6 @@ html[data-theme="light"] body {
   color: #626c7c;
 }
 
-/* The dark palette uses luminous rarity colours. Darker equivalents retain
-   each rarity's identity without looking washed out against light surfaces. */
-html[data-theme="light"] .rarity-consumer_grade   { --rarity-color: #667585; }
-html[data-theme="light"] .rarity-industrial_grade { --rarity-color: #356fae; }
-html[data-theme="light"] .rarity-mil_spec         { --rarity-color: #3157d5; }
-html[data-theme="light"] .rarity-high_grade       { --rarity-color: #3157d5; }
-html[data-theme="light"] .rarity-restricted       { --rarity-color: #7038c8; }
-html[data-theme="light"] .rarity-remarkable       { --rarity-color: #7038c8; }
-html[data-theme="light"] .rarity-classified       { --rarity-color: #a627ad; }
-html[data-theme="light"] .rarity-exotic           { --rarity-color: #a627ad; }
-html[data-theme="light"] .rarity-covert,
-html[data-theme="light"] .rarity-rare_special,
-html[data-theme="light"] .rarity-extraordinary    { --rarity-color: #b4232c; }
-html[data-theme="light"] .rarity-contraband       { --rarity-color: #946200; }
-html[data-theme="light"] .case-content-card.rarity-rare_special {
-  --rarity-color: #946200;
-}
-
 html[data-theme="light"] .hud-bar,
 html[data-theme="light"] .nav-tabs {
   background: #ffffff;
