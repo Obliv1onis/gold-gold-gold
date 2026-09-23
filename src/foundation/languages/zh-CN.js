@@ -1935,6 +1935,7 @@ export default {
   market_unavailable: '不可购买',
   market_live_price: '实时市场价格',
   market_snapshot_price: 'Steam 市场价格快照',
+  market_store_price: 'CS2 商店价格',
   market_fallback_price: '估算价格',
   market_preview: '试听音乐盒',
   market_no_funds: '余额不足',

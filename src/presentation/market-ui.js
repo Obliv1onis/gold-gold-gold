@@ -384,6 +384,8 @@ export const MarketUI = {
       price.title = i18n.t('market_live_price');
     } else if (displayPrice === null) {
       price.classList.add('market-row-price--loading');
+    } else if (item.price_basis === 'CS2 Store listing') {
+      price.title = i18n.t('market_store_price');
     } else if (item.market_prices || item.price_source === 'steam') {
       price.title = i18n.t('market_snapshot_price');
     } else {

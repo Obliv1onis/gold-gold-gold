@@ -40,6 +40,7 @@ const MUSIC_KIT_PREVIEWS = new Map([
   ['ShockOne, Voices', 'g8OuGcUnJFc'],
   ['Skog, II-Headshot', '2hHijgDSvwg'],
   ['Skog, Metal', 'Px3IO0iBGiQ'],
+  ['Starjunk 95, Industrial Sunset Memories', 'Xrq0qp1BEmI'],
   ['The Verkkars & n0thing, Flashbang Dance', 'Mjfvm4SJJTE'],
   ['The Verkkars, EZ4ENCE', 'IUPv-ZNaMLM'],
   ['Troels Folmann, Uber Blasto Phone', 'D5_sMTB7j2c'],

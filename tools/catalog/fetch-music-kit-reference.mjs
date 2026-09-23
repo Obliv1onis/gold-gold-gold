@@ -8,6 +8,10 @@ const STEAM_PRICE_URL = 'https://steamcommunity.com/market/priceoverview/';
 const OTHERS = resolve('public/data/others.json');
 const OUTPUT = resolve('design/reference/music-kit-market.md');
 const CACHE = '/private/tmp/cs2-direct-music-kit-prices.json';
+const STORE_PRICE_FALLBACKS = new Map([
+  ['Music Kit | Starjunk 95, Industrial Sunset Memories', 4.99],
+  ['StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories', 7.99],
+]);
 
 function delay(ms) {
   return new Promise(resolveDelay => setTimeout(resolveDelay, ms));
@@ -93,25 +97,29 @@ for (const item of directKits) {
 
 const verifiedAt = new Date().toISOString();
 const uniqueKits = new Set(directKits.map(item => item.market_hash_name.replace(/^StatTrak™\s+/, ''))).size;
-const priced = directKits.filter(item => cache[item.market_hash_name]?.price).length;
+const marketPriced = directKits.filter(item => cache[item.market_hash_name]?.price).length;
+const storePriced = directKits.filter(item => !cache[item.market_hash_name]?.price && STORE_PRICE_FALLBACKS.has(item.market_hash_name)).length;
+const priced = marketPriced + storePriced;
 const lines = [
   '# Direct Music Kit Market Reference',
   '',
   '> Canonical input for music kits sold individually in the simulator market and not contained in a music-kit box.',
   `> Music-kit metadata: [ByMykel/CSGO-API](${MUSIC_KITS_URL}).`,
-  '> Prices: Steam Community Market lowest sell listing in USD; prices are snapshots and may change.',
+  '> Prices: Steam Community Market lowest sell listing in USD; newly released trade-locked items use their CS2 Store price until a market quote exists.',
   `> Verified at: ${verifiedAt}.`,
   '',
-  `Music kits: ${uniqueKits}. Market variants: ${directKits.length}. Steam-priced variants: ${priced}.`,
+  `Music kits: ${uniqueKits}. Market variants: ${directKits.length}. Priced variants: ${priced} (${marketPriced} Community Market, ${storePriced} CS2 Store).`,
   '',
-  '| API ID | Market hash name | Rarity | Steam price (USD) | 24h volume |',
-  '| --- | --- | --- | ---: | ---: |',
+  '| API ID | Market hash name | Rarity | Price (USD) | 24h volume | Price basis |',
+  '| --- | --- | --- | ---: | ---: | --- |',
 ];
 for (const item of directKits) {
   const quote = cache[item.market_hash_name];
+  const price = quote?.price ?? STORE_PRICE_FALLBACKS.get(item.market_hash_name) ?? null;
+  const priceBasis = quote?.price ? 'Steam Community Market' : STORE_PRICE_FALLBACKS.has(item.market_hash_name) ? 'CS2 Store listing' : 'Unavailable';
   lines.push(
     `| ${escapeCell(item.id)} | ${escapeCell(item.market_hash_name)} | high_grade | `
-    + `${quote?.price?.toFixed(2) ?? '—'} | ${quote?.volume ?? '—'} |`,
+    + `${price?.toFixed(2) ?? '—'} | ${quote?.volume ?? '—'} | ${priceBasis} |`,
   );
 }
 lines.push('');

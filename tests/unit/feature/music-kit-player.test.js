@@ -14,6 +14,7 @@ describe('MusicKitPlayer', () => {
     expect(getMusicKitPreviewId('Music Kit | TWERL, Ekko & Sidetrack, Under Bright Lights')).toBe('9fg9ic46ik0');
     expect(getMusicKitPreviewId('StatTrak™ Music Kit | TWERL and Ekko & Sidetrack, Under Bright Lights')).toBe('9fg9ic46ik0');
     expect(getMusicKitPreviewId('Music Kit | ALRT, DOPAMINE HIT')).toBe('fehhzTMUvQ0');
+    expect(getMusicKitPreviewId('Music Kit | Starjunk 95, Industrial Sunset Memories')).toBe('Xrq0qp1BEmI');
     expect(getMusicKitPreviewId('StatTrak™ Music Kit | The Verkkars, EZ4ENCE')).toBe('IUPv-ZNaMLM');
   });
 

@@ -52,12 +52,13 @@ const rows = markdown.split('\n')
 const musicRows = musicMarkdown.split('\n')
   .filter(line => /^\| music_kit-/.test(line))
   .map(splitRow)
-  .map(([id, marketHashName, rarity, price, volume]) => ({
+  .map(([id, marketHashName, rarity, price, volume, priceBasis]) => ({
     id,
     marketHashName,
     rarity,
     marketPrice: price === '—' ? null : Number(price),
     volume: volume === '—' ? null : Number(volume),
+    priceBasis: priceBasis || 'Steam Community Market',
   }));
 
 if (!rows.length) throw new Error(`No sticker rows found in ${REFERENCE}`);
@@ -97,6 +98,7 @@ const musicItems = musicRows.map(row => {
     rarity: row.rarity,
     market_price: row.marketPrice,
     price_source: 'steam',
+    price_basis: row.priceBasis,
     steam_volume: row.volume,
     capsuleType: 'music_kit_box',
     capsuleName: 'Direct Steam Music Kit Market',
@@ -113,14 +115,14 @@ const output = {
       'design/reference/music-kit-market.md',
     ],
     metadata_sources: [DEFAULT_STICKERS_SOURCE, DEFAULT_MUSIC_SOURCE],
-    price_source: 'Steam Community Market lowest sell listing (USD)',
+    price_source: 'Steam Community Market / CS2 Store (USD)',
     price_verified_at: [verifiedAt, musicVerifiedAt].filter(Boolean).sort().at(-1) ?? null,
     items: items.length,
     sticker_items: stickerItems.length,
     music_kit_items: musicItems.length,
     direct_music_kits: new Set(musicItems.map(item => item.market_hash_name.replace(/^StatTrak™\s+/, ''))).size,
     priced_items: items.filter(item => item.market_price !== null).length,
-    estimated_items: items.filter(item => item.price_basis && item.price_basis !== 'Steam listing').length,
+    estimated_items: items.filter(item => item.price_basis === 'Steam comparable').length,
     missing_images: items.filter(item => !item.image_url).length,
   },
   items,

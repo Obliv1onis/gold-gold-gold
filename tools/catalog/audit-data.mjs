@@ -190,7 +190,7 @@ if (forbiddenCologneContainers.length) {
 const marketStickers = marketItems.filter(item => item.capsuleType === 'sticker_capsule');
 const marketMusicKits = marketItems.filter(item => item.capsuleType === 'music_kit_box');
 if (marketStickers.length !== 1371) errors.push(`Expected 1371 Cologne 2026 market stickers, found ${marketStickers.length}`);
-if (marketMusicKits.length !== 90) errors.push(`Expected 90 direct music-kit variants, found ${marketMusicKits.length}`);
+if (marketMusicKits.length !== 92) errors.push(`Expected 92 direct music-kit variants, found ${marketMusicKits.length}`);
 const marketNames = new Set();
 for (const item of marketItems) {
   if (!item.id || !item.market_hash_name || !item.image_url) errors.push('Incomplete standalone market item');
@@ -218,6 +218,8 @@ for (const name of [
   'StatTrak™ Music Kit | The Verkkars, EZ4ENCE',
   'Music Kit | ALRT, DOPAMINE HIT',
   'StatTrak™ Music Kit | ALRT, DOPAMINE HIT',
+  'Music Kit | Starjunk 95, Industrial Sunset Memories',
+  'StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories',
 ]) {
   if (!marketNames.has(name)) errors.push(`Missing direct music kit: ${name}`);
 }

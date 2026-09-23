@@ -176,6 +176,7 @@ export default {
   market_unavailable: 'N/A',
   market_live_price: 'Live market price',
   market_snapshot_price: 'Steam market price snapshot',
+  market_store_price: 'CS2 Store price',
   market_fallback_price: 'Estimated price',
   market_preview: 'Preview music kit',
   market_no_funds: 'Insufficient funds',

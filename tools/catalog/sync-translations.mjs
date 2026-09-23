@@ -95,6 +95,10 @@ const itemSources = ['stickers', 'keychains', 'patches', 'music', 'collectibles'
     return pairedMap(english, chinese);
   });
 const officialItems = new Map((await Promise.all(itemSources)).flatMap(itemMap => [...itemMap]));
+const manualItems = new Map([
+  ['Music Kit | Starjunk 95, Industrial Sunset Memories', '音乐盒 | Starjunk 95, 工业落日回忆'],
+  ['StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories', 'StatTrak™ 音乐盒 | Starjunk 95, 工业落日回忆'],
+]);
 const normalizedOfficialItems = new Map(
   [...officialItems].map(([name, translated]) => [normalizedName(name), translated]),
 );
@@ -110,7 +114,7 @@ for (const capsule of localCapsules) {
 }
 for (const item of localMarketItems) runtimeItems.add(item.market_hash_name ?? item.name);
 for (const name of [...runtimeItems].sort()) {
-  const translated = officialItems.get(name) ?? normalizedOfficialItems.get(normalizedName(name));
+  const translated = manualItems.get(name) ?? officialItems.get(name) ?? normalizedOfficialItems.get(normalizedName(name));
   if (translated) translations[`item_name.${name}`] = translated;
 }
 

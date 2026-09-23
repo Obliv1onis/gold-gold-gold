@@ -15,15 +15,25 @@ describe('Standalone market catalogue', () => {
   });
 
   it('contains every direct-market music kit in Normal and StatTrak variants', () => {
-    expect(musicKits).toHaveLength(90);
-    expect(new Set(musicKits.map(item => item.market_hash_name)).size).toBe(90);
+    expect(musicKits).toHaveLength(92);
+    expect(new Set(musicKits.map(item => item.market_hash_name)).size).toBe(92);
     expect(musicKits.every(item => item.rarity === 'high_grade')).toBe(true);
     expect(musicKits.map(item => item.market_hash_name)).toEqual(expect.arrayContaining([
       'Music Kit | The Verkkars, EZ4ENCE',
       'StatTrak™ Music Kit | The Verkkars, EZ4ENCE',
       'Music Kit | ALRT, DOPAMINE HIT',
       'StatTrak™ Music Kit | ALRT, DOPAMINE HIT',
+      'Music Kit | Starjunk 95, Industrial Sunset Memories',
+      'StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories',
     ]));
+    expect(musicKits.find(item => item.id === 'music_kit-104')).toMatchObject({
+      market_price: 4.99,
+      price_basis: 'CS2 Store listing',
+    });
+    expect(musicKits.find(item => item.id === 'music_kit-104_st')).toMatchObject({
+      market_price: 7.99,
+      price_basis: 'CS2 Store listing',
+    });
   });
 
   it('provides a playable preview for every direct-market music kit', () => {
