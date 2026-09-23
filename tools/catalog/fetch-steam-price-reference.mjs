@@ -11,9 +11,10 @@ const WEARS = ['Factory New', 'Minimal Wear', 'Field-Tested', 'Well-Worn', 'Batt
 const PRIORITY_DIRECT_NAMES = ['★ Bayonet | Crimson Web (Field-Tested)'];
 
 function parseArgs(argv) {
-  const args = { source: null };
+  const args = { source: null, skipDirect: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--source') args.source = argv[++i];
+    else if (argv[i] === '--skip-direct') args.skipDirect = true;
     else throw new Error(`Unknown argument: ${argv[i]}`);
   }
   return args;
@@ -103,10 +104,11 @@ function escapeCell(value) {
 }
 
 const args = parseArgs(process.argv.slice(2));
-const [bulk, caseData, souvenirData] = await Promise.all([
+const [bulk, caseData, souvenirData, armoryData] = await Promise.all([
   readJson(args.source),
   readFile('public/data/cases.json', 'utf8').then(JSON.parse),
   readFile('public/data/souvenirs.json', 'utf8').then(JSON.parse),
+  readFile('public/data/armory.json', 'utf8').then(JSON.parse),
 ]);
 const bulkItems = bulk.data?.items ?? bulk.items ?? bulk;
 if (!Array.isArray(bulkItems)) throw new Error('Unexpected bulk Steam price response');
@@ -128,6 +130,9 @@ const normalItems = new Map();
 for (const entry of caseData.cases) {
   for (const item of Object.values(entry.items ?? {}).flat()) normalItems.set(skinKey(item), item);
 }
+for (const entry of armoryData.cases) {
+  for (const item of Object.values(entry.items ?? {}).flat()) normalItems.set(skinKey(item), item);
+}
 normalItems.set('M4A4 | Howl', { weapon: 'M4A4', skin: 'Howl' });
 const souvenirItems = new Map();
 for (const entry of souvenirData.cases) {
@@ -143,6 +148,9 @@ let cache = {};
 try {
   cache = JSON.parse(await readFile(CACHE, 'utf8'));
 } catch { /* Missing on the first run. */ }
+for (const [name, quote] of Object.entries(cache)) {
+  if (quote?.price > 0) quotes.set(name, quote);
+}
 
 // Always refresh the small container set. For skins, query Steam directly only
 // when the bulk Steam snapshot has no variant for that catalogue family.
@@ -160,7 +168,7 @@ for (const item of souvenirItems.values()) {
 }
 
 let completed = 0;
-const pendingNames = [...refreshNames];
+const pendingNames = args.skipDirect ? [] : [...refreshNames];
 async function runWorker() {
   while (pendingNames.length) {
     const name = pendingNames.shift();

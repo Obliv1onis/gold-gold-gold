@@ -7,6 +7,7 @@ import { AudioSystem }                  from './audio-system.js';
 import { FloatService }                 from '../foundation/float-service.js';
 import { CaseDataStore }                from '../foundation/case-data-store.js';
 import { getCatalogMarketPrice }        from '../foundation/market-price.js';
+import { ArmoryPass }                   from './armory-pass.js';
 
 /** How long the Open button stays locked after the reveal chord starts (ms). */
 export const CHORD_DECAY_MS = 800;
@@ -62,8 +63,14 @@ export const CaseOpeningOrchestrator = {
     }
 
     // Step 2: Affordability check (E3)
-    const isSouvenirCase = CaseDataStore.getCase(caseId)?.type === 'souvenir_package';
-    const totalCost = isSouvenirCase ? _round(casePrice) : _round(casePrice + KEY_COST_USD);
+    const caseEntry = CaseDataStore.getCase(caseId);
+    const isSouvenirCase = caseEntry?.type === 'souvenir_package';
+    const isArmoryRedemption = !!caseEntry?.armory || caseEntry?.type === 'armory_collection' || caseEntry?.type === 'armory_limited';
+    if (isArmoryRedemption && ArmoryPass.getRemaining() <= 0) {
+      onBlocked('no_armory_draws');
+      return;
+    }
+    const totalCost = isArmoryRedemption ? 0 : isSouvenirCase ? _round(casePrice) : _round(casePrice + KEY_COST_USD);
     if (!VirtualEconomy.canAfford(totalCost)) {
       onBlocked('insufficient_funds');
       return;
@@ -76,7 +83,8 @@ export const CaseOpeningOrchestrator = {
       // Attach float, wear tier, and float-adjusted market price
       const floatVal    = FloatService.generateFloat();
       const wearTier    = FloatService.getWearTier(floatVal);
-      const isStatTrak  = !isSouvenirCase && !_isGlove(rolled.weapon) && Math.random() < STAT_TRAK_CHANCE;
+      const supportsStatTrak = !caseEntry?.type?.startsWith('armory_');
+      const isStatTrak  = supportsStatTrak && !isSouvenirCase && !_isGlove(rolled.weapon) && Math.random() < STAT_TRAK_CHANCE;
       const exactPrice  = getCatalogMarketPrice(rolled, wearTier, {
         statTrak: isStatTrak,
         souvenir: isSouvenirCase,
@@ -95,7 +103,14 @@ export const CaseOpeningOrchestrator = {
     }
 
     // Steps 4 & 5: Commit (irreversible)
-    VirtualEconomy.spend(totalCost);
+    if (isArmoryRedemption) {
+      if (!ArmoryPass.consume()) {
+        onBlocked('no_armory_draws');
+        return;
+      }
+    } else {
+      VirtualEconomy.spend(totalCost);
+    }
     const removed = CaseInventory.removeCase(caseId);
     if (!removed) {
       // E5: hasCase passed but removeCase returned false — log and continue

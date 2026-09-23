@@ -23,6 +23,14 @@ vi.mock('../../../src/core/skin-inventory.js', () => ({
     clearInventory: vi.fn(),
   },
 }));
+vi.mock('../../../src/core/armory-pass.js', () => ({
+  ARMORY_PASS_PRICE_USD: 15.99,
+  ArmoryPass: {
+    getRemaining: vi.fn(),
+    purchase: vi.fn(),
+    reset: vi.fn(),
+  },
+}));
 
 import { HudAppShell } from '../../../src/presentation/hud-app-shell.js';
 import { VirtualEconomy } from '../../../src/core/virtual-economy.js';
@@ -31,6 +39,7 @@ import { SkinInventory }  from '../../../src/core/skin-inventory.js';
 import { Events }         from '../../../src/foundation/events.js';
 import { Theme }          from '../../../src/foundation/theme.js';
 import { i18n }           from '../../../src/foundation/i18n.js';
+import { ArmoryPass }     from '../../../src/core/armory-pass.js';
 
 // Test case constants (stand-in for real case data)
 const TEST_CASE_ID    = 'recoil_case';
@@ -75,6 +84,8 @@ beforeEach(() => {
   if (_appEl) teardown(_appEl);
   _appEl = makeApp();
   setupMocks();
+  ArmoryPass.getRemaining.mockReturnValue(0);
+  ArmoryPass.purchase.mockReturnValue(true);
 });
 
 // ─── DOM structure ────────────────────────────────────────────────────────────
@@ -276,6 +287,33 @@ describe('HudAppShell — Open button state', () => {
     HudAppShell.showCaseOpening(TEST_CASE_ID, TEST_CASE_PRICE);
     const label = _appEl.querySelector('.btn-open').textContent;
     expect(label).toContain(`$${TEST_OPEN_COST.toFixed(2)}`);
+  });
+
+  it('replaces the Armory purchase button with ten free draws after purchase', () => {
+    const onOpenClick = vi.fn();
+    HudAppShell.init(_appEl, { onOpenClick });
+    HudAppShell.showCaseOpening('armory_spy_tech', 1.60, { isKeyless: true, isArmory: true });
+    document.dispatchEvent(new CustomEvent(Events.REEL_READY));
+    const button = _appEl.querySelector('.btn-open');
+    expect(button.textContent).toBe('Buy Armory Pass ($15.99)');
+
+    ArmoryPass.purchase.mockImplementation(() => {
+      ArmoryPass.getRemaining.mockReturnValue(10);
+      document.dispatchEvent(new CustomEvent(Events.ARMORY_PASS_CHANGED, { detail: { remaining: 10 } }));
+      return true;
+    });
+    button.click();
+
+    expect(ArmoryPass.purchase).toHaveBeenCalledTimes(1);
+    expect(button.textContent).toBe('Open (10 remaining)');
+    expect(onOpenClick).not.toHaveBeenCalled();
+
+    button.click();
+    expect(onOpenClick).toHaveBeenCalledWith('armory_spy_tech', 1.60);
+
+    ArmoryPass.getRemaining.mockReturnValue(0);
+    document.dispatchEvent(new CustomEvent(Events.ARMORY_PASS_CHANGED, { detail: { remaining: 0 } }));
+    expect(button.textContent).toBe('Buy Armory Pass ($15.99)');
   });
 
   it('uses the terminal price without adding a key cost', () => {

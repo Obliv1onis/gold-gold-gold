@@ -25,7 +25,7 @@ async function main() {
 
   // 1. Fetch and validate case + capsule data
   await Promise.all([
-    CaseDataStore.init('/data/cases.json'),
+    CaseDataStore.init('/data/cases.json', '/data/souvenirs.json', '/data/armory.json'),
     CapsuleDataStore.init('/data/capsules.json', '/data/others.json', '/data/market-items.json'),
   ]);
   SkinInventory.migrateMissingCaseIds(id => CaseDataStore.findCaseForItem(id));
@@ -38,6 +38,7 @@ async function main() {
   const allWeaponCases  = CaseDataStore.getCaseList('weapon_case');
   const allTerminals    = CaseDataStore.getCaseList('terminal');
   const allSouvenirs    = CaseDataStore.getCaseList('souvenir_package');
+  const allArmory       = [...CaseDataStore.getCaseList('armory_collection'), ...CaseDataStore.getCaseList('armory_limited')];
   const allCapsules     = CapsuleDataStore.getCapsuleList('sticker_capsule');
   const allOthers       = CapsuleDataStore.getCapsuleList(['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box']);
   const heroCase        = [...allWeaponCases].reverse().find(c => c.image_url);
@@ -46,7 +47,7 @@ async function main() {
   const heroOther       = allOthers.find(c => c.image_url);
 
   const categories = [
-    { id: 'weapon_case',      titleKey: 'tile_weapon_case', subtitleKey: 'tile_sub_weapon_case', subtitleN: allWeaponCases.length + allTerminals.length, image: heroCase?.image_url },
+    { id: 'weapon_case',      titleKey: 'tile_weapon_case', subtitleKey: 'tile_sub_weapon_case', subtitleN: allWeaponCases.length + allTerminals.length + allArmory.length, image: heroCase?.image_url },
     { id: 'souvenir_package', titleKey: 'tile_souvenir',    subtitleKey: 'tile_sub_souvenir',    subtitleN: allSouvenirs.length,                          image: heroSouvenir?.image_url },
     { id: 'sticker_capsule',  titleKey: 'tile_sticker',     subtitleKey: 'tile_sub_sticker',     subtitleN: allCapsules.length,                           image: heroCapsule?.image_url },
     { id: 'other',            titleKey: 'tile_other',       subtitleKey: 'tile_sub_other',       subtitleN: allOthers.length,                             image: heroOther?.image_url },
@@ -100,8 +101,11 @@ async function main() {
   // 4. Case + capsule browsers share the same container
   CaseBrowserUI.init(caseBrowserContainer, {
     onSelect: async (caseId, casePrice) => {
-      const isTerminal = CaseDataStore.getCase(caseId)?.type === 'terminal';
-      HudAppShell.showCaseOpening(caseId, casePrice, { isTerminal });
+      const caseEntry = CaseDataStore.getCase(caseId);
+      const type = caseEntry?.type;
+      const isTerminal = type === 'terminal';
+      const isArmory = !!caseEntry?.armory || type === 'armory_collection' || type === 'armory_limited';
+      HudAppShell.showCaseOpening(caseId, casePrice, { isTerminal, isKeyless: isArmory, isArmory });
       await ReelUI.initialize(reelContainer, caseId);
     },
   });

@@ -11,6 +11,9 @@ export default {
   back_home:        '← Home',
   back:             '← Back',
   open_btn:         'Open',
+  buy_armory_pass:  'Buy Armory Pass ({price})',
+  armory_open_remaining: 'Open ({n} remaining)',
+  armory_one_draw:  '1 pass draw',
   n_owned:          '{n} owned',
   case_contents:    'Possible Contents',
 
@@ -54,10 +57,12 @@ export default {
   err_no_funds:     'Insufficient balance.',
   err_roll:         'Case data error — cannot open.',
   err_open:         'Could not open case.',
+  err_no_armory_draws: 'Buy an Armory Pass to continue.',
 
   // Case browser
   sec_terminals:    'Terminals',
   sec_cases:        'Weapon Cases',
+  sec_armory:       'The Armory',
   sec_souvenirs:    'Souvenir Packages',
   sec_stickers:     'Sticker Capsules',
   sec_others:       'Others',

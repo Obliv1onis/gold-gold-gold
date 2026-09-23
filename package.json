@@ -16,6 +16,7 @@
     "docs:reference":  "node tools/catalog/generate-reference-docs.mjs",
     "docs:reference:check": "node tools/catalog/generate-reference-docs.mjs --check",
     "data:sync:cases": "node tools/catalog/sync-cases.mjs",
+    "data:sync:armory": "node tools/catalog/sync-armory.mjs --write",
     "data:sync:containers": "node tools/catalog/sync-containers.mjs",
     "data:sync:translations": "node tools/catalog/sync-translations.mjs",
     "data:fetch:cologne-2026": "node tools/catalog/fetch-cologne-2026-reference.mjs",

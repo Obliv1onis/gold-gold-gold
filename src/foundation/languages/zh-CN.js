@@ -13,6 +13,9 @@ export default {
   back_home:        '← 主页',
   back:             '← 返回',
   open_btn:         '开启',
+  buy_armory_pass:  '购买武库通行证（{price}）',
+  armory_open_remaining: '抽取（剩余 {n} 次）',
+  armory_one_draw:  '消耗 1 次抽取',
   n_owned:          '已拥有 {n}',
   case_contents:    '可能开出的物品',
 
@@ -56,10 +59,12 @@ export default {
   err_no_funds:     '余额不足。',
   err_roll:         '箱子数据错误，无法开启。',
   err_open:         '无法开启箱子。',
+  err_no_armory_draws: '请先购买武库通行证。',
 
   // Case browser
   sec_terminals:    '终端',
   sec_cases:        '武器箱',
+  sec_armory:       '武库',
   sec_souvenirs:    '纪念包',
   sec_stickers:     '印花胶囊',
   sec_others:       '其他',

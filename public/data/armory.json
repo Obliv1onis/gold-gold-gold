@@ -1,0 +1,2055 @@
+{
+  "format_version": "1.0",
+  "catalog": {
+    "source": "ByMykel/CSGO-API",
+    "price_source": "Steam Community Market",
+    "price_snapshot": "2026-09-12T02:36:30Z",
+    "verified_on": "2026-09-22",
+    "collections": 6,
+    "limited_editions": 4,
+    "weapon_cases": 2,
+    "simulator_pass_price": 15.99,
+    "simulator_draws_per_pass": 10,
+    "items": 102,
+    "armory_case_ids": [
+      "gallery_case",
+      "fever_case"
+    ],
+    "price_verified_at": "2026-09-22T23:57:04.989Z"
+  },
+  "cases": [
+    {
+      "id": "armory_graphic_design",
+      "name": "The Graphic Design Collection",
+      "release_date": "2024-10-02",
+      "status": "retired",
+      "type": "armory_collection",
+      "armory_kind": "weapon_collection",
+      "credits": 4,
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 1.6,
+      "rarity_weights": {
+        "industrial_grade": 79.92,
+        "mil_spec": 15.98,
+        "restricted": 3.2,
+        "classified": 0.64,
+        "covert": 0.26
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [
+          {
+            "weapon": "FAMAS",
+            "skin": "Halftone Wash",
+            "item_id": "armory_graphic_design_famas_halftone_wash",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1T-829eKhsM_isCGadwP1JvOhuRz39wxt14WuBy9qpJX-TPFdyDJFxRLRc5BK-wIXlNu3htleP3Y5Bynmt3zQJsHgxqrWZvw",
+            "market_price": 0.2,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.27,
+                "fn": 0.87,
+                "ft": 0.2,
+                "mw": 0.45,
+                "ww": 0.23
+              }
+            }
+          },
+          {
+            "weapon": "Galil AR",
+            "skin": "NV",
+            "item_id": "armory_graphic_design_galil_ar_nv",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0PG7V7RiLOmsCXWVxOBJt-BlRiWMmRQguynLnNn4JXyWalMlW5ciE-RftRCwlt3gYbyz41Tb34pBmSr92yod7itq5fFCD_TxM0_hWQ",
+            "market_price": 0.2,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.59,
+                "fn": 0.66,
+                "ft": 0.2,
+                "mw": 0.37,
+                "ww": 0.26
+              }
+            }
+          },
+          {
+            "weapon": "P2000",
+            "skin": "Coral Halftone",
+            "item_id": "armory_graphic_design_p2000_coral_halftone",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL5lYayrXIL0Pq6V6JsI_WHMXfCkb4mj-1gSCGn2xsj5mrWm4v_c37EaAV1CMR2Ru8P4RO7m4fjY7_rsgDZjYMQzHiriyNXrnE8hd3eC64",
+            "market_price": 0.22,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.21,
+                "fn": 0.75,
+                "ft": 0.22,
+                "mw": 0.31,
+                "ww": 0.27
+              }
+            }
+          },
+          {
+            "weapon": "M249",
+            "skin": "Spectrogram",
+            "item_id": "armory_graphic_design_m249_spectrogram",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8zMK5wipP0OKraa9-H-KSB2mSzvlJvOhuRz39kxsj5WXUz4urInmWblIgCZVxTbJfthXsmoDuM-m05QPeiIJAyiuvjjQJsHhX7l6_wQ",
+            "market_price": 0.19,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.3,
+                "fn": 0.65,
+                "ft": 0.19,
+                "mw": 0.3,
+                "ww": 0.27
+              }
+            }
+          },
+          {
+            "weapon": "MP7",
+            "skin": "Astrolabe",
+            "item_id": "armory_graphic_design_mp7_astrolabe",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsHf-jFk7P2ge7BoLPySGm6fz9FysfNicCSjwiIrujqNjsGrcSmSZlMjX8YhQ7QKshWxxoHuZbzm5lfajIsRmSqvjy1Nv3tu6uhQT-N7rcDJm_6d",
+            "market_price": 0.26,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.19,
+                "fn": 28.45,
+                "ft": 0.26,
+                "mw": 0.39,
+                "ww": 0.19
+              }
+            }
+          },
+          {
+            "weapon": "SSG 08",
+            "skin": "Halftone Whorl",
+            "item_id": "armory_graphic_design_ssg_08_halftone_whorl",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLijZGwpR1T-829f61_LM-AHWDAmdF6ueZhW2e1lxxwsW3SnN-gIC6ea1cgDZdwQ7Fft0G5xoK2NOq241bfj9lCxX2tkGoXuc4PJZth",
+            "market_price": 0.19,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.23,
+                "fn": 0.67,
+                "ft": 0.19,
+                "mw": 0.31,
+                "ww": 0.27
+              }
+            }
+          }
+        ],
+        "mil_spec": [
+          {
+            "weapon": "AK-47",
+            "skin": "Crossfade",
+            "item_id": "armory_graphic_design_ak_47_crossfade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0PW8abRlKfOsAXGV0-J3qd5oRH3kqhEutDWR1N6vdi2Wb1IjA5V5FrUPuhW6ldGzMe7htQTd2YoRzyn83HhPvys65eocEf1y0nVviGs",
+            "market_price": 2.86,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.69,
+                "fn": 6.59,
+                "ft": 2.86,
+                "mw": 4.1,
+                "ww": 2.87
+              }
+            }
+          },
+          {
+            "weapon": "SCAR-20",
+            "skin": "Wild Berry",
+            "item_id": "armory_graphic_design_scar_20_wild_berry",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk7OeRa6xoNuKcAFiDwu9k4rFWQyC0nQlpsmnTyNf8dy-fZlIoDZd1F7MI4xbuw4e0NLm0sgaP3tpNn37_h3gf6jErvbhxX_RFLw",
+            "market_price": 1.39,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.28,
+                "fn": 3.61,
+                "ft": 1.39,
+                "mw": 2.13,
+                "ww": 1.83
+              }
+            }
+          },
+          {
+            "weapon": "SG 553",
+            "skin": "Berry Gel Coat",
+            "item_id": "armory_graphic_design_sg_553_berry_gel_coat",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLimcO1qx1c_M2mabR9Oc-BC2Ov0ukj5bdWQyC0nQlp42vXn4mrIy2VagRzXJJxFOYJsxG4koLgP-zktVbf3oJMmSX43SIf6jErvbj113ptXQ",
+            "market_price": 1.36,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.36,
+                "fn": 6.02,
+                "ft": 1.36,
+                "mw": 2.99,
+                "ww": 1.47
+              }
+            }
+          },
+          {
+            "weapon": "XM1014",
+            "skin": "Halftone Shift",
+            "item_id": "armory_graphic_design_xm1014_halftone_shift",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk5-aRe6xsMPWAMX-dkL4n5N5lRi67gVN24GnSm9b9cHrGOg8hCpMmRLMC4xftwdPkYbvq5gzZio4UnC_6iy5L8G81tJrSBQ92",
+            "market_price": 1.44,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.3,
+                "fn": 3.53,
+                "ft": 1.44,
+                "mw": 2.05,
+                "ww": 1.26
+              }
+            }
+          }
+        ],
+        "restricted": [
+          {
+            "weapon": "CZ75-Auto",
+            "skin": "Slalom",
+            "item_id": "armory_graphic_design_cz75_auto_slalom",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLyhMG1_B1Y-s2vard5MvGQGliHyeditd5qVRa_nBovp3Pdzt3_eSqUOA4hDpB1EbQPshXqkdPmPrm04APXjdhExXis2C1N7io9_a9cBtMaUZjs",
+            "market_price": 7.83,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 6.47,
+                "fn": 22.28,
+                "ft": 7.83,
+                "mw": 12.33,
+                "ww": 7.11
+              }
+            }
+          },
+          {
+            "weapon": "M4A4",
+            "skin": "Polysoup",
+            "item_id": "armory_graphic_design_m4a4_polysoup",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFU4M2-Z6h0M_-GHlidle8ij-1gSCGn2x904j7dntz4eX6UOlcmCZFwQLIL4Ri7ktexMePg4Q3ZiIIQmyv6inxXrnE8bylol6Q",
+            "market_price": 12.88,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 7.83,
+                "fn": 39.55,
+                "ft": 12.88,
+                "mw": 22.87,
+                "ww": 11.44
+              }
+            }
+          },
+          {
+            "weapon": "P90",
+            "skin": "Attack Vector",
+            "item_id": "armory_graphic_design_p90_attack_vector",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhx8bf_jdk__2icZt7Kf-fC3Ov0bcmj-1gSCGn20QhtW_Vm9r8InmVbFJyDJMkE-IJsEOwm9G1Mu3jswSP2t1Hyy-s3yJXrnE8K5R_WCY",
+            "market_price": 7.21,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 7.25,
+                "fn": 21.55,
+                "ft": 7.21,
+                "mw": 13.98,
+                "ww": 7.58
+              }
+            }
+          }
+        ],
+        "classified": [
+          {
+            "weapon": "AUG",
+            "skin": "Lil' Pig",
+            "item_id": "armory_graphic_design_aug_lil_pig",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf-jFk4_uieK1qH_GGCVicyOl-pK84TXCwxRhx627SmNj6J3PFaQV2X5R1R7JctBixldfvY7u24ATY2owX02yg2cUR6r7A",
+            "market_price": 39.1,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 33.24,
+                "fn": 174.03,
+                "ft": 39.1,
+                "mw": 79.97,
+                "ww": 57.47
+              }
+            }
+          },
+          {
+            "weapon": "Desert Eagle",
+            "skin": "Starcade",
+            "item_id": "armory_graphic_design_desert_eagle_starcade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk7OeRb6hkNOSWHFiUxO9xvORWQyC0nQlpsD_SnN79JX2WbQ8pXMNwRO5ZsRK8lt21Nb7r4wPXgtgWmCz7hylJ6jErvbgNUrm8Kg",
+            "market_price": 52.21,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 40.73,
+                "fn": 309.56,
+                "ft": 52.21,
+                "mw": 109.19,
+                "ww": 47.52
+              }
+            }
+          }
+        ],
+        "covert": [
+          {
+            "weapon": "AWP",
+            "skin": "CMYK",
+            "item_id": "armory_graphic_design_awp_cmyk",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf-jFk5vyqbbRoLvSWMWaH0dF6ueZhW2e1zElxtmzQmIv8J3qQalRzW5t0RrYOsBCwlte2Mbmw5AbXiYlAnnn4kGoXuYBQOb0Q",
+            "market_price": 243.37,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 124.25,
+                "fn": 1392.28,
+                "ft": 243.37,
+                "mw": 444.93,
+                "ww": 206.01
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "armory_overpass_2024",
+      "name": "The Overpass 2024 Collection",
+      "release_date": "2024-10-02",
+      "status": "active",
+      "type": "armory_collection",
+      "armory_kind": "weapon_collection",
+      "credits": 4,
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 1.6,
+      "rarity_weights": {
+        "industrial_grade": 79.92,
+        "mil_spec": 15.98,
+        "restricted": 3.2,
+        "classified": 0.64,
+        "covert": 0.26
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [
+          {
+            "weapon": "Desert Eagle",
+            "skin": "Tilted",
+            "item_id": "armory_overpass_2024_desert_eagle_tilted",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk7OeRZ7JoMuCSHXSvwP9jsd5tSii0mRgYvzSCkpu3cH-UOgV2D8RyQrMKsRW-mtWyPunr4VeNjIhMmX6ojigY7y9v5ehUA71lpPMO4MWI5A",
+            "market_price": 0.19,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.19,
+                "fn": 1.95,
+                "ft": 0.19,
+                "mw": 0.57,
+                "ww": 0.31
+              }
+            }
+          },
+          {
+            "weapon": "Five-SeveN",
+            "skin": "Midnight Paintover",
+            "item_id": "armory_overpass_2024_five_seven_midnight_paintover",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRYL1SL-aWHHeR0v1JoOBgQT28gxg1jCmAm4PGLSLANkI-X5YmF-QN4EK8wdXgNenrsgDejYNAmS33jHtB6Ctj5esBBKItqKXQhhaBb-MJGErI3w",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 0.19,
+                "ft": 0.06,
+                "mw": 0.08,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "M4A1-S",
+            "skin": "Wash me plz",
+            "item_id": "armory_overpass_2024_m4a1_s_wash_me_plz",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFS4_ega6F_H_iKMWiGxPxmsfJ6cC28mhkrtgKIzo6oMhTLN1F4Tox1TLUNthHuxtbuZejntAzWjNlNmX6rjylJuyhp6-kLBKt38vKFiFuUL_Rjtk_8Ljjf",
+            "market_price": 0.11,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.12,
+                "fn": 0.43,
+                "ft": 0.11,
+                "mw": 0.15,
+                "ww": 0.14
+              }
+            }
+          },
+          {
+            "weapon": "MP5-SD",
+            "skin": "Neon Squeezer",
+            "item_id": "armory_overpass_2024_mp5_sd_neon_squeezer",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsPz-R1I_82hfqF_MPGAHViAwOd4pN55SieMmxgovQKIn4vwNCaJPAN2DZJ2Te9Y50a-wYW1Menh41fZi9oRni6sii1P6idu4usHUqUi87qX0V_tTvsQDw",
+            "market_price": 0.13,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "ft": 0.13,
+                "ww": 0.07
+              }
+            },
+            "wear_tiers": [
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Negev",
+            "skin": "Wall Bang",
+            "item_id": "armory_overpass_2024_negev_wall_bang",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_m5Hl6x1Y-s2hfqF_MPGAHViX0-9wj-9sSCylqhEutDWR1Iv6cyiSZgcnWZp4F7Fe4Ba9kIHnZe7i4g2Lj4xFzS_3iC9A7C1p6-gcEf1yfzRcjE8",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 1.09,
+                "ft": 0.07,
+                "mw": 0.13,
+                "ww": 0.05
+              }
+            }
+          },
+          {
+            "weapon": "P90",
+            "skin": "Wash me",
+            "item_id": "armory_overpass_2024_p90_wash_me",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhx8bf7jJk4OSrerRsM-OsCmifxeJzj_FlWiSMmRQguynLz9qsdn6UZw4gDZUlEbNfthiwkNXlY7u05gDX3YlMnC2rjCwfuyhr4PFCD_Qqz45uYg",
+            "market_price": 0.05,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 0.19,
+                "ft": 0.05,
+                "mw": 0.08,
+                "ww": 0.06
+              }
+            }
+          }
+        ],
+        "mil_spec": [
+          {
+            "weapon": "Galil AR",
+            "skin": "Metallic Squeezer",
+            "item_id": "armory_overpass_2024_galil_ar_metallic_squeezer",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0OG-V6t7JeKDD3SD_v53ue99cDm2myIqtimElrD1KCzPKhh1W5N4EeQJ4ELuwNXgYu3r7gHe2ItExC_3hitL6C1o6-sEB6J0q_eBkUifZqkJVocB",
+            "market_price": 0.23,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.22,
+                "fn": 1.14,
+                "ft": 0.23,
+                "mw": 0.49,
+                "ww": 0.24
+              }
+            }
+          },
+          {
+            "weapon": "Glock-18",
+            "skin": "Teal Graf",
+            "item_id": "armory_overpass_2024_glock_18_teal_graf",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1T9s2hfqF_MPGAHViEwOlxteVWWyyymSIrujqNjsGueXyfaVN0X5N5Ru4O5he_k9XkM-7ltlPe2YJExX2tiXlN5yo6474LT-N7rZcNkc7T",
+            "market_price": 0.27,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.31,
+                "fn": 0.86,
+                "ft": 0.27,
+                "mw": 0.37,
+                "ww": 0.27
+              }
+            }
+          },
+          {
+            "weapon": "MAC-10",
+            "skin": "Pipsqueak",
+            "item_id": "armory_overpass_2024_mac_10_pipsqueak",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1Y-s2hfqF_MPGAHViD0PtzsepWQiiwxE0YvzSCkpu3eXiQOlMkDpAhEeELuhi8x9DmM-uw4VCL2YlAzSn223tL7idp67wDUL1lpPNy-DeiVw",
+            "market_price": 0.34,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.27,
+                "fn": 3.94,
+                "ft": 0.34,
+                "mw": 1.28,
+                "ww": 0.29
+              }
+            }
+          },
+          {
+            "weapon": "Nova",
+            "skin": "Wurst Hölle",
+            "item_id": "armory_overpass_2024_nova_wurst_h_lle",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwiFO0P24bbZ9IeOAMXCF0_1ij-9mWSiMmRQguynLytutd33BbgV1DpdwEOYC5hSwwNPjYr_ksVHdjotGxH742yNL5yk6sfFCD_SvUSZNdg",
+            "market_price": 0.31,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.27,
+                "fn": 2.67,
+                "ft": 0.31,
+                "mw": 0.77,
+                "ww": 0.28
+              }
+            }
+          }
+        ],
+        "restricted": [
+          {
+            "weapon": "AUG",
+            "skin": "Eye of Zapems",
+            "item_id": "armory_overpass_2024_aug_eye_of_zapems",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_jdk4OSrerRsM-OsCXWRx9F3peZWQyC0nQlp6m7WyNescHuQOlIiXMd3F7UMtxfuwdSxMunh5waMjdhAzSutj3hBvTErvbhjFS7Ncw",
+            "market_price": 2.53,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.18,
+                "fn": 10.91,
+                "ft": 2.53,
+                "mw": 4.73,
+                "ww": 2.44
+              }
+            }
+          },
+          {
+            "weapon": "Dual Berettas",
+            "skin": "Sweet Little Angels",
+            "item_id": "armory_overpass_2024_dual_berettas_sweet_little_angels",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL0kp_0-B1Y-s2hfqF_MPGAHViSwOxvj-V8TiW6kA4YvzSCkpu3dHrEag8oCMd2EeMCtRa5xIbkZuuxtVbb2IhHz3_7hywavH1s6-lTB71lpPNncouquQ",
+            "market_price": 2.6,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.07,
+                "fn": 12.32,
+                "ft": 2.6,
+                "mw": 5.81,
+                "ww": 2.4
+              }
+            }
+          },
+          {
+            "weapon": "XM1014",
+            "skin": "Monster Melt",
+            "item_id": "armory_overpass_2024_xm1014_monster_melt",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk7OeRZ7JoMuCSHXSvzOF4o_VsXTqMjRAYvzSCkpu3JXqTOg8gDcYhROQDsxPux9bjYezm5waM2YlGnHn22y1BuiY45ewCBL1lpPOtgL12Pw",
+            "market_price": 2.89,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.09,
+                "fn": 9.51,
+                "ft": 2.89,
+                "mw": 4.64,
+                "ww": 2.6
+              }
+            }
+          }
+        ],
+        "classified": [
+          {
+            "weapon": "AWP",
+            "skin": "Crakow!",
+            "item_id": "armory_overpass_2024_awp_crakow",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_jdk4OSrerRsM-OsDXWRyuFhj-B-Xxa_nBovp3OAyd34cC2VOgUoCZYmF7UCthm_kdGyMry05wHa3t0XxH_23XhP7y9q_a9cBncOjtH9",
+            "market_price": 31.28,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 22.52,
+                "fn": 117.55,
+                "ft": 31.28,
+                "mw": 57.07,
+                "ww": 23.31
+              }
+            }
+          },
+          {
+            "weapon": "Zeus x27",
+            "skin": "Dragon Snore",
+            "item_id": "armory_overpass_2024_zeus_x27_dragon_snore",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLln4Xl7x1Y-s2hfqF_MPGAHViU0-9xv-9WVSymhiIrujqNjsH6dH7FOA8pXJZ0Q-MPshe-lte0Pu6z7lbXio5GmSv83yNJ73k54rlWT-N7rWv6YDXa",
+            "market_price": 15.2,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 12.31,
+                "fn": 61.82,
+                "ft": 15.2,
+                "mw": 31.04,
+                "ww": 13.12
+              }
+            }
+          }
+        ],
+        "covert": [
+          {
+            "weapon": "AK-47",
+            "skin": "B the Monster",
+            "item_id": "armory_overpass_2024_ak_47_b_the_monster",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0P24bbZ9IeOAMWqfz_1itfNWTiLnwiIrujqNjsGocC6QPQNyA8FxReZYtEHrw4ezMe_nsgbWjYIXni782ipA5yxv5OkET-N7rajaE730",
+            "market_price": 120.54,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 68.86,
+                "fn": 568.87,
+                "ft": 120.54,
+                "mw": 216.74,
+                "ww": 123.33
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "armory_sport_field",
+      "name": "The Sport & Field Collection",
+      "release_date": "2024-10-02",
+      "status": "retired",
+      "type": "armory_collection",
+      "armory_kind": "weapon_collection",
+      "credits": 4,
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 1.6,
+      "rarity_weights": {
+        "industrial_grade": 79.92,
+        "mil_spec": 15.98,
+        "restricted": 3.2,
+        "classified": 0.64,
+        "covert": 0.26
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [
+          {
+            "weapon": "AK-47",
+            "skin": "Olive Polycam",
+            "item_id": "armory_sport_field_ak_47_olive_polycam",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wipP0OKhZL1SI_GeAViRyrohj-1gSCGn201-4G7dyo2oeXORaAIpCcFwTeEK4ELskNa0NeKxtVTXiItDySms3XxXrnE8JD9gyYo",
+            "market_price": 0.13,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.14,
+                "fn": 0.53,
+                "ft": 0.13,
+                "mw": 0.17,
+                "ww": 0.16
+              }
+            }
+          },
+          {
+            "weapon": "PP-Bizon",
+            "skin": "Cold Cell",
+            "item_id": "armory_sport_field_pp_bizon_cold_cell",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzl4zv8x1I_825abxSMuWRMWWZ2-F4j-1gSCGn2x4i5G3Wytb6dH6RPAByA5tzFOQNsBK9m4K2Nrnm4lfW2t4Rny_53SNXrnE84jRZ-LA",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 0.17,
+                "ft": 0.07,
+                "mw": 0.08,
+                "ww": 0.12
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft",
+              "ww"
+            ]
+          },
+          {
+            "weapon": "FAMAS",
+            "skin": "Half Sleeve",
+            "item_id": "armory_sport_field_famas_half_sleeve",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1c_M2paaloIuKWCliWwON3o95lRi67gVN35TyBy42pcS6ROAUkWJJ3FOMK50TswNzjPuPh71fYjYoWmX_33CtB8G81tAX5qatv",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.07,
+                "fn": 0.95,
+                "ft": 0.07,
+                "mw": 0.14,
+                "ww": 0.08
+              }
+            }
+          },
+          {
+            "weapon": "MAG-7",
+            "skin": "Wildwood",
+            "item_id": "armory_sport_field_mag_7_wildwood",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5G3wjFU7PqRf61hJOecAWOvzO9x595lRi67gVN36mzTw9v8cnyRaAZ1XMB2E7MPtkS-lYK2YuOx7gTd3dlDziSqjixB8G81tBJWeXuA",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.07,
+                "fn": 0.28,
+                "ft": 0.06,
+                "mw": 0.09,
+                "ww": 0.08
+              }
+            }
+          },
+          {
+            "weapon": "MP5-SD",
+            "skin": "Savannah Halftone",
+            "item_id": "armory_sport_field_mp5_sd_savannah_halftone",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsPz-R1T-82sZLF_H_OSA2ivzP4jo-VWQiy3nAgq_TjTyN6qICqTPVRzCZN4Q7EKsES6xtDlMb7gsQXb3oxHzHj32HtJ73p1o7FV_MEGTHA",
+            "market_price": 0.13,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.07,
+                "ft": 0.13,
+                "ww": 0.08
+              }
+            },
+            "wear_tiers": [
+              "ft",
+              "ww",
+              "bs"
+            ]
+          },
+          {
+            "weapon": "Tec-9",
+            "skin": "Tiger Stencil",
+            "item_id": "armory_sport_field_tec_9_tiger_stencil",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wjFU7PqRfK1qJeKsHXOVz-1_vN59SirqqhEutDWR1Nr9cHKVPwRzCJsmROMC5haxldLnMLjk51fdgthNxST4iiJJuis55uccEf1yksXdoWw",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.08,
+                "fn": 0.22,
+                "ft": 0.06,
+                "mw": 0.08,
+                "ww": 0.12
+              }
+            }
+          }
+        ],
+        "mil_spec": [
+          {
+            "weapon": "Nova",
+            "skin": "Yorkshire",
+            "item_id": "armory_sport_field_nova_yorkshire",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwiVI0OCneLRhJc-dAXGR_uJ_t-l9AXHqx0l0526Bwtz7IHzDaFJxDsAhRbQDuxPtltTiYe234g3fg4xEzH7gznQe4s_Y0gw",
+            "market_price": 0.38,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.36,
+                "fn": 2.23,
+                "ft": 0.38,
+                "mw": 0.59,
+                "ww": 0.36
+              }
+            }
+          },
+          {
+            "weapon": "P250",
+            "skin": "Small Game",
+            "item_id": "armory_sport_field_p250_small_game",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwjFU7PqRYLFjNPWBMWWcwPRzj_E7GnmMmRQguynLzdv4JCrGalRzCpZzQLUD5BG5wdPkZuqx51OLjt4Uyiv52CJL6ipssfFCD_QcHDx_gA",
+            "market_price": 0.37,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.37,
+                "fn": 1.05,
+                "ft": 0.37,
+                "mw": 0.5,
+                "ww": 0.38
+              }
+            }
+          },
+          {
+            "weapon": "SSG 08",
+            "skin": "Zeno",
+            "item_id": "armory_sport_field_ssg_08_zeno",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLijZGwpR1c_PGmV75oLv-sHXSXkbZJvOhuRz39xhkitW-Hzduvc3zEPQJxWZMhR7NZ4xOwm9DjN7mx41GM2IoUzSmsijQJsHibvaeasA",
+            "market_price": 0.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.41,
+                "fn": 1.71,
+                "ft": 0.41,
+                "mw": 0.77,
+                "ww": 0.39
+              }
+            }
+          },
+          {
+            "weapon": "USP-S",
+            "skin": "Alpine Camo",
+            "item_id": "armory_sport_field_usp_s_alpine_camo",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkjYbf7itX6vytbbZSJ-OQBliS0-dxuPVWTCi-miIyoC26lob-KT-JaVIpXpRxFuIMtRe4x9PjYrni7wfejYpFnn3-jCNB6C4_5u4FU6It8rqX0V8gYmZtWA",
+            "market_price": 0.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.42,
+                "fn": 1.93,
+                "ft": 0.41,
+                "mw": 0.72,
+                "ww": 0.46
+              }
+            }
+          }
+        ],
+        "restricted": [
+          {
+            "weapon": "Five-SeveN",
+            "skin": "Heat Treated",
+            "item_id": "armory_sport_field_five_seven_heat_treated",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRabVSI_GAC1iYwPxyte9sSxa1nAsioDiTn4HGLSLANkI-D5pxEbIDu0btkoXlNuO24wDZ2YhDmH7923tI7ClrsblWAqMj-KPRiBaBb-NawNZy0w",
+            "market_price": 3.27,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 3.4,
+                "fn": 27.51,
+                "ft": 3.27,
+                "mw": 4.23,
+                "ww": 3.42
+              }
+            }
+          },
+          {
+            "weapon": "MP9",
+            "skin": "Arctic Tri-Tone",
+            "item_id": "armory_sport_field_mp9_arctic_tri_tone",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8js_f-jFk7uCtfK1uH_2DV1icyOl-pK86HHrrwE5ztWSGydv_eCifOAF2DMB5Fu5etEK9lt3hMuLh5gWPitgX02yg2dKG9WA-",
+            "market_price": 3.11,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 3.09,
+                "fn": 8.34,
+                "ft": 3.11,
+                "mw": 4.73,
+                "ww": 3.25
+              }
+            }
+          },
+          {
+            "weapon": "UMP-45",
+            "skin": "Crimson Foil",
+            "item_id": "armory_sport_field_ump_45_crimson_foil",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkk4a0qB1c_PGmV7d9L-KHMXKd0bojj-1gSCGn20V2tm_Sn9irdX3EZwUkA5B1R-IL5Ebsk9O2MOni4AKIgogUmH333SlXrnE8E6oIYXY",
+            "market_price": 3.02,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 3.22,
+                "fn": 6.2,
+                "ft": 3.02,
+                "mw": 3.2,
+                "ww": 3.2
+              }
+            }
+          }
+        ],
+        "classified": [
+          {
+            "weapon": "Galil AR",
+            "skin": "Rainbow Spoon",
+            "item_id": "armory_sport_field_galil_ar_rainbow_spoon",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0PO_V7BkNPGdB3Kd_vx3ue9rQD6MkhwrujGEiLD1KCzPKhhxCMclQeAPtUK-xoWxPrvkslOKg4tHzXn-3Xsbvyo647sLVqoh_6XekUifZrx5Pjj5",
+            "market_price": 29.24,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 29.5,
+                "fn": 39.24,
+                "ft": 29.24,
+                "mw": 30.99,
+                "ww": 30.15
+              }
+            }
+          },
+          {
+            "weapon": "Glock-18",
+            "skin": "AXIA",
+            "item_id": "armory_sport_field_glock_18_axia",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1c_PGmV6V1KfGsCWufwuVJvOhuRz39lh93sDmDytj6InjCaQ52ApF1EeIMuxC9wNPmNe3k7wLfjIJGm32o2zQJsHgd3ZW3tg",
+            "market_price": 29.27,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 30.91,
+                "fn": 73.56,
+                "ft": 29.27,
+                "mw": 32.31,
+                "ww": 29.17
+              }
+            }
+          }
+        ],
+        "covert": [
+          {
+            "weapon": "M4A1-S",
+            "skin": "Fade",
+            "item_id": "armory_sport_field_m4a1_s_fade",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFS4_ega6F_H_GSMWGRxetJvbVoHjqMmRQguynLm92pci2WagEkC5Z5Q7VetkbukIXjNrnm5QPbjt8WxS-vii4b5i5v4fFCD_TfxF4xWg",
+            "market_price": 262.28,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 262.28,
+                "mw": 324.38
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "armory_train_2025",
+      "name": "The Train 2025 Collection",
+      "release_date": "2025-03-31",
+      "status": "retired",
+      "type": "armory_collection",
+      "armory_kind": "weapon_collection",
+      "credits": 4,
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 1.6,
+      "rarity_weights": {
+        "industrial_grade": 79.92,
+        "mil_spec": 15.98,
+        "restricted": 3.2,
+        "classified": 0.64,
+        "covert": 0.26
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [
+          {
+            "weapon": "AUG",
+            "skin": "Steel Sentinel",
+            "item_id": "armory_train_2025_aug_steel_sentinel",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_Ddc0PGhZKBSM_WdGm6exOJJvOhuRz39xRsltT6Hw92peX6SaAYpX8RwFuFf5BPuktLiZuKztVTYid9GyCqtiTQJsHi4iDvrNw",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 1.95,
+                "ft": 0.07,
+                "mw": 0.18,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "CZ75-Auto",
+            "skin": "Copper Fiber",
+            "item_id": "armory_train_2025_cz75_auto_copper_fiber",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLyhMG1_B1a4s2tabZvL_6sCG6SxPxJs_s-Gha_nBovp3OEzIn8c3qUagUiD5p0FuILtUKxm4e2Mrzms1baiIpCyiiqhi1J6yxo_a9cBnTQQcTV",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 0.37,
+                "ft": 0.06,
+                "mw": 0.09,
+                "ww": 0.07
+              }
+            }
+          },
+          {
+            "weapon": "Galil AR",
+            "skin": "Green Apple",
+            "item_id": "armory_train_2025_galil_ar_green_apple",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0OGhV6N_JfWdMWuZxuZi_rI5H3_iwR9_4GSHmNuhcinDPQQgWZd5QLEJuka6koK1Mu6z7wDf2YhbjXKp2JcVlJI",
+            "market_price": 0.1,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 0.34,
+                "ft": 0.1,
+                "mw": 0.12
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "Nova",
+            "skin": "Rain Station",
+            "item_id": "armory_train_2025_nova_rain_station",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwjZJ7vugV7dlIeCWHVjAkNF6ueZhW2ewkUhysW6AzIqvdH2eOFQpC5ZzQeNc5kG8wNeyNL-w4wbfjNgRzn78kGoXuS8lQPk9",
+            "market_price": 0.05,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 0.21,
+                "ft": 0.05,
+                "mw": 0.06
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "P250",
+            "skin": "Constructivist",
+            "item_id": "armory_train_2025_p250_constructivist",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwiBJ-uavZK1-NM-SHGSYyPpzs_V8XSyMmRQguynLn974cXzGPAYgXpV4F-4NtRK6l4LkP7i35lSIgt1Nny6thnhA7SdtsPFCD_QCdWsc4g",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "fn": 0.22,
+                "ft": 0.06,
+                "mw": 0.07
+              }
+            },
+            "wear_tiers": [
+              "fn",
+              "mw",
+              "ft"
+            ]
+          },
+          {
+            "weapon": "P90",
+            "skin": "Straight Dimes",
+            "item_id": "armory_train_2025_p90_straight_dimes",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhx8bf7XsL0OG6baFhI-KSCHOvzedxuPUnTSy3zE5w5zzXzIqodXmfbFIgCMd3ELIDskawwNXgZrvq4gDWjdpByjK-0H2Y7GSoBg",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 1.71,
+                "ft": 0.06,
+                "mw": 0.15,
+                "ww": 0.06
+              }
+            }
+          }
+        ],
+        "mil_spec": [
+          {
+            "weapon": "FAMAS",
+            "skin": "2A2F",
+            "item_id": "armory_train_2025_famas_2a2f",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1c_M26eqVkLs-QD3Wvx-97sfJWQyC0nQlptWiEnt6odXLCagcgDpB2QO4PsBmxkoHvPu7ktlff399Cmy7_jyMa5jErvbgLXw1DVg",
+            "market_price": 0.27,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.23,
+                "fn": 5.63,
+                "ft": 0.27,
+                "mw": 1.25,
+                "ww": 0.25
+              }
+            }
+          },
+          {
+            "weapon": "Glock-18",
+            "skin": "Green Line",
+            "item_id": "armory_train_2025_glock_18_green_line",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1c4_2tY5t5MvGaAFiX0-tzvt5lRi67gVNw5TjSy4mseXqXagEpW8FyQu5cu0Hpw4ayNLjntFeNgoJEnyWqjCNN8G81tF3dwatE",
+            "market_price": 0.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.29,
+                "fn": 12.83,
+                "ft": 0.41,
+                "mw": 1.5,
+                "ww": 0.3
+              }
+            }
+          },
+          {
+            "weapon": "UMP-45",
+            "skin": "Late Night Transit",
+            "item_id": "armory_train_2025_ump_45_late_night_transit",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkk4a0qB1O4uKRfLZsLuOaGlicyOl-pK84GnHkkR935D-EyY2sdymXZlAhXJUmRbQD4BDumtbiMLjhtAzWg45A02yg2WS1GQky",
+            "market_price": 0.34,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.23,
+                "fn": 4.57,
+                "ft": 0.34,
+                "mw": 1,
+                "ww": 0.25
+              }
+            }
+          },
+          {
+            "weapon": "XM1014",
+            "skin": "Run Run Run",
+            "item_id": "armory_train_2025_xm1014_run_run_run",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk9___OPU5H_aBC26XyfpJvOhuRz39xkh_5DjRmYr8IHyXZlIjX8NxQrQJ4xSxk9flZL-0sgOIi4NGySishjQJsHhKqh3UFQ",
+            "market_price": 0.23,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.21,
+                "fn": 3.04,
+                "ft": 0.23,
+                "mw": 0.63,
+                "ww": 0.24
+              }
+            }
+          }
+        ],
+        "restricted": [
+          {
+            "weapon": "MAC-10",
+            "skin": "Derailment",
+            "item_id": "armory_train_2025_mac_10_derailment",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1W7vH_OJt5MvGaAFiT0-9luN5lRi67gVN14j6Gy9_7cSqQZw4hW5BzEeICthW6kYe1ZO_ntQ3e2olGnn-vhygY8G81tHTA36iF",
+            "market_price": 2.49,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.93,
+                "fn": 13.02,
+                "ft": 2.49,
+                "mw": 6.72,
+                "ww": 2.51
+              }
+            }
+          },
+          {
+            "weapon": "Zeus x27",
+            "skin": "Charged Up",
+            "item_id": "armory_train_2025_zeus_x27_charged_up",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLln4Xl7x1B6ue9V7d5If6XD3WU_udlo_RscCW6khUz_WXcntv8InLFbwckWJV4ReJZuxG5lNzlMb7r51bfj99EzHmsjSxA6Hl1o7FVTY6aVfU",
+            "market_price": 2.45,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.74,
+                "fn": 18.72,
+                "ft": 2.45,
+                "mw": 7.96,
+                "ww": 2.05
+              }
+            }
+          },
+          {
+            "weapon": "Tec-9",
+            "skin": "Whiteout",
+            "item_id": "armory_train_2025_tec_9_whiteout",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wjFU0OWmYbBoL-WHMXOVwrdJvOhuRz39lB9_smmDn9ugdCrCbFcnCJEmFrVcuhC4w9TgNePhsQWKiN4QzSv7hzQJsHg2FaN_Cg",
+            "market_price": 3.35,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.68,
+                "fn": 318.09,
+                "ft": 3.35,
+                "mw": 22.02,
+                "ww": 2.02
+              }
+            }
+          }
+        ],
+        "classified": [
+          {
+            "weapon": "M4A4",
+            "skin": "Hellish",
+            "item_id": "armory_train_2025_m4a4_hellish",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiFO0P_6afBSNOKSB2mvyet6vN5lRi67gVMj5W_VyNb7Ii-TPFdxCpskQOMDsEOxxNHgYb-xswKKgo8WyH2t3X9J8G81tMARX_8e",
+            "market_price": 22.98,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 13.61,
+                "fn": 183.29,
+                "ft": 22.98,
+                "mw": 52.51,
+                "ww": 16.77
+              }
+            }
+          },
+          {
+            "weapon": "MP9",
+            "skin": "Latte Rush",
+            "item_id": "armory_train_2025_mp9_latte_rush",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8js_f_jdk4uL3V6hsNOSWMWuZxuZi_rdrGCyxxER252ncw9arJC-QOAcmXsF2ROAP4RbrlNOzNbzq5VDb2YJbjXKpzLFi2t8",
+            "market_price": 15.16,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 10.23,
+                "fn": 92.28,
+                "ft": 15.16,
+                "mw": 46.4,
+                "ww": 11.66
+              }
+            }
+          }
+        ],
+        "covert": [
+          {
+            "weapon": "AWP",
+            "skin": "LongDog",
+            "item_id": "armory_train_2025_awp_longdog",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_DVL0P6hZqNpL_esAm6Xyfo44rNtFi_kxhx-4WvWnImoJ3mTblJzDJFzR-QP4EK4m9XjZbvk7lCLiZUFk3u2JoT1UA",
+            "market_price": 96.3,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 45.02,
+                "fn": 819.12,
+                "ft": 96.3,
+                "mw": 229.03,
+                "ww": 50.28
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "armory_spy_tech",
+      "name": "The Spy Tech Collection",
+      "release_date": "2026-07-08",
+      "status": "active",
+      "type": "armory_collection",
+      "armory_kind": "weapon_collection",
+      "credits": 4,
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 1.6,
+      "rarity_weights": {
+        "industrial_grade": 79.92,
+        "mil_spec": 15.98,
+        "restricted": 3.2,
+        "classified": 0.64,
+        "covert": 0.26
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [
+          {
+            "weapon": "FAMAS",
+            "skin": "Corp Defense",
+            "item_id": "armory_spy_tech_famas_corp_defense",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1d7v-ve5tuL-KDMWOVx-t4o-RWQyC0nQlptTmHzdugcn2eawN1DcAlEOID40WwlYe2P-Pg5FHW2d5ExXn-iHgY5zErvbilsoFRgQ",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 1.37,
+                "ft": 0.06,
+                "mw": 0.21,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "MAC-10",
+            "skin": "Video Cam",
+            "item_id": "armory_spy_tech_mac_10_video_cam",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1W7vH_OJt7KfSWAViTwONJvOhuRz39k0x35znVn4mpJ3jDPA8pA8Z5Q-MDsxS_wYfmNbmz5gPWg91CzH6s2jQJsHjmUvUpYw",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 1.96,
+                "ft": 0.07,
+                "mw": 0.19,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "MP7",
+            "skin": "Base-2",
+            "item_id": "armory_spy_tech_mp7_base_2",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsHf8DIM0PCnZqV_Oc-UHGKVz9F6ueZhW2e2wUtwsmrVw46hJS3EaVAgX8RxRuVf4Ebum9TiYbiz5gaIiYgXmCv6kGoXuanNFq47",
+            "market_price": 0.08,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.07,
+                "fn": 0.93,
+                "ft": 0.08,
+                "mw": 0.15,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "SCAR-20",
+            "skin": "Arctic Camo Panels",
+            "item_id": "armory_spy_tech_scar_20_arctic_camo_panels",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk_PGveptsMvOHB2Svwu97v955Tie2mQ4YvzSCkpu3IHOfawciX5R3TeNbtxe8loe1Yb_i5gHWgtlDyXiq23hK7Xxu474GWL1lpPPmdgoMFA",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.03,
+                "fn": 0.89,
+                "ft": 0.07,
+                "mw": 0.15,
+                "ww": 0.05
+              }
+            }
+          },
+          {
+            "weapon": "Tec-9",
+            "skin": "Perimeter",
+            "item_id": "armory_spy_tech_tec_9_perimeter",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wjZe7KuReKF_Kf2WGmKC_vtksuBncCW6khUz_TuAyt2pIi2QOwUmDpQkQrUPsxXpltbiYu_q4FTagogWzCr733hN7i51o7FVdi1Ybqo",
+            "market_price": 0.08,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 0.89,
+                "ft": 0.08,
+                "mw": 0.15,
+                "ww": 0.05
+              }
+            }
+          },
+          {
+            "weapon": "XM1014",
+            "skin": "Black Site",
+            "item_id": "armory_spy_tech_xm1014_black_site",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk9___OPU5H_KfD2Sb_v1_pORWQyC0nQlp62vVyNaoJ3mQPQIpXMF5RrZbtkPplNO0Nrnq41DXjY0XzHit33xP6jErvbixAmOk-w",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 0.87,
+                "ft": 0.06,
+                "mw": 0.16,
+                "ww": 0.06
+              }
+            }
+          }
+        ],
+        "mil_spec": [
+          {
+            "weapon": "AUG",
+            "skin": "Signal Scanner",
+            "item_id": "armory_spy_tech_aug_signal_scanner",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_Ddc0PWmZ7d5H-OaCWmRzdF6ueZhW2exw0gj5jvXmNv9dirDbAN0ApIiROcJ5Ea9m9ezZLvm41fe3Y5Em379kGoXubvUs0-D",
+            "market_price": 0.44,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.33,
+                "fn": 3.13,
+                "ft": 0.44,
+                "mw": 1,
+                "ww": 0.34
+              }
+            }
+          },
+          {
+            "weapon": "M4A4",
+            "skin": "Dark Operative",
+            "item_id": "armory_spy_tech_m4a4_dark_operative",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwi8P7qaRaqhsI_usHW6UxNF7sfV9Sha_nBovp3ODn4qtdn2RbAN1A8chTOVZuxK5lNDnNerj5Qfc2N0Wznj_h38dvC0__a9cBqB1kqb_",
+            "market_price": 0.59,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.29,
+                "fn": 9.27,
+                "ft": 0.59,
+                "mw": 1.99,
+                "ww": 0.34
+              }
+            }
+          },
+          {
+            "weapon": "MP9",
+            "skin": "Spy Prototype",
+            "item_id": "armory_spy_tech_mp9_spy_prototype",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8js_f8DIC0OK8Z7BiNOmDC1iV2fpzvuVsSxa_nBovp3PWyYv6eS_DZwEnWJFwQ7UNshS5wYfuZbu35QzW3t0Qzin22yhB7yxt_a9cBlomdbFW",
+            "market_price": 0.44,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.29,
+                "fn": 3.06,
+                "ft": 0.44,
+                "mw": 0.99,
+                "ww": 0.34
+              }
+            }
+          },
+          {
+            "weapon": "R8 Revolver",
+            "skin": "Monarch",
+            "item_id": "armory_spy_tech_r8_revolver_monarch",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLjm4Dv8TRe_c28MJtgL_6SHGSY_utupORnSyy3qhEutDWR1Nb7dnvBOFApWZp4RrQM4UO_ldOzZOKx7gDdiYhCyyz23ytK7ihu67ocEf1ygxNUTvE",
+            "market_price": 0.45,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.29,
+                "fn": 2.69,
+                "ft": 0.45,
+                "mw": 0.95,
+                "ww": 0.34
+              }
+            }
+          }
+        ],
+        "restricted": [
+          {
+            "weapon": "AWP",
+            "skin": "Black Box",
+            "item_id": "armory_spy_tech_awp_black_box",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_DVL0PCiaadmH_KcFlicyOl-pK9tSXjikEgk6z-Ey9j9JXLDbFMhD8N4ELQJ5BLrk93hM-6ztg3WiI5E02yg2W_lAA_2",
+            "market_price": 6.36,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 3.54,
+                "fn": 34.26,
+                "ft": 6.36,
+                "mw": 13.54,
+                "ww": 4.62
+              }
+            }
+          },
+          {
+            "weapon": "CZ75-Auto",
+            "skin": "Hydraulics",
+            "item_id": "armory_spy_tech_cz75_auto_hydraulics",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLyhMG1_B1Y9aX7V6x0JOKSG2uZwv1JvOhuRz39kE135DzRyN2hIHyea1AkA8BwTOYJ4RG6kNzlZOm0sgXX2doRmS6riTQJsHilInmzoA",
+            "market_price": 3.76,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.67,
+                "fn": 13.17,
+                "ft": 3.76,
+                "mw": 6.6,
+                "ww": 2.77
+              }
+            }
+          },
+          {
+            "weapon": "Nova",
+            "skin": "Smart Gun",
+            "item_id": "armory_spy_tech_nova_smart_gun",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwixU-fORe6lsMuSsAm6Xyfo44OI_G3vhkEUi5W_dw46reXiWbAZzWcN3E-QM5BDul9HiNevkswLeipUFk3v5u-E4uw",
+            "market_price": 4.71,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.84,
+                "fn": 13.33,
+                "ft": 4.71,
+                "mw": 6.67,
+                "ww": 2.8
+              }
+            }
+          }
+        ],
+        "classified": [
+          {
+            "weapon": "M4A1-S",
+            "skin": "Fatal Glitch",
+            "item_id": "armory_spy_tech_m4a1_s_fatal_glitch",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFS4_ega6F_H_iKC1iD0fdxvOh9TCGMkg8itjO6l9v4cDj4Ml93UtZuQ-4P4xS4kNyxMLvrsgeMiY8QmXj5i39BvSZosetUVPAj-PCGig7IYKp9v8fxFF6Big",
+            "market_price": 27.85,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 20.96,
+                "fn": 130,
+                "ft": 27.85,
+                "mw": 58.04,
+                "ww": 21.3
+              }
+            }
+          },
+          {
+            "weapon": "USP-S",
+            "skin": "Spiral Glitch",
+            "item_id": "armory_spy_tech_usp_s_spiral_glitch",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkjYbf7itX6vytbbZSNeODHViD0edkse1WSCW6gR4vjDSXk4v8MijCMEJPVssnHaMUskG4ltXvPr7j7lTfjo4QyS762Coa7y5u5rsCV6NwrKfTjlySMOFstY5DeqjJbNurDA",
+            "market_price": 30.17,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 20.55,
+                "fn": 109.06,
+                "ft": 30.17,
+                "mw": 53.25,
+                "ww": 22.22
+              }
+            }
+          }
+        ],
+        "covert": [
+          {
+            "weapon": "AK-47",
+            "skin": "AUTOEXEC",
+            "item_id": "armory_spy_tech_ak_47_autoexec",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiNQu6WRabF5L_WLC2Svwu97v95lRi67gVN16mzSwtigdn2QPAElXpskQOQIthC8xIXiM-7k4gHfgoMWySyo2y4b8G81tI8PUinm",
+            "market_price": 232.03,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 106.87,
+                "fn": 1068.63,
+                "ft": 232.03,
+                "mw": 394.48,
+                "ww": 115.33
+              }
+            }
+          },
+          {
+            "weapon": "Glock-18",
+            "skin": "Ghost Protocol",
+            "item_id": "armory_spy_tech_glock_18_ghost_protocol",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1c4_2tY5tqKP-AGliA0-Fiv-JmQxahkBkYvzSCkpu3cinCaAAoD8AiEbVftRTrktCyNLi3sVTei4pAznj92ikY6Xk9t-cCBL1lpPO4SDexIA",
+            "market_price": 220.44,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 164.17,
+                "fn": 737.19,
+                "ft": 220.44,
+                "mw": 348.08,
+                "ww": 195.53
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "armory_arabesque",
+      "name": "The Arabesque Collection",
+      "release_date": "2026-07-08",
+      "status": "active",
+      "type": "armory_collection",
+      "armory_kind": "weapon_collection",
+      "credits": 4,
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 1.6,
+      "rarity_weights": {
+        "industrial_grade": 79.92,
+        "mil_spec": 15.98,
+        "restricted": 3.2,
+        "classified": 0.64,
+        "covert": 0.26
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [
+          {
+            "weapon": "PP-Bizon",
+            "skin": "Traitor",
+            "item_id": "armory_arabesque_pp_bizon_traitor",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzl4zv8x1Z5uihZpt5MvGaGmiC_uJ_t-l9AXngxRx0sDndz9j_JXzBZlIlA5VwQbIJ5xK-kdTkM7-27lSLjd1Ay3_gznQeFjK7Fz0",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 0.68,
+                "ft": 0.07,
+                "mw": 0.15,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "Dual Berettas",
+            "skin": "Mystic Conjunction",
+            "item_id": "armory_arabesque_dual_berettas_mystic_conjunction",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL0kp_0-B1f-vOiYaF-H_2KHXOZwtF1v-9jWiewgRQovQKTybD1KCzPKhgpDptwRbEMthKwxNLgPr7rtgKPgtgTySn93CMYun5psesCAPJ3rKPekUifZhpzNWpT",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 0.72,
+                "ft": 0.07,
+                "mw": 0.14,
+                "ww": 0.05
+              }
+            }
+          },
+          {
+            "weapon": "Five-SeveN",
+            "skin": "Desert Seal",
+            "item_id": "armory_arabesque_five_seven_desert_seal",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRbq17JeOWGGKe_upzo-R7WxagkBwrjDGMnYftb3-SZgR1A5IhFLRc4xO6xoDuYuO35wLdjYpFySv4hnsf7H1s5-ZRUaI7uvqAnq2GNHw",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 0.89,
+                "ft": 0.07,
+                "mw": 0.17,
+                "ww": 0.06
+              }
+            }
+          },
+          {
+            "weapon": "MP9",
+            "skin": "Dune Asp",
+            "item_id": "armory_arabesque_mp9_dune_asp",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8js_f8DIC0Pa7ZqFSIeODMWuZxuZi_rRtTnHkx08ktm7XzdirInyeagVxCZF2FLZZt0XpltXnMeix5lCNg91bjXKp8VYwBRw",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.06,
+                "fn": 0.85,
+                "ft": 0.07,
+                "mw": 0.15,
+                "ww": 0.05
+              }
+            }
+          },
+          {
+            "weapon": "Nova",
+            "skin": "Morning Sun",
+            "item_id": "armory_arabesque_nova_morning_sun",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwixU-fORZat_LvmdCViD1OBJvOhuRz39zU504m3Vz438J3OfOlNzApMmRuUPsUHtx4G0P--351aNjYlAnnr92DQJsHiUW68buA",
+            "market_price": 0.07,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 0.72,
+                "ft": 0.07,
+                "mw": 0.17,
+                "ww": 0.05
+              }
+            }
+          },
+          {
+            "weapon": "SCAR-20",
+            "skin": "Sirocco Script",
+            "item_id": "armory_arabesque_scar_20_sirocco_script",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk_PGvept-KeKcDWSf_uJ_t-l9ASjizBsh4WnQnI37dy_DZwV0DJAlQu8CuhK8xoDgNOvgtFGMiI5AyyTgznQekxu_loc",
+            "market_price": 0.06,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.05,
+                "fn": 0.66,
+                "ft": 0.06,
+                "mw": 0.14,
+                "ww": 0.05
+              }
+            }
+          }
+        ],
+        "mil_spec": [
+          {
+            "weapon": "FAMAS",
+            "skin": "Snake Song",
+            "item_id": "armory_arabesque_famas_snake_song",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1d7v-ve5t-LvGYC1iDzuBxj-1gSCGn209w527dzdr_J3LBaAAkDZpxQuVcuhe-lNDlZbi34Qff2NlNnn73jShXrnE8Q0ZdTfQ",
+            "market_price": 0.45,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.23,
+                "fn": 4.29,
+                "ft": 0.45,
+                "mw": 1.07,
+                "ww": 0.32
+              }
+            }
+          },
+          {
+            "weapon": "MAC-10",
+            "skin": "Arabesque Mosaic",
+            "item_id": "armory_arabesque_mac_10_arabesque_mosaic",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1W7vH_OJtsMvGRC3SB1OtJt-5lSxa_nBovp3PTy4useSrFPVIoD5smFuAItES8wNTmYePitlDW34pNyH__jCpJvXtj_a9cBjf6ywwE",
+            "market_price": 0.45,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.25,
+                "fn": 4.06,
+                "ft": 0.45,
+                "mw": 1.01,
+                "ww": 0.32
+              }
+            }
+          },
+          {
+            "weapon": "Sawed-Off",
+            "skin": "Lunar Wyrm",
+            "item_id": "armory_arabesque_sawed_off_lunar_wyrm",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLin4Hl-S1d6c29abNoJP-VCFic1OB3ot5-Vju-qhEutDWR1I6hJ3yePQUmDZMkRuFbthO8x9HuNuzl51be3Y8RxX3_iygfu3pqte0cEf1ywsMSGOc",
+            "market_price": 0.41,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.23,
+                "fn": 2.49,
+                "ft": 0.41,
+                "mw": 0.99,
+                "ww": 0.32
+              }
+            }
+          },
+          {
+            "weapon": "Tec-9",
+            "skin": "Sultan",
+            "item_id": "armory_arabesque_tec_9_sultan",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wjZe7KuRe7FhNPGdMWuZxuZi_rQ9F3yykUV_42_Qytiuc32VPQMoX5EjReZfshG8kYWyPr7ks1DeiYNbjXKpvEFNuPw",
+            "market_price": 1.17,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.43,
+                "fn": 8.37,
+                "ft": 1.17,
+                "mw": 2.29,
+                "ww": 0.63
+              }
+            }
+          }
+        ],
+        "restricted": [
+          {
+            "weapon": "AUG",
+            "skin": "Lapis Lazuli",
+            "item_id": "armory_arabesque_aug_lapis_lazuli",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_Ddc0P6veK1-H_ySFHKcyNF6ueZhW2frwkUi426Dw9asIHuSbQZxA5VyQ-MPsxjtkNexMOnk4QCL2YxByCn5kGoXuRkVR5wo",
+            "market_price": 3.7,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.32,
+                "fn": 19.93,
+                "ft": 3.7,
+                "mw": 8.42,
+                "ww": 2.67
+              }
+            }
+          },
+          {
+            "weapon": "Glock-18",
+            "skin": "Ifrit Lattice",
+            "item_id": "armory_arabesque_glock_18_ifrit_lattice",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2kpnj9h1c4_2tY5tkJuKaGlicwPpiueJscCW6khUz_WrdzI37InjBawYlCpIlQO9e40W_ktWzY-zltQPW2I9CmyX83XlJ5id1o7FVZ8jkHbM",
+            "market_price": 3.77,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.35,
+                "fn": 16.87,
+                "ft": 3.77,
+                "mw": 7.79,
+                "ww": 2.63
+              }
+            }
+          },
+          {
+            "weapon": "P250",
+            "skin": "Lotus Imprint",
+            "item_id": "armory_arabesque_p250_lotus_imprint",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwjIJuqKRZKt5NeOsB2qA0-d4pN5uQyCngRg1jC2QiJ_1JBTLN1F4ToxzF7ZeukbulYDhZu3h7gCPi4hCnHir2CJPvyds4rsDUvF0_KeBjwnJL_RjtsYiHzcf",
+            "market_price": 3.81,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 2.05,
+                "fn": 17.22,
+                "ft": 3.81,
+                "mw": 8.18,
+                "ww": 2.73
+              }
+            }
+          }
+        ],
+        "classified": [
+          {
+            "weapon": "Desert Eagle",
+            "skin": "Eastern Enigma",
+            "item_id": "armory_arabesque_desert_eagle_eastern_enigma",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk6_evb6hoH_WSHXOV0-BJte9gSCSyqh8rpji6lob-KT-JawckWMNwRLIJu0SxltfkPuvgtVfXioNFySv92ipL6S8_sukFWaIl_bqX0V8Czprh4w",
+            "market_price": 22.02,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 16.21,
+                "fn": 99.46,
+                "ft": 22.02,
+                "mw": 44.2,
+                "ww": 17.11
+              }
+            }
+          },
+          {
+            "weapon": "M4A4",
+            "skin": "Falak",
+            "item_id": "armory_arabesque_m4a4_falak",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwi8P7qaRbqVhIfusAm6Xyfo44rc-GX21zU515mzVzYypIHvEa1IkCMYlQu4NukTqx9DhZLux4FbejZUFk3sZOZxOsw",
+            "market_price": 34.8,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 16.1,
+                "fn": 181.11,
+                "ft": 34.8,
+                "mw": 90.5,
+                "ww": 18.06
+              }
+            }
+          }
+        ],
+        "covert": [
+          {
+            "weapon": "AK-47",
+            "skin": "Consequence of the Jinn",
+            "item_id": "armory_arabesque_ak_47_consequence_of_the_jinn",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiNQu6WRYq1jLs-QAWmDxP9jte9qSha_nBovp3OHm9v6IHuTOgYiA5ZzE-Bb40O6loK2MeLnswff2ogRyS732ywduyc4_a9cBtOamUv2",
+            "market_price": 186.56,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 95,
+                "fn": 852.63,
+                "ft": 186.56,
+                "mw": 323.51,
+                "ww": 108.85
+              }
+            }
+          },
+          {
+            "weapon": "AWP",
+            "skin": "Sovereign Flame",
+            "item_id": "armory_arabesque_awp_sovereign_flame",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_DVL0OGhfqF_JfmUAFiWze97td5lRi67gVNz5zvRnN-qcHKfPFcjXpUmRuILukW9ldHlNOjn5Q2PitoWmSiv3C0a8G81tAj27FZA",
+            "market_price": 156.36,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 102.01,
+                "fn": 678.9,
+                "ft": 156.36,
+                "mw": 282.92,
+                "ww": 108.82
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "armory_limited_heat_treated",
+      "name": "Desert Eagle | Heat Treated",
+      "release_date": "2024-10-02",
+      "credits": 25,
+      "status": "retired",
+      "type": "armory_limited",
+      "armory_kind": "limited_edition",
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 9.99,
+      "rarity_weights": {
+        "classified": 100
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [],
+        "mil_spec": [],
+        "restricted": [],
+        "classified": [
+          {
+            "weapon": "Desert Eagle",
+            "skin": "Heat Treated",
+            "item_id": "armory_limited_heat_treated_desert_eagle_heat_treated",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk7uORbKFsJ_yWMWSR0utJuOB7Syy9kBkY4QKJk4jxNWXGbQZ0CZpyTeBf4xO4m9y1Nuy05wHYg4lNySWr3C1Luyhu4LkKA6As5OSJ2JAJXn6j",
+            "market_price": 1.88,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.6,
+                "fn": 58.68,
+                "ft": 1.88,
+                "mw": 3.68,
+                "ww": 1.47
+              }
+            }
+          }
+        ],
+        "covert": []
+      }
+    },
+    {
+      "id": "armory_limited_xm1014_solitude",
+      "name": "XM1014 | Solitude",
+      "release_date": "2025-03-31",
+      "credits": 15,
+      "status": "retired",
+      "type": "armory_limited",
+      "armory_kind": "limited_edition",
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 6,
+      "rarity_weights": {
+        "restricted": 100
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [],
+        "mil_spec": [],
+        "restricted": [
+          {
+            "weapon": "XM1014",
+            "skin": "Solitude",
+            "item_id": "armory_limited_xm1014_solitude_xm1014_solitude",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk_P2tYJtgL-WdGmaZz_1JvOhkRj22kSIzujCApYPwJiPTcAAhDMN2TecI4Rbsld3jN7zr5ATc2o1CnCitj3tKu3to4e8FBaom-KXJz1aWwa05Mw8",
+            "market_price": 0.94,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 0.74,
+                "fn": 59.39,
+                "ft": 0.94,
+                "mw": 3.79,
+                "ww": 2.08
+              }
+            }
+          }
+        ],
+        "classified": [],
+        "covert": []
+      }
+    },
+    {
+      "id": "armory_limited_m4a1s_solitude",
+      "name": "M4A1-S | Solitude",
+      "release_date": "2025-08-14",
+      "credits": 25,
+      "status": "retired",
+      "type": "armory_limited",
+      "armory_kind": "limited_edition",
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 9.99,
+      "rarity_weights": {
+        "classified": 100
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [],
+        "mil_spec": [],
+        "restricted": [],
+        "classified": [
+          {
+            "weapon": "M4A1-S",
+            "skin": "Solitude",
+            "item_id": "armory_limited_m4a1s_solitude_m4a1_s_solitude",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFS4_ega6F_H-OcDW-vzOFjvvVoRiegqhBzsmyWpYPwJiPTcFIoXpslROVftRK5kYblN7zq5VbX3YtMmH_8ji5MvX1qtu1XWPFxrvLJz1aW589-peo",
+            "market_price": 2.05,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 1.57,
+                "fn": 20.03,
+                "ft": 2.05,
+                "mw": 5.29,
+                "ww": 2.15
+              }
+            }
+          }
+        ],
+        "covert": []
+      }
+    },
+    {
+      "id": "armory_limited_ak47_aphrodite",
+      "name": "AK-47 | Aphrodite",
+      "release_date": "2026-01-21",
+      "credits": 125,
+      "status": "active",
+      "type": "armory_limited",
+      "armory_kind": "limited_edition",
+      "image_url": "/assets/armory-pass.webp",
+      "market_price": 49.97,
+      "rarity_weights": {
+        "covert": 100
+      },
+      "items": {
+        "consumer_grade": [],
+        "industrial_grade": [],
+        "mil_spec": [],
+        "restricted": [],
+        "classified": [],
+        "covert": [
+          {
+            "weapon": "AK-47",
+            "skin": "Aphrodite",
+            "item_id": "armory_limited_ak47_aphrodite_ak_47_aphrodite",
+            "image_url": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiVI7PqRaa9SJPqaB2mvzedxuPUnGCi3wktzt2rRn92pdXuXbA4iDcdxQOIMsBK4k9S2Zeiw4lTdjdhNyTK-0H1wmrL4zA",
+            "market_price": 18.56,
+            "stattrak": false,
+            "market_prices": {
+              "normal": {
+                "bs": 14.28,
+                "fn": 419.11,
+                "ft": 18.56,
+                "mw": 34.78,
+                "ww": 14.17
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

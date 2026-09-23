@@ -5,9 +5,9 @@
 > Direct checks: Steam Community Market priceoverview, lowest sell listing in USD.
 > Prices are snapshots and are refreshed from Steam at runtime when an item is visible.
 > Bulk snapshot: 2026-09-12T02:36:30Z.
-> Verified at: 2026-09-22T15:21:16.755Z.
+> Verified at: 2026-09-22T23:57:04.989Z.
 
-Priced market variants: 10892. Directly refreshed entries: 158.
+Priced market variants: 11384. Directly refreshed entries: 45.
 
 | Market hash name | Steam price (USD) | Listings | Updated at | Source |
 | --- | ---: | ---: | --- | --- |
@@ -1097,10 +1097,6 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | ★ Moto Gloves \| Blood Pressure (Field-Tested) | 172.86 | 96 | 2026-09-11T22:09:50.872Z | steam-bulk |
 | ★ Moto Gloves \| Blood Pressure (Minimal Wear) | 318.09 | 28 | 2026-09-11T22:09:51.031Z | steam-bulk |
 | ★ Moto Gloves \| Blood Pressure (Well-Worn) | 165.90 | 11 | 2026-09-11T22:09:50.855Z | steam-bulk |
-| ★ Moto Gloves \| Boom! (Battle-Scarred) | 132.80 | 8 | 2026-09-11T22:09:50.754Z | steam-bulk |
-| ★ Moto Gloves \| Boom! (Field-Tested) | 835.27 | 6 | 2026-09-11T22:09:51.175Z | steam-bulk |
-| ★ Moto Gloves \| Boom! (Minimal Wear) | 890.52 | 2 | 2026-09-11T22:09:51.190Z | steam-bulk |
-| ★ Moto Gloves \| Boom! (Well-Worn) | 255.06 | 3 | 2026-09-11T22:09:50.983Z | steam-bulk |
 | ★ Moto Gloves \| Cool Mint (Battle-Scarred) | 192.05 | 6 | 2026-09-11T22:09:50.906Z | steam-bulk |
 | ★ Moto Gloves \| Cool Mint (Well-Worn) | 535.12 | 5 | 2026-09-11T22:09:51.126Z | steam-bulk |
 | ★ Moto Gloves \| Eclipse (Battle-Scarred) | 114.87 | 8 | 2026-09-11T22:09:50.702Z | steam-bulk |
@@ -3058,6 +3054,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | ★ Ursus Knife \| Urban Masked (Field-Tested) | 98.31 | 25 | 2026-09-11T22:09:50.634Z | steam-bulk |
 | ★ Ursus Knife \| Urban Masked (Minimal Wear) | 141.23 | 10 | 2026-09-11T22:09:50.787Z | steam-bulk |
 | ★ Ursus Knife \| Urban Masked (Well-Worn) | 97.08 | 11 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| AK-47 \| Aphrodite (Battle-Scarred) | 14.28 | 740 | 2026-09-11T22:09:49.708Z | steam-bulk |
+| AK-47 \| Aphrodite (Factory New) | 419.11 | 49 | 2026-09-11T22:09:51.079Z | steam-bulk |
+| AK-47 \| Aphrodite (Field-Tested) | 18.56 | 780 | 2026-09-11T22:09:49.858Z | steam-bulk |
+| AK-47 \| Aphrodite (Minimal Wear) | 34.78 | 694 | 2026-09-11T22:09:50.173Z | steam-bulk |
+| AK-47 \| Aphrodite (Well-Worn) | 14.17 | 807 | 2026-09-11T22:09:49.708Z | steam-bulk |
 | AK-47 \| Aquamarine Revenge (Battle-Scarred) | 38.88 | 47 | 2026-09-11T22:09:50.207Z | steam-bulk |
 | AK-47 \| Aquamarine Revenge (Factory New) | 266.72 | 24 | 2026-09-11T22:09:50.999Z | steam-bulk |
 | AK-47 \| Aquamarine Revenge (Field-Tested) | 48.30 | 138 | 2026-09-11T22:09:50.322Z | steam-bulk |
@@ -3068,6 +3069,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AK-47 \| Asiimov (Field-Tested) | 51.66 | 301 | 2026-09-11T22:09:50.353Z | steam-bulk |
 | AK-47 \| Asiimov (Minimal Wear) | 71.90 | 218 | 2026-09-11T22:09:50.499Z | steam-bulk |
 | AK-47 \| Asiimov (Well-Worn) | 57.29 | 28 | 2026-09-11T22:09:50.373Z | steam-bulk |
+| AK-47 \| AUTOEXEC (Battle-Scarred) | 106.87 | 20 | 2026-09-11T22:09:50.684Z | steam-bulk |
+| AK-47 \| AUTOEXEC (Factory New) | 1068.63 | 2 | 2026-09-11T22:09:51.206Z | steam-bulk |
+| AK-47 \| AUTOEXEC (Field-Tested) | 232.03 | 18 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| AK-47 \| AUTOEXEC (Minimal Wear) | 394.48 | 13 | 2026-09-11T22:09:51.063Z | steam-bulk |
+| AK-47 \| AUTOEXEC (Well-Worn) | 115.33 | 23 | 2026-09-11T22:09:50.702Z | steam-bulk |
+| AK-47 \| B the Monster (Battle-Scarred) | 68.86 | 51 | 2026-09-11T22:09:50.469Z | steam-bulk |
+| AK-47 \| B the Monster (Factory New) | 568.87 | 8 | 2026-09-11T22:09:51.126Z | steam-bulk |
+| AK-47 \| B the Monster (Field-Tested) | 120.54 | 153 | 2026-09-11T22:09:50.720Z | steam-bulk |
+| AK-47 \| B the Monster (Minimal Wear) | 216.74 | 81 | 2026-09-11T22:09:50.951Z | steam-bulk |
+| AK-47 \| B the Monster (Well-Worn) | 123.33 | 21 | 2026-09-11T22:09:50.736Z | steam-bulk |
 | AK-47 \| Bloodsport (Factory New) | 226.00 | 110 | 2026-09-11T22:09:50.966Z | steam-bulk |
 | AK-47 \| Bloodsport (Field-Tested) | 161.58 | 96 | 2026-09-11T22:09:50.840Z | steam-bulk |
 | AK-47 \| Bloodsport (Minimal Wear) | 179.00 | 65 | 2026-09-11T22:09:50.874Z | steam-bulk |
@@ -3086,11 +3097,21 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AK-47 \| Case Hardened (Field-Tested) | 289.39 | 89 | 2026-09-11T22:09:51.014Z | steam-bulk |
 | AK-47 \| Case Hardened (Minimal Wear) | 393.39 | 82 | 2026-09-11T22:09:51.063Z | steam-bulk |
 | AK-47 \| Case Hardened (Well-Worn) | 233.16 | 53 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| AK-47 \| Consequence of the Jinn (Battle-Scarred) | 95.00 | 22 | 2026-09-11T22:09:50.633Z | steam-bulk |
+| AK-47 \| Consequence of the Jinn (Factory New) | 852.63 | 10 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| AK-47 \| Consequence of the Jinn (Field-Tested) | 186.56 | 44 | 2026-09-11T22:09:50.890Z | steam-bulk |
+| AK-47 \| Consequence of the Jinn (Minimal Wear) | 323.51 | 25 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| AK-47 \| Consequence of the Jinn (Well-Worn) | 108.85 | 32 | 2026-09-11T22:09:50.684Z | steam-bulk |
 | AK-47 \| Crane Flight (Battle-Scarred) | 9.56 | 325 | 2026-09-11T22:09:49.480Z | steam-bulk |
 | AK-47 \| Crane Flight (Factory New) | 68.20 | 144 | 2026-09-11T22:09:50.468Z | steam-bulk |
 | AK-47 \| Crane Flight (Field-Tested) | 18.02 | 781 | 2026-09-11T22:09:49.842Z | steam-bulk |
 | AK-47 \| Crane Flight (Minimal Wear) | 33.36 | 604 | 2026-09-11T22:09:50.156Z | steam-bulk |
 | AK-47 \| Crane Flight (Well-Worn) | 12.94 | 419 | 2026-09-11T22:09:49.643Z | steam-bulk |
+| AK-47 \| Crossfade (Battle-Scarred) | 2.69 | 84 | 2026-09-11T22:09:48.574Z | steam-bulk |
+| AK-47 \| Crossfade (Factory New) | 6.59 | 438 | 2026-09-11T22:09:49.229Z | steam-bulk |
+| AK-47 \| Crossfade (Field-Tested) | 2.86 | 594 | 2026-09-11T22:09:48.608Z | steam-bulk |
+| AK-47 \| Crossfade (Minimal Wear) | 4.10 | 480 | 2026-09-11T22:09:48.870Z | steam-bulk |
+| AK-47 \| Crossfade (Well-Worn) | 2.87 | 108 | 2026-09-11T22:09:48.623Z | steam-bulk |
 | AK-47 \| Elite Build (Battle-Scarred) | 2.13 | 1469 | 2026-09-11T22:09:48.409Z | steam-bulk |
 | AK-47 \| Elite Build (Factory New) | 11.45 | 447 | 2026-09-11T22:09:49.593Z | steam-bulk |
 | AK-47 \| Elite Build (Field-Tested) | 2.46 | 2366 | 2026-09-11T22:09:48.510Z | steam-bulk |
@@ -3153,6 +3174,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AK-47 \| Nightwish (Field-Tested) | 95.35 | 310 | 2026-09-11T22:09:50.633Z | steam-bulk |
 | AK-47 \| Nightwish (Minimal Wear) | 96.54 | 176 | 2026-09-11T22:09:50.634Z | steam-bulk |
 | AK-47 \| Nightwish (Well-Worn) | 90.50 | 164 | 2026-09-11T22:09:50.600Z | steam-bulk |
+| AK-47 \| Olive Polycam (Battle-Scarred) | 0.14 | 823 | 2026-09-11T22:09:46.986Z | steam-bulk |
+| AK-47 \| Olive Polycam (Factory New) | 0.53 | 7096 | 2026-09-11T22:09:47.559Z | steam-bulk |
+| AK-47 \| Olive Polycam (Field-Tested) | 0.13 | 16972 | 2026-09-11T22:09:46.969Z | steam-bulk |
+| AK-47 \| Olive Polycam (Minimal Wear) | 0.17 | 9935 | 2026-09-11T22:09:47.086Z | steam-bulk |
+| AK-47 \| Olive Polycam (Well-Worn) | 0.16 | 747 | 2026-09-11T22:09:47.055Z | steam-bulk |
 | AK-47 \| Orbit Mk01 (Battle-Scarred) | 29.14 | 21 | 2026-09-11T22:09:50.106Z | steam-bulk |
 | AK-47 \| Orbit Mk01 (Factory New) | 139.88 | 91 | 2026-09-11T22:09:50.787Z | steam-bulk |
 | AK-47 \| Orbit Mk01 (Field-Tested) | 32.78 | 130 | 2026-09-11T22:09:50.141Z | steam-bulk |
@@ -3251,11 +3277,26 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AUG \| Death by Puppy (Field-Tested) | 5.07 | 56 | 2026-09-11T22:09:49.057Z | steam-bulk |
 | AUG \| Death by Puppy (Minimal Wear) | 5.98 | 111 | 2026-09-11T22:09:49.176Z | steam-bulk |
 | AUG \| Death by Puppy (Well-Worn) | 6.33 | 18 | 2026-09-11T22:09:49.211Z | steam-bulk |
+| AUG \| Eye of Zapems (Battle-Scarred) | 2.18 | 100 | 2026-09-11T22:09:48.441Z | steam-bulk |
+| AUG \| Eye of Zapems (Factory New) | 10.91 | 168 | 2026-09-11T22:09:49.559Z | steam-bulk |
+| AUG \| Eye of Zapems (Field-Tested) | 2.53 | 444 | 2026-09-11T22:09:48.539Z | steam-bulk |
+| AUG \| Eye of Zapems (Minimal Wear) | 4.73 | 219 | 2026-09-11T22:09:49.006Z | steam-bulk |
+| AUG \| Eye of Zapems (Well-Worn) | 2.44 | 57 | 2026-09-11T22:09:48.509Z | steam-bulk |
 | AUG \| Fleet Flock (Battle-Scarred) | 17.17 | 20 | 2026-09-11T22:09:49.809Z | steam-bulk |
 | AUG \| Fleet Flock (Factory New) | 33.01 | 23 | 2026-09-11T22:09:50.156Z | steam-bulk |
 | AUG \| Fleet Flock (Field-Tested) | 17.14 | 66 | 2026-09-11T22:09:49.809Z | steam-bulk |
 | AUG \| Fleet Flock (Minimal Wear) | 18.16 | 28 | 2026-09-11T22:09:49.842Z | steam-bulk |
 | AUG \| Fleet Flock (Well-Worn) | 17.08 | 14 | 2026-09-11T22:09:49.808Z | steam-bulk |
+| AUG \| Lapis Lazuli (Battle-Scarred) | 2.32 | 105 | 2026-09-11T22:09:48.476Z | steam-bulk |
+| AUG \| Lapis Lazuli (Factory New) | 19.93 | 77 | 2026-09-11T22:09:49.906Z | steam-bulk |
+| AUG \| Lapis Lazuli (Field-Tested) | 3.70 | 173 | 2026-09-11T22:09:48.790Z | steam-bulk |
+| AUG \| Lapis Lazuli (Minimal Wear) | 8.42 | 149 | 2026-09-11T22:09:49.400Z | steam-bulk |
+| AUG \| Lapis Lazuli (Well-Worn) | 2.67 | 99 | 2026-09-11T22:09:48.573Z | steam-bulk |
+| AUG \| Lil' Pig (Battle-Scarred) | 33.24 | 13 | 2026-09-11T22:09:50.156Z | steam-bulk |
+| AUG \| Lil' Pig (Factory New) | 174.03 | 11 | 2026-09-11T22:09:50.873Z | steam-bulk |
+| AUG \| Lil' Pig (Field-Tested) | 39.10 | 49 | 2026-09-11T22:09:50.222Z | steam-bulk |
+| AUG \| Lil' Pig (Minimal Wear) | 79.97 | 31 | 2026-09-11T22:09:50.534Z | steam-bulk |
+| AUG \| Lil' Pig (Well-Worn) | 57.47 | 7 | 2026-09-11T22:09:50.373Z | steam-bulk |
 | AUG \| Luxe Trim (Battle-Scarred) | 0.29 | 218 | 2026-09-11T22:09:47.266Z | steam-bulk |
 | AUG \| Luxe Trim (Factory New) | 3.42 | 171 | 2026-09-11T22:09:48.755Z | steam-bulk |
 | AUG \| Luxe Trim (Field-Tested) | 0.39 | 560 | 2026-09-11T22:09:47.391Z | steam-bulk |
@@ -3276,6 +3317,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AUG \| Ricochet (Field-Tested) | 0.53 | 285 | 2026-09-11T22:09:47.559Z | steam-bulk |
 | AUG \| Ricochet (Minimal Wear) | 0.55 | 284 | 2026-09-11T22:09:47.578Z | steam-bulk |
 | AUG \| Ricochet (Well-Worn) | 0.49 | 46 | 2026-09-11T22:09:47.526Z | steam-bulk |
+| AUG \| Signal Scanner (Battle-Scarred) | 0.33 | 88 | 2026-09-11T22:09:47.328Z | steam-bulk |
+| AUG \| Signal Scanner (Factory New) | 3.13 | 84 | 2026-09-11T22:09:48.689Z | steam-bulk |
+| AUG \| Signal Scanner (Field-Tested) | 0.44 | 132 | 2026-09-11T22:09:47.460Z | steam-bulk |
+| AUG \| Signal Scanner (Minimal Wear) | 1.00 | 168 | 2026-09-11T22:09:47.940Z | steam-bulk |
+| AUG \| Signal Scanner (Well-Worn) | 0.34 | 77 | 2026-09-11T22:09:47.329Z | steam-bulk |
+| AUG \| Steel Sentinel (Battle-Scarred) | 0.06 | 2256 | 2026-09-11T22:09:46.691Z | steam-bulk |
+| AUG \| Steel Sentinel (Factory New) | 1.95 | 602 | 2026-09-11T22:09:48.358Z | steam-bulk |
+| AUG \| Steel Sentinel (Field-Tested) | 0.07 | 3497 | 2026-09-11T22:09:46.756Z | steam-bulk |
+| AUG \| Steel Sentinel (Minimal Wear) | 0.18 | 5711 | 2026-09-11T22:09:47.087Z | steam-bulk |
+| AUG \| Steel Sentinel (Well-Worn) | 0.06 | 1350 | 2026-09-11T22:09:46.691Z | steam-bulk |
 | AUG \| Stymphalian (Battle-Scarred) | 4.08 | 46 | 2026-09-11T22:09:48.855Z | steam-bulk |
 | AUG \| Stymphalian (Factory New) | 11.60 | 128 | 2026-09-11T22:09:49.594Z | steam-bulk |
 | AUG \| Stymphalian (Field-Tested) | 4.59 | 205 | 2026-09-11T22:09:48.972Z | steam-bulk |
@@ -3316,6 +3367,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AWP \| Atheris (Field-Tested) | 6.01 | 1343 | 2026-09-11T22:09:49.176Z | steam-bulk |
 | AWP \| Atheris (Minimal Wear) | 9.82 | 583 | 2026-09-11T22:09:49.495Z | steam-bulk |
 | AWP \| Atheris (Well-Worn) | 4.84 | 639 | 2026-09-11T22:09:49.008Z | steam-bulk |
+| AWP \| Black Box (Battle-Scarred) | 3.54 | 70 | 2026-09-11T22:09:48.787Z | steam-bulk |
+| AWP \| Black Box (Factory New) | 34.26 | 53 | 2026-09-11T22:09:50.157Z | steam-bulk |
+| AWP \| Black Box (Field-Tested) | 6.36 | 159 | 2026-09-11T22:09:49.227Z | steam-bulk |
+| AWP \| Black Box (Minimal Wear) | 13.54 | 76 | 2026-09-11T22:09:49.676Z | steam-bulk |
+| AWP \| Black Box (Well-Worn) | 4.62 | 53 | 2026-09-11T22:09:48.972Z | steam-bulk |
 | AWP \| BOOM (Factory New) | 677.20 | 6 | 2026-09-11T22:09:51.158Z | steam-bulk |
 | AWP \| BOOM (Field-Tested) | 133.04 | 30 | 2026-09-11T22:09:50.754Z | steam-bulk |
 | AWP \| BOOM (Minimal Wear) | 163.21 | 102 | 2026-09-11T22:09:50.840Z | steam-bulk |
@@ -3334,6 +3390,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AWP \| Chrome Cannon (Field-Tested) | 36.03 | 381 | 2026-09-11T22:09:50.190Z | steam-bulk |
 | AWP \| Chrome Cannon (Minimal Wear) | 45.27 | 297 | 2026-09-11T22:09:50.273Z | steam-bulk |
 | AWP \| Chrome Cannon (Well-Worn) | 33.36 | 218 | 2026-09-11T22:09:50.156Z | steam-bulk |
+| AWP \| CMYK (Battle-Scarred) | 124.25 | 11 | 2026-09-11T22:09:50.736Z | steam-bulk |
+| AWP \| CMYK (Factory New) | 1392.28 | 2 | 2026-09-11T22:09:51.207Z | steam-bulk |
+| AWP \| CMYK (Field-Tested) | 243.37 | 20 | 2026-09-11T22:09:50.982Z | steam-bulk |
+| AWP \| CMYK (Minimal Wear) | 444.93 | 22 | 2026-09-11T22:09:51.094Z | steam-bulk |
+| AWP \| CMYK (Well-Worn) | 206.01 | 4 | 2026-09-11T22:09:50.922Z | steam-bulk |
 | AWP \| Containment Breach (Battle-Scarred) | 58.72 | 32 | 2026-09-11T22:09:50.404Z | steam-bulk |
 | AWP \| Containment Breach (Factory New) | 717.97 | 6 | 2026-09-11T22:09:51.159Z | steam-bulk |
 | AWP \| Containment Breach (Field-Tested) | 94.01 | 51 | 2026-09-11T22:09:50.617Z | steam-bulk |
@@ -3342,6 +3403,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AWP \| Corticera (Factory New) | 210.05 | 27 | 2026-09-11T22:09:50.936Z | steam-bulk |
 | AWP \| Corticera (Field-Tested) | 27.87 | 73 | 2026-09-11T22:09:50.073Z | steam-bulk |
 | AWP \| Corticera (Minimal Wear) | 28.03 | 185 | 2026-09-11T22:09:50.073Z | steam-bulk |
+| AWP \| Crakow! (Battle-Scarred) | 22.52 | 83 | 2026-09-11T22:09:49.972Z | steam-bulk |
+| AWP \| Crakow! (Factory New) | 117.55 | 55 | 2026-09-11T22:09:50.719Z | steam-bulk |
+| AWP \| Crakow! (Field-Tested) | 31.28 | 225 | 2026-09-11T22:09:50.140Z | steam-bulk |
+| AWP \| Crakow! (Minimal Wear) | 57.07 | 152 | 2026-09-11T22:09:50.372Z | steam-bulk |
+| AWP \| Crakow! (Well-Worn) | 23.31 | 104 | 2026-09-11T22:09:49.989Z | steam-bulk |
 | AWP \| Duality (Battle-Scarred) | 3.79 | 508 | 2026-09-11T22:09:48.821Z | steam-bulk |
 | AWP \| Duality (Factory New) | 15.61 | 450 | 2026-09-11T22:09:49.759Z | steam-bulk |
 | AWP \| Duality (Field-Tested) | 4.51 | 1408 | 2026-09-11T22:09:48.954Z | steam-bulk |
@@ -3380,6 +3446,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AWP \| Ice Coaled (Well-Worn) | 7.12 | 327 | 2026-09-11T22:09:49.298Z | steam-bulk |
 | AWP \| Lightning Strike (Factory New) | 701.00 | 33 | 2026-09-11T22:09:51.159Z | steam-bulk |
 | AWP \| Lightning Strike (Minimal Wear) | 855.10 | 3 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| AWP \| LongDog (Battle-Scarred) | 45.02 | 50 | 2026-09-11T22:09:50.272Z | steam-bulk |
+| AWP \| LongDog (Factory New) | 819.12 | 10 | 2026-09-11T22:09:51.175Z | steam-bulk |
+| AWP \| LongDog (Field-Tested) | 96.30 | 86 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| AWP \| LongDog (Minimal Wear) | 229.03 | 60 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| AWP \| LongDog (Well-Worn) | 50.28 | 77 | 2026-09-11T22:09:50.323Z | steam-bulk |
 | AWP \| Man-o'-war (Field-Tested) | 189.95 | 17 | 2026-09-11T22:09:50.905Z | steam-bulk |
 | AWP \| Man-o'-war (Minimal Wear) | 187.74 | 94 | 2026-09-11T22:09:50.905Z | steam-bulk |
 | AWP \| Mortis (Battle-Scarred) | 4.85 | 212 | 2026-09-11T22:09:49.023Z | steam-bulk |
@@ -3419,6 +3490,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | AWP \| Redline (Field-Tested) | 43.71 | 273 | 2026-09-11T22:09:50.271Z | steam-bulk |
 | AWP \| Redline (Minimal Wear) | 81.92 | 182 | 2026-09-11T22:09:50.551Z | steam-bulk |
 | AWP \| Redline (Well-Worn) | 60.55 | 9 | 2026-09-11T22:09:50.420Z | steam-bulk |
+| AWP \| Sovereign Flame (Battle-Scarred) | 102.01 | 35 | 2026-09-11T22:09:50.651Z | steam-bulk |
+| AWP \| Sovereign Flame (Factory New) | 678.90 | 14 | 2026-09-11T22:09:51.158Z | steam-bulk |
+| AWP \| Sovereign Flame (Field-Tested) | 156.36 | 59 | 2026-09-11T22:09:50.823Z | steam-bulk |
+| AWP \| Sovereign Flame (Minimal Wear) | 282.92 | 47 | 2026-09-11T22:09:51.014Z | steam-bulk |
+| AWP \| Sovereign Flame (Well-Worn) | 108.82 | 27 | 2026-09-11T22:09:50.684Z | steam-bulk |
 | AWP \| Wildfire (Battle-Scarred) | 46.06 | 26 | 2026-09-11T22:09:50.289Z | steam-bulk |
 | AWP \| Wildfire (Factory New) | 236.61 | 34 | 2026-09-11T22:09:50.967Z | steam-bulk |
 | AWP \| Wildfire (Field-Tested) | 55.20 | 155 | 2026-09-11T22:09:50.371Z | steam-bulk |
@@ -3441,6 +3517,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | CZ75-Auto \| Circaetus (Field-Tested) | 0.35 | 401 | 2026-09-11T22:09:47.345Z | steam-bulk |
 | CZ75-Auto \| Circaetus (Minimal Wear) | 0.44 | 182 | 2026-09-11T22:09:47.459Z | steam-bulk |
 | CZ75-Auto \| Circaetus (Well-Worn) | 0.30 | 111 | 2026-09-11T22:09:47.281Z | steam-bulk |
+| CZ75-Auto \| Copper Fiber (Battle-Scarred) | 0.06 | 1586 | 2026-09-11T22:09:46.691Z | steam-bulk |
+| CZ75-Auto \| Copper Fiber (Factory New) | 0.37 | 2197 | 2026-09-11T22:09:47.390Z | steam-bulk |
+| CZ75-Auto \| Copper Fiber (Field-Tested) | 0.06 | 3418 | 2026-09-11T22:09:46.691Z | steam-bulk |
+| CZ75-Auto \| Copper Fiber (Minimal Wear) | 0.09 | 1561 | 2026-09-11T22:09:46.840Z | steam-bulk |
+| CZ75-Auto \| Copper Fiber (Well-Worn) | 0.07 | 691 | 2026-09-11T22:09:46.756Z | steam-bulk |
 | CZ75-Auto \| Crimson Web (Battle-Scarred) | 4.91 | 26 | 2026-09-11T22:09:49.024Z | steam-bulk |
 | CZ75-Auto \| Crimson Web (Factory New) | 25.80 | 18 | 2026-09-11T22:09:50.024Z | steam-bulk |
 | CZ75-Auto \| Crimson Web (Field-Tested) | 4.79 | 74 | 2026-09-11T22:09:49.007Z | steam-bulk |
@@ -3460,6 +3541,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | CZ75-Auto \| Hexane (Field-Tested) | 2.55 | 57 | 2026-09-11T22:09:48.540Z | steam-bulk |
 | CZ75-Auto \| Hexane (Minimal Wear) | 3.76 | 37 | 2026-09-11T22:09:48.805Z | steam-bulk |
 | CZ75-Auto \| Hexane (Well-Worn) | 3.76 | 6 | 2026-09-11T22:09:48.805Z | steam-bulk |
+| CZ75-Auto \| Hydraulics (Battle-Scarred) | 2.67 | 40 | 2026-09-11T22:09:48.573Z | steam-bulk |
+| CZ75-Auto \| Hydraulics (Factory New) | 13.17 | 61 | 2026-09-11T22:09:49.659Z | steam-bulk |
+| CZ75-Auto \| Hydraulics (Field-Tested) | 3.76 | 85 | 2026-09-11T22:09:48.820Z | steam-bulk |
+| CZ75-Auto \| Hydraulics (Minimal Wear) | 6.60 | 108 | 2026-09-11T22:09:49.229Z | steam-bulk |
+| CZ75-Auto \| Hydraulics (Well-Worn) | 2.77 | 51 | 2026-09-11T22:09:48.591Z | steam-bulk |
 | CZ75-Auto \| Imprint (Battle-Scarred) | 0.28 | 165 | 2026-09-11T22:09:47.250Z | steam-bulk |
 | CZ75-Auto \| Imprint (Factory New) | 3.60 | 107 | 2026-09-11T22:09:48.788Z | steam-bulk |
 | CZ75-Auto \| Imprint (Field-Tested) | 0.46 | 636 | 2026-09-11T22:09:47.492Z | steam-bulk |
@@ -3480,6 +3566,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | CZ75-Auto \| Red Astor (Field-Tested) | 1.66 | 117 | 2026-09-11T22:09:48.245Z | steam-bulk |
 | CZ75-Auto \| Red Astor (Minimal Wear) | 2.13 | 109 | 2026-09-11T22:09:48.409Z | steam-bulk |
 | CZ75-Auto \| Red Astor (Well-Worn) | 1.66 | 90 | 2026-09-11T22:09:48.245Z | steam-bulk |
+| CZ75-Auto \| Slalom (Battle-Scarred) | 6.47 | 15 | 2026-09-11T22:09:49.228Z | steam-bulk |
+| CZ75-Auto \| Slalom (Factory New) | 22.28 | 48 | 2026-09-11T22:09:49.971Z | steam-bulk |
+| CZ75-Auto \| Slalom (Field-Tested) | 7.83 | 56 | 2026-09-11T22:09:49.364Z | steam-bulk |
+| CZ75-Auto \| Slalom (Minimal Wear) | 12.33 | 47 | 2026-09-11T22:09:49.626Z | steam-bulk |
+| CZ75-Auto \| Slalom (Well-Worn) | 7.11 | 17 | 2026-09-11T22:09:49.298Z | steam-bulk |
 | CZ75-Auto \| Tacticat (Battle-Scarred) | 1.44 | 48 | 2026-09-11T22:09:48.151Z | steam-bulk |
 | CZ75-Auto \| Tacticat (Factory New) | 4.87 | 191 | 2026-09-11T22:09:49.024Z | steam-bulk |
 | CZ75-Auto \| Tacticat (Field-Tested) | 1.44 | 314 | 2026-09-11T22:09:48.151Z | steam-bulk |
@@ -3562,6 +3653,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Desert Eagle \| Directive (Field-Tested) | 1.68 | 480 | 2026-09-11T22:09:48.246Z | steam-bulk |
 | Desert Eagle \| Directive (Minimal Wear) | 7.14 | 154 | 2026-09-11T22:09:49.298Z | steam-bulk |
 | Desert Eagle \| Directive (Well-Worn) | 1.68 | 238 | 2026-09-11T22:09:48.246Z | steam-bulk |
+| Desert Eagle \| Eastern Enigma (Battle-Scarred) | 16.21 | 69 | 2026-09-11T22:09:49.775Z | steam-bulk |
+| Desert Eagle \| Eastern Enigma (Factory New) | 99.46 | 34 | 2026-09-11T22:09:50.650Z | steam-bulk |
+| Desert Eagle \| Eastern Enigma (Field-Tested) | 22.02 | 126 | 2026-09-11T22:09:49.954Z | steam-bulk |
+| Desert Eagle \| Eastern Enigma (Minimal Wear) | 44.20 | 101 | 2026-09-11T22:09:50.272Z | steam-bulk |
+| Desert Eagle \| Eastern Enigma (Well-Worn) | 17.11 | 84 | 2026-09-11T22:09:49.808Z | steam-bulk |
 | Desert Eagle \| Firebreathing (Battle-Scarred) | 0.95 | 392 | 2026-09-11T22:09:47.923Z | steam-bulk |
 | Desert Eagle \| Firebreathing (Factory New) | 7.08 | 361 | 2026-09-11T22:09:49.297Z | steam-bulk |
 | Desert Eagle \| Firebreathing (Field-Tested) | 1.32 | 664 | 2026-09-11T22:09:48.087Z | steam-bulk |
@@ -3569,6 +3665,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Desert Eagle \| Firebreathing (Well-Worn) | 1.19 | 319 | 2026-09-11T22:09:48.052Z | steam-bulk |
 | Desert Eagle \| Golden Koi (Factory New) | 320.08 | 58 | 2026-09-11T22:09:51.031Z | steam-bulk |
 | Desert Eagle \| Golden Koi (Minimal Wear) | 310.56 | 4 | 2026-09-11T22:09:51.030Z | steam-bulk |
+| Desert Eagle \| Heat Treated (Battle-Scarred) | 1.60 | 2395 | 2026-09-11T22:09:48.214Z | steam-bulk |
+| Desert Eagle \| Heat Treated (Factory New) | 58.68 | 161 | 2026-09-11T22:09:50.404Z | steam-bulk |
+| Desert Eagle \| Heat Treated (Field-Tested) | 1.88 | 1991 | 2026-09-11T22:09:48.326Z | steam-bulk |
+| Desert Eagle \| Heat Treated (Minimal Wear) | 3.68 | 1397 | 2026-09-11T22:09:48.789Z | steam-bulk |
+| Desert Eagle \| Heat Treated (Well-Worn) | 1.47 | 2680 | 2026-09-11T22:09:48.152Z | steam-bulk |
 | Desert Eagle \| Heirloom (Battle-Scarred) | 9.25 | 24 | 2026-09-11T22:09:49.464Z | steam-bulk |
 | Desert Eagle \| Heirloom (Factory New) | 135.72 | 37 | 2026-09-11T22:09:50.770Z | steam-bulk |
 | Desert Eagle \| Heirloom (Field-Tested) | 9.17 | 102 | 2026-09-11T22:09:49.449Z | steam-bulk |
@@ -3616,6 +3717,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Desert Eagle \| Serpent Strike (Field-Tested) | 0.60 | 2979 | 2026-09-11T22:09:47.660Z | steam-bulk |
 | Desert Eagle \| Serpent Strike (Minimal Wear) | 1.10 | 1635 | 2026-09-11T22:09:47.988Z | steam-bulk |
 | Desert Eagle \| Serpent Strike (Well-Worn) | 0.70 | 204 | 2026-09-11T22:09:47.727Z | steam-bulk |
+| Desert Eagle \| Starcade (Battle-Scarred) | 40.73 | 17 | 2026-09-11T22:09:50.239Z | steam-bulk |
+| Desert Eagle \| Starcade (Factory New) | 309.56 | 23 | 2026-09-11T22:09:51.030Z | steam-bulk |
+| Desert Eagle \| Starcade (Field-Tested) | 52.21 | 52 | 2026-09-11T22:09:50.354Z | steam-bulk |
+| Desert Eagle \| Starcade (Minimal Wear) | 109.19 | 34 | 2026-09-11T22:09:50.685Z | steam-bulk |
+| Desert Eagle \| Starcade (Well-Worn) | 47.52 | 24 | 2026-09-11T22:09:50.305Z | steam-bulk |
+| Desert Eagle \| Tilted (Battle-Scarred) | 0.19 | 1852 | 2026-09-11T22:09:47.087Z | steam-bulk |
+| Desert Eagle \| Tilted (Factory New) | 1.95 | 1060 | 2026-09-11T22:09:48.358Z | steam-bulk |
+| Desert Eagle \| Tilted (Field-Tested) | 0.19 | 10161 | 2026-09-11T22:09:47.088Z | steam-bulk |
+| Desert Eagle \| Tilted (Minimal Wear) | 0.57 | 6665 | 2026-09-11T22:09:47.596Z | steam-bulk |
+| Desert Eagle \| Tilted (Well-Worn) | 0.31 | 1107 | 2026-09-11T22:09:47.297Z | steam-bulk |
 | Desert Eagle \| Trigger Discipline (Battle-Scarred) | 0.81 | 554 | 2026-09-11T22:09:47.811Z | steam-bulk |
 | Desert Eagle \| Trigger Discipline (Factory New) | 9.75 | 269 | 2026-09-11T22:09:49.481Z | steam-bulk |
 | Desert Eagle \| Trigger Discipline (Field-Tested) | 1.00 | 1652 | 2026-09-11T22:09:47.940Z | steam-bulk |
@@ -3698,6 +3809,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Dual Berettas \| Melondrama (Field-Tested) | 8.88 | 568 | 2026-09-11T22:09:49.433Z | steam-bulk |
 | Dual Berettas \| Melondrama (Minimal Wear) | 10.85 | 263 | 2026-09-11T22:09:49.559Z | steam-bulk |
 | Dual Berettas \| Melondrama (Well-Worn) | 8.59 | 464 | 2026-09-11T21:39:50.426Z | steam-bulk |
+| Dual Berettas \| Mystic Conjunction (Battle-Scarred) | 0.05 | 3037 | 2026-09-11T22:09:46.674Z | steam-bulk |
+| Dual Berettas \| Mystic Conjunction (Factory New) | 0.72 | 287 | 2026-09-11T22:09:47.744Z | steam-bulk |
+| Dual Berettas \| Mystic Conjunction (Field-Tested) | 0.07 | 1200 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| Dual Berettas \| Mystic Conjunction (Minimal Wear) | 0.14 | 509 | 2026-09-11T22:09:47.004Z | steam-bulk |
+| Dual Berettas \| Mystic Conjunction (Well-Worn) | 0.05 | 4470 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | Dual Berettas \| Panther (Battle-Scarred) | 4.28 | 13 | 2026-09-11T22:09:48.903Z | steam-bulk |
 | Dual Berettas \| Panther (Factory New) | 9.24 | 105 | 2026-09-11T22:09:49.464Z | steam-bulk |
 | Dual Berettas \| Panther (Field-Tested) | 4.41 | 43 | 2026-09-11T22:09:48.920Z | steam-bulk |
@@ -3713,6 +3829,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Dual Berettas \| Shred (Field-Tested) | 0.56 | 294 | 2026-09-11T22:09:47.595Z | steam-bulk |
 | Dual Berettas \| Shred (Minimal Wear) | 0.64 | 121 | 2026-09-11T22:09:47.662Z | steam-bulk |
 | Dual Berettas \| Shred (Well-Worn) | 0.49 | 62 | 2026-09-11T22:09:47.525Z | steam-bulk |
+| Dual Berettas \| Sweet Little Angels (Battle-Scarred) | 2.07 | 109 | 2026-09-11T22:09:48.392Z | steam-bulk |
+| Dual Berettas \| Sweet Little Angels (Factory New) | 12.32 | 121 | 2026-09-11T22:09:49.626Z | steam-bulk |
+| Dual Berettas \| Sweet Little Angels (Field-Tested) | 2.60 | 428 | 2026-09-11T22:09:48.541Z | steam-bulk |
+| Dual Berettas \| Sweet Little Angels (Minimal Wear) | 5.81 | 259 | 2026-09-11T22:09:49.159Z | steam-bulk |
+| Dual Berettas \| Sweet Little Angels (Well-Worn) | 2.40 | 60 | 2026-09-11T22:09:48.508Z | steam-bulk |
 | Dual Berettas \| Tread (Battle-Scarred) | 0.84 | 20 | 2026-09-11T22:09:47.843Z | steam-bulk |
 | Dual Berettas \| Tread (Factory New) | 7.07 | 36 | 2026-09-11T22:09:49.297Z | steam-bulk |
 | Dual Berettas \| Tread (Field-Tested) | 1.21 | 37 | 2026-09-11T22:09:48.053Z | steam-bulk |
@@ -3751,6 +3872,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | eSports 2013 Winter Case | 18.06 | — | 2026-09-21T02:15:10.654Z | steam-direct |
 | eSports 2014 Summer Case | 17.36 | — | 2026-09-21T02:15:08.965Z | steam-direct |
 | Falchion Case | 2.23 | — | 2026-09-21T02:15:07.136Z | steam-direct |
+| FAMAS \| 2A2F (Battle-Scarred) | 0.23 | 577 | 2026-09-11T22:09:47.186Z | steam-bulk |
+| FAMAS \| 2A2F (Factory New) | 5.63 | 244 | 2026-09-11T22:09:49.126Z | steam-bulk |
+| FAMAS \| 2A2F (Field-Tested) | 0.27 | 1546 | 2026-09-11T22:09:47.235Z | steam-bulk |
+| FAMAS \| 2A2F (Minimal Wear) | 1.25 | 668 | 2026-09-11T22:09:48.070Z | steam-bulk |
+| FAMAS \| 2A2F (Well-Worn) | 0.25 | 426 | 2026-09-11T22:09:47.218Z | steam-bulk |
 | FAMAS \| Afterimage (Factory New) | 65.61 | 28 | 2026-09-11T22:09:50.452Z | steam-bulk |
 | FAMAS \| Afterimage (Field-Tested) | 26.11 | 30 | 2026-09-11T22:09:50.039Z | steam-bulk |
 | FAMAS \| Afterimage (Minimal Wear) | 28.31 | 35 | 2026-09-11T21:39:51.080Z | steam-bulk |
@@ -3765,6 +3891,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | FAMAS \| Commemoration (Field-Tested) | 41.01 | 77 | 2026-09-11T22:09:50.240Z | steam-bulk |
 | FAMAS \| Commemoration (Minimal Wear) | 44.20 | 57 | 2026-09-11T22:09:50.272Z | steam-bulk |
 | FAMAS \| Commemoration (Well-Worn) | 42.04 | 10 | 2026-09-11T22:09:50.255Z | steam-bulk |
+| FAMAS \| Corp Defense (Battle-Scarred) | 0.05 | 434 | 2026-09-11T22:09:46.674Z | steam-bulk |
+| FAMAS \| Corp Defense (Factory New) | 1.37 | 82 | 2026-09-11T22:09:48.119Z | steam-bulk |
+| FAMAS \| Corp Defense (Field-Tested) | 0.06 | 391 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| FAMAS \| Corp Defense (Minimal Wear) | 0.21 | 432 | 2026-09-11T22:09:47.153Z | steam-bulk |
+| FAMAS \| Corp Defense (Well-Worn) | 0.06 | 350 | 2026-09-11T22:09:46.723Z | steam-bulk |
 | FAMAS \| Crypsis (Battle-Scarred) | 0.31 | 64 | 2026-09-11T22:09:47.297Z | steam-bulk |
 | FAMAS \| Crypsis (Factory New) | 2.48 | 443 | 2026-09-11T22:09:48.510Z | steam-bulk |
 | FAMAS \| Crypsis (Field-Tested) | 0.32 | 511 | 2026-09-11T22:09:47.312Z | steam-bulk |
@@ -3787,6 +3918,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | FAMAS \| Eye of Athena (Field-Tested) | 7.50 | 73 | 2026-09-11T22:09:49.332Z | steam-bulk |
 | FAMAS \| Eye of Athena (Minimal Wear) | 10.85 | 101 | 2026-09-11T22:09:49.559Z | steam-bulk |
 | FAMAS \| Eye of Athena (Well-Worn) | 7.77 | 19 | 2026-09-11T22:09:49.364Z | steam-bulk |
+| FAMAS \| Half Sleeve (Battle-Scarred) | 0.07 | 1261 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| FAMAS \| Half Sleeve (Factory New) | 0.95 | 791 | 2026-09-11T22:09:47.893Z | steam-bulk |
+| FAMAS \| Half Sleeve (Field-Tested) | 0.07 | 4293 | 2026-09-11T22:09:46.741Z | steam-bulk |
+| FAMAS \| Half Sleeve (Minimal Wear) | 0.14 | 3909 | 2026-09-11T22:09:47.003Z | steam-bulk |
+| FAMAS \| Half Sleeve (Well-Worn) | 0.08 | 1566 | 2026-09-11T22:09:46.773Z | steam-bulk |
+| FAMAS \| Halftone Wash (Battle-Scarred) | 0.27 | 131 | 2026-09-11T22:09:47.219Z | steam-bulk |
+| FAMAS \| Halftone Wash (Factory New) | 0.87 | 429 | 2026-09-11T22:09:47.845Z | steam-bulk |
+| FAMAS \| Halftone Wash (Field-Tested) | 0.20 | 1122 | 2026-09-11T22:09:47.120Z | steam-bulk |
+| FAMAS \| Halftone Wash (Minimal Wear) | 0.45 | 435 | 2026-09-11T22:09:47.476Z | steam-bulk |
+| FAMAS \| Halftone Wash (Well-Worn) | 0.23 | 190 | 2026-09-11T22:09:47.185Z | steam-bulk |
 | FAMAS \| Hexane (Factory New) | 19.48 | 122 | 2026-09-11T22:09:49.875Z | steam-bulk |
 | FAMAS \| Hexane (Field-Tested) | 3.26 | 30 | 2026-09-11T22:09:48.721Z | steam-bulk |
 | FAMAS \| Hexane (Minimal Wear) | 4.93 | 34 | 2026-09-11T22:09:49.024Z | steam-bulk |
@@ -3829,6 +3970,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | FAMAS \| Sergeant (Field-Tested) | 4.14 | 91 | 2026-09-11T22:09:48.886Z | steam-bulk |
 | FAMAS \| Sergeant (Minimal Wear) | 20.15 | 46 | 2026-09-11T22:09:49.907Z | steam-bulk |
 | FAMAS \| Sergeant (Well-Worn) | 2.75 | 46 | 2026-09-11T22:09:48.591Z | steam-bulk |
+| FAMAS \| Snake Song (Battle-Scarred) | 0.23 | 130 | 2026-09-11T22:09:47.187Z | steam-bulk |
+| FAMAS \| Snake Song (Factory New) | 4.29 | 75 | 2026-09-11T22:09:48.918Z | steam-bulk |
+| FAMAS \| Snake Song (Field-Tested) | 0.45 | 243 | 2026-09-11T22:09:47.492Z | steam-bulk |
+| FAMAS \| Snake Song (Minimal Wear) | 1.07 | 339 | 2026-09-11T22:09:47.986Z | steam-bulk |
+| FAMAS \| Snake Song (Well-Worn) | 0.32 | 129 | 2026-09-11T22:09:47.313Z | steam-bulk |
 | FAMAS \| Survivor Z (Battle-Scarred) | 0.50 | 74 | 2026-09-11T22:09:47.543Z | steam-bulk |
 | FAMAS \| Survivor Z (Factory New) | 7.54 | 415 | 2026-09-11T22:09:49.347Z | steam-bulk |
 | FAMAS \| Survivor Z (Field-Tested) | 0.56 | 353 | 2026-09-11T22:09:47.594Z | steam-bulk |
@@ -3877,6 +4023,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Five-SeveN \| Dark Polymer (Field-Tested) | 0.15 | 1054 | 2026-09-11T22:09:47.038Z | steam-bulk |
 | Five-SeveN \| Dark Polymer (Minimal Wear) | 0.28 | 912 | 2026-09-11T22:09:47.251Z | steam-bulk |
 | Five-SeveN \| Dark Polymer (Well-Worn) | 0.13 | 309 | 2026-09-11T22:09:46.985Z | steam-bulk |
+| Five-SeveN \| Desert Seal (Battle-Scarred) | 0.05 | 2827 | 2026-09-11T22:09:46.674Z | steam-bulk |
+| Five-SeveN \| Desert Seal (Factory New) | 0.89 | 222 | 2026-09-11T22:09:47.876Z | steam-bulk |
+| Five-SeveN \| Desert Seal (Field-Tested) | 0.07 | 1813 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| Five-SeveN \| Desert Seal (Minimal Wear) | 0.17 | 245 | 2026-09-11T22:09:47.087Z | steam-bulk |
+| Five-SeveN \| Desert Seal (Well-Worn) | 0.06 | 3825 | 2026-09-11T22:09:46.723Z | steam-bulk |
 | Five-SeveN \| Fairy Tale (Battle-Scarred) | 25.01 | 27 | 2026-09-11T22:09:50.022Z | steam-bulk |
 | Five-SeveN \| Fairy Tale (Factory New) | 429.29 | 9 | 2026-09-11T22:09:51.079Z | steam-bulk |
 | Five-SeveN \| Fairy Tale (Field-Tested) | 34.61 | 41 | 2026-09-11T22:09:50.158Z | steam-bulk |
@@ -3892,6 +4043,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Five-SeveN \| Fowl Play (Field-Tested) | 27.23 | 81 | 2026-09-11T22:09:50.071Z | steam-bulk |
 | Five-SeveN \| Fowl Play (Minimal Wear) | 29.50 | 33 | 2026-09-11T22:09:50.107Z | steam-bulk |
 | Five-SeveN \| Fowl Play (Well-Worn) | 26.69 | 37 | 2026-09-11T22:09:50.054Z | steam-bulk |
+| Five-SeveN \| Heat Treated (Battle-Scarred) | 3.40 | 419 | 2026-09-11T22:09:48.740Z | steam-bulk |
+| Five-SeveN \| Heat Treated (Factory New) | 27.51 | 173 | 2026-09-11T22:09:50.072Z | steam-bulk |
+| Five-SeveN \| Heat Treated (Field-Tested) | 3.27 | 914 | 2026-09-11T22:09:48.722Z | steam-bulk |
+| Five-SeveN \| Heat Treated (Minimal Wear) | 4.23 | 546 | 2026-09-11T22:09:48.887Z | steam-bulk |
+| Five-SeveN \| Heat Treated (Well-Worn) | 3.42 | 567 | 2026-09-11T22:09:48.755Z | steam-bulk |
 | Five-SeveN \| Hybrid (Battle-Scarred) | 0.52 | 1513 | 2026-09-11T22:09:47.544Z | steam-bulk |
 | Five-SeveN \| Hybrid (Factory New) | 4.20 | 244 | 2026-09-11T22:09:48.887Z | steam-bulk |
 | Five-SeveN \| Hybrid (Field-Tested) | 0.56 | 1921 | 2026-09-11T22:09:47.594Z | steam-bulk |
@@ -3905,6 +4061,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Five-SeveN \| Kami (Factory New) | 7.22 | 365 | 2026-09-11T22:09:49.314Z | steam-bulk |
 | Five-SeveN \| Kami (Field-Tested) | 3.30 | 43 | 2026-09-11T22:09:48.722Z | steam-bulk |
 | Five-SeveN \| Kami (Minimal Wear) | 4.32 | 120 | 2026-09-11T22:09:48.919Z | steam-bulk |
+| Five-SeveN \| Midnight Paintover (Battle-Scarred) | 0.06 | 367 | 2026-09-11T22:09:46.675Z | steam-bulk |
+| Five-SeveN \| Midnight Paintover (Factory New) | 0.19 | 3124 | 2026-09-11T22:09:47.088Z | steam-bulk |
+| Five-SeveN \| Midnight Paintover (Field-Tested) | 0.06 | 6113 | 2026-09-11T22:09:46.675Z | steam-bulk |
+| Five-SeveN \| Midnight Paintover (Minimal Wear) | 0.08 | 2626 | 2026-09-11T22:09:46.789Z | steam-bulk |
+| Five-SeveN \| Midnight Paintover (Well-Worn) | 0.06 | 973 | 2026-09-11T22:09:46.675Z | steam-bulk |
 | Five-SeveN \| Monkey Business (Battle-Scarred) | 16.64 | 28 | 2026-09-11T22:09:49.792Z | steam-bulk |
 | Five-SeveN \| Monkey Business (Field-Tested) | 16.90 | 278 | 2026-09-11T22:09:49.808Z | steam-bulk |
 | Five-SeveN \| Monkey Business (Minimal Wear) | 45.12 | 58 | 2026-09-11T22:09:50.272Z | steam-bulk |
@@ -4065,16 +4226,34 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Galil AR \| Galigator (Field-Tested) | 1.15 | 289 | 2026-09-11T22:09:48.021Z | steam-bulk |
 | Galil AR \| Galigator (Minimal Wear) | 2.19 | 324 | 2026-09-11T22:09:48.442Z | steam-bulk |
 | Galil AR \| Galigator (Well-Worn) | 0.90 | 197 | 2026-09-11T22:09:47.891Z | steam-bulk |
+| Galil AR \| Green Apple (Factory New) | 0.34 | 6736 | 2026-09-11T22:09:47.329Z | steam-bulk |
+| Galil AR \| Green Apple (Field-Tested) | 0.10 | 4930 | 2026-09-11T22:09:46.901Z | steam-bulk |
+| Galil AR \| Green Apple (Minimal Wear) | 0.12 | 9358 | 2026-09-11T22:09:46.951Z | steam-bulk |
 | Galil AR \| Kami (Battle-Scarred) | 1.69 | 31 | 2026-09-11T22:09:48.261Z | steam-bulk |
 | Galil AR \| Kami (Factory New) | 8.64 | 178 | 2026-09-11T22:09:49.431Z | steam-bulk |
 | Galil AR \| Kami (Field-Tested) | 1.88 | 57 | 2026-09-11T22:09:48.325Z | steam-bulk |
 | Galil AR \| Kami (Minimal Wear) | 4.28 | 54 | 2026-09-11T22:09:48.903Z | steam-bulk |
 | Galil AR \| Kami (Well-Worn) | 1.88 | 38 | 2026-09-11T22:09:48.325Z | steam-bulk |
+| Galil AR \| Metallic Squeezer (Battle-Scarred) | 0.22 | 378 | 2026-09-11T22:09:47.154Z | steam-bulk |
+| Galil AR \| Metallic Squeezer (Factory New) | 1.14 | 447 | 2026-09-11T22:09:48.020Z | steam-bulk |
+| Galil AR \| Metallic Squeezer (Field-Tested) | 0.23 | 657 | 2026-09-11T22:09:47.186Z | steam-bulk |
+| Galil AR \| Metallic Squeezer (Minimal Wear) | 0.49 | 466 | 2026-09-11T22:09:47.525Z | steam-bulk |
+| Galil AR \| Metallic Squeezer (Well-Worn) | 0.24 | 102 | 2026-09-11T22:09:47.201Z | steam-bulk |
+| Galil AR \| NV (Battle-Scarred) | 0.59 | 44 | 2026-09-11T22:09:47.628Z | steam-bulk |
+| Galil AR \| NV (Factory New) | 0.66 | 698 | 2026-09-11T22:09:47.694Z | steam-bulk |
+| Galil AR \| NV (Field-Tested) | 0.20 | 1148 | 2026-09-11T22:09:47.120Z | steam-bulk |
+| Galil AR \| NV (Minimal Wear) | 0.37 | 397 | 2026-09-11T22:09:47.390Z | steam-bulk |
+| Galil AR \| NV (Well-Worn) | 0.26 | 103 | 2026-09-11T22:09:47.218Z | steam-bulk |
 | Galil AR \| Orange DDPAT (Battle-Scarred) | 24.03 | 9 | 2026-09-11T22:09:49.990Z | steam-bulk |
 | Galil AR \| Orange DDPAT (Factory New) | 139.23 | 9 | 2026-09-11T22:09:50.787Z | steam-bulk |
 | Galil AR \| Orange DDPAT (Field-Tested) | 22.12 | 26 | 2026-09-11T22:09:49.955Z | steam-bulk |
 | Galil AR \| Orange DDPAT (Minimal Wear) | 24.36 | 34 | 2026-09-11T22:09:49.991Z | steam-bulk |
 | Galil AR \| Orange DDPAT (Well-Worn) | 19.02 | 9 | 2026-09-11T22:09:49.874Z | steam-bulk |
+| Galil AR \| Rainbow Spoon (Battle-Scarred) | 29.50 | 29 | 2026-09-11T22:09:50.107Z | steam-bulk |
+| Galil AR \| Rainbow Spoon (Factory New) | 39.24 | 188 | 2026-09-11T22:09:50.222Z | steam-bulk |
+| Galil AR \| Rainbow Spoon (Field-Tested) | 29.24 | 211 | 2026-09-11T22:09:50.106Z | steam-bulk |
+| Galil AR \| Rainbow Spoon (Minimal Wear) | 30.99 | 198 | 2026-09-11T22:09:50.124Z | steam-bulk |
+| Galil AR \| Rainbow Spoon (Well-Worn) | 30.15 | 21 | 2026-09-11T22:09:50.108Z | steam-bulk |
 | Galil AR \| Rocket Pop (Battle-Scarred) | 0.95 | 168 | 2026-09-11T22:09:47.893Z | steam-bulk |
 | Galil AR \| Rocket Pop (Factory New) | 13.53 | 154 | 2026-09-11T22:09:49.676Z | steam-bulk |
 | Galil AR \| Rocket Pop (Field-Tested) | 1.74 | 215 | 2026-09-11T22:09:48.277Z | steam-bulk |
@@ -4112,6 +4291,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Gallery Case | 0.99 | — | 2026-09-21T02:14:03.027Z | steam-direct |
 | Gamma 2 Case | 4.39 | — | 2026-09-21T02:15:04.650Z | steam-direct |
 | Gamma Case | 4.43 | — | 2026-09-21T02:15:05.032Z | steam-direct |
+| Glock-18 \| AXIA (Battle-Scarred) | 30.91 | 38 | 2026-09-11T22:09:50.109Z | steam-bulk |
+| Glock-18 \| AXIA (Factory New) | 73.56 | 126 | 2026-09-11T22:09:50.515Z | steam-bulk |
+| Glock-18 \| AXIA (Field-Tested) | 29.27 | 292 | 2026-09-11T21:39:51.110Z | steam-bulk |
+| Glock-18 \| AXIA (Minimal Wear) | 32.31 | 162 | 2026-09-11T22:09:50.141Z | steam-bulk |
+| Glock-18 \| AXIA (Well-Worn) | 29.17 | 41 | 2026-09-11T22:09:50.106Z | steam-bulk |
 | Glock-18 \| Block-18 (Battle-Scarred) | 0.59 | 686 | 2026-09-11T22:09:47.629Z | steam-bulk |
 | Glock-18 \| Block-18 (Factory New) | 2.40 | 1401 | 2026-09-11T22:09:48.508Z | steam-bulk |
 | Glock-18 \| Block-18 (Field-Tested) | 0.57 | 4636 | 2026-09-11T22:09:47.595Z | steam-bulk |
@@ -4149,14 +4333,29 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Glock-18 \| Fully Tuned (Field-Tested) | 80.00 | 163 | 2026-09-11T22:09:50.534Z | steam-bulk |
 | Glock-18 \| Fully Tuned (Minimal Wear) | 133.43 | 116 | 2026-09-11T22:09:50.755Z | steam-bulk |
 | Glock-18 \| Fully Tuned (Well-Worn) | 64.90 | 87 | 2026-09-11T22:09:50.451Z | steam-bulk |
+| Glock-18 \| Ghost Protocol (Battle-Scarred) | 164.17 | 8 | 2026-09-11T22:09:50.840Z | steam-bulk |
+| Glock-18 \| Ghost Protocol (Factory New) | 737.19 | 7 | 2026-09-11T22:09:51.159Z | steam-bulk |
+| Glock-18 \| Ghost Protocol (Field-Tested) | 220.44 | 29 | 2026-09-11T22:09:50.952Z | steam-bulk |
+| Glock-18 \| Ghost Protocol (Minimal Wear) | 348.08 | 14 | 2026-09-11T22:09:51.047Z | steam-bulk |
+| Glock-18 \| Ghost Protocol (Well-Worn) | 195.53 | 9 | 2026-09-11T22:09:50.906Z | steam-bulk |
 | Glock-18 \| Gold Toof (Battle-Scarred) | 42.63 | 15 | 2026-09-11T22:09:50.255Z | steam-bulk |
 | Glock-18 \| Gold Toof (Factory New) | 215.05 | 16 | 2026-09-11T22:09:50.951Z | steam-bulk |
 | Glock-18 \| Gold Toof (Field-Tested) | 42.38 | 67 | 2026-09-11T22:09:50.255Z | steam-bulk |
 | Glock-18 \| Gold Toof (Minimal Wear) | 48.73 | 61 | 2026-09-11T22:09:50.322Z | steam-bulk |
 | Glock-18 \| Gold Toof (Well-Worn) | 44.09 | 12 | 2026-09-11T22:09:50.271Z | steam-bulk |
+| Glock-18 \| Green Line (Battle-Scarred) | 0.29 | 552 | 2026-09-11T22:09:47.266Z | steam-bulk |
+| Glock-18 \| Green Line (Factory New) | 12.83 | 195 | 2026-09-11T22:09:49.643Z | steam-bulk |
+| Glock-18 \| Green Line (Field-Tested) | 0.41 | 1093 | 2026-09-11T22:09:47.424Z | steam-bulk |
+| Glock-18 \| Green Line (Minimal Wear) | 1.50 | 946 | 2026-09-11T22:09:48.183Z | steam-bulk |
+| Glock-18 \| Green Line (Well-Worn) | 0.30 | 558 | 2026-09-11T22:09:47.282Z | steam-bulk |
 | Glock-18 \| Grinder (Factory New) | 16.38 | 330 | 2026-09-11T22:09:49.791Z | steam-bulk |
 | Glock-18 \| Grinder (Field-Tested) | 3.30 | 56 | 2026-09-11T22:09:48.722Z | steam-bulk |
 | Glock-18 \| Grinder (Minimal Wear) | 2.99 | 218 | 2026-09-11T22:09:48.640Z | steam-bulk |
+| Glock-18 \| Ifrit Lattice (Battle-Scarred) | 2.35 | 58 | 2026-09-11T22:09:48.477Z | steam-bulk |
+| Glock-18 \| Ifrit Lattice (Factory New) | 16.87 | 62 | 2026-09-11T22:09:49.807Z | steam-bulk |
+| Glock-18 \| Ifrit Lattice (Field-Tested) | 3.77 | 257 | 2026-09-11T22:09:48.821Z | steam-bulk |
+| Glock-18 \| Ifrit Lattice (Minimal Wear) | 7.79 | 136 | 2026-09-11T22:09:49.364Z | steam-bulk |
+| Glock-18 \| Ifrit Lattice (Well-Worn) | 2.63 | 94 | 2026-09-11T22:09:48.572Z | steam-bulk |
 | Glock-18 \| Ironwork (Battle-Scarred) | 0.60 | 437 | 2026-09-11T22:09:47.630Z | steam-bulk |
 | Glock-18 \| Ironwork (Factory New) | 55.93 | 108 | 2026-09-11T22:09:50.372Z | steam-bulk |
 | Glock-18 \| Ironwork (Field-Tested) | 1.72 | 101 | 2026-09-11T22:09:48.262Z | steam-bulk |
@@ -4210,6 +4409,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Glock-18 \| Steel Disruption (Factory New) | 62.46 | 140 | 2026-09-11T22:09:50.421Z | steam-bulk |
 | Glock-18 \| Steel Disruption (Field-Tested) | 15.23 | 24 | 2026-09-11T22:09:49.742Z | steam-bulk |
 | Glock-18 \| Steel Disruption (Minimal Wear) | 16.72 | 74 | 2026-09-11T22:09:49.792Z | steam-bulk |
+| Glock-18 \| Teal Graf (Battle-Scarred) | 0.31 | 104 | 2026-09-11T22:09:47.297Z | steam-bulk |
+| Glock-18 \| Teal Graf (Factory New) | 0.86 | 836 | 2026-09-11T22:09:47.844Z | steam-bulk |
+| Glock-18 \| Teal Graf (Field-Tested) | 0.27 | 839 | 2026-09-11T22:09:47.234Z | steam-bulk |
+| Glock-18 \| Teal Graf (Minimal Wear) | 0.37 | 614 | 2026-09-11T22:09:47.361Z | steam-bulk |
+| Glock-18 \| Teal Graf (Well-Worn) | 0.27 | 148 | 2026-09-11T22:09:47.219Z | steam-bulk |
 | Glock-18 \| Umbral Rabbit (Battle-Scarred) | 0.50 | 1036 | 2026-09-11T22:09:47.543Z | steam-bulk |
 | Glock-18 \| Umbral Rabbit (Factory New) | 2.55 | 669 | 2026-09-11T22:09:48.540Z | steam-bulk |
 | Glock-18 \| Umbral Rabbit (Field-Tested) | 0.50 | 2500 | 2026-09-11T22:09:47.542Z | steam-bulk |
@@ -4303,6 +4507,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M249 \| Spectre (Field-Tested) | 0.57 | 533 | 2026-09-11T22:09:47.611Z | steam-bulk |
 | M249 \| Spectre (Minimal Wear) | 0.56 | 188 | 2026-09-11T22:09:47.594Z | steam-bulk |
 | M249 \| Spectre (Well-Worn) | 0.45 | 67 | 2026-09-11T22:09:47.476Z | steam-bulk |
+| M249 \| Spectrogram (Battle-Scarred) | 0.30 | 42 | 2026-09-11T22:09:47.281Z | steam-bulk |
+| M249 \| Spectrogram (Factory New) | 0.65 | 369 | 2026-09-11T22:09:47.693Z | steam-bulk |
+| M249 \| Spectrogram (Field-Tested) | 0.19 | 482 | 2026-09-11T22:09:47.103Z | steam-bulk |
+| M249 \| Spectrogram (Minimal Wear) | 0.30 | 385 | 2026-09-11T22:09:47.282Z | steam-bulk |
+| M249 \| Spectrogram (Well-Worn) | 0.27 | 137 | 2026-09-11T22:09:47.234Z | steam-bulk |
 | M249 \| System Lock (Battle-Scarred) | 0.70 | 38 | 2026-09-11T22:09:47.726Z | steam-bulk |
 | M249 \| System Lock (Factory New) | 2.08 | 75 | 2026-09-11T22:09:48.393Z | steam-bulk |
 | M249 \| System Lock (Field-Tested) | 0.80 | 86 | 2026-09-11T22:09:47.810Z | steam-bulk |
@@ -4365,6 +4574,13 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M4A1-S \| Emphorosaur-S (Field-Tested) | 0.67 | 6370 | 2026-09-11T22:09:47.694Z | steam-bulk |
 | M4A1-S \| Emphorosaur-S (Minimal Wear) | 1.36 | 2040 | 2026-09-11T22:09:48.118Z | steam-bulk |
 | M4A1-S \| Emphorosaur-S (Well-Worn) | 0.71 | 631 | 2026-09-11T22:09:47.728Z | steam-bulk |
+| M4A1-S \| Fade (Factory New) | 262.28 | 368 | 2026-09-11T22:09:50.998Z | steam-bulk |
+| M4A1-S \| Fade (Minimal Wear) | 324.38 | 16 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| M4A1-S \| Fatal Glitch (Battle-Scarred) | 20.96 | 42 | 2026-09-11T22:09:49.923Z | steam-bulk |
+| M4A1-S \| Fatal Glitch (Factory New) | 130.00 | 22 | 2026-09-11T22:09:50.753Z | steam-bulk |
+| M4A1-S \| Fatal Glitch (Field-Tested) | 27.85 | 54 | 2026-09-11T22:09:50.073Z | steam-bulk |
+| M4A1-S \| Fatal Glitch (Minimal Wear) | 58.04 | 58 | 2026-09-11T22:09:50.388Z | steam-bulk |
+| M4A1-S \| Fatal Glitch (Well-Worn) | 21.30 | 35 | 2026-09-11T22:09:49.939Z | steam-bulk |
 | M4A1-S \| Flashback (Battle-Scarred) | 4.18 | 206 | 2026-09-11T22:09:48.886Z | steam-bulk |
 | M4A1-S \| Flashback (Factory New) | 216.48 | 79 | 2026-09-11T22:09:50.951Z | steam-bulk |
 | M4A1-S \| Flashback (Field-Tested) | 4.83 | 354 | 2026-09-11T22:09:49.007Z | steam-bulk |
@@ -4420,11 +4636,21 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M4A1-S \| Printstream (Field-Tested) | 256.33 | 90 | 2026-09-11T22:09:50.983Z | steam-bulk |
 | M4A1-S \| Printstream (Minimal Wear) | 430.09 | 47 | 2026-09-11T22:09:51.093Z | steam-bulk |
 | M4A1-S \| Printstream (Well-Worn) | 227.05 | 13 | 2026-09-11T22:09:50.966Z | steam-bulk |
+| M4A1-S \| Solitude (Battle-Scarred) | 1.57 | 2532 | 2026-09-11T22:09:48.214Z | steam-bulk |
+| M4A1-S \| Solitude (Factory New) | 20.03 | 773 | 2026-09-11T21:39:50.918Z | steam-bulk |
+| M4A1-S \| Solitude (Field-Tested) | 2.05 | 6375 | 2026-09-11T22:09:48.392Z | steam-bulk |
+| M4A1-S \| Solitude (Minimal Wear) | 5.29 | 1666 | 2026-09-11T22:09:49.092Z | steam-bulk |
+| M4A1-S \| Solitude (Well-Worn) | 2.15 | 553 | 2026-09-11T22:09:48.410Z | steam-bulk |
 | M4A1-S \| Vaporwave (Battle-Scarred) | 56.76 | 17 | 2026-09-11T22:09:50.372Z | steam-bulk |
 | M4A1-S \| Vaporwave (Factory New) | 220.05 | 52 | 2026-09-11T22:09:50.951Z | steam-bulk |
 | M4A1-S \| Vaporwave (Field-Tested) | 68.51 | 122 | 2026-09-11T22:09:50.468Z | steam-bulk |
 | M4A1-S \| Vaporwave (Minimal Wear) | 99.49 | 88 | 2026-09-11T22:09:50.650Z | steam-bulk |
 | M4A1-S \| Vaporwave (Well-Worn) | 61.00 | 14 | 2026-09-11T22:09:50.420Z | steam-bulk |
+| M4A1-S \| Wash me plz (Battle-Scarred) | 0.12 | 1239 | 2026-09-11T22:09:46.934Z | steam-bulk |
+| M4A1-S \| Wash me plz (Factory New) | 0.43 | 2475 | 2026-09-11T22:09:47.442Z | steam-bulk |
+| M4A1-S \| Wash me plz (Field-Tested) | 0.11 | 8533 | 2026-09-11T22:09:46.903Z | steam-bulk |
+| M4A1-S \| Wash me plz (Minimal Wear) | 0.15 | 6572 | 2026-09-11T22:09:47.037Z | steam-bulk |
+| M4A1-S \| Wash me plz (Well-Worn) | 0.14 | 907 | 2026-09-11T22:09:47.001Z | steam-bulk |
 | M4A4 \| Asiimov (Battle-Scarred) | 107.87 | 34 | 2026-09-11T22:09:50.684Z | steam-bulk |
 | M4A4 \| Asiimov (Field-Tested) | 322.95 | 43 | 2026-09-11T22:09:51.031Z | steam-bulk |
 | M4A4 \| Asiimov (Well-Worn) | 168.20 | 13 | 2026-09-11T22:09:50.856Z | steam-bulk |
@@ -4447,6 +4673,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M4A4 \| Cyber Security (Field-Tested) | 26.36 | 52 | 2026-09-11T22:09:50.039Z | steam-bulk |
 | M4A4 \| Cyber Security (Minimal Wear) | 46.10 | 48 | 2026-09-11T22:09:50.289Z | steam-bulk |
 | M4A4 \| Cyber Security (Well-Worn) | 21.36 | 36 | 2026-09-11T22:09:49.939Z | steam-bulk |
+| M4A4 \| Dark Operative (Battle-Scarred) | 0.29 | 159 | 2026-09-11T22:09:47.281Z | steam-bulk |
+| M4A4 \| Dark Operative (Factory New) | 9.27 | 71 | 2026-09-11T22:09:49.464Z | steam-bulk |
+| M4A4 \| Dark Operative (Field-Tested) | 0.59 | 319 | 2026-09-11T22:09:47.629Z | steam-bulk |
+| M4A4 \| Dark Operative (Minimal Wear) | 1.99 | 142 | 2026-09-11T22:09:48.359Z | steam-bulk |
+| M4A4 \| Dark Operative (Well-Worn) | 0.34 | 91 | 2026-09-11T22:09:47.329Z | steam-bulk |
 | M4A4 \| Desert-Strike (Battle-Scarred) | 44.40 | 14 | 2026-09-11T22:09:50.272Z | steam-bulk |
 | M4A4 \| Desert-Strike (Factory New) | 118.02 | 83 | 2026-09-11T22:09:50.719Z | steam-bulk |
 | M4A4 \| Desert-Strike (Field-Tested) | 41.37 | 82 | 2026-09-11T22:09:50.254Z | steam-bulk |
@@ -4472,6 +4703,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M4A4 \| Faded Zebra (Field-Tested) | 8.88 | 103 | 2026-09-11T22:09:49.433Z | steam-bulk |
 | M4A4 \| Faded Zebra (Minimal Wear) | 53.82 | 29 | 2026-09-11T22:09:50.355Z | steam-bulk |
 | M4A4 \| Faded Zebra (Well-Worn) | 8.32 | 19 | 2026-09-11T22:09:49.399Z | steam-bulk |
+| M4A4 \| Falak (Battle-Scarred) | 16.10 | 87 | 2026-09-11T22:09:49.775Z | steam-bulk |
+| M4A4 \| Falak (Factory New) | 181.11 | 19 | 2026-09-11T22:09:50.889Z | steam-bulk |
+| M4A4 \| Falak (Field-Tested) | 34.80 | 158 | 2026-09-11T22:09:50.173Z | steam-bulk |
+| M4A4 \| Falak (Minimal Wear) | 90.50 | 99 | 2026-09-11T22:09:50.600Z | steam-bulk |
+| M4A4 \| Falak (Well-Worn) | 18.06 | 81 | 2026-09-11T22:09:49.842Z | steam-bulk |
 | M4A4 \| Full Throttle (Battle-Scarred) | 33.26 | 110 | 2026-09-11T22:09:50.156Z | steam-bulk |
 | M4A4 \| Full Throttle (Factory New) | 287.56 | 35 | 2026-09-11T22:09:51.014Z | steam-bulk |
 | M4A4 \| Full Throttle (Field-Tested) | 56.10 | 218 | 2026-09-11T22:09:50.372Z | steam-bulk |
@@ -4487,6 +4723,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M4A4 \| Hellfire (Field-Tested) | 208.45 | 33 | 2026-09-11T22:09:50.922Z | steam-bulk |
 | M4A4 \| Hellfire (Minimal Wear) | 247.44 | 34 | 2026-09-11T22:09:50.983Z | steam-bulk |
 | M4A4 \| Hellfire (Well-Worn) | 97.35 | 9 | 2026-09-11T22:09:50.634Z | steam-bulk |
+| M4A4 \| Hellish (Battle-Scarred) | 13.61 | 71 | 2026-09-11T22:09:49.676Z | steam-bulk |
+| M4A4 \| Hellish (Factory New) | 183.29 | 25 | 2026-09-11T22:09:50.890Z | steam-bulk |
+| M4A4 \| Hellish (Field-Tested) | 22.98 | 222 | 2026-09-11T22:09:49.972Z | steam-bulk |
+| M4A4 \| Hellish (Minimal Wear) | 52.51 | 100 | 2026-09-11T22:09:50.354Z | steam-bulk |
+| M4A4 \| Hellish (Well-Worn) | 16.77 | 90 | 2026-09-11T22:09:49.792Z | steam-bulk |
 | M4A4 \| In Living Color (Battle-Scarred) | 42.12 | 41 | 2026-09-11T22:09:50.255Z | steam-bulk |
 | M4A4 \| In Living Color (Factory New) | 141.54 | 50 | 2026-09-11T22:09:50.788Z | steam-bulk |
 | M4A4 \| In Living Color (Field-Tested) | 42.74 | 149 | 2026-09-11T22:09:50.255Z | steam-bulk |
@@ -4507,6 +4748,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | M4A4 \| Poly Mag (Field-Tested) | 0.13 | 1028 | 2026-09-11T22:09:46.970Z | steam-bulk |
 | M4A4 \| Poly Mag (Minimal Wear) | 0.23 | 1007 | 2026-09-11T22:09:47.186Z | steam-bulk |
 | M4A4 \| Poly Mag (Well-Worn) | 0.10 | 2044 | 2026-09-11T22:09:46.869Z | steam-bulk |
+| M4A4 \| Polysoup (Battle-Scarred) | 7.83 | 19 | 2026-09-11T22:09:49.364Z | steam-bulk |
+| M4A4 \| Polysoup (Factory New) | 39.55 | 106 | 2026-09-11T22:09:50.223Z | steam-bulk |
+| M4A4 \| Polysoup (Field-Tested) | 12.88 | 80 | 2026-09-11T22:09:49.643Z | steam-bulk |
+| M4A4 \| Polysoup (Minimal Wear) | 22.87 | 61 | 2026-09-11T22:09:49.972Z | steam-bulk |
+| M4A4 \| Polysoup (Well-Worn) | 11.44 | 29 | 2026-09-11T22:09:49.593Z | steam-bulk |
 | M4A4 \| Royal Paladin (Battle-Scarred) | 106.65 | 22 | 2026-09-11T22:09:50.684Z | steam-bulk |
 | M4A4 \| Royal Paladin (Factory New) | 379.59 | 10 | 2026-09-11T22:09:51.063Z | steam-bulk |
 | M4A4 \| Royal Paladin (Field-Tested) | 109.06 | 47 | 2026-09-11T22:09:50.684Z | steam-bulk |
@@ -4569,6 +4815,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MAC-10 \| Aloha (Field-Tested) | 5.22 | 36 | 2026-09-11T22:09:49.075Z | steam-bulk |
 | MAC-10 \| Aloha (Minimal Wear) | 7.75 | 18 | 2026-09-11T22:09:49.348Z | steam-bulk |
 | MAC-10 \| Aloha (Well-Worn) | 6.68 | 6 | 2026-09-11T22:09:49.262Z | steam-bulk |
+| MAC-10 \| Arabesque Mosaic (Battle-Scarred) | 0.25 | 114 | 2026-09-11T22:09:47.218Z | steam-bulk |
+| MAC-10 \| Arabesque Mosaic (Factory New) | 4.06 | 152 | 2026-09-11T22:09:48.855Z | steam-bulk |
+| MAC-10 \| Arabesque Mosaic (Field-Tested) | 0.45 | 462 | 2026-09-11T22:09:47.492Z | steam-bulk |
+| MAC-10 \| Arabesque Mosaic (Minimal Wear) | 1.01 | 345 | 2026-09-11T22:09:47.955Z | steam-bulk |
+| MAC-10 \| Arabesque Mosaic (Well-Worn) | 0.32 | 142 | 2026-09-11T22:09:47.313Z | steam-bulk |
 | MAC-10 \| Button Masher (Battle-Scarred) | 0.53 | 124 | 2026-09-11T22:09:47.559Z | steam-bulk |
 | MAC-10 \| Button Masher (Factory New) | 5.89 | 75 | 2026-09-11T22:09:49.175Z | steam-bulk |
 | MAC-10 \| Button Masher (Field-Tested) | 0.58 | 174 | 2026-09-11T22:09:47.627Z | steam-bulk |
@@ -4589,6 +4840,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MAC-10 \| Classic Crate (Field-Tested) | 0.60 | 50 | 2026-09-11T22:09:47.645Z | steam-bulk |
 | MAC-10 \| Classic Crate (Minimal Wear) | 0.57 | 121 | 2026-09-11T22:09:47.595Z | steam-bulk |
 | MAC-10 \| Classic Crate (Well-Worn) | 0.64 | 115 | 2026-09-11T22:09:47.678Z | steam-bulk |
+| MAC-10 \| Derailment (Battle-Scarred) | 1.93 | 143 | 2026-09-11T22:09:48.357Z | steam-bulk |
+| MAC-10 \| Derailment (Factory New) | 13.02 | 170 | 2026-09-11T22:09:49.658Z | steam-bulk |
+| MAC-10 \| Derailment (Field-Tested) | 2.49 | 772 | 2026-09-11T22:09:48.539Z | steam-bulk |
+| MAC-10 \| Derailment (Minimal Wear) | 6.72 | 233 | 2026-09-11T22:09:49.262Z | steam-bulk |
+| MAC-10 \| Derailment (Well-Worn) | 2.51 | 75 | 2026-09-11T22:09:48.539Z | steam-bulk |
 | MAC-10 \| Disco Tech (Battle-Scarred) | 7.01 | 69 | 2026-09-11T22:09:49.280Z | steam-bulk |
 | MAC-10 \| Disco Tech (Factory New) | 32.32 | 57 | 2026-09-11T22:09:50.141Z | steam-bulk |
 | MAC-10 \| Disco Tech (Field-Tested) | 7.27 | 195 | 2026-09-11T22:09:49.314Z | steam-bulk |
@@ -4648,6 +4904,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MAC-10 \| Pipe Down (Field-Tested) | 0.77 | 141 | 2026-09-11T22:09:47.793Z | steam-bulk |
 | MAC-10 \| Pipe Down (Minimal Wear) | 1.83 | 74 | 2026-09-11T22:09:48.325Z | steam-bulk |
 | MAC-10 \| Pipe Down (Well-Worn) | 0.72 | 68 | 2026-09-11T22:09:47.744Z | steam-bulk |
+| MAC-10 \| Pipsqueak (Battle-Scarred) | 0.27 | 440 | 2026-09-11T22:09:47.234Z | steam-bulk |
+| MAC-10 \| Pipsqueak (Factory New) | 3.94 | 225 | 2026-09-11T22:09:48.837Z | steam-bulk |
+| MAC-10 \| Pipsqueak (Field-Tested) | 0.34 | 862 | 2026-09-11T22:09:47.329Z | steam-bulk |
+| MAC-10 \| Pipsqueak (Minimal Wear) | 1.28 | 538 | 2026-09-11T22:09:48.085Z | steam-bulk |
+| MAC-10 \| Pipsqueak (Well-Worn) | 0.29 | 528 | 2026-09-11T22:09:47.266Z | steam-bulk |
 | MAC-10 \| Rangeen (Battle-Scarred) | 0.45 | 31 | 2026-09-11T22:09:47.476Z | steam-bulk |
 | MAC-10 \| Rangeen (Factory New) | 1.82 | 241 | 2026-09-11T22:09:48.309Z | steam-bulk |
 | MAC-10 \| Rangeen (Field-Tested) | 0.50 | 252 | 2026-09-11T22:09:47.543Z | steam-bulk |
@@ -4681,6 +4942,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MAC-10 \| Ultraviolet (Field-Tested) | 3.14 | 80 | 2026-09-11T22:09:48.689Z | steam-bulk |
 | MAC-10 \| Ultraviolet (Minimal Wear) | 7.54 | 48 | 2026-09-11T22:09:49.347Z | steam-bulk |
 | MAC-10 \| Ultraviolet (Well-Worn) | 2.90 | 25 | 2026-09-11T22:09:48.624Z | steam-bulk |
+| MAC-10 \| Video Cam (Battle-Scarred) | 0.06 | 646 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| MAC-10 \| Video Cam (Factory New) | 1.96 | 115 | 2026-09-11T22:09:48.358Z | steam-bulk |
+| MAC-10 \| Video Cam (Field-Tested) | 0.07 | 951 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| MAC-10 \| Video Cam (Minimal Wear) | 0.19 | 551 | 2026-09-11T22:09:47.104Z | steam-bulk |
+| MAC-10 \| Video Cam (Well-Worn) | 0.06 | 222 | 2026-09-11T22:09:46.723Z | steam-bulk |
 | MAC-10 \| Whitefish (Battle-Scarred) | 0.35 | 131 | 2026-09-11T22:09:47.345Z | steam-bulk |
 | MAC-10 \| Whitefish (Factory New) | 9.30 | 78 | 2026-09-11T22:09:49.479Z | steam-bulk |
 | MAC-10 \| Whitefish (Field-Tested) | 0.61 | 254 | 2026-09-11T22:09:47.661Z | steam-bulk |
@@ -4769,6 +5035,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MAG-7 \| SWAG-7 (Field-Tested) | 0.67 | 209 | 2026-09-11T22:09:47.694Z | steam-bulk |
 | MAG-7 \| SWAG-7 (Minimal Wear) | 1.76 | 79 | 2026-09-11T22:09:48.292Z | steam-bulk |
 | MAG-7 \| SWAG-7 (Well-Worn) | 0.58 | 160 | 2026-09-11T22:09:47.628Z | steam-bulk |
+| MAG-7 \| Wildwood (Battle-Scarred) | 0.07 | 983 | 2026-09-11T22:09:46.740Z | steam-bulk |
+| MAG-7 \| Wildwood (Factory New) | 0.28 | 1320 | 2026-09-11T22:09:47.250Z | steam-bulk |
+| MAG-7 \| Wildwood (Field-Tested) | 0.06 | 4779 | 2026-09-11T22:09:46.675Z | steam-bulk |
+| MAG-7 \| Wildwood (Minimal Wear) | 0.09 | 2389 | 2026-09-11T22:09:46.839Z | steam-bulk |
+| MAG-7 \| Wildwood (Well-Worn) | 0.08 | 518 | 2026-09-11T22:09:46.790Z | steam-bulk |
 | MLG Columbus 2016 Cache Souvenir Package | 86.98 | 12 | 2026-09-11T22:09:50.583Z | steam-bulk |
 | MLG Columbus 2016 Cobblestone Souvenir Package | 1333.60 | 6 | 2026-09-11T22:09:51.207Z | steam-bulk |
 | MLG Columbus 2016 Dust II Souvenir Package | 185.55 | 6 | 2026-09-11T22:09:50.890Z | steam-bulk |
@@ -4822,11 +5093,17 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MP5-SD \| Necro Jr. (Field-Tested) | 0.12 | 1432 | 2026-09-11T22:09:46.934Z | steam-bulk |
 | MP5-SD \| Necro Jr. (Minimal Wear) | 0.21 | 715 | 2026-09-11T22:09:47.137Z | steam-bulk |
 | MP5-SD \| Necro Jr. (Well-Worn) | 0.10 | 1536 | 2026-09-11T22:09:46.871Z | steam-bulk |
+| MP5-SD \| Neon Squeezer (Battle-Scarred) | 0.06 | 1740 | 2026-09-11T22:09:46.690Z | steam-bulk |
+| MP5-SD \| Neon Squeezer (Field-Tested) | 0.13 | 6009 | 2026-09-11T22:09:46.969Z | steam-bulk |
+| MP5-SD \| Neon Squeezer (Well-Worn) | 0.07 | 996 | 2026-09-11T22:09:46.724Z | steam-bulk |
 | MP5-SD \| Phosphor (Battle-Scarred) | 5.60 | 37 | 2026-09-11T22:09:49.125Z | steam-bulk |
 | MP5-SD \| Phosphor (Factory New) | 17.24 | 68 | 2026-09-11T22:09:49.809Z | steam-bulk |
 | MP5-SD \| Phosphor (Field-Tested) | 5.96 | 162 | 2026-09-11T22:09:49.176Z | steam-bulk |
 | MP5-SD \| Phosphor (Minimal Wear) | 8.37 | 84 | 2026-09-11T22:09:49.399Z | steam-bulk |
 | MP5-SD \| Phosphor (Well-Worn) | 6.23 | 22 | 2026-09-11T22:09:49.210Z | steam-bulk |
+| MP5-SD \| Savannah Halftone (Battle-Scarred) | 0.07 | 4406 | 2026-09-11T22:09:46.756Z | steam-bulk |
+| MP5-SD \| Savannah Halftone (Field-Tested) | 0.13 | 7617 | 2026-09-11T22:09:46.970Z | steam-bulk |
+| MP5-SD \| Savannah Halftone (Well-Worn) | 0.08 | 1089 | 2026-09-11T22:09:46.788Z | steam-bulk |
 | MP5-SD \| Statics (Battle-Scarred) | 0.22 | 171 | 2026-09-11T22:09:47.153Z | steam-bulk |
 | MP5-SD \| Statics (Factory New) | 2.01 | 89 | 2026-09-11T22:09:48.375Z | steam-bulk |
 | MP5-SD \| Statics (Field-Tested) | 0.37 | 173 | 2026-09-11T22:09:47.376Z | steam-bulk |
@@ -4852,6 +5129,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MP7 \| Armor Core (Field-Tested) | 0.36 | 402 | 2026-09-11T22:09:47.360Z | steam-bulk |
 | MP7 \| Armor Core (Minimal Wear) | 0.71 | 117 | 2026-09-11T22:09:47.728Z | steam-bulk |
 | MP7 \| Armor Core (Well-Worn) | 0.39 | 64 | 2026-09-11T22:09:47.391Z | steam-bulk |
+| MP7 \| Astrolabe (Battle-Scarred) | 0.19 | 219 | 2026-09-11T22:09:47.088Z | steam-bulk |
+| MP7 \| Astrolabe (Factory New) | 28.45 | 77 | 2026-09-11T22:09:50.074Z | steam-bulk |
+| MP7 \| Astrolabe (Field-Tested) | 0.26 | 905 | 2026-09-11T22:09:47.218Z | steam-bulk |
+| MP7 \| Astrolabe (Minimal Wear) | 0.39 | 658 | 2026-09-11T22:09:47.391Z | steam-bulk |
+| MP7 \| Astrolabe (Well-Worn) | 0.19 | 328 | 2026-09-11T22:09:47.088Z | steam-bulk |
+| MP7 \| Base-2 (Battle-Scarred) | 0.07 | 251 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| MP7 \| Base-2 (Factory New) | 0.93 | 174 | 2026-09-11T22:09:47.892Z | steam-bulk |
+| MP7 \| Base-2 (Field-Tested) | 0.08 | 354 | 2026-09-11T22:09:46.822Z | steam-bulk |
+| MP7 \| Base-2 (Minimal Wear) | 0.15 | 320 | 2026-09-11T22:09:47.054Z | steam-bulk |
+| MP7 \| Base-2 (Well-Worn) | 0.06 | 276 | 2026-09-11T22:09:46.723Z | steam-bulk |
 | MP7 \| Bloodsport (Battle-Scarred) | 40.03 | 60 | 2026-09-11T22:09:50.223Z | steam-bulk |
 | MP7 \| Bloodsport (Factory New) | 100.57 | 110 | 2026-09-11T22:09:50.651Z | steam-bulk |
 | MP7 \| Bloodsport (Field-Tested) | 42.80 | 175 | 2026-09-11T22:09:50.270Z | steam-bulk |
@@ -4917,6 +5204,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MP9 \| Airlock (Field-Tested) | 17.01 | 69 | 2026-09-11T22:09:49.808Z | steam-bulk |
 | MP9 \| Airlock (Minimal Wear) | 17.51 | 54 | 2026-09-11T22:09:49.840Z | steam-bulk |
 | MP9 \| Airlock (Well-Worn) | 16.82 | 24 | 2026-09-11T22:09:49.792Z | steam-bulk |
+| MP9 \| Arctic Tri-Tone (Battle-Scarred) | 3.09 | 110 | 2026-09-11T22:09:48.658Z | steam-bulk |
+| MP9 \| Arctic Tri-Tone (Factory New) | 8.34 | 344 | 2026-09-11T22:09:49.399Z | steam-bulk |
+| MP9 \| Arctic Tri-Tone (Field-Tested) | 3.11 | 619 | 2026-09-11T22:09:48.688Z | steam-bulk |
+| MP9 \| Arctic Tri-Tone (Minimal Wear) | 4.73 | 322 | 2026-09-11T22:09:49.006Z | steam-bulk |
+| MP9 \| Arctic Tri-Tone (Well-Worn) | 3.25 | 83 | 2026-09-11T22:09:48.691Z | steam-bulk |
 | MP9 \| Bioleak (Battle-Scarred) | 0.55 | 34 | 2026-09-11T22:09:47.577Z | steam-bulk |
 | MP9 \| Bioleak (Factory New) | 0.81 | 339 | 2026-09-11T22:09:47.811Z | steam-bulk |
 | MP9 \| Bioleak (Field-Tested) | 0.48 | 617 | 2026-09-11T22:09:47.509Z | steam-bulk |
@@ -4947,6 +5239,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MP9 \| Deadly Poison (Field-Tested) | 0.77 | 306 | 2026-09-11T22:09:47.793Z | steam-bulk |
 | MP9 \| Deadly Poison (Minimal Wear) | 1.36 | 144 | 2026-09-11T22:09:48.118Z | steam-bulk |
 | MP9 \| Deadly Poison (Well-Worn) | 0.59 | 67 | 2026-09-11T22:09:47.629Z | steam-bulk |
+| MP9 \| Dune Asp (Battle-Scarred) | 0.06 | 2527 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| MP9 \| Dune Asp (Factory New) | 0.85 | 178 | 2026-09-11T22:09:47.844Z | steam-bulk |
+| MP9 \| Dune Asp (Field-Tested) | 0.07 | 2358 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| MP9 \| Dune Asp (Minimal Wear) | 0.15 | 429 | 2026-09-11T22:09:47.054Z | steam-bulk |
+| MP9 \| Dune Asp (Well-Worn) | 0.05 | 3700 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | MP9 \| Featherweight (Battle-Scarred) | 0.10 | 1662 | 2026-09-11T22:09:46.870Z | steam-bulk |
 | MP9 \| Featherweight (Factory New) | 0.99 | 253 | 2026-09-11T22:09:47.924Z | steam-bulk |
 | MP9 \| Featherweight (Field-Tested) | 0.10 | 1892 | 2026-09-11T22:09:46.871Z | steam-bulk |
@@ -4969,6 +5266,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MP9 \| Hydra (Well-Worn) | 6.24 | 58 | 2026-09-11T22:09:49.210Z | steam-bulk |
 | MP9 \| Hypnotic (Factory New) | 22.33 | 110 | 2026-09-11T22:09:49.971Z | steam-bulk |
 | MP9 \| Hypnotic (Minimal Wear) | 28.46 | 10 | 2026-09-11T22:09:50.074Z | steam-bulk |
+| MP9 \| Latte Rush (Battle-Scarred) | 10.23 | 52 | 2026-09-11T22:09:49.512Z | steam-bulk |
+| MP9 \| Latte Rush (Factory New) | 92.28 | 56 | 2026-09-11T22:09:50.616Z | steam-bulk |
+| MP9 \| Latte Rush (Field-Tested) | 15.16 | 192 | 2026-09-11T22:09:49.742Z | steam-bulk |
+| MP9 \| Latte Rush (Minimal Wear) | 46.40 | 81 | 2026-09-11T22:09:50.289Z | steam-bulk |
+| MP9 \| Latte Rush (Well-Worn) | 11.66 | 54 | 2026-09-11T22:09:49.594Z | steam-bulk |
 | MP9 \| Modest Threat (Battle-Scarred) | 0.23 | 125 | 2026-09-11T22:09:47.185Z | steam-bulk |
 | MP9 \| Modest Threat (Factory New) | 0.99 | 215 | 2026-09-11T22:09:47.925Z | steam-bulk |
 | MP9 \| Modest Threat (Field-Tested) | 0.35 | 869 | 2026-09-11T22:09:47.359Z | steam-bulk |
@@ -4996,6 +5298,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | MP9 \| Sand Scale (Field-Tested) | 0.85 | 193 | 2026-09-11T22:09:47.843Z | steam-bulk |
 | MP9 \| Sand Scale (Minimal Wear) | 1.66 | 58 | 2026-09-11T22:09:48.245Z | steam-bulk |
 | MP9 \| Sand Scale (Well-Worn) | 0.64 | 72 | 2026-09-11T22:09:47.663Z | steam-bulk |
+| MP9 \| Spy Prototype (Battle-Scarred) | 0.29 | 86 | 2026-09-11T22:09:47.281Z | steam-bulk |
+| MP9 \| Spy Prototype (Factory New) | 3.06 | 64 | 2026-09-11T22:09:48.657Z | steam-bulk |
+| MP9 \| Spy Prototype (Field-Tested) | 0.44 | 112 | 2026-09-11T22:09:47.460Z | steam-bulk |
+| MP9 \| Spy Prototype (Minimal Wear) | 0.99 | 151 | 2026-09-11T22:09:47.925Z | steam-bulk |
+| MP9 \| Spy Prototype (Well-Worn) | 0.34 | 78 | 2026-09-11T22:09:47.329Z | steam-bulk |
 | MP9 \| Starlight Protector (Battle-Scarred) | 96.01 | 59 | 2026-09-11T22:09:50.634Z | steam-bulk |
 | MP9 \| Starlight Protector (Factory New) | 148.43 | 66 | 2026-09-11T22:09:50.805Z | steam-bulk |
 | MP9 \| Starlight Protector (Field-Tested) | 91.49 | 238 | 2026-09-11T22:09:50.601Z | steam-bulk |
@@ -5060,6 +5367,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Negev \| Ultralight (Field-Tested) | 0.12 | 1232 | 2026-09-11T22:09:46.935Z | steam-bulk |
 | Negev \| Ultralight (Minimal Wear) | 0.19 | 401 | 2026-09-11T22:09:47.088Z | steam-bulk |
 | Negev \| Ultralight (Well-Worn) | 0.10 | 151 | 2026-09-11T22:09:46.869Z | steam-bulk |
+| Negev \| Wall Bang (Battle-Scarred) | 0.05 | 2976 | 2026-09-11T22:09:46.560Z | steam-bulk |
+| Negev \| Wall Bang (Factory New) | 1.09 | 738 | 2026-09-11T22:09:47.987Z | steam-bulk |
+| Negev \| Wall Bang (Field-Tested) | 0.07 | 2811 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| Negev \| Wall Bang (Minimal Wear) | 0.13 | 2103 | 2026-09-11T22:09:46.969Z | steam-bulk |
+| Negev \| Wall Bang (Well-Worn) | 0.05 | 1519 | 2026-09-11T22:09:46.578Z | steam-bulk |
 | Nova \| Antique (Factory New) | 14.35 | 46 | 2026-09-11T22:09:49.708Z | steam-bulk |
 | Nova \| Antique (Field-Tested) | 15.65 | 5 | 2026-09-11T22:09:49.759Z | steam-bulk |
 | Nova \| Antique (Minimal Wear) | 13.34 | 33 | 2026-09-11T22:09:49.675Z | steam-bulk |
@@ -5100,6 +5412,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Nova \| Koi (Factory New) | 4.49 | 195 | 2026-09-11T22:09:48.937Z | steam-bulk |
 | Nova \| Koi (Field-Tested) | 3.27 | 33 | 2026-09-11T22:09:48.722Z | steam-bulk |
 | Nova \| Koi (Minimal Wear) | 2.93 | 64 | 2026-09-11T22:09:48.624Z | steam-bulk |
+| Nova \| Morning Sun (Battle-Scarred) | 0.05 | 2668 | 2026-09-11T22:09:46.674Z | steam-bulk |
+| Nova \| Morning Sun (Factory New) | 0.72 | 226 | 2026-09-11T22:09:47.744Z | steam-bulk |
+| Nova \| Morning Sun (Field-Tested) | 0.07 | 2045 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| Nova \| Morning Sun (Minimal Wear) | 0.17 | 488 | 2026-09-11T22:09:47.087Z | steam-bulk |
+| Nova \| Morning Sun (Well-Worn) | 0.05 | 3364 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | Nova \| Ocular (Battle-Scarred) | 0.59 | 238 | 2026-09-11T22:09:47.629Z | steam-bulk |
 | Nova \| Ocular (Factory New) | 4.49 | 240 | 2026-09-11T22:09:48.954Z | steam-bulk |
 | Nova \| Ocular (Field-Tested) | 0.90 | 409 | 2026-09-11T22:09:47.891Z | steam-bulk |
@@ -5110,6 +5427,9 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Nova \| Plume (Field-Tested) | 0.99 | 89 | 2026-09-11T22:09:47.925Z | steam-bulk |
 | Nova \| Plume (Minimal Wear) | 2.30 | 66 | 2026-09-11T22:09:48.475Z | steam-bulk |
 | Nova \| Plume (Well-Worn) | 0.96 | 32 | 2026-09-11T22:09:47.923Z | steam-bulk |
+| Nova \| Rain Station (Factory New) | 0.21 | 7192 | 2026-09-11T22:09:47.137Z | steam-bulk |
+| Nova \| Rain Station (Field-Tested) | 0.05 | 3708 | 2026-09-11T22:09:46.612Z | steam-bulk |
+| Nova \| Rain Station (Minimal Wear) | 0.06 | 5720 | 2026-09-11T22:09:46.691Z | steam-bulk |
 | Nova \| Ranger (Battle-Scarred) | 0.44 | 88 | 2026-09-11T22:09:47.459Z | steam-bulk |
 | Nova \| Ranger (Factory New) | 1.89 | 64 | 2026-09-11T22:09:48.326Z | steam-bulk |
 | Nova \| Ranger (Field-Tested) | 1.00 | 109 | 2026-09-11T22:09:47.925Z | steam-bulk |
@@ -5125,6 +5445,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Nova \| Rising Sun (Field-Tested) | 0.67 | 302 | 2026-09-11T22:09:47.695Z | steam-bulk |
 | Nova \| Rising Sun (Minimal Wear) | 1.30 | 193 | 2026-09-11T22:09:48.087Z | steam-bulk |
 | Nova \| Rising Sun (Well-Worn) | 0.61 | 303 | 2026-09-11T22:09:47.661Z | steam-bulk |
+| Nova \| Smart Gun (Battle-Scarred) | 2.84 | 53 | 2026-09-11T22:09:48.607Z | steam-bulk |
+| Nova \| Smart Gun (Factory New) | 13.33 | 53 | 2026-09-11T22:09:49.660Z | steam-bulk |
+| Nova \| Smart Gun (Field-Tested) | 4.71 | 83 | 2026-09-11T22:09:49.005Z | steam-bulk |
+| Nova \| Smart Gun (Minimal Wear) | 6.67 | 90 | 2026-09-11T22:09:49.262Z | steam-bulk |
+| Nova \| Smart Gun (Well-Worn) | 2.80 | 44 | 2026-09-11T22:09:48.607Z | steam-bulk |
 | Nova \| Tempest (Factory New) | 40.61 | 13 | 2026-09-11T22:09:50.239Z | steam-bulk |
 | Nova \| Tempest (Field-Tested) | 5.73 | 20 | 2026-09-11T22:09:49.142Z | steam-bulk |
 | Nova \| Tempest (Minimal Wear) | 7.21 | 32 | 2026-09-11T22:09:49.314Z | steam-bulk |
@@ -5148,6 +5473,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Nova \| Wood Fired (Field-Tested) | 0.34 | 1080 | 2026-09-11T22:09:47.329Z | steam-bulk |
 | Nova \| Wood Fired (Minimal Wear) | 0.36 | 344 | 2026-09-11T22:09:47.360Z | steam-bulk |
 | Nova \| Wood Fired (Well-Worn) | 5.20 | 55 | 2026-09-11T22:09:49.059Z | steam-bulk |
+| Nova \| Wurst Hölle (Battle-Scarred) | 0.27 | 281 | 2026-09-11T22:09:47.219Z | steam-bulk |
+| Nova \| Wurst Hölle (Factory New) | 2.67 | 195 | 2026-09-11T22:09:48.573Z | steam-bulk |
+| Nova \| Wurst Hölle (Field-Tested) | 0.31 | 556 | 2026-09-11T22:09:47.296Z | steam-bulk |
+| Nova \| Wurst Hölle (Minimal Wear) | 0.77 | 526 | 2026-09-11T22:09:47.793Z | steam-bulk |
+| Nova \| Wurst Hölle (Well-Worn) | 0.28 | 421 | 2026-09-11T22:09:47.250Z | steam-bulk |
+| Nova \| Yorkshire (Battle-Scarred) | 0.36 | 444 | 2026-09-11T22:09:47.360Z | steam-bulk |
+| Nova \| Yorkshire (Factory New) | 2.23 | 277 | 2026-09-11T22:09:48.443Z | steam-bulk |
+| Nova \| Yorkshire (Field-Tested) | 0.38 | 900 | 2026-09-11T22:09:47.391Z | steam-bulk |
+| Nova \| Yorkshire (Minimal Wear) | 0.59 | 858 | 2026-09-11T22:09:47.629Z | steam-bulk |
+| Nova \| Yorkshire (Well-Worn) | 0.36 | 490 | 2026-09-11T22:09:47.360Z | steam-bulk |
 | Operation Bravo Case | 80.00 | — | 2026-09-21T02:41:14.849Z | steam-direct |
 | Operation Breakout Weapon Case | 11.16 | — | 2026-09-21T02:15:09.424Z | steam-direct |
 | Operation Broken Fang Case | 8.43 | — | 2026-09-21T02:14:05.791Z | steam-direct |
@@ -5161,6 +5496,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P2000 \| Acid Etched (Field-Tested) | 0.87 | 283 | 2026-09-11T22:09:47.860Z | steam-bulk |
 | P2000 \| Acid Etched (Minimal Wear) | 1.74 | 180 | 2026-09-11T22:09:48.277Z | steam-bulk |
 | P2000 \| Acid Etched (Well-Worn) | 0.80 | 159 | 2026-09-11T22:09:47.810Z | steam-bulk |
+| P2000 \| Coral Halftone (Battle-Scarred) | 0.21 | 132 | 2026-09-11T22:09:47.136Z | steam-bulk |
+| P2000 \| Coral Halftone (Factory New) | 0.75 | 346 | 2026-09-11T22:09:47.777Z | steam-bulk |
+| P2000 \| Coral Halftone (Field-Tested) | 0.22 | 459 | 2026-09-11T22:09:47.170Z | steam-bulk |
+| P2000 \| Coral Halftone (Minimal Wear) | 0.31 | 393 | 2026-09-11T22:09:47.297Z | steam-bulk |
+| P2000 \| Coral Halftone (Well-Worn) | 0.27 | 208 | 2026-09-11T22:09:47.234Z | steam-bulk |
 | P2000 \| Corticera (Factory New) | 80.24 | 20 | 2026-09-11T22:09:50.550Z | steam-bulk |
 | P2000 \| Corticera (Field-Tested) | 19.91 | 26 | 2026-09-11T22:09:49.906Z | steam-bulk |
 | P2000 \| Corticera (Minimal Wear) | 25.84 | 52 | 2026-09-11T22:09:50.039Z | steam-bulk |
@@ -5268,6 +5608,9 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P250 \| Cassette (Field-Tested) | 0.15 | 826 | 2026-09-11T22:09:47.037Z | steam-bulk |
 | P250 \| Cassette (Minimal Wear) | 0.22 | 1002 | 2026-09-11T22:09:47.154Z | steam-bulk |
 | P250 \| Cassette (Well-Worn) | 0.14 | 177 | 2026-09-11T22:09:46.986Z | steam-bulk |
+| P250 \| Constructivist (Factory New) | 0.22 | 6444 | 2026-09-11T22:09:47.170Z | steam-bulk |
+| P250 \| Constructivist (Field-Tested) | 0.06 | 8550 | 2026-09-11T22:09:46.691Z | steam-bulk |
+| P250 \| Constructivist (Minimal Wear) | 0.07 | 4908 | 2026-09-11T22:09:46.756Z | steam-bulk |
 | P250 \| Contaminant (Battle-Scarred) | 0.89 | 46 | 2026-09-11T22:09:47.876Z | steam-bulk |
 | P250 \| Contaminant (Factory New) | 11.01 | 62 | 2026-09-11T22:09:49.559Z | steam-bulk |
 | P250 \| Contaminant (Field-Tested) | 0.97 | 114 | 2026-09-11T22:09:47.924Z | steam-bulk |
@@ -5301,6 +5644,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P250 \| Kintsugi (Field-Tested) | 7.51 | 275 | 2026-09-11T22:09:49.332Z | steam-bulk |
 | P250 \| Kintsugi (Minimal Wear) | 13.47 | 277 | 2026-09-11T22:09:49.675Z | steam-bulk |
 | P250 \| Kintsugi (Well-Worn) | 6.31 | 215 | 2026-09-11T22:09:49.211Z | steam-bulk |
+| P250 \| Lotus Imprint (Battle-Scarred) | 2.05 | 80 | 2026-09-11T22:09:48.392Z | steam-bulk |
+| P250 \| Lotus Imprint (Factory New) | 17.22 | 63 | 2026-09-11T22:09:49.809Z | steam-bulk |
+| P250 \| Lotus Imprint (Field-Tested) | 3.81 | 162 | 2026-09-11T22:09:48.821Z | steam-bulk |
+| P250 \| Lotus Imprint (Minimal Wear) | 8.18 | 143 | 2026-09-11T22:09:49.398Z | steam-bulk |
+| P250 \| Lotus Imprint (Well-Worn) | 2.73 | 88 | 2026-09-11T22:09:48.590Z | steam-bulk |
 | P250 \| Mehndi (Battle-Scarred) | 14.54 | 13 | 2026-09-11T22:09:49.709Z | steam-bulk |
 | P250 \| Mehndi (Factory New) | 40.97 | 32 | 2026-09-11T22:09:50.239Z | steam-bulk |
 | P250 \| Mehndi (Field-Tested) | 22.22 | 19 | 2026-09-11T22:09:49.956Z | steam-bulk |
@@ -5335,6 +5683,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P250 \| See Ya Later (Field-Tested) | 160.11 | 50 | 2026-09-11T22:09:50.839Z | steam-bulk |
 | P250 \| See Ya Later (Minimal Wear) | 168.22 | 15 | 2026-09-11T22:09:50.856Z | steam-bulk |
 | P250 \| See Ya Later (Well-Worn) | 168.20 | 8 | 2026-09-11T22:09:50.856Z | steam-bulk |
+| P250 \| Small Game (Battle-Scarred) | 0.37 | 227 | 2026-09-11T22:09:47.375Z | steam-bulk |
+| P250 \| Small Game (Factory New) | 1.05 | 598 | 2026-09-11T22:09:47.957Z | steam-bulk |
+| P250 \| Small Game (Field-Tested) | 0.37 | 1184 | 2026-09-11T22:09:47.361Z | steam-bulk |
+| P250 \| Small Game (Minimal Wear) | 0.50 | 946 | 2026-09-11T22:09:47.543Z | steam-bulk |
+| P250 \| Small Game (Well-Worn) | 0.38 | 219 | 2026-09-11T22:09:47.390Z | steam-bulk |
 | P250 \| Splash (Factory New) | 82.38 | 10 | 2026-09-11T22:09:50.551Z | steam-bulk |
 | P250 \| Splash (Field-Tested) | 27.59 | 8 | 2026-09-11T22:09:50.072Z | steam-bulk |
 | P250 \| Splash (Minimal Wear) | 22.25 | 66 | 2026-09-11T22:09:49.956Z | steam-bulk |
@@ -5373,6 +5726,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P90 \| Asiimov (Field-Tested) | 247.56 | 53 | 2026-09-11T22:09:50.983Z | steam-bulk |
 | P90 \| Asiimov (Minimal Wear) | 277.71 | 35 | 2026-09-11T22:09:51.000Z | steam-bulk |
 | P90 \| Asiimov (Well-Worn) | 237.06 | 20 | 2026-09-11T22:09:50.967Z | steam-bulk |
+| P90 \| Attack Vector (Battle-Scarred) | 7.25 | 27 | 2026-09-11T22:09:49.314Z | steam-bulk |
+| P90 \| Attack Vector (Factory New) | 21.55 | 53 | 2026-09-11T22:09:49.939Z | steam-bulk |
+| P90 \| Attack Vector (Field-Tested) | 7.21 | 98 | 2026-09-11T22:09:49.314Z | steam-bulk |
+| P90 \| Attack Vector (Minimal Wear) | 13.98 | 35 | 2026-09-11T22:09:49.692Z | steam-bulk |
+| P90 \| Attack Vector (Well-Worn) | 7.58 | 13 | 2026-09-11T22:09:49.347Z | steam-bulk |
 | P90 \| Blind Spot (Battle-Scarred) | 11.87 | 9 | 2026-09-11T22:09:49.610Z | steam-bulk |
 | P90 \| Blind Spot (Factory New) | 15.13 | 116 | 2026-09-11T22:09:49.742Z | steam-bulk |
 | P90 \| Blind Spot (Field-Tested) | 10.19 | 65 | 2026-09-11T22:09:49.511Z | steam-bulk |
@@ -5452,6 +5810,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P90 \| Shapewood (Field-Tested) | 12.97 | 42 | 2026-09-11T22:09:49.643Z | steam-bulk |
 | P90 \| Shapewood (Minimal Wear) | 16.59 | 18 | 2026-09-11T22:09:49.792Z | steam-bulk |
 | P90 \| Shapewood (Well-Worn) | 11.36 | 30 | 2026-09-11T22:09:49.592Z | steam-bulk |
+| P90 \| Straight Dimes (Battle-Scarred) | 0.05 | 927 | 2026-09-11T22:09:46.611Z | steam-bulk |
+| P90 \| Straight Dimes (Factory New) | 1.71 | 743 | 2026-09-11T22:09:48.262Z | steam-bulk |
+| P90 \| Straight Dimes (Field-Tested) | 0.06 | 3484 | 2026-09-11T22:09:46.691Z | steam-bulk |
+| P90 \| Straight Dimes (Minimal Wear) | 0.15 | 4829 | 2026-09-11T22:09:47.038Z | steam-bulk |
+| P90 \| Straight Dimes (Well-Worn) | 0.06 | 1464 | 2026-09-11T22:09:46.691Z | steam-bulk |
 | P90 \| Traction (Battle-Scarred) | 0.49 | 125 | 2026-09-11T22:09:47.526Z | steam-bulk |
 | P90 \| Traction (Factory New) | 2.54 | 86 | 2026-09-11T22:09:48.540Z | steam-bulk |
 | P90 \| Traction (Field-Tested) | 0.80 | 132 | 2026-09-11T22:09:47.794Z | steam-bulk |
@@ -5471,6 +5834,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | P90 \| Virus (Field-Tested) | 3.06 | 53 | 2026-09-11T22:09:48.657Z | steam-bulk |
 | P90 \| Virus (Minimal Wear) | 5.46 | 30 | 2026-09-11T22:09:49.109Z | steam-bulk |
 | P90 \| Virus (Well-Worn) | 3.42 | 23 | 2026-09-11T22:09:48.755Z | steam-bulk |
+| P90 \| Wash me (Battle-Scarred) | 0.06 | 471 | 2026-09-11T22:09:46.675Z | steam-bulk |
+| P90 \| Wash me (Factory New) | 0.19 | 2081 | 2026-09-11T22:09:47.088Z | steam-bulk |
+| P90 \| Wash me (Field-Tested) | 0.05 | 6668 | 2026-09-11T22:09:46.578Z | steam-bulk |
+| P90 \| Wash me (Minimal Wear) | 0.08 | 1977 | 2026-09-11T22:09:46.789Z | steam-bulk |
+| P90 \| Wash me (Well-Worn) | 0.06 | 383 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | P90 \| Wave Breaker (Battle-Scarred) | 0.55 | 324 | 2026-09-11T22:09:47.593Z | steam-bulk |
 | P90 \| Wave Breaker (Factory New) | 4.19 | 198 | 2026-09-11T22:09:48.887Z | steam-bulk |
 | P90 \| Wave Breaker (Field-Tested) | 0.64 | 368 | 2026-09-11T22:09:47.678Z | steam-bulk |
@@ -5490,6 +5858,10 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | PP-Bizon \| Cobalt Halftone (Field-Tested) | 1.79 | 83 | 2026-09-11T22:09:48.293Z | steam-bulk |
 | PP-Bizon \| Cobalt Halftone (Minimal Wear) | 2.32 | 81 | 2026-09-11T22:09:48.476Z | steam-bulk |
 | PP-Bizon \| Cobalt Halftone (Well-Worn) | 1.91 | 13 | 2026-09-11T22:09:48.327Z | steam-bulk |
+| PP-Bizon \| Cold Cell (Factory New) | 0.17 | 4547 | 2026-09-11T22:09:47.086Z | steam-bulk |
+| PP-Bizon \| Cold Cell (Field-Tested) | 0.07 | 4537 | 2026-09-11T22:09:46.740Z | steam-bulk |
+| PP-Bizon \| Cold Cell (Minimal Wear) | 0.08 | 7676 | 2026-09-11T22:09:46.790Z | steam-bulk |
+| PP-Bizon \| Cold Cell (Well-Worn) | 0.12 | 192 | 2026-09-11T22:09:46.934Z | steam-bulk |
 | PP-Bizon \| Embargo (Battle-Scarred) | 1.76 | 27 | 2026-09-11T22:09:48.293Z | steam-bulk |
 | PP-Bizon \| Embargo (Factory New) | 17.95 | 34 | 2026-09-11T22:09:49.841Z | steam-bulk |
 | PP-Bizon \| Embargo (Field-Tested) | 2.52 | 31 | 2026-09-11T22:09:48.539Z | steam-bulk |
@@ -5555,6 +5927,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | PP-Bizon \| Space Cat (Field-Tested) | 0.87 | 1664 | 2026-09-11T22:09:47.845Z | steam-bulk |
 | PP-Bizon \| Space Cat (Minimal Wear) | 0.98 | 458 | 2026-09-11T22:09:47.924Z | steam-bulk |
 | PP-Bizon \| Space Cat (Well-Worn) | 0.86 | 96 | 2026-09-11T22:09:47.844Z | steam-bulk |
+| PP-Bizon \| Traitor (Battle-Scarred) | 0.05 | 2219 | 2026-09-11T22:09:46.674Z | steam-bulk |
+| PP-Bizon \| Traitor (Factory New) | 0.68 | 281 | 2026-09-11T22:09:47.726Z | steam-bulk |
+| PP-Bizon \| Traitor (Field-Tested) | 0.07 | 1026 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| PP-Bizon \| Traitor (Minimal Wear) | 0.15 | 771 | 2026-09-11T22:09:47.054Z | steam-bulk |
+| PP-Bizon \| Traitor (Well-Worn) | 0.06 | 3172 | 2026-09-11T22:09:46.723Z | steam-bulk |
 | PP-Bizon \| Water Sigil (Battle-Scarred) | 2.77 | 13 | 2026-09-11T22:09:48.591Z | steam-bulk |
 | PP-Bizon \| Water Sigil (Factory New) | 6.96 | 37 | 2026-09-11T22:09:49.280Z | steam-bulk |
 | PP-Bizon \| Water Sigil (Field-Tested) | 2.56 | 39 | 2026-09-11T21:39:49.551Z | steam-bulk |
@@ -5606,6 +5983,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | R8 Revolver \| Memento (Field-Tested) | 1.39 | 26 | 2026-09-11T22:09:48.119Z | steam-bulk |
 | R8 Revolver \| Memento (Minimal Wear) | 3.43 | 44 | 2026-09-11T22:09:48.756Z | steam-bulk |
 | R8 Revolver \| Memento (Well-Worn) | 1.29 | 19 | 2026-09-11T22:09:48.086Z | steam-bulk |
+| R8 Revolver \| Monarch (Battle-Scarred) | 0.29 | 97 | 2026-09-11T22:09:47.281Z | steam-bulk |
+| R8 Revolver \| Monarch (Factory New) | 2.69 | 71 | 2026-09-11T22:09:48.574Z | steam-bulk |
+| R8 Revolver \| Monarch (Field-Tested) | 0.45 | 116 | 2026-09-11T22:09:47.492Z | steam-bulk |
+| R8 Revolver \| Monarch (Minimal Wear) | 0.95 | 193 | 2026-09-11T22:09:47.923Z | steam-bulk |
+| R8 Revolver \| Monarch (Well-Worn) | 0.34 | 72 | 2026-09-11T22:09:47.329Z | steam-bulk |
 | R8 Revolver \| Reboot (Battle-Scarred) | 1.50 | 48 | 2026-09-11T22:09:48.182Z | steam-bulk |
 | R8 Revolver \| Reboot (Factory New) | 9.18 | 74 | 2026-09-11T22:09:49.449Z | steam-bulk |
 | R8 Revolver \| Reboot (Field-Tested) | 1.77 | 109 | 2026-09-11T22:09:48.293Z | steam-bulk |
@@ -5669,6 +6051,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Sawed-Off \| Limelight (Field-Tested) | 1.73 | 66 | 2026-09-11T22:09:48.262Z | steam-bulk |
 | Sawed-Off \| Limelight (Minimal Wear) | 2.58 | 52 | 2026-09-11T22:09:48.541Z | steam-bulk |
 | Sawed-Off \| Limelight (Well-Worn) | 1.64 | 36 | 2026-09-11T22:09:48.245Z | steam-bulk |
+| Sawed-Off \| Lunar Wyrm (Battle-Scarred) | 0.23 | 117 | 2026-09-11T22:09:47.187Z | steam-bulk |
+| Sawed-Off \| Lunar Wyrm (Factory New) | 2.49 | 132 | 2026-09-11T22:09:48.539Z | steam-bulk |
+| Sawed-Off \| Lunar Wyrm (Field-Tested) | 0.41 | 338 | 2026-09-11T22:09:47.425Z | steam-bulk |
+| Sawed-Off \| Lunar Wyrm (Minimal Wear) | 0.99 | 396 | 2026-09-11T22:09:47.925Z | steam-bulk |
+| Sawed-Off \| Lunar Wyrm (Well-Worn) | 0.32 | 152 | 2026-09-11T22:09:47.313Z | steam-bulk |
 | Sawed-Off \| Morris (Battle-Scarred) | 0.22 | 95 | 2026-09-11T22:09:47.153Z | steam-bulk |
 | Sawed-Off \| Morris (Factory New) | 1.38 | 78 | 2026-09-11T22:09:48.119Z | steam-bulk |
 | Sawed-Off \| Morris (Field-Tested) | 0.37 | 182 | 2026-09-11T22:09:47.376Z | steam-bulk |
@@ -5712,6 +6099,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Sawed-Off \| Zander (Field-Tested) | 0.53 | 177 | 2026-09-11T22:09:47.559Z | steam-bulk |
 | Sawed-Off \| Zander (Minimal Wear) | 0.74 | 46 | 2026-09-11T22:09:47.761Z | steam-bulk |
 | Sawed-Off \| Zander (Well-Worn) | 0.74 | 52 | 2026-09-11T22:09:47.761Z | steam-bulk |
+| SCAR-20 \| Arctic Camo Panels (Battle-Scarred) | 0.03 | 179 | 2026-09-11T22:09:46.492Z | steam-bulk |
+| SCAR-20 \| Arctic Camo Panels (Factory New) | 0.89 | 180 | 2026-09-11T22:09:47.876Z | steam-bulk |
+| SCAR-20 \| Arctic Camo Panels (Field-Tested) | 0.07 | 551 | 2026-09-11T22:09:46.772Z | steam-bulk |
+| SCAR-20 \| Arctic Camo Panels (Minimal Wear) | 0.15 | 217 | 2026-09-11T22:09:47.054Z | steam-bulk |
+| SCAR-20 \| Arctic Camo Panels (Well-Worn) | 0.05 | 264 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | SCAR-20 \| Assault (Battle-Scarred) | 0.41 | 107 | 2026-09-11T22:09:47.392Z | steam-bulk |
 | SCAR-20 \| Assault (Factory New) | 0.81 | 161 | 2026-09-11T22:09:47.811Z | steam-bulk |
 | SCAR-20 \| Assault (Field-Tested) | 0.48 | 280 | 2026-09-11T22:09:47.509Z | steam-bulk |
@@ -5786,6 +6178,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | SCAR-20 \| Powercore (Field-Tested) | 1.73 | 72 | 2026-09-11T22:09:48.262Z | steam-bulk |
 | SCAR-20 \| Powercore (Minimal Wear) | 2.20 | 73 | 2026-09-11T22:09:48.442Z | steam-bulk |
 | SCAR-20 \| Powercore (Well-Worn) | 1.66 | 53 | 2026-09-11T22:09:48.245Z | steam-bulk |
+| SCAR-20 \| Sirocco Script (Battle-Scarred) | 0.05 | 2786 | 2026-09-11T22:09:46.674Z | steam-bulk |
+| SCAR-20 \| Sirocco Script (Factory New) | 0.66 | 296 | 2026-09-11T22:09:47.694Z | steam-bulk |
+| SCAR-20 \| Sirocco Script (Field-Tested) | 0.06 | 1970 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| SCAR-20 \| Sirocco Script (Minimal Wear) | 0.14 | 420 | 2026-09-11T22:09:47.019Z | steam-bulk |
+| SCAR-20 \| Sirocco Script (Well-Worn) | 0.05 | 4806 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | SCAR-20 \| Torn (Factory New) | 3.13 | 47 | 2026-09-11T22:09:48.689Z | steam-bulk |
 | SCAR-20 \| Torn (Field-Tested) | 0.83 | 97 | 2026-09-11T22:09:47.828Z | steam-bulk |
 | SCAR-20 \| Torn (Minimal Wear) | 1.00 | 60 | 2026-09-11T22:09:47.925Z | steam-bulk |
@@ -5795,6 +6192,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | SCAR-20 \| Trail Blazer (Field-Tested) | 0.39 | 230 | 2026-09-11T22:09:47.391Z | steam-bulk |
 | SCAR-20 \| Trail Blazer (Minimal Wear) | 0.43 | 254 | 2026-09-11T22:09:47.442Z | steam-bulk |
 | SCAR-20 \| Trail Blazer (Well-Worn) | 0.35 | 54 | 2026-09-11T22:09:47.344Z | steam-bulk |
+| SCAR-20 \| Wild Berry (Battle-Scarred) | 1.28 | 41 | 2026-09-11T22:09:48.085Z | steam-bulk |
+| SCAR-20 \| Wild Berry (Factory New) | 3.61 | 131 | 2026-09-11T22:09:48.788Z | steam-bulk |
+| SCAR-20 \| Wild Berry (Field-Tested) | 1.39 | 97 | 2026-09-11T22:09:48.119Z | steam-bulk |
+| SCAR-20 \| Wild Berry (Minimal Wear) | 2.13 | 78 | 2026-09-11T22:09:48.409Z | steam-bulk |
+| SCAR-20 \| Wild Berry (Well-Worn) | 1.83 | 11 | 2026-09-11T22:09:48.325Z | steam-bulk |
 | Sealed Dead Hand Terminal | 0.63 | — | 2026-09-21T02:14:01.858Z | steam-direct |
 | Sealed Genesis Terminal | 0.09 | — | 2026-09-21T02:14:02.254Z | steam-direct |
 | SG 553 \| Aerial (Battle-Scarred) | 0.42 | 61 | 2026-09-11T22:09:47.425Z | steam-bulk |
@@ -5812,6 +6214,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | SG 553 \| Atlas (Field-Tested) | 0.55 | 357 | 2026-09-11T22:09:47.593Z | steam-bulk |
 | SG 553 \| Atlas (Minimal Wear) | 0.56 | 101 | 2026-09-11T22:09:47.594Z | steam-bulk |
 | SG 553 \| Atlas (Well-Worn) | 0.46 | 84 | 2026-09-11T22:09:47.492Z | steam-bulk |
+| SG 553 \| Berry Gel Coat (Battle-Scarred) | 1.36 | 48 | 2026-09-11T22:09:48.118Z | steam-bulk |
+| SG 553 \| Berry Gel Coat (Factory New) | 6.02 | 87 | 2026-09-11T22:09:49.177Z | steam-bulk |
+| SG 553 \| Berry Gel Coat (Field-Tested) | 1.36 | 193 | 2026-09-11T22:09:48.118Z | steam-bulk |
+| SG 553 \| Berry Gel Coat (Minimal Wear) | 2.99 | 53 | 2026-09-11T22:09:48.656Z | steam-bulk |
+| SG 553 \| Berry Gel Coat (Well-Worn) | 1.47 | 28 | 2026-09-11T22:09:48.152Z | steam-bulk |
 | SG 553 \| Colony IV (Battle-Scarred) | 6.75 | 33 | 2026-09-11T22:09:49.262Z | steam-bulk |
 | SG 553 \| Colony IV (Factory New) | 67.05 | 25 | 2026-09-11T22:09:50.467Z | steam-bulk |
 | SG 553 \| Colony IV (Field-Tested) | 9.35 | 59 | 2026-09-11T22:09:49.479Z | steam-bulk |
@@ -7321,6 +7728,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | SSG 08 \| Ghost Crusader (Field-Tested) | 1.80 | 240 | 2026-09-11T22:09:48.294Z | steam-bulk |
 | SSG 08 \| Ghost Crusader (Minimal Wear) | 3.17 | 197 | 2026-09-11T22:09:48.689Z | steam-bulk |
 | SSG 08 \| Ghost Crusader (Well-Worn) | 1.69 | 128 | 2026-09-11T22:09:48.246Z | steam-bulk |
+| SSG 08 \| Halftone Whorl (Battle-Scarred) | 0.23 | 122 | 2026-09-11T22:09:47.185Z | steam-bulk |
+| SSG 08 \| Halftone Whorl (Factory New) | 0.67 | 496 | 2026-09-11T22:09:47.694Z | steam-bulk |
+| SSG 08 \| Halftone Whorl (Field-Tested) | 0.19 | 1119 | 2026-09-11T22:09:47.087Z | steam-bulk |
+| SSG 08 \| Halftone Whorl (Minimal Wear) | 0.31 | 307 | 2026-09-11T22:09:47.297Z | steam-bulk |
+| SSG 08 \| Halftone Whorl (Well-Worn) | 0.27 | 172 | 2026-09-11T22:09:47.218Z | steam-bulk |
 | SSG 08 \| Mainframe 001 (Battle-Scarred) | 0.10 | 709 | 2026-09-11T22:09:46.870Z | steam-bulk |
 | SSG 08 \| Mainframe 001 (Factory New) | 0.93 | 213 | 2026-09-11T22:09:47.892Z | steam-bulk |
 | SSG 08 \| Mainframe 001 (Field-Tested) | 0.14 | 634 | 2026-09-11T22:09:46.986Z | steam-bulk |
@@ -7354,6 +7766,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | SSG 08 \| Turbo Peek (Field-Tested) | 21.45 | 54 | 2026-09-11T21:39:50.952Z | steam-bulk |
 | SSG 08 \| Turbo Peek (Minimal Wear) | 33.64 | 59 | 2026-09-11T22:09:50.157Z | steam-bulk |
 | SSG 08 \| Turbo Peek (Well-Worn) | 21.24 | 12 | 2026-09-11T22:09:49.939Z | steam-bulk |
+| SSG 08 \| Zeno (Battle-Scarred) | 0.41 | 461 | 2026-09-11T22:09:47.392Z | steam-bulk |
+| SSG 08 \| Zeno (Factory New) | 1.71 | 667 | 2026-09-11T22:09:48.261Z | steam-bulk |
+| SSG 08 \| Zeno (Field-Tested) | 0.41 | 1466 | 2026-09-11T22:09:47.392Z | steam-bulk |
+| SSG 08 \| Zeno (Minimal Wear) | 0.77 | 1158 | 2026-09-11T22:09:47.793Z | steam-bulk |
+| SSG 08 \| Zeno (Well-Worn) | 0.39 | 239 | 2026-09-11T22:09:47.391Z | steam-bulk |
 | StatTrak™ AK-47 \| Aquamarine Revenge (Battle-Scarred) | 75.09 | 11 | 2026-09-11T22:09:50.516Z | steam-bulk |
 | StatTrak™ AK-47 \| Aquamarine Revenge (Factory New) | 529.11 | 5 | 2026-09-11T22:09:51.125Z | steam-bulk |
 | StatTrak™ AK-47 \| Aquamarine Revenge (Field-Tested) | 115.92 | 27 | 2026-09-11T22:09:50.719Z | steam-bulk |
@@ -10558,6 +10975,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Tec-9 \| Jambiya (Field-Tested) | 0.99 | 53 | 2026-09-11T22:09:47.925Z | steam-bulk |
 | Tec-9 \| Jambiya (Minimal Wear) | 1.95 | 86 | 2026-09-11T22:09:48.358Z | steam-bulk |
 | Tec-9 \| Jambiya (Well-Worn) | 0.53 | 62 | 2026-09-11T22:09:47.576Z | steam-bulk |
+| Tec-9 \| Perimeter (Battle-Scarred) | 0.06 | 202 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| Tec-9 \| Perimeter (Factory New) | 0.89 | 133 | 2026-09-11T22:09:47.876Z | steam-bulk |
+| Tec-9 \| Perimeter (Field-Tested) | 0.08 | 326 | 2026-09-11T22:09:46.823Z | steam-bulk |
+| Tec-9 \| Perimeter (Minimal Wear) | 0.15 | 323 | 2026-09-11T22:09:47.054Z | steam-bulk |
+| Tec-9 \| Perimeter (Well-Worn) | 0.05 | 201 | 2026-09-11T22:09:46.674Z | steam-bulk |
 | Tec-9 \| Re-Entry (Factory New) | 9.20 | 219 | 2026-09-11T22:09:49.449Z | steam-bulk |
 | Tec-9 \| Re-Entry (Field-Tested) | 1.69 | 141 | 2026-09-11T22:09:48.246Z | steam-bulk |
 | Tec-9 \| Re-Entry (Minimal Wear) | 1.96 | 253 | 2026-09-11T22:09:48.358Z | steam-bulk |
@@ -10581,9 +11003,24 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | Tec-9 \| Snek-9 (Field-Tested) | 0.55 | 246 | 2026-09-11T22:09:47.578Z | steam-bulk |
 | Tec-9 \| Snek-9 (Minimal Wear) | 0.77 | 235 | 2026-09-11T22:09:47.793Z | steam-bulk |
 | Tec-9 \| Snek-9 (Well-Worn) | 0.37 | 192 | 2026-09-11T22:09:47.361Z | steam-bulk |
+| Tec-9 \| Sultan (Battle-Scarred) | 0.43 | 191 | 2026-09-11T22:09:47.458Z | steam-bulk |
+| Tec-9 \| Sultan (Factory New) | 8.37 | 78 | 2026-09-11T22:09:49.400Z | steam-bulk |
+| Tec-9 \| Sultan (Field-Tested) | 1.17 | 314 | 2026-09-11T22:09:48.037Z | steam-bulk |
+| Tec-9 \| Sultan (Minimal Wear) | 2.29 | 149 | 2026-09-11T22:09:48.475Z | steam-bulk |
+| Tec-9 \| Sultan (Well-Worn) | 0.63 | 149 | 2026-09-11T22:09:47.662Z | steam-bulk |
+| Tec-9 \| Tiger Stencil (Battle-Scarred) | 0.08 | 563 | 2026-09-11T22:09:46.790Z | steam-bulk |
+| Tec-9 \| Tiger Stencil (Factory New) | 0.22 | 1618 | 2026-09-11T22:09:47.154Z | steam-bulk |
+| Tec-9 \| Tiger Stencil (Field-Tested) | 0.06 | 4591 | 2026-09-11T22:09:46.675Z | steam-bulk |
+| Tec-9 \| Tiger Stencil (Minimal Wear) | 0.08 | 2321 | 2026-09-11T22:09:46.789Z | steam-bulk |
+| Tec-9 \| Tiger Stencil (Well-Worn) | 0.12 | 195 | 2026-09-11T22:09:46.935Z | steam-bulk |
 | Tec-9 \| Titanium Bit (Factory New) | 101.88 | 40 | 2026-09-11T22:09:50.651Z | steam-bulk |
 | Tec-9 \| Titanium Bit (Field-Tested) | 10.31 | 10 | 2026-09-11T22:09:49.527Z | steam-bulk |
 | Tec-9 \| Titanium Bit (Minimal Wear) | 10.43 | 28 | 2026-09-11T22:09:49.528Z | steam-bulk |
+| Tec-9 \| Whiteout (Battle-Scarred) | 1.68 | 193 | 2026-09-11T22:09:48.246Z | steam-bulk |
+| Tec-9 \| Whiteout (Factory New) | 318.09 | 21 | 2026-09-11T22:09:51.031Z | steam-bulk |
+| Tec-9 \| Whiteout (Field-Tested) | 3.35 | 1139 | 2026-09-11T22:09:48.724Z | steam-bulk |
+| Tec-9 \| Whiteout (Minimal Wear) | 22.02 | 272 | 2026-09-11T22:09:49.954Z | steam-bulk |
+| Tec-9 \| Whiteout (Well-Worn) | 2.02 | 110 | 2026-09-11T22:09:48.376Z | steam-bulk |
 | UMP-45 \| Arctic Wolf (Battle-Scarred) | 0.56 | 73 | 2026-09-11T22:09:47.594Z | steam-bulk |
 | UMP-45 \| Arctic Wolf (Factory New) | 3.16 | 241 | 2026-09-11T22:09:48.689Z | steam-bulk |
 | UMP-45 \| Arctic Wolf (Field-Tested) | 0.59 | 509 | 2026-09-11T22:09:47.629Z | steam-bulk |
@@ -10607,6 +11044,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | UMP-45 \| Corporal (Field-Tested) | 0.65 | 505 | 2026-09-11T22:09:47.693Z | steam-bulk |
 | UMP-45 \| Corporal (Minimal Wear) | 0.71 | 111 | 2026-09-11T22:09:47.728Z | steam-bulk |
 | UMP-45 \| Corporal (Well-Worn) | 0.58 | 30 | 2026-09-11T22:09:47.628Z | steam-bulk |
+| UMP-45 \| Crimson Foil (Battle-Scarred) | 3.22 | 91 | 2026-09-11T22:09:48.690Z | steam-bulk |
+| UMP-45 \| Crimson Foil (Factory New) | 6.20 | 343 | 2026-09-11T22:09:49.210Z | steam-bulk |
+| UMP-45 \| Crimson Foil (Field-Tested) | 3.02 | 528 | 2026-09-11T22:09:48.657Z | steam-bulk |
+| UMP-45 \| Crimson Foil (Minimal Wear) | 3.20 | 311 | 2026-09-11T22:09:48.690Z | steam-bulk |
+| UMP-45 \| Crimson Foil (Well-Worn) | 3.20 | 40 | 2026-09-11T22:09:48.690Z | steam-bulk |
 | UMP-45 \| Delusion (Factory New) | 8.72 | 25 | 2026-09-11T22:09:49.432Z | steam-bulk |
 | UMP-45 \| Delusion (Field-Tested) | 1.79 | 40 | 2026-09-11T22:09:48.293Z | steam-bulk |
 | UMP-45 \| Delusion (Minimal Wear) | 2.24 | 81 | 2026-09-11T22:09:48.443Z | steam-bulk |
@@ -10635,6 +11077,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | UMP-45 \| Labyrinth (Field-Tested) | 0.50 | 191 | 2026-09-11T22:09:47.543Z | steam-bulk |
 | UMP-45 \| Labyrinth (Minimal Wear) | 0.50 | 222 | 2026-09-11T22:09:47.543Z | steam-bulk |
 | UMP-45 \| Labyrinth (Well-Worn) | 0.97 | 27 | 2026-09-11T22:09:47.923Z | steam-bulk |
+| UMP-45 \| Late Night Transit (Battle-Scarred) | 0.23 | 856 | 2026-09-11T22:09:47.186Z | steam-bulk |
+| UMP-45 \| Late Night Transit (Factory New) | 4.57 | 401 | 2026-09-11T22:09:48.971Z | steam-bulk |
+| UMP-45 \| Late Night Transit (Field-Tested) | 0.34 | 981 | 2026-09-11T22:09:47.329Z | steam-bulk |
+| UMP-45 \| Late Night Transit (Minimal Wear) | 1.00 | 633 | 2026-09-11T22:09:47.940Z | steam-bulk |
+| UMP-45 \| Late Night Transit (Well-Worn) | 0.25 | 343 | 2026-09-11T22:09:47.218Z | steam-bulk |
 | UMP-45 \| Metal Flowers (Battle-Scarred) | 4.43 | 16 | 2026-09-11T22:09:48.936Z | steam-bulk |
 | UMP-45 \| Metal Flowers (Factory New) | 10.00 | 24 | 2026-09-11T22:09:49.510Z | steam-bulk |
 | UMP-45 \| Metal Flowers (Field-Tested) | 6.17 | 28 | 2026-09-11T22:09:49.210Z | steam-bulk |
@@ -10699,6 +11146,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | USP-S \| 27 (Field-Tested) | 0.42 | 520 | 2026-09-11T22:09:47.425Z | steam-bulk |
 | USP-S \| 27 (Minimal Wear) | 0.90 | 96 | 2026-09-11T22:09:47.877Z | steam-bulk |
 | USP-S \| 27 (Well-Worn) | 0.28 | 356 | 2026-09-11T22:09:47.250Z | steam-bulk |
+| USP-S \| Alpine Camo (Battle-Scarred) | 0.42 | 695 | 2026-09-11T22:09:47.425Z | steam-bulk |
+| USP-S \| Alpine Camo (Factory New) | 1.93 | 1386 | 2026-09-11T22:09:48.357Z | steam-bulk |
+| USP-S \| Alpine Camo (Field-Tested) | 0.41 | 7403 | 2026-09-11T22:09:47.407Z | steam-bulk |
+| USP-S \| Alpine Camo (Minimal Wear) | 0.72 | 3267 | 2026-09-11T22:09:47.744Z | steam-bulk |
+| USP-S \| Alpine Camo (Well-Worn) | 0.46 | 834 | 2026-09-11T22:09:47.492Z | steam-bulk |
 | USP-S \| Black Lotus (Battle-Scarred) | 1.01 | 274 | 2026-09-11T22:09:47.955Z | steam-bulk |
 | USP-S \| Black Lotus (Factory New) | 43.98 | 77 | 2026-09-11T22:09:50.271Z | steam-bulk |
 | USP-S \| Black Lotus (Field-Tested) | 1.61 | 800 | 2026-09-11T22:09:48.215Z | steam-bulk |
@@ -10784,6 +11236,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | USP-S \| Silent Shot (Field-Tested) | 0.44 | 2802 | 2026-09-11T22:09:47.460Z | steam-bulk |
 | USP-S \| Silent Shot (Minimal Wear) | 0.64 | 2700 | 2026-09-11T22:09:47.678Z | steam-bulk |
 | USP-S \| Silent Shot (Well-Worn) | 0.29 | 1673 | 2026-09-11T22:09:47.281Z | steam-bulk |
+| USP-S \| Spiral Glitch (Battle-Scarred) | 20.55 | 22 | 2026-09-11T22:09:49.908Z | steam-bulk |
+| USP-S \| Spiral Glitch (Factory New) | 109.06 | 21 | 2026-09-11T22:09:50.685Z | steam-bulk |
+| USP-S \| Spiral Glitch (Field-Tested) | 30.17 | 55 | 2026-09-11T22:09:50.108Z | steam-bulk |
+| USP-S \| Spiral Glitch (Minimal Wear) | 53.25 | 58 | 2026-09-11T22:09:50.354Z | steam-bulk |
+| USP-S \| Spiral Glitch (Well-Worn) | 22.22 | 22 | 2026-09-11T22:09:49.956Z | steam-bulk |
 | USP-S \| Stainless (Battle-Scarred) | 7.23 | 43 | 2026-09-11T22:09:49.314Z | steam-bulk |
 | USP-S \| Stainless (Factory New) | 68.85 | 48 | 2026-09-11T22:09:50.469Z | steam-bulk |
 | USP-S \| Stainless (Field-Tested) | 8.49 | 173 | 2026-09-11T22:09:49.415Z | steam-bulk |
@@ -10805,6 +11262,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | USP-S \| Torque (Minimal Wear) | 1.53 | 785 | 2026-09-11T22:09:48.184Z | steam-bulk |
 | USP-S \| Torque (Well-Worn) | 0.97 | 137 | 2026-09-11T22:09:47.923Z | steam-bulk |
 | Winter Offensive Weapon Case | 13.91 | — | 2026-09-21T02:15:08.238Z | steam-direct |
+| XM1014 \| Black Site (Battle-Scarred) | 0.06 | 323 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| XM1014 \| Black Site (Factory New) | 0.87 | 196 | 2026-09-11T22:09:47.860Z | steam-bulk |
+| XM1014 \| Black Site (Field-Tested) | 0.06 | 367 | 2026-09-11T22:09:46.723Z | steam-bulk |
+| XM1014 \| Black Site (Minimal Wear) | 0.16 | 399 | 2026-09-11T22:09:47.055Z | steam-bulk |
+| XM1014 \| Black Site (Well-Worn) | 0.06 | 227 | 2026-09-11T22:09:46.723Z | steam-bulk |
 | XM1014 \| Black Tie (Battle-Scarred) | 1.61 | 24 | 2026-09-11T22:09:48.215Z | steam-bulk |
 | XM1014 \| Black Tie (Factory New) | 5.16 | 144 | 2026-09-11T22:09:49.059Z | steam-bulk |
 | XM1014 \| Black Tie (Field-Tested) | 1.71 | 133 | 2026-09-11T22:09:48.261Z | steam-bulk |
@@ -10815,6 +11277,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | XM1014 \| Entombed (Field-Tested) | 4.75 | 578 | 2026-09-11T22:09:49.006Z | steam-bulk |
 | XM1014 \| Entombed (Minimal Wear) | 5.34 | 303 | 2026-09-11T22:09:49.092Z | steam-bulk |
 | XM1014 \| Entombed (Well-Worn) | 5.11 | 17 | 2026-09-11T22:09:49.058Z | steam-bulk |
+| XM1014 \| Halftone Shift (Battle-Scarred) | 1.30 | 53 | 2026-09-11T22:09:48.087Z | steam-bulk |
+| XM1014 \| Halftone Shift (Factory New) | 3.53 | 74 | 2026-09-11T22:09:48.757Z | steam-bulk |
+| XM1014 \| Halftone Shift (Field-Tested) | 1.44 | 79 | 2026-09-11T22:09:48.151Z | steam-bulk |
+| XM1014 \| Halftone Shift (Minimal Wear) | 2.05 | 60 | 2026-09-11T22:09:48.392Z | steam-bulk |
+| XM1014 \| Halftone Shift (Well-Worn) | 1.26 | 25 | 2026-09-11T22:09:48.070Z | steam-bulk |
 | XM1014 \| Heaven Guard (Battle-Scarred) | 5.29 | 14 | 2026-09-11T22:09:49.092Z | steam-bulk |
 | XM1014 \| Heaven Guard (Factory New) | 16.44 | 30 | 2026-09-11T22:09:49.791Z | steam-bulk |
 | XM1014 \| Heaven Guard (Field-Tested) | 5.79 | 65 | 2026-09-11T22:09:49.143Z | steam-bulk |
@@ -10834,6 +11301,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | XM1014 \| Mockingbird (Field-Tested) | 0.12 | 1904 | 2026-09-11T22:09:46.951Z | steam-bulk |
 | XM1014 \| Mockingbird (Minimal Wear) | 0.22 | 575 | 2026-09-11T22:09:47.170Z | steam-bulk |
 | XM1014 \| Mockingbird (Well-Worn) | 0.10 | 1737 | 2026-09-11T22:09:46.900Z | steam-bulk |
+| XM1014 \| Monster Melt (Battle-Scarred) | 2.09 | 63 | 2026-09-11T22:09:48.408Z | steam-bulk |
+| XM1014 \| Monster Melt (Factory New) | 9.51 | 128 | 2026-09-11T22:09:49.480Z | steam-bulk |
+| XM1014 \| Monster Melt (Field-Tested) | 2.89 | 427 | 2026-09-11T22:09:48.624Z | steam-bulk |
+| XM1014 \| Monster Melt (Minimal Wear) | 4.64 | 203 | 2026-09-11T22:09:48.973Z | steam-bulk |
+| XM1014 \| Monster Melt (Well-Worn) | 2.60 | 39 | 2026-09-11T22:09:48.541Z | steam-bulk |
 | XM1014 \| Oxide Blaze (Battle-Scarred) | 0.20 | 142 | 2026-09-11T22:09:47.104Z | steam-bulk |
 | XM1014 \| Oxide Blaze (Factory New) | 0.55 | 278 | 2026-09-11T22:09:47.578Z | steam-bulk |
 | XM1014 \| Oxide Blaze (Field-Tested) | 0.22 | 782 | 2026-09-11T22:09:47.170Z | steam-bulk |
@@ -10848,6 +11320,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | XM1014 \| Red Python (Field-Tested) | 2.68 | 54 | 2026-09-11T22:09:48.574Z | steam-bulk |
 | XM1014 \| Red Python (Minimal Wear) | 4.29 | 36 | 2026-09-11T22:09:48.903Z | steam-bulk |
 | XM1014 \| Red Python (Well-Worn) | 3.43 | 15 | 2026-09-11T22:09:48.756Z | steam-bulk |
+| XM1014 \| Run Run Run (Battle-Scarred) | 0.21 | 793 | 2026-09-11T22:09:47.152Z | steam-bulk |
+| XM1014 \| Run Run Run (Factory New) | 3.04 | 496 | 2026-09-11T22:09:48.657Z | steam-bulk |
+| XM1014 \| Run Run Run (Field-Tested) | 0.23 | 1574 | 2026-09-11T22:09:47.186Z | steam-bulk |
+| XM1014 \| Run Run Run (Minimal Wear) | 0.63 | 662 | 2026-09-11T22:09:47.662Z | steam-bulk |
+| XM1014 \| Run Run Run (Well-Worn) | 0.24 | 308 | 2026-09-11T22:09:47.217Z | steam-bulk |
 | XM1014 \| Scumbria (Battle-Scarred) | 0.27 | 66 | 2026-09-11T22:09:47.219Z | steam-bulk |
 | XM1014 \| Scumbria (Factory New) | 2.51 | 57 | 2026-09-11T22:09:48.539Z | steam-bulk |
 | XM1014 \| Scumbria (Field-Tested) | 0.45 | 131 | 2026-09-11T22:09:47.461Z | steam-bulk |
@@ -10863,6 +11340,11 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | XM1014 \| Slipstream (Field-Tested) | 0.46 | 349 | 2026-09-11T22:09:47.492Z | steam-bulk |
 | XM1014 \| Slipstream (Minimal Wear) | 0.58 | 206 | 2026-09-11T22:09:47.627Z | steam-bulk |
 | XM1014 \| Slipstream (Well-Worn) | 0.48 | 40 | 2026-09-11T22:09:47.510Z | steam-bulk |
+| XM1014 \| Solitude (Battle-Scarred) | 0.74 | 182 | 2026-09-11T22:09:47.776Z | steam-bulk |
+| XM1014 \| Solitude (Factory New) | 59.39 | 114 | 2026-09-11T22:09:50.405Z | steam-bulk |
+| XM1014 \| Solitude (Field-Tested) | 0.94 | 618 | 2026-09-11T22:09:47.893Z | steam-bulk |
+| XM1014 \| Solitude (Minimal Wear) | 3.79 | 214 | 2026-09-11T22:09:48.821Z | steam-bulk |
+| XM1014 \| Solitude (Well-Worn) | 2.08 | 33 | 2026-09-11T22:09:48.408Z | steam-bulk |
 | XM1014 \| Teclu Burner (Battle-Scarred) | 1.78 | 30 | 2026-09-11T22:09:48.293Z | steam-bulk |
 | XM1014 \| Teclu Burner (Factory New) | 6.36 | 83 | 2026-09-11T22:09:49.227Z | steam-bulk |
 | XM1014 \| Teclu Burner (Field-Tested) | 1.79 | 133 | 2026-09-11T22:09:48.293Z | steam-bulk |
@@ -10893,6 +11375,16 @@ Priced market variants: 10892. Directly refreshed entries: 158.
 | XM1014 \| Zombie Offensive (Field-Tested) | 0.85 | 647 | 2026-09-11T22:09:47.843Z | steam-bulk |
 | XM1014 \| Zombie Offensive (Minimal Wear) | 0.94 | 426 | 2026-09-11T22:09:47.893Z | steam-bulk |
 | XM1014 \| Zombie Offensive (Well-Worn) | 0.87 | 59 | 2026-09-11T22:09:47.845Z | steam-bulk |
+| Zeus x27 \| Charged Up (Battle-Scarred) | 1.74 | 147 | 2026-09-11T22:09:48.277Z | steam-bulk |
+| Zeus x27 \| Charged Up (Factory New) | 18.72 | 88 | 2026-09-11T22:09:49.874Z | steam-bulk |
+| Zeus x27 \| Charged Up (Field-Tested) | 2.45 | 419 | 2026-09-11T22:09:48.509Z | steam-bulk |
+| Zeus x27 \| Charged Up (Minimal Wear) | 7.96 | 193 | 2026-09-11T22:09:49.366Z | steam-bulk |
+| Zeus x27 \| Charged Up (Well-Worn) | 2.05 | 202 | 2026-09-11T22:09:48.392Z | steam-bulk |
+| Zeus x27 \| Dragon Snore (Battle-Scarred) | 12.31 | 42 | 2026-09-11T22:09:49.626Z | steam-bulk |
+| Zeus x27 \| Dragon Snore (Factory New) | 61.82 | 56 | 2026-09-11T22:09:50.421Z | steam-bulk |
+| Zeus x27 \| Dragon Snore (Field-Tested) | 15.20 | 220 | 2026-09-11T22:09:49.742Z | steam-bulk |
+| Zeus x27 \| Dragon Snore (Minimal Wear) | 31.04 | 113 | 2026-09-11T22:09:50.139Z | steam-bulk |
+| Zeus x27 \| Dragon Snore (Well-Worn) | 13.12 | 42 | 2026-09-11T22:09:49.659Z | steam-bulk |
 | Zeus x27 \| Olympus (Battle-Scarred) | 4.11 | 401 | 2026-09-11T22:09:48.885Z | steam-bulk |
 | Zeus x27 \| Olympus (Factory New) | 10.06 | 811 | 2026-09-11T22:09:49.511Z | steam-bulk |
 | Zeus x27 \| Olympus (Field-Tested) | 4.21 | 1508 | 2026-09-11T22:09:48.887Z | steam-bulk |

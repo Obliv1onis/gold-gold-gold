@@ -42,4 +42,28 @@ describe('CaseBrowserUI lazy rendering', () => {
     expect(container.querySelectorAll('.case-card')).toHaveLength(1);
     expect(prefetch).toHaveBeenCalledTimes(1);
   });
+
+  it('renders historical Armory entries above regular weapon cases', () => {
+    entries.push(
+      {
+        id: 'gallery_case', name: 'Gallery Case', type: 'weapon_case', armory: true,
+        armory_image_url: '/assets/armory-pass.webp', market_price: 4.25,
+      },
+      {
+        id: 'armory_spy_tech', name: 'The Spy Tech Collection', type: 'armory_collection',
+        image_url: '/assets/armory-pass.webp', credits: 4, market_price: 1.60,
+      },
+    );
+    const container = document.createElement('div');
+    CaseBrowserUI.init(container, { onSelect: vi.fn() });
+
+    CaseBrowserUI.show('weapon_case');
+
+    expect([...container.querySelectorAll('.section-header')].map(el => el.textContent))
+      .toEqual(['The Armory', 'Weapon Cases']);
+    expect(container.querySelectorAll('.case-card')).toHaveLength(3);
+    expect(container.textContent).toContain('1 pass draw');
+    expect(prefetch).toHaveBeenCalledTimes(1);
+    entries.splice(1);
+  });
 });

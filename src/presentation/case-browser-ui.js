@@ -62,14 +62,24 @@ export const CaseBrowserUI = {
     _container.innerHTML = '';
 
     const sections = _activeFilter === 'weapon_case'
-      ? [{ type: 'terminal', titleKey: 'sec_terminals' }, { type: 'weapon_case', titleKey: 'sec_cases' }]
+      ? [
+          { type: 'terminal', titleKey: 'sec_terminals' },
+          { type: 'armory', titleKey: 'sec_armory' },
+          { type: 'weapon_case', titleKey: 'sec_cases', filter: item => !item.armory },
+        ]
       : _activeFilter
         ? [{ type: _activeFilter, titleKey: _activeFilter === 'souvenir_package' ? 'sec_souvenirs' : 'sec_cases' }]
         : [{ type: 'weapon_case', titleKey: 'sec_cases' }, { type: 'souvenir_package', titleKey: 'sec_souvenirs' }];
 
+    const armoryEntries = [
+      ...CaseDataStore.getCaseList('armory_collection'),
+      ...CaseDataStore.getCaseList('armory_limited'),
+      ...CaseDataStore.getCaseList('weapon_case').filter(item => item.armory),
+    ];
     const allLists = sections.map(section => ({
       ...section,
-      list: CaseDataStore.getCaseList(section.type),
+      list: (section.type === 'armory' ? armoryEntries : CaseDataStore.getCaseList(section.type))
+        .filter(section.filter ?? (() => true)),
     }));
     const totalCount = allLists.reduce((sum, section) => sum + section.list.length, 0);
     const visibleLists = allLists.map(section => ({
@@ -147,7 +157,9 @@ function _makeSection(title, caseList) {
 
 function _makeCard(caseData, onSelect) {
   const hashName  = PriceAPILayer.buildCaseHashName(caseData.name ?? caseData.id);
-  const livePrice = PriceAPILayer.getCachedPrice(hashName);
+  const isArmoryEntry = caseData.armory || caseData.type?.startsWith('armory_');
+  const hasSteamContainerPrice = !isArmoryEntry;
+  const livePrice = hasSteamContainerPrice ? PriceAPILayer.getCachedPrice(hashName) : null;
 
   const card = document.createElement('button');
   card.type = 'button';
@@ -159,9 +171,10 @@ function _makeCard(caseData, onSelect) {
     onSelect?.(caseData.id, live ?? caseData.market_price ?? 0.50);
   });
 
-  if (caseData.image_url) {
+  const cardImage = caseData.armory_image_url ?? caseData.image_url;
+  if (cardImage) {
     const img = new Image();
-    img.src       = caseData.image_url;
+    img.src       = cardImage;
     img.alt       = caseData.name ?? '';
     img.className = 'case-card-image';
     img.loading   = 'lazy';
@@ -180,7 +193,9 @@ function _makeCard(caseData, onSelect) {
   const price = document.createElement('div');
   price.className        = 'case-card-price';
   price.dataset.hashName = hashName;
-  if (livePrice !== null) {
+  if (isArmoryEntry) {
+    price.textContent = i18n.t('armory_one_draw');
+  } else if (livePrice !== null) {
     price.textContent = `$${livePrice.toFixed(2)}`;
     price.classList.add('case-card-price--live');
     card.dataset.livePrice = livePrice;
@@ -193,7 +208,7 @@ function _makeCard(caseData, onSelect) {
   card.appendChild(price);
 
   // Kick off live price fetch in the background; display updates via PRICE_UPDATED
-  PriceAPILayer.prefetch(hashName);
+  if (hasSteamContainerPrice) PriceAPILayer.prefetch(hashName);
 
   return card;
 }

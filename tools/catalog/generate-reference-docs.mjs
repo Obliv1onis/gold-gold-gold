@@ -14,6 +14,7 @@ const DATA_LINKS = {
   souvenirs: '../../public/data/souvenirs.json',
   others: '../../public/data/others.json',
   market: '../../public/data/market-items.json',
+  armory: '../../public/data/armory.json',
 };
 
 const CASE_RARITIES = [
@@ -39,12 +40,13 @@ const LABELS = {
   music_kit_box: 'Music Kit Boxes',
 };
 
-const [caseData, capsuleData, souvenirData, otherData, marketData] = await Promise.all([
+const [caseData, capsuleData, souvenirData, otherData, marketData, armoryData] = await Promise.all([
   readJson('public/data/cases.json'),
   readJson('public/data/capsules.json'),
   readJson('public/data/souvenirs.json'),
   readJson('public/data/others.json'),
   readJson('public/data/market-items.json'),
+  readJson('public/data/armory.json'),
 ]);
 
 const cases = caseData.cases;
@@ -52,6 +54,7 @@ const capsules = capsuleData.capsules;
 const souvenirs = souvenirData.cases;
 const others = otherData.capsules;
 const marketItems = marketData.items;
+const armoryEntries = armoryData.cases;
 
 function readJson(path) {
   return readFile(resolve(ROOT, path), 'utf8').then(JSON.parse);
@@ -198,6 +201,38 @@ function renderRareSpecials(entries) {
   });
 }
 
+function renderArmory(entries, armoryCases) {
+  const combined = [...entries, ...armoryCases];
+  const lines = generatedHeader(
+    'The Armory Contents',
+    'armory',
+    armoryData.catalog,
+    `${armoryData.catalog.collections} historical weapon collections, ${armoryData.catalog.limited_editions} limited-edition skins, and ${armoryData.catalog.weapon_cases} Armory cases. In the simulator, one $${armoryData.catalog.simulator_pass_price.toFixed(2)} pass grants ${armoryData.catalog.simulator_draws_per_pass} draws and every Armory entry consumes one draw without an additional balance charge. Historical credit equivalents remain recorded below; all contained-item prices are Steam Community Market snapshots from ${armoryData.catalog.price_snapshot}.`,
+  );
+  lines.push(
+    'History sources: [Valve’s original Armory release notes](https://store.steampowered.com/news/posts/?enddate=1727913032&feed=steam_community_announcements), '
+      + '[Steam Armory FAQ](https://help.steampowered.com/en/faqs/view/2DBD-7CEA-8206-2B00), and '
+      + '[Valve’s July 2026 Armory rotation](https://store.steampowered.com/news/posts/?appids=730&enddate=1783633575).',
+    '',
+  );
+  lines.push('| Armory entry | Type | Status | Release date | Credits | Redemption / case price | Rarity | Drop weight | Item | Steam price |');
+  lines.push('| --- | --- | --- | --- | ---: | ---: | --- | ---: | --- | ---: |');
+  for (const entry of sortByNewest(combined)) {
+    for (const rarity of CASE_RARITIES) {
+      for (const item of entry.items?.[rarity] ?? []) {
+        lines.push(
+          `| ${escapeTable(entry.name)} | ${escapeTable(entry.armory_kind === 'weapon_collection' ? 'Weapon Collection' : entry.armory_kind === 'limited_edition' ? 'Limited Edition' : 'Weapon Case')} | `
+          + `${escapeTable(entry.status ?? entry.armory_status)} | ${date(entry.release_date)} | ${entry.credits ?? entry.armory_credits} | `
+          + `${money(entry.market_price)} | ${escapeTable(LABELS[rarity] ?? rarity)} | ${entry.rarity_weights?.[rarity] ?? '—'}% | `
+          + `${escapeTable(caseItemName(item))} | ${money(item.market_price)} |`,
+        );
+      }
+    }
+  }
+  lines.push('');
+  return lines;
+}
+
 function renderMusicKits(entries, standaloneItems) {
   const boxes = entries.filter(entry => entry.type === 'music_kit_box');
   const directItems = standaloneItems.filter(entry => entry.capsuleType === 'music_kit_box');
@@ -254,6 +289,7 @@ function renderMusicKits(entries, standaloneItems) {
 }
 
 const docs = new Map([
+  ['armory.md', renderArmory(armoryEntries, cases.filter(entry => entry.armory))],
   ['cases.md', renderCaseContents(cases.filter(entry => entry.type === 'weapon_case'), 'Weapon Case Contents', 'cases', caseData.catalog)],
   ['terminals.md', renderCaseContents(cases.filter(entry => entry.type === 'terminal'), 'Terminal Contents', 'cases', caseData.catalog)],
   ['capsules.md', renderCapsuleContents(capsules)],

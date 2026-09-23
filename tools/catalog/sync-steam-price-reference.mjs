@@ -7,6 +7,7 @@ const REFERENCE = resolve('design/reference/skin-price.md');
 const FALLBACK_REFERENCE = resolve('design/reference/market-price-fallbacks.json');
 const CASES = resolve('public/data/cases.json');
 const SOUVENIRS = resolve('public/data/souvenirs.json');
+const ARMORY = resolve('public/data/armory.json');
 const OUTPUT = resolve('public/data/steam-prices.json');
 const WEAR_KEYS = new Map([
   ['Factory New', 'fn'],
@@ -106,11 +107,12 @@ function applyItemPrices(item, groups, prices, preferredGroup, fallbackData) {
 
 const args = new Set(process.argv.slice(2));
 if ([...args].some(arg => arg !== '--write')) throw new Error(`Unknown argument: ${[...args][0]}`);
-const [markdown, fallbackData, caseData, souvenirData] = await Promise.all([
+const [markdown, fallbackData, caseData, souvenirData, armoryData] = await Promise.all([
   readFile(REFERENCE, 'utf8'),
   readFile(FALLBACK_REFERENCE, 'utf8').then(JSON.parse),
   readFile(CASES, 'utf8').then(JSON.parse),
   readFile(SOUVENIRS, 'utf8').then(JSON.parse),
+  readFile(ARMORY, 'utf8').then(JSON.parse),
 ]);
 const verifiedAt = markdown.match(/^> Verified at: (.+)\.$/m)?.[1] ?? null;
 const bulkSnapshot = markdown.match(/^> Bulk snapshot: (.+)\.$/m)?.[1] ?? null;
@@ -147,11 +149,21 @@ for (const entry of souvenirData.cases) {
   }
 }
 
+for (const entry of armoryData.cases) {
+  for (const items of Object.values(entry.items ?? {})) {
+    for (const item of items) {
+      if (applyItemPrices(item, ['normal', 'stattrak'], prices, 'normal', fallbackData)) fallbackItems++;
+    }
+  }
+}
+
 caseData.catalog.price_source = 'Steam Community Market';
 caseData.catalog.price_verified_at = verifiedAt;
 caseData.catalog.fallback_price_reference = 'design/reference/market-price-fallbacks.json';
 souvenirData.catalog.price_source = 'Steam Community Market';
 souvenirData.catalog.price_verified_at = verifiedAt;
+armoryData.catalog.price_source = 'Steam Community Market';
+armoryData.catalog.price_verified_at = verifiedAt;
 souvenirData.catalog.fallback_price_reference = 'design/reference/market-price-fallbacks.json';
 
 const output = {
@@ -172,6 +184,7 @@ if (!args.has('--write')) {
   await Promise.all([
     writeFile(CASES, `${JSON.stringify(caseData, null, 2)}\n`),
     writeFile(SOUVENIRS, `${JSON.stringify(souvenirData, null, 2)}\n`),
+    writeFile(ARMORY, `${JSON.stringify(armoryData, null, 2)}\n`),
     writeFile(OUTPUT, `${JSON.stringify(output, null, 2)}\n`),
   ]);
     console.log(

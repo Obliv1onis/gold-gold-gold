@@ -20,7 +20,7 @@ async function readSource(source) {
 }
 const source = (type, locale) => args[`${type}-${locale}`] ?? `${API_ROOT}/${locale === 'en' ? 'en' : 'zh-CN'}/${type}.json`;
 
-const localContainers = ['public/data/cases.json', 'public/data/souvenirs.json']
+const localContainers = ['public/data/cases.json', 'public/data/souvenirs.json', 'public/data/armory.json']
   .flatMap(file => readJson(file).cases ?? []);
 const skinsEn = await readSource(source('skins', 'en'));
 const skinsZh = await readSource(source('skins', 'zh'));
@@ -55,6 +55,16 @@ function normalizedName(name) {
 
 const officialSkins = pairedMap(skinsEn, skinsZh);
 const officialCrates = pairedMap(cratesEn, cratesZh);
+const chineseSkinsById = new Map(skinsZh.map(skin => [skin.id, skin]));
+const officialCollections = new Map();
+for (const skin of skinsEn) {
+  const chinese = chineseSkinsById.get(skin.id);
+  for (let i = 0; i < (skin.collections?.length ?? 0); i++) {
+    const collection = skin.collections[i];
+    const translated = chinese?.collections?.find(item => item.id === collection.id)?.name;
+    if (translated) officialCollections.set(collection.name, translated);
+  }
+}
 const translations = {};
 const missing = [];
 
@@ -71,7 +81,7 @@ for (const runtimeName of [...runtimeSkins].sort()) {
 }
 
 for (const name of [...new Set(localContainers.map(container => container.name))].sort()) {
-  const translated = officialCrates.get(name);
+  const translated = officialCrates.get(name) ?? officialCollections.get(name) ?? officialSkins.get(name);
   if (translated) translations[`case_name.${name}`] = translated;
 }
 

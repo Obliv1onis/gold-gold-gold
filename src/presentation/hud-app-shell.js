@@ -5,6 +5,7 @@ import { Events }                      from '../foundation/events.js';
 import { i18n }                        from '../foundation/i18n.js';
 import { DailyBonus, formatDailyBonusCountdown } from '../feature/daily-bonus.js';
 import { Theme }                       from '../foundation/theme.js';
+import { ArmoryPass, ARMORY_PASS_PRICE_USD } from '../core/armory-pass.js';
 
 // ─── Module-level state ───────────────────────────────────────────────────────
 
@@ -13,6 +14,7 @@ let _revealVisible    = false;
 let _reelReady        = false;
 let _selectedCaseId   = null;
 let _selectedIsTerminal = false;
+let _selectedIsArmory  = false;
 let _caseMarketPrice  = 0;
 let _openCost         = 0;
 let _currentView      = 'home'; // 'home' | 'browser' | 'reel' | 'market' | 'tradeup' | 'inventory' | 'credits'
@@ -253,7 +255,7 @@ export const HudAppShell = {
       this._refreshBonusBar();
       this._refreshThemeButton();
       if (_currentView === 'reel' && _selectedCaseId) {
-        _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
+        this._refreshOpenButtonLabel();
       }
       if (_currentView === 'browser') _backBtn.textContent = i18n.t('back_home');
       else if (_currentView === 'reel') _backBtn.textContent = i18n.t('back');
@@ -269,6 +271,10 @@ export const HudAppShell = {
     // Open button
     _openBtn.addEventListener('click', () => {
       if (_openBtn.disabled || !_selectedCaseId) return;
+      if (_selectedIsArmory && ArmoryPass.getRemaining() <= 0) {
+        if (!ArmoryPass.purchase()) this._showError(_blockedMessage('insufficient_funds'));
+        return;
+      }
       _isAnimating = true;
       if (!_selectedIsTerminal) CaseInventory.addCase(_selectedCaseId);
       this._evaluateOpenButton();
@@ -303,6 +309,10 @@ export const HudAppShell = {
       this._refreshInvValue();
       this._refreshResetVisibility();
     });
+    document.addEventListener(Events.ARMORY_PASS_CHANGED, () => {
+      this._refreshOpenButtonLabel();
+      this._evaluateOpenButton();
+    });
     document.addEventListener(Events.REEL_READY,             () => { _reelReady = true; this._evaluateOpenButton(); });
 
     // Initial render
@@ -326,6 +336,7 @@ export const HudAppShell = {
     this._leaveCurrentView();
     _selectedCaseId  = null;
     _selectedIsTerminal = false;
+    _selectedIsArmory = false;
     _currentCategory = null;
     _reelReady       = false;
     _isAnimating     = false;
@@ -339,6 +350,7 @@ export const HudAppShell = {
     this._leaveCurrentView();
     _selectedCaseId  = null;
     _selectedIsTerminal = false;
+    _selectedIsArmory = false;
     _reelReady       = false;
     _isAnimating     = false;
     _revealVisible   = false;
@@ -350,22 +362,23 @@ export const HudAppShell = {
    * Switch to the case-opening screen for a specific case.
    * @param {string} caseId
    * @param {number} casePrice - market price of the case (USD)
-   * @param {{ isTerminal?: boolean }} [options]
+   * @param {{ isTerminal?: boolean, isKeyless?: boolean, isArmory?: boolean }} [options]
    */
-  showCaseOpening(caseId, casePrice, { isTerminal = false } = {}) {
+  showCaseOpening(caseId, casePrice, { isTerminal = false, isKeyless = false, isArmory = false } = {}) {
     this._leaveCurrentView();
     _selectedCaseId  = caseId;
     _selectedIsTerminal = isTerminal;
+    _selectedIsArmory = isArmory;
     _caseMarketPrice = casePrice;
-    const isKeyless  = isTerminal || _currentCategory === 'souvenir_package' || _currentCategory === 'sticker_capsule';
-    _openCost        = Math.round((isKeyless ? casePrice : casePrice + KEY_COST_USD) * 100) / 100;
+    const opensWithoutKey = isKeyless || isTerminal || _currentCategory === 'souvenir_package' || _currentCategory === 'sticker_capsule';
+    _openCost        = isArmory ? 0 : Math.round((opensWithoutKey ? casePrice : casePrice + KEY_COST_USD) * 100) / 100;
     _reelReady       = false;
     _isAnimating     = false;
     _revealVisible   = false;
     _currentView     = 'reel';
     this._applyView();
 
-    _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
+    this._refreshOpenButtonLabel();
     this._evaluateOpenButton();
   },
 
@@ -490,7 +503,9 @@ export const HudAppShell = {
       && !_revealVisible
       && _reelReady
       && !!_selectedCaseId
-      && VirtualEconomy.canAfford(_openCost);
+      && (_selectedIsArmory
+        ? ArmoryPass.getRemaining() > 0 || VirtualEconomy.canAfford(ARMORY_PASS_PRICE_USD)
+        : VirtualEconomy.canAfford(_openCost));
     _openBtn.disabled = !enabled;
   },
 
@@ -508,10 +523,23 @@ export const HudAppShell = {
 
   _handleReset() {
     VirtualEconomy.reset();
+    ArmoryPass.reset();
     try { CaseInventory.clearInventory(); } catch (e) { console.error(e); }
     try { SkinInventory.clearInventory(); } catch (e) { console.error(e); }
     this._refreshResetVisibility();
     this._evaluateOpenButton();
+  },
+
+  _refreshOpenButtonLabel() {
+    if (!_openBtn || !_selectedCaseId) return;
+    if (_selectedIsArmory) {
+      const remaining = ArmoryPass.getRemaining();
+      _openBtn.textContent = remaining > 0
+        ? i18n.t('armory_open_remaining', { n: remaining })
+        : i18n.t('buy_armory_pass', { price: `$${ARMORY_PASS_PRICE_USD.toFixed(2)}` });
+      return;
+    }
+    _openBtn.textContent = `${i18n.t('open_btn')} ($${_openCost.toFixed(2)})`;
   },
 
   _showError(msg) {
@@ -623,6 +651,7 @@ function _blockedMessage(reason) {
   switch (reason) {
     case 'no_case':            return i18n.t('err_no_case');
     case 'insufficient_funds': return i18n.t('err_no_funds');
+    case 'no_armory_draws':   return i18n.t('err_no_armory_draws');
     case 'roll_error':         return i18n.t('err_roll');
     default:                   return i18n.t('err_open');
   }

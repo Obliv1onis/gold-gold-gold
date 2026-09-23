@@ -6,6 +6,7 @@ export const Events = {
   BALANCE_CHANGED:        'balance-changed',
   CASE_INVENTORY_CHANGED: 'case-inventory-changed',
   SKIN_INVENTORY_CHANGED: 'skin-inventory-changed',
+  ARMORY_PASS_CHANGED:    'armory-pass-changed',
 
   // Feature layer — async data
   PRICE_UPDATED:          'price-updated',

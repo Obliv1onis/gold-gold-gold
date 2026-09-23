@@ -1,4 +1,4 @@
-// Static case data store. Loads cases.json + souvenirs.json once at startup; read-only for the session.
+// Static case data store. Loads case, souvenir, and Armory catalogues once at startup.
 const WEAPON_CASE_RARITIES = ['mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
 const TERMINAL_RARITIES    = ['mil_spec', 'restricted', 'classified', 'covert'];
 const ALL_RARITIES = ['consumer_grade', 'industrial_grade', 'mil_spec', 'restricted', 'classified', 'covert', 'rare_special'];
@@ -14,7 +14,7 @@ let _allSkins = [];
 function _validateEntry(entry) {
   const type = entry.type ?? 'weapon_case';
 
-  if (type !== 'weapon_case' && type !== 'souvenir_package' && type !== 'terminal') {
+  if (!['weapon_case', 'souvenir_package', 'terminal', 'armory_collection', 'armory_limited'].includes(type)) {
     console.warn(`[CDS] Skipping "${entry.id}": unrecognized type "${type}"`);
     return false;
   }
@@ -49,7 +49,7 @@ function _validateEntry(entry) {
       }
     }
   } else {
-    // souvenir_package: at least one tier must have items; weight/items must be consistent
+    // Souvenir and Armory pools may start or end at different rarity tiers.
     let hasAnyItems = false;
     for (const rarity of ALL_RARITIES) {
       const tier = items[rarity] ?? [];
@@ -101,8 +101,9 @@ export const CaseDataStore = {
   /**
    * @param {string} caseUrl   - URL for weapon cases JSON (required)
    * @param {string} souvenirUrl - URL for souvenir packages JSON (optional, non-fatal if missing)
+   * @param {string} armoryUrl - URL for Armory collections JSON (optional, non-fatal if missing)
    */
-  async init(caseUrl = '/data/cases.json', souvenirUrl = '/data/souvenirs.json') {
+  async init(caseUrl = '/data/cases.json', souvenirUrl = '/data/souvenirs.json', armoryUrl = null) {
     _state = 'unloaded';
     _cases.clear();
     _caseLists.clear();
@@ -112,16 +113,18 @@ export const CaseDataStore = {
     _allSkins = [];
 
     try {
-      const [caseEntries, souvenirEntries] = await Promise.all([
+      const optionalFile = url => url
+        ? _loadFile(url, false).catch(err => {
+            console.warn(`[CDS] Failed to load ${url}: ${err.message}`);
+            return [];
+          })
+        : Promise.resolve([]);
+      const [caseEntries, souvenirEntries, armoryEntries] = await Promise.all([
         _loadFile(caseUrl, true),
-        souvenirUrl
-          ? _loadFile(souvenirUrl, false).catch(err => {
-              console.warn(`[CDS] Failed to load ${souvenirUrl}: ${err.message}`);
-              return [];
-            })
-          : Promise.resolve([]),
+        optionalFile(souvenirUrl),
+        optionalFile(armoryUrl),
       ]);
-      const allEntries = [...caseEntries, ...souvenirEntries];
+      const allEntries = [...caseEntries, ...souvenirEntries, ...armoryEntries];
 
       const seenIds = new Set();
       for (const entry of allEntries) {
@@ -150,7 +153,7 @@ export const CaseDataStore = {
 
       const allMetadata = [..._cases.values()].map(({ items, ...meta }) => meta);
       _caseLists.set('all', allMetadata);
-      for (const type of ['weapon_case', 'souvenir_package', 'terminal']) {
+      for (const type of ['weapon_case', 'souvenir_package', 'terminal', 'armory_collection', 'armory_limited']) {
         _caseLists.set(type, allMetadata.filter(entry => entry.type === type));
       }
     } catch (err) {

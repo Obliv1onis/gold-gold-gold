@@ -20,6 +20,9 @@ vi.mock('../../../src/core/reel-animation-engine.js', () => ({
 vi.mock('../../../src/core/audio-system.js', () => ({
   AudioSystem: { playTick: vi.fn(), playReveal: vi.fn() },
 }));
+vi.mock('../../../src/core/armory-pass.js', () => ({
+  ArmoryPass: { getRemaining: vi.fn(), consume: vi.fn() },
+}));
 
 import { CaseOpeningOrchestrator, CHORD_DECAY_MS } from '../../../src/core/case-opening-orchestrator.js';
 import { VirtualEconomy }    from '../../../src/core/virtual-economy.js';
@@ -28,6 +31,8 @@ import { SkinInventory }     from '../../../src/core/skin-inventory.js';
 import { DropRateEngine, RollError } from '../../../src/core/drop-rate-engine.js';
 import { ReelAnimationEngine }       from '../../../src/core/reel-animation-engine.js';
 import { AudioSystem }               from '../../../src/core/audio-system.js';
+import { CaseDataStore }             from '../../../src/foundation/case-data-store.js';
+import { ArmoryPass }                from '../../../src/core/armory-pass.js';
 
 // ─── Test fixtures ────────────────────────────────────────────────────────────
 
@@ -52,6 +57,8 @@ function setupMocks() {
   ReelAnimationEngine.spin.mockImplementation((_caseId, _item, _vp, callbacks) => {
     _spinCallbacks = callbacks;
   });
+  ArmoryPass.getRemaining.mockReturnValue(10);
+  ArmoryPass.consume.mockReturnValue(true);
 }
 
 function CALLBACKS() {
@@ -184,6 +191,34 @@ describe('CaseOpeningOrchestrator — call ordering', () => {
   it('test_coo_canAfford_amount_is_case_price_plus_key_cost', () => {
     CaseOpeningOrchestrator.open(CASE_ID, CASE_PRICE, VIEWPORT, CALLBACKS());
     expect(VirtualEconomy.canAfford).toHaveBeenCalledWith(TOTAL_COST);
+  });
+
+  it('test_coo_armory_redemption_consumes_one_draw_without_spending', () => {
+    const getCase = vi.spyOn(CaseDataStore, 'getCase').mockReturnValue({ type: 'armory_collection' });
+    CaseOpeningOrchestrator.open(CASE_ID, CASE_PRICE, VIEWPORT, CALLBACKS());
+    expect(ArmoryPass.consume).toHaveBeenCalledTimes(1);
+    expect(VirtualEconomy.spend).not.toHaveBeenCalled();
+    getCase.mockRestore();
+  });
+
+  it('test_coo_armory_redemption_is_blocked_without_pass_draws', () => {
+    const getCase = vi.spyOn(CaseDataStore, 'getCase').mockReturnValue({ type: 'armory_collection' });
+    ArmoryPass.getRemaining.mockReturnValue(0);
+    const callbacks = CALLBACKS();
+    CaseOpeningOrchestrator.open(CASE_ID, CASE_PRICE, VIEWPORT, callbacks);
+    expect(callbacks.onBlocked).toHaveBeenCalledWith('no_armory_draws');
+    expect(ReelAnimationEngine.spin).not.toHaveBeenCalled();
+    getCase.mockRestore();
+  });
+
+  it('test_coo_armory_skins_never_roll_as_stattrak', () => {
+    const getCase = vi.spyOn(CaseDataStore, 'getCase').mockReturnValue({ type: 'armory_collection' });
+    const random = vi.spyOn(Math, 'random').mockReturnValue(0);
+    CaseOpeningOrchestrator.open(CASE_ID, CASE_PRICE, VIEWPORT, CALLBACKS());
+    const [, item] = ReelAnimationEngine.spin.mock.calls[0];
+    expect(item.stat_trak).toBe(false);
+    random.mockRestore();
+    getCase.mockRestore();
   });
 
   it('test_coo_spin_receives_selected_item_from_roll', () => {

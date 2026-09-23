@@ -4,8 +4,8 @@
     "source_reference": "design/reference/skin-price.md",
     "price_source": "Steam Community Market",
     "bulk_snapshot": "2026-09-12T02:36:30Z",
-    "verified_at": "2026-09-22T15:21:16.755Z",
-    "items": 10892
+    "verified_at": "2026-09-22T23:57:04.989Z",
+    "items": 11384
   },
   "prices": {
     "★ Bayonet": {
@@ -6522,30 +6522,6 @@
       "price": 165.9,
       "listings": 11,
       "updated_at": "2026-09-11T22:09:50.855Z",
-      "source": "steam-bulk"
-    },
-    "★ Moto Gloves | Boom! (Battle-Scarred)": {
-      "price": 132.8,
-      "listings": 8,
-      "updated_at": "2026-09-11T22:09:50.754Z",
-      "source": "steam-bulk"
-    },
-    "★ Moto Gloves | Boom! (Field-Tested)": {
-      "price": 835.27,
-      "listings": 6,
-      "updated_at": "2026-09-11T22:09:51.175Z",
-      "source": "steam-bulk"
-    },
-    "★ Moto Gloves | Boom! (Minimal Wear)": {
-      "price": 890.52,
-      "listings": 2,
-      "updated_at": "2026-09-11T22:09:51.190Z",
-      "source": "steam-bulk"
-    },
-    "★ Moto Gloves | Boom! (Well-Worn)": {
-      "price": 255.06,
-      "listings": 3,
-      "updated_at": "2026-09-11T22:09:50.983Z",
       "source": "steam-bulk"
     },
     "★ Moto Gloves | Cool Mint (Battle-Scarred)": {
@@ -18290,6 +18266,36 @@
       "updated_at": "2026-09-11T22:09:50.634Z",
       "source": "steam-bulk"
     },
+    "AK-47 | Aphrodite (Battle-Scarred)": {
+      "price": 14.28,
+      "listings": 740,
+      "updated_at": "2026-09-11T22:09:49.708Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Aphrodite (Factory New)": {
+      "price": 419.11,
+      "listings": 49,
+      "updated_at": "2026-09-11T22:09:51.079Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Aphrodite (Field-Tested)": {
+      "price": 18.56,
+      "listings": 780,
+      "updated_at": "2026-09-11T22:09:49.858Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Aphrodite (Minimal Wear)": {
+      "price": 34.78,
+      "listings": 694,
+      "updated_at": "2026-09-11T22:09:50.173Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Aphrodite (Well-Worn)": {
+      "price": 14.17,
+      "listings": 807,
+      "updated_at": "2026-09-11T22:09:49.708Z",
+      "source": "steam-bulk"
+    },
     "AK-47 | Aquamarine Revenge (Battle-Scarred)": {
       "price": 38.88,
       "listings": 47,
@@ -18348,6 +18354,66 @@
       "price": 57.29,
       "listings": 28,
       "updated_at": "2026-09-11T22:09:50.373Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | AUTOEXEC (Battle-Scarred)": {
+      "price": 106.87,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:50.684Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | AUTOEXEC (Factory New)": {
+      "price": 1068.63,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.206Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | AUTOEXEC (Field-Tested)": {
+      "price": 232.03,
+      "listings": 18,
+      "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | AUTOEXEC (Minimal Wear)": {
+      "price": 394.48,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:51.063Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | AUTOEXEC (Well-Worn)": {
+      "price": 115.33,
+      "listings": 23,
+      "updated_at": "2026-09-11T22:09:50.702Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | B the Monster (Battle-Scarred)": {
+      "price": 68.86,
+      "listings": 51,
+      "updated_at": "2026-09-11T22:09:50.469Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | B the Monster (Factory New)": {
+      "price": 568.87,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:51.126Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | B the Monster (Field-Tested)": {
+      "price": 120.54,
+      "listings": 153,
+      "updated_at": "2026-09-11T22:09:50.720Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | B the Monster (Minimal Wear)": {
+      "price": 216.74,
+      "listings": 81,
+      "updated_at": "2026-09-11T22:09:50.951Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | B the Monster (Well-Worn)": {
+      "price": 123.33,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:50.736Z",
       "source": "steam-bulk"
     },
     "AK-47 | Bloodsport (Factory New)": {
@@ -18458,6 +18524,36 @@
       "updated_at": "2026-09-11T22:09:50.967Z",
       "source": "steam-bulk"
     },
+    "AK-47 | Consequence of the Jinn (Battle-Scarred)": {
+      "price": 95,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:50.633Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Consequence of the Jinn (Factory New)": {
+      "price": 852.63,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Consequence of the Jinn (Field-Tested)": {
+      "price": 186.56,
+      "listings": 44,
+      "updated_at": "2026-09-11T22:09:50.890Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Consequence of the Jinn (Minimal Wear)": {
+      "price": 323.51,
+      "listings": 25,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Consequence of the Jinn (Well-Worn)": {
+      "price": 108.85,
+      "listings": 32,
+      "updated_at": "2026-09-11T22:09:50.684Z",
+      "source": "steam-bulk"
+    },
     "AK-47 | Crane Flight (Battle-Scarred)": {
       "price": 9.56,
       "listings": 325,
@@ -18486,6 +18582,36 @@
       "price": 12.94,
       "listings": 419,
       "updated_at": "2026-09-11T22:09:49.643Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Crossfade (Battle-Scarred)": {
+      "price": 2.69,
+      "listings": 84,
+      "updated_at": "2026-09-11T22:09:48.574Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Crossfade (Factory New)": {
+      "price": 6.59,
+      "listings": 438,
+      "updated_at": "2026-09-11T22:09:49.229Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Crossfade (Field-Tested)": {
+      "price": 2.86,
+      "listings": 594,
+      "updated_at": "2026-09-11T22:09:48.608Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Crossfade (Minimal Wear)": {
+      "price": 4.1,
+      "listings": 480,
+      "updated_at": "2026-09-11T22:09:48.870Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Crossfade (Well-Worn)": {
+      "price": 2.87,
+      "listings": 108,
+      "updated_at": "2026-09-11T22:09:48.623Z",
       "source": "steam-bulk"
     },
     "AK-47 | Elite Build (Battle-Scarred)": {
@@ -18858,6 +18984,36 @@
       "price": 90.5,
       "listings": 164,
       "updated_at": "2026-09-11T22:09:50.600Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Olive Polycam (Battle-Scarred)": {
+      "price": 0.14,
+      "listings": 823,
+      "updated_at": "2026-09-11T22:09:46.986Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Olive Polycam (Factory New)": {
+      "price": 0.53,
+      "listings": 7096,
+      "updated_at": "2026-09-11T22:09:47.559Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Olive Polycam (Field-Tested)": {
+      "price": 0.13,
+      "listings": 16972,
+      "updated_at": "2026-09-11T22:09:46.969Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Olive Polycam (Minimal Wear)": {
+      "price": 0.17,
+      "listings": 9935,
+      "updated_at": "2026-09-11T22:09:47.086Z",
+      "source": "steam-bulk"
+    },
+    "AK-47 | Olive Polycam (Well-Worn)": {
+      "price": 0.16,
+      "listings": 747,
+      "updated_at": "2026-09-11T22:09:47.055Z",
       "source": "steam-bulk"
     },
     "AK-47 | Orbit Mk01 (Battle-Scarred)": {
@@ -19448,6 +19604,36 @@
       "updated_at": "2026-09-11T22:09:49.211Z",
       "source": "steam-bulk"
     },
+    "AUG | Eye of Zapems (Battle-Scarred)": {
+      "price": 2.18,
+      "listings": 100,
+      "updated_at": "2026-09-11T22:09:48.441Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Eye of Zapems (Factory New)": {
+      "price": 10.91,
+      "listings": 168,
+      "updated_at": "2026-09-11T22:09:49.559Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Eye of Zapems (Field-Tested)": {
+      "price": 2.53,
+      "listings": 444,
+      "updated_at": "2026-09-11T22:09:48.539Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Eye of Zapems (Minimal Wear)": {
+      "price": 4.73,
+      "listings": 219,
+      "updated_at": "2026-09-11T22:09:49.006Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Eye of Zapems (Well-Worn)": {
+      "price": 2.44,
+      "listings": 57,
+      "updated_at": "2026-09-11T22:09:48.509Z",
+      "source": "steam-bulk"
+    },
     "AUG | Fleet Flock (Battle-Scarred)": {
       "price": 17.17,
       "listings": 20,
@@ -19476,6 +19662,66 @@
       "price": 17.08,
       "listings": 14,
       "updated_at": "2026-09-11T22:09:49.808Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lapis Lazuli (Battle-Scarred)": {
+      "price": 2.32,
+      "listings": 105,
+      "updated_at": "2026-09-11T22:09:48.476Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lapis Lazuli (Factory New)": {
+      "price": 19.93,
+      "listings": 77,
+      "updated_at": "2026-09-11T22:09:49.906Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lapis Lazuli (Field-Tested)": {
+      "price": 3.7,
+      "listings": 173,
+      "updated_at": "2026-09-11T22:09:48.790Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lapis Lazuli (Minimal Wear)": {
+      "price": 8.42,
+      "listings": 149,
+      "updated_at": "2026-09-11T22:09:49.400Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lapis Lazuli (Well-Worn)": {
+      "price": 2.67,
+      "listings": 99,
+      "updated_at": "2026-09-11T22:09:48.573Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lil' Pig (Battle-Scarred)": {
+      "price": 33.24,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:50.156Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lil' Pig (Factory New)": {
+      "price": 174.03,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.873Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lil' Pig (Field-Tested)": {
+      "price": 39.1,
+      "listings": 49,
+      "updated_at": "2026-09-11T22:09:50.222Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lil' Pig (Minimal Wear)": {
+      "price": 79.97,
+      "listings": 31,
+      "updated_at": "2026-09-11T22:09:50.534Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Lil' Pig (Well-Worn)": {
+      "price": 57.47,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:50.373Z",
       "source": "steam-bulk"
     },
     "AUG | Luxe Trim (Battle-Scarred)": {
@@ -19596,6 +19842,66 @@
       "price": 0.49,
       "listings": 46,
       "updated_at": "2026-09-11T22:09:47.526Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Signal Scanner (Battle-Scarred)": {
+      "price": 0.33,
+      "listings": 88,
+      "updated_at": "2026-09-11T22:09:47.328Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Signal Scanner (Factory New)": {
+      "price": 3.13,
+      "listings": 84,
+      "updated_at": "2026-09-11T22:09:48.689Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Signal Scanner (Field-Tested)": {
+      "price": 0.44,
+      "listings": 132,
+      "updated_at": "2026-09-11T22:09:47.460Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Signal Scanner (Minimal Wear)": {
+      "price": 1,
+      "listings": 168,
+      "updated_at": "2026-09-11T22:09:47.940Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Signal Scanner (Well-Worn)": {
+      "price": 0.34,
+      "listings": 77,
+      "updated_at": "2026-09-11T22:09:47.329Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Steel Sentinel (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 2256,
+      "updated_at": "2026-09-11T22:09:46.691Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Steel Sentinel (Factory New)": {
+      "price": 1.95,
+      "listings": 602,
+      "updated_at": "2026-09-11T22:09:48.358Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Steel Sentinel (Field-Tested)": {
+      "price": 0.07,
+      "listings": 3497,
+      "updated_at": "2026-09-11T22:09:46.756Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Steel Sentinel (Minimal Wear)": {
+      "price": 0.18,
+      "listings": 5711,
+      "updated_at": "2026-09-11T22:09:47.087Z",
+      "source": "steam-bulk"
+    },
+    "AUG | Steel Sentinel (Well-Worn)": {
+      "price": 0.06,
+      "listings": 1350,
+      "updated_at": "2026-09-11T22:09:46.691Z",
       "source": "steam-bulk"
     },
     "AUG | Stymphalian (Battle-Scarred)": {
@@ -19838,6 +20144,36 @@
       "updated_at": "2026-09-11T22:09:49.008Z",
       "source": "steam-bulk"
     },
+    "AWP | Black Box (Battle-Scarred)": {
+      "price": 3.54,
+      "listings": 70,
+      "updated_at": "2026-09-11T22:09:48.787Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Black Box (Factory New)": {
+      "price": 34.26,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:50.157Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Black Box (Field-Tested)": {
+      "price": 6.36,
+      "listings": 159,
+      "updated_at": "2026-09-11T22:09:49.227Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Black Box (Minimal Wear)": {
+      "price": 13.54,
+      "listings": 76,
+      "updated_at": "2026-09-11T22:09:49.676Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Black Box (Well-Worn)": {
+      "price": 4.62,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:48.972Z",
+      "source": "steam-bulk"
+    },
     "AWP | BOOM (Factory New)": {
       "price": 677.2,
       "listings": 6,
@@ -19946,6 +20282,36 @@
       "updated_at": "2026-09-11T22:09:50.156Z",
       "source": "steam-bulk"
     },
+    "AWP | CMYK (Battle-Scarred)": {
+      "price": 124.25,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:50.736Z",
+      "source": "steam-bulk"
+    },
+    "AWP | CMYK (Factory New)": {
+      "price": 1392.28,
+      "listings": 2,
+      "updated_at": "2026-09-11T22:09:51.207Z",
+      "source": "steam-bulk"
+    },
+    "AWP | CMYK (Field-Tested)": {
+      "price": 243.37,
+      "listings": 20,
+      "updated_at": "2026-09-11T22:09:50.982Z",
+      "source": "steam-bulk"
+    },
+    "AWP | CMYK (Minimal Wear)": {
+      "price": 444.93,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:51.094Z",
+      "source": "steam-bulk"
+    },
+    "AWP | CMYK (Well-Worn)": {
+      "price": 206.01,
+      "listings": 4,
+      "updated_at": "2026-09-11T22:09:50.922Z",
+      "source": "steam-bulk"
+    },
     "AWP | Containment Breach (Battle-Scarred)": {
       "price": 58.72,
       "listings": 32,
@@ -19992,6 +20358,36 @@
       "price": 28.03,
       "listings": 185,
       "updated_at": "2026-09-11T22:09:50.073Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Crakow! (Battle-Scarred)": {
+      "price": 22.52,
+      "listings": 83,
+      "updated_at": "2026-09-11T22:09:49.972Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Crakow! (Factory New)": {
+      "price": 117.55,
+      "listings": 55,
+      "updated_at": "2026-09-11T22:09:50.719Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Crakow! (Field-Tested)": {
+      "price": 31.28,
+      "listings": 225,
+      "updated_at": "2026-09-11T22:09:50.140Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Crakow! (Minimal Wear)": {
+      "price": 57.07,
+      "listings": 152,
+      "updated_at": "2026-09-11T22:09:50.372Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Crakow! (Well-Worn)": {
+      "price": 23.31,
+      "listings": 104,
+      "updated_at": "2026-09-11T22:09:49.989Z",
       "source": "steam-bulk"
     },
     "AWP | Duality (Battle-Scarred)": {
@@ -20220,6 +20616,36 @@
       "price": 855.1,
       "listings": 3,
       "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "AWP | LongDog (Battle-Scarred)": {
+      "price": 45.02,
+      "listings": 50,
+      "updated_at": "2026-09-11T22:09:50.272Z",
+      "source": "steam-bulk"
+    },
+    "AWP | LongDog (Factory New)": {
+      "price": 819.12,
+      "listings": 10,
+      "updated_at": "2026-09-11T22:09:51.175Z",
+      "source": "steam-bulk"
+    },
+    "AWP | LongDog (Field-Tested)": {
+      "price": 96.3,
+      "listings": 86,
+      "updated_at": "2026-09-11T22:09:50.634Z",
+      "source": "steam-bulk"
+    },
+    "AWP | LongDog (Minimal Wear)": {
+      "price": 229.03,
+      "listings": 60,
+      "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "AWP | LongDog (Well-Worn)": {
+      "price": 50.28,
+      "listings": 77,
+      "updated_at": "2026-09-11T22:09:50.323Z",
       "source": "steam-bulk"
     },
     "AWP | Man-o'-war (Field-Tested)": {
@@ -20456,6 +20882,36 @@
       "updated_at": "2026-09-11T22:09:50.420Z",
       "source": "steam-bulk"
     },
+    "AWP | Sovereign Flame (Battle-Scarred)": {
+      "price": 102.01,
+      "listings": 35,
+      "updated_at": "2026-09-11T22:09:50.651Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Sovereign Flame (Factory New)": {
+      "price": 678.9,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:51.158Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Sovereign Flame (Field-Tested)": {
+      "price": 156.36,
+      "listings": 59,
+      "updated_at": "2026-09-11T22:09:50.823Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Sovereign Flame (Minimal Wear)": {
+      "price": 282.92,
+      "listings": 47,
+      "updated_at": "2026-09-11T22:09:51.014Z",
+      "source": "steam-bulk"
+    },
+    "AWP | Sovereign Flame (Well-Worn)": {
+      "price": 108.82,
+      "listings": 27,
+      "updated_at": "2026-09-11T22:09:50.684Z",
+      "source": "steam-bulk"
+    },
     "AWP | Wildfire (Battle-Scarred)": {
       "price": 46.06,
       "listings": 26,
@@ -20588,6 +21044,36 @@
       "updated_at": "2026-09-11T22:09:47.281Z",
       "source": "steam-bulk"
     },
+    "CZ75-Auto | Copper Fiber (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 1586,
+      "updated_at": "2026-09-11T22:09:46.691Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Copper Fiber (Factory New)": {
+      "price": 0.37,
+      "listings": 2197,
+      "updated_at": "2026-09-11T22:09:47.390Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Copper Fiber (Field-Tested)": {
+      "price": 0.06,
+      "listings": 3418,
+      "updated_at": "2026-09-11T22:09:46.691Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Copper Fiber (Minimal Wear)": {
+      "price": 0.09,
+      "listings": 1561,
+      "updated_at": "2026-09-11T22:09:46.840Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Copper Fiber (Well-Worn)": {
+      "price": 0.07,
+      "listings": 691,
+      "updated_at": "2026-09-11T22:09:46.756Z",
+      "source": "steam-bulk"
+    },
     "CZ75-Auto | Crimson Web (Battle-Scarred)": {
       "price": 4.91,
       "listings": 26,
@@ -20700,6 +21186,36 @@
       "price": 3.76,
       "listings": 6,
       "updated_at": "2026-09-11T22:09:48.805Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Hydraulics (Battle-Scarred)": {
+      "price": 2.67,
+      "listings": 40,
+      "updated_at": "2026-09-11T22:09:48.573Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Hydraulics (Factory New)": {
+      "price": 13.17,
+      "listings": 61,
+      "updated_at": "2026-09-11T22:09:49.659Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Hydraulics (Field-Tested)": {
+      "price": 3.76,
+      "listings": 85,
+      "updated_at": "2026-09-11T22:09:48.820Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Hydraulics (Minimal Wear)": {
+      "price": 6.6,
+      "listings": 108,
+      "updated_at": "2026-09-11T22:09:49.229Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Hydraulics (Well-Worn)": {
+      "price": 2.77,
+      "listings": 51,
+      "updated_at": "2026-09-11T22:09:48.591Z",
       "source": "steam-bulk"
     },
     "CZ75-Auto | Imprint (Battle-Scarred)": {
@@ -20820,6 +21336,36 @@
       "price": 1.66,
       "listings": 90,
       "updated_at": "2026-09-11T22:09:48.245Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Slalom (Battle-Scarred)": {
+      "price": 6.47,
+      "listings": 15,
+      "updated_at": "2026-09-11T22:09:49.228Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Slalom (Factory New)": {
+      "price": 22.28,
+      "listings": 48,
+      "updated_at": "2026-09-11T22:09:49.971Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Slalom (Field-Tested)": {
+      "price": 7.83,
+      "listings": 56,
+      "updated_at": "2026-09-11T22:09:49.364Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Slalom (Minimal Wear)": {
+      "price": 12.33,
+      "listings": 47,
+      "updated_at": "2026-09-11T22:09:49.626Z",
+      "source": "steam-bulk"
+    },
+    "CZ75-Auto | Slalom (Well-Worn)": {
+      "price": 7.11,
+      "listings": 17,
+      "updated_at": "2026-09-11T22:09:49.298Z",
       "source": "steam-bulk"
     },
     "CZ75-Auto | Tacticat (Battle-Scarred)": {
@@ -21314,6 +21860,36 @@
       "updated_at": "2026-09-11T22:09:48.246Z",
       "source": "steam-bulk"
     },
+    "Desert Eagle | Eastern Enigma (Battle-Scarred)": {
+      "price": 16.21,
+      "listings": 69,
+      "updated_at": "2026-09-11T22:09:49.775Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Eastern Enigma (Factory New)": {
+      "price": 99.46,
+      "listings": 34,
+      "updated_at": "2026-09-11T22:09:50.650Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Eastern Enigma (Field-Tested)": {
+      "price": 22.02,
+      "listings": 126,
+      "updated_at": "2026-09-11T22:09:49.954Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Eastern Enigma (Minimal Wear)": {
+      "price": 44.2,
+      "listings": 101,
+      "updated_at": "2026-09-11T22:09:50.272Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Eastern Enigma (Well-Worn)": {
+      "price": 17.11,
+      "listings": 84,
+      "updated_at": "2026-09-11T22:09:49.808Z",
+      "source": "steam-bulk"
+    },
     "Desert Eagle | Firebreathing (Battle-Scarred)": {
       "price": 0.95,
       "listings": 392,
@@ -21354,6 +21930,36 @@
       "price": 310.56,
       "listings": 4,
       "updated_at": "2026-09-11T22:09:51.030Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Heat Treated (Battle-Scarred)": {
+      "price": 1.6,
+      "listings": 2395,
+      "updated_at": "2026-09-11T22:09:48.214Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Heat Treated (Factory New)": {
+      "price": 58.68,
+      "listings": 161,
+      "updated_at": "2026-09-11T22:09:50.404Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Heat Treated (Field-Tested)": {
+      "price": 1.88,
+      "listings": 1991,
+      "updated_at": "2026-09-11T22:09:48.326Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Heat Treated (Minimal Wear)": {
+      "price": 3.68,
+      "listings": 1397,
+      "updated_at": "2026-09-11T22:09:48.789Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Heat Treated (Well-Worn)": {
+      "price": 1.47,
+      "listings": 2680,
+      "updated_at": "2026-09-11T22:09:48.152Z",
       "source": "steam-bulk"
     },
     "Desert Eagle | Heirloom (Battle-Scarred)": {
@@ -21636,6 +22242,66 @@
       "price": 0.7,
       "listings": 204,
       "updated_at": "2026-09-11T22:09:47.727Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Starcade (Battle-Scarred)": {
+      "price": 40.73,
+      "listings": 17,
+      "updated_at": "2026-09-11T22:09:50.239Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Starcade (Factory New)": {
+      "price": 309.56,
+      "listings": 23,
+      "updated_at": "2026-09-11T22:09:51.030Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Starcade (Field-Tested)": {
+      "price": 52.21,
+      "listings": 52,
+      "updated_at": "2026-09-11T22:09:50.354Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Starcade (Minimal Wear)": {
+      "price": 109.19,
+      "listings": 34,
+      "updated_at": "2026-09-11T22:09:50.685Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Starcade (Well-Worn)": {
+      "price": 47.52,
+      "listings": 24,
+      "updated_at": "2026-09-11T22:09:50.305Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Tilted (Battle-Scarred)": {
+      "price": 0.19,
+      "listings": 1852,
+      "updated_at": "2026-09-11T22:09:47.087Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Tilted (Factory New)": {
+      "price": 1.95,
+      "listings": 1060,
+      "updated_at": "2026-09-11T22:09:48.358Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Tilted (Field-Tested)": {
+      "price": 0.19,
+      "listings": 10161,
+      "updated_at": "2026-09-11T22:09:47.088Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Tilted (Minimal Wear)": {
+      "price": 0.57,
+      "listings": 6665,
+      "updated_at": "2026-09-11T22:09:47.596Z",
+      "source": "steam-bulk"
+    },
+    "Desert Eagle | Tilted (Well-Worn)": {
+      "price": 0.31,
+      "listings": 1107,
+      "updated_at": "2026-09-11T22:09:47.297Z",
       "source": "steam-bulk"
     },
     "Desert Eagle | Trigger Discipline (Battle-Scarred)": {
@@ -22130,6 +22796,36 @@
       "updated_at": "2026-09-11T21:39:50.426Z",
       "source": "steam-bulk"
     },
+    "Dual Berettas | Mystic Conjunction (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 3037,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Mystic Conjunction (Factory New)": {
+      "price": 0.72,
+      "listings": 287,
+      "updated_at": "2026-09-11T22:09:47.744Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Mystic Conjunction (Field-Tested)": {
+      "price": 0.07,
+      "listings": 1200,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Mystic Conjunction (Minimal Wear)": {
+      "price": 0.14,
+      "listings": 509,
+      "updated_at": "2026-09-11T22:09:47.004Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Mystic Conjunction (Well-Worn)": {
+      "price": 0.05,
+      "listings": 4470,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
     "Dual Berettas | Panther (Battle-Scarred)": {
       "price": 4.28,
       "listings": 13,
@@ -22218,6 +22914,36 @@
       "price": 0.49,
       "listings": 62,
       "updated_at": "2026-09-11T22:09:47.525Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Sweet Little Angels (Battle-Scarred)": {
+      "price": 2.07,
+      "listings": 109,
+      "updated_at": "2026-09-11T22:09:48.392Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Sweet Little Angels (Factory New)": {
+      "price": 12.32,
+      "listings": 121,
+      "updated_at": "2026-09-11T22:09:49.626Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Sweet Little Angels (Field-Tested)": {
+      "price": 2.6,
+      "listings": 428,
+      "updated_at": "2026-09-11T22:09:48.541Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Sweet Little Angels (Minimal Wear)": {
+      "price": 5.81,
+      "listings": 259,
+      "updated_at": "2026-09-11T22:09:49.159Z",
+      "source": "steam-bulk"
+    },
+    "Dual Berettas | Sweet Little Angels (Well-Worn)": {
+      "price": 2.4,
+      "listings": 60,
+      "updated_at": "2026-09-11T22:09:48.508Z",
       "source": "steam-bulk"
     },
     "Dual Berettas | Tread (Battle-Scarred)": {
@@ -22448,6 +23174,36 @@
       "updated_at": "2026-09-21T02:15:07.136Z",
       "source": "steam-direct"
     },
+    "FAMAS | 2A2F (Battle-Scarred)": {
+      "price": 0.23,
+      "listings": 577,
+      "updated_at": "2026-09-11T22:09:47.186Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | 2A2F (Factory New)": {
+      "price": 5.63,
+      "listings": 244,
+      "updated_at": "2026-09-11T22:09:49.126Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | 2A2F (Field-Tested)": {
+      "price": 0.27,
+      "listings": 1546,
+      "updated_at": "2026-09-11T22:09:47.235Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | 2A2F (Minimal Wear)": {
+      "price": 1.25,
+      "listings": 668,
+      "updated_at": "2026-09-11T22:09:48.070Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | 2A2F (Well-Worn)": {
+      "price": 0.25,
+      "listings": 426,
+      "updated_at": "2026-09-11T22:09:47.218Z",
+      "source": "steam-bulk"
+    },
     "FAMAS | Afterimage (Factory New)": {
       "price": 65.61,
       "listings": 28,
@@ -22530,6 +23286,36 @@
       "price": 42.04,
       "listings": 10,
       "updated_at": "2026-09-11T22:09:50.255Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Corp Defense (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 434,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Corp Defense (Factory New)": {
+      "price": 1.37,
+      "listings": 82,
+      "updated_at": "2026-09-11T22:09:48.119Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Corp Defense (Field-Tested)": {
+      "price": 0.06,
+      "listings": 391,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Corp Defense (Minimal Wear)": {
+      "price": 0.21,
+      "listings": 432,
+      "updated_at": "2026-09-11T22:09:47.153Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Corp Defense (Well-Worn)": {
+      "price": 0.06,
+      "listings": 350,
+      "updated_at": "2026-09-11T22:09:46.723Z",
       "source": "steam-bulk"
     },
     "FAMAS | Crypsis (Battle-Scarred)": {
@@ -22662,6 +23448,66 @@
       "price": 7.77,
       "listings": 19,
       "updated_at": "2026-09-11T22:09:49.364Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Half Sleeve (Battle-Scarred)": {
+      "price": 0.07,
+      "listings": 1261,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Half Sleeve (Factory New)": {
+      "price": 0.95,
+      "listings": 791,
+      "updated_at": "2026-09-11T22:09:47.893Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Half Sleeve (Field-Tested)": {
+      "price": 0.07,
+      "listings": 4293,
+      "updated_at": "2026-09-11T22:09:46.741Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Half Sleeve (Minimal Wear)": {
+      "price": 0.14,
+      "listings": 3909,
+      "updated_at": "2026-09-11T22:09:47.003Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Half Sleeve (Well-Worn)": {
+      "price": 0.08,
+      "listings": 1566,
+      "updated_at": "2026-09-11T22:09:46.773Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Halftone Wash (Battle-Scarred)": {
+      "price": 0.27,
+      "listings": 131,
+      "updated_at": "2026-09-11T22:09:47.219Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Halftone Wash (Factory New)": {
+      "price": 0.87,
+      "listings": 429,
+      "updated_at": "2026-09-11T22:09:47.845Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Halftone Wash (Field-Tested)": {
+      "price": 0.2,
+      "listings": 1122,
+      "updated_at": "2026-09-11T22:09:47.120Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Halftone Wash (Minimal Wear)": {
+      "price": 0.45,
+      "listings": 435,
+      "updated_at": "2026-09-11T22:09:47.476Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Halftone Wash (Well-Worn)": {
+      "price": 0.23,
+      "listings": 190,
+      "updated_at": "2026-09-11T22:09:47.185Z",
       "source": "steam-bulk"
     },
     "FAMAS | Hexane (Factory New)": {
@@ -22914,6 +23760,36 @@
       "price": 2.75,
       "listings": 46,
       "updated_at": "2026-09-11T22:09:48.591Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Snake Song (Battle-Scarred)": {
+      "price": 0.23,
+      "listings": 130,
+      "updated_at": "2026-09-11T22:09:47.187Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Snake Song (Factory New)": {
+      "price": 4.29,
+      "listings": 75,
+      "updated_at": "2026-09-11T22:09:48.918Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Snake Song (Field-Tested)": {
+      "price": 0.45,
+      "listings": 243,
+      "updated_at": "2026-09-11T22:09:47.492Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Snake Song (Minimal Wear)": {
+      "price": 1.07,
+      "listings": 339,
+      "updated_at": "2026-09-11T22:09:47.986Z",
+      "source": "steam-bulk"
+    },
+    "FAMAS | Snake Song (Well-Worn)": {
+      "price": 0.32,
+      "listings": 129,
+      "updated_at": "2026-09-11T22:09:47.313Z",
       "source": "steam-bulk"
     },
     "FAMAS | Survivor Z (Battle-Scarred)": {
@@ -23204,6 +24080,36 @@
       "updated_at": "2026-09-11T22:09:46.985Z",
       "source": "steam-bulk"
     },
+    "Five-SeveN | Desert Seal (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 2827,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Desert Seal (Factory New)": {
+      "price": 0.89,
+      "listings": 222,
+      "updated_at": "2026-09-11T22:09:47.876Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Desert Seal (Field-Tested)": {
+      "price": 0.07,
+      "listings": 1813,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Desert Seal (Minimal Wear)": {
+      "price": 0.17,
+      "listings": 245,
+      "updated_at": "2026-09-11T22:09:47.087Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Desert Seal (Well-Worn)": {
+      "price": 0.06,
+      "listings": 3825,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
     "Five-SeveN | Fairy Tale (Battle-Scarred)": {
       "price": 25.01,
       "listings": 27,
@@ -23294,6 +24200,36 @@
       "updated_at": "2026-09-11T22:09:50.054Z",
       "source": "steam-bulk"
     },
+    "Five-SeveN | Heat Treated (Battle-Scarred)": {
+      "price": 3.4,
+      "listings": 419,
+      "updated_at": "2026-09-11T22:09:48.740Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Heat Treated (Factory New)": {
+      "price": 27.51,
+      "listings": 173,
+      "updated_at": "2026-09-11T22:09:50.072Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Heat Treated (Field-Tested)": {
+      "price": 3.27,
+      "listings": 914,
+      "updated_at": "2026-09-11T22:09:48.722Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Heat Treated (Minimal Wear)": {
+      "price": 4.23,
+      "listings": 546,
+      "updated_at": "2026-09-11T22:09:48.887Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Heat Treated (Well-Worn)": {
+      "price": 3.42,
+      "listings": 567,
+      "updated_at": "2026-09-11T22:09:48.755Z",
+      "source": "steam-bulk"
+    },
     "Five-SeveN | Hybrid (Battle-Scarred)": {
       "price": 0.52,
       "listings": 1513,
@@ -23370,6 +24306,36 @@
       "price": 4.32,
       "listings": 120,
       "updated_at": "2026-09-11T22:09:48.919Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Midnight Paintover (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 367,
+      "updated_at": "2026-09-11T22:09:46.675Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Midnight Paintover (Factory New)": {
+      "price": 0.19,
+      "listings": 3124,
+      "updated_at": "2026-09-11T22:09:47.088Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Midnight Paintover (Field-Tested)": {
+      "price": 0.06,
+      "listings": 6113,
+      "updated_at": "2026-09-11T22:09:46.675Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Midnight Paintover (Minimal Wear)": {
+      "price": 0.08,
+      "listings": 2626,
+      "updated_at": "2026-09-11T22:09:46.789Z",
+      "source": "steam-bulk"
+    },
+    "Five-SeveN | Midnight Paintover (Well-Worn)": {
+      "price": 0.06,
+      "listings": 973,
+      "updated_at": "2026-09-11T22:09:46.675Z",
       "source": "steam-bulk"
     },
     "Five-SeveN | Monkey Business (Battle-Scarred)": {
@@ -24332,6 +25298,24 @@
       "updated_at": "2026-09-11T22:09:47.891Z",
       "source": "steam-bulk"
     },
+    "Galil AR | Green Apple (Factory New)": {
+      "price": 0.34,
+      "listings": 6736,
+      "updated_at": "2026-09-11T22:09:47.329Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Green Apple (Field-Tested)": {
+      "price": 0.1,
+      "listings": 4930,
+      "updated_at": "2026-09-11T22:09:46.901Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Green Apple (Minimal Wear)": {
+      "price": 0.12,
+      "listings": 9358,
+      "updated_at": "2026-09-11T22:09:46.951Z",
+      "source": "steam-bulk"
+    },
     "Galil AR | Kami (Battle-Scarred)": {
       "price": 1.69,
       "listings": 31,
@@ -24362,6 +25346,66 @@
       "updated_at": "2026-09-11T22:09:48.325Z",
       "source": "steam-bulk"
     },
+    "Galil AR | Metallic Squeezer (Battle-Scarred)": {
+      "price": 0.22,
+      "listings": 378,
+      "updated_at": "2026-09-11T22:09:47.154Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Metallic Squeezer (Factory New)": {
+      "price": 1.14,
+      "listings": 447,
+      "updated_at": "2026-09-11T22:09:48.020Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Metallic Squeezer (Field-Tested)": {
+      "price": 0.23,
+      "listings": 657,
+      "updated_at": "2026-09-11T22:09:47.186Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Metallic Squeezer (Minimal Wear)": {
+      "price": 0.49,
+      "listings": 466,
+      "updated_at": "2026-09-11T22:09:47.525Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Metallic Squeezer (Well-Worn)": {
+      "price": 0.24,
+      "listings": 102,
+      "updated_at": "2026-09-11T22:09:47.201Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | NV (Battle-Scarred)": {
+      "price": 0.59,
+      "listings": 44,
+      "updated_at": "2026-09-11T22:09:47.628Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | NV (Factory New)": {
+      "price": 0.66,
+      "listings": 698,
+      "updated_at": "2026-09-11T22:09:47.694Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | NV (Field-Tested)": {
+      "price": 0.2,
+      "listings": 1148,
+      "updated_at": "2026-09-11T22:09:47.120Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | NV (Minimal Wear)": {
+      "price": 0.37,
+      "listings": 397,
+      "updated_at": "2026-09-11T22:09:47.390Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | NV (Well-Worn)": {
+      "price": 0.26,
+      "listings": 103,
+      "updated_at": "2026-09-11T22:09:47.218Z",
+      "source": "steam-bulk"
+    },
     "Galil AR | Orange DDPAT (Battle-Scarred)": {
       "price": 24.03,
       "listings": 9,
@@ -24390,6 +25434,36 @@
       "price": 19.02,
       "listings": 9,
       "updated_at": "2026-09-11T22:09:49.874Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Rainbow Spoon (Battle-Scarred)": {
+      "price": 29.5,
+      "listings": 29,
+      "updated_at": "2026-09-11T22:09:50.107Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Rainbow Spoon (Factory New)": {
+      "price": 39.24,
+      "listings": 188,
+      "updated_at": "2026-09-11T22:09:50.222Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Rainbow Spoon (Field-Tested)": {
+      "price": 29.24,
+      "listings": 211,
+      "updated_at": "2026-09-11T22:09:50.106Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Rainbow Spoon (Minimal Wear)": {
+      "price": 30.99,
+      "listings": 198,
+      "updated_at": "2026-09-11T22:09:50.124Z",
+      "source": "steam-bulk"
+    },
+    "Galil AR | Rainbow Spoon (Well-Worn)": {
+      "price": 30.15,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:50.108Z",
       "source": "steam-bulk"
     },
     "Galil AR | Rocket Pop (Battle-Scarred)": {
@@ -24614,6 +25688,36 @@
       "updated_at": "2026-09-21T02:15:05.032Z",
       "source": "steam-direct"
     },
+    "Glock-18 | AXIA (Battle-Scarred)": {
+      "price": 30.91,
+      "listings": 38,
+      "updated_at": "2026-09-11T22:09:50.109Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | AXIA (Factory New)": {
+      "price": 73.56,
+      "listings": 126,
+      "updated_at": "2026-09-11T22:09:50.515Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | AXIA (Field-Tested)": {
+      "price": 29.27,
+      "listings": 292,
+      "updated_at": "2026-09-11T21:39:51.110Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | AXIA (Minimal Wear)": {
+      "price": 32.31,
+      "listings": 162,
+      "updated_at": "2026-09-11T22:09:50.141Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | AXIA (Well-Worn)": {
+      "price": 29.17,
+      "listings": 41,
+      "updated_at": "2026-09-11T22:09:50.106Z",
+      "source": "steam-bulk"
+    },
     "Glock-18 | Block-18 (Battle-Scarred)": {
       "price": 0.59,
       "listings": 686,
@@ -24836,6 +25940,36 @@
       "updated_at": "2026-09-11T22:09:50.451Z",
       "source": "steam-bulk"
     },
+    "Glock-18 | Ghost Protocol (Battle-Scarred)": {
+      "price": 164.17,
+      "listings": 8,
+      "updated_at": "2026-09-11T22:09:50.840Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ghost Protocol (Factory New)": {
+      "price": 737.19,
+      "listings": 7,
+      "updated_at": "2026-09-11T22:09:51.159Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ghost Protocol (Field-Tested)": {
+      "price": 220.44,
+      "listings": 29,
+      "updated_at": "2026-09-11T22:09:50.952Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ghost Protocol (Minimal Wear)": {
+      "price": 348.08,
+      "listings": 14,
+      "updated_at": "2026-09-11T22:09:51.047Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ghost Protocol (Well-Worn)": {
+      "price": 195.53,
+      "listings": 9,
+      "updated_at": "2026-09-11T22:09:50.906Z",
+      "source": "steam-bulk"
+    },
     "Glock-18 | Gold Toof (Battle-Scarred)": {
       "price": 42.63,
       "listings": 15,
@@ -24866,6 +26000,36 @@
       "updated_at": "2026-09-11T22:09:50.271Z",
       "source": "steam-bulk"
     },
+    "Glock-18 | Green Line (Battle-Scarred)": {
+      "price": 0.29,
+      "listings": 552,
+      "updated_at": "2026-09-11T22:09:47.266Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Green Line (Factory New)": {
+      "price": 12.83,
+      "listings": 195,
+      "updated_at": "2026-09-11T22:09:49.643Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Green Line (Field-Tested)": {
+      "price": 0.41,
+      "listings": 1093,
+      "updated_at": "2026-09-11T22:09:47.424Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Green Line (Minimal Wear)": {
+      "price": 1.5,
+      "listings": 946,
+      "updated_at": "2026-09-11T22:09:48.183Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Green Line (Well-Worn)": {
+      "price": 0.3,
+      "listings": 558,
+      "updated_at": "2026-09-11T22:09:47.282Z",
+      "source": "steam-bulk"
+    },
     "Glock-18 | Grinder (Factory New)": {
       "price": 16.38,
       "listings": 330,
@@ -24882,6 +26046,36 @@
       "price": 2.99,
       "listings": 218,
       "updated_at": "2026-09-11T22:09:48.640Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ifrit Lattice (Battle-Scarred)": {
+      "price": 2.35,
+      "listings": 58,
+      "updated_at": "2026-09-11T22:09:48.477Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ifrit Lattice (Factory New)": {
+      "price": 16.87,
+      "listings": 62,
+      "updated_at": "2026-09-11T22:09:49.807Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ifrit Lattice (Field-Tested)": {
+      "price": 3.77,
+      "listings": 257,
+      "updated_at": "2026-09-11T22:09:48.821Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ifrit Lattice (Minimal Wear)": {
+      "price": 7.79,
+      "listings": 136,
+      "updated_at": "2026-09-11T22:09:49.364Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Ifrit Lattice (Well-Worn)": {
+      "price": 2.63,
+      "listings": 94,
+      "updated_at": "2026-09-11T22:09:48.572Z",
       "source": "steam-bulk"
     },
     "Glock-18 | Ironwork (Battle-Scarred)": {
@@ -25200,6 +26394,36 @@
       "price": 16.72,
       "listings": 74,
       "updated_at": "2026-09-11T22:09:49.792Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Teal Graf (Battle-Scarred)": {
+      "price": 0.31,
+      "listings": 104,
+      "updated_at": "2026-09-11T22:09:47.297Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Teal Graf (Factory New)": {
+      "price": 0.86,
+      "listings": 836,
+      "updated_at": "2026-09-11T22:09:47.844Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Teal Graf (Field-Tested)": {
+      "price": 0.27,
+      "listings": 839,
+      "updated_at": "2026-09-11T22:09:47.234Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Teal Graf (Minimal Wear)": {
+      "price": 0.37,
+      "listings": 614,
+      "updated_at": "2026-09-11T22:09:47.361Z",
+      "source": "steam-bulk"
+    },
+    "Glock-18 | Teal Graf (Well-Worn)": {
+      "price": 0.27,
+      "listings": 148,
+      "updated_at": "2026-09-11T22:09:47.219Z",
       "source": "steam-bulk"
     },
     "Glock-18 | Umbral Rabbit (Battle-Scarred)": {
@@ -25760,6 +26984,36 @@
       "updated_at": "2026-09-11T22:09:47.476Z",
       "source": "steam-bulk"
     },
+    "M249 | Spectrogram (Battle-Scarred)": {
+      "price": 0.3,
+      "listings": 42,
+      "updated_at": "2026-09-11T22:09:47.281Z",
+      "source": "steam-bulk"
+    },
+    "M249 | Spectrogram (Factory New)": {
+      "price": 0.65,
+      "listings": 369,
+      "updated_at": "2026-09-11T22:09:47.693Z",
+      "source": "steam-bulk"
+    },
+    "M249 | Spectrogram (Field-Tested)": {
+      "price": 0.19,
+      "listings": 482,
+      "updated_at": "2026-09-11T22:09:47.103Z",
+      "source": "steam-bulk"
+    },
+    "M249 | Spectrogram (Minimal Wear)": {
+      "price": 0.3,
+      "listings": 385,
+      "updated_at": "2026-09-11T22:09:47.282Z",
+      "source": "steam-bulk"
+    },
+    "M249 | Spectrogram (Well-Worn)": {
+      "price": 0.27,
+      "listings": 137,
+      "updated_at": "2026-09-11T22:09:47.234Z",
+      "source": "steam-bulk"
+    },
     "M249 | System Lock (Battle-Scarred)": {
       "price": 0.7,
       "listings": 38,
@@ -26132,6 +27386,48 @@
       "updated_at": "2026-09-11T22:09:47.728Z",
       "source": "steam-bulk"
     },
+    "M4A1-S | Fade (Factory New)": {
+      "price": 262.28,
+      "listings": 368,
+      "updated_at": "2026-09-11T22:09:50.998Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Fade (Minimal Wear)": {
+      "price": 324.38,
+      "listings": 16,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Fatal Glitch (Battle-Scarred)": {
+      "price": 20.96,
+      "listings": 42,
+      "updated_at": "2026-09-11T22:09:49.923Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Fatal Glitch (Factory New)": {
+      "price": 130,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:50.753Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Fatal Glitch (Field-Tested)": {
+      "price": 27.85,
+      "listings": 54,
+      "updated_at": "2026-09-11T22:09:50.073Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Fatal Glitch (Minimal Wear)": {
+      "price": 58.04,
+      "listings": 58,
+      "updated_at": "2026-09-11T22:09:50.388Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Fatal Glitch (Well-Worn)": {
+      "price": 21.3,
+      "listings": 35,
+      "updated_at": "2026-09-11T22:09:49.939Z",
+      "source": "steam-bulk"
+    },
     "M4A1-S | Flashback (Battle-Scarred)": {
       "price": 4.18,
       "listings": 206,
@@ -26462,6 +27758,36 @@
       "updated_at": "2026-09-11T22:09:50.966Z",
       "source": "steam-bulk"
     },
+    "M4A1-S | Solitude (Battle-Scarred)": {
+      "price": 1.57,
+      "listings": 2532,
+      "updated_at": "2026-09-11T22:09:48.214Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Solitude (Factory New)": {
+      "price": 20.03,
+      "listings": 773,
+      "updated_at": "2026-09-11T21:39:50.918Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Solitude (Field-Tested)": {
+      "price": 2.05,
+      "listings": 6375,
+      "updated_at": "2026-09-11T22:09:48.392Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Solitude (Minimal Wear)": {
+      "price": 5.29,
+      "listings": 1666,
+      "updated_at": "2026-09-11T22:09:49.092Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Solitude (Well-Worn)": {
+      "price": 2.15,
+      "listings": 553,
+      "updated_at": "2026-09-11T22:09:48.410Z",
+      "source": "steam-bulk"
+    },
     "M4A1-S | Vaporwave (Battle-Scarred)": {
       "price": 56.76,
       "listings": 17,
@@ -26490,6 +27816,36 @@
       "price": 61,
       "listings": 14,
       "updated_at": "2026-09-11T22:09:50.420Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Wash me plz (Battle-Scarred)": {
+      "price": 0.12,
+      "listings": 1239,
+      "updated_at": "2026-09-11T22:09:46.934Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Wash me plz (Factory New)": {
+      "price": 0.43,
+      "listings": 2475,
+      "updated_at": "2026-09-11T22:09:47.442Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Wash me plz (Field-Tested)": {
+      "price": 0.11,
+      "listings": 8533,
+      "updated_at": "2026-09-11T22:09:46.903Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Wash me plz (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 6572,
+      "updated_at": "2026-09-11T22:09:47.037Z",
+      "source": "steam-bulk"
+    },
+    "M4A1-S | Wash me plz (Well-Worn)": {
+      "price": 0.14,
+      "listings": 907,
+      "updated_at": "2026-09-11T22:09:47.001Z",
       "source": "steam-bulk"
     },
     "M4A4 | Asiimov (Battle-Scarred)": {
@@ -26622,6 +27978,36 @@
       "price": 21.36,
       "listings": 36,
       "updated_at": "2026-09-11T22:09:49.939Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Dark Operative (Battle-Scarred)": {
+      "price": 0.29,
+      "listings": 159,
+      "updated_at": "2026-09-11T22:09:47.281Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Dark Operative (Factory New)": {
+      "price": 9.27,
+      "listings": 71,
+      "updated_at": "2026-09-11T22:09:49.464Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Dark Operative (Field-Tested)": {
+      "price": 0.59,
+      "listings": 319,
+      "updated_at": "2026-09-11T22:09:47.629Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Dark Operative (Minimal Wear)": {
+      "price": 1.99,
+      "listings": 142,
+      "updated_at": "2026-09-11T22:09:48.359Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Dark Operative (Well-Worn)": {
+      "price": 0.34,
+      "listings": 91,
+      "updated_at": "2026-09-11T22:09:47.329Z",
       "source": "steam-bulk"
     },
     "M4A4 | Desert-Strike (Battle-Scarred)": {
@@ -26774,6 +28160,36 @@
       "updated_at": "2026-09-11T22:09:49.399Z",
       "source": "steam-bulk"
     },
+    "M4A4 | Falak (Battle-Scarred)": {
+      "price": 16.1,
+      "listings": 87,
+      "updated_at": "2026-09-11T22:09:49.775Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Falak (Factory New)": {
+      "price": 181.11,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:50.889Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Falak (Field-Tested)": {
+      "price": 34.8,
+      "listings": 158,
+      "updated_at": "2026-09-11T22:09:50.173Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Falak (Minimal Wear)": {
+      "price": 90.5,
+      "listings": 99,
+      "updated_at": "2026-09-11T22:09:50.600Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Falak (Well-Worn)": {
+      "price": 18.06,
+      "listings": 81,
+      "updated_at": "2026-09-11T22:09:49.842Z",
+      "source": "steam-bulk"
+    },
     "M4A4 | Full Throttle (Battle-Scarred)": {
       "price": 33.26,
       "listings": 110,
@@ -26862,6 +28278,36 @@
       "price": 97.35,
       "listings": 9,
       "updated_at": "2026-09-11T22:09:50.634Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Hellish (Battle-Scarred)": {
+      "price": 13.61,
+      "listings": 71,
+      "updated_at": "2026-09-11T22:09:49.676Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Hellish (Factory New)": {
+      "price": 183.29,
+      "listings": 25,
+      "updated_at": "2026-09-11T22:09:50.890Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Hellish (Field-Tested)": {
+      "price": 22.98,
+      "listings": 222,
+      "updated_at": "2026-09-11T22:09:49.972Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Hellish (Minimal Wear)": {
+      "price": 52.51,
+      "listings": 100,
+      "updated_at": "2026-09-11T22:09:50.354Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Hellish (Well-Worn)": {
+      "price": 16.77,
+      "listings": 90,
+      "updated_at": "2026-09-11T22:09:49.792Z",
       "source": "steam-bulk"
     },
     "M4A4 | In Living Color (Battle-Scarred)": {
@@ -26982,6 +28428,36 @@
       "price": 0.1,
       "listings": 2044,
       "updated_at": "2026-09-11T22:09:46.869Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Polysoup (Battle-Scarred)": {
+      "price": 7.83,
+      "listings": 19,
+      "updated_at": "2026-09-11T22:09:49.364Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Polysoup (Factory New)": {
+      "price": 39.55,
+      "listings": 106,
+      "updated_at": "2026-09-11T22:09:50.223Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Polysoup (Field-Tested)": {
+      "price": 12.88,
+      "listings": 80,
+      "updated_at": "2026-09-11T22:09:49.643Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Polysoup (Minimal Wear)": {
+      "price": 22.87,
+      "listings": 61,
+      "updated_at": "2026-09-11T22:09:49.972Z",
+      "source": "steam-bulk"
+    },
+    "M4A4 | Polysoup (Well-Worn)": {
+      "price": 11.44,
+      "listings": 29,
+      "updated_at": "2026-09-11T22:09:49.593Z",
       "source": "steam-bulk"
     },
     "M4A4 | Royal Paladin (Battle-Scarred)": {
@@ -27356,6 +28832,36 @@
       "updated_at": "2026-09-11T22:09:49.262Z",
       "source": "steam-bulk"
     },
+    "MAC-10 | Arabesque Mosaic (Battle-Scarred)": {
+      "price": 0.25,
+      "listings": 114,
+      "updated_at": "2026-09-11T22:09:47.218Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Arabesque Mosaic (Factory New)": {
+      "price": 4.06,
+      "listings": 152,
+      "updated_at": "2026-09-11T22:09:48.855Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Arabesque Mosaic (Field-Tested)": {
+      "price": 0.45,
+      "listings": 462,
+      "updated_at": "2026-09-11T22:09:47.492Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Arabesque Mosaic (Minimal Wear)": {
+      "price": 1.01,
+      "listings": 345,
+      "updated_at": "2026-09-11T22:09:47.955Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Arabesque Mosaic (Well-Worn)": {
+      "price": 0.32,
+      "listings": 142,
+      "updated_at": "2026-09-11T22:09:47.313Z",
+      "source": "steam-bulk"
+    },
     "MAC-10 | Button Masher (Battle-Scarred)": {
       "price": 0.53,
       "listings": 124,
@@ -27474,6 +28980,36 @@
       "price": 0.64,
       "listings": 115,
       "updated_at": "2026-09-11T22:09:47.678Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Derailment (Battle-Scarred)": {
+      "price": 1.93,
+      "listings": 143,
+      "updated_at": "2026-09-11T22:09:48.357Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Derailment (Factory New)": {
+      "price": 13.02,
+      "listings": 170,
+      "updated_at": "2026-09-11T22:09:49.658Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Derailment (Field-Tested)": {
+      "price": 2.49,
+      "listings": 772,
+      "updated_at": "2026-09-11T22:09:48.539Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Derailment (Minimal Wear)": {
+      "price": 6.72,
+      "listings": 233,
+      "updated_at": "2026-09-11T22:09:49.262Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Derailment (Well-Worn)": {
+      "price": 2.51,
+      "listings": 75,
+      "updated_at": "2026-09-11T22:09:48.539Z",
       "source": "steam-bulk"
     },
     "MAC-10 | Disco Tech (Battle-Scarred)": {
@@ -27830,6 +29366,36 @@
       "updated_at": "2026-09-11T22:09:47.744Z",
       "source": "steam-bulk"
     },
+    "MAC-10 | Pipsqueak (Battle-Scarred)": {
+      "price": 0.27,
+      "listings": 440,
+      "updated_at": "2026-09-11T22:09:47.234Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Pipsqueak (Factory New)": {
+      "price": 3.94,
+      "listings": 225,
+      "updated_at": "2026-09-11T22:09:48.837Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Pipsqueak (Field-Tested)": {
+      "price": 0.34,
+      "listings": 862,
+      "updated_at": "2026-09-11T22:09:47.329Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Pipsqueak (Minimal Wear)": {
+      "price": 1.28,
+      "listings": 538,
+      "updated_at": "2026-09-11T22:09:48.085Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Pipsqueak (Well-Worn)": {
+      "price": 0.29,
+      "listings": 528,
+      "updated_at": "2026-09-11T22:09:47.266Z",
+      "source": "steam-bulk"
+    },
     "MAC-10 | Rangeen (Battle-Scarred)": {
       "price": 0.45,
       "listings": 31,
@@ -28026,6 +29592,36 @@
       "price": 2.9,
       "listings": 25,
       "updated_at": "2026-09-11T22:09:48.624Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Video Cam (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 646,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Video Cam (Factory New)": {
+      "price": 1.96,
+      "listings": 115,
+      "updated_at": "2026-09-11T22:09:48.358Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Video Cam (Field-Tested)": {
+      "price": 0.07,
+      "listings": 951,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Video Cam (Minimal Wear)": {
+      "price": 0.19,
+      "listings": 551,
+      "updated_at": "2026-09-11T22:09:47.104Z",
+      "source": "steam-bulk"
+    },
+    "MAC-10 | Video Cam (Well-Worn)": {
+      "price": 0.06,
+      "listings": 222,
+      "updated_at": "2026-09-11T22:09:46.723Z",
       "source": "steam-bulk"
     },
     "MAC-10 | Whitefish (Battle-Scarred)": {
@@ -28556,6 +30152,36 @@
       "updated_at": "2026-09-11T22:09:47.628Z",
       "source": "steam-bulk"
     },
+    "MAG-7 | Wildwood (Battle-Scarred)": {
+      "price": 0.07,
+      "listings": 983,
+      "updated_at": "2026-09-11T22:09:46.740Z",
+      "source": "steam-bulk"
+    },
+    "MAG-7 | Wildwood (Factory New)": {
+      "price": 0.28,
+      "listings": 1320,
+      "updated_at": "2026-09-11T22:09:47.250Z",
+      "source": "steam-bulk"
+    },
+    "MAG-7 | Wildwood (Field-Tested)": {
+      "price": 0.06,
+      "listings": 4779,
+      "updated_at": "2026-09-11T22:09:46.675Z",
+      "source": "steam-bulk"
+    },
+    "MAG-7 | Wildwood (Minimal Wear)": {
+      "price": 0.09,
+      "listings": 2389,
+      "updated_at": "2026-09-11T22:09:46.839Z",
+      "source": "steam-bulk"
+    },
+    "MAG-7 | Wildwood (Well-Worn)": {
+      "price": 0.08,
+      "listings": 518,
+      "updated_at": "2026-09-11T22:09:46.790Z",
+      "source": "steam-bulk"
+    },
     "MLG Columbus 2016 Cache Souvenir Package": {
       "price": 86.98,
       "listings": 12,
@@ -28874,6 +30500,24 @@
       "updated_at": "2026-09-11T22:09:46.871Z",
       "source": "steam-bulk"
     },
+    "MP5-SD | Neon Squeezer (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 1740,
+      "updated_at": "2026-09-11T22:09:46.690Z",
+      "source": "steam-bulk"
+    },
+    "MP5-SD | Neon Squeezer (Field-Tested)": {
+      "price": 0.13,
+      "listings": 6009,
+      "updated_at": "2026-09-11T22:09:46.969Z",
+      "source": "steam-bulk"
+    },
+    "MP5-SD | Neon Squeezer (Well-Worn)": {
+      "price": 0.07,
+      "listings": 996,
+      "updated_at": "2026-09-11T22:09:46.724Z",
+      "source": "steam-bulk"
+    },
     "MP5-SD | Phosphor (Battle-Scarred)": {
       "price": 5.6,
       "listings": 37,
@@ -28902,6 +30546,24 @@
       "price": 6.23,
       "listings": 22,
       "updated_at": "2026-09-11T22:09:49.210Z",
+      "source": "steam-bulk"
+    },
+    "MP5-SD | Savannah Halftone (Battle-Scarred)": {
+      "price": 0.07,
+      "listings": 4406,
+      "updated_at": "2026-09-11T22:09:46.756Z",
+      "source": "steam-bulk"
+    },
+    "MP5-SD | Savannah Halftone (Field-Tested)": {
+      "price": 0.13,
+      "listings": 7617,
+      "updated_at": "2026-09-11T22:09:46.970Z",
+      "source": "steam-bulk"
+    },
+    "MP5-SD | Savannah Halftone (Well-Worn)": {
+      "price": 0.08,
+      "listings": 1089,
+      "updated_at": "2026-09-11T22:09:46.788Z",
       "source": "steam-bulk"
     },
     "MP5-SD | Statics (Battle-Scarred)": {
@@ -29052,6 +30714,66 @@
       "price": 0.39,
       "listings": 64,
       "updated_at": "2026-09-11T22:09:47.391Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Astrolabe (Battle-Scarred)": {
+      "price": 0.19,
+      "listings": 219,
+      "updated_at": "2026-09-11T22:09:47.088Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Astrolabe (Factory New)": {
+      "price": 28.45,
+      "listings": 77,
+      "updated_at": "2026-09-11T22:09:50.074Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Astrolabe (Field-Tested)": {
+      "price": 0.26,
+      "listings": 905,
+      "updated_at": "2026-09-11T22:09:47.218Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Astrolabe (Minimal Wear)": {
+      "price": 0.39,
+      "listings": 658,
+      "updated_at": "2026-09-11T22:09:47.391Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Astrolabe (Well-Worn)": {
+      "price": 0.19,
+      "listings": 328,
+      "updated_at": "2026-09-11T22:09:47.088Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Base-2 (Battle-Scarred)": {
+      "price": 0.07,
+      "listings": 251,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Base-2 (Factory New)": {
+      "price": 0.93,
+      "listings": 174,
+      "updated_at": "2026-09-11T22:09:47.892Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Base-2 (Field-Tested)": {
+      "price": 0.08,
+      "listings": 354,
+      "updated_at": "2026-09-11T22:09:46.822Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Base-2 (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 320,
+      "updated_at": "2026-09-11T22:09:47.054Z",
+      "source": "steam-bulk"
+    },
+    "MP7 | Base-2 (Well-Worn)": {
+      "price": 0.06,
+      "listings": 276,
+      "updated_at": "2026-09-11T22:09:46.723Z",
       "source": "steam-bulk"
     },
     "MP7 | Bloodsport (Battle-Scarred)": {
@@ -29444,6 +31166,36 @@
       "updated_at": "2026-09-11T22:09:49.792Z",
       "source": "steam-bulk"
     },
+    "MP9 | Arctic Tri-Tone (Battle-Scarred)": {
+      "price": 3.09,
+      "listings": 110,
+      "updated_at": "2026-09-11T22:09:48.658Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Arctic Tri-Tone (Factory New)": {
+      "price": 8.34,
+      "listings": 344,
+      "updated_at": "2026-09-11T22:09:49.399Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Arctic Tri-Tone (Field-Tested)": {
+      "price": 3.11,
+      "listings": 619,
+      "updated_at": "2026-09-11T22:09:48.688Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Arctic Tri-Tone (Minimal Wear)": {
+      "price": 4.73,
+      "listings": 322,
+      "updated_at": "2026-09-11T22:09:49.006Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Arctic Tri-Tone (Well-Worn)": {
+      "price": 3.25,
+      "listings": 83,
+      "updated_at": "2026-09-11T22:09:48.691Z",
+      "source": "steam-bulk"
+    },
     "MP9 | Bioleak (Battle-Scarred)": {
       "price": 0.55,
       "listings": 34,
@@ -29624,6 +31376,36 @@
       "updated_at": "2026-09-11T22:09:47.629Z",
       "source": "steam-bulk"
     },
+    "MP9 | Dune Asp (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 2527,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Dune Asp (Factory New)": {
+      "price": 0.85,
+      "listings": 178,
+      "updated_at": "2026-09-11T22:09:47.844Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Dune Asp (Field-Tested)": {
+      "price": 0.07,
+      "listings": 2358,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Dune Asp (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 429,
+      "updated_at": "2026-09-11T22:09:47.054Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Dune Asp (Well-Worn)": {
+      "price": 0.05,
+      "listings": 3700,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
     "MP9 | Featherweight (Battle-Scarred)": {
       "price": 0.1,
       "listings": 1662,
@@ -29754,6 +31536,36 @@
       "price": 28.46,
       "listings": 10,
       "updated_at": "2026-09-11T22:09:50.074Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Latte Rush (Battle-Scarred)": {
+      "price": 10.23,
+      "listings": 52,
+      "updated_at": "2026-09-11T22:09:49.512Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Latte Rush (Factory New)": {
+      "price": 92.28,
+      "listings": 56,
+      "updated_at": "2026-09-11T22:09:50.616Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Latte Rush (Field-Tested)": {
+      "price": 15.16,
+      "listings": 192,
+      "updated_at": "2026-09-11T22:09:49.742Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Latte Rush (Minimal Wear)": {
+      "price": 46.4,
+      "listings": 81,
+      "updated_at": "2026-09-11T22:09:50.289Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Latte Rush (Well-Worn)": {
+      "price": 11.66,
+      "listings": 54,
+      "updated_at": "2026-09-11T22:09:49.594Z",
       "source": "steam-bulk"
     },
     "MP9 | Modest Threat (Battle-Scarred)": {
@@ -29916,6 +31728,36 @@
       "price": 0.64,
       "listings": 72,
       "updated_at": "2026-09-11T22:09:47.663Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Spy Prototype (Battle-Scarred)": {
+      "price": 0.29,
+      "listings": 86,
+      "updated_at": "2026-09-11T22:09:47.281Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Spy Prototype (Factory New)": {
+      "price": 3.06,
+      "listings": 64,
+      "updated_at": "2026-09-11T22:09:48.657Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Spy Prototype (Field-Tested)": {
+      "price": 0.44,
+      "listings": 112,
+      "updated_at": "2026-09-11T22:09:47.460Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Spy Prototype (Minimal Wear)": {
+      "price": 0.99,
+      "listings": 151,
+      "updated_at": "2026-09-11T22:09:47.925Z",
+      "source": "steam-bulk"
+    },
+    "MP9 | Spy Prototype (Well-Worn)": {
+      "price": 0.34,
+      "listings": 78,
+      "updated_at": "2026-09-11T22:09:47.329Z",
       "source": "steam-bulk"
     },
     "MP9 | Starlight Protector (Battle-Scarred)": {
@@ -30302,6 +32144,36 @@
       "updated_at": "2026-09-11T22:09:46.869Z",
       "source": "steam-bulk"
     },
+    "Negev | Wall Bang (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 2976,
+      "updated_at": "2026-09-11T22:09:46.560Z",
+      "source": "steam-bulk"
+    },
+    "Negev | Wall Bang (Factory New)": {
+      "price": 1.09,
+      "listings": 738,
+      "updated_at": "2026-09-11T22:09:47.987Z",
+      "source": "steam-bulk"
+    },
+    "Negev | Wall Bang (Field-Tested)": {
+      "price": 0.07,
+      "listings": 2811,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "Negev | Wall Bang (Minimal Wear)": {
+      "price": 0.13,
+      "listings": 2103,
+      "updated_at": "2026-09-11T22:09:46.969Z",
+      "source": "steam-bulk"
+    },
+    "Negev | Wall Bang (Well-Worn)": {
+      "price": 0.05,
+      "listings": 1519,
+      "updated_at": "2026-09-11T22:09:46.578Z",
+      "source": "steam-bulk"
+    },
     "Nova | Antique (Factory New)": {
       "price": 14.35,
       "listings": 46,
@@ -30542,6 +32414,36 @@
       "updated_at": "2026-09-11T22:09:48.624Z",
       "source": "steam-bulk"
     },
+    "Nova | Morning Sun (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 2668,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Morning Sun (Factory New)": {
+      "price": 0.72,
+      "listings": 226,
+      "updated_at": "2026-09-11T22:09:47.744Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Morning Sun (Field-Tested)": {
+      "price": 0.07,
+      "listings": 2045,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Morning Sun (Minimal Wear)": {
+      "price": 0.17,
+      "listings": 488,
+      "updated_at": "2026-09-11T22:09:47.087Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Morning Sun (Well-Worn)": {
+      "price": 0.05,
+      "listings": 3364,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
     "Nova | Ocular (Battle-Scarred)": {
       "price": 0.59,
       "listings": 238,
@@ -30600,6 +32502,24 @@
       "price": 0.96,
       "listings": 32,
       "updated_at": "2026-09-11T22:09:47.923Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Rain Station (Factory New)": {
+      "price": 0.21,
+      "listings": 7192,
+      "updated_at": "2026-09-11T22:09:47.137Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Rain Station (Field-Tested)": {
+      "price": 0.05,
+      "listings": 3708,
+      "updated_at": "2026-09-11T22:09:46.612Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Rain Station (Minimal Wear)": {
+      "price": 0.06,
+      "listings": 5720,
+      "updated_at": "2026-09-11T22:09:46.691Z",
       "source": "steam-bulk"
     },
     "Nova | Ranger (Battle-Scarred)": {
@@ -30690,6 +32610,36 @@
       "price": 0.61,
       "listings": 303,
       "updated_at": "2026-09-11T22:09:47.661Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Smart Gun (Battle-Scarred)": {
+      "price": 2.84,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:48.607Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Smart Gun (Factory New)": {
+      "price": 13.33,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:49.660Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Smart Gun (Field-Tested)": {
+      "price": 4.71,
+      "listings": 83,
+      "updated_at": "2026-09-11T22:09:49.005Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Smart Gun (Minimal Wear)": {
+      "price": 6.67,
+      "listings": 90,
+      "updated_at": "2026-09-11T22:09:49.262Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Smart Gun (Well-Worn)": {
+      "price": 2.8,
+      "listings": 44,
+      "updated_at": "2026-09-11T22:09:48.607Z",
       "source": "steam-bulk"
     },
     "Nova | Tempest (Factory New)": {
@@ -30830,6 +32780,66 @@
       "updated_at": "2026-09-11T22:09:49.059Z",
       "source": "steam-bulk"
     },
+    "Nova | Wurst Hölle (Battle-Scarred)": {
+      "price": 0.27,
+      "listings": 281,
+      "updated_at": "2026-09-11T22:09:47.219Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Wurst Hölle (Factory New)": {
+      "price": 2.67,
+      "listings": 195,
+      "updated_at": "2026-09-11T22:09:48.573Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Wurst Hölle (Field-Tested)": {
+      "price": 0.31,
+      "listings": 556,
+      "updated_at": "2026-09-11T22:09:47.296Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Wurst Hölle (Minimal Wear)": {
+      "price": 0.77,
+      "listings": 526,
+      "updated_at": "2026-09-11T22:09:47.793Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Wurst Hölle (Well-Worn)": {
+      "price": 0.28,
+      "listings": 421,
+      "updated_at": "2026-09-11T22:09:47.250Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Yorkshire (Battle-Scarred)": {
+      "price": 0.36,
+      "listings": 444,
+      "updated_at": "2026-09-11T22:09:47.360Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Yorkshire (Factory New)": {
+      "price": 2.23,
+      "listings": 277,
+      "updated_at": "2026-09-11T22:09:48.443Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Yorkshire (Field-Tested)": {
+      "price": 0.38,
+      "listings": 900,
+      "updated_at": "2026-09-11T22:09:47.391Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Yorkshire (Minimal Wear)": {
+      "price": 0.59,
+      "listings": 858,
+      "updated_at": "2026-09-11T22:09:47.629Z",
+      "source": "steam-bulk"
+    },
+    "Nova | Yorkshire (Well-Worn)": {
+      "price": 0.36,
+      "listings": 490,
+      "updated_at": "2026-09-11T22:09:47.360Z",
+      "source": "steam-bulk"
+    },
     "Operation Bravo Case": {
       "price": 80,
       "listings": null,
@@ -30906,6 +32916,36 @@
       "price": 0.8,
       "listings": 159,
       "updated_at": "2026-09-11T22:09:47.810Z",
+      "source": "steam-bulk"
+    },
+    "P2000 | Coral Halftone (Battle-Scarred)": {
+      "price": 0.21,
+      "listings": 132,
+      "updated_at": "2026-09-11T22:09:47.136Z",
+      "source": "steam-bulk"
+    },
+    "P2000 | Coral Halftone (Factory New)": {
+      "price": 0.75,
+      "listings": 346,
+      "updated_at": "2026-09-11T22:09:47.777Z",
+      "source": "steam-bulk"
+    },
+    "P2000 | Coral Halftone (Field-Tested)": {
+      "price": 0.22,
+      "listings": 459,
+      "updated_at": "2026-09-11T22:09:47.170Z",
+      "source": "steam-bulk"
+    },
+    "P2000 | Coral Halftone (Minimal Wear)": {
+      "price": 0.31,
+      "listings": 393,
+      "updated_at": "2026-09-11T22:09:47.297Z",
+      "source": "steam-bulk"
+    },
+    "P2000 | Coral Halftone (Well-Worn)": {
+      "price": 0.27,
+      "listings": 208,
+      "updated_at": "2026-09-11T22:09:47.234Z",
       "source": "steam-bulk"
     },
     "P2000 | Corticera (Factory New)": {
@@ -31550,6 +33590,24 @@
       "updated_at": "2026-09-11T22:09:46.986Z",
       "source": "steam-bulk"
     },
+    "P250 | Constructivist (Factory New)": {
+      "price": 0.22,
+      "listings": 6444,
+      "updated_at": "2026-09-11T22:09:47.170Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Constructivist (Field-Tested)": {
+      "price": 0.06,
+      "listings": 8550,
+      "updated_at": "2026-09-11T22:09:46.691Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Constructivist (Minimal Wear)": {
+      "price": 0.07,
+      "listings": 4908,
+      "updated_at": "2026-09-11T22:09:46.756Z",
+      "source": "steam-bulk"
+    },
     "P250 | Contaminant (Battle-Scarred)": {
       "price": 0.89,
       "listings": 46,
@@ -31746,6 +33804,36 @@
       "price": 6.31,
       "listings": 215,
       "updated_at": "2026-09-11T22:09:49.211Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Lotus Imprint (Battle-Scarred)": {
+      "price": 2.05,
+      "listings": 80,
+      "updated_at": "2026-09-11T22:09:48.392Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Lotus Imprint (Factory New)": {
+      "price": 17.22,
+      "listings": 63,
+      "updated_at": "2026-09-11T22:09:49.809Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Lotus Imprint (Field-Tested)": {
+      "price": 3.81,
+      "listings": 162,
+      "updated_at": "2026-09-11T22:09:48.821Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Lotus Imprint (Minimal Wear)": {
+      "price": 8.18,
+      "listings": 143,
+      "updated_at": "2026-09-11T22:09:49.398Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Lotus Imprint (Well-Worn)": {
+      "price": 2.73,
+      "listings": 88,
+      "updated_at": "2026-09-11T22:09:48.590Z",
       "source": "steam-bulk"
     },
     "P250 | Mehndi (Battle-Scarred)": {
@@ -31950,6 +34038,36 @@
       "price": 168.2,
       "listings": 8,
       "updated_at": "2026-09-11T22:09:50.856Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Small Game (Battle-Scarred)": {
+      "price": 0.37,
+      "listings": 227,
+      "updated_at": "2026-09-11T22:09:47.375Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Small Game (Factory New)": {
+      "price": 1.05,
+      "listings": 598,
+      "updated_at": "2026-09-11T22:09:47.957Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Small Game (Field-Tested)": {
+      "price": 0.37,
+      "listings": 1184,
+      "updated_at": "2026-09-11T22:09:47.361Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Small Game (Minimal Wear)": {
+      "price": 0.5,
+      "listings": 946,
+      "updated_at": "2026-09-11T22:09:47.543Z",
+      "source": "steam-bulk"
+    },
+    "P250 | Small Game (Well-Worn)": {
+      "price": 0.38,
+      "listings": 219,
+      "updated_at": "2026-09-11T22:09:47.390Z",
       "source": "steam-bulk"
     },
     "P250 | Splash (Factory New)": {
@@ -32178,6 +34296,36 @@
       "price": 237.06,
       "listings": 20,
       "updated_at": "2026-09-11T22:09:50.967Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Attack Vector (Battle-Scarred)": {
+      "price": 7.25,
+      "listings": 27,
+      "updated_at": "2026-09-11T22:09:49.314Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Attack Vector (Factory New)": {
+      "price": 21.55,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:49.939Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Attack Vector (Field-Tested)": {
+      "price": 7.21,
+      "listings": 98,
+      "updated_at": "2026-09-11T22:09:49.314Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Attack Vector (Minimal Wear)": {
+      "price": 13.98,
+      "listings": 35,
+      "updated_at": "2026-09-11T22:09:49.692Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Attack Vector (Well-Worn)": {
+      "price": 7.58,
+      "listings": 13,
+      "updated_at": "2026-09-11T22:09:49.347Z",
       "source": "steam-bulk"
     },
     "P90 | Blind Spot (Battle-Scarred)": {
@@ -32654,6 +34802,36 @@
       "updated_at": "2026-09-11T22:09:49.592Z",
       "source": "steam-bulk"
     },
+    "P90 | Straight Dimes (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 927,
+      "updated_at": "2026-09-11T22:09:46.611Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Straight Dimes (Factory New)": {
+      "price": 1.71,
+      "listings": 743,
+      "updated_at": "2026-09-11T22:09:48.262Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Straight Dimes (Field-Tested)": {
+      "price": 0.06,
+      "listings": 3484,
+      "updated_at": "2026-09-11T22:09:46.691Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Straight Dimes (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 4829,
+      "updated_at": "2026-09-11T22:09:47.038Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Straight Dimes (Well-Worn)": {
+      "price": 0.06,
+      "listings": 1464,
+      "updated_at": "2026-09-11T22:09:46.691Z",
+      "source": "steam-bulk"
+    },
     "P90 | Traction (Battle-Scarred)": {
       "price": 0.49,
       "listings": 125,
@@ -32768,6 +34946,36 @@
       "updated_at": "2026-09-11T22:09:48.755Z",
       "source": "steam-bulk"
     },
+    "P90 | Wash me (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 471,
+      "updated_at": "2026-09-11T22:09:46.675Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Wash me (Factory New)": {
+      "price": 0.19,
+      "listings": 2081,
+      "updated_at": "2026-09-11T22:09:47.088Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Wash me (Field-Tested)": {
+      "price": 0.05,
+      "listings": 6668,
+      "updated_at": "2026-09-11T22:09:46.578Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Wash me (Minimal Wear)": {
+      "price": 0.08,
+      "listings": 1977,
+      "updated_at": "2026-09-11T22:09:46.789Z",
+      "source": "steam-bulk"
+    },
+    "P90 | Wash me (Well-Worn)": {
+      "price": 0.06,
+      "listings": 383,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
     "P90 | Wave Breaker (Battle-Scarred)": {
       "price": 0.55,
       "listings": 324,
@@ -32880,6 +35088,30 @@
       "price": 1.91,
       "listings": 13,
       "updated_at": "2026-09-11T22:09:48.327Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Cold Cell (Factory New)": {
+      "price": 0.17,
+      "listings": 4547,
+      "updated_at": "2026-09-11T22:09:47.086Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Cold Cell (Field-Tested)": {
+      "price": 0.07,
+      "listings": 4537,
+      "updated_at": "2026-09-11T22:09:46.740Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Cold Cell (Minimal Wear)": {
+      "price": 0.08,
+      "listings": 7676,
+      "updated_at": "2026-09-11T22:09:46.790Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Cold Cell (Well-Worn)": {
+      "price": 0.12,
+      "listings": 192,
+      "updated_at": "2026-09-11T22:09:46.934Z",
       "source": "steam-bulk"
     },
     "PP-Bizon | Embargo (Battle-Scarred)": {
@@ -33272,6 +35504,36 @@
       "updated_at": "2026-09-11T22:09:47.844Z",
       "source": "steam-bulk"
     },
+    "PP-Bizon | Traitor (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 2219,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Traitor (Factory New)": {
+      "price": 0.68,
+      "listings": 281,
+      "updated_at": "2026-09-11T22:09:47.726Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Traitor (Field-Tested)": {
+      "price": 0.07,
+      "listings": 1026,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Traitor (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 771,
+      "updated_at": "2026-09-11T22:09:47.054Z",
+      "source": "steam-bulk"
+    },
+    "PP-Bizon | Traitor (Well-Worn)": {
+      "price": 0.06,
+      "listings": 3172,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
     "PP-Bizon | Water Sigil (Battle-Scarred)": {
       "price": 2.77,
       "listings": 13,
@@ -33576,6 +35838,36 @@
       "price": 1.29,
       "listings": 19,
       "updated_at": "2026-09-11T22:09:48.086Z",
+      "source": "steam-bulk"
+    },
+    "R8 Revolver | Monarch (Battle-Scarred)": {
+      "price": 0.29,
+      "listings": 97,
+      "updated_at": "2026-09-11T22:09:47.281Z",
+      "source": "steam-bulk"
+    },
+    "R8 Revolver | Monarch (Factory New)": {
+      "price": 2.69,
+      "listings": 71,
+      "updated_at": "2026-09-11T22:09:48.574Z",
+      "source": "steam-bulk"
+    },
+    "R8 Revolver | Monarch (Field-Tested)": {
+      "price": 0.45,
+      "listings": 116,
+      "updated_at": "2026-09-11T22:09:47.492Z",
+      "source": "steam-bulk"
+    },
+    "R8 Revolver | Monarch (Minimal Wear)": {
+      "price": 0.95,
+      "listings": 193,
+      "updated_at": "2026-09-11T22:09:47.923Z",
+      "source": "steam-bulk"
+    },
+    "R8 Revolver | Monarch (Well-Worn)": {
+      "price": 0.34,
+      "listings": 72,
+      "updated_at": "2026-09-11T22:09:47.329Z",
       "source": "steam-bulk"
     },
     "R8 Revolver | Reboot (Battle-Scarred)": {
@@ -33956,6 +36248,36 @@
       "updated_at": "2026-09-11T22:09:48.245Z",
       "source": "steam-bulk"
     },
+    "Sawed-Off | Lunar Wyrm (Battle-Scarred)": {
+      "price": 0.23,
+      "listings": 117,
+      "updated_at": "2026-09-11T22:09:47.187Z",
+      "source": "steam-bulk"
+    },
+    "Sawed-Off | Lunar Wyrm (Factory New)": {
+      "price": 2.49,
+      "listings": 132,
+      "updated_at": "2026-09-11T22:09:48.539Z",
+      "source": "steam-bulk"
+    },
+    "Sawed-Off | Lunar Wyrm (Field-Tested)": {
+      "price": 0.41,
+      "listings": 338,
+      "updated_at": "2026-09-11T22:09:47.425Z",
+      "source": "steam-bulk"
+    },
+    "Sawed-Off | Lunar Wyrm (Minimal Wear)": {
+      "price": 0.99,
+      "listings": 396,
+      "updated_at": "2026-09-11T22:09:47.925Z",
+      "source": "steam-bulk"
+    },
+    "Sawed-Off | Lunar Wyrm (Well-Worn)": {
+      "price": 0.32,
+      "listings": 152,
+      "updated_at": "2026-09-11T22:09:47.313Z",
+      "source": "steam-bulk"
+    },
     "Sawed-Off | Morris (Battle-Scarred)": {
       "price": 0.22,
       "listings": 95,
@@ -34212,6 +36534,36 @@
       "price": 0.74,
       "listings": 52,
       "updated_at": "2026-09-11T22:09:47.761Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Arctic Camo Panels (Battle-Scarred)": {
+      "price": 0.03,
+      "listings": 179,
+      "updated_at": "2026-09-11T22:09:46.492Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Arctic Camo Panels (Factory New)": {
+      "price": 0.89,
+      "listings": 180,
+      "updated_at": "2026-09-11T22:09:47.876Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Arctic Camo Panels (Field-Tested)": {
+      "price": 0.07,
+      "listings": 551,
+      "updated_at": "2026-09-11T22:09:46.772Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Arctic Camo Panels (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 217,
+      "updated_at": "2026-09-11T22:09:47.054Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Arctic Camo Panels (Well-Worn)": {
+      "price": 0.05,
+      "listings": 264,
+      "updated_at": "2026-09-11T22:09:46.674Z",
       "source": "steam-bulk"
     },
     "SCAR-20 | Assault (Battle-Scarred)": {
@@ -34658,6 +37010,36 @@
       "updated_at": "2026-09-11T22:09:48.245Z",
       "source": "steam-bulk"
     },
+    "SCAR-20 | Sirocco Script (Battle-Scarred)": {
+      "price": 0.05,
+      "listings": 2786,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Sirocco Script (Factory New)": {
+      "price": 0.66,
+      "listings": 296,
+      "updated_at": "2026-09-11T22:09:47.694Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Sirocco Script (Field-Tested)": {
+      "price": 0.06,
+      "listings": 1970,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Sirocco Script (Minimal Wear)": {
+      "price": 0.14,
+      "listings": 420,
+      "updated_at": "2026-09-11T22:09:47.019Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Sirocco Script (Well-Worn)": {
+      "price": 0.05,
+      "listings": 4806,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
     "SCAR-20 | Torn (Factory New)": {
       "price": 3.13,
       "listings": 47,
@@ -34710,6 +37092,36 @@
       "price": 0.35,
       "listings": 54,
       "updated_at": "2026-09-11T22:09:47.344Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Wild Berry (Battle-Scarred)": {
+      "price": 1.28,
+      "listings": 41,
+      "updated_at": "2026-09-11T22:09:48.085Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Wild Berry (Factory New)": {
+      "price": 3.61,
+      "listings": 131,
+      "updated_at": "2026-09-11T22:09:48.788Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Wild Berry (Field-Tested)": {
+      "price": 1.39,
+      "listings": 97,
+      "updated_at": "2026-09-11T22:09:48.119Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Wild Berry (Minimal Wear)": {
+      "price": 2.13,
+      "listings": 78,
+      "updated_at": "2026-09-11T22:09:48.409Z",
+      "source": "steam-bulk"
+    },
+    "SCAR-20 | Wild Berry (Well-Worn)": {
+      "price": 1.83,
+      "listings": 11,
+      "updated_at": "2026-09-11T22:09:48.325Z",
       "source": "steam-bulk"
     },
     "Sealed Dead Hand Terminal": {
@@ -34812,6 +37224,36 @@
       "price": 0.46,
       "listings": 84,
       "updated_at": "2026-09-11T22:09:47.492Z",
+      "source": "steam-bulk"
+    },
+    "SG 553 | Berry Gel Coat (Battle-Scarred)": {
+      "price": 1.36,
+      "listings": 48,
+      "updated_at": "2026-09-11T22:09:48.118Z",
+      "source": "steam-bulk"
+    },
+    "SG 553 | Berry Gel Coat (Factory New)": {
+      "price": 6.02,
+      "listings": 87,
+      "updated_at": "2026-09-11T22:09:49.177Z",
+      "source": "steam-bulk"
+    },
+    "SG 553 | Berry Gel Coat (Field-Tested)": {
+      "price": 1.36,
+      "listings": 193,
+      "updated_at": "2026-09-11T22:09:48.118Z",
+      "source": "steam-bulk"
+    },
+    "SG 553 | Berry Gel Coat (Minimal Wear)": {
+      "price": 2.99,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:48.656Z",
+      "source": "steam-bulk"
+    },
+    "SG 553 | Berry Gel Coat (Well-Worn)": {
+      "price": 1.47,
+      "listings": 28,
+      "updated_at": "2026-09-11T22:09:48.152Z",
       "source": "steam-bulk"
     },
     "SG 553 | Colony IV (Battle-Scarred)": {
@@ -43868,6 +46310,36 @@
       "updated_at": "2026-09-11T22:09:48.246Z",
       "source": "steam-bulk"
     },
+    "SSG 08 | Halftone Whorl (Battle-Scarred)": {
+      "price": 0.23,
+      "listings": 122,
+      "updated_at": "2026-09-11T22:09:47.185Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Halftone Whorl (Factory New)": {
+      "price": 0.67,
+      "listings": 496,
+      "updated_at": "2026-09-11T22:09:47.694Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Halftone Whorl (Field-Tested)": {
+      "price": 0.19,
+      "listings": 1119,
+      "updated_at": "2026-09-11T22:09:47.087Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Halftone Whorl (Minimal Wear)": {
+      "price": 0.31,
+      "listings": 307,
+      "updated_at": "2026-09-11T22:09:47.297Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Halftone Whorl (Well-Worn)": {
+      "price": 0.27,
+      "listings": 172,
+      "updated_at": "2026-09-11T22:09:47.218Z",
+      "source": "steam-bulk"
+    },
     "SSG 08 | Mainframe 001 (Battle-Scarred)": {
       "price": 0.1,
       "listings": 709,
@@ -44064,6 +46536,36 @@
       "price": 21.24,
       "listings": 12,
       "updated_at": "2026-09-11T22:09:49.939Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Zeno (Battle-Scarred)": {
+      "price": 0.41,
+      "listings": 461,
+      "updated_at": "2026-09-11T22:09:47.392Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Zeno (Factory New)": {
+      "price": 1.71,
+      "listings": 667,
+      "updated_at": "2026-09-11T22:09:48.261Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Zeno (Field-Tested)": {
+      "price": 0.41,
+      "listings": 1466,
+      "updated_at": "2026-09-11T22:09:47.392Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Zeno (Minimal Wear)": {
+      "price": 0.77,
+      "listings": 1158,
+      "updated_at": "2026-09-11T22:09:47.793Z",
+      "source": "steam-bulk"
+    },
+    "SSG 08 | Zeno (Well-Worn)": {
+      "price": 0.39,
+      "listings": 239,
+      "updated_at": "2026-09-11T22:09:47.391Z",
       "source": "steam-bulk"
     },
     "StatTrak™ AK-47 | Aquamarine Revenge (Battle-Scarred)": {
@@ -63290,6 +65792,36 @@
       "updated_at": "2026-09-11T22:09:47.576Z",
       "source": "steam-bulk"
     },
+    "Tec-9 | Perimeter (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 202,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Perimeter (Factory New)": {
+      "price": 0.89,
+      "listings": 133,
+      "updated_at": "2026-09-11T22:09:47.876Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Perimeter (Field-Tested)": {
+      "price": 0.08,
+      "listings": 326,
+      "updated_at": "2026-09-11T22:09:46.823Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Perimeter (Minimal Wear)": {
+      "price": 0.15,
+      "listings": 323,
+      "updated_at": "2026-09-11T22:09:47.054Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Perimeter (Well-Worn)": {
+      "price": 0.05,
+      "listings": 201,
+      "updated_at": "2026-09-11T22:09:46.674Z",
+      "source": "steam-bulk"
+    },
     "Tec-9 | Re-Entry (Factory New)": {
       "price": 9.2,
       "listings": 219,
@@ -63428,6 +65960,66 @@
       "updated_at": "2026-09-11T22:09:47.361Z",
       "source": "steam-bulk"
     },
+    "Tec-9 | Sultan (Battle-Scarred)": {
+      "price": 0.43,
+      "listings": 191,
+      "updated_at": "2026-09-11T22:09:47.458Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Sultan (Factory New)": {
+      "price": 8.37,
+      "listings": 78,
+      "updated_at": "2026-09-11T22:09:49.400Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Sultan (Field-Tested)": {
+      "price": 1.17,
+      "listings": 314,
+      "updated_at": "2026-09-11T22:09:48.037Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Sultan (Minimal Wear)": {
+      "price": 2.29,
+      "listings": 149,
+      "updated_at": "2026-09-11T22:09:48.475Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Sultan (Well-Worn)": {
+      "price": 0.63,
+      "listings": 149,
+      "updated_at": "2026-09-11T22:09:47.662Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Tiger Stencil (Battle-Scarred)": {
+      "price": 0.08,
+      "listings": 563,
+      "updated_at": "2026-09-11T22:09:46.790Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Tiger Stencil (Factory New)": {
+      "price": 0.22,
+      "listings": 1618,
+      "updated_at": "2026-09-11T22:09:47.154Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Tiger Stencil (Field-Tested)": {
+      "price": 0.06,
+      "listings": 4591,
+      "updated_at": "2026-09-11T22:09:46.675Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Tiger Stencil (Minimal Wear)": {
+      "price": 0.08,
+      "listings": 2321,
+      "updated_at": "2026-09-11T22:09:46.789Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Tiger Stencil (Well-Worn)": {
+      "price": 0.12,
+      "listings": 195,
+      "updated_at": "2026-09-11T22:09:46.935Z",
+      "source": "steam-bulk"
+    },
     "Tec-9 | Titanium Bit (Factory New)": {
       "price": 101.88,
       "listings": 40,
@@ -63444,6 +66036,36 @@
       "price": 10.43,
       "listings": 28,
       "updated_at": "2026-09-11T22:09:49.528Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Whiteout (Battle-Scarred)": {
+      "price": 1.68,
+      "listings": 193,
+      "updated_at": "2026-09-11T22:09:48.246Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Whiteout (Factory New)": {
+      "price": 318.09,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:51.031Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Whiteout (Field-Tested)": {
+      "price": 3.35,
+      "listings": 1139,
+      "updated_at": "2026-09-11T22:09:48.724Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Whiteout (Minimal Wear)": {
+      "price": 22.02,
+      "listings": 272,
+      "updated_at": "2026-09-11T22:09:49.954Z",
+      "source": "steam-bulk"
+    },
+    "Tec-9 | Whiteout (Well-Worn)": {
+      "price": 2.02,
+      "listings": 110,
+      "updated_at": "2026-09-11T22:09:48.376Z",
       "source": "steam-bulk"
     },
     "UMP-45 | Arctic Wolf (Battle-Scarred)": {
@@ -63582,6 +66204,36 @@
       "price": 0.58,
       "listings": 30,
       "updated_at": "2026-09-11T22:09:47.628Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Crimson Foil (Battle-Scarred)": {
+      "price": 3.22,
+      "listings": 91,
+      "updated_at": "2026-09-11T22:09:48.690Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Crimson Foil (Factory New)": {
+      "price": 6.2,
+      "listings": 343,
+      "updated_at": "2026-09-11T22:09:49.210Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Crimson Foil (Field-Tested)": {
+      "price": 3.02,
+      "listings": 528,
+      "updated_at": "2026-09-11T22:09:48.657Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Crimson Foil (Minimal Wear)": {
+      "price": 3.2,
+      "listings": 311,
+      "updated_at": "2026-09-11T22:09:48.690Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Crimson Foil (Well-Worn)": {
+      "price": 3.2,
+      "listings": 40,
+      "updated_at": "2026-09-11T22:09:48.690Z",
       "source": "steam-bulk"
     },
     "UMP-45 | Delusion (Factory New)": {
@@ -63750,6 +66402,36 @@
       "price": 0.97,
       "listings": 27,
       "updated_at": "2026-09-11T22:09:47.923Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Late Night Transit (Battle-Scarred)": {
+      "price": 0.23,
+      "listings": 856,
+      "updated_at": "2026-09-11T22:09:47.186Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Late Night Transit (Factory New)": {
+      "price": 4.57,
+      "listings": 401,
+      "updated_at": "2026-09-11T22:09:48.971Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Late Night Transit (Field-Tested)": {
+      "price": 0.34,
+      "listings": 981,
+      "updated_at": "2026-09-11T22:09:47.329Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Late Night Transit (Minimal Wear)": {
+      "price": 1,
+      "listings": 633,
+      "updated_at": "2026-09-11T22:09:47.940Z",
+      "source": "steam-bulk"
+    },
+    "UMP-45 | Late Night Transit (Well-Worn)": {
+      "price": 0.25,
+      "listings": 343,
+      "updated_at": "2026-09-11T22:09:47.218Z",
       "source": "steam-bulk"
     },
     "UMP-45 | Metal Flowers (Battle-Scarred)": {
@@ -64134,6 +66816,36 @@
       "price": 0.28,
       "listings": 356,
       "updated_at": "2026-09-11T22:09:47.250Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Alpine Camo (Battle-Scarred)": {
+      "price": 0.42,
+      "listings": 695,
+      "updated_at": "2026-09-11T22:09:47.425Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Alpine Camo (Factory New)": {
+      "price": 1.93,
+      "listings": 1386,
+      "updated_at": "2026-09-11T22:09:48.357Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Alpine Camo (Field-Tested)": {
+      "price": 0.41,
+      "listings": 7403,
+      "updated_at": "2026-09-11T22:09:47.407Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Alpine Camo (Minimal Wear)": {
+      "price": 0.72,
+      "listings": 3267,
+      "updated_at": "2026-09-11T22:09:47.744Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Alpine Camo (Well-Worn)": {
+      "price": 0.46,
+      "listings": 834,
+      "updated_at": "2026-09-11T22:09:47.492Z",
       "source": "steam-bulk"
     },
     "USP-S | Black Lotus (Battle-Scarred)": {
@@ -64646,6 +67358,36 @@
       "updated_at": "2026-09-11T22:09:47.281Z",
       "source": "steam-bulk"
     },
+    "USP-S | Spiral Glitch (Battle-Scarred)": {
+      "price": 20.55,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:49.908Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Spiral Glitch (Factory New)": {
+      "price": 109.06,
+      "listings": 21,
+      "updated_at": "2026-09-11T22:09:50.685Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Spiral Glitch (Field-Tested)": {
+      "price": 30.17,
+      "listings": 55,
+      "updated_at": "2026-09-11T22:09:50.108Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Spiral Glitch (Minimal Wear)": {
+      "price": 53.25,
+      "listings": 58,
+      "updated_at": "2026-09-11T22:09:50.354Z",
+      "source": "steam-bulk"
+    },
+    "USP-S | Spiral Glitch (Well-Worn)": {
+      "price": 22.22,
+      "listings": 22,
+      "updated_at": "2026-09-11T22:09:49.956Z",
+      "source": "steam-bulk"
+    },
     "USP-S | Stainless (Battle-Scarred)": {
       "price": 7.23,
       "listings": 43,
@@ -64772,6 +67514,36 @@
       "updated_at": "2026-09-21T02:15:08.238Z",
       "source": "steam-direct"
     },
+    "XM1014 | Black Site (Battle-Scarred)": {
+      "price": 0.06,
+      "listings": 323,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Black Site (Factory New)": {
+      "price": 0.87,
+      "listings": 196,
+      "updated_at": "2026-09-11T22:09:47.860Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Black Site (Field-Tested)": {
+      "price": 0.06,
+      "listings": 367,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Black Site (Minimal Wear)": {
+      "price": 0.16,
+      "listings": 399,
+      "updated_at": "2026-09-11T22:09:47.055Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Black Site (Well-Worn)": {
+      "price": 0.06,
+      "listings": 227,
+      "updated_at": "2026-09-11T22:09:46.723Z",
+      "source": "steam-bulk"
+    },
     "XM1014 | Black Tie (Battle-Scarred)": {
       "price": 1.61,
       "listings": 24,
@@ -64830,6 +67602,36 @@
       "price": 5.11,
       "listings": 17,
       "updated_at": "2026-09-11T22:09:49.058Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Halftone Shift (Battle-Scarred)": {
+      "price": 1.3,
+      "listings": 53,
+      "updated_at": "2026-09-11T22:09:48.087Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Halftone Shift (Factory New)": {
+      "price": 3.53,
+      "listings": 74,
+      "updated_at": "2026-09-11T22:09:48.757Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Halftone Shift (Field-Tested)": {
+      "price": 1.44,
+      "listings": 79,
+      "updated_at": "2026-09-11T22:09:48.151Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Halftone Shift (Minimal Wear)": {
+      "price": 2.05,
+      "listings": 60,
+      "updated_at": "2026-09-11T22:09:48.392Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Halftone Shift (Well-Worn)": {
+      "price": 1.26,
+      "listings": 25,
+      "updated_at": "2026-09-11T22:09:48.070Z",
       "source": "steam-bulk"
     },
     "XM1014 | Heaven Guard (Battle-Scarred)": {
@@ -64946,6 +67748,36 @@
       "updated_at": "2026-09-11T22:09:46.900Z",
       "source": "steam-bulk"
     },
+    "XM1014 | Monster Melt (Battle-Scarred)": {
+      "price": 2.09,
+      "listings": 63,
+      "updated_at": "2026-09-11T22:09:48.408Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Monster Melt (Factory New)": {
+      "price": 9.51,
+      "listings": 128,
+      "updated_at": "2026-09-11T22:09:49.480Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Monster Melt (Field-Tested)": {
+      "price": 2.89,
+      "listings": 427,
+      "updated_at": "2026-09-11T22:09:48.624Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Monster Melt (Minimal Wear)": {
+      "price": 4.64,
+      "listings": 203,
+      "updated_at": "2026-09-11T22:09:48.973Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Monster Melt (Well-Worn)": {
+      "price": 2.6,
+      "listings": 39,
+      "updated_at": "2026-09-11T22:09:48.541Z",
+      "source": "steam-bulk"
+    },
     "XM1014 | Oxide Blaze (Battle-Scarred)": {
       "price": 0.2,
       "listings": 142,
@@ -65028,6 +67860,36 @@
       "price": 3.43,
       "listings": 15,
       "updated_at": "2026-09-11T22:09:48.756Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Run Run Run (Battle-Scarred)": {
+      "price": 0.21,
+      "listings": 793,
+      "updated_at": "2026-09-11T22:09:47.152Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Run Run Run (Factory New)": {
+      "price": 3.04,
+      "listings": 496,
+      "updated_at": "2026-09-11T22:09:48.657Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Run Run Run (Field-Tested)": {
+      "price": 0.23,
+      "listings": 1574,
+      "updated_at": "2026-09-11T22:09:47.186Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Run Run Run (Minimal Wear)": {
+      "price": 0.63,
+      "listings": 662,
+      "updated_at": "2026-09-11T22:09:47.662Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Run Run Run (Well-Worn)": {
+      "price": 0.24,
+      "listings": 308,
+      "updated_at": "2026-09-11T22:09:47.217Z",
       "source": "steam-bulk"
     },
     "XM1014 | Scumbria (Battle-Scarred)": {
@@ -65118,6 +67980,36 @@
       "price": 0.48,
       "listings": 40,
       "updated_at": "2026-09-11T22:09:47.510Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Solitude (Battle-Scarred)": {
+      "price": 0.74,
+      "listings": 182,
+      "updated_at": "2026-09-11T22:09:47.776Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Solitude (Factory New)": {
+      "price": 59.39,
+      "listings": 114,
+      "updated_at": "2026-09-11T22:09:50.405Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Solitude (Field-Tested)": {
+      "price": 0.94,
+      "listings": 618,
+      "updated_at": "2026-09-11T22:09:47.893Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Solitude (Minimal Wear)": {
+      "price": 3.79,
+      "listings": 214,
+      "updated_at": "2026-09-11T22:09:48.821Z",
+      "source": "steam-bulk"
+    },
+    "XM1014 | Solitude (Well-Worn)": {
+      "price": 2.08,
+      "listings": 33,
+      "updated_at": "2026-09-11T22:09:48.408Z",
       "source": "steam-bulk"
     },
     "XM1014 | Teclu Burner (Battle-Scarred)": {
@@ -65298,6 +68190,66 @@
       "price": 0.87,
       "listings": 59,
       "updated_at": "2026-09-11T22:09:47.845Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Charged Up (Battle-Scarred)": {
+      "price": 1.74,
+      "listings": 147,
+      "updated_at": "2026-09-11T22:09:48.277Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Charged Up (Factory New)": {
+      "price": 18.72,
+      "listings": 88,
+      "updated_at": "2026-09-11T22:09:49.874Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Charged Up (Field-Tested)": {
+      "price": 2.45,
+      "listings": 419,
+      "updated_at": "2026-09-11T22:09:48.509Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Charged Up (Minimal Wear)": {
+      "price": 7.96,
+      "listings": 193,
+      "updated_at": "2026-09-11T22:09:49.366Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Charged Up (Well-Worn)": {
+      "price": 2.05,
+      "listings": 202,
+      "updated_at": "2026-09-11T22:09:48.392Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Dragon Snore (Battle-Scarred)": {
+      "price": 12.31,
+      "listings": 42,
+      "updated_at": "2026-09-11T22:09:49.626Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Dragon Snore (Factory New)": {
+      "price": 61.82,
+      "listings": 56,
+      "updated_at": "2026-09-11T22:09:50.421Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Dragon Snore (Field-Tested)": {
+      "price": 15.2,
+      "listings": 220,
+      "updated_at": "2026-09-11T22:09:49.742Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Dragon Snore (Minimal Wear)": {
+      "price": 31.04,
+      "listings": 113,
+      "updated_at": "2026-09-11T22:09:50.139Z",
+      "source": "steam-bulk"
+    },
+    "Zeus x27 | Dragon Snore (Well-Worn)": {
+      "price": 13.12,
+      "listings": 42,
+      "updated_at": "2026-09-11T22:09:49.659Z",
       "source": "steam-bulk"
     },
     "Zeus x27 | Olympus (Battle-Scarred)": {

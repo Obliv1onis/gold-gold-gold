@@ -26,8 +26,12 @@ describe('Events constants', () => {
     expect(Events.THEME_CHANGED).toBe('theme-changed');
   });
 
-  it('test_events_has_exactly_six_constants', () => {
-    expect(Object.keys(Events)).toHaveLength(6);
+  it('test_events_armory_pass_changed_is_correct_string', () => {
+    expect(Events.ARMORY_PASS_CHANGED).toBe('armory-pass-changed');
+  });
+
+  it('test_events_has_exactly_seven_constants', () => {
+    expect(Object.keys(Events)).toHaveLength(7);
   });
 
   it('test_events_all_values_are_unique_strings', () => {

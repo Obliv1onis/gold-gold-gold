@@ -2296,7 +2296,12 @@
             ]
           }
         ]
-      }
+      },
+      "armory": true,
+      "armory_kind": "weapon_case",
+      "armory_status": "active",
+      "armory_credits": 2,
+      "armory_image_url": "/assets/armory-pass.webp"
     },
     {
       "id": "gallery_case",
@@ -3030,7 +3035,12 @@
             }
           }
         ]
-      }
+      },
+      "armory": true,
+      "armory_kind": "weapon_case",
+      "armory_status": "retired",
+      "armory_credits": 2,
+      "armory_image_url": "/assets/armory-pass.webp"
     },
     {
       "id": "kilowatt_case",
@@ -20937,7 +20947,7 @@
             ],
             "price_basis": "Pricempire",
             "price_source_url": "https://pricempire.com/cs2-items/skin/butterfly-knife-doppler?variant=factory-new",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Butterfly Knife",
@@ -21648,7 +21658,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/specialist-gloves-crimson-kimono/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Specialist Gloves",
@@ -21686,7 +21696,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/moto-gloves-boom/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Moto Gloves",
@@ -21936,7 +21946,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/sport-gloves-hedge-maze/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Sport Gloves",
@@ -21956,7 +21966,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/sport-gloves-pandora-s-box/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Sport Gloves",
@@ -22942,7 +22952,7 @@
             ],
             "price_basis": "Pricempire",
             "price_source_url": "https://pricempire.com/cs2-items/skin/butterfly-knife-doppler?variant=factory-new",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Butterfly Knife",
@@ -23661,7 +23671,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/specialist-gloves-crimson-kimono/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Specialist Gloves",
@@ -23699,7 +23709,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/moto-gloves-boom/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Moto Gloves",
@@ -23949,7 +23959,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/sport-gloves-hedge-maze/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Sport Gloves",
@@ -23969,7 +23979,7 @@
             },
             "price_basis": "CSMarketCap",
             "price_source_url": "https://csmarketcap.com/item/sport-gloves-pandora-s-box/field-tested",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Sport Gloves",
@@ -41817,7 +41827,7 @@
             ],
             "price_basis": "CS2.io",
             "price_source_url": "https://cs2.io/en/skins/knives/butterfly-knife-fade-factory-new",
-            "price_verified_at": "2026-09-21"
+            "price_verified_at": "2026-09-22"
           },
           {
             "weapon": "Butterfly Knife",
@@ -53629,7 +53639,7 @@
     "weapon_cases": 42,
     "terminals": 2,
     "price_source": "Steam Community Market",
-    "price_verified_at": "2026-09-21T23:34:52.302Z",
+    "price_verified_at": "2026-09-22T23:57:04.989Z",
     "fallback_price_reference": "design/reference/market-price-fallbacks.json"
   }
 }

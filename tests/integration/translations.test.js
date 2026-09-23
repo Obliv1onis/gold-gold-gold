@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import enUS from '../../src/foundation/languages/en-US.js';
 import zhCN from '../../src/foundation/languages/zh-CN.js';
 
-const containers = ['public/data/cases.json', 'public/data/souvenirs.json']
+const containers = ['public/data/cases.json', 'public/data/souvenirs.json', 'public/data/armory.json']
   .flatMap(file => JSON.parse(fs.readFileSync(file, 'utf8')).cases ?? []);
 const marketItems = JSON.parse(fs.readFileSync('public/data/market-items.json', 'utf8')).items ?? [];
 

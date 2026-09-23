@@ -9,6 +9,7 @@ const PATHS = {
   others: 'public/data/others.json',
   market: 'public/data/market-items.json',
   steamPrices: 'public/data/steam-prices.json',
+  armory: 'public/data/armory.json',
 };
 
 const EXPECTED_COUNTS = {
@@ -48,7 +49,7 @@ const REQUIRED_CONTAINERS = [
   'Budapest 2025 Train Souvenir Package',
 ];
 
-const [caseData, capsuleData, souvenirData, otherData, marketData, steamPriceData] = await Promise.all(
+const [caseData, capsuleData, souvenirData, otherData, marketData, steamPriceData, armoryData] = await Promise.all(
   Object.values(PATHS).map(path => readFile(path, 'utf8').then(JSON.parse)),
 );
 
@@ -106,6 +107,7 @@ const souvenirs = souvenirData.cases ?? [];
 const others = otherData.capsules ?? [];
 const marketItems = marketData.items ?? [];
 const steamPrices = steamPriceData.prices ?? {};
+const armory = armoryData.cases ?? [];
 if (!marketData.catalog?.price_source?.includes('Steam Community Market')) {
   errors.push('Standalone market catalogue must use Steam Community Market prices');
 }
@@ -115,11 +117,14 @@ if (caseData.catalog?.price_source !== 'Steam Community Market') {
 if (souvenirData.catalog?.price_source !== 'Steam Community Market') {
   errors.push('Souvenir catalogue must use Steam Community Market prices');
 }
+if (armoryData.catalog?.price_source !== 'Steam Community Market') {
+  errors.push('Armory catalogue must use Steam Community Market item prices');
+}
 if (Object.keys(steamPrices).length < 10000) {
   errors.push(`Expected at least 10000 Steam skin prices, found ${Object.keys(steamPrices).length}`);
 }
 
-for (const entry of [...cases, ...souvenirs]) {
+for (const entry of [...cases, ...souvenirs, ...armory]) {
   if (!(entry.market_price > 0)) errors.push(`${entry.name}: container price is missing or invalid`);
   if (steamPrices[entry.name] && entry.market_price !== steamPrices[entry.name].price) {
     errors.push(`${entry.name}: container price is not synchronized with Steam reference`);
@@ -142,10 +147,11 @@ for (const entry of [...capsules, ...others]) {
   }
 }
 
-auditContainerIds([...cases, ...souvenirs], 'case catalogue');
+auditContainerIds([...cases, ...souvenirs, ...armory], 'case catalogue');
 auditContainerIds([...capsules, ...others], 'capsule catalogue');
 auditWeightedPools(cases, 'items', 'cases');
 auditWeightedPools(souvenirs, 'items', 'souvenirs');
+auditWeightedPools(armory, 'items', 'armory');
 auditWeightedPools(capsules, 'tiers', 'capsules');
 auditWeightedPools(others, 'tiers', 'others');
 
@@ -222,6 +228,7 @@ if (errors.length) {
 } else {
   console.log(
     `Catalogue audit passed: ${counts.weapon_case} weapon cases, ${counts.terminal} terminals, `
+    + `${armoryData.catalog.collections} Armory collections, ${armoryData.catalog.limited_editions} limited editions, `
     + `${counts.souvenir_package} souvenir packages, ${counts.sticker_capsule} sticker capsules, `
     + `${counts.other} other containers, ${marketStickers.length} standalone stickers, `
     + `${marketMusicKits.length} direct music-kit variants.`,
