@@ -1678,6 +1678,11 @@ button:disabled { opacity: 0.4; cursor: not-allowed; }
 }
 .market-search::placeholder { color: #555; }
 .market-search:focus { border-color: #4caf50; }
+.market-search::-webkit-search-cancel-button {
+  display: none;
+  -webkit-appearance: none;
+}
+.market-search::-ms-clear { display: none; }
 
 .market-search-icon {
   position: absolute;
