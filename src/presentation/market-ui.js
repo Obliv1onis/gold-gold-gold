@@ -274,9 +274,11 @@ export const MarketUI = {
       return _makeCapsuleListing(selectMusicKitVariant(item, _statTrak), item);
     }
     if (item.isCapsuleItem) return _makeCapsuleListing(item);
-    const tiers = item.wear_tiers?.length ? item.wear_tiers : WEAR_TIERS;
-    const tier = _isVanilla(item) ? null : (tiers.includes(_wear) ? _wear : (tiers.includes('ft') ? 'ft' : tiers[0]));
     const allowsStatTrak = !item.isSouvenir && !_isGlove(item.weapon) && item.rarity !== 'contraband';
+    if (!marketItemSupportsWear(item, _wear)) {
+      return _makeUnsupportedWearListing(item, _statTrak && allowsStatTrak);
+    }
+    const tier = _isVanilla(item) ? null : _wear;
     return _makeListing(item, tier, _statTrak && allowsStatTrak);
   },
 
@@ -318,7 +320,7 @@ export const MarketUI = {
   },
 
   _makeRow(listing) {
-    const { item, floatVal, wearTier, statTrak, hashName, localPrice } = listing;
+    const { item, floatVal, wearTier, statTrak, hashName, localPrice, unsupportedWear } = listing;
     const isCosmetic = !!item.isCapsuleItem;
     const displayName = marketItemDisplayName(item);
     const hasFloat = !isCosmetic && floatVal !== null && wearTier !== null;
@@ -350,7 +352,10 @@ export const MarketUI = {
 
     const floatBlock = document.createElement('div');
     floatBlock.className = 'market-float-block';
-    if (hasFloat) {
+    if (unsupportedWear) {
+      floatBlock.textContent = i18n.t('market_unsupported_wear');
+      floatBlock.classList.add('market-float-block--empty');
+    } else if (hasFloat) {
       floatBlock.appendChild(_makeFloatScale(floatVal));
       const detail = document.createElement('div');
       detail.className = 'market-float-label';
@@ -367,11 +372,11 @@ export const MarketUI = {
       floatBlock.classList.add('market-float-block--empty');
     }
 
-    const livePrice = PriceAPILayer.getCachedPrice(hashName, item.price_source ?? null);
+    const livePrice = hashName ? PriceAPILayer.getCachedPrice(hashName, item.price_source ?? null) : null;
     const displayPrice = livePrice ?? localPrice;
     const price = document.createElement('div');
     price.className = 'market-row-price';
-    price.dataset.hashName = hashName;
+    if (hashName) price.dataset.hashName = hashName;
     if (item.price_source) price.dataset.priceSource = item.price_source;
     price.textContent = displayPrice === null ? '—' : `$${displayPrice.toFixed(2)}`;
     if (livePrice !== null) {
@@ -387,9 +392,9 @@ export const MarketUI = {
 
     const buy = document.createElement('button');
     buy.className = 'btn-market-buy';
-    buy.textContent = i18n.t('buy_btn');
-    buy.disabled = displayPrice === null;
-    buy.dataset.hashName = hashName;
+    buy.textContent = i18n.t(unsupportedWear ? 'market_unavailable' : 'buy_btn');
+    buy.disabled = unsupportedWear || displayPrice === null;
+    if (hashName) buy.dataset.hashName = hashName;
     if (item.price_source) buy.dataset.priceSource = item.price_source;
     buy.addEventListener('click', () => this._handleBuy(listing, buy, row));
 
@@ -467,6 +472,12 @@ export function marketItemMatches(item, { query = '', category = 'all', rarity =
   if (!words.length) return true;
   const text = _marketSearchText(item);
   return words.every(word => text.includes(word));
+}
+
+export function marketItemSupportsWear(item, wear) {
+  if (item.isCapsuleItem || _isVanilla(item)) return true;
+  const tiers = item.wear_tiers?.length ? item.wear_tiers : WEAR_TIERS;
+  return tiers.includes(wear);
 }
 
 function _marketSearchText(item) {
@@ -556,6 +567,18 @@ function _makeListing(item, forceTier = null, statTrak = false) {
   return { item, floatVal, wearTier, statTrak, hashName, localPrice: _localPrice(item, wearTier, statTrak) };
 }
 
+function _makeUnsupportedWearListing(item, statTrak = false) {
+  return {
+    item,
+    floatVal: null,
+    wearTier: null,
+    statTrak,
+    hashName: null,
+    localPrice: null,
+    unsupportedWear: true,
+  };
+}
+
 function _localPrice(item, wearTier, statTrak) {
   return getCatalogMarketPrice(item, wearTier, {
     statTrak,
@@ -568,6 +591,7 @@ function _estimatedPrice(item, { wear, statTrak }) {
     return selectMusicKitVariant(item, statTrak).market_price ?? Number.POSITIVE_INFINITY;
   }
   if (item.isCapsuleItem) return item.market_price ?? Number.POSITIVE_INFINITY;
+  if (!marketItemSupportsWear(item, wear)) return Number.POSITIVE_INFINITY;
   return _localPrice(item, wear, statTrak) ?? item.market_price ?? Number.POSITIVE_INFINITY;
 }
 

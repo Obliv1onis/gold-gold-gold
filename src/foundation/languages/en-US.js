@@ -172,6 +172,8 @@ export default {
   market_no_results_hint: 'Try another keyword or remove a filter.',
   market_no_wear: 'No wear value',
   market_vanilla: 'Vanilla finish',
+  market_unsupported_wear: 'Selected wear is not supported',
+  market_unavailable: 'Unavailable',
   market_live_price: 'Live market price',
   market_snapshot_price: 'Steam market price snapshot',
   market_fallback_price: 'Estimated price',

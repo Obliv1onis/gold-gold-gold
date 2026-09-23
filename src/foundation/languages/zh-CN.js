@@ -1931,6 +1931,8 @@ export default {
   market_no_results_hint: '请尝试其他关键词，或移除部分筛选条件。',
   market_no_wear: '无磨损值',
   market_vanilla: '原版外观',
+  market_unsupported_wear: '不支持所选磨损',
+  market_unavailable: '不可购买',
   market_live_price: '实时市场价格',
   market_snapshot_price: 'Steam 市场价格快照',
   market_fallback_price: '估算价格',

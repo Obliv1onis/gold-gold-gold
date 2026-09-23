@@ -4,6 +4,7 @@ import {
   marketItemCategory,
   marketItemDisplayName,
   marketItemMatches,
+  marketItemSupportsWear,
   collapseMusicKitVariants,
   selectMusicKitVariant,
   sortMarketItems,
@@ -50,6 +51,12 @@ describe('Market item helpers', () => {
     expect(marketItemMatches(sticker, { category: 'sticker_capsule', rarity: 'exotic' })).toBe(true);
     expect(marketItemMatches(sticker, { category: 'skin', rarity: 'exotic' })).toBe(false);
     expect(marketItemMatches(sticker, { category: 'sticker_capsule', rarity: 'covert' })).toBe(false);
+  });
+
+  it('does not substitute another wear when the selected wear is unavailable', () => {
+    const tigerTooth = { weapon: 'Flip Knife', skin: '★ Tiger Tooth', wear_tiers: ['fn', 'mw'] };
+    expect(marketItemSupportsWear(tigerTooth, 'fn')).toBe(true);
+    expect(marketItemSupportsWear(tigerTooth, 'ft')).toBe(false);
   });
 
   it('sorts without mutating the source array', () => {
