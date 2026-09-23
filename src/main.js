@@ -38,7 +38,7 @@ async function main() {
   const allWeaponCases  = CaseDataStore.getCaseList('weapon_case');
   const allTerminals    = CaseDataStore.getCaseList('terminal');
   const allSouvenirs    = CaseDataStore.getCaseList('souvenir_package');
-  const allArmory       = [...CaseDataStore.getCaseList('armory_collection'), ...CaseDataStore.getCaseList('armory_limited')];
+  const allArmory       = CaseDataStore.getCaseList('armory_collection');
   const allCapsules     = CapsuleDataStore.getCapsuleList('sticker_capsule');
   const allOthers       = CapsuleDataStore.getCapsuleList(['charm_capsule', 'patch_pack', 'pin_capsule', 'music_kit_box']);
   const heroCase        = [...allWeaponCases].reverse().find(c => c.image_url);

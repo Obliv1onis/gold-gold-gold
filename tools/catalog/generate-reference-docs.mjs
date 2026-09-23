@@ -201,13 +201,12 @@ function renderRareSpecials(entries) {
   });
 }
 
-function renderArmory(entries, armoryCases) {
-  const combined = [...entries, ...armoryCases];
+function renderArmory(entries) {
   const lines = generatedHeader(
     'The Armory Contents',
     'armory',
     armoryData.catalog,
-    `${armoryData.catalog.collections} historical weapon collections, ${armoryData.catalog.limited_editions} limited-edition skins, and ${armoryData.catalog.weapon_cases} Armory cases. In the simulator, one $${armoryData.catalog.simulator_pass_price.toFixed(2)} pass grants ${armoryData.catalog.simulator_draws_per_pass} draws and every Armory entry consumes one draw without an additional balance charge. Historical credit equivalents remain recorded below; all contained-item prices are Steam Community Market snapshots from ${armoryData.catalog.price_snapshot}.`,
+    `${armoryData.catalog.collections} historical weapon collections are available through Armory Pass draws. The ${armoryData.catalog.limited_editions} limited-edition direct-purchase skins appear only in the Market. One $${armoryData.catalog.simulator_pass_price.toFixed(2)} pass grants ${armoryData.catalog.simulator_draws_per_pass} collection draws without an additional balance charge. Historical credit equivalents remain recorded below; all item prices are Steam Community Market snapshots from ${armoryData.catalog.price_snapshot}.`,
   );
   lines.push(
     'History sources: [Valve’s original Armory release notes](https://store.steampowered.com/news/posts/?enddate=1727913032&feed=steam_community_announcements), '
@@ -217,7 +216,7 @@ function renderArmory(entries, armoryCases) {
   );
   lines.push('| Armory entry | Type | Status | Release date | Credits | Redemption / case price | Rarity | Drop weight | Item | Steam price |');
   lines.push('| --- | --- | --- | --- | ---: | ---: | --- | ---: | --- | ---: |');
-  for (const entry of sortByNewest(combined)) {
+  for (const entry of sortByNewest(entries)) {
     for (const rarity of CASE_RARITIES) {
       for (const item of entry.items?.[rarity] ?? []) {
         lines.push(
@@ -289,7 +288,7 @@ function renderMusicKits(entries, standaloneItems) {
 }
 
 const docs = new Map([
-  ['armory.md', renderArmory(armoryEntries, cases.filter(entry => entry.armory))],
+  ['armory.md', renderArmory(armoryEntries)],
   ['cases.md', renderCaseContents(cases.filter(entry => entry.type === 'weapon_case'), 'Weapon Case Contents', 'cases', caseData.catalog)],
   ['terminals.md', renderCaseContents(cases.filter(entry => entry.type === 'terminal'), 'Terminal Contents', 'cases', caseData.catalog)],
   ['capsules.md', renderCapsuleContents(capsules)],

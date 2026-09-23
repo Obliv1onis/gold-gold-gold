@@ -7,14 +7,11 @@
     "verified_on": "2026-09-22",
     "collections": 6,
     "limited_editions": 4,
-    "weapon_cases": 2,
+    "weapon_cases": 0,
     "simulator_pass_price": 15.99,
     "simulator_draws_per_pass": 10,
     "items": 102,
-    "armory_case_ids": [
-      "gallery_case",
-      "fever_case"
-    ],
+    "armory_case_ids": [],
     "price_verified_at": "2026-09-22T23:57:04.989Z"
   },
   "cases": [

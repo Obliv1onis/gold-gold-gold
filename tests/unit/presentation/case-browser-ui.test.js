@@ -43,15 +43,19 @@ describe('CaseBrowserUI lazy rendering', () => {
     expect(prefetch).toHaveBeenCalledTimes(1);
   });
 
-  it('renders historical Armory entries above regular weapon cases', () => {
+  it('shows collections in Armory, keeps Armory cases regular, and hides direct-purchase skins', () => {
     entries.push(
       {
-        id: 'gallery_case', name: 'Gallery Case', type: 'weapon_case', armory: true,
-        armory_image_url: '/assets/armory-pass.webp', market_price: 4.25,
+        id: 'gallery_case', name: 'Gallery Case', type: 'weapon_case',
+        image_url: '/gallery-case.webp', market_price: 4.25,
       },
       {
         id: 'armory_spy_tech', name: 'The Spy Tech Collection', type: 'armory_collection',
         image_url: '/assets/armory-pass.webp', credits: 4, market_price: 1.60,
+      },
+      {
+        id: 'armory_limited_aphrodite', name: 'AK-47 | Aphrodite', type: 'armory_limited',
+        image_url: '/assets/armory-pass.webp', market_price: 18.56,
       },
     );
     const container = document.createElement('div');
@@ -62,8 +66,10 @@ describe('CaseBrowserUI lazy rendering', () => {
     expect([...container.querySelectorAll('.section-header')].map(el => el.textContent))
       .toEqual(['The Armory', 'Weapon Cases']);
     expect(container.querySelectorAll('.case-card')).toHaveLength(3);
+    expect(container.textContent).not.toContain('Aphrodite');
     expect(container.textContent).toContain('1 pass draw');
-    expect(prefetch).toHaveBeenCalledTimes(1);
+    expect(container.querySelector('img[alt="Gallery Case"]')?.getAttribute('src')).toBe('/gallery-case.webp');
+    expect(prefetch).toHaveBeenCalledTimes(2);
     entries.splice(1);
   });
 });

@@ -38,10 +38,7 @@ const LIMITED = [
   { id: 'armory_limited_m4a1s_solitude', name: 'M4A1-S | Solitude', release_date: '2025-08-14', credits: 25, status: 'retired' },
   { id: 'armory_limited_ak47_aphrodite', name: 'AK-47 | Aphrodite', release_date: '2026-01-21', credits: 125, status: 'active' },
 ];
-const ARMORY_CASES = [
-  { id: 'gallery_case', credits: 2, release_date: '2024-10-02', status: 'retired' },
-  { id: 'fever_case', credits: 2, release_date: '2025-03-31', status: 'active' },
-];
+const FORMER_ARMORY_CASE_IDS = ['gallery_case', 'fever_case'];
 const COLLECTION_WEIGHTS = {
   industrial_grade: 79.92,
   mil_spec: 15.98,
@@ -168,16 +165,14 @@ for (const meta of LIMITED) {
   });
 }
 
-for (const meta of ARMORY_CASES) {
-  const entry = caseData.cases.find(item => item.id === meta.id);
-  if (!entry) throw new Error(`Missing Armory case ${meta.id}`);
-  Object.assign(entry, {
-    armory: true,
-    armory_kind: 'weapon_case',
-    armory_status: meta.status,
-    armory_credits: meta.credits,
-    armory_image_url: PASS_IMAGE,
-  });
+for (const id of FORMER_ARMORY_CASE_IDS) {
+  const entry = caseData.cases.find(item => item.id === id);
+  if (!entry) throw new Error(`Missing weapon case ${id}`);
+  delete entry.armory;
+  delete entry.armory_kind;
+  delete entry.armory_status;
+  delete entry.armory_credits;
+  delete entry.armory_image_url;
 }
 
 const output = {
@@ -189,11 +184,11 @@ const output = {
     verified_on: new Date().toLocaleDateString('en-CA'),
     collections: COLLECTIONS.length,
     limited_editions: LIMITED.length,
-    weapon_cases: ARMORY_CASES.length,
+    weapon_cases: 0,
     simulator_pass_price: 15.99,
     simulator_draws_per_pass: 10,
     items: armoryEntries.reduce((sum, entry) => sum + Object.values(entry.items).flat().length, 0),
-    armory_case_ids: ARMORY_CASES.map(entry => entry.id),
+    armory_case_ids: [],
   },
   cases: armoryEntries,
 };

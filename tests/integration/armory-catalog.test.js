@@ -9,7 +9,7 @@ describe('Armory catalogue', () => {
   it('contains every historical weapon collection and limited edition', () => {
     expect(entries.filter(entry => entry.type === 'armory_collection')).toHaveLength(6);
     expect(entries.filter(entry => entry.type === 'armory_limited')).toHaveLength(4);
-    expect(armoryData.catalog).toMatchObject({ collections: 6, limited_editions: 4, weapon_cases: 2, items: 102 });
+    expect(armoryData.catalog).toMatchObject({ collections: 6, limited_editions: 4, weapon_cases: 0, items: 102 });
   });
 
   it('keeps each Armory generation separate and complete', () => {
@@ -32,9 +32,11 @@ describe('Armory catalogue', () => {
     }
   });
 
-  it('marks Gallery and Fever as historical Armory cases', () => {
-    const armoryCases = caseData.cases.filter(entry => entry.armory);
-    expect(armoryCases.map(entry => entry.id).sort()).toEqual(['fever_case', 'gallery_case']);
-    expect(armoryCases.every(entry => entry.armory_image_url === '/assets/armory-pass.webp')).toBe(true);
+  it('keeps Gallery and Fever as regular weapon cases with their own artwork', () => {
+    const regularCases = ['gallery_case', 'fever_case']
+      .map(id => caseData.cases.find(entry => entry.id === id));
+    expect(regularCases.every(entry => entry?.type === 'weapon_case')).toBe(true);
+    expect(regularCases.every(entry => !entry.armory && !entry.armory_image_url)).toBe(true);
+    expect(regularCases.every(entry => entry.image_url && entry.image_url !== '/assets/armory-pass.webp')).toBe(true);
   });
 });

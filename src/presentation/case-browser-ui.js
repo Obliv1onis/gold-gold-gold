@@ -65,7 +65,7 @@ export const CaseBrowserUI = {
       ? [
           { type: 'terminal', titleKey: 'sec_terminals' },
           { type: 'armory', titleKey: 'sec_armory' },
-          { type: 'weapon_case', titleKey: 'sec_cases', filter: item => !item.armory },
+          { type: 'weapon_case', titleKey: 'sec_cases' },
         ]
       : _activeFilter
         ? [{ type: _activeFilter, titleKey: _activeFilter === 'souvenir_package' ? 'sec_souvenirs' : 'sec_cases' }]
@@ -73,8 +73,6 @@ export const CaseBrowserUI = {
 
     const armoryEntries = [
       ...CaseDataStore.getCaseList('armory_collection'),
-      ...CaseDataStore.getCaseList('armory_limited'),
-      ...CaseDataStore.getCaseList('weapon_case').filter(item => item.armory),
     ];
     const allLists = sections.map(section => ({
       ...section,

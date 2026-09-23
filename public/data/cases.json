@@ -2296,12 +2296,7 @@
             ]
           }
         ]
-      },
-      "armory": true,
-      "armory_kind": "weapon_case",
-      "armory_status": "active",
-      "armory_credits": 2,
-      "armory_image_url": "/assets/armory-pass.webp"
+      }
     },
     {
       "id": "gallery_case",
@@ -3035,12 +3030,7 @@
             }
           }
         ]
-      },
-      "armory": true,
-      "armory_kind": "weapon_case",
-      "armory_status": "retired",
-      "armory_credits": 2,
-      "armory_image_url": "/assets/armory-pass.webp"
+      }
     },
     {
       "id": "kilowatt_case",
