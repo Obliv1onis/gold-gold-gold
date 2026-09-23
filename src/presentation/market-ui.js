@@ -394,6 +394,10 @@ export const MarketUI = {
     buy.className = 'btn-market-buy';
     buy.textContent = i18n.t(unsupportedWear ? 'market_unavailable' : 'buy_btn');
     buy.disabled = unsupportedWear || displayPrice === null;
+    if (unsupportedWear) {
+      buy.title = i18n.t('market_unsupported_wear');
+      buy.setAttribute('aria-label', i18n.t('market_unsupported_wear'));
+    }
     if (hashName) buy.dataset.hashName = hashName;
     if (item.price_source) buy.dataset.priceSource = item.price_source;
     buy.addEventListener('click', () => this._handleBuy(listing, buy, row));
