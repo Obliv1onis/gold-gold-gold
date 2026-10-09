@@ -1,4 +1,4 @@
-# The Vault — Master Architecture
+# Gold Gold Gold — Master Architecture
 
 ## Document Status
 

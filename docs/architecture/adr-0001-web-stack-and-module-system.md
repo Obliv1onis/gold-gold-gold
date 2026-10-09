@@ -29,7 +29,7 @@ Proposed
 ## Context
 
 ### Problem Statement
-The Vault is a browser-based JavaScript application with 17 modules across 5 architecture layers. Before any source file is written, we need a settled strategy for how modules are loaded, how npm packages are consumed, how the dev server works, and which test runner integrates with the project. Getting this wrong means rewiring import paths and test config across all 17 modules mid-sprint.
+Gold Gold Gold is a browser-based JavaScript application with 17 modules across 5 architecture layers. Before any source file is written, we need a settled strategy for how modules are loaded, how npm packages are consumed, how the dev server works, and which test runner integrates with the project. Getting this wrong means rewiring import paths and test config across all 17 modules mid-sprint.
 
 ### Constraints
 - game-concept.md already anticipates npm packages: "GSAP or CSS custom easing; Audio: Howler.js or Web Audio API" — any approach must support npm dependencies

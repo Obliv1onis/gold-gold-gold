@@ -133,6 +133,6 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error('[The Vault] Boot failed:', err);
+  console.error('[Gold Gold Gold] Boot failed:', err);
   document.getElementById('app').textContent = 'Failed to load. Please refresh.';
 });

@@ -2,7 +2,7 @@
   "name": "cs2-case-sim",
   "version": "0.1.0",
   "private": true,
-  "description": "The Vault — CS2 Case Opening Simulator",
+  "description": "Gold Gold Gold — CS2 Case Opening Simulator",
   "type": "module",
   "scripts": {
     "dev":             "vite",
